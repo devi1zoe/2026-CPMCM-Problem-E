@@ -40,7 +40,12 @@
 
 ## 快速开始：无需 GPU 或原始数据
 
-下载仓库后，在仓库根目录执行。Python 要求 **3.10 或以上**。
+克隆或下载仓库后，在仓库根目录执行。Python 要求 **3.10 或以上**。
+
+```bash
+git clone https://github.com/devi1zoe/2026-CPMCM-Problem-E.git
+cd 2026-CPMCM-Problem-E
+```
 
 ```bash
 # 仅检查 879 个正式提交文件的大小和 SHA256：只需标准库
