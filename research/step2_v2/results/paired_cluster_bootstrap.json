@@ -1,0 +1,79 @@
+{
+  "reference": "old_gated",
+  "split": "valid",
+  "repeats": 1000,
+  "source_video_groups": 239,
+  "seed": 20260926,
+  "scenario_weighting": "mean repeats within scenario, then equal mean over 112 primary scenarios",
+  "limitation": "Conditional on fitted ensembles and reused validation data; not a selection-adjusted or external-generalization interval",
+  "results": {
+    "old_gated": {
+      "clean": {
+        "macro_f1": {
+          "delta": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "mae": {
+          "delta": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "continuous_average": {
+        "macro_f1": {
+          "delta": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "mae": {
+          "delta": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "gated": {
+      "clean": {
+        "macro_f1": {
+          "delta": 0.015817248754322222,
+          "ci95": [
+            -0.010033632166869744,
+            0.04046751400299568
+          ]
+        },
+        "mae": {
+          "delta": -0.02048155327409429,
+          "ci95": [
+            -0.03561089672066134,
+            -0.0064453755498650265
+          ]
+        }
+      },
+      "continuous_average": {
+        "macro_f1": {
+          "delta": 0.0014428501356796852,
+          "ci95": [
+            -0.012834740894400964,
+            0.016256735500066944
+          ]
+        },
+        "mae": {
+          "delta": -0.013353027582054477,
+          "ci95": [
+            -0.025322734348040103,
+            -0.0022782730973653475
+          ]
+        }
+      }
+    }
+  }
+}

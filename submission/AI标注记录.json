@@ -1,0 +1,321 @@
+{
+  "标注时间_UTC": "2026-09-26T17:22:32.202830+00:00",
+  "声明文本": "# 本程序及代码是在人工智能工具辅助下完成的。\n\n# 人工智能工具名称：GPT-6 Astra\n\n# 版本/型号：gpt-6-astra\n\n# 开发机构/公司：OpenAI\n\n# 版本颁布日期：2026年9月3日",
+  "声明来源": "按用户提供内容逐字添加",
+  "脚本数量": 52,
+  "说明": "50个脚本仅加注释；问题一的2个核验脚本另适配历史代码哈希，完整文件仍以更新后的校验清单核验。原实验元数据、特征、权重与预测保持不变。",
+  "files": [
+    {
+      "path": "核验总附件.py",
+      "标注前sha256": "1913eecfa1701023d720763a955e87420e65e748744bf5731d81ac008639a89a",
+      "标注后sha256": "a512a5701069e3a3aaf605ab21239568ce5541455008295b15a8cb7484e4594f",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题一提交附件/step1/alignment.py",
+      "标注前sha256": "76b29c002cdc97e8e0e85cffae02d81db938fa39484ad908c28c5efc60de0c34",
+      "标注后sha256": "3794e5fe38ec5c27551c1d35e43e008b6593fcf2832359b0c3594a5a1977a003",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题一提交附件/step1/analyze.py",
+      "标注前sha256": "927f4c49a3bf3f3abed481bbd177a80afedcbff784eb6646a5847cabfee11cac",
+      "标注后sha256": "d4fd59a56d26ef7b2a46ddb69d40064a9d4dc51576a9a446559250d88b1ad7b9",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题一提交附件/step1/audit_media.py",
+      "标注前sha256": "d6df7e1423b702af74708270bcbe90d38e63ab0783d8b54782bf582ce02bfe83",
+      "标注后sha256": "602da1f780fcb962e3bcaf3d3b2a2b9c2db72292749479adb6eb324a6d57ab06",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题一提交附件/step1/check_reproducibility.py",
+      "标注前sha256": "d5f74a8021b538a48d34faf62b077d80bb4e4efad865cc6fd929c24796ace35a",
+      "标注后sha256": "2fcccc25567dd1af303a4dfc3d62388e4a29743c5e3ae6fa1bad9dc4eaadbde5",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题一提交附件/step1/common.py",
+      "标注前sha256": "4a37980b521a2f5a93e208d3ba265542a149336b3401aa89b8a4494517f5e16e",
+      "标注后sha256": "25c313e48bb9b07268e24cf99c70893b28eaa5f7e56933f8c3fbc58b1271f017",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题一提交附件/step1/download_assets.py",
+      "标注前sha256": "1f7407d731cda7d8b5825eb4504f03b64e0064b40dc30dac3ac0de49dc670028",
+      "标注后sha256": "65e6bba853beb281ea90949600873b1a0d3f8be6ee618f8ecfa8fcff32036b72",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题一提交附件/step1/features.py",
+      "标注前sha256": "8283e0d0886b83bbd84d4db4521599b480b0ada4bc1afc4e4b9b91cddf5b4018",
+      "标注后sha256": "0d1b1ffab5189c1ee374197d5e23ca8ea17bfc6e9b79b2542ca7147a0305c91d",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题一提交附件/step1/paper_5_2/figure_style.py",
+      "标注前sha256": "ec86be801e6dce911c133919ec0033c1631bde0cfda168e1e27ec332bf194d93",
+      "标注后sha256": "1accee24398c21ffdba908a07197f22d4b534ed2c98ec77a5f9ad0ddd0d3141b",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题一提交附件/step1/paper_5_2/plot_histograms.py",
+      "标注前sha256": "d885a37daa278a8cd0b616a44c358c9b107e94285a29d0ee781069ec8427b7d8",
+      "标注后sha256": "850b201e484be2b85711815af936d7b7a4d3f38c475d2035e87702146a50074c",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题一提交附件/step1/paper_5_2/plot_relationships.py",
+      "标注前sha256": "41bedd6ed75d850fec0c9381e28d24eeab45813781be99b6ded80590da0ba42b",
+      "标注后sha256": "a9bb2189e7111f46d1f9016db8bc21b45bc492389ce0508c8177e5ff4fe1499b",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题一提交附件/step1/paper_5_3/build_acoustic_example.py",
+      "标注前sha256": "1b435f4a6842ca7bf447823d596690b84243706269b9f68ac3367e5cf3924ef3",
+      "标注后sha256": "97c6ea333c3c1d0dfea3999aa12ad58a5d11175c8d001d7ff81553304edd9e1f",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题一提交附件/step1/paper_5_3/build_visual_example.py",
+      "标注前sha256": "fd035bfa70d9de84a022a976ad3376705b28d4d3c62d1e360486867cf74375cf",
+      "标注后sha256": "ee3c5ae55642fd2d834341ab6a702ab859b7712e8af989fc4fc5578b4c17a6b2",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题一提交附件/step1/paper_results/plot_selected_results.py",
+      "标注前sha256": "e6450901349c323e7389c8ff3a1386fe594c105b09759e327a23eda0646deea4",
+      "标注后sha256": "6deebd90c431ba51a06bf142afdf9c16f0983017c1f2887042ca25a4a7cea08d",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题一提交附件/step1/quality_audit.py",
+      "标注前sha256": "e155beae9bcda291067d20e5ca268a26fe54857aaebaa24d2d06cfea3bf73ef4",
+      "标注后sha256": "a249c56a9dbfa6d0b56e15efedafd2def2e41959c55a592ac3e512090219cce9",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题一提交附件/step1/run.py",
+      "标注前sha256": "f75d7b5bc6e342541664233a37a3d87f39313bcd3a8f3a50bfaea94798d4e07b",
+      "标注后sha256": "fa7041874648d1e8a18581532efa865c3acc5e512a3c4ca449da92049e8a4562",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题一提交附件/step1/test_alignment.py",
+      "标注前sha256": "b0fe7f737f1e9bce68d5ceab6b9f0a1bfbdbacf76f872a6691b2f5861936bd2c",
+      "标注后sha256": "52d73c90d79b25336ee22fb4efed9ffb29fefb123db6ee3a3ddf05b59d392b84",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题一提交附件/step1/validation/audit_results.py",
+      "标注前sha256": "c72e1021bbcc70779762a3e0dc08a5e7e131b938a0df23a635f0660303c600c2",
+      "标注后sha256": "c9a8def54c453c715ecf2fe9674c335b6c138c2e726e620e41f10f54608ae544",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题一提交附件/step1/validation/check_analysis_statistics.py",
+      "标注前sha256": "c26954a94b036097bbf76f582223ae3067c580caaf67b46002998b00eef64d9d",
+      "标注后sha256": "6c7b56069f9dd5ef2a6eb3fd74f2e143fc25c2e4d71d8bd50cea21c3230e6cc8",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题一提交附件/step1/verify.py",
+      "标注前sha256": "d7160e5d64dacec7bf8ef377807e626d38e3753843231b54d087827396ce0ea9",
+      "标注后sha256": "eade8f8a3fcef34bf7d982813df4b6839e5869390761f3eeeb41df2e81f24d5a",
+      "仅新增注释": false
+    },
+    {
+      "path": "问题一提交附件/核验附件.py",
+      "标注前sha256": "219719227d9f46cdb7501212a86c24c4a1b684e00fd41ae543d19c4b0b40b5c7",
+      "标注后sha256": "86934c5d434f7ef9b4b4dff4e4966c8a57f939ad1cbb5a76f39e5221cdef8a01",
+      "仅新增注释": false
+    },
+    {
+      "path": "问题三提交附件/step3/alignment.py",
+      "标注前sha256": "76b29c002cdc97e8e0e85cffae02d81db938fa39484ad908c28c5efc60de0c34",
+      "标注后sha256": "3794e5fe38ec5c27551c1d35e43e008b6593fcf2832359b0c3594a5a1977a003",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题三提交附件/step3/common.py",
+      "标注前sha256": "ff413eb36ae58c5b769a833a2cfe4484872d6ab6f3236b01802d57864c872b23",
+      "标注后sha256": "b16e0488ac2386be10ff42051fb09be1578f9523dab0a0dbde8c2ceb407fb348",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题三提交附件/step3/data.py",
+      "标注前sha256": "4f3c814ecd00df7d0d9d4e6d8509ba364cf04f0083524681b9d18a330c05ee30",
+      "标注后sha256": "4473fcd15d67f0e09a81a6fb349bcacfe6f4854ba814b8047404be4a4a0c8173",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题三提交附件/step3/engine.py",
+      "标注前sha256": "043811e0462ba490994a7786799680cb3f85868f0300bcacc512c4dced4c9af0",
+      "标注后sha256": "5b730492ce2c14937c5436630ba492b0f0e6d1c2efbdc29693671a03c37c7c70",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题三提交附件/step3/explain.py",
+      "标注前sha256": "4878c727f83e9fe4ded30ffb3c033e5e6d0e4cb30504c5addcf0542f5f8f0af7",
+      "标注后sha256": "fd0e4ddec3aaa533fe8186387c8ed7dce9389fc48742e204b661f8d23a65f65c",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题三提交附件/step3/infer_special.py",
+      "标注前sha256": "4ed7f667f6f3bba2833d9ce1439d60c36add4c4fafdc0e43e225e1eec1d43799",
+      "标注后sha256": "4426420bba19479548aa52a45417d76b5b67282dbd87fd9ec3c3f14d9ce2f57a",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题三提交附件/step3/map_media.py",
+      "标注前sha256": "a6425d3233c82d592eeb3872a57b7b27f73cb9e841e4647c5fa15597e4dd2e0a",
+      "标注后sha256": "2cd5effaa6877809cadeca1040e1678babf2d8caffa3a9bc55eb9869861c9020",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题三提交附件/step3/model.py",
+      "标注前sha256": "1175a6d4f0fdac381a480f6b6f8d0aac948ac8192aae6149b0aaa75854e3fa5b",
+      "标注后sha256": "663f37d7627b068c07f57de10efab8127853d46d492c3af5fc7085f0d88d4ded",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题三提交附件/step3/prepare.py",
+      "标注前sha256": "a30d8ab946efdf47a9e76d928de1f316200fc2ccb207d1d9c301f65d4d11d58b",
+      "标注后sha256": "7a4dcdca0cf5fec3d267dc59631b46ae0a9afd5121a83166e86ae7bd6a78f0b8",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题三提交附件/step3/prepare_assets.py",
+      "标注前sha256": "c117dbbfe80031671bbfc990a8a0ed0750576e06a161fc7129ea8fd9a37906b7",
+      "标注后sha256": "567239918fc9b364132fe591c7cf43147b0a0fb28e92216eacbf551770ec40f7",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题三提交附件/step3/prepare_cache.py",
+      "标注前sha256": "b2847f6eff508ce712e3e05b2b66158ad88bb08ea01786092bb556d374dd06da",
+      "标注后sha256": "0aca1f41440baf5a84b92ce568d36f5f285b0e708ede23165f2316cd1f0d3075",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题三提交附件/step3/report.py",
+      "标注前sha256": "0dfcff10251067343444301121cf5bfacbfdb2f8ef3593c1146c7f4140b57346",
+      "标注后sha256": "240ff7251096a05dad35ccf77a4552c966a27c1b3babce5686febbb225d981f2",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题三提交附件/step3/train.py",
+      "标注前sha256": "bd33e814225527fe3eac3b77387b562937aa1490ee042c04a070748c9d23a351",
+      "标注后sha256": "5e52d5bb9c0c9501ba31197b1a01a0de112eb1ad43b5b0431d964e6dcfa66fff",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题三提交附件/step3/validate_explanations.py",
+      "标注前sha256": "84eb713fa0473eee8e61da7638956a97717c3322cbdfb91566fcbd26014d3e66",
+      "标注后sha256": "04cbfc13b188285aa9b3fc5fbd8f77f17b3f74ca8eb96ba792cfbf9588e368ae",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题三提交附件/step3/verify.py",
+      "标注前sha256": "dc5e1cd5a281f49b95d114a7c15cdd1095a0711eeea0f82fe10eba157e5bc6a3",
+      "标注后sha256": "abd38a2fac3c2d1b117494689ce51dcd714daab7db925557c361c2ef3bf5b5e8",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题三提交附件/初始化复现.py",
+      "标注前sha256": "0d73a4cec7b092316defabed681d88623120edb5d603dd348720c8164f7fefa6",
+      "标注后sha256": "1384eff15c7434810c95a19721908d3ea272a1c554299a7352cf2be610393822",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题三提交附件/核验附件.py",
+      "标注前sha256": "45ceeb8c1bbf5ab3528f77e62aab3eee892ed464dac68237899aa900097f747e",
+      "标注后sha256": "49775e37be8123298f4ef3f0cd7bedabbc8af048b91529281fbc50366b3b3589",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题三提交附件/训练初始化/step2/model.py",
+      "标注前sha256": "1175a6d4f0fdac381a480f6b6f8d0aac948ac8192aae6149b0aaa75854e3fa5b",
+      "标注后sha256": "663f37d7627b068c07f57de10efab8127853d46d492c3af5fc7085f0d88d4ded",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题二提交附件/代码/common.py",
+      "标注前sha256": "f9f6222b1ed5e167e7a25eac2084d98767cd1a3e6a0e10f0fce286db2f845bf1",
+      "标注后sha256": "e5fbc273e96511b54170c6d7cb2ebbc9ccd1223f978e39e7f4b545f90adff42e",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题二提交附件/代码/data.py",
+      "标注前sha256": "fe8b689703232953ffa734d0c30b59503c1b7c5ef25d68d31288558322177cb7",
+      "标注后sha256": "f81b34b281a3258d914b0cc2881cbe95eddff3899e7dc3e41af38fcec51b22e7",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题二提交附件/代码/evaluate.py",
+      "标注前sha256": "b1292db2c591b48dd43c6bd40c6fd804369832dc50cbe7f8ee5a2756fcd7d956",
+      "标注后sha256": "70fea01b5997b72521b3e2816eaf49e741d7ce39c923b102efb2b763ff02808e",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题二提交附件/代码/evaluate_final.py",
+      "标注前sha256": "fc65162b844202f24a18bf74307a5f28035a7a42f710399243aa07d0e9b07bae",
+      "标注后sha256": "efc32deb3c01a4da568e887e2d90975a786bb3d399715c7e68e51fff0166de44",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题二提交附件/代码/inference.py",
+      "标注前sha256": "8cfcc0f2ca82bd61d8b2d77b1ad514eb0c48d26c223b6801dc64571a9cf03767",
+      "标注后sha256": "8eb196ccceb0eeab3e22c103663edae441d1968def3c3c0a2212787f8bf90c1e",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题二提交附件/代码/inference_ops.py",
+      "标注前sha256": "7a0161c3b4a7add2994c5461cb1d1138ffe50b67b2f633adde81cafbe56eaf99",
+      "标注后sha256": "1dd0f02e2ebfaf1a83d06395690aac08e47395f50be49c96a48abdf644e4ca49",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题二提交附件/代码/model.py",
+      "标注前sha256": "1175a6d4f0fdac381a480f6b6f8d0aac948ac8192aae6149b0aaa75854e3fa5b",
+      "标注后sha256": "663f37d7627b068c07f57de10efab8127853d46d492c3af5fc7085f0d88d4ded",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题二提交附件/代码/predict.py",
+      "标注前sha256": "7d756bf833646ff503166c072467cec54654f20813fe80aee46cc5fe23b05170",
+      "标注后sha256": "e424fc7b740e980d832f3d75f7ed6dc56f1b295963f43e5405f7f4b652e52344",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题二提交附件/代码/prepare.py",
+      "标注前sha256": "4f73c2e20fffc6406c2501c20bbe30ccf8e00e469e10d92f8c8a92b22006aa59",
+      "标注后sha256": "2705e785472a7075e04173ec3e9c10a0c6882e8ce202d55d8cefe1f27f97a5a6",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题二提交附件/代码/prepare_encoder.py",
+      "标注前sha256": "f6c13a77ea67094ab5744d8133be4ab89ddae06d0d2c8d1a7172f0cdde64378f",
+      "标注后sha256": "4d93627807f5962ac7cbe66760b5afcf74309496900448b3d05e08be7af1ea72",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题二提交附件/代码/summarize.py",
+      "标注前sha256": "288c64b9a2905594c21b2685f114031d9ec60424ecc046f6fd5a8970a350e32f",
+      "标注后sha256": "af4d287479ca3749b8c6cdacc23e9b08434530d2bf949d2edcf68294f81732eb",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题二提交附件/代码/train.py",
+      "标注前sha256": "6fac5888491312ee4cf0f105e42d8a741304f0eace487a0a997f80e7e5941a0d",
+      "标注后sha256": "bacec9d3765f4a42a18b1fde1e047c39801b49972e8010f69e42d617fab219c2",
+      "仅新增注释": true
+    },
+    {
+      "path": "问题二提交附件/核验附件.py",
+      "标注前sha256": "c794bbba570fd7fc51c321c526864f6fc19312202112752efdfb9e49c3c0db57",
+      "标注后sha256": "e49fd8c1f7b9c030de77bff0e211308aa8c09b8039ba02a4a37949006e8bc184",
+      "仅新增注释": true
+    }
+  ]
+}

@@ -1,0 +1,896 @@
+{
+  "sample_id": "14",
+  "raw_text": "He is the co-founder of Rossen and Vettese Limited and the former Executive Director of Uniform Final Examination (UFE) courses at Toronto's York University.",
+  "duration": 10.3509765625,
+  "video_fps": 30.0,
+  "video_frames": 308,
+  "video_source": "附件4-可解释专项视频样本与特征文件/附件4-可解释专项视频样本与特征文件/对齐版本/videos/14.mp4",
+  "video_sha256": "8f1c4cb4b1c97b31cd065317faef41465cfcda403ef12d1defce4a5d23b8e18e",
+  "audio_coverage_fraction": 1.0,
+  "diagnostic_asr": "HE'S A COFOUNDER OF RAWSEN AND VITESTE LIMITED AND THE FORMER EXECUTIVE DIRECTOR OF UNIFORM FINAL EXAMINATION COURSES U F AT TORONO'S YORK UNIVERSITY",
+  "diagnostic_wer": 0.44,
+  "mean_ctc_confidence": 0.7880699634552002,
+  "requires_timing_review": false,
+  "reasons": [],
+  "words": [
+    {
+      "index": 0,
+      "original": "He",
+      "char_start": 0,
+      "char_end": 2,
+      "normalized": "HE",
+      "start": 0.50246875,
+      "end": 0.56246875,
+      "confidence": 0.9386923909187317,
+      "status": "aligned"
+    },
+    {
+      "index": 1,
+      "original": "is",
+      "char_start": 3,
+      "char_end": 5,
+      "normalized": "IS",
+      "start": 0.60246875,
+      "end": 0.64246875,
+      "confidence": 0.4806244969367981,
+      "status": "aligned"
+    },
+    {
+      "index": 2,
+      "original": "the",
+      "char_start": 6,
+      "char_end": 9,
+      "normalized": "THE",
+      "start": 0.68246875,
+      "end": 0.74246875,
+      "confidence": 0.24964164197444916,
+      "status": "aligned"
+    },
+    {
+      "index": 3,
+      "original": "co",
+      "char_start": 10,
+      "char_end": 12,
+      "normalized": "CO",
+      "start": 0.78246875,
+      "end": 0.88246875,
+      "confidence": 0.9996870756149292,
+      "status": "aligned"
+    },
+    {
+      "index": 4,
+      "original": "founder",
+      "char_start": 13,
+      "char_end": 20,
+      "normalized": "FOUNDER",
+      "start": 1.02246875,
+      "end": 1.32246875,
+      "confidence": 0.9222363829612732,
+      "status": "aligned"
+    },
+    {
+      "index": 5,
+      "original": "of",
+      "char_start": 21,
+      "char_end": 23,
+      "normalized": "OF",
+      "start": 1.40246875,
+      "end": 1.44246875,
+      "confidence": 0.9996618628501892,
+      "status": "aligned"
+    },
+    {
+      "index": 6,
+      "original": "Rossen",
+      "char_start": 24,
+      "char_end": 30,
+      "normalized": "ROSSEN",
+      "start": 1.58246875,
+      "end": 1.96246875,
+      "confidence": 0.5333347916603088,
+      "status": "aligned"
+    },
+    {
+      "index": 7,
+      "original": "and",
+      "char_start": 31,
+      "char_end": 34,
+      "normalized": "AND",
+      "start": 2.0424687500000003,
+      "end": 2.10246875,
+      "confidence": 0.9938400983810425,
+      "status": "aligned"
+    },
+    {
+      "index": 8,
+      "original": "Vettese",
+      "char_start": 35,
+      "char_end": 42,
+      "normalized": "VETTESE",
+      "start": 2.1424687500000004,
+      "end": 2.4624687499999998,
+      "confidence": 0.4009210765361786,
+      "status": "aligned"
+    },
+    {
+      "index": 9,
+      "original": "Limited",
+      "char_start": 43,
+      "char_end": 50,
+      "normalized": "LIMITED",
+      "start": 2.5424687500000003,
+      "end": 2.8424687499999997,
+      "confidence": 0.9612064361572266,
+      "status": "aligned"
+    },
+    {
+      "index": 10,
+      "original": "and",
+      "char_start": 51,
+      "char_end": 54,
+      "normalized": "AND",
+      "start": 3.2024687500000004,
+      "end": 3.2624687499999996,
+      "confidence": 0.954361617565155,
+      "status": "aligned"
+    },
+    {
+      "index": 11,
+      "original": "the",
+      "char_start": 55,
+      "char_end": 58,
+      "normalized": "THE",
+      "start": 3.32246875,
+      "end": 3.3824687499999997,
+      "confidence": 0.9851070046424866,
+      "status": "aligned"
+    },
+    {
+      "index": 12,
+      "original": "former",
+      "char_start": 59,
+      "char_end": 65,
+      "normalized": "FORMER",
+      "start": 3.46246875,
+      "end": 3.7624687499999996,
+      "confidence": 0.9768480062484741,
+      "status": "aligned"
+    },
+    {
+      "index": 13,
+      "original": "Executive",
+      "char_start": 66,
+      "char_end": 75,
+      "normalized": "EXECUTIVE",
+      "start": 3.82246875,
+      "end": 4.24246875,
+      "confidence": 0.968355655670166,
+      "status": "aligned"
+    },
+    {
+      "index": 14,
+      "original": "Director",
+      "char_start": 76,
+      "char_end": 84,
+      "normalized": "DIRECTOR",
+      "start": 4.2824687500000005,
+      "end": 4.64246875,
+      "confidence": 0.9772360920906067,
+      "status": "aligned"
+    },
+    {
+      "index": 15,
+      "original": "of",
+      "char_start": 85,
+      "char_end": 87,
+      "normalized": "OF",
+      "start": 4.84246875,
+      "end": 4.88246875,
+      "confidence": 0.9996465444564819,
+      "status": "aligned"
+    },
+    {
+      "index": 16,
+      "original": "Uniform",
+      "char_start": 88,
+      "char_end": 95,
+      "normalized": "UNIFORM",
+      "start": 5.06246875,
+      "end": 5.48246875,
+      "confidence": 0.959416389465332,
+      "status": "aligned"
+    },
+    {
+      "index": 17,
+      "original": "Final",
+      "char_start": 96,
+      "char_end": 101,
+      "normalized": "FINAL",
+      "start": 5.64246875,
+      "end": 5.88246875,
+      "confidence": 0.9990925192832947,
+      "status": "aligned"
+    },
+    {
+      "index": 18,
+      "original": "Examination",
+      "char_start": 102,
+      "char_end": 113,
+      "normalized": "EXAMINATION",
+      "start": 5.942468750000001,
+      "end": 6.52246875,
+      "confidence": 0.9386141300201416,
+      "status": "aligned"
+    },
+    {
+      "index": 19,
+      "original": "UFE",
+      "char_start": 115,
+      "char_end": 118,
+      "normalized": "UFE",
+      "start": 6.64246875,
+      "end": 6.84246875,
+      "confidence": 0.007937125861644745,
+      "status": "low_confidence"
+    },
+    {
+      "index": 20,
+      "original": "courses",
+      "char_start": 120,
+      "char_end": 127,
+      "normalized": "COURSES",
+      "start": 6.96246875,
+      "end": 7.86246875,
+      "confidence": 3.2298605219693854e-05,
+      "status": "low_confidence"
+    },
+    {
+      "index": 21,
+      "original": "at",
+      "char_start": 128,
+      "char_end": 130,
+      "normalized": "AT",
+      "start": 8.28246875,
+      "end": 8.32246875,
+      "confidence": 0.9957141280174255,
+      "status": "aligned"
+    },
+    {
+      "index": 22,
+      "original": "Toronto's",
+      "char_start": 131,
+      "char_end": 140,
+      "normalized": "TORONTO'S",
+      "start": 8.382468750000001,
+      "end": 8.76246875,
+      "confidence": 0.5369113087654114,
+      "status": "aligned"
+    },
+    {
+      "index": 23,
+      "original": "York",
+      "char_start": 141,
+      "char_end": 145,
+      "normalized": "YORK",
+      "start": 8.802468750000001,
+      "end": 8.96246875,
+      "confidence": 0.9506526589393616,
+      "status": "aligned"
+    },
+    {
+      "index": 24,
+      "original": "University",
+      "char_start": 146,
+      "char_end": 156,
+      "normalized": "UNIVERSITY",
+      "start": 9.06246875,
+      "end": 9.60246875,
+      "confidence": 0.9719800353050232,
+      "status": "aligned"
+    }
+  ],
+  "tokens": [
+    {
+      "sample_id": "14",
+      "slot": 1,
+      "token": "he",
+      "token_id": 2002,
+      "char_start": 0,
+      "char_end": 2,
+      "raw_fragment": "He",
+      "word_indices": [
+        0
+      ],
+      "candidate_start": 0.50246875,
+      "candidate_end": 0.56246875,
+      "timing_usable": true,
+      "confidence": 0.9386923909187317,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "14",
+      "slot": 2,
+      "token": "is",
+      "token_id": 2003,
+      "char_start": 3,
+      "char_end": 5,
+      "raw_fragment": "is",
+      "word_indices": [
+        1
+      ],
+      "candidate_start": 0.60246875,
+      "candidate_end": 0.64246875,
+      "timing_usable": true,
+      "confidence": 0.4806244969367981,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "14",
+      "slot": 3,
+      "token": "the",
+      "token_id": 1996,
+      "char_start": 6,
+      "char_end": 9,
+      "raw_fragment": "the",
+      "word_indices": [
+        2
+      ],
+      "candidate_start": 0.68246875,
+      "candidate_end": 0.74246875,
+      "timing_usable": true,
+      "confidence": 0.24964164197444916,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "14",
+      "slot": 4,
+      "token": "co",
+      "token_id": 2522,
+      "char_start": 10,
+      "char_end": 12,
+      "raw_fragment": "co",
+      "word_indices": [
+        3
+      ],
+      "candidate_start": 0.78246875,
+      "candidate_end": 0.88246875,
+      "timing_usable": true,
+      "confidence": 0.9996870756149292,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "14",
+      "slot": 5,
+      "token": "-",
+      "token_id": 1011,
+      "char_start": 12,
+      "char_end": 13,
+      "raw_fragment": "-",
+      "word_indices": [],
+      "candidate_start": null,
+      "candidate_end": null,
+      "timing_usable": false,
+      "confidence": null,
+      "mapping": "punctuation_without_own_acoustic_interval"
+    },
+    {
+      "sample_id": "14",
+      "slot": 6,
+      "token": "founder",
+      "token_id": 3910,
+      "char_start": 13,
+      "char_end": 20,
+      "raw_fragment": "founder",
+      "word_indices": [
+        4
+      ],
+      "candidate_start": 1.02246875,
+      "candidate_end": 1.32246875,
+      "timing_usable": true,
+      "confidence": 0.9222363829612732,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "14",
+      "slot": 7,
+      "token": "of",
+      "token_id": 1997,
+      "char_start": 21,
+      "char_end": 23,
+      "raw_fragment": "of",
+      "word_indices": [
+        5
+      ],
+      "candidate_start": 1.40246875,
+      "candidate_end": 1.44246875,
+      "timing_usable": true,
+      "confidence": 0.9996618628501892,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "14",
+      "slot": 8,
+      "token": "ross",
+      "token_id": 5811,
+      "char_start": 24,
+      "char_end": 28,
+      "raw_fragment": "Ross",
+      "word_indices": [
+        6
+      ],
+      "candidate_start": 1.58246875,
+      "candidate_end": 1.96246875,
+      "timing_usable": true,
+      "confidence": 0.5333347916603088,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "14",
+      "slot": 9,
+      "token": "##en",
+      "token_id": 2368,
+      "char_start": 28,
+      "char_end": 30,
+      "raw_fragment": "en",
+      "word_indices": [
+        6
+      ],
+      "candidate_start": 1.58246875,
+      "candidate_end": 1.96246875,
+      "timing_usable": true,
+      "confidence": 0.5333347916603088,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "14",
+      "slot": 10,
+      "token": "and",
+      "token_id": 1998,
+      "char_start": 31,
+      "char_end": 34,
+      "raw_fragment": "and",
+      "word_indices": [
+        7
+      ],
+      "candidate_start": 2.0424687500000003,
+      "candidate_end": 2.10246875,
+      "timing_usable": true,
+      "confidence": 0.9938400983810425,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "14",
+      "slot": 11,
+      "token": "vet",
+      "token_id": 29525,
+      "char_start": 35,
+      "char_end": 38,
+      "raw_fragment": "Vet",
+      "word_indices": [
+        8
+      ],
+      "candidate_start": 2.1424687500000004,
+      "candidate_end": 2.4624687499999998,
+      "timing_usable": true,
+      "confidence": 0.4009210765361786,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "14",
+      "slot": 12,
+      "token": "##tes",
+      "token_id": 4570,
+      "char_start": 38,
+      "char_end": 41,
+      "raw_fragment": "tes",
+      "word_indices": [
+        8
+      ],
+      "candidate_start": 2.1424687500000004,
+      "candidate_end": 2.4624687499999998,
+      "timing_usable": true,
+      "confidence": 0.4009210765361786,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "14",
+      "slot": 13,
+      "token": "##e",
+      "token_id": 2063,
+      "char_start": 41,
+      "char_end": 42,
+      "raw_fragment": "e",
+      "word_indices": [
+        8
+      ],
+      "candidate_start": 2.1424687500000004,
+      "candidate_end": 2.4624687499999998,
+      "timing_usable": true,
+      "confidence": 0.4009210765361786,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "14",
+      "slot": 14,
+      "token": "limited",
+      "token_id": 3132,
+      "char_start": 43,
+      "char_end": 50,
+      "raw_fragment": "Limited",
+      "word_indices": [
+        9
+      ],
+      "candidate_start": 2.5424687500000003,
+      "candidate_end": 2.8424687499999997,
+      "timing_usable": true,
+      "confidence": 0.9612064361572266,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "14",
+      "slot": 15,
+      "token": "and",
+      "token_id": 1998,
+      "char_start": 51,
+      "char_end": 54,
+      "raw_fragment": "and",
+      "word_indices": [
+        10
+      ],
+      "candidate_start": 3.2024687500000004,
+      "candidate_end": 3.2624687499999996,
+      "timing_usable": true,
+      "confidence": 0.954361617565155,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "14",
+      "slot": 16,
+      "token": "the",
+      "token_id": 1996,
+      "char_start": 55,
+      "char_end": 58,
+      "raw_fragment": "the",
+      "word_indices": [
+        11
+      ],
+      "candidate_start": 3.32246875,
+      "candidate_end": 3.3824687499999997,
+      "timing_usable": true,
+      "confidence": 0.9851070046424866,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "14",
+      "slot": 17,
+      "token": "former",
+      "token_id": 2280,
+      "char_start": 59,
+      "char_end": 65,
+      "raw_fragment": "former",
+      "word_indices": [
+        12
+      ],
+      "candidate_start": 3.46246875,
+      "candidate_end": 3.7624687499999996,
+      "timing_usable": true,
+      "confidence": 0.9768480062484741,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "14",
+      "slot": 18,
+      "token": "executive",
+      "token_id": 3237,
+      "char_start": 66,
+      "char_end": 75,
+      "raw_fragment": "Executive",
+      "word_indices": [
+        13
+      ],
+      "candidate_start": 3.82246875,
+      "candidate_end": 4.24246875,
+      "timing_usable": true,
+      "confidence": 0.968355655670166,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "14",
+      "slot": 19,
+      "token": "director",
+      "token_id": 2472,
+      "char_start": 76,
+      "char_end": 84,
+      "raw_fragment": "Director",
+      "word_indices": [
+        14
+      ],
+      "candidate_start": 4.2824687500000005,
+      "candidate_end": 4.64246875,
+      "timing_usable": true,
+      "confidence": 0.9772360920906067,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "14",
+      "slot": 20,
+      "token": "of",
+      "token_id": 1997,
+      "char_start": 85,
+      "char_end": 87,
+      "raw_fragment": "of",
+      "word_indices": [
+        15
+      ],
+      "candidate_start": 4.84246875,
+      "candidate_end": 4.88246875,
+      "timing_usable": true,
+      "confidence": 0.9996465444564819,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "14",
+      "slot": 21,
+      "token": "uniform",
+      "token_id": 6375,
+      "char_start": 88,
+      "char_end": 95,
+      "raw_fragment": "Uniform",
+      "word_indices": [
+        16
+      ],
+      "candidate_start": 5.06246875,
+      "candidate_end": 5.48246875,
+      "timing_usable": true,
+      "confidence": 0.959416389465332,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "14",
+      "slot": 22,
+      "token": "final",
+      "token_id": 2345,
+      "char_start": 96,
+      "char_end": 101,
+      "raw_fragment": "Final",
+      "word_indices": [
+        17
+      ],
+      "candidate_start": 5.64246875,
+      "candidate_end": 5.88246875,
+      "timing_usable": true,
+      "confidence": 0.9990925192832947,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "14",
+      "slot": 23,
+      "token": "examination",
+      "token_id": 7749,
+      "char_start": 102,
+      "char_end": 113,
+      "raw_fragment": "Examination",
+      "word_indices": [
+        18
+      ],
+      "candidate_start": 5.942468750000001,
+      "candidate_end": 6.52246875,
+      "timing_usable": true,
+      "confidence": 0.9386141300201416,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "14",
+      "slot": 24,
+      "token": "(",
+      "token_id": 1006,
+      "char_start": 114,
+      "char_end": 115,
+      "raw_fragment": "(",
+      "word_indices": [],
+      "candidate_start": null,
+      "candidate_end": null,
+      "timing_usable": false,
+      "confidence": null,
+      "mapping": "punctuation_without_own_acoustic_interval"
+    },
+    {
+      "sample_id": "14",
+      "slot": 25,
+      "token": "u",
+      "token_id": 1057,
+      "char_start": 115,
+      "char_end": 116,
+      "raw_fragment": "U",
+      "word_indices": [
+        19
+      ],
+      "candidate_start": 6.64246875,
+      "candidate_end": 6.84246875,
+      "timing_usable": false,
+      "confidence": 0.007937125861644745,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "14",
+      "slot": 26,
+      "token": "##fe",
+      "token_id": 7959,
+      "char_start": 116,
+      "char_end": 118,
+      "raw_fragment": "FE",
+      "word_indices": [
+        19
+      ],
+      "candidate_start": 6.64246875,
+      "candidate_end": 6.84246875,
+      "timing_usable": false,
+      "confidence": 0.007937125861644745,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "14",
+      "slot": 27,
+      "token": ")",
+      "token_id": 1007,
+      "char_start": 118,
+      "char_end": 119,
+      "raw_fragment": ")",
+      "word_indices": [],
+      "candidate_start": null,
+      "candidate_end": null,
+      "timing_usable": false,
+      "confidence": null,
+      "mapping": "punctuation_without_own_acoustic_interval"
+    },
+    {
+      "sample_id": "14",
+      "slot": 28,
+      "token": "courses",
+      "token_id": 5352,
+      "char_start": 120,
+      "char_end": 127,
+      "raw_fragment": "courses",
+      "word_indices": [
+        20
+      ],
+      "candidate_start": 6.96246875,
+      "candidate_end": 7.86246875,
+      "timing_usable": false,
+      "confidence": 3.2298605219693854e-05,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "14",
+      "slot": 29,
+      "token": "at",
+      "token_id": 2012,
+      "char_start": 128,
+      "char_end": 130,
+      "raw_fragment": "at",
+      "word_indices": [
+        21
+      ],
+      "candidate_start": 8.28246875,
+      "candidate_end": 8.32246875,
+      "timing_usable": true,
+      "confidence": 0.9957141280174255,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "14",
+      "slot": 30,
+      "token": "toronto",
+      "token_id": 4361,
+      "char_start": 131,
+      "char_end": 138,
+      "raw_fragment": "Toronto",
+      "word_indices": [
+        22
+      ],
+      "candidate_start": 8.382468750000001,
+      "candidate_end": 8.76246875,
+      "timing_usable": true,
+      "confidence": 0.5369113087654114,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "14",
+      "slot": 31,
+      "token": "'",
+      "token_id": 1005,
+      "char_start": 138,
+      "char_end": 139,
+      "raw_fragment": "'",
+      "word_indices": [
+        22
+      ],
+      "candidate_start": 8.382468750000001,
+      "candidate_end": 8.76246875,
+      "timing_usable": true,
+      "confidence": 0.5369113087654114,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "14",
+      "slot": 32,
+      "token": "s",
+      "token_id": 1055,
+      "char_start": 139,
+      "char_end": 140,
+      "raw_fragment": "s",
+      "word_indices": [
+        22
+      ],
+      "candidate_start": 8.382468750000001,
+      "candidate_end": 8.76246875,
+      "timing_usable": true,
+      "confidence": 0.5369113087654114,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "14",
+      "slot": 33,
+      "token": "york",
+      "token_id": 2259,
+      "char_start": 141,
+      "char_end": 145,
+      "raw_fragment": "York",
+      "word_indices": [
+        23
+      ],
+      "candidate_start": 8.802468750000001,
+      "candidate_end": 8.96246875,
+      "timing_usable": true,
+      "confidence": 0.9506526589393616,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "14",
+      "slot": 34,
+      "token": "university",
+      "token_id": 2118,
+      "char_start": 146,
+      "char_end": 156,
+      "raw_fragment": "University",
+      "word_indices": [
+        24
+      ],
+      "candidate_start": 9.06246875,
+      "candidate_end": 9.60246875,
+      "timing_usable": true,
+      "confidence": 0.9719800353050232,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "14",
+      "slot": 35,
+      "token": ".",
+      "token_id": 1012,
+      "char_start": 156,
+      "char_end": 157,
+      "raw_fragment": ".",
+      "word_indices": [],
+      "candidate_start": null,
+      "candidate_end": null,
+      "timing_usable": false,
+      "confidence": null,
+      "mapping": "punctuation_without_own_acoustic_interval"
+    }
+  ],
+  "token_ids_match": true,
+  "feature_repetition_audit": {
+    "audio": {
+      "multi_piece_words": 4,
+      "identical_feature_groups": 4
+    },
+    "vision": {
+      "multi_piece_words": 4,
+      "identical_feature_groups": 4
+    }
+  },
+  "represented_char_end": 157,
+  "unrepresented_text_tail": "",
+  "timing_claim": "estimated CTC word intervals, not official feature timestamps; aligned AV correspondence follows task specification",
+  "alignment_error": null
+}

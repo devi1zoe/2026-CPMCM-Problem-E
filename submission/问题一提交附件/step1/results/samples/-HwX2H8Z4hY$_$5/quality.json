@@ -1,0 +1,12 @@
+{
+  "sample_id": "-HwX2H8Z4hY$_$5",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.760928213596344,
+  "low_confidence_fraction": 0.1111111111111111,
+  "diagnostic_wer": 0.2222222222222222,
+  "usable_word_times": 8,
+  "words": 9,
+  "raw_text": "\" President Ronald Reagan blamed the professional bureaucracy of education",
+  "diagnostic_asr": "PRESIDENT RONALD REGEN BLAMED THE PROFESSIONAL BURACRACY OF EDUCATION"
+}

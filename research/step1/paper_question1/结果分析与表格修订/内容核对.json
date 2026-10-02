@@ -1,0 +1,24 @@
+{
+  "source": "/home/ubuntu/.codex/attachments/35e7a791-ee10-4c9b-9b44-cecf0bfe94d8/已粘贴的文本.txt",
+  "tables": 10,
+  "all_100_sample_rows_unchanged": true,
+  "original_subsubsection_titles_and_order_preserved": true,
+  "fixed_window_before_manual_review": true,
+  "results_refs_resolved_in_section": true,
+  "results_table_count": 7,
+  "images": 12,
+  "table_style": "自然宽度、整体居中；仅长文本列指定换行宽度；行距1.12",
+  "non_table_text_unchanged_from_previous_revision": true,
+  "compiled_previews": {
+    "实验结果分析_预览": {
+      "pdf_created": true,
+      "overflow_warnings": 0,
+      "unresolved_reference_warnings": 0
+    },
+    "全部表格_预览": {
+      "pdf_created": true,
+      "overflow_warnings": 0,
+      "unresolved_reference_warnings": 0
+    }
+  }
+}

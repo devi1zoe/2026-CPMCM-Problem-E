@@ -1,0 +1,713 @@
+{
+  "sample_id": "-wny0OAz3g8$_$1",
+  "video_id": "-wny0OAz3g8",
+  "clip_id": "1",
+  "raw_text": "And because they couldn’t join unions, many Black workers couldn’t get manufacturing or trade work – which paid much better than service work",
+  "label": 0.3333333432674408,
+  "annotation": "Positive",
+  "source_path": "E题_材料阅读/E题数据/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-wny0OAz3g8/1.mp4",
+  "source_sha256": "c5535859f129ce04da5f5b5104d02d4168057b9d947a5349d423278ad4f3d8e8",
+  "config_sha256": "4a530340304f07255daf856e6891f0a15e50f05bd85343d067a663a573e8f888",
+  "code_sha256": {
+    "common.py": "4a37980b521a2f5a93e208d3ba265542a149336b3401aa89b8a4494517f5e16e",
+    "alignment.py": "76b29c002cdc97e8e0e85cffae02d81db938fa39484ad908c28c5efc60de0c34",
+    "features.py": "8283e0d0886b83bbd84d4db4521599b480b0ada4bc1afc4e4b9b91cddf5b4018",
+    "run.py": "f75d7b5bc6e342541664233a37a3d87f39313bcd3a8f3a50bfaea94798d4e07b"
+  },
+  "model_assets_sha256": {
+    "assets/face_landmarker.task": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff",
+    "assets/wav2vec2/preprocessor_config.json": "b225d617c025463b9e157e06afea8b90dc7078fc70b013c533328423e0486b4a",
+    "assets/wav2vec2/vocab.json": "19727f8944fe6459fc3f240ae2c198395b740f6a029bd23e06656266b83bcf64",
+    "assets/wav2vec2/special_tokens_map.json": "bb7068de1150661a10b55f9e4b12a0e77af8bf91f5e45e1b58afaf1d0e17f675",
+    "assets/wav2vec2/tokenizer_config.json": "dc790594f5bc351a4311c6624f40acd95850d4aaf2a5cb3c656c9b610720b608",
+    "assets/wav2vec2/model.safetensors": "8aa76ab2243c81747a1f832954586bc566090c83a0ac167df6f31f0fa917d74a",
+    "assets/wav2vec2/config.json": "d3ec255c063d9f95057b553b19c20135b259875834a4fe9deb218a6be25b4cf3",
+    "assets/distilbert/vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+    "assets/distilbert/tokenizer_config.json": "a025160ef0431f1a392f6f050c1310f4c5d9fb6f275932dbccba73c4d214bf10",
+    "assets/distilbert/model.safetensors": "5e3f1108e3cb34ee048634875d8482665b65ac713291a7e32396fb18f6ff0063",
+    "assets/distilbert/config.json": "69c94b0222d5d1f4b0ad027ca7416cdafb98378cbbb8305d0bf47c9365c60c83",
+    "assets/distilbert/tokenizer.json": "ce64fce797c24f68df90b40a3f74f579b336a493db14bd583fd520ea0d8c9a98"
+  },
+  "duration": 6.844010416666666,
+  "video_rate": 30.0,
+  "video_origin": 0.0,
+  "audio_start": 0.0,
+  "audio_duration": 6.7765625,
+  "audio_coverage_ratio": 1.0,
+  "words": [
+    {
+      "index": 0,
+      "original": "And",
+      "char_start": 0,
+      "char_end": 3,
+      "normalized": "AND",
+      "subword_indices": [
+        0
+      ],
+      "start": 0.56246875,
+      "end": 0.62246875,
+      "confidence": 0.9987522959709167,
+      "status": "aligned"
+    },
+    {
+      "index": 1,
+      "original": "because",
+      "char_start": 4,
+      "char_end": 11,
+      "normalized": "BECAUSE",
+      "subword_indices": [
+        1
+      ],
+      "start": 0.6624687499999999,
+      "end": 0.9224687500000001,
+      "confidence": 0.9999009966850281,
+      "status": "aligned"
+    },
+    {
+      "index": 2,
+      "original": "they",
+      "char_start": 12,
+      "char_end": 16,
+      "normalized": "THEY",
+      "subword_indices": [
+        2
+      ],
+      "start": 0.96246875,
+      "end": 1.06246875,
+      "confidence": 0.9908422231674194,
+      "status": "aligned"
+    },
+    {
+      "index": 3,
+      "original": "couldn’t",
+      "char_start": 17,
+      "char_end": 25,
+      "normalized": "COULDN'T",
+      "subword_indices": [
+        3,
+        4,
+        5
+      ],
+      "start": 1.1024687499999999,
+      "end": 1.32246875,
+      "confidence": 0.947140634059906,
+      "status": "aligned"
+    },
+    {
+      "index": 4,
+      "original": "join",
+      "char_start": 26,
+      "char_end": 30,
+      "normalized": "JOIN",
+      "subword_indices": [
+        6
+      ],
+      "start": 1.36246875,
+      "end": 1.52246875,
+      "confidence": 0.9387568831443787,
+      "status": "aligned"
+    },
+    {
+      "index": 5,
+      "original": "unions",
+      "char_start": 31,
+      "char_end": 37,
+      "normalized": "UNIONS",
+      "subword_indices": [
+        7
+      ],
+      "start": 1.68246875,
+      "end": 2.00246875,
+      "confidence": 0.8974963426589966,
+      "status": "aligned"
+    },
+    {
+      "index": 6,
+      "original": "many",
+      "char_start": 39,
+      "char_end": 43,
+      "normalized": "MANY",
+      "subword_indices": [
+        9
+      ],
+      "start": 2.1624687500000004,
+      "end": 2.3224687499999996,
+      "confidence": 0.9996505975723267,
+      "status": "aligned"
+    },
+    {
+      "index": 7,
+      "original": "Black",
+      "char_start": 44,
+      "char_end": 49,
+      "normalized": "BLACK",
+      "subword_indices": [
+        10
+      ],
+      "start": 2.36246875,
+      "end": 2.54246875,
+      "confidence": 0.9120882749557495,
+      "status": "aligned"
+    },
+    {
+      "index": 8,
+      "original": "workers",
+      "char_start": 50,
+      "char_end": 57,
+      "normalized": "WORKERS",
+      "subword_indices": [
+        11
+      ],
+      "start": 2.6024687500000003,
+      "end": 2.8824687499999997,
+      "confidence": 0.9802057147026062,
+      "status": "aligned"
+    },
+    {
+      "index": 9,
+      "original": "couldn’t",
+      "char_start": 58,
+      "char_end": 66,
+      "normalized": "COULDN'T",
+      "subword_indices": [
+        12,
+        13,
+        14
+      ],
+      "start": 2.96246875,
+      "end": 3.20246875,
+      "confidence": 0.9255362749099731,
+      "status": "aligned"
+    },
+    {
+      "index": 10,
+      "original": "get",
+      "char_start": 67,
+      "char_end": 70,
+      "normalized": "GET",
+      "subword_indices": [
+        15
+      ],
+      "start": 3.24246875,
+      "end": 3.3424687499999997,
+      "confidence": 0.9993563890457153,
+      "status": "aligned"
+    },
+    {
+      "index": 11,
+      "original": "manufacturing",
+      "char_start": 71,
+      "char_end": 84,
+      "normalized": "MANUFACTURING",
+      "subword_indices": [
+        16
+      ],
+      "start": 3.40246875,
+      "end": 4.00246875,
+      "confidence": 0.9929752945899963,
+      "status": "aligned"
+    },
+    {
+      "index": 12,
+      "original": "or",
+      "char_start": 85,
+      "char_end": 87,
+      "normalized": "OR",
+      "subword_indices": [
+        17
+      ],
+      "start": 4.04246875,
+      "end": 4.10246875,
+      "confidence": 0.9980606436729431,
+      "status": "aligned"
+    },
+    {
+      "index": 13,
+      "original": "trade",
+      "char_start": 88,
+      "char_end": 93,
+      "normalized": "TRADE",
+      "subword_indices": [
+        18
+      ],
+      "start": 4.16246875,
+      "end": 4.36246875,
+      "confidence": 0.9696130752563477,
+      "status": "aligned"
+    },
+    {
+      "index": 14,
+      "original": "work",
+      "char_start": 94,
+      "char_end": 98,
+      "normalized": "WORK",
+      "subword_indices": [
+        19
+      ],
+      "start": 4.402468750000001,
+      "end": 4.542468749999999,
+      "confidence": 0.9394086599349976,
+      "status": "aligned"
+    },
+    {
+      "index": 15,
+      "original": "which",
+      "char_start": 101,
+      "char_end": 106,
+      "normalized": "WHICH",
+      "subword_indices": [
+        21
+      ],
+      "start": 4.66246875,
+      "end": 4.78246875,
+      "confidence": 0.9988405704498291,
+      "status": "aligned"
+    },
+    {
+      "index": 16,
+      "original": "paid",
+      "char_start": 107,
+      "char_end": 111,
+      "normalized": "PAID",
+      "subword_indices": [
+        22
+      ],
+      "start": 4.862468750000001,
+      "end": 5.06246875,
+      "confidence": 0.9213637113571167,
+      "status": "aligned"
+    },
+    {
+      "index": 17,
+      "original": "much",
+      "char_start": 112,
+      "char_end": 116,
+      "normalized": "MUCH",
+      "subword_indices": [
+        23
+      ],
+      "start": 5.16246875,
+      "end": 5.30246875,
+      "confidence": 0.99997478723526,
+      "status": "aligned"
+    },
+    {
+      "index": 18,
+      "original": "better",
+      "char_start": 117,
+      "char_end": 123,
+      "normalized": "BETTER",
+      "subword_indices": [
+        24
+      ],
+      "start": 5.38246875,
+      "end": 5.582468749999999,
+      "confidence": 0.9865559339523315,
+      "status": "aligned"
+    },
+    {
+      "index": 19,
+      "original": "than",
+      "char_start": 124,
+      "char_end": 128,
+      "normalized": "THAN",
+      "subword_indices": [
+        25
+      ],
+      "start": 5.62246875,
+      "end": 5.72246875,
+      "confidence": 0.9769356846809387,
+      "status": "aligned"
+    },
+    {
+      "index": 20,
+      "original": "service",
+      "char_start": 129,
+      "char_end": 136,
+      "normalized": "SERVICE",
+      "subword_indices": [
+        26
+      ],
+      "start": 5.7824687500000005,
+      "end": 6.06246875,
+      "confidence": 0.913931131362915,
+      "status": "aligned"
+    },
+    {
+      "index": 21,
+      "original": "work",
+      "char_start": 137,
+      "char_end": 141,
+      "normalized": "WORK",
+      "subword_indices": [
+        27
+      ],
+      "start": 6.10246875,
+      "end": 6.22246875,
+      "confidence": 0.9798262119293213,
+      "status": "aligned"
+    }
+  ],
+  "subwords": [
+    {
+      "index": 0,
+      "token_id": 1998,
+      "token": "and",
+      "char_start": 0,
+      "char_end": 3,
+      "word_index": 0,
+      "chunk_index": 0
+    },
+    {
+      "index": 1,
+      "token_id": 2138,
+      "token": "because",
+      "char_start": 4,
+      "char_end": 11,
+      "word_index": 1,
+      "chunk_index": 0
+    },
+    {
+      "index": 2,
+      "token_id": 2027,
+      "token": "they",
+      "char_start": 12,
+      "char_end": 16,
+      "word_index": 2,
+      "chunk_index": 0
+    },
+    {
+      "index": 3,
+      "token_id": 2481,
+      "token": "couldn",
+      "char_start": 17,
+      "char_end": 23,
+      "word_index": 3,
+      "chunk_index": 0
+    },
+    {
+      "index": 4,
+      "token_id": 1521,
+      "token": "’",
+      "char_start": 23,
+      "char_end": 24,
+      "word_index": 3,
+      "chunk_index": 0
+    },
+    {
+      "index": 5,
+      "token_id": 1056,
+      "token": "t",
+      "char_start": 24,
+      "char_end": 25,
+      "word_index": 3,
+      "chunk_index": 0
+    },
+    {
+      "index": 6,
+      "token_id": 3693,
+      "token": "join",
+      "char_start": 26,
+      "char_end": 30,
+      "word_index": 4,
+      "chunk_index": 0
+    },
+    {
+      "index": 7,
+      "token_id": 9209,
+      "token": "unions",
+      "char_start": 31,
+      "char_end": 37,
+      "word_index": 5,
+      "chunk_index": 0
+    },
+    {
+      "index": 8,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 37,
+      "char_end": 38,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 9,
+      "token_id": 2116,
+      "token": "many",
+      "char_start": 39,
+      "char_end": 43,
+      "word_index": 6,
+      "chunk_index": 0
+    },
+    {
+      "index": 10,
+      "token_id": 2304,
+      "token": "black",
+      "char_start": 44,
+      "char_end": 49,
+      "word_index": 7,
+      "chunk_index": 0
+    },
+    {
+      "index": 11,
+      "token_id": 3667,
+      "token": "workers",
+      "char_start": 50,
+      "char_end": 57,
+      "word_index": 8,
+      "chunk_index": 0
+    },
+    {
+      "index": 12,
+      "token_id": 2481,
+      "token": "couldn",
+      "char_start": 58,
+      "char_end": 64,
+      "word_index": 9,
+      "chunk_index": 0
+    },
+    {
+      "index": 13,
+      "token_id": 1521,
+      "token": "’",
+      "char_start": 64,
+      "char_end": 65,
+      "word_index": 9,
+      "chunk_index": 0
+    },
+    {
+      "index": 14,
+      "token_id": 1056,
+      "token": "t",
+      "char_start": 65,
+      "char_end": 66,
+      "word_index": 9,
+      "chunk_index": 0
+    },
+    {
+      "index": 15,
+      "token_id": 2131,
+      "token": "get",
+      "char_start": 67,
+      "char_end": 70,
+      "word_index": 10,
+      "chunk_index": 0
+    },
+    {
+      "index": 16,
+      "token_id": 5814,
+      "token": "manufacturing",
+      "char_start": 71,
+      "char_end": 84,
+      "word_index": 11,
+      "chunk_index": 0
+    },
+    {
+      "index": 17,
+      "token_id": 2030,
+      "token": "or",
+      "char_start": 85,
+      "char_end": 87,
+      "word_index": 12,
+      "chunk_index": 0
+    },
+    {
+      "index": 18,
+      "token_id": 3119,
+      "token": "trade",
+      "char_start": 88,
+      "char_end": 93,
+      "word_index": 13,
+      "chunk_index": 0
+    },
+    {
+      "index": 19,
+      "token_id": 2147,
+      "token": "work",
+      "char_start": 94,
+      "char_end": 98,
+      "word_index": 14,
+      "chunk_index": 0
+    },
+    {
+      "index": 20,
+      "token_id": 1516,
+      "token": "–",
+      "char_start": 99,
+      "char_end": 100,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 21,
+      "token_id": 2029,
+      "token": "which",
+      "char_start": 101,
+      "char_end": 106,
+      "word_index": 15,
+      "chunk_index": 0
+    },
+    {
+      "index": 22,
+      "token_id": 3825,
+      "token": "paid",
+      "char_start": 107,
+      "char_end": 111,
+      "word_index": 16,
+      "chunk_index": 0
+    },
+    {
+      "index": 23,
+      "token_id": 2172,
+      "token": "much",
+      "char_start": 112,
+      "char_end": 116,
+      "word_index": 17,
+      "chunk_index": 0
+    },
+    {
+      "index": 24,
+      "token_id": 2488,
+      "token": "better",
+      "char_start": 117,
+      "char_end": 123,
+      "word_index": 18,
+      "chunk_index": 0
+    },
+    {
+      "index": 25,
+      "token_id": 2084,
+      "token": "than",
+      "char_start": 124,
+      "char_end": 128,
+      "word_index": 19,
+      "chunk_index": 0
+    },
+    {
+      "index": 26,
+      "token_id": 2326,
+      "token": "service",
+      "char_start": 129,
+      "char_end": 136,
+      "word_index": 20,
+      "chunk_index": 0
+    },
+    {
+      "index": 27,
+      "token_id": 2147,
+      "token": "work",
+      "char_start": 137,
+      "char_end": 141,
+      "word_index": 21,
+      "chunk_index": 0
+    }
+  ],
+  "audio_feature_names": [
+    "Loudness_sma3",
+    "alphaRatio_sma3",
+    "hammarbergIndex_sma3",
+    "slope0-500_sma3",
+    "slope500-1500_sma3",
+    "spectralFlux_sma3",
+    "mfcc1_sma3",
+    "mfcc2_sma3",
+    "mfcc3_sma3",
+    "mfcc4_sma3",
+    "F0semitoneFrom27.5Hz_sma3nz",
+    "jitterLocal_sma3nz",
+    "shimmerLocaldB_sma3nz",
+    "HNRdBACF_sma3nz",
+    "logRelF0-H1-H2_sma3nz",
+    "logRelF0-H1-A3_sma3nz",
+    "F1frequency_sma3nz",
+    "F1bandwidth_sma3nz",
+    "F1amplitudeLogRelF0_sma3nz",
+    "F2frequency_sma3nz",
+    "F2bandwidth_sma3nz",
+    "F2amplitudeLogRelF0_sma3nz",
+    "F3frequency_sma3nz",
+    "F3bandwidth_sma3nz",
+    "F3amplitudeLogRelF0_sma3nz"
+  ],
+  "vision_feature_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "convolution": {
+    "stride_samples": 320,
+    "receptive_field_samples": 400
+  },
+  "ctc_target_text": "AND|BECAUSE|THEY|COULDN'T|JOIN|UNIONS|MANY|BLACK|WORKERS|COULDN'T|GET|MANUFACTURING|OR|TRADE|WORK|WHICH|PAID|MUCH|BETTER|THAN|SERVICE|WORK",
+  "diagnostic_asr": "S TO JOIN AND BECAUSE THEY COULDN'T JOIN UNIONS MANY BLACK WORKERS COULDN'T GET MANUFACTURING OR TRADE WORK WHICH PAID MUCH BETTER THAN SERVICE WORK AND BECAUSE",
+  "diagnostic_wer": 0.22727272727272727,
+  "alignment_path_log_probability": -254.14948825165447,
+  "alignment_error": null,
+  "padding_count": 0,
+  "truncated_words": 0,
+  "visual_time_support": "nearest-sampled-frame cells, midpoint boundaries; 5 Hz sampling",
+  "face_selection": "largest detected face; speaker identity not verified",
+  "feature_dimensions": {
+    "text": 768,
+    "audio": 25,
+    "vision": 52
+  },
+  "statuses": {
+    "low_confidence_words": 0,
+    "unaligned_words": 0,
+    "no_face_frames": 29,
+    "multiple_face_frames": 0,
+    "silent_audio_frames": 0,
+    "invalid_audio_frames": 0
+  },
+  "elapsed_seconds": 2.049937918782234
+}

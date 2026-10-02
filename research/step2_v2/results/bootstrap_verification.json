@@ -1,0 +1,5 @@
+{
+  "group_multiplicity_matches_explicit_resampling": true,
+  "scenario_weights_match_explicit_metrics": true,
+  "max_error": 5.551115123125783e-17
+}

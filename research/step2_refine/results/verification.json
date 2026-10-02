@@ -1,0 +1,14 @@
+{
+  "source_labels_and_video_splits_verified": true,
+  "dynamic_mask_reproducible_and_padding_excluded": true,
+  "deleted_tokens_invariant_and_encoder_frozen": true,
+  "dual_gate_initialization_matches_baseline_exactly": true,
+  "absent_weights_zero": true,
+  "one_slot_and_all_missing_finite": true,
+  "checkpoint_roundtrip": true,
+  "single_expert_equals_expert": true,
+  "expert_cache_matches_direct": true,
+  "frozen_experts_no_grad_or_state_change": true,
+  "finite_backward": true,
+  "encoder_hash_unchanged": true
+}

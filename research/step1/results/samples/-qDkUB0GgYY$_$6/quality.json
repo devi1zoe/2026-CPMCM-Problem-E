@@ -1,0 +1,12 @@
+{
+  "sample_id": "-qDkUB0GgYY$_$6",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.6625859141349792,
+  "low_confidence_fraction": 0.25,
+  "diagnostic_wer": 0.5625,
+  "usable_word_times": 12,
+  "words": 16,
+  "raw_text": "We always love to hear what you say, and like and share this video as well.",
+  "diagnostic_asr": "WITH US WE ALWAYS LOVE TO HEAR WHAT YOU E SAY AND LIKENTRS THAT YOU AS WELL AND"
+}

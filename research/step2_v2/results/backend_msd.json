@@ -1,0 +1,153 @@
+{
+  "backend": "linear",
+  "checkpoints": {
+    "step2_v2/checkpoints/msd_17.pt": "b5d54f3e79b1b195a89b4669b964c508624e79f84bc8e566c413f30013119d64",
+    "step2_v2/checkpoints/msd_29.pt": "828359e75894e447e684638f841a61865a2457010801bdeb5ae04b6bb40ed4c4",
+    "step2_v2/checkpoints/msd_43.pt": "351ea9761b50423928283ecc818dc33cec35cfa6ac6fd4ed46939b567a9a5f27"
+  },
+  "checks": [
+    {
+      "profile": "clean",
+      "max_abs": 0.0002678036689758301,
+      "ensemble_class_changes": 0,
+      "per_seed_class_changes": 0
+    },
+    {
+      "profile": "T_r30_random",
+      "max_abs": 0.00019359588623046875,
+      "ensemble_class_changes": 0,
+      "per_seed_class_changes": 0
+    },
+    {
+      "profile": "A_r30_random",
+      "max_abs": 0.00026029348373413086,
+      "ensemble_class_changes": 0,
+      "per_seed_class_changes": 0
+    },
+    {
+      "profile": "V_r30_random",
+      "max_abs": 0.0002678036689758301,
+      "ensemble_class_changes": 0,
+      "per_seed_class_changes": 0
+    },
+    {
+      "profile": "TAV_r30_random",
+      "max_abs": 0.00020015239715576172,
+      "ensemble_class_changes": 0,
+      "per_seed_class_changes": 0
+    },
+    {
+      "profile": "TAV_r50_random",
+      "max_abs": 0.0002435445785522461,
+      "ensemble_class_changes": 0,
+      "per_seed_class_changes": 0
+    }
+  ],
+  "six_reference": [
+    {
+      "name": "clean",
+      "subset": "",
+      "rate": 0.0,
+      "position": "random",
+      "accuracy": 0.6291208791208791,
+      "macro_f1": 0.6132624816177592,
+      "weighted_f1": 0.6314814698865855,
+      "mae": 0.5631430611775966,
+      "pearson": 0.6848123621000922,
+      "neutral_recall": 0.5108695652173914,
+      "f1_negative": 0.657074340527578,
+      "f1_neutral": 0.4895833333333333,
+      "f1_positive": 0.6931297709923664,
+      "strong_negative_mae": 0.9982603935781738,
+      "strong_positive_mae": 1.0637744268121785
+    },
+    {
+      "name": "T_r30_random",
+      "subset": "T",
+      "rate": 0.3,
+      "position": "random",
+      "accuracy": 0.6043956043956044,
+      "macro_f1": 0.5876662958839713,
+      "weighted_f1": 0.6059521571699266,
+      "mae": 0.6111298944349502,
+      "pearson": 0.6054471470804088,
+      "neutral_recall": 0.5,
+      "f1_negative": 0.6119402985074627,
+      "f1_neutral": 0.4804177545691906,
+      "f1_positive": 0.6706408345752608,
+      "strong_negative_mae": 1.2160966550160586,
+      "strong_positive_mae": 1.2551026528012263
+    },
+    {
+      "name": "A_r30_random",
+      "subset": "A",
+      "rate": 0.3,
+      "position": "random",
+      "accuracy": 0.6195054945054945,
+      "macro_f1": 0.6024301689916425,
+      "weighted_f1": 0.6214389288228707,
+      "mae": 0.5642291784527486,
+      "pearson": 0.6859948181827034,
+      "neutral_recall": 0.483695652173913,
+      "f1_negative": 0.6539379474940333,
+      "f1_neutral": 0.4684210526315789,
+      "f1_positive": 0.684931506849315,
+      "strong_negative_mae": 0.9781322241600218,
+      "strong_positive_mae": 1.05410285630863
+    },
+    {
+      "name": "V_r30_random",
+      "subset": "V",
+      "rate": 0.3,
+      "position": "random",
+      "accuracy": 0.6387362637362637,
+      "macro_f1": 0.6232058103119491,
+      "weighted_f1": 0.6408771473205789,
+      "mae": 0.5618178394082921,
+      "pearson": 0.6860968899195349,
+      "neutral_recall": 0.5271739130434783,
+      "f1_negative": 0.6618705035971223,
+      "f1_neutral": 0.5065274151436031,
+      "f1_positive": 0.7012195121951219,
+      "strong_negative_mae": 0.9966134055605929,
+      "strong_positive_mae": 1.0466322272199473
+    },
+    {
+      "name": "TAV_r30_random",
+      "subset": "TAV",
+      "rate": 0.3,
+      "position": "random",
+      "accuracy": 0.6126373626373627,
+      "macro_f1": 0.5913570992281637,
+      "weighted_f1": 0.6112401674620564,
+      "mae": 0.6101315469127008,
+      "pearson": 0.6065889917483549,
+      "neutral_recall": 0.46195652173913043,
+      "f1_negative": 0.6206896551724137,
+      "f1_neutral": 0.4722222222222222,
+      "f1_positive": 0.6811594202898551,
+      "strong_negative_mae": 1.206267068242847,
+      "strong_positive_mae": 1.2294209683696702
+    },
+    {
+      "name": "TAV_r50_random",
+      "subset": "TAV",
+      "rate": 0.5,
+      "position": "random",
+      "accuracy": 0.5796703296703297,
+      "macro_f1": 0.554505556603665,
+      "weighted_f1": 0.5791765869223959,
+      "mae": 0.6397983162691222,
+      "pearson": 0.529342807778913,
+      "neutral_recall": 0.42391304347826086,
+      "f1_negative": 0.572139303482587,
+      "f1_neutral": 0.42276422764227645,
+      "f1_positive": 0.6686131386861314,
+      "strong_negative_mae": 1.3141502237653937,
+      "strong_positive_mae": 1.3744918189931674
+    }
+  ],
+  "criterion": "Float64 algebraic equivalence; six validation inputs max_abs <= 1e-3 and no ensemble-class changes; otherwise original cuDNN",
+  "no_label_used_for_backend_choice": true,
+  "training_backend_unchanged": true
+}

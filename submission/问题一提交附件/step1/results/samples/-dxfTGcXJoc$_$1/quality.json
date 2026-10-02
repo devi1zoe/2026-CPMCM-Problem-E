@@ -1,0 +1,12 @@
+{
+  "sample_id": "-dxfTGcXJoc$_$1",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.9184463024139404,
+  "low_confidence_fraction": 0.0,
+  "diagnostic_wer": 0.13513513513513514,
+  "usable_word_times": 37,
+  "words": 37,
+  "raw_text": "For the 10th straight year, some of Kentucky’s best and most innovative biotech companies and technologies were on display at the annual BIO International Convention, which I and other state officials attended this week in Chicago.",
+  "diagnostic_asr": "FOR THE TENTH STRAIGHT YEAR SOME OF KENTUCKY'S BEST AND MOST ENNOVATING BOTEC COMPANIES AND TECHNOLOGIES WERE ON DISPLAY AT THE ANNUAL BO INTERNATIONAL CONVENTION WHICH I AND OTHER STATE OFFICIALS ATTENDED THIS WEEK IN CHICAGO"
+}

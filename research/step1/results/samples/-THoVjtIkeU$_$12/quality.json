@@ -1,0 +1,12 @@
+{
+  "sample_id": "-THoVjtIkeU$_$12",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.9507176280021667,
+  "low_confidence_fraction": 0.02564102564102564,
+  "diagnostic_wer": 0.10256410256410256,
+  "usable_word_times": 38,
+  "words": 39,
+  "raw_text": "What ever we turn our attention to is what grows and so if we believe that anything is possible, if we believe that social justice can be achieved and if we believe in youth, they will believe in themselves.",
+  "diagnostic_asr": "AM WHATEVER WE TURN OUR ATTENTION TO IS WHAT GROWS AND SO IF WE BELIEVE THAT ANYTHING IS POSSIBLE IF WE BELIEVE THAT DAM SOCIAL JUSTICE CAN BE ACHIEVED AND IF WE BELIEVE IN YOUTH AH THEY WILL BELIEVE IN THEMSELVES"
+}

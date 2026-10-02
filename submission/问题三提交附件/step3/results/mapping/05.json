@@ -1,0 +1,404 @@
+{
+  "sample_id": "05",
+  "raw_text": "Hi, my name is Chloe, video marketer for Red Wagon Marketing.",
+  "duration": 6.1,
+  "video_fps": 30.0,
+  "video_frames": 183,
+  "video_source": "附件4-可解释专项视频样本与特征文件/附件4-可解释专项视频样本与特征文件/对齐版本/videos/05.mp4",
+  "video_sha256": "715d7c1dd52a78eac6c0a10cd78ba1c4f632dc778839c86fcf7a510ea4184420",
+  "audio_coverage_fraction": 1.0,
+  "diagnostic_asr": "HI MY NAME WAS CHLOEY VIDIO MARKETER FOR RED WEG IN MARKETING",
+  "diagnostic_wer": 0.45454545454545453,
+  "mean_ctc_confidence": 0.738349199295044,
+  "requires_timing_review": false,
+  "reasons": [],
+  "words": [
+    {
+      "index": 0,
+      "original": "Hi",
+      "char_start": 0,
+      "char_end": 2,
+      "normalized": "HI",
+      "start": 1.26246875,
+      "end": 1.46246875,
+      "confidence": 0.8061185479164124,
+      "status": "aligned"
+    },
+    {
+      "index": 1,
+      "original": "my",
+      "char_start": 4,
+      "char_end": 6,
+      "normalized": "MY",
+      "start": 1.96246875,
+      "end": 2.06246875,
+      "confidence": 0.9998359680175781,
+      "status": "aligned"
+    },
+    {
+      "index": 2,
+      "original": "name",
+      "char_start": 7,
+      "char_end": 11,
+      "normalized": "NAME",
+      "start": 2.1224687500000003,
+      "end": 2.2424687499999996,
+      "confidence": 0.993571400642395,
+      "status": "aligned"
+    },
+    {
+      "index": 3,
+      "original": "is",
+      "char_start": 12,
+      "char_end": 14,
+      "normalized": "IS",
+      "start": 2.30246875,
+      "end": 2.3624687499999997,
+      "confidence": 0.5092452764511108,
+      "status": "aligned"
+    },
+    {
+      "index": 4,
+      "original": "Chloe",
+      "char_start": 15,
+      "char_end": 20,
+      "normalized": "CHLOE",
+      "start": 2.44246875,
+      "end": 2.7624687499999996,
+      "confidence": 0.8153349757194519,
+      "status": "aligned"
+    },
+    {
+      "index": 5,
+      "original": "video",
+      "char_start": 22,
+      "char_end": 27,
+      "normalized": "VIDEO",
+      "start": 3.22246875,
+      "end": 3.52246875,
+      "confidence": 0.40344366431236267,
+      "status": "aligned"
+    },
+    {
+      "index": 6,
+      "original": "marketer",
+      "char_start": 28,
+      "char_end": 36,
+      "normalized": "MARKETER",
+      "start": 3.6224687500000003,
+      "end": 4.02246875,
+      "confidence": 0.9383236169815063,
+      "status": "aligned"
+    },
+    {
+      "index": 7,
+      "original": "for",
+      "char_start": 37,
+      "char_end": 40,
+      "normalized": "FOR",
+      "start": 4.16246875,
+      "end": 4.26246875,
+      "confidence": 0.9993891716003418,
+      "status": "aligned"
+    },
+    {
+      "index": 8,
+      "original": "Red",
+      "char_start": 41,
+      "char_end": 44,
+      "normalized": "RED",
+      "start": 4.38246875,
+      "end": 4.56246875,
+      "confidence": 0.9907594323158264,
+      "status": "aligned"
+    },
+    {
+      "index": 9,
+      "original": "Wagon",
+      "char_start": 45,
+      "char_end": 50,
+      "normalized": "WAGON",
+      "start": 4.64246875,
+      "end": 4.92246875,
+      "confidence": 0.5098183155059814,
+      "status": "aligned"
+    },
+    {
+      "index": 10,
+      "original": "Marketing",
+      "char_start": 51,
+      "char_end": 60,
+      "normalized": "MARKETING",
+      "start": 4.98246875,
+      "end": 5.44246875,
+      "confidence": 0.15600116550922394,
+      "status": "aligned"
+    }
+  ],
+  "tokens": [
+    {
+      "sample_id": "05",
+      "slot": 1,
+      "token": "hi",
+      "token_id": 7632,
+      "char_start": 0,
+      "char_end": 2,
+      "raw_fragment": "Hi",
+      "word_indices": [
+        0
+      ],
+      "candidate_start": 1.26246875,
+      "candidate_end": 1.46246875,
+      "timing_usable": true,
+      "confidence": 0.8061185479164124,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "05",
+      "slot": 2,
+      "token": ",",
+      "token_id": 1010,
+      "char_start": 2,
+      "char_end": 3,
+      "raw_fragment": ",",
+      "word_indices": [],
+      "candidate_start": null,
+      "candidate_end": null,
+      "timing_usable": false,
+      "confidence": null,
+      "mapping": "punctuation_without_own_acoustic_interval"
+    },
+    {
+      "sample_id": "05",
+      "slot": 3,
+      "token": "my",
+      "token_id": 2026,
+      "char_start": 4,
+      "char_end": 6,
+      "raw_fragment": "my",
+      "word_indices": [
+        1
+      ],
+      "candidate_start": 1.96246875,
+      "candidate_end": 2.06246875,
+      "timing_usable": true,
+      "confidence": 0.9998359680175781,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "05",
+      "slot": 4,
+      "token": "name",
+      "token_id": 2171,
+      "char_start": 7,
+      "char_end": 11,
+      "raw_fragment": "name",
+      "word_indices": [
+        2
+      ],
+      "candidate_start": 2.1224687500000003,
+      "candidate_end": 2.2424687499999996,
+      "timing_usable": true,
+      "confidence": 0.993571400642395,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "05",
+      "slot": 5,
+      "token": "is",
+      "token_id": 2003,
+      "char_start": 12,
+      "char_end": 14,
+      "raw_fragment": "is",
+      "word_indices": [
+        3
+      ],
+      "candidate_start": 2.30246875,
+      "candidate_end": 2.3624687499999997,
+      "timing_usable": true,
+      "confidence": 0.5092452764511108,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "05",
+      "slot": 6,
+      "token": "chloe",
+      "token_id": 9318,
+      "char_start": 15,
+      "char_end": 20,
+      "raw_fragment": "Chloe",
+      "word_indices": [
+        4
+      ],
+      "candidate_start": 2.44246875,
+      "candidate_end": 2.7624687499999996,
+      "timing_usable": true,
+      "confidence": 0.8153349757194519,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "05",
+      "slot": 7,
+      "token": ",",
+      "token_id": 1010,
+      "char_start": 20,
+      "char_end": 21,
+      "raw_fragment": ",",
+      "word_indices": [],
+      "candidate_start": null,
+      "candidate_end": null,
+      "timing_usable": false,
+      "confidence": null,
+      "mapping": "punctuation_without_own_acoustic_interval"
+    },
+    {
+      "sample_id": "05",
+      "slot": 8,
+      "token": "video",
+      "token_id": 2678,
+      "char_start": 22,
+      "char_end": 27,
+      "raw_fragment": "video",
+      "word_indices": [
+        5
+      ],
+      "candidate_start": 3.22246875,
+      "candidate_end": 3.52246875,
+      "timing_usable": true,
+      "confidence": 0.40344366431236267,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "05",
+      "slot": 9,
+      "token": "market",
+      "token_id": 3006,
+      "char_start": 28,
+      "char_end": 34,
+      "raw_fragment": "market",
+      "word_indices": [
+        6
+      ],
+      "candidate_start": 3.6224687500000003,
+      "candidate_end": 4.02246875,
+      "timing_usable": true,
+      "confidence": 0.9383236169815063,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "05",
+      "slot": 10,
+      "token": "##er",
+      "token_id": 2121,
+      "char_start": 34,
+      "char_end": 36,
+      "raw_fragment": "er",
+      "word_indices": [
+        6
+      ],
+      "candidate_start": 3.6224687500000003,
+      "candidate_end": 4.02246875,
+      "timing_usable": true,
+      "confidence": 0.9383236169815063,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "05",
+      "slot": 11,
+      "token": "for",
+      "token_id": 2005,
+      "char_start": 37,
+      "char_end": 40,
+      "raw_fragment": "for",
+      "word_indices": [
+        7
+      ],
+      "candidate_start": 4.16246875,
+      "candidate_end": 4.26246875,
+      "timing_usable": true,
+      "confidence": 0.9993891716003418,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "05",
+      "slot": 12,
+      "token": "red",
+      "token_id": 2417,
+      "char_start": 41,
+      "char_end": 44,
+      "raw_fragment": "Red",
+      "word_indices": [
+        8
+      ],
+      "candidate_start": 4.38246875,
+      "candidate_end": 4.56246875,
+      "timing_usable": true,
+      "confidence": 0.9907594323158264,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "05",
+      "slot": 13,
+      "token": "wagon",
+      "token_id": 9540,
+      "char_start": 45,
+      "char_end": 50,
+      "raw_fragment": "Wagon",
+      "word_indices": [
+        9
+      ],
+      "candidate_start": 4.64246875,
+      "candidate_end": 4.92246875,
+      "timing_usable": true,
+      "confidence": 0.5098183155059814,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "05",
+      "slot": 14,
+      "token": "marketing",
+      "token_id": 5821,
+      "char_start": 51,
+      "char_end": 60,
+      "raw_fragment": "Marketing",
+      "word_indices": [
+        10
+      ],
+      "candidate_start": 4.98246875,
+      "candidate_end": 5.44246875,
+      "timing_usable": true,
+      "confidence": 0.15600116550922394,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "05",
+      "slot": 15,
+      "token": ".",
+      "token_id": 1012,
+      "char_start": 60,
+      "char_end": 61,
+      "raw_fragment": ".",
+      "word_indices": [],
+      "candidate_start": null,
+      "candidate_end": null,
+      "timing_usable": false,
+      "confidence": null,
+      "mapping": "punctuation_without_own_acoustic_interval"
+    }
+  ],
+  "token_ids_match": true,
+  "feature_repetition_audit": {
+    "audio": {
+      "multi_piece_words": 1,
+      "identical_feature_groups": 1
+    },
+    "vision": {
+      "multi_piece_words": 1,
+      "identical_feature_groups": 1
+    }
+  },
+  "represented_char_end": 61,
+  "unrepresented_text_tail": "",
+  "timing_claim": "estimated CTC word intervals, not official feature timestamps; aligned AV correspondence follows task specification",
+  "alignment_error": null
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "-egA8-b7-3M$_$1",
+  "source_path": "E题_材料阅读/E题数据/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-egA8-b7-3M/1.mp4",
+  "duration": 10.266015625,
+  "sample_rate": 16000,
+  "video_target_hz": 5,
+  "selected_frames": [
+    {
+      "pts": 1.0,
+      "original_frame_index": 30
+    },
+    {
+      "pts": 3.0,
+      "original_frame_index": 90
+    },
+    {
+      "pts": 5.2,
+      "original_frame_index": 156
+    },
+    {
+      "pts": 7.2,
+      "original_frame_index": 216
+    },
+    {
+      "pts": 9.2,
+      "original_frame_index": 276
+    }
+  ],
+  "waveform_display": "10ms min-max envelope, display only; original waveform not modified",
+  "raw_text": "I started a successful Legal Nurse Consulting Business in 1989. I mentor nurses who want to become Legal Nurse Consultants.",
+  "word_alignment_shown": false
+}

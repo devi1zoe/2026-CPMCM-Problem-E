@@ -1,0 +1,16 @@
+{
+  "sample_id": "-mJ2ud6oKI8$_$1",
+  "requires_transcript_review": true,
+  "reasons": [
+    "mean_CTC_confidence_below_0.2",
+    "more_than_half_words_below_0.1",
+    "diagnostic_WER_above_0.8"
+  ],
+  "mean_confidence": 0.01248920802026987,
+  "low_confidence_fraction": 1.0,
+  "diagnostic_wer": 1.0,
+  "usable_word_times": 0,
+  "words": 13,
+  "raw_text": "There are a dozen or more hands on techniques that we can do",
+  "diagnostic_asr": ""
+}

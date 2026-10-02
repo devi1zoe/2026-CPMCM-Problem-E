@@ -1,0 +1,12 @@
+{
+  "sample_id": "-UuX1xuaiiE$_$6",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.8138214349746704,
+  "low_confidence_fraction": 0.09090909090909091,
+  "diagnostic_wer": 0.5,
+  "usable_word_times": 20,
+  "words": 22,
+  "raw_text": "I ended up going to work for the US government as an intelligence analyst, specializing in war crimes and human rights issues",
+  "diagnostic_asr": "I ENTED UP GOING TO WORK FOR THE U S GOVERNMENT HAS AN INTELLIGENCE IN TALIST A SPECIALIZING IN WAR CRIMES OF HUMAN RITS OF SHIPS"
+}

@@ -1,0 +1,12 @@
+{
+  "sample_id": "-I_e4mIh0yE$_$3",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.8657692074775696,
+  "low_confidence_fraction": 0.0,
+  "diagnostic_wer": 0.5454545454545454,
+  "usable_word_times": 22,
+  "words": 22,
+  "raw_text": "It's perceived that you have actually learned something, over the course of your carreer, and that you won't make the mistake twice.",
+  "diagnostic_asr": "IT'S PERCEIVED THAT YOU'VE ACTUALLY TS IT'S PERCEIVED THAT YOU'VE ACTUALLY LEARNED SOMETHING AH OVER THE COURSEE YOUR CAREER AND THAT YOU WON'T MAKE THE MISTAKE TWICE MY"
+}

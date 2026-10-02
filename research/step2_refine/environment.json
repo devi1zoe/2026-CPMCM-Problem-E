@@ -1,0 +1,16 @@
+{
+  "python": "3.10.13",
+  "executable": "/usr/local/python3.10/bin/python3",
+  "torch": "2.5.1+cu121",
+  "cuda": "12.1",
+  "packages": {
+    "torch": "2.5.1+cu121",
+    "transformers": "4.48.3",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.3.2",
+    "matplotlib": "3.10.9"
+  },
+  "setup": "Existing root Python plus step1/.venv dependencies; no installation or environment creation",
+  "gpu_use": "Physical GPUs 2 and 3 were free at training start; after user interruption GPU3 became externally occupied; remaining validation only GPU2"
+}

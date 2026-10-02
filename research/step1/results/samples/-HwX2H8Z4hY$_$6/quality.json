@@ -1,0 +1,12 @@
+{
+  "sample_id": "-HwX2H8Z4hY$_$6",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.7393346428871155,
+  "low_confidence_fraction": 0.14285714285714285,
+  "diagnostic_wer": 0.2857142857142857,
+  "usable_word_times": 6,
+  "words": 7,
+  "raw_text": "And in part, Al Shanker did too",
+  "diagnostic_asr": "AND IN PART ALSHENKAR DID TOO"
+}

@@ -1,0 +1,120 @@
+{
+  "status": "passed",
+  "font_and_render_checks": {
+    "figures/fig_p1_visual_coverage.pdf": {
+      "embedded_fonts": [
+        "SimSun",
+        "TimesNewRomanPSMT"
+      ],
+      "render": "passed"
+    },
+    "figures/fig_p1_audio_energy_share.pdf": {
+      "embedded_fonts": [
+        "SimSun",
+        "TimesNewRomanPSMT"
+      ],
+      "render": "passed"
+    },
+    "figures/fig_p1_observation_work.pdf": {
+      "embedded_fonts": [
+        "SimSun",
+        "TimesNewRomanPSMT"
+      ],
+      "render": "passed"
+    },
+    "figures/fig_p1_observation_day.pdf": {
+      "embedded_fonts": [
+        "SimSun",
+        "TimesNewRomanPSMT"
+      ],
+      "render": "passed"
+    },
+    "figures/fig_p1_observation_similar.pdf": {
+      "embedded_fonts": [
+        "SimSun",
+        "TimesNewRomanPSMT"
+      ],
+      "render": "passed"
+    },
+    "figures/fig_p1_rms.pdf": {
+      "embedded_fonts": [
+        "SimSun",
+        "TimesNewRomanPSMT"
+      ],
+      "render": "passed"
+    },
+    "figures/fig_p1_rms_zoom.pdf": {
+      "embedded_fonts": [
+        "SimSun",
+        "TimesNewRomanPSMT"
+      ],
+      "render": "passed"
+    },
+    "figures/fig_p1_ctc_confidence.pdf": {
+      "embedded_fonts": [
+        "SimSun",
+        "TimesNewRomanPSMT"
+      ],
+      "render": "passed"
+    },
+    "figures/fig_p1_diagnostic_wer.pdf": {
+      "embedded_fonts": [
+        "SimSun",
+        "TimesNewRomanPSMT"
+      ],
+      "render": "passed"
+    },
+    "figures/fig_p1_multimodal_timeline.pdf": {
+      "embedded_fonts": [
+        "SimSun",
+        "TimesNewRomanPSMT"
+      ],
+      "render": "passed"
+    },
+    "figures/fig_p1_window_reconstruction.pdf": {
+      "embedded_fonts": [
+        "SimSun",
+        "TimesNewRomanPSMT"
+      ],
+      "render": "passed"
+    },
+    "figures/fig_p1_word_window_overlap.pdf": {
+      "embedded_fonts": [
+        "SimSun",
+        "TimesNewRomanPSMT"
+      ],
+      "render": "passed"
+    },
+    "figures/fig_p1_audio_window_error.pdf": {
+      "embedded_fonts": [
+        "SimSun",
+        "TimesNewRomanPSMT"
+      ],
+      "render": "passed"
+    },
+    "figures/fig_p1_vision_window_error.pdf": {
+      "embedded_fonts": [
+        "SimSun",
+        "TimesNewRomanPSMT"
+      ],
+      "render": "passed"
+    },
+    "figures/fig_p1_word_crossing_ratio.pdf": {
+      "embedded_fonts": [
+        "SimSun",
+        "TimesNewRomanPSMT"
+      ],
+      "render": "passed"
+    }
+  },
+  "window_statistics_match_independent_audit": true,
+  "figure_count": 15,
+  "legacy_composites_in_body": 0,
+  "boxplots_in_one_row": true,
+  "boxplot_canvas_inches": [
+    2.65,
+    2.9
+  ],
+  "all_fonts_rechecked": true,
+  "combined_preview_rendered": true
+}

@@ -1,0 +1,83 @@
+% 本文件由results_section.tex末尾调用，属于同一个“实验结果分析”小节。
+% 依赖 longtable、array、booktabs、url。
+\subsubsection{三模态特征文件说明与100条样本结果汇总}
+\label{sec:p1_delivery}
+
+上述分析分别给出了模态观测情况与对齐质量的统计结果。为进一步呈现各样本之间的差异，表~\ref{tab:p1_all_samples}按原样本编号汇总全部100条样本的输出。三种模态的共同规格见表~\ref{tab:p1_feature_specification}，全量表则列出各样本的时长、原文词数、视觉可观测词数及通过对齐质量筛选的词数。两表共同说明输出特征的维数、长度与有效位置，高维特征的具体数值另存于对应文件中。
+
+\begin{table}[H]
+    \centering\small
+    \caption{三种模态的词级特征规格}
+    \label{tab:p1_feature_specification}
+    \renewcommand{\arraystretch}{1.18}
+    \begin{lrbox}{\pOneResultTableBox}
+\begin{tabular}{@{}lccc@{}}
+        \toprule
+        模态 & 特征维数 & 样本矩阵形状 & 对齐粒度\\ \midrule
+        文本 & 768 & $L\times768$ & 原文词\\
+        声学 & 25 & $L\times25$ & 原文词\\
+        视觉（面部） & 52 & $L\times52$ & 原文词\\ \bottomrule
+    \end{tabular}
+\end{lrbox}
+\usebox{\pOneResultTableBox}
+    \par\smallskip
+    \parbox{\wd\pOneResultTableBox}{\footnotesize 注：$L$为对应样本的原文词数。各样本按实际词数存储，填充数与截断词数均为0；视觉模态不可观测的词位置采用零向量占位，并附无效标记。}
+\end{table}
+
+全量表中，“原文词数”对应三个矩阵的行数；“视觉可观测词数”统计能够聚合有效面部记录的词；“通过对齐筛选词数”采用前述片段级与逐词两层筛选条件；最后一列在通过筛选的词中进一步统计三种模态都可观测的数量。由于文本和声学在全部词位置均有可计算记录，最后一列等于对齐筛选通过与视觉可观测这两个条件同时满足的词数。表中片段时长与音频时长均采用前文预处理所得的实际解码记录，不表示有效语音或面部信息的累计时长。
+
+例如，样本-s9qJ7ATP7w\$\_\$7的原文包含28个词，相应矩阵为$28\times768$、$28\times25$和$28\times52$。其中14个词的视觉模态可观测，24个词通过对齐质量筛选，同时满足两项条件的有12个。因而，该样本中有12个词通过筛选且三种模态都可观测；其余词的特征与候选映射仍被保存，并由质量标记说明未满足的条件。两个数量分别描述观测覆盖与对齐质量，不能取其较小值作为同时满足条件的词数。
+
+按照上述统计，32条样本的全部词通过筛选且三种模态都可观测，46条样本仅有部分词满足两项条件，1条样本的全部词通过对齐筛选但视觉模态不可观测，另21条样本经人工审核发现内容对应异常，整体词级对应仍受限。全量表按这四类依次排列，这21条已完成审核的样本统一归入最后一类，因此各组互不重叠。
+
+\input{all_samples_table.tex}
+
+为使表中结果能够追溯至原始素材，各样本按编号分别保存数值特征与对应记录，文件内容见表~\ref{tab:p1_files}。数值数组采用NPZ格式，原文、标签及描述信息采用JSON格式；样本、模态和词级明细另以CSV汇总。观测标记与对齐质量标记分别存储，用于区分模态信息缺失与时间对应异常两类情况。
+
+\begin{table}[H]
+    \centering\small
+    \caption{特征结果文件及其内容}
+    \label{tab:p1_files}
+    \renewcommand{\arraystretch}{1.18}
+    \begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.26\linewidth}>{\raggedright\arraybackslash}p{0.50\linewidth}@{}}
+        \toprule
+        文件 & 内容\\ \midrule
+        features.npz & 词级三模态矩阵、候选词区间、观测标记，以及原生视听特征和聚合权重。\\
+        metadata.json & 原文、标签、词与子词位置、各维特征名称及处理参数。\\
+        \nolinkurl{quality_masks.npz}、\newline quality.json & 对齐质量筛选结果、结合观测状态的有效位置标记及自动筛选原因。\\
+        \nolinkurl{windows_0.2s.npz}、\newline\nolinkurl{windows_0.5s.npz} & 固定窗口边界、视听特征及文本聚合权重。\\
+        人工审核\_21条样本.csv & 21条样本的人工审核状态、问题分类与原始说明。\\
+        三份CSV汇总表 & \nolinkurl{sample_summary.csv}、\nolinkurl{modality_summary.csv}和\nolinkurl{word_alignment.csv}分别对应100条样本、300条样本--模态记录及1932个词的明细。\\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+读取时，按样本编号定位目录，通过NumPy载入features.npz中的text、audio和vision数组，其相同行均对应同一个原文词；\nolinkurl{word_bounds}记录各词的候选起止时间。词级视听分析还需结合\nolinkurl{quality_masks.npz}中的模态有效位置标记，例如\nolinkurl{vision_aligned_usable}取1，表示该词通过对齐质量筛选且视觉模态可观测。固定窗口的文本表示可由保存的词权重与词级文本矩阵相乘获得。
+
+\subsubsection{方案可复现性说明}
+\label{sec:p1_reproducibility}
+
+实验环境与主要参数见表~\ref{tab:p1_repro_settings}。特征定义、输入处理和聚合方法均采用前文方案，完整运行命令、模型版本及处理日志随结果附件提供。
+
+\begin{table}[H]
+    \centering\small
+    \caption{实验环境与主要参数}
+    \label{tab:p1_repro_settings}
+    \renewcommand{\arraystretch}{1.15}
+    \begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.18\linewidth}>{\raggedright\arraybackslash}p{0.59\linewidth}@{}}
+        \toprule
+        项目 & 版本或参数\\ \midrule
+        运行环境 & Python 3.10.13；PyTorch 2.5.1；CUDA 12.1。\\
+        音视频读取 & PyAV 17.0.1；音频16 kHz、单声道；视频目标抽样频率5 Hz。\\
+        文本编码 & Transformers 4.48.3；\nolinkurl{distilbert/distilbert-base-uncased}；每块最多510个子词，另加首尾标记。\\
+        声学对齐 & \nolinkurl{facebook/wav2vec2-base-960h}；CTC最大概率路径。\\
+        声学特征 & openSMILE 2.6.0；eGeMAPSv02的25维低层描述量。\\
+        面部特征 & MediaPipe 0.10.21；Face Landmarker float16版本1；52维表情系数；检测与存在阈值均为0.5，最多两张脸，选择面积最大者。\\
+        数值计算 & NumPy 1.26.4；SciPy 1.15.3；特征采用32位浮点数；num2words 0.5.14；随机种子20260923。\\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+除前述100条样本的计算一致性核验外，还将两条独立试跑样本与正式运行结果逐项比较，所得特征的最大绝对差为0，表明这两条样本在相同条件下能够复现。该检查不等同于对全部样本重复运行实验。
+
+综上，本文为100条样本建立了与原文词逐行对应的三模态特征，并通过观测状态与对齐质量标记区分不同词位置的使用条件。典型样本及全量计算核验表明，输出能够追溯至原始视听记录；人工审核进一步识别了21条筛选样本的内容对应异常；时间粒度对照则显示了局部特征变化与词区间完整性之间的权衡。当前结果仍受面部观测缺失、5 Hz视频抽样及缺少人工词界标注的限制，三种模态都可观测且通过筛选的比例不应解释为对齐准确率。

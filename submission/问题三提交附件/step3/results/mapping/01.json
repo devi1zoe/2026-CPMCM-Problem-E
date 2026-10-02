@@ -1,0 +1,639 @@
+{
+  "sample_id": "01",
+  "raw_text": "Replacing these wear components when replacing the timing belt is essential to ensuring the new belt performs to its mileage requirements",
+  "duration": 9.0,
+  "video_fps": 30.0,
+  "video_frames": 270,
+  "video_source": "附件4-可解释专项视频样本与特征文件/附件4-可解释专项视频样本与特征文件/对齐版本/videos/01.mp4",
+  "video_sha256": "3057e24aee7a48fcf15bd618b663bd7f0d061fb8893286c458986a7e1c6d17cf",
+  "audio_coverage_fraction": 1.0,
+  "diagnostic_asr": "REPLACING THESE WARE COMPONENTS WHEN REPLACING THE TYMY BELT IS ESSENTIAL TO INSURING THE NEW BELT PERFORMS TO ITS MILAGE REQUIREMENTS",
+  "diagnostic_wer": 0.19047619047619047,
+  "mean_ctc_confidence": 0.9033900499343872,
+  "requires_timing_review": false,
+  "reasons": [],
+  "words": [
+    {
+      "index": 0,
+      "original": "Replacing",
+      "char_start": 0,
+      "char_end": 9,
+      "normalized": "REPLACING",
+      "start": 0.50246875,
+      "end": 0.94246875,
+      "confidence": 0.9771482944488525,
+      "status": "aligned"
+    },
+    {
+      "index": 1,
+      "original": "these",
+      "char_start": 10,
+      "char_end": 15,
+      "normalized": "THESE",
+      "start": 1.00246875,
+      "end": 1.14246875,
+      "confidence": 0.952014684677124,
+      "status": "aligned"
+    },
+    {
+      "index": 2,
+      "original": "wear",
+      "char_start": 16,
+      "char_end": 20,
+      "normalized": "WEAR",
+      "start": 1.22246875,
+      "end": 1.40246875,
+      "confidence": 0.6072452664375305,
+      "status": "aligned"
+    },
+    {
+      "index": 3,
+      "original": "components",
+      "char_start": 21,
+      "char_end": 31,
+      "normalized": "COMPONENTS",
+      "start": 1.48246875,
+      "end": 1.96246875,
+      "confidence": 0.9862604737281799,
+      "status": "aligned"
+    },
+    {
+      "index": 4,
+      "original": "when",
+      "char_start": 32,
+      "char_end": 36,
+      "normalized": "WHEN",
+      "start": 1.98246875,
+      "end": 2.10246875,
+      "confidence": 0.9641544818878174,
+      "status": "aligned"
+    },
+    {
+      "index": 5,
+      "original": "replacing",
+      "char_start": 37,
+      "char_end": 46,
+      "normalized": "REPLACING",
+      "start": 2.1624687500000004,
+      "end": 2.58246875,
+      "confidence": 0.9968125224113464,
+      "status": "aligned"
+    },
+    {
+      "index": 6,
+      "original": "the",
+      "char_start": 47,
+      "char_end": 50,
+      "normalized": "THE",
+      "start": 2.6224687500000003,
+      "end": 2.68246875,
+      "confidence": 0.9120161533355713,
+      "status": "aligned"
+    },
+    {
+      "index": 7,
+      "original": "timing",
+      "char_start": 51,
+      "char_end": 57,
+      "normalized": "TIMING",
+      "start": 2.72246875,
+      "end": 3.00246875,
+      "confidence": 0.4783402979373932,
+      "status": "aligned"
+    },
+    {
+      "index": 8,
+      "original": "belt",
+      "char_start": 58,
+      "char_end": 62,
+      "normalized": "BELT",
+      "start": 3.0424687500000003,
+      "end": 3.22246875,
+      "confidence": 0.9996196627616882,
+      "status": "aligned"
+    },
+    {
+      "index": 9,
+      "original": "is",
+      "char_start": 63,
+      "char_end": 65,
+      "normalized": "IS",
+      "start": 3.6024687500000003,
+      "end": 3.68246875,
+      "confidence": 0.9317440390586853,
+      "status": "aligned"
+    },
+    {
+      "index": 10,
+      "original": "essential",
+      "char_start": 66,
+      "char_end": 75,
+      "normalized": "ESSENTIAL",
+      "start": 3.78246875,
+      "end": 4.26246875,
+      "confidence": 0.9996074438095093,
+      "status": "aligned"
+    },
+    {
+      "index": 11,
+      "original": "to",
+      "char_start": 76,
+      "char_end": 78,
+      "normalized": "TO",
+      "start": 4.442468750000001,
+      "end": 4.52246875,
+      "confidence": 0.9999334216117859,
+      "status": "aligned"
+    },
+    {
+      "index": 12,
+      "original": "ensuring",
+      "char_start": 79,
+      "char_end": 87,
+      "normalized": "ENSURING",
+      "start": 4.64246875,
+      "end": 5.02246875,
+      "confidence": 0.8565230965614319,
+      "status": "aligned"
+    },
+    {
+      "index": 13,
+      "original": "the",
+      "char_start": 88,
+      "char_end": 91,
+      "normalized": "THE",
+      "start": 5.10246875,
+      "end": 5.18246875,
+      "confidence": 0.9850006699562073,
+      "status": "aligned"
+    },
+    {
+      "index": 14,
+      "original": "new",
+      "char_start": 92,
+      "char_end": 95,
+      "normalized": "NEW",
+      "start": 5.2424687500000005,
+      "end": 5.36246875,
+      "confidence": 0.9994285702705383,
+      "status": "aligned"
+    },
+    {
+      "index": 15,
+      "original": "belt",
+      "char_start": 96,
+      "char_end": 100,
+      "normalized": "BELT",
+      "start": 5.48246875,
+      "end": 5.7024687499999995,
+      "confidence": 0.998221755027771,
+      "status": "aligned"
+    },
+    {
+      "index": 16,
+      "original": "performs",
+      "char_start": 101,
+      "char_end": 109,
+      "normalized": "PERFORMS",
+      "start": 6.16246875,
+      "end": 6.7024687499999995,
+      "confidence": 0.921750009059906,
+      "status": "aligned"
+    },
+    {
+      "index": 17,
+      "original": "to",
+      "char_start": 110,
+      "char_end": 112,
+      "normalized": "TO",
+      "start": 6.84246875,
+      "end": 6.92246875,
+      "confidence": 0.9999034404754639,
+      "status": "aligned"
+    },
+    {
+      "index": 18,
+      "original": "its",
+      "char_start": 113,
+      "char_end": 116,
+      "normalized": "ITS",
+      "start": 7.04246875,
+      "end": 7.14246875,
+      "confidence": 0.9824143648147583,
+      "status": "aligned"
+    },
+    {
+      "index": 19,
+      "original": "mileage",
+      "char_start": 117,
+      "char_end": 124,
+      "normalized": "MILEAGE",
+      "start": 7.2424687500000005,
+      "end": 7.6224687499999995,
+      "confidence": 0.4591582715511322,
+      "status": "aligned"
+    },
+    {
+      "index": 20,
+      "original": "requirements",
+      "char_start": 125,
+      "char_end": 137,
+      "normalized": "REQUIREMENTS",
+      "start": 7.68246875,
+      "end": 8.26246875,
+      "confidence": 0.963895320892334,
+      "status": "aligned"
+    }
+  ],
+  "tokens": [
+    {
+      "sample_id": "01",
+      "slot": 1,
+      "token": "replacing",
+      "token_id": 6419,
+      "char_start": 0,
+      "char_end": 9,
+      "raw_fragment": "Replacing",
+      "word_indices": [
+        0
+      ],
+      "candidate_start": 0.50246875,
+      "candidate_end": 0.94246875,
+      "timing_usable": true,
+      "confidence": 0.9771482944488525,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "01",
+      "slot": 2,
+      "token": "these",
+      "token_id": 2122,
+      "char_start": 10,
+      "char_end": 15,
+      "raw_fragment": "these",
+      "word_indices": [
+        1
+      ],
+      "candidate_start": 1.00246875,
+      "candidate_end": 1.14246875,
+      "timing_usable": true,
+      "confidence": 0.952014684677124,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "01",
+      "slot": 3,
+      "token": "wear",
+      "token_id": 4929,
+      "char_start": 16,
+      "char_end": 20,
+      "raw_fragment": "wear",
+      "word_indices": [
+        2
+      ],
+      "candidate_start": 1.22246875,
+      "candidate_end": 1.40246875,
+      "timing_usable": true,
+      "confidence": 0.6072452664375305,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "01",
+      "slot": 4,
+      "token": "components",
+      "token_id": 6177,
+      "char_start": 21,
+      "char_end": 31,
+      "raw_fragment": "components",
+      "word_indices": [
+        3
+      ],
+      "candidate_start": 1.48246875,
+      "candidate_end": 1.96246875,
+      "timing_usable": true,
+      "confidence": 0.9862604737281799,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "01",
+      "slot": 5,
+      "token": "when",
+      "token_id": 2043,
+      "char_start": 32,
+      "char_end": 36,
+      "raw_fragment": "when",
+      "word_indices": [
+        4
+      ],
+      "candidate_start": 1.98246875,
+      "candidate_end": 2.10246875,
+      "timing_usable": true,
+      "confidence": 0.9641544818878174,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "01",
+      "slot": 6,
+      "token": "replacing",
+      "token_id": 6419,
+      "char_start": 37,
+      "char_end": 46,
+      "raw_fragment": "replacing",
+      "word_indices": [
+        5
+      ],
+      "candidate_start": 2.1624687500000004,
+      "candidate_end": 2.58246875,
+      "timing_usable": true,
+      "confidence": 0.9968125224113464,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "01",
+      "slot": 7,
+      "token": "the",
+      "token_id": 1996,
+      "char_start": 47,
+      "char_end": 50,
+      "raw_fragment": "the",
+      "word_indices": [
+        6
+      ],
+      "candidate_start": 2.6224687500000003,
+      "candidate_end": 2.68246875,
+      "timing_usable": true,
+      "confidence": 0.9120161533355713,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "01",
+      "slot": 8,
+      "token": "timing",
+      "token_id": 10984,
+      "char_start": 51,
+      "char_end": 57,
+      "raw_fragment": "timing",
+      "word_indices": [
+        7
+      ],
+      "candidate_start": 2.72246875,
+      "candidate_end": 3.00246875,
+      "timing_usable": true,
+      "confidence": 0.4783402979373932,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "01",
+      "slot": 9,
+      "token": "belt",
+      "token_id": 5583,
+      "char_start": 58,
+      "char_end": 62,
+      "raw_fragment": "belt",
+      "word_indices": [
+        8
+      ],
+      "candidate_start": 3.0424687500000003,
+      "candidate_end": 3.22246875,
+      "timing_usable": true,
+      "confidence": 0.9996196627616882,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "01",
+      "slot": 10,
+      "token": "is",
+      "token_id": 2003,
+      "char_start": 63,
+      "char_end": 65,
+      "raw_fragment": "is",
+      "word_indices": [
+        9
+      ],
+      "candidate_start": 3.6024687500000003,
+      "candidate_end": 3.68246875,
+      "timing_usable": true,
+      "confidence": 0.9317440390586853,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "01",
+      "slot": 11,
+      "token": "essential",
+      "token_id": 6827,
+      "char_start": 66,
+      "char_end": 75,
+      "raw_fragment": "essential",
+      "word_indices": [
+        10
+      ],
+      "candidate_start": 3.78246875,
+      "candidate_end": 4.26246875,
+      "timing_usable": true,
+      "confidence": 0.9996074438095093,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "01",
+      "slot": 12,
+      "token": "to",
+      "token_id": 2000,
+      "char_start": 76,
+      "char_end": 78,
+      "raw_fragment": "to",
+      "word_indices": [
+        11
+      ],
+      "candidate_start": 4.442468750000001,
+      "candidate_end": 4.52246875,
+      "timing_usable": true,
+      "confidence": 0.9999334216117859,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "01",
+      "slot": 13,
+      "token": "ensuring",
+      "token_id": 12725,
+      "char_start": 79,
+      "char_end": 87,
+      "raw_fragment": "ensuring",
+      "word_indices": [
+        12
+      ],
+      "candidate_start": 4.64246875,
+      "candidate_end": 5.02246875,
+      "timing_usable": true,
+      "confidence": 0.8565230965614319,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "01",
+      "slot": 14,
+      "token": "the",
+      "token_id": 1996,
+      "char_start": 88,
+      "char_end": 91,
+      "raw_fragment": "the",
+      "word_indices": [
+        13
+      ],
+      "candidate_start": 5.10246875,
+      "candidate_end": 5.18246875,
+      "timing_usable": true,
+      "confidence": 0.9850006699562073,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "01",
+      "slot": 15,
+      "token": "new",
+      "token_id": 2047,
+      "char_start": 92,
+      "char_end": 95,
+      "raw_fragment": "new",
+      "word_indices": [
+        14
+      ],
+      "candidate_start": 5.2424687500000005,
+      "candidate_end": 5.36246875,
+      "timing_usable": true,
+      "confidence": 0.9994285702705383,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "01",
+      "slot": 16,
+      "token": "belt",
+      "token_id": 5583,
+      "char_start": 96,
+      "char_end": 100,
+      "raw_fragment": "belt",
+      "word_indices": [
+        15
+      ],
+      "candidate_start": 5.48246875,
+      "candidate_end": 5.7024687499999995,
+      "timing_usable": true,
+      "confidence": 0.998221755027771,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "01",
+      "slot": 17,
+      "token": "performs",
+      "token_id": 10438,
+      "char_start": 101,
+      "char_end": 109,
+      "raw_fragment": "performs",
+      "word_indices": [
+        16
+      ],
+      "candidate_start": 6.16246875,
+      "candidate_end": 6.7024687499999995,
+      "timing_usable": true,
+      "confidence": 0.921750009059906,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "01",
+      "slot": 18,
+      "token": "to",
+      "token_id": 2000,
+      "char_start": 110,
+      "char_end": 112,
+      "raw_fragment": "to",
+      "word_indices": [
+        17
+      ],
+      "candidate_start": 6.84246875,
+      "candidate_end": 6.92246875,
+      "timing_usable": true,
+      "confidence": 0.9999034404754639,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "01",
+      "slot": 19,
+      "token": "its",
+      "token_id": 2049,
+      "char_start": 113,
+      "char_end": 116,
+      "raw_fragment": "its",
+      "word_indices": [
+        18
+      ],
+      "candidate_start": 7.04246875,
+      "candidate_end": 7.14246875,
+      "timing_usable": true,
+      "confidence": 0.9824143648147583,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "01",
+      "slot": 20,
+      "token": "mile",
+      "token_id": 3542,
+      "char_start": 117,
+      "char_end": 121,
+      "raw_fragment": "mile",
+      "word_indices": [
+        19
+      ],
+      "candidate_start": 7.2424687500000005,
+      "candidate_end": 7.6224687499999995,
+      "timing_usable": true,
+      "confidence": 0.4591582715511322,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "01",
+      "slot": 21,
+      "token": "##age",
+      "token_id": 4270,
+      "char_start": 121,
+      "char_end": 124,
+      "raw_fragment": "age",
+      "word_indices": [
+        19
+      ],
+      "candidate_start": 7.2424687500000005,
+      "candidate_end": 7.6224687499999995,
+      "timing_usable": true,
+      "confidence": 0.4591582715511322,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "01",
+      "slot": 22,
+      "token": "requirements",
+      "token_id": 5918,
+      "char_start": 125,
+      "char_end": 137,
+      "raw_fragment": "requirements",
+      "word_indices": [
+        20
+      ],
+      "candidate_start": 7.68246875,
+      "candidate_end": 8.26246875,
+      "timing_usable": true,
+      "confidence": 0.963895320892334,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    }
+  ],
+  "token_ids_match": true,
+  "feature_repetition_audit": {
+    "audio": {
+      "multi_piece_words": 1,
+      "identical_feature_groups": 1
+    },
+    "vision": {
+      "multi_piece_words": 1,
+      "identical_feature_groups": 1
+    }
+  },
+  "represented_char_end": 137,
+  "unrepresented_text_tail": "",
+  "timing_claim": "estimated CTC word intervals, not official feature timestamps; aligned AV correspondence follows task specification",
+  "alignment_error": null
+}

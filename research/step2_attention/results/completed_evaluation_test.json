@@ -1,0 +1,17 @@
+{
+  "models": [
+    "old_gated",
+    "self"
+  ],
+  "rows": 1736,
+  "profiles": 217,
+  "protocol_sha256": "f983b4b1e07dd23caec0b6027e26872d40545564cb4c6a4e7a485be8cb5db3e9",
+  "weights": {
+    "old_gated_17.pt": "184a3d258c7f92fa4767cacd5dd2cf92f87fb5a25535331e74377f79853ef6ab",
+    "old_gated_29.pt": "03b4c5a32093174c39369462ea911d265889039d392102ccbc3b8a5245c79abb",
+    "old_gated_43.pt": "6bdd37b99a2da1ce978f2fedb784d4a62421aba1b46e002f7985d2a29ec8f4e6",
+    "self_17.pt": "84d163cd46cdd9cbfa6a7bc81c38c2ae0e16ef0593701bd66198440e06b497af",
+    "self_29.pt": "b91c6bf5986b65739df8e44571d6ffca6b625ede133935aed91e5165acbbf10a",
+    "self_43.pt": "6b1d162d3f81f5c0f32ccae4d9752318e057904de15d6422b194b8eaeeb2a49c"
+  }
+}

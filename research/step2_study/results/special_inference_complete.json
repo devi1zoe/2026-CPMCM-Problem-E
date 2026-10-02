@@ -1,0 +1,14 @@
+{
+  "selected": "old_gated",
+  "samples": 30,
+  "source_arrays": {
+    "text_bert": "a1fc81d0e59bb993c5f54d49050a8d50b6ce130b435870f1a469de74bc11e1d2",
+    "audio": "49e90dc76373918ca47903bcca0f4a045a01d70e3c2ada57e56c8af86e56de60",
+    "vision": "39ab02a559996ee95527505c8b66ed55af9521c587e1b55a2078e3262ed45dff"
+  },
+  "selection_sha256": "6066f555e93c1a8c32ca166fd8bde7ec22b08d847b06c3868b79788368fbc8f2",
+  "predictions_sha256": "9c2a5762b37e465d5ade28bb3c2c3f5318e68d480bb6062fa03de510035d0c7f",
+  "labels_available": false,
+  "used_for_selection": false,
+  "uncertain_valid_ranges": 0
+}

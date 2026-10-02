@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "evaluation_profiles": 253,
+  "oof_source_video_disjoint": true,
+  "reconstruction_missing_input_invariant": true,
+  "reconstruction_targets_only_artificial_originally_observed": true,
+  "reconstruction_estimated_observed_distinct": true,
+  "reconstruction_all_empty_uses_prior": true,
+  "target_projection_frozen": true,
+  "fusion_initial_predictions_identical": true,
+  "fusion_unavailable_expert_ignored": true
+}

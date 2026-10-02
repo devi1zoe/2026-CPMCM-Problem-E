@@ -1,0 +1,43 @@
+{
+  "sources": [
+    "附件1/label-100.xlsx",
+    "step1/results/samples/*/{metadata.json,features.npz,quality_masks.npz}",
+    "step1/results/verification.json"
+  ],
+  "xlsx_rows_matched": 100,
+  "video_sources": 37,
+  "counts": {
+    "words": 1932,
+    "time_usable": 1545,
+    "joint_usable": 1387,
+    "no_vision_time_usable": 158,
+    "risk_samples": 21,
+    "risk_words": 317,
+    "low_words": 350
+  },
+  "independent_verification": {
+    "expected_samples": 100,
+    "checked_samples": 100,
+    "all_passed": true,
+    "source_video_hashes_verified": true,
+    "code_and_config_hashes_verified": true,
+    "model_asset_hashes_verified": true,
+    "ctc_paths_verified": true,
+    "aggregation_recomputed": true,
+    "note": "通过仅指结构与数学映射自洽，不证明真实词界准确或最大人脸就是说话者。"
+  },
+  "difficult_example": {
+    "sample_id": "-iRBcNs9oI8$_$9",
+    "frame_pts": [
+      0.6006,
+      1.6016,
+      2.6026
+    ],
+    "mean_confidence": 0.0003849636996164918,
+    "diagnostic_wer": 1.0,
+    "sampled_frames": 17,
+    "valid_face_frames": 0
+  },
+  "full_table_rows": 100,
+  "manual_review_scope": "原文、保存诊断与实际画面核读；没有人工听辨或词界真值标注"
+}

@@ -1,0 +1,16 @@
+{
+  "sample_id": "-ri04Z7vwnc$_$5",
+  "requires_transcript_review": true,
+  "reasons": [
+    "mean_CTC_confidence_below_0.2",
+    "more_than_half_words_below_0.1",
+    "diagnostic_WER_above_0.8"
+  ],
+  "mean_confidence": 0.0049331169575452805,
+  "low_confidence_fraction": 1.0,
+  "diagnostic_wer": 1.875,
+  "usable_word_times": 0,
+  "words": 8,
+  "raw_text": "\" So I think it's important to discuss finances",
+  "diagnostic_asr": "AF AND A LOT OF PEOPLE WHO ARE WORKING OR YOU KNO MONEY IS VERY"
+}

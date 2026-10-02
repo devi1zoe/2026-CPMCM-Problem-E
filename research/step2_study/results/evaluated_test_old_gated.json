@@ -1,0 +1,12 @@
+{
+  "checkpoints": {
+    "step2/checkpoints/gated_aug_17.pt": "184a3d258c7f92fa4767cacd5dd2cf92f87fb5a25535331e74377f79853ef6ab",
+    "step2/checkpoints/gated_aug_29.pt": "03b4c5a32093174c39369462ea911d265889039d392102ccbc3b8a5245c79abb",
+    "step2/checkpoints/gated_aug_43.pt": "6bdd37b99a2da1ce978f2fedb784d4a62421aba1b46e002f7985d2a29ec8f4e6"
+  },
+  "profiles": 253,
+  "selection_sha256": "6066f555e93c1a8c32ca166fd8bde7ec22b08d847b06c3868b79788368fbc8f2",
+  "protocol_sha256": "102694aa476b8a77840f7ad2da42e41f0b32afeb364d91fc6f1d254e1c21c276",
+  "all_missing_policy": "train_prior",
+  "backend": "linear"
+}

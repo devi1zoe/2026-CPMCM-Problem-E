@@ -1,0 +1,329 @@
+{
+  "sample_id": "08",
+  "raw_text": "That brings us to tonight, the Universal Design Grand Challenge",
+  "duration": 5.086002604166667,
+  "video_fps": 30.0,
+  "video_frames": 149,
+  "video_source": "E题_材料阅读/E题数据/附件4-可解释专项视频样本与特征文件/附件4-可解释专项视频样本与特征文件/对齐版本/videos/08.mp4",
+  "video_sha256": "962057312eb9b751ff907ba5799f455dedfc271cabb5d45abd40803e08f88d79",
+  "audio_coverage_fraction": 1.0,
+  "diagnostic_asr": "SO THAT BRINGS US TO TO NIGHT THE UNIVERSAL DESIGN GRAND CHALLENGE",
+  "diagnostic_wer": 0.3,
+  "mean_ctc_confidence": 0.9625829458236694,
+  "requires_timing_review": false,
+  "reasons": [],
+  "words": [
+    {
+      "index": 0,
+      "original": "That",
+      "char_start": 0,
+      "char_end": 4,
+      "normalized": "THAT",
+      "start": 0.64246875,
+      "end": 0.78246875,
+      "confidence": 0.9077375531196594,
+      "status": "aligned"
+    },
+    {
+      "index": 1,
+      "original": "brings",
+      "char_start": 5,
+      "char_end": 11,
+      "normalized": "BRINGS",
+      "start": 0.86246875,
+      "end": 1.06246875,
+      "confidence": 0.9458962082862854,
+      "status": "aligned"
+    },
+    {
+      "index": 2,
+      "original": "us",
+      "char_start": 12,
+      "char_end": 14,
+      "normalized": "US",
+      "start": 1.14246875,
+      "end": 1.20246875,
+      "confidence": 0.9900795817375183,
+      "status": "aligned"
+    },
+    {
+      "index": 3,
+      "original": "to",
+      "char_start": 15,
+      "char_end": 17,
+      "normalized": "TO",
+      "start": 1.26246875,
+      "end": 1.34246875,
+      "confidence": 0.9976248741149902,
+      "status": "aligned"
+    },
+    {
+      "index": 4,
+      "original": "tonight",
+      "char_start": 18,
+      "char_end": 25,
+      "normalized": "TONIGHT",
+      "start": 1.46246875,
+      "end": 1.80246875,
+      "confidence": 0.9885605573654175,
+      "status": "aligned"
+    },
+    {
+      "index": 5,
+      "original": "the",
+      "char_start": 27,
+      "char_end": 30,
+      "normalized": "THE",
+      "start": 1.84246875,
+      "end": 1.92246875,
+      "confidence": 0.8904691934585571,
+      "status": "aligned"
+    },
+    {
+      "index": 6,
+      "original": "Universal",
+      "char_start": 31,
+      "char_end": 40,
+      "normalized": "UNIVERSAL",
+      "start": 2.0424687500000003,
+      "end": 2.50246875,
+      "confidence": 0.9943367838859558,
+      "status": "aligned"
+    },
+    {
+      "index": 7,
+      "original": "Design",
+      "char_start": 41,
+      "char_end": 47,
+      "normalized": "DESIGN",
+      "start": 2.6024687500000003,
+      "end": 3.04246875,
+      "confidence": 0.9977148175239563,
+      "status": "aligned"
+    },
+    {
+      "index": 8,
+      "original": "Grand",
+      "char_start": 48,
+      "char_end": 53,
+      "normalized": "GRAND",
+      "start": 3.38246875,
+      "end": 3.68246875,
+      "confidence": 0.9673421382904053,
+      "status": "aligned"
+    },
+    {
+      "index": 9,
+      "original": "Challenge",
+      "char_start": 54,
+      "char_end": 63,
+      "normalized": "CHALLENGE",
+      "start": 3.78246875,
+      "end": 4.26246875,
+      "confidence": 0.9460681080818176,
+      "status": "aligned"
+    }
+  ],
+  "tokens": [
+    {
+      "sample_id": "08",
+      "slot": 1,
+      "token": "that",
+      "token_id": 2008,
+      "char_start": 0,
+      "char_end": 4,
+      "raw_fragment": "That",
+      "word_indices": [
+        0
+      ],
+      "candidate_start": 0.64246875,
+      "candidate_end": 0.78246875,
+      "timing_usable": true,
+      "confidence": 0.9077375531196594,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "08",
+      "slot": 2,
+      "token": "brings",
+      "token_id": 7545,
+      "char_start": 5,
+      "char_end": 11,
+      "raw_fragment": "brings",
+      "word_indices": [
+        1
+      ],
+      "candidate_start": 0.86246875,
+      "candidate_end": 1.06246875,
+      "timing_usable": true,
+      "confidence": 0.9458962082862854,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "08",
+      "slot": 3,
+      "token": "us",
+      "token_id": 2149,
+      "char_start": 12,
+      "char_end": 14,
+      "raw_fragment": "us",
+      "word_indices": [
+        2
+      ],
+      "candidate_start": 1.14246875,
+      "candidate_end": 1.20246875,
+      "timing_usable": true,
+      "confidence": 0.9900795817375183,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "08",
+      "slot": 4,
+      "token": "to",
+      "token_id": 2000,
+      "char_start": 15,
+      "char_end": 17,
+      "raw_fragment": "to",
+      "word_indices": [
+        3
+      ],
+      "candidate_start": 1.26246875,
+      "candidate_end": 1.34246875,
+      "timing_usable": true,
+      "confidence": 0.9976248741149902,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "08",
+      "slot": 5,
+      "token": "tonight",
+      "token_id": 3892,
+      "char_start": 18,
+      "char_end": 25,
+      "raw_fragment": "tonight",
+      "word_indices": [
+        4
+      ],
+      "candidate_start": 1.46246875,
+      "candidate_end": 1.80246875,
+      "timing_usable": true,
+      "confidence": 0.9885605573654175,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "08",
+      "slot": 6,
+      "token": ",",
+      "token_id": 1010,
+      "char_start": 25,
+      "char_end": 26,
+      "raw_fragment": ",",
+      "word_indices": [],
+      "candidate_start": null,
+      "candidate_end": null,
+      "timing_usable": false,
+      "confidence": null,
+      "mapping": "punctuation_without_own_acoustic_interval"
+    },
+    {
+      "sample_id": "08",
+      "slot": 7,
+      "token": "the",
+      "token_id": 1996,
+      "char_start": 27,
+      "char_end": 30,
+      "raw_fragment": "the",
+      "word_indices": [
+        5
+      ],
+      "candidate_start": 1.84246875,
+      "candidate_end": 1.92246875,
+      "timing_usable": true,
+      "confidence": 0.8904691934585571,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "08",
+      "slot": 8,
+      "token": "universal",
+      "token_id": 5415,
+      "char_start": 31,
+      "char_end": 40,
+      "raw_fragment": "Universal",
+      "word_indices": [
+        6
+      ],
+      "candidate_start": 2.0424687500000003,
+      "candidate_end": 2.50246875,
+      "timing_usable": true,
+      "confidence": 0.9943367838859558,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "08",
+      "slot": 9,
+      "token": "design",
+      "token_id": 2640,
+      "char_start": 41,
+      "char_end": 47,
+      "raw_fragment": "Design",
+      "word_indices": [
+        7
+      ],
+      "candidate_start": 2.6024687500000003,
+      "candidate_end": 3.04246875,
+      "timing_usable": true,
+      "confidence": 0.9977148175239563,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "08",
+      "slot": 10,
+      "token": "grand",
+      "token_id": 2882,
+      "char_start": 48,
+      "char_end": 53,
+      "raw_fragment": "Grand",
+      "word_indices": [
+        8
+      ],
+      "candidate_start": 3.38246875,
+      "candidate_end": 3.68246875,
+      "timing_usable": true,
+      "confidence": 0.9673421382904053,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "08",
+      "slot": 11,
+      "token": "challenge",
+      "token_id": 4119,
+      "char_start": 54,
+      "char_end": 63,
+      "raw_fragment": "Challenge",
+      "word_indices": [
+        9
+      ],
+      "candidate_start": 3.78246875,
+      "candidate_end": 4.26246875,
+      "timing_usable": true,
+      "confidence": 0.9460681080818176,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    }
+  ],
+  "token_ids_match": true,
+  "feature_repetition_audit": {
+    "audio": {
+      "multi_piece_words": 0,
+      "identical_feature_groups": 0
+    },
+    "vision": {
+      "multi_piece_words": 0,
+      "identical_feature_groups": 0
+    }
+  },
+  "represented_char_end": 63,
+  "unrepresented_text_tail": "",
+  "timing_claim": "estimated CTC word intervals, not official feature timestamps; aligned AV correspondence follows task specification",
+  "alignment_error": null
+}

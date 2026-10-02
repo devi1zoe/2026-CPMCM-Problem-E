@@ -1,0 +1,103 @@
+% 插入位置：参考文献之后、\end{document} 之前。
+% 替换原有整个代码附录，不要再套在 appendices 环境内。
+% 导言区需加载：\usepackage{array,booktabs}
+% 表号沿用主文档计数，不手动指定为“表13”。
+
+\clearpage
+\section*{附录A\quad 附件说明}
+\addcontentsline{toc}{section}{附录A\quad 附件说明}
+
+本文的程序、模型参数、特征文件及完整计算结果随电子附件提交，
+按问题一、问题二和问题三分别组织，见表\ref{tab:appendix-materials}。
+各目录均附有文件说明与复现说明，便于查阅结果和复核计算过程。
+
+\begin{table}[!htbp]
+  \centering
+  \caption{附件说明}
+  \label{tab:appendix-materials}
+  \renewcommand{\arraystretch}{1.3}
+  \begin{tabular}{@{}>{\centering\arraybackslash}p{0.07\linewidth}
+    >{\raggedright\arraybackslash}p{0.26\linewidth}
+    >{\raggedright\arraybackslash}p{0.59\linewidth}@{}}
+    \toprule
+    序号 & 附件目录 & 主要内容 \\
+    \midrule
+    1 & 问题一提交附件 &
+    100条样本的多模态特征、词级时间对应记录、质量标记、
+    结果汇总表、处理程序、统计图及复现实验说明。 \\
+    2 & 问题二提交附件 &
+    赛题附件3的30条情感预测结果、三种子集成模型参数、
+    训练与推理程序、参数配置、运行环境及实验记录。 \\
+    3 & 问题三提交附件 &
+    赛题附件4的20条预测与解释结果、60条模态局部证据、
+    时间映射与关键帧、模型参数、解释程序及验证记录。 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+主要结果文件及查阅方式如下：
+
+\begin{enumerate}
+  \item 问题一：在“问题一提交附件”的
+  \texttt{step1/results/}目录中，
+  “全部样本特征交付清单.csv”汇总100条样本的特征提取结果；
+  \texttt{samples/}子目录保存逐样本特征、时间对应及质量记录。
+
+  \item 问题二：“问题二提交附件”中的
+  “附件3\_问题二预测.csv”给出全部30条专项测试样本的情感极性与强度预测，
+  “模型”“配置”“代码”及“实验记录”目录分别保存对应的参数、配置、程序与实验结果。
+
+  \item 问题三：在“问题三提交附件”的
+  \texttt{step3/results/}目录中，
+  “附件4\_问题三预测与解释.csv”给出全部20条专项测试样本的预测与解释结果。
+  该附件根目录下的“解释结果查看.html”可用于离线查阅模态贡献、原文证据及图像。
+\end{enumerate}
+
+总附件根目录中的“总说明.md”提供文件导航，
+“总文件校验清单.json”和“核验总附件.py”用于文件完整性核验。
+各问的运行步骤、数据处理规则与环境配置分别见
+“复现实验说明.md”“代码与复现说明.md”和“复现说明.md”。
+原始赛题数据及公开预训练权重不重复打包，其准备方式见上述说明。
+问题一输出的自生成特征与问题二、问题三使用的赛题对齐特征分别组织。
+
+\clearpage
+\section*{附录B\quad 人工智能软件辅助答题说明}
+\addcontentsline{toc}{section}{附录B\quad 人工智能软件辅助答题说明}
+
+在本论文的研究与撰写过程中，我们使用了人工智能（AI）工具进行辅助。
+具体信息如下：
+
+\begin{enumerate}
+  \item \textbf{AI软件平台}
+
+  名称：GPT-6 Astra（网页版）；
+
+  版本／型号：\texttt{gpt-6-astra}；
+
+  开发机构：OpenAI；
+
+  模型版本发布日期：2026年9月3日。
+
+  % 型号来源：https://developers.openai.com/api/docs/models/gpt-6-astra
+  % 发布日期来源：https://developers.openai.com/api/docs/changelog
+  % 网页版入口及使用情况由作者提供；日期指模型发布，不指网页客户端版本。
+
+  \item \textbf{AI使用方式}
+
+  AI工具用于辅助本文相关Python程序的编写与修改，涉及问题一的
+  多模态特征提取与时序对齐、问题二的模态局部缺失条件下的情感预测，
+  以及问题三的模态贡献计算与局部证据解释等程序实现。
+  作者对所采用的程序逻辑及计算结果进行了检查和核验。
+
+  此外，AI工具用于辅助整理附件清单、拟写本附录的说明文字及生成
+  相应的\LaTeX{}排版代码。论文中的实验结果以实际运行程序所得的
+  输出记录为依据。
+
+  \item \textbf{作者责任确认}
+
+  本论文全体作者已对所采用的AI辅助内容进行了审查与核验，
+  并对论文中的程序、推导、数据结果及文字表述进行了检查。
+  论文最终采用的方法、结果和结论由作者审定，
+  手稿及提交材料的准确性、完整性由全体作者承担责任。
+  AI工具仅作为研究和写作的辅助手段，不作为研究成果的责任主体。
+\end{enumerate}

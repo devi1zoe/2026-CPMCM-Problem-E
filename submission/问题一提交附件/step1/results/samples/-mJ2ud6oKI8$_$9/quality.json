@@ -1,0 +1,16 @@
+{
+  "sample_id": "-mJ2ud6oKI8$_$9",
+  "requires_transcript_review": true,
+  "reasons": [
+    "mean_CTC_confidence_below_0.2",
+    "more_than_half_words_below_0.1",
+    "diagnostic_WER_above_0.8"
+  ],
+  "mean_confidence": 0.05434906482696533,
+  "low_confidence_fraction": 0.9545454545454546,
+  "diagnostic_wer": 1.0454545454545454,
+  "usable_word_times": 0,
+  "words": 22,
+  "raw_text": "It's safe and the person will feel better later on, but it's sort of like flossing your teeth for the first time",
+  "diagnostic_asr": "WATION TO FIND OUT BECAUSE YOU MIGHT HAVE HIPPOTER A THRITUS BUT THAT YOU COULD ALSO HAVE OTHER A YOU KNOW DISFUNCTIONS ROUND YOUR"
+}

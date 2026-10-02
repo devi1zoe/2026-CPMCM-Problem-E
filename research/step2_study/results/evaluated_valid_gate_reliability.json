@@ -1,0 +1,12 @@
+{
+  "checkpoints": {
+    "step2_study/checkpoints/gate_reliability_17.pt": "1a3610b7b7dde308352471375796ac20d717449f8af866ed624468c8851513d3",
+    "step2_study/checkpoints/gate_reliability_29.pt": "5b09eaf0eeac2ca56028b1f18960b214af6b605cdc4fb36f72ce5cbb3aa4da91",
+    "step2_study/checkpoints/gate_reliability_43.pt": "833eebe47794168932e68707d53d788aac55afc7f383296899f71e2d59c512e7"
+  },
+  "profiles": 253,
+  "selection_sha256": null,
+  "protocol_sha256": "102694aa476b8a77840f7ad2da42e41f0b32afeb364d91fc6f1d254e1c21c276",
+  "all_missing_policy": "train_prior",
+  "backend": "linear"
+}

@@ -1,0 +1,12 @@
+{
+  "sample_id": "-9y-fZ3swSY$_$4",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.4538319408893585,
+  "low_confidence_fraction": 0.3333333333333333,
+  "diagnostic_wer": 0.6666666666666666,
+  "usable_word_times": 6,
+  "words": 9,
+  "raw_text": "I’ve seen this in US or in the US",
+  "diagnostic_asr": "IVE SENLAS ANEESS OR IN THE EST"
+}

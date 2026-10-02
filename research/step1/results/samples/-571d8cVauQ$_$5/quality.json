@@ -1,0 +1,12 @@
+{
+  "sample_id": "-571d8cVauQ$_$5",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.9075691103935242,
+  "low_confidence_fraction": 0.023255813953488372,
+  "diagnostic_wer": 0.11627906976744186,
+  "usable_word_times": 42,
+  "words": 43,
+  "raw_text": "So very important to go out to the locations, walk around, talk with the owners if you can, tell them what you're doing, build a little excitement, put a little glitz on there and let everybody knows this is a very valuable spot.",
+  "diagnostic_asr": "AS SO VERY IMPORTANT T GO OUT TO THE LOCATIONS WALK AROUND TALK WITH THE OWNERS IF YOU CAN TELL THEM WHAT YOU'RE DOING BUILD A LITTLE EXCITEMENT PUT A LITTLE GLITZ ON THERE AND LET EVERYBODY KNOW THIS IS A VERY VALUABLE SPOT THIS IS"
+}

@@ -1,0 +1,114 @@
+{
+  "passed": true,
+  "protocol_sha256": "f983b4b1e07dd23caec0b6027e26872d40545564cb4c6a4e7a485be8cb5db3e9",
+  "selection_lock_sha256": "1e30b216b98d4debfd0a966e94439d20846e1fe63012a20998782f7c88a8b4d1",
+  "completed_fits": [
+    {
+      "model": "pool",
+      "seed": 17,
+      "best_epoch": 9,
+      "epochs": 15,
+      "parameters": 70084,
+      "J": 1.0460537239178256
+    },
+    {
+      "model": "pool",
+      "seed": 29,
+      "best_epoch": 7,
+      "epochs": 13,
+      "parameters": 70084,
+      "J": 1.0548358745172302
+    },
+    {
+      "model": "pool",
+      "seed": 43,
+      "best_epoch": 8,
+      "epochs": 14,
+      "parameters": 70084,
+      "J": 1.0417796130501107
+    },
+    {
+      "model": "self",
+      "seed": 17,
+      "best_epoch": 9,
+      "epochs": 15,
+      "parameters": 170500,
+      "J": 1.0204298679928028
+    },
+    {
+      "model": "self",
+      "seed": 29,
+      "best_epoch": 9,
+      "epochs": 15,
+      "parameters": 170500,
+      "J": 1.0449001679120526
+    },
+    {
+      "model": "self",
+      "seed": 43,
+      "best_epoch": 8,
+      "epochs": 14,
+      "parameters": 170500,
+      "J": 1.0557011347708944
+    },
+    {
+      "model": "cross",
+      "seed": 17,
+      "best_epoch": 7,
+      "epochs": 13,
+      "parameters": 203972,
+      "J": 1.038856266873296
+    },
+    {
+      "model": "cross",
+      "seed": 29,
+      "best_epoch": 6,
+      "epochs": 12,
+      "parameters": 203972,
+      "J": 1.0533595266551732
+    },
+    {
+      "model": "cross",
+      "seed": 43,
+      "best_epoch": 4,
+      "epochs": 10,
+      "parameters": 203972,
+      "J": 1.046797079069861
+    },
+    {
+      "model": "cross_clean",
+      "seed": 17,
+      "best_epoch": 4,
+      "epochs": 10,
+      "parameters": 203972,
+      "J": 1.0548819030440248
+    },
+    {
+      "model": "cross_clean",
+      "seed": 29,
+      "best_epoch": 4,
+      "epochs": 10,
+      "parameters": 203972,
+      "J": 1.061331136297646
+    },
+    {
+      "model": "cross_clean",
+      "seed": 43,
+      "best_epoch": 3,
+      "epochs": 9,
+      "parameters": 203972,
+      "J": 1.0376877649767127
+    }
+  ],
+  "metric_rows": {
+    "valid": 4340,
+    "test": 1736
+  },
+  "realizations": 217,
+  "primary_scenarios": 112,
+  "special_predictions": 30,
+  "attention_legal_connections": true,
+  "html_local_links": true,
+  "selection_recomputed_from_validation": true,
+  "previous_outputs_replaced": false
+}

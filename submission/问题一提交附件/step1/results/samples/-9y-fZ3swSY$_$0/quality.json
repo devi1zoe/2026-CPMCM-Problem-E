@@ -1,0 +1,12 @@
+{
+  "sample_id": "-9y-fZ3swSY$_$0",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.6663346886634827,
+  "low_confidence_fraction": 0.13636363636363635,
+  "diagnostic_wer": 0.5454545454545454,
+  "usable_word_times": 19,
+  "words": 22,
+  "raw_text": "is, you can say, hey I really like baby skin, they are so soft, they don’t have any hair on their face",
+  "diagnostic_asr": "BERS EVEN SAY HEY YOU'L NOT I REALLY LIKE BABY'S KID THIT'S SO SOFT THEY DON'T HAVE ANY HAIR ON THE FACE IT'S SO"
+}

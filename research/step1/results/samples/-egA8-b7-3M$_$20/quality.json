@@ -1,0 +1,12 @@
+{
+  "sample_id": "-egA8-b7-3M$_$20",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.976580798625946,
+  "low_confidence_fraction": 0.0,
+  "diagnostic_wer": 0.0,
+  "usable_word_times": 20,
+  "words": 20,
+  "raw_text": "Now you've got a face that you can connect with a voice, and that makes you closer to that client.",
+  "diagnostic_asr": "NOW YOU'VE GOT A FACE THAT YOU CAN CONNECT WITH A VOICE AND THAT MAKES YOU CLOSER TO THAT CLIENT"
+}

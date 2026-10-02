@@ -1,0 +1,55 @@
+{
+  "n": 728,
+  "prediction": {
+    "accuracy": 0.6291208791208791,
+    "macro_f1": 0.604558017847249,
+    "mae": 0.5650779997384954,
+    "pearson": 0.6904159731716603,
+    "f1_negative": 0.6764705882352942,
+    "f1_neutral": 0.4357541899441341,
+    "f1_positive": 0.7014492753623189,
+    "neutral_recall": 0.42391304347826086
+  },
+  "ig": {
+    "nodes": "adaptive 32/64/128/256, absolute completeness tolerance 0.001",
+    "nodes_used": {
+      "32": 608,
+      "64": 114,
+      "128": 6
+    },
+    "initial32_max_error": 0.05773186683654785,
+    "failed_tolerance": 0,
+    "completeness_median": 2.5823712348937988e-05,
+    "completeness_p95": 0.00046717822551727294,
+    "completeness_max": 0.0009943842887878418,
+    "convergence_64_p95": 4.2079389095306384e-05,
+    "convergence_ig_mean_absolute_change": 8.631830496597104e-06
+  },
+  "primary_fidelity": {
+    "deletion_drop": 0.12841992419223291,
+    "random_deletion_drop": 0.04643248598817941,
+    "deletion_advantage": 0.08198743812985472,
+    "conditional_sufficiency_gap": 0.06687597914568179,
+    "random_conditional_gap": 0.19734996060871487,
+    "unconditional_sufficiency_gap": -0.03318946574722509,
+    "random_unconditional_gap": 0.15230384337009636,
+    "conditional_class_retained": 0.8489010989010989,
+    "unconditional_class_retained": 0.8516483516483516
+  },
+  "positive_deletion_fraction": 0.9285714285714286,
+  "random_advantage_ci95": [
+    0.07153528022881503,
+    0.09219547767980375
+  ],
+  "modality_baseline_main_agreement": 0.842032967032967,
+  "modality_seed_main_agreement": 0.8383699633699633,
+  "stability": {
+    "noise_main_agrees": 1.0,
+    "noise_window_jaccard": 1.0,
+    "reference_ig_window_jaccard": 0.6923579314204314,
+    "seed_window_pairwise_jaccard": 0.3737651974477955
+  },
+  "selected_model": "step3_coalition_aug",
+  "fixed_target_verified": true,
+  "interpretation": "IG ranking evaluated by independent raw-token deletion; representation baselines and deletion games are explicitly distinct"
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "group": "1",
+    "model": "shape_multi",
+    "reference": "shape_single",
+    "decision": "不支持作为整体改进保留",
+    "point_estimates_improve_both": false,
+    "clear_both": false
+  },
+  {
+    "group": "1",
+    "model": "shape_unequal",
+    "reference": "shape_single",
+    "decision": "不支持作为整体改进保留",
+    "point_estimates_improve_both": false,
+    "clear_both": false
+  },
+  {
+    "group": "2",
+    "model": "text_lora",
+    "reference": "text_frozen",
+    "decision": "不支持作为整体改进保留",
+    "point_estimates_improve_both": false,
+    "clear_both": false
+  },
+  {
+    "group": "2",
+    "model": "multi_lora",
+    "reference": "shape_single",
+    "decision": "不支持作为整体改进保留",
+    "point_estimates_improve_both": false,
+    "clear_both": false
+  },
+  {
+    "group": "3",
+    "model": "gate_reliability",
+    "reference": "gate_quality",
+    "decision": "不支持作为整体改进保留",
+    "point_estimates_improve_both": false,
+    "clear_both": false
+  },
+  {
+    "group": "3",
+    "model": "gate_correction",
+    "reference": "gate_reliability",
+    "decision": "不支持作为整体改进保留",
+    "point_estimates_improve_both": false,
+    "clear_both": false
+  },
+  {
+    "group": "4",
+    "model": "reconstruct",
+    "reference": "shape_single",
+    "decision": "不支持作为整体改进保留",
+    "point_estimates_improve_both": false,
+    "clear_both": false
+  }
+]

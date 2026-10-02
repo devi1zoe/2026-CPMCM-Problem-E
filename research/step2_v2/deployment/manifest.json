@@ -1,0 +1,13 @@
+{
+  "selected": "old_gated",
+  "selection_sha256": "c8afdedc2fd25e819d6f5abeaf2521f142415aa93937787d08da8abc20d307bd",
+  "backend": "linear",
+  "checkpoints": {
+    "final_17.pt": "b61089dc1a8afc5908e76a3912e346a2d92aecd4a8015ca0cbd498922eabc338",
+    "final_29.pt": "4a7d2973838ecabb6be4c562ce45edea950a1e246fba30563a67d6808521b8de",
+    "final_43.pt": "6433ea85d531bd3b53f95d1cae49e4904b33683705f6c811cd0c7cf72681d2a8"
+  },
+  "encoder_sha256": "5e3f1108e3cb34ee048634875d8482665b65ac713291a7e32396fb18f6ff0063",
+  "training_heads_removed": true,
+  "validation_predictions_identical": true
+}

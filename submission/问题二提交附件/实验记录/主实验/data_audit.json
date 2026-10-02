@@ -1,0 +1,84 @@
+{
+  "splits": {
+    "train": {
+      "n": 3395,
+      "classes": [
+        967,
+        758,
+        1670
+      ],
+      "token_exact_matches": 3395,
+      "uncertain_span_count": 0,
+      "unk_tokens": 0,
+      "observed_fraction_within_valid": [
+        1.0,
+        0.9991545485289144,
+        0.9447334876824224
+      ],
+      "nonfinite": {
+        "text": 0,
+        "audio": 0,
+        "vision": 0
+      }
+    },
+    "valid": {
+      "n": 728,
+      "classes": [
+        206,
+        184,
+        338
+      ],
+      "token_exact_matches": 728,
+      "uncertain_span_count": 0,
+      "unk_tokens": 0,
+      "observed_fraction_within_valid": [
+        1.0,
+        0.9973212205916608,
+        0.9429303517353832
+      ],
+      "nonfinite": {
+        "text": 0,
+        "audio": 0,
+        "vision": 0
+      }
+    },
+    "test": {
+      "n": 727,
+      "classes": [
+        207,
+        158,
+        362
+      ],
+      "token_exact_matches": 727,
+      "uncertain_span_count": 0,
+      "unk_tokens": 0,
+      "observed_fraction_within_valid": [
+        1.0,
+        1.0,
+        0.9392465143874221
+      ],
+      "nonfinite": {
+        "text": 0,
+        "audio": 0,
+        "vision": 0
+      }
+    }
+  },
+  "split_overlap": {
+    "train_valid": {
+      "sample": 0,
+      "video": 0
+    },
+    "train_test": {
+      "sample": 0,
+      "video": 0
+    },
+    "valid_test": {
+      "sample": 0,
+      "video": 0
+    }
+  },
+  "version": "aligned_50",
+  "raw_text_used_for": "vocabulary audit only",
+  "label_xlsx_rows_matched": 4850
+}

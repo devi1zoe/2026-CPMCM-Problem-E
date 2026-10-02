@@ -1,0 +1,7 @@
+{
+  "seed": 29,
+  "epoch": 3,
+  "context_hash": "95344c805682100f76a66fc2a4ddd0a5741a4c64b2ba1162cc8c3505cc19c29d",
+  "mask_sha256": "2bc03121d2d5051482ac2850e29830241f81c1fd3324e92eb0847118d3ddbf3b",
+  "mode": "read_only_verified_v2_view"
+}

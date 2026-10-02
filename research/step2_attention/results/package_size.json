@@ -1,0 +1,11 @@
+{
+  "zip_bytes": 10815512,
+  "zip_sha256": "5586f56c7fc0d425977af506ddb890b259bbf45a71a59e3708381acb4d3925cc",
+  "neighboring_packages": {
+    "step1/问题一交付.zip": 32783951,
+    "step3/问题三交付.zip": 6052578
+  },
+  "aggregate_bytes": 49652041,
+  "under_50_decimal_mb": true,
+  "note": "Size comparison only. This experimental variant does not replace the adopted Problem 2 package."
+}

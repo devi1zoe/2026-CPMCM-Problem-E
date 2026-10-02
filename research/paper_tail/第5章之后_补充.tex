@@ -1,0 +1,971 @@
+% 使用原论文模板中已定义的 appendices 和 Python 环境。
+% 附件索引表需主文件已加载 array、booktabs、url。
+
+\clearpage
+\begin{appendices}
+% \setcounter{page}{1}
+
+\section{Python 源程序}
+\label{app:tail-code}
+\renewcommand{\thesubsection}{\Alph{section}\thinspace.\thinspace\arabic{subsection}}
+
+\subsection{第1问程序}
+\vspace{-2ex}
+
+\begin{Python}{step1/run.py}
+"""问题一全量处理入口：不训练情感模型，不读取附件2、3、4。"""
+
+from common import (
+    ROOT,
+    PROJECT,
+    activate_project_dependencies,
+    read_samples,
+    save_json,
+    sha256,
+)
+
+activate_project_dependencies()
+import argparse
+import datetime
+import importlib.metadata
+import json
+import os
+import platform
+import random
+import sys
+import time
+import traceback
+import numpy as np
+import torch
+from alignment import (
+    extract_words,
+    make_target,
+    ctc_viterbi,
+    words_from_path,
+    overlap_pool,
+    word_error_rate,
+)
+from features import Extractors, decode_media, contact_sheet
+
+
+def process_one(sample, extractors, config, destination, provenance):
+    """完整保留原样本；低置信度与无观测不会导致删样本或悄悄均分词时间。"""
+    began = time.monotonic()
+    media = decode_media(
+        PROJECT / sample["source_path"], config["video_sampling_hz"]
+    )
+    words = extract_words(sample["raw_text"])
+    text, text_valid, subwords, sub_ids, sub_map, mapping = (
+        extractors.text(sample["raw_text"], words)
+    )
+    audio, audio_bounds, audio_valid, rms, silence, audio_names = (
+        extractors.acoustic(media)
+    )
+    vision, vision_valid, face_count, vision_names = extractors.visual(
+        media
+    )
+    logp, ctc_bounds, asr, convolution = extractors.emissions(media)
+    targets, owners, target_text = make_target(
+        words, extractors.processor.tokenizer.get_vocab()
+    )
+    alignment_error = None
+    try:
+        path, score = ctc_viterbi(
+            logp, targets, extractors.processor.tokenizer.pad_token_id
+        )
+        bounds, confidence, aligned = words_from_path(
+            path,
+            targets,
+            owners,
+            logp,
+            words,
+            ctc_bounds,
+            config["word_confidence_threshold"],
+        )
+    except ValueError as exc:
+        alignment_error = str(exc)
+        bounds = np.zeros((len(words), 2))
+        confidence = np.zeros(len(words), np.float32)
+        aligned = np.zeros(len(words), bool)
+        path = np.full(len(logp), -1, np.int32)
+        score = None
+        for w in words:
+            w.update(
+                start=None,
+                end=None,
+                confidence=0.0,
+                status="alignment_failed",
+            )
+    pooled_audio, observed_audio, audio_weights = overlap_pool(
+        bounds, audio_bounds, audio, audio_valid
+    )
+    pooled_vision, observed_vision, vision_weights = overlap_pool(
+        bounds, media["video_bounds"], vision, vision_valid
+    )
+    high_confidence = aligned & (
+        confidence >= config["word_confidence_threshold"]
+    )
+    arrays = dict(
+        text=text,
+        audio=pooled_audio,
+        vision=pooled_vision,
+        word_bounds=bounds,
+        text_valid=text_valid,
+        audio_valid=observed_audio,
+        vision_valid=observed_vision,
+        alignment_valid=aligned,
+        alignment_high_confidence=high_confidence,
+        word_confidence=confidence,
+        subword_features=subwords,
+        subword_ids=sub_ids,
+        subword_to_word=sub_map,
+        audio_frames=audio,
+        audio_bounds=audio_bounds,
+        audio_frame_valid=audio_valid,
+        audio_rms=rms,
+        audio_silence=silence,
+        vision_frames=vision,
+        vision_pts=media["video_pts"],
+        vision_bounds=media["video_bounds"],
+        vision_frame_valid=vision_valid,
+        vision_face_count=face_count,
+        video_frame_indices=media["video_frame_indices"],
+        all_video_pts=media["all_video_pts"],
+        audio_weights=audio_weights,
+        vision_weights=vision_weights,
+        ctc_log_probs=logp,
+        ctc_bounds=ctc_bounds,
+        ctc_state_path=path,
+        ctc_target_ids=targets,
+        ctc_character_word=owners,
+    )
+    np.savez_compressed(destination / "features.npz", **arrays)
+    contact_sheet(media, destination / "contact_sheet.jpg")
+    metadata = dict(
+        **sample,
+        **provenance,
+        duration=media["duration"],
+        video_rate=media["video_rate"],
+        video_origin=media["video_origin"],
+        audio_start=media["audio_start"],
+        audio_duration=len(media["waveform"]) / 16000,
+        audio_coverage_ratio=float(media["audio_coverage"].mean()),
+        words=words,
+        subwords=mapping,
+        audio_feature_names=audio_names,
+        vision_feature_names=vision_names,
+        convolution=convolution,
+        ctc_target_text=target_text,
+        diagnostic_asr=asr,
+        diagnostic_wer=word_error_rate(
+            target_text.replace("|", " "), asr
+        ),
+        alignment_path_log_probability=score,
+        alignment_error=alignment_error,
+        padding_count=0,
+        truncated_words=0,
+        visual_time_support=(
+            "nearest-sampled-frame cells, "
+            "midpoint boundaries; 5 Hz sampling"
+        ),
+        face_selection=(
+            "largest detected face; speaker identity not verified"
+        ),
+        feature_dimensions=dict(
+            text=text.shape[1],
+            audio=audio.shape[1],
+            vision=vision.shape[1],
+        ),
+        statuses=dict(
+            low_confidence_words=int(
+                (aligned & ~high_confidence).sum()
+            ),
+            unaligned_words=int((~aligned).sum()),
+            no_face_frames=int((face_count == 0).sum()),
+            multiple_face_frames=int((face_count > 1).sum()),
+            silent_audio_frames=int(silence.sum()),
+            invalid_audio_frames=int((~audio_valid).sum()),
+        ),
+        elapsed_seconds=time.monotonic() - began,
+    )
+    save_json(destination / "metadata.json", metadata)
+    return metadata
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--device", default="cuda:0")
+    parser.add_argument("--limit", type=int)
+    parser.add_argument("--resume", action="store_true")
+    parser.add_argument("--only", help="指定一个完整sample_id")
+    parser.add_argument(
+        "--output",
+        type=__import__("pathlib").Path,
+        default=ROOT / "results",
+    )
+    args = parser.parse_args()
+    config = json.loads((ROOT / "config.json").read_text())
+    random.seed(config["seed"])
+    np.random.seed(config["seed"])
+    torch.manual_seed(config["seed"])
+    torch.set_num_threads(4)
+    if args.device.startswith("cuda"):
+        if not torch.cuda.is_available():
+            raise RuntimeError(
+                "CUDA不可用：请检查PyTorch、显卡驱动及设备配置"
+            )
+        torch.cuda.manual_seed_all(config["seed"])
+        torch.backends.cudnn.benchmark = False
+        torch.backends.cudnn.deterministic = True
+        torch.backends.cuda.matmul.allow_tf32 = False
+    args.output.mkdir(parents=True, exist_ok=True)
+    samples = read_samples()
+    save_json(args.output / "input_manifest.json", samples)
+    provenance = dict(
+        config_sha256=sha256(ROOT / "config.json"),
+        code_sha256={
+            name: sha256(ROOT / name)
+            for name in (
+                "common.py",
+                "alignment.py",
+                "features.py",
+                "run.py",
+            )
+        },
+    )
+    assets = {
+        p.relative_to(ROOT).as_posix(): sha256(p)
+        for p in (ROOT / "assets").rglob("*")
+        if p.is_file() and ".cache" not in p.parts
+    }
+    provenance["model_assets_sha256"] = assets
+    save_json(
+        args.output / "environment.json",
+        dict(
+            created_utc=datetime.datetime.now(
+                datetime.timezone.utc
+            ).isoformat(),
+            python=sys.executable,
+            python_version=sys.version,
+            platform=platform.platform(),
+            torch_file=torch.__file__,
+            torch_version=torch.__version__,
+            cuda=torch.version.cuda,
+            device=args.device,
+            gpu=(
+                torch.cuda.get_device_name(0)
+                if args.device.startswith("cuda")
+                else None
+            ),
+            cuda_visible_devices=os.environ.get("CUDA_VISIBLE_DEVICES"),
+            packages={
+                p: importlib.metadata.version(p)
+                for p in (
+                    "numpy",
+                    "scipy",
+                    "pandas",
+                    "av",
+                    "pillow",
+                    "transformers",
+                    "mediapipe",
+                    "opensmile",
+                    "openpyxl",
+                    "num2words",
+                    "matplotlib",
+                    "tokenizers",
+                )
+            },
+            asset_sha256=assets,
+            config=config,
+            **provenance,
+        ),
+    )
+    if args.only:
+        samples = [s for s in samples if s["sample_id"] == args.only]
+        if not samples:
+            raise ValueError("sample_id不存在")
+    if args.limit:
+        samples = samples[: args.limit]
+    extractor = Extractors(ROOT / "assets", config, args.device)
+    failures = []
+    try:
+        for index, sample in enumerate(samples):
+            directory = args.output / "samples" / sample["sample_id"]
+            directory.mkdir(parents=True, exist_ok=True)
+            existing = directory / "metadata.json"
+            if (
+                args.resume
+                and existing.is_file()
+                and (directory / "features.npz").is_file()
+            ):
+                old = json.loads(existing.read_text())
+                if (
+                    all(old.get(k) == v for k, v in provenance.items())
+                    and old["source_sha256"] == sample["source_sha256"]
+                ):
+                    print(f"SKIP {sample['sample_id']}", flush=True)
+                    continue
+            try:
+                meta = process_one(
+                    sample, extractor, config, directory, provenance
+                )
+                event = dict(
+                    sample_id=sample["sample_id"],
+                    status="processed",
+                    seconds=meta["elapsed_seconds"],
+                    word_count=len(meta["words"]),
+                    **meta["statuses"],
+                )
+                print(
+                    f"[{index+1}/{len(samples)}] " + json.dumps(event),
+                    flush=True,
+                )
+            except Exception as exc:
+                event = dict(
+                    sample_id=sample["sample_id"],
+                    status="failed",
+                    error=repr(exc),
+                    traceback=traceback.format_exc(),
+                )
+                failures.append(event)
+                print(json.dumps(event), flush=True)
+            with open(
+                args.output / "processing_log.jsonl",
+                "a",
+                encoding="utf-8",
+            ) as f:
+                f.write(json.dumps(event, ensure_ascii=False) + "\n")
+    finally:
+        extractor.close()
+    save_json(args.output / "failures.json", failures)
+    if failures:
+        raise SystemExit(
+            f"{len(failures)}个样本处理失败；记录已保存，不能声称全量完成"
+        )
+
+
+if __name__ == "__main__":
+    main()
+\end{Python}
+
+\vspace{2ex}
+
+\subsection{第2问程序}
+\vspace{-2ex}
+
+\begin{Python}{问题二提交附件/代码/model.py}
+"""轻量时序融合，三个分支 + 三分类/连续强度双任务。"""
+
+import torch
+from torch import nn
+
+NAMES = ["text", "audio", "vision"]
+DIMS = [768, 74, 35]
+
+
+class Branch(nn.Module):
+    def __init__(self, dim, hidden=64, dropout=0.2, pooled=False):
+        super().__init__()
+        self.pooled = pooled
+        if pooled:
+            self.stat = nn.Sequential(
+                nn.Linear(dim * 2, hidden),
+                nn.GELU(),
+                nn.Dropout(dropout),
+                nn.LayerNorm(hidden),
+            )
+        else:
+            self.input = nn.Sequential(
+                nn.Linear(dim, hidden), nn.GELU(), nn.LayerNorm(hidden)
+            )
+            self.conv = nn.ModuleList(
+                [
+                    nn.Conv1d(hidden, hidden, 3, padding=d, dilation=d)
+                    for d in [1, 2]
+                ]
+            )
+            self.norms = nn.ModuleList(
+                [nn.LayerNorm(hidden) for _ in range(2)]
+            )
+            self.drop = nn.Dropout(dropout)
+            self.score = nn.Linear(hidden, 1)
+            self.output = nn.Sequential(
+                nn.Linear(hidden * 2, hidden),
+                nn.GELU(),
+                nn.LayerNorm(hidden),
+            )
+
+    def forward(self, x, p, observed, explicit):
+        x = x.float()
+        valid = observed if explicit or self.pooled else p
+        mask = valid.unsqueeze(-1)
+        count = mask.sum(1).clamp_min(1)
+        if self.pooled:
+            mean = (x * mask).sum(1) / count
+            std = (
+                ((x - mean[:, None]) ** 2 * mask).sum(1) / count + 1e-6
+            ).sqrt()
+            h = self.stat(torch.cat([mean, std], -1))
+        else:
+            h = self.input(x) * p.unsqueeze(-1)
+            for conv, norm in zip(self.conv, self.norms):
+                h = norm(
+                    h
+                    + self.drop(
+                        torch.nn.functional.gelu(
+                            conv(h.transpose(1, 2)).transpose(1, 2)
+                        )
+                    )
+                )
+                h = h * p.unsqueeze(-1)
+            scores = self.score(h).squeeze(-1).masked_fill(~valid, -1e4)
+            alpha = scores.softmax(1) * valid
+            alpha = alpha / alpha.sum(1, keepdim=True).clamp_min(1e-6)
+            attended = (h * alpha[:, :, None]).sum(1)
+            mean = (h * mask).sum(1) / count
+            h = self.output(torch.cat([attended, mean], -1))
+        # 即使“无显式掩码”对照也保证整段全无观测不制造伪信号。
+        return h * observed.any(1, keepdim=True)
+
+
+class SentimentModel(nn.Module):
+    def __init__(self, variant, hidden=64, dropout=0.2):
+        super().__init__()
+        self.variant = variant
+        self.explicit = variant in [
+            "mask_aug",
+            "gated_aug",
+        ] or variant.endswith("_only")
+        self.indices = {
+            "text_only": [0],
+            "audio_only": [1],
+            "vision_only": [2],
+        }.get(variant, [0, 1, 2])
+        self.branches = nn.ModuleDict(
+            {
+                str(j): Branch(
+                    DIMS[j], hidden, dropout, variant == "pooled_clean"
+                )
+                for j in self.indices
+            }
+        )
+        self.quality = nn.Linear(3, hidden)
+        self.gate = nn.Sequential(
+            nn.Linear(hidden + 3, 32), nn.Tanh(), nn.Linear(32, 1)
+        )
+        self.head = nn.Sequential(
+            nn.Linear(hidden, hidden), nn.GELU(), nn.Dropout(dropout)
+        )
+        self.classifier = nn.Linear(hidden, 3)
+        self.regressor = nn.Linear(hidden, 1)
+
+    def forward(self, b):
+        p, o = b["p"], b["o"]
+        q = b["quality"][:, self.indices].float()
+        hs = []
+        for j in self.indices:
+            h = self.branches[str(j)](
+                b[NAMES[j]], p, o[:, j], self.explicit
+            )
+            if self.explicit:
+                h = h + self.quality(b["quality"][:, j].float()) * o[
+                    :, j
+                ].any(1, keepdim=True)
+            hs.append(h)
+        h = torch.stack(hs, 1)
+        present = o[:, self.indices].any(-1)
+        if self.variant == "gated_aug":
+            scores = (
+                self.gate(torch.cat([h, q], -1))
+                .squeeze(-1)
+                .masked_fill(~present, -1e4)
+            )
+            weights = scores.softmax(1)
+        else:
+            weights = torch.ones_like(
+                present, dtype=torch.float32
+            ) / len(self.indices)
+        z = self.head((h * weights[:, :, None]).sum(1))
+        logits = self.classifier(z)
+        intensity = 3 * torch.tanh(self.regressor(z).squeeze(-1))
+        gates = torch.zeros((len(z), 3), device=z.device)
+        gates[:, self.indices] = weights
+        return logits, intensity, gates
+\end{Python}
+
+\vspace{2ex}
+
+\clearpage
+\subsection{第3问程序}
+\vspace{-2ex}
+
+\begin{Python}{问题三提交附件/step3/engine.py}
+"""预测、缺失操作与三模态合作博弈。固定原预测类别作为解释目标。"""
+
+from common import *
+from data import torch_view, slice_view
+from model import SentimentModel
+import numpy as np
+import torch
+from sklearn.metrics import (
+    accuracy_score,
+    f1_score,
+    mean_absolute_error,
+    recall_score,
+)
+
+NAMES = ["text", "audio", "vision"]
+
+
+def metrics(c, y, prob, pred):
+    cls = prob.argmax(1)
+    f = f1_score(
+        c, cls, labels=[0, 1, 2], average=None, zero_division=0
+    )
+    return dict(
+        accuracy=float(accuracy_score(c, cls)),
+        macro_f1=float(f.mean()),
+        mae=float(mean_absolute_error(y, pred)),
+        pearson=(
+            float(np.corrcoef(y, pred)[0, 1])
+            if np.std(pred) > 1e-8
+            else None
+        ),
+        f1_negative=float(f[0]),
+        f1_neutral=float(f[1]),
+        f1_positive=float(f[2]),
+        neutral_recall=float(
+            recall_score(
+                c, cls, labels=[1], average=None, zero_division=0
+            )[0]
+        ),
+    )
+
+
+def load_model(path):
+    ck = torch.load(path, map_location="cpu", weights_only=True)
+    m = (
+        SentimentModel(ck["variant"], ck["hidden"], ck["dropout"])
+        .cuda()
+        .eval()
+    )
+    m.load_state_dict(ck["state_dict"])
+    return m, ck
+
+
+def load_view(split):
+    path = ROOT / f"cache/{split}_clean.npz"
+    if not path.exists():
+        path = P2 / f"cache/{split}_0.npz"
+    with np.load(path) as z:
+        return {
+            k: z[k]
+            for k in ["text", "audio", "vision", "p", "o", "quality"]
+        }
+
+
+def load_labels(split):
+    path = ROOT / f"cache/{split}_labels.npz"
+    if not path.exists():
+        path = P2 / f"cache/{split}_labels.npz"
+    return dict(np.load(path))
+
+
+def quality(p, o):
+    lengths = np.maximum(p.sum(-1), 1)
+    run = np.zeros(o.shape[:2], int)
+    longest = run.copy()
+    for t in range(50):
+        run = (run + 1) * (p[:, t, None] & ~o[:, :, t])
+        longest = np.maximum(longest, run)
+    return np.stack(
+        [
+            o.sum(-1) / lengths[:, None],
+            longest / lengths[:, None],
+            np.broadcast_to(lengths[:, None] / 48, o.shape[:2]),
+        ],
+        -1,
+    ).astype(np.float32)
+
+
+def coalitional_view(view, keep, reference=None):
+    b = {k: v.copy() for k, v in view.items()}
+    for j, name in enumerate(NAMES):
+        absent = ~np.asarray(keep)[:, j]
+        if reference is None:
+            b[name][absent] = 0
+            b["o"][absent, j] = False
+        else:
+            b[name][absent] = (
+                reference[name][None, None, :]
+                * b["o"][absent, j, :, None]
+            )
+    if reference is None:
+        b["quality"] = quality(b["p"], b["o"])
+    return b
+
+
+@torch.inference_mode()
+def predictions(models, view, batch=256, per_seed=False):
+    b = torch_view(view) if isinstance(view["p"], np.ndarray) else view
+    seed_out = []
+    for m in models:
+        m.eval()
+        out = []
+        for start in range(0, len(b["p"]), batch):
+            logits, y, _ = m(slice_view(b, slice(start, start + batch)))
+            out.append(
+                np.c_[logits.softmax(-1).cpu().numpy(), y.cpu().numpy()]
+            )
+        seed_out.append(np.concatenate(out))
+    seed_out = np.stack(seed_out)
+    return seed_out if per_seed else seed_out.mean(0)
+
+
+def coalition_values(models, view, reference=None):
+    values = []
+    for mask in range(8):
+        keep = np.broadcast_to(
+            [bool(mask & (1 << j)) for j in range(3)],
+            (len(view["p"]), 3),
+        )
+        values.append(
+            predictions(
+                models,
+                coalitional_view(view, keep, reference),
+                per_seed=True,
+            )
+        )
+    return np.stack(
+        values, axis=2
+    )  # seeds,N,8,(3 probabilities + intensity)
+
+
+def shapley(values, target):
+    # values: N,8,4; target是完整输入下固定的原预测类别。
+    n = len(values)
+    scores = values[
+        np.arange(n)[:, None], np.arange(8)[None, :], target[:, None]
+    ]
+    y = values[:, :, 3]
+    phi = np.zeros((n, 3, 2), np.float64)
+    for j in range(3):
+        for mask in range(8):
+            if mask & (1 << j):
+                continue
+            size = mask.bit_count()
+            weight = [1 / 3, 1 / 6, 1 / 3][size]
+            phi[:, j, 0] += weight * (
+                scores[:, mask | (1 << j)] - scores[:, mask]
+            )
+            phi[:, j, 1] += weight * (
+                y[:, mask | (1 << j)] - y[:, mask]
+            )
+    residual = (
+        phi.sum(1)
+        - np.c_[scores[:, 7] - scores[:, 0], y[:, 7] - y[:, 0]]
+    )
+    assert np.max(np.abs(residual)) < 2e-6
+    return phi, residual
+
+
+def selected_models():
+    lock = json.loads((ROOT / "selection_lock.json").read_text())
+    out = []
+    for file, digest in lock["checkpoints"].items():
+        path = ROOT / "checkpoints" / file
+        assert sha256(path) == digest
+        out.append(load_model(path)[0])
+    return out, lock
+\end{Python}
+
+\vspace{2ex}
+
+\begin{Python}{问题三提交附件/step3/explain.py}
+"""精确模态Shapley + 表示层IG筛选 + 原输入局部删除/保留验证。"""
+
+from common import *
+from engine import *
+from data import TextEncoder, adapt
+
+
+def dominant(phi):
+    absolute = np.abs(phi[:, :, 0])
+    total = absolute.sum(1)
+    share = absolute / np.maximum(total[:, None], 1e-12)
+    index = share.argmax(1)
+    status = np.where(
+        total < 0.001,
+        "weak",
+        np.where(share.max(1) < 0.45, "mixed", "dominant"),
+    )
+    return index, share, status
+
+
+def integrated_gradients(
+    models, view, target, nodes=32, reference=None, batch=8
+):
+    """Gauss-Legendre路径积分。O和quality固定，只解释连续表示，不冒充原词删除。"""
+    pts, weights = np.polynomial.legendre.leggauss(nodes)
+    pts = torch.tensor(
+        (pts + 1) / 2, device="cuda", dtype=torch.float32
+    )
+    weights = torch.tensor(
+        weights / 2, device="cuda", dtype=torch.float32
+    )
+    results = []
+    residuals = []
+    for start in range(0, len(target), batch):
+        idx = np.arange(start, min(start + batch, len(target)))
+        v = torch_view({k: x[idx] for k, x in view.items()})
+        n = len(idx)
+        b = {
+            k: x.repeat_interleave(nodes, dim=0)
+            for k, x in v.items()
+            if k not in NAMES
+        }
+        originals = []
+        baselines = []
+        inputs = []
+        for j, name in enumerate(NAMES):
+            x = v[name].float()
+            ref = (
+                torch.zeros_like(x)
+                if reference is None
+                else torch.as_tensor(reference[name], device="cuda")[
+                    None, None, :
+                ].expand_as(x)
+                * v["o"][:, j, :, None]
+            )
+            path = (
+                ref[:, None]
+                + pts[None, :, None, None] * (x - ref)[:, None]
+            )
+            path = (
+                path.reshape(n * nodes, 50, x.shape[-1])
+                .detach()
+                .requires_grad_(True)
+            )
+            b[name] = path
+            inputs.append(path)
+            originals.append(x)
+            baselines.append(ref)
+        targets = torch.as_tensor(
+            np.repeat(target[idx], nodes), device="cuda"
+        )
+        score = 0
+        for model in models:
+            model.eval()
+            logits, _, _ = model(b)
+            score = score + logits.softmax(-1).gather(
+                1, targets[:, None]
+            ).squeeze(1) / len(models)
+        gradients = torch.autograd.grad(score.sum(), inputs)
+        attr = []
+        for grad, x, ref in zip(gradients, originals, baselines):
+            integral = (
+                grad.reshape(n, nodes, 50, -1)
+                * weights[None, :, None, None]
+            ).sum(1)
+            attr.append(
+                ((x - ref) * integral).sum(-1).detach().cpu().numpy()
+            )
+        attr = np.stack(attr, 1)
+        orig = {k: x[idx] for k, x in view.items()}
+        baseline = {k: x.copy() for k, x in orig.items()}
+        for j, name in enumerate(NAMES):
+            baseline[name] = baselines[j].cpu().numpy()
+        full = predictions(models, orig)
+        zero = predictions(models, baseline)
+        delta = (
+            full[np.arange(n), target[idx]]
+            - zero[np.arange(n), target[idx]]
+        )
+        residuals.append(attr.sum((1, 2)) - delta)
+        results.append(attr)
+    return np.concatenate(results), np.concatenate(residuals)
+
+
+def windows(p, fraction=0.2):
+    slots = np.flatnonzero(p)
+    if not len(slots):
+        return [(0, 0)]
+    k = min(
+        len(slots), max(1, int(np.floor(len(slots) * fraction + 0.5)))
+    )
+    return [
+        (int(slots[s]), int(slots[s + k - 1]) + 1)
+        for s in range(len(slots) - k + 1)
+    ]
+
+
+def rank_windows(ig, p, fraction=0.2):
+    chosen = []
+    bank = []
+    for i in range(len(p)):
+        row = []
+        candidates = windows(p[i], fraction)
+        bank.append(candidates)
+        for j in range(3):
+            scores = [float(ig[i, j, a:b].sum()) for a, b in candidates]
+            row.append(candidates[int(np.argmax(scores))])
+        chosen.append(row)
+    return np.asarray(chosen), bank
+
+
+def refine_integrals(
+    models, view, target, ig, residual, reference=None
+):
+    """按完备性恒等式检查数值精度，不使用真实标签或删除成绩调解释。"""
+    attr = ig.copy()
+    res = residual.copy()
+    used = np.full(len(target), 32, int)
+    for nodes in [64, 128, 256]:
+        idx = np.flatnonzero(abs(res) > 0.001)
+        if not len(idx):
+            break
+        subset = {k: v[idx] for k, v in view.items()}
+        new, error = integrated_gradients(
+            models,
+            subset,
+            target[idx],
+            nodes=nodes,
+            reference=reference,
+            batch=4 if nodes >= 128 else 8,
+        )
+        attr[idx] = new
+        res[idx] = error
+        used[idx] = nodes
+    return attr, res, used
+
+
+class ProbeEngine:
+    """需要删除文本时始终重算冻结编码，其他模态不借文本替代回填。"""
+
+    def __init__(self, models, raw, clean, encoder=None):
+        self.models = models
+        self.base = adapt(raw)
+        self.clean = clean
+        self.stats = dict(
+            np.load(ROOT / "checkpoints/normalization.npz")
+        )
+        self.encoder = encoder or TextEncoder()
+
+    def probe(self, specs, batch=128, per_seed=False):
+        # spec=(sample index, modality index, start slot, end slot,
+        #       'drop'/'keep'/'only')
+        results = []
+        for begin in range(0, len(specs), batch):
+            part = specs[begin : begin + batch]
+            idx = np.array([s[0] for s in part], int)
+            v = {k: x[idx].copy() for k, x in self.clean.items()}
+            for r, (_, m, a, b, mode) in enumerate(part):
+                if mode == "drop":
+                    v["o"][r, m, a:b] = False
+                elif mode in ["keep", "only"]:
+                    if mode == "only":
+                        for other in range(3):
+                            if other != m:
+                                v["o"][r, other] = False
+                    v["o"][r, m, :a] = False
+                    v["o"][r, m, b:] = False
+                else:
+                    raise ValueError(mode)
+            changed = np.any(
+                v["o"][:, 0] != self.base["o"][idx, 0], axis=1
+            )
+            encode_idx = np.flatnonzero(changed & v["o"][:, 0].any(1))
+            if len(encode_idx):
+                base = {
+                    k: x[idx[encode_idx]]
+                    for k, x in self.base.items()
+                    if isinstance(x, np.ndarray)
+                }
+                text = self.encoder.encode(base, v["o"][encode_idx])
+                norm = np.clip(
+                    (text - self.stats["text_mean"])
+                    / self.stats["text_std"],
+                    -8,
+                    8,
+                )
+                norm[~v["o"][encode_idx, 0]] = 0
+                v["text"][encode_idx] = norm.astype(np.float16)
+            for m, name in enumerate(NAMES):
+                v[name][~v["o"][:, m]] = 0
+            v["quality"] = quality(v["p"], v["o"])
+            results.append(
+                predictions(self.models, v, per_seed=per_seed)
+            )
+        return np.concatenate(results, axis=1 if per_seed else 0)
+
+
+def modality_records(ids, values, refvalues, targets):
+    phi, res = shapley(values.mean(0), targets)
+    phi_ref, _ = shapley(refvalues.mean(0), targets)
+    per = np.stack([shapley(v, targets)[0] for v in values])
+    main, shares, status = dominant(phi)
+    mainref, _, _ = dominant(phi_ref)
+    per_main = np.stack([dominant(p)[0] for p in per])
+    rows = []
+    for i, id_ in enumerate(ids):
+        for m, name in enumerate(NAMES):
+            rows.append(
+                dict(
+                    sample_id=str(id_),
+                    modality=name,
+                    target_class=int(targets[i]),
+                    class_shapley=float(phi[i, m, 0]),
+                    intensity_shapley=float(phi[i, m, 1]),
+                    absolute_share=float(shares[i, m]),
+                    class_shapley_seed_std=float(
+                        per[:, i, m, 0].std(ddof=1)
+                    ),
+                    intensity_shapley_seed_std=float(
+                        per[:, i, m, 1].std(ddof=1)
+                    ),
+                    reference_class_shapley=float(phi_ref[i, m, 0]),
+                    reference_intensity_shapley=float(phi_ref[i, m, 1]),
+                    main_modality=(
+                        NAMES[main[i]]
+                        if status[i] == "dominant"
+                        else status[i]
+                    ),
+                    strongest_modality=NAMES[main[i]],
+                    main_status=status[i],
+                    main_seed_agreement=float(
+                        (per_main[:, i] == main[i]).mean()
+                    ),
+                    baseline_main_agrees=bool(main[i] == mainref[i]),
+                    efficiency_residual=float(res[i, 0]),
+                )
+            )
+    return rows, phi, main
+\end{Python}
+
+\vspace{2ex}
+
+\clearpage
+\section{数据说明}
+\label{app:tail-materials}
+
+\begingroup
+\small
+\renewcommand{\arraystretch}{1.15}
+\noindent
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.24\linewidth}>{\raggedright\arraybackslash}p{0.70\linewidth}@{}}
+\toprule
+附件内容 & 文件位置 \\
+\midrule
+问题一特征与汇总 & 问题一提交附件/\path{step1/results/} \\
+问题二预测结果 & 问题二提交附件/附件3\_问题二预测.csv \\
+问题二模型参数 & 问题二提交附件/模型/中的\path{final_*.pt}及\path{normalization.npz} \\
+问题三预测与解释 & 问题三提交附件/\path{step3/results/}中的附件4\_问题三预测与解释.csv及\path{special_explanations.json} \\
+问题三模型参数 & 问题三提交附件/\path{step3/checkpoints/}中的\path{final_*.pt}、\path{normalization.npz}及\path{training_reference.npz} \\
+问题三素材映射与解释卡 & 问题三提交附件/解释结果查看.html；\path{step3/results/}下的\path{mapping/}及\path{cards/} \\
+核心代码与配置 & 问题一提交附件/\path{step1/}；问题二提交附件/代码/及配置/；问题三提交附件/\path{step3/} \\
+实验复核与运行说明 & 各问提交附件根目录的说明文档与核验附件.py；问题二的实验记录/及问题三的\path{step3/results/} \\
+\bottomrule
+\end{tabular}
+\endgroup
+
+\end{appendices}

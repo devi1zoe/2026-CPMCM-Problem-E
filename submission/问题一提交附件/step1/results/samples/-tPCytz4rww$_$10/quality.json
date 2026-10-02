@@ -1,0 +1,12 @@
+{
+  "sample_id": "-tPCytz4rww$_$10",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.9565377235412598,
+  "low_confidence_fraction": 0.0,
+  "diagnostic_wer": 0.4166666666666667,
+  "usable_word_times": 12,
+  "words": 12,
+  "raw_text": "Say twenty percent so if you've got a thousand square foot condo.",
+  "diagnostic_asr": "FOOTAGE SAY TWENTY PER CENT SO IF YOU'VE GET A THOUSAND SQUARE FOOT CONDO MAY"
+}

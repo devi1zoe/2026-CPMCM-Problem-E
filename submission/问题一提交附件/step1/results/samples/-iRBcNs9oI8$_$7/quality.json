@@ -1,0 +1,16 @@
+{
+  "sample_id": "-iRBcNs9oI8$_$7",
+  "requires_transcript_review": true,
+  "reasons": [
+    "mean_CTC_confidence_below_0.2",
+    "more_than_half_words_below_0.1",
+    "diagnostic_WER_above_0.8"
+  ],
+  "mean_confidence": 0.004080040846019983,
+  "low_confidence_fraction": 1.0,
+  "diagnostic_wer": 1.2222222222222223,
+  "usable_word_times": 0,
+  "words": 9,
+  "raw_text": "Well, for starters, let's look at the word \"power\"",
+  "diagnostic_asr": "TERVIEW AND THE SECRET WILL ALSO HELP YOU IF YOU E"
+}

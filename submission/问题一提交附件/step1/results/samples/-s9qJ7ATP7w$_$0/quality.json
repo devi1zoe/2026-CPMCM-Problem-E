@@ -1,0 +1,12 @@
+{
+  "sample_id": "-s9qJ7ATP7w$_$0",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.7974388003349304,
+  "low_confidence_fraction": 0.041666666666666664,
+  "diagnostic_wer": 0.3333333333333333,
+  "usable_word_times": 23,
+  "words": 24,
+  "raw_text": "they have doubt, they have fear, they lose in a Ferrari race, or they lose in a race, and then they just give up",
+  "diagnostic_asr": "ANA DOUBT THEY HAVE FEAR THEY LOSING A FORIRY RACE OR DE LOSEIN A RACE AND THEN THEY JUST GIVE UP"
+}

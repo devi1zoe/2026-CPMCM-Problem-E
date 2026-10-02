@@ -1,0 +1,857 @@
+{
+  "sample_id": "-THoVjtIkeU$_$6",
+  "video_id": "-THoVjtIkeU",
+  "clip_id": "6",
+  "raw_text": "You know that I think listening to young people, taking in what they have to say because what we have seen all around the world is the power of youth.",
+  "label": 2.6666667461395264,
+  "annotation": "Positive",
+  "source_path": "E题_材料阅读/E题数据/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-THoVjtIkeU/6.mp4",
+  "source_sha256": "efaa55ee6394032c867046690a92c29edfd825005f0a090cca5ccb763b227f64",
+  "config_sha256": "4a530340304f07255daf856e6891f0a15e50f05bd85343d067a663a573e8f888",
+  "code_sha256": {
+    "common.py": "4a37980b521a2f5a93e208d3ba265542a149336b3401aa89b8a4494517f5e16e",
+    "alignment.py": "76b29c002cdc97e8e0e85cffae02d81db938fa39484ad908c28c5efc60de0c34",
+    "features.py": "8283e0d0886b83bbd84d4db4521599b480b0ada4bc1afc4e4b9b91cddf5b4018",
+    "run.py": "f75d7b5bc6e342541664233a37a3d87f39313bcd3a8f3a50bfaea94798d4e07b"
+  },
+  "model_assets_sha256": {
+    "assets/face_landmarker.task": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff",
+    "assets/wav2vec2/preprocessor_config.json": "b225d617c025463b9e157e06afea8b90dc7078fc70b013c533328423e0486b4a",
+    "assets/wav2vec2/vocab.json": "19727f8944fe6459fc3f240ae2c198395b740f6a029bd23e06656266b83bcf64",
+    "assets/wav2vec2/special_tokens_map.json": "bb7068de1150661a10b55f9e4b12a0e77af8bf91f5e45e1b58afaf1d0e17f675",
+    "assets/wav2vec2/tokenizer_config.json": "dc790594f5bc351a4311c6624f40acd95850d4aaf2a5cb3c656c9b610720b608",
+    "assets/wav2vec2/model.safetensors": "8aa76ab2243c81747a1f832954586bc566090c83a0ac167df6f31f0fa917d74a",
+    "assets/wav2vec2/config.json": "d3ec255c063d9f95057b553b19c20135b259875834a4fe9deb218a6be25b4cf3",
+    "assets/distilbert/vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+    "assets/distilbert/tokenizer_config.json": "a025160ef0431f1a392f6f050c1310f4c5d9fb6f275932dbccba73c4d214bf10",
+    "assets/distilbert/model.safetensors": "5e3f1108e3cb34ee048634875d8482665b65ac713291a7e32396fb18f6ff0063",
+    "assets/distilbert/config.json": "69c94b0222d5d1f4b0ad027ca7416cdafb98378cbbb8305d0bf47c9365c60c83",
+    "assets/distilbert/tokenizer.json": "ce64fce797c24f68df90b40a3f74f579b336a493db14bd583fd520ea0d8c9a98"
+  },
+  "duration": 8.097005208333334,
+  "video_rate": 30.0,
+  "video_origin": 0.0,
+  "audio_start": 0.0,
+  "audio_duration": 7.982875,
+  "audio_coverage_ratio": 1.0,
+  "words": [
+    {
+      "index": 0,
+      "original": "You",
+      "char_start": 0,
+      "char_end": 3,
+      "normalized": "YOU",
+      "subword_indices": [
+        0
+      ],
+      "start": 0.48246875,
+      "end": 0.56246875,
+      "confidence": 0.9986042976379395,
+      "status": "aligned"
+    },
+    {
+      "index": 1,
+      "original": "know",
+      "char_start": 4,
+      "char_end": 8,
+      "normalized": "KNOW",
+      "subword_indices": [
+        1
+      ],
+      "start": 0.60246875,
+      "end": 0.70246875,
+      "confidence": 0.9995915293693542,
+      "status": "aligned"
+    },
+    {
+      "index": 2,
+      "original": "that",
+      "char_start": 9,
+      "char_end": 13,
+      "normalized": "THAT",
+      "subword_indices": [
+        2
+      ],
+      "start": 0.74246875,
+      "end": 0.82246875,
+      "confidence": 2.865719943656586e-05,
+      "status": "low_confidence"
+    },
+    {
+      "index": 3,
+      "original": "I",
+      "char_start": 14,
+      "char_end": 15,
+      "normalized": "I",
+      "subword_indices": [
+        3
+      ],
+      "start": 0.86246875,
+      "end": 0.88246875,
+      "confidence": 1.2937744031660259e-05,
+      "status": "low_confidence"
+    },
+    {
+      "index": 4,
+      "original": "think",
+      "char_start": 16,
+      "char_end": 21,
+      "normalized": "THINK",
+      "subword_indices": [
+        4
+      ],
+      "start": 0.90246875,
+      "end": 1.06246875,
+      "confidence": 0.9431564807891846,
+      "status": "aligned"
+    },
+    {
+      "index": 5,
+      "original": "listening",
+      "char_start": 22,
+      "char_end": 31,
+      "normalized": "LISTENING",
+      "subword_indices": [
+        5
+      ],
+      "start": 1.48246875,
+      "end": 1.88246875,
+      "confidence": 0.9788619875907898,
+      "status": "aligned"
+    },
+    {
+      "index": 6,
+      "original": "to",
+      "char_start": 32,
+      "char_end": 34,
+      "normalized": "TO",
+      "subword_indices": [
+        6
+      ],
+      "start": 1.94246875,
+      "end": 2.00246875,
+      "confidence": 0.9999551773071289,
+      "status": "aligned"
+    },
+    {
+      "index": 7,
+      "original": "young",
+      "char_start": 35,
+      "char_end": 40,
+      "normalized": "YOUNG",
+      "subword_indices": [
+        7
+      ],
+      "start": 2.0624687500000003,
+      "end": 2.22246875,
+      "confidence": 0.9997004866600037,
+      "status": "aligned"
+    },
+    {
+      "index": 8,
+      "original": "people",
+      "char_start": 41,
+      "char_end": 47,
+      "normalized": "PEOPLE",
+      "subword_indices": [
+        8
+      ],
+      "start": 2.30246875,
+      "end": 2.56246875,
+      "confidence": 0.9790214896202087,
+      "status": "aligned"
+    },
+    {
+      "index": 9,
+      "original": "taking",
+      "char_start": 49,
+      "char_end": 55,
+      "normalized": "TAKING",
+      "subword_indices": [
+        10
+      ],
+      "start": 2.7024687500000004,
+      "end": 3.02246875,
+      "confidence": 0.9898767471313477,
+      "status": "aligned"
+    },
+    {
+      "index": 10,
+      "original": "in",
+      "char_start": 56,
+      "char_end": 58,
+      "normalized": "IN",
+      "subword_indices": [
+        11
+      ],
+      "start": 3.0824687500000003,
+      "end": 3.12246875,
+      "confidence": 0.9991090297698975,
+      "status": "aligned"
+    },
+    {
+      "index": 11,
+      "original": "what",
+      "char_start": 59,
+      "char_end": 63,
+      "normalized": "WHAT",
+      "subword_indices": [
+        12
+      ],
+      "start": 3.22246875,
+      "end": 3.3624687499999997,
+      "confidence": 0.9981133341789246,
+      "status": "aligned"
+    },
+    {
+      "index": 12,
+      "original": "they",
+      "char_start": 64,
+      "char_end": 68,
+      "normalized": "THEY",
+      "subword_indices": [
+        13
+      ],
+      "start": 3.40246875,
+      "end": 3.52246875,
+      "confidence": 0.9189181327819824,
+      "status": "aligned"
+    },
+    {
+      "index": 13,
+      "original": "have",
+      "char_start": 69,
+      "char_end": 73,
+      "normalized": "HAVE",
+      "subword_indices": [
+        14
+      ],
+      "start": 3.6024687500000003,
+      "end": 3.7424687499999996,
+      "confidence": 0.992756724357605,
+      "status": "aligned"
+    },
+    {
+      "index": 14,
+      "original": "to",
+      "char_start": 74,
+      "char_end": 76,
+      "normalized": "TO",
+      "subword_indices": [
+        15
+      ],
+      "start": 3.78246875,
+      "end": 3.8624687499999997,
+      "confidence": 0.9999030232429504,
+      "status": "aligned"
+    },
+    {
+      "index": 15,
+      "original": "say",
+      "char_start": 77,
+      "char_end": 80,
+      "normalized": "SAY",
+      "subword_indices": [
+        16
+      ],
+      "start": 3.94246875,
+      "end": 4.1224687499999995,
+      "confidence": 0.9999648928642273,
+      "status": "aligned"
+    },
+    {
+      "index": 16,
+      "original": "because",
+      "char_start": 81,
+      "char_end": 88,
+      "normalized": "BECAUSE",
+      "subword_indices": [
+        17
+      ],
+      "start": 4.22246875,
+      "end": 4.44246875,
+      "confidence": 0.9999839067459106,
+      "status": "aligned"
+    },
+    {
+      "index": 17,
+      "original": "what",
+      "char_start": 89,
+      "char_end": 93,
+      "normalized": "WHAT",
+      "subword_indices": [
+        18
+      ],
+      "start": 4.862468750000001,
+      "end": 4.96246875,
+      "confidence": 0.9999234080314636,
+      "status": "aligned"
+    },
+    {
+      "index": 18,
+      "original": "we",
+      "char_start": 94,
+      "char_end": 96,
+      "normalized": "WE",
+      "subword_indices": [
+        19
+      ],
+      "start": 5.00246875,
+      "end": 5.06246875,
+      "confidence": 0.9996318817138672,
+      "status": "aligned"
+    },
+    {
+      "index": 19,
+      "original": "have",
+      "char_start": 97,
+      "char_end": 101,
+      "normalized": "HAVE",
+      "subword_indices": [
+        20
+      ],
+      "start": 5.08246875,
+      "end": 5.18246875,
+      "confidence": 0.08431274443864822,
+      "status": "low_confidence"
+    },
+    {
+      "index": 20,
+      "original": "seen",
+      "char_start": 102,
+      "char_end": 106,
+      "normalized": "SEEN",
+      "subword_indices": [
+        21
+      ],
+      "start": 5.2424687500000005,
+      "end": 5.42246875,
+      "confidence": 0.998818039894104,
+      "status": "aligned"
+    },
+    {
+      "index": 21,
+      "original": "all",
+      "char_start": 107,
+      "char_end": 110,
+      "normalized": "ALL",
+      "subword_indices": [
+        22
+      ],
+      "start": 5.56246875,
+      "end": 5.68246875,
+      "confidence": 0.9997230172157288,
+      "status": "aligned"
+    },
+    {
+      "index": 22,
+      "original": "around",
+      "char_start": 111,
+      "char_end": 117,
+      "normalized": "AROUND",
+      "subword_indices": [
+        23
+      ],
+      "start": 5.7424687500000005,
+      "end": 5.92246875,
+      "confidence": 0.9362956285476685,
+      "status": "aligned"
+    },
+    {
+      "index": 23,
+      "original": "the",
+      "char_start": 118,
+      "char_end": 121,
+      "normalized": "THE",
+      "subword_indices": [
+        24
+      ],
+      "start": 5.98246875,
+      "end": 6.042468749999999,
+      "confidence": 0.9999287724494934,
+      "status": "aligned"
+    },
+    {
+      "index": 24,
+      "original": "world",
+      "char_start": 122,
+      "char_end": 127,
+      "normalized": "WORLD",
+      "subword_indices": [
+        25
+      ],
+      "start": 6.10246875,
+      "end": 6.32246875,
+      "confidence": 0.9415445923805237,
+      "status": "aligned"
+    },
+    {
+      "index": 25,
+      "original": "is",
+      "char_start": 128,
+      "char_end": 130,
+      "normalized": "IS",
+      "subword_indices": [
+        26
+      ],
+      "start": 6.50246875,
+      "end": 6.56246875,
+      "confidence": 0.9259793162345886,
+      "status": "aligned"
+    },
+    {
+      "index": 26,
+      "original": "the",
+      "char_start": 131,
+      "char_end": 134,
+      "normalized": "THE",
+      "subword_indices": [
+        27
+      ],
+      "start": 6.60246875,
+      "end": 6.68246875,
+      "confidence": 0.9610103964805603,
+      "status": "aligned"
+    },
+    {
+      "index": 27,
+      "original": "power",
+      "char_start": 135,
+      "char_end": 140,
+      "normalized": "POWER",
+      "subword_indices": [
+        28
+      ],
+      "start": 6.7424687500000005,
+      "end": 7.042468749999999,
+      "confidence": 0.8657917380332947,
+      "status": "aligned"
+    },
+    {
+      "index": 28,
+      "original": "of",
+      "char_start": 141,
+      "char_end": 143,
+      "normalized": "OF",
+      "subword_indices": [
+        29
+      ],
+      "start": 7.12246875,
+      "end": 7.1624687499999995,
+      "confidence": 0.9996674060821533,
+      "status": "aligned"
+    },
+    {
+      "index": 29,
+      "original": "youth",
+      "char_start": 144,
+      "char_end": 149,
+      "normalized": "YOUTH",
+      "subword_indices": [
+        30
+      ],
+      "start": 7.2424687500000005,
+      "end": 7.542468749999999,
+      "confidence": 0.20013149082660675,
+      "status": "aligned"
+    }
+  ],
+  "subwords": [
+    {
+      "index": 0,
+      "token_id": 2017,
+      "token": "you",
+      "char_start": 0,
+      "char_end": 3,
+      "word_index": 0,
+      "chunk_index": 0
+    },
+    {
+      "index": 1,
+      "token_id": 2113,
+      "token": "know",
+      "char_start": 4,
+      "char_end": 8,
+      "word_index": 1,
+      "chunk_index": 0
+    },
+    {
+      "index": 2,
+      "token_id": 2008,
+      "token": "that",
+      "char_start": 9,
+      "char_end": 13,
+      "word_index": 2,
+      "chunk_index": 0
+    },
+    {
+      "index": 3,
+      "token_id": 1045,
+      "token": "i",
+      "char_start": 14,
+      "char_end": 15,
+      "word_index": 3,
+      "chunk_index": 0
+    },
+    {
+      "index": 4,
+      "token_id": 2228,
+      "token": "think",
+      "char_start": 16,
+      "char_end": 21,
+      "word_index": 4,
+      "chunk_index": 0
+    },
+    {
+      "index": 5,
+      "token_id": 5962,
+      "token": "listening",
+      "char_start": 22,
+      "char_end": 31,
+      "word_index": 5,
+      "chunk_index": 0
+    },
+    {
+      "index": 6,
+      "token_id": 2000,
+      "token": "to",
+      "char_start": 32,
+      "char_end": 34,
+      "word_index": 6,
+      "chunk_index": 0
+    },
+    {
+      "index": 7,
+      "token_id": 2402,
+      "token": "young",
+      "char_start": 35,
+      "char_end": 40,
+      "word_index": 7,
+      "chunk_index": 0
+    },
+    {
+      "index": 8,
+      "token_id": 2111,
+      "token": "people",
+      "char_start": 41,
+      "char_end": 47,
+      "word_index": 8,
+      "chunk_index": 0
+    },
+    {
+      "index": 9,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 47,
+      "char_end": 48,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 10,
+      "token_id": 2635,
+      "token": "taking",
+      "char_start": 49,
+      "char_end": 55,
+      "word_index": 9,
+      "chunk_index": 0
+    },
+    {
+      "index": 11,
+      "token_id": 1999,
+      "token": "in",
+      "char_start": 56,
+      "char_end": 58,
+      "word_index": 10,
+      "chunk_index": 0
+    },
+    {
+      "index": 12,
+      "token_id": 2054,
+      "token": "what",
+      "char_start": 59,
+      "char_end": 63,
+      "word_index": 11,
+      "chunk_index": 0
+    },
+    {
+      "index": 13,
+      "token_id": 2027,
+      "token": "they",
+      "char_start": 64,
+      "char_end": 68,
+      "word_index": 12,
+      "chunk_index": 0
+    },
+    {
+      "index": 14,
+      "token_id": 2031,
+      "token": "have",
+      "char_start": 69,
+      "char_end": 73,
+      "word_index": 13,
+      "chunk_index": 0
+    },
+    {
+      "index": 15,
+      "token_id": 2000,
+      "token": "to",
+      "char_start": 74,
+      "char_end": 76,
+      "word_index": 14,
+      "chunk_index": 0
+    },
+    {
+      "index": 16,
+      "token_id": 2360,
+      "token": "say",
+      "char_start": 77,
+      "char_end": 80,
+      "word_index": 15,
+      "chunk_index": 0
+    },
+    {
+      "index": 17,
+      "token_id": 2138,
+      "token": "because",
+      "char_start": 81,
+      "char_end": 88,
+      "word_index": 16,
+      "chunk_index": 0
+    },
+    {
+      "index": 18,
+      "token_id": 2054,
+      "token": "what",
+      "char_start": 89,
+      "char_end": 93,
+      "word_index": 17,
+      "chunk_index": 0
+    },
+    {
+      "index": 19,
+      "token_id": 2057,
+      "token": "we",
+      "char_start": 94,
+      "char_end": 96,
+      "word_index": 18,
+      "chunk_index": 0
+    },
+    {
+      "index": 20,
+      "token_id": 2031,
+      "token": "have",
+      "char_start": 97,
+      "char_end": 101,
+      "word_index": 19,
+      "chunk_index": 0
+    },
+    {
+      "index": 21,
+      "token_id": 2464,
+      "token": "seen",
+      "char_start": 102,
+      "char_end": 106,
+      "word_index": 20,
+      "chunk_index": 0
+    },
+    {
+      "index": 22,
+      "token_id": 2035,
+      "token": "all",
+      "char_start": 107,
+      "char_end": 110,
+      "word_index": 21,
+      "chunk_index": 0
+    },
+    {
+      "index": 23,
+      "token_id": 2105,
+      "token": "around",
+      "char_start": 111,
+      "char_end": 117,
+      "word_index": 22,
+      "chunk_index": 0
+    },
+    {
+      "index": 24,
+      "token_id": 1996,
+      "token": "the",
+      "char_start": 118,
+      "char_end": 121,
+      "word_index": 23,
+      "chunk_index": 0
+    },
+    {
+      "index": 25,
+      "token_id": 2088,
+      "token": "world",
+      "char_start": 122,
+      "char_end": 127,
+      "word_index": 24,
+      "chunk_index": 0
+    },
+    {
+      "index": 26,
+      "token_id": 2003,
+      "token": "is",
+      "char_start": 128,
+      "char_end": 130,
+      "word_index": 25,
+      "chunk_index": 0
+    },
+    {
+      "index": 27,
+      "token_id": 1996,
+      "token": "the",
+      "char_start": 131,
+      "char_end": 134,
+      "word_index": 26,
+      "chunk_index": 0
+    },
+    {
+      "index": 28,
+      "token_id": 2373,
+      "token": "power",
+      "char_start": 135,
+      "char_end": 140,
+      "word_index": 27,
+      "chunk_index": 0
+    },
+    {
+      "index": 29,
+      "token_id": 1997,
+      "token": "of",
+      "char_start": 141,
+      "char_end": 143,
+      "word_index": 28,
+      "chunk_index": 0
+    },
+    {
+      "index": 30,
+      "token_id": 3360,
+      "token": "youth",
+      "char_start": 144,
+      "char_end": 149,
+      "word_index": 29,
+      "chunk_index": 0
+    },
+    {
+      "index": 31,
+      "token_id": 1012,
+      "token": ".",
+      "char_start": 149,
+      "char_end": 150,
+      "word_index": -1,
+      "chunk_index": 0
+    }
+  ],
+  "audio_feature_names": [
+    "Loudness_sma3",
+    "alphaRatio_sma3",
+    "hammarbergIndex_sma3",
+    "slope0-500_sma3",
+    "slope500-1500_sma3",
+    "spectralFlux_sma3",
+    "mfcc1_sma3",
+    "mfcc2_sma3",
+    "mfcc3_sma3",
+    "mfcc4_sma3",
+    "F0semitoneFrom27.5Hz_sma3nz",
+    "jitterLocal_sma3nz",
+    "shimmerLocaldB_sma3nz",
+    "HNRdBACF_sma3nz",
+    "logRelF0-H1-H2_sma3nz",
+    "logRelF0-H1-A3_sma3nz",
+    "F1frequency_sma3nz",
+    "F1bandwidth_sma3nz",
+    "F1amplitudeLogRelF0_sma3nz",
+    "F2frequency_sma3nz",
+    "F2bandwidth_sma3nz",
+    "F2amplitudeLogRelF0_sma3nz",
+    "F3frequency_sma3nz",
+    "F3bandwidth_sma3nz",
+    "F3amplitudeLogRelF0_sma3nz"
+  ],
+  "vision_feature_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "convolution": {
+    "stride_samples": 320,
+    "receptive_field_samples": 400
+  },
+  "ctc_target_text": "YOU|KNOW|THAT|I|THINK|LISTENING|TO|YOUNG|PEOPLE|TAKING|IN|WHAT|THEY|HAVE|TO|SAY|BECAUSE|WHAT|WE|HAVE|SEEN|ALL|AROUND|THE|WORLD|IS|THE|POWER|OF|YOUTH",
+  "diagnostic_asr": "YOU KNOW I THINK THAT LISTENING TO YOUNG PEOPLE TAKING IN WHAT THEY HAVE TO SAY BECAUSE WHAT WE'VE SEEN ALL AROUND THE WORLD IS THE POWER OF YOUTH",
+  "diagnostic_wer": 0.13333333333333333,
+  "alignment_path_log_probability": -140.2578347678969,
+  "alignment_error": null,
+  "padding_count": 0,
+  "truncated_words": 0,
+  "visual_time_support": "nearest-sampled-frame cells, midpoint boundaries; 5 Hz sampling",
+  "face_selection": "largest detected face; speaker identity not verified",
+  "feature_dimensions": {
+    "text": 768,
+    "audio": 25,
+    "vision": 52
+  },
+  "statuses": {
+    "low_confidence_words": 3,
+    "unaligned_words": 0,
+    "no_face_frames": 0,
+    "multiple_face_frames": 0,
+    "silent_audio_frames": 19,
+    "invalid_audio_frames": 0
+  },
+  "elapsed_seconds": 1.9420737139880657
+}

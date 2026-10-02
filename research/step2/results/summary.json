@@ -1,0 +1,19 @@
+{
+  "selected": "gated_aug",
+  "clean": {
+    "accuracy": 0.6492434662998624,
+    "macro_f1": 0.5989449770640779,
+    "mae": 0.6511617225807073,
+    "pearson": 0.6546453246997125,
+    "neutral_recall": 0.3544303797468354
+  },
+  "tav_50_random": {
+    "accuracy": 0.5763411279229711,
+    "macro_f1": 0.5315637440802243,
+    "mae": 0.7304157441500329,
+    "pearson": 0.535577224795214
+  },
+  "special_prediction_count": 30,
+  "scenario_count": 217,
+  "training_fits": 16
+}

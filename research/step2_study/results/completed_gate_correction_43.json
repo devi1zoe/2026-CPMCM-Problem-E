@@ -1,0 +1,15 @@
+{
+  "score": 1.0211839821383735,
+  "config": {
+    "fusion": "correction"
+  },
+  "sha256": "49d69ee25c288b547191c31fae3ecee302fee5e1f72040785004d42a747d9ba7",
+  "protocol_sha256": "102694aa476b8a77840f7ad2da42e41f0b32afeb364d91fc6f1d254e1c21c276",
+  "epochs": 11,
+  "seconds": 6.0154218673706055,
+  "expert_hashes": {
+    "checkpoints/expert_43_full_0.pt": "b48e55537f975f4c12b69f1bb6aafe0827d8d7d3d17aeba580d9b87c35411bca",
+    "checkpoints/expert_43_full_1.pt": "86a34db2da5267c9e8468ddd9cff71c9d2ff4b99f764ecabf70bb02884895200",
+    "checkpoints/expert_43_full_2.pt": "8370a8abc9f784a9a10e3aa2b6420c2d4dd079f7d28f313018cb703529fd3fa1"
+  }
+}

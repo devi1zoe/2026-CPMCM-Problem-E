@@ -1,0 +1,14 @@
+{
+  "sample_id": "-HwX2H8Z4hY$_$9",
+  "requires_transcript_review": true,
+  "reasons": [
+    "diagnostic_WER_above_0.8"
+  ],
+  "mean_confidence": 0.7237673401832581,
+  "low_confidence_fraction": 0.09090909090909091,
+  "diagnostic_wer": 0.8636363636363636,
+  "usable_word_times": 0,
+  "words": 22,
+  "raw_text": "It is a word which the administrator uses when he turns around anything which he doesn't like that the teacher is doing",
+  "diagnostic_asr": "IT IS A WORD WITH WHICH THE ADMINISTRATOR YOU IN WHICH THE ADMINISTRATOR YOUSES WHEN HE TURNS ROUND ANYTHING WHICH YOU DOULDN'T LIKE TO TEACH YOU HIS DOIN HE SAYS YOU WI"
+}

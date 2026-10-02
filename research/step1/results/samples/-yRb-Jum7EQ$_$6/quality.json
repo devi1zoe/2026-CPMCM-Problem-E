@@ -1,0 +1,16 @@
+{
+  "sample_id": "-yRb-Jum7EQ$_$6",
+  "requires_transcript_review": true,
+  "reasons": [
+    "mean_CTC_confidence_below_0.2",
+    "more_than_half_words_below_0.1",
+    "diagnostic_WER_above_0.8"
+  ],
+  "mean_confidence": 0.03225075453519821,
+  "low_confidence_fraction": 0.9473684210526315,
+  "diagnostic_wer": 1.0,
+  "usable_word_times": 0,
+  "words": 19,
+  "raw_text": "Therefore, the world needs to stand with Israel against this incitement, which is the number one cause of terrorism.",
+  "diagnostic_asr": "TE LAQENA WILL AMTAFLITYETSE IMISOIL NEGEDA SATAZOV SHE GOEM MISPAVIRAD LOTEVO NIMO DELOCANT TE DALABA"
+}

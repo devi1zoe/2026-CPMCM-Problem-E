@@ -1,0 +1,34 @@
+{
+  "splits": {
+    "train": {
+      "n": 3395,
+      "classes": [
+        967,
+        758,
+        1670
+      ],
+      "uncertain_span": 0
+    },
+    "valid": {
+      "n": 728,
+      "classes": [
+        206,
+        184,
+        338
+      ],
+      "uncertain_span": 0
+    },
+    "test": {
+      "n": 727,
+      "classes": [
+        207,
+        158,
+        362
+      ],
+      "uncertain_span": 0
+    }
+  },
+  "source_sha256": "66e867aa74bc70a844e806e5571e371c9abb4a35f9e2887ce9b4d97ff2cb8fcd",
+  "source_video_disjoint": true,
+  "special_n": 30
+}

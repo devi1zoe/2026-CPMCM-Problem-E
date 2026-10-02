@@ -1,0 +1,19 @@
+{
+  "score": 1.0000622769760326,
+  "config": {
+    "kind": "late_fusion"
+  },
+  "reg_weight": 2.0,
+  "sha256": "cfd229a8ff823ba577062f6e1e025983b39e1c54e2702641118d0cd262308b54",
+  "epochs": 21,
+  "seconds": 207.94099736213684,
+  "protocol_sha256": "b01566a1003e07db6b13367a4146c0059122b02f614d06108e9f2ee0449b6d2b",
+  "trainable_parameters": 422,
+  "total_parameters": 178008,
+  "expert_sources": {
+    "step2_v2/checkpoints/text_17.pt": "0a1e640b4884555ffbb5ed8711fbda9b209266608e4504ee0944628951393a42",
+    "step2_v2/checkpoints/audio_17.pt": "3ada8c715fe647bd8e33b1d0c47ff783679efc3e7348e7c30ec02cdd5754fb92",
+    "step2_v2/checkpoints/vision_17.pt": "e14c097021050b7a48bf2ede808522bef7f3af00c4e31f9052d22a5f3ff341e6"
+  },
+  "frozen_experts_unchanged": true
+}

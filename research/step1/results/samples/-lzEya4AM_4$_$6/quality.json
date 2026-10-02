@@ -1,0 +1,12 @@
+{
+  "sample_id": "-lzEya4AM_4$_$6",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.9193000793457031,
+  "low_confidence_fraction": 0.023255813953488372,
+  "diagnostic_wer": 0.09302325581395349,
+  "usable_word_times": 42,
+  "words": 43,
+  "raw_text": "If the product or poison is some type of petroleum product or corrosive product, you would not attempt to induce vomiting and nausea, as as the product burned on the way down it could cause damage and burning on the way back up.",
+  "diagnostic_asr": "IF THE PRODUCT OR POISON O SOME TYPE OF PATROLEUM PRODUCT OR CORROSIVE PRODUCT YOU WOULD NOT ATTEMPT TO INDUCE VOMINING AND NAUSEA AS THE PRODUCT BURNED ON THE WAY DOWN IT COULD CAUSE DAMAGE AND BURNING ON THE WAY BACK UP"
+}

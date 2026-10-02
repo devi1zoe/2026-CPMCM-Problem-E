@@ -1,0 +1,362 @@
+{
+  "sample_id": "-ri04Z7vwnc$_$5",
+  "video_id": "-ri04Z7vwnc",
+  "clip_id": "5",
+  "raw_text": "\" So I think it's important to discuss finances",
+  "label": 0.3333333432674408,
+  "annotation": "Positive",
+  "source_path": "E题_材料阅读/E题数据/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-ri04Z7vwnc/5.mp4",
+  "source_sha256": "2a5e4319bf592a18c8eb5117f7c7ec30c6c79528f9eac9fe4fb85bf70f277736",
+  "config_sha256": "4a530340304f07255daf856e6891f0a15e50f05bd85343d067a663a573e8f888",
+  "code_sha256": {
+    "common.py": "4a37980b521a2f5a93e208d3ba265542a149336b3401aa89b8a4494517f5e16e",
+    "alignment.py": "76b29c002cdc97e8e0e85cffae02d81db938fa39484ad908c28c5efc60de0c34",
+    "features.py": "8283e0d0886b83bbd84d4db4521599b480b0ada4bc1afc4e4b9b91cddf5b4018",
+    "run.py": "f75d7b5bc6e342541664233a37a3d87f39313bcd3a8f3a50bfaea94798d4e07b"
+  },
+  "model_assets_sha256": {
+    "assets/face_landmarker.task": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff",
+    "assets/wav2vec2/preprocessor_config.json": "b225d617c025463b9e157e06afea8b90dc7078fc70b013c533328423e0486b4a",
+    "assets/wav2vec2/vocab.json": "19727f8944fe6459fc3f240ae2c198395b740f6a029bd23e06656266b83bcf64",
+    "assets/wav2vec2/special_tokens_map.json": "bb7068de1150661a10b55f9e4b12a0e77af8bf91f5e45e1b58afaf1d0e17f675",
+    "assets/wav2vec2/tokenizer_config.json": "dc790594f5bc351a4311c6624f40acd95850d4aaf2a5cb3c656c9b610720b608",
+    "assets/wav2vec2/model.safetensors": "8aa76ab2243c81747a1f832954586bc566090c83a0ac167df6f31f0fa917d74a",
+    "assets/wav2vec2/config.json": "d3ec255c063d9f95057b553b19c20135b259875834a4fe9deb218a6be25b4cf3",
+    "assets/distilbert/vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+    "assets/distilbert/tokenizer_config.json": "a025160ef0431f1a392f6f050c1310f4c5d9fb6f275932dbccba73c4d214bf10",
+    "assets/distilbert/model.safetensors": "5e3f1108e3cb34ee048634875d8482665b65ac713291a7e32396fb18f6ff0063",
+    "assets/distilbert/config.json": "69c94b0222d5d1f4b0ad027ca7416cdafb98378cbbb8305d0bf47c9365c60c83",
+    "assets/distilbert/tokenizer.json": "ce64fce797c24f68df90b40a3f74f579b336a493db14bd583fd520ea0d8c9a98"
+  },
+  "duration": 3.545,
+  "video_rate": 23.976046466253432,
+  "video_origin": 0.0,
+  "audio_start": 0.0,
+  "audio_duration": 3.43975,
+  "audio_coverage_ratio": 1.0,
+  "words": [
+    {
+      "index": 0,
+      "original": "So",
+      "char_start": 2,
+      "char_end": 4,
+      "normalized": "SO",
+      "subword_indices": [
+        1
+      ],
+      "start": 0.34246875,
+      "end": 0.68246875,
+      "confidence": 0.00953539740294218,
+      "status": "low_confidence"
+    },
+    {
+      "index": 1,
+      "original": "I",
+      "char_start": 5,
+      "char_end": 6,
+      "normalized": "I",
+      "subword_indices": [
+        2
+      ],
+      "start": 0.78246875,
+      "end": 0.8024687500000001,
+      "confidence": 0.0003560279728844762,
+      "status": "low_confidence"
+    },
+    {
+      "index": 2,
+      "original": "think",
+      "char_start": 7,
+      "char_end": 12,
+      "normalized": "THINK",
+      "subword_indices": [
+        3
+      ],
+      "start": 0.88246875,
+      "end": 1.06246875,
+      "confidence": 4.366891062090872e-06,
+      "status": "low_confidence"
+    },
+    {
+      "index": 3,
+      "original": "it's",
+      "char_start": 13,
+      "char_end": 17,
+      "normalized": "IT'S",
+      "subword_indices": [
+        4,
+        5,
+        6
+      ],
+      "start": 1.12246875,
+      "end": 1.28246875,
+      "confidence": 4.525830809143372e-05,
+      "status": "low_confidence"
+    },
+    {
+      "index": 4,
+      "original": "important",
+      "char_start": 18,
+      "char_end": 27,
+      "normalized": "IMPORTANT",
+      "subword_indices": [
+        7
+      ],
+      "start": 1.32246875,
+      "end": 1.72246875,
+      "confidence": 0.0013516154140233994,
+      "status": "low_confidence"
+    },
+    {
+      "index": 5,
+      "original": "to",
+      "char_start": 28,
+      "char_end": 30,
+      "normalized": "TO",
+      "subword_indices": [
+        8
+      ],
+      "start": 2.30246875,
+      "end": 2.3424687499999997,
+      "confidence": 0.02373468317091465,
+      "status": "low_confidence"
+    },
+    {
+      "index": 6,
+      "original": "discuss",
+      "char_start": 31,
+      "char_end": 38,
+      "normalized": "DISCUSS",
+      "subword_indices": [
+        9
+      ],
+      "start": 2.5224687500000003,
+      "end": 2.8824687499999997,
+      "confidence": 0.00015859723498579115,
+      "status": "low_confidence"
+    },
+    {
+      "index": 7,
+      "original": "finances",
+      "char_start": 39,
+      "char_end": 47,
+      "normalized": "FINANCES",
+      "subword_indices": [
+        10
+      ],
+      "start": 2.90246875,
+      "end": 3.3224687499999996,
+      "confidence": 0.00427898857742548,
+      "status": "low_confidence"
+    }
+  ],
+  "subwords": [
+    {
+      "index": 0,
+      "token_id": 1000,
+      "token": "\"",
+      "char_start": 0,
+      "char_end": 1,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 1,
+      "token_id": 2061,
+      "token": "so",
+      "char_start": 2,
+      "char_end": 4,
+      "word_index": 0,
+      "chunk_index": 0
+    },
+    {
+      "index": 2,
+      "token_id": 1045,
+      "token": "i",
+      "char_start": 5,
+      "char_end": 6,
+      "word_index": 1,
+      "chunk_index": 0
+    },
+    {
+      "index": 3,
+      "token_id": 2228,
+      "token": "think",
+      "char_start": 7,
+      "char_end": 12,
+      "word_index": 2,
+      "chunk_index": 0
+    },
+    {
+      "index": 4,
+      "token_id": 2009,
+      "token": "it",
+      "char_start": 13,
+      "char_end": 15,
+      "word_index": 3,
+      "chunk_index": 0
+    },
+    {
+      "index": 5,
+      "token_id": 1005,
+      "token": "'",
+      "char_start": 15,
+      "char_end": 16,
+      "word_index": 3,
+      "chunk_index": 0
+    },
+    {
+      "index": 6,
+      "token_id": 1055,
+      "token": "s",
+      "char_start": 16,
+      "char_end": 17,
+      "word_index": 3,
+      "chunk_index": 0
+    },
+    {
+      "index": 7,
+      "token_id": 2590,
+      "token": "important",
+      "char_start": 18,
+      "char_end": 27,
+      "word_index": 4,
+      "chunk_index": 0
+    },
+    {
+      "index": 8,
+      "token_id": 2000,
+      "token": "to",
+      "char_start": 28,
+      "char_end": 30,
+      "word_index": 5,
+      "chunk_index": 0
+    },
+    {
+      "index": 9,
+      "token_id": 6848,
+      "token": "discuss",
+      "char_start": 31,
+      "char_end": 38,
+      "word_index": 6,
+      "chunk_index": 0
+    },
+    {
+      "index": 10,
+      "token_id": 16156,
+      "token": "finances",
+      "char_start": 39,
+      "char_end": 47,
+      "word_index": 7,
+      "chunk_index": 0
+    }
+  ],
+  "audio_feature_names": [
+    "Loudness_sma3",
+    "alphaRatio_sma3",
+    "hammarbergIndex_sma3",
+    "slope0-500_sma3",
+    "slope500-1500_sma3",
+    "spectralFlux_sma3",
+    "mfcc1_sma3",
+    "mfcc2_sma3",
+    "mfcc3_sma3",
+    "mfcc4_sma3",
+    "F0semitoneFrom27.5Hz_sma3nz",
+    "jitterLocal_sma3nz",
+    "shimmerLocaldB_sma3nz",
+    "HNRdBACF_sma3nz",
+    "logRelF0-H1-H2_sma3nz",
+    "logRelF0-H1-A3_sma3nz",
+    "F1frequency_sma3nz",
+    "F1bandwidth_sma3nz",
+    "F1amplitudeLogRelF0_sma3nz",
+    "F2frequency_sma3nz",
+    "F2bandwidth_sma3nz",
+    "F2amplitudeLogRelF0_sma3nz",
+    "F3frequency_sma3nz",
+    "F3bandwidth_sma3nz",
+    "F3amplitudeLogRelF0_sma3nz"
+  ],
+  "vision_feature_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "convolution": {
+    "stride_samples": 320,
+    "receptive_field_samples": 400
+  },
+  "ctc_target_text": "SO|I|THINK|IT'S|IMPORTANT|TO|DISCUSS|FINANCES",
+  "diagnostic_asr": "AF AND A LOT OF PEOPLE WHO ARE WORKING OR YOU KNO MONEY IS VERY",
+  "diagnostic_wer": 1.875,
+  "alignment_path_log_probability": -444.2729153078926,
+  "alignment_error": null,
+  "padding_count": 0,
+  "truncated_words": 0,
+  "visual_time_support": "nearest-sampled-frame cells, midpoint boundaries; 5 Hz sampling",
+  "face_selection": "largest detected face; speaker identity not verified",
+  "feature_dimensions": {
+    "text": 768,
+    "audio": 25,
+    "vision": 52
+  },
+  "statuses": {
+    "low_confidence_words": 8,
+    "unaligned_words": 0,
+    "no_face_frames": 0,
+    "multiple_face_frames": 0,
+    "silent_audio_frames": 0,
+    "invalid_audio_frames": 0
+  },
+  "elapsed_seconds": 1.1741655319929123
+}

@@ -1,0 +1,970 @@
+{
+  "sample_id": "-6rXp3zJ3kc$_$8",
+  "video_id": "-6rXp3zJ3kc",
+  "clip_id": "8",
+  "raw_text": "Many people are not until they get to be a older age and they realize that gosh they wasted a lot of time and money in placing bets on stock that's ultimately lost value.",
+  "label": -1.0,
+  "annotation": "Negative",
+  "source_path": "E题_材料阅读/E题数据/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-6rXp3zJ3kc/8.mp4",
+  "source_sha256": "59b77a0f873b7fa95e7327b93d64bb5a4bdae84039321988ef70bba8e63ee1ae",
+  "config_sha256": "4a530340304f07255daf856e6891f0a15e50f05bd85343d067a663a573e8f888",
+  "code_sha256": {
+    "common.py": "4a37980b521a2f5a93e208d3ba265542a149336b3401aa89b8a4494517f5e16e",
+    "alignment.py": "76b29c002cdc97e8e0e85cffae02d81db938fa39484ad908c28c5efc60de0c34",
+    "features.py": "8283e0d0886b83bbd84d4db4521599b480b0ada4bc1afc4e4b9b91cddf5b4018",
+    "run.py": "f75d7b5bc6e342541664233a37a3d87f39313bcd3a8f3a50bfaea94798d4e07b"
+  },
+  "model_assets_sha256": {
+    "assets/face_landmarker.task": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff",
+    "assets/wav2vec2/preprocessor_config.json": "b225d617c025463b9e157e06afea8b90dc7078fc70b013c533328423e0486b4a",
+    "assets/wav2vec2/vocab.json": "19727f8944fe6459fc3f240ae2c198395b740f6a029bd23e06656266b83bcf64",
+    "assets/wav2vec2/special_tokens_map.json": "bb7068de1150661a10b55f9e4b12a0e77af8bf91f5e45e1b58afaf1d0e17f675",
+    "assets/wav2vec2/tokenizer_config.json": "dc790594f5bc351a4311c6624f40acd95850d4aaf2a5cb3c656c9b610720b608",
+    "assets/wav2vec2/model.safetensors": "8aa76ab2243c81747a1f832954586bc566090c83a0ac167df6f31f0fa917d74a",
+    "assets/wav2vec2/config.json": "d3ec255c063d9f95057b553b19c20135b259875834a4fe9deb218a6be25b4cf3",
+    "assets/distilbert/vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+    "assets/distilbert/tokenizer_config.json": "a025160ef0431f1a392f6f050c1310f4c5d9fb6f275932dbccba73c4d214bf10",
+    "assets/distilbert/model.safetensors": "5e3f1108e3cb34ee048634875d8482665b65ac713291a7e32396fb18f6ff0063",
+    "assets/distilbert/config.json": "69c94b0222d5d1f4b0ad027ca7416cdafb98378cbbb8305d0bf47c9365c60c83",
+    "assets/distilbert/tokenizer.json": "ce64fce797c24f68df90b40a3f74f579b336a493db14bd583fd520ea0d8c9a98"
+  },
+  "duration": 12.805013020833334,
+  "video_rate": 30.0,
+  "video_origin": 0.0,
+  "audio_start": 0.0,
+  "audio_duration": 12.738,
+  "audio_coverage_ratio": 1.0,
+  "words": [
+    {
+      "index": 0,
+      "original": "Many",
+      "char_start": 0,
+      "char_end": 4,
+      "normalized": "MANY",
+      "subword_indices": [
+        0
+      ],
+      "start": 0.52246875,
+      "end": 0.70246875,
+      "confidence": 0.9296883344650269,
+      "status": "aligned"
+    },
+    {
+      "index": 1,
+      "original": "people",
+      "char_start": 5,
+      "char_end": 11,
+      "normalized": "PEOPLE",
+      "subword_indices": [
+        1
+      ],
+      "start": 0.78246875,
+      "end": 0.98246875,
+      "confidence": 0.997839629650116,
+      "status": "aligned"
+    },
+    {
+      "index": 2,
+      "original": "are",
+      "char_start": 12,
+      "char_end": 15,
+      "normalized": "ARE",
+      "subword_indices": [
+        2
+      ],
+      "start": 1.06246875,
+      "end": 1.14246875,
+      "confidence": 0.955254316329956,
+      "status": "aligned"
+    },
+    {
+      "index": 3,
+      "original": "not",
+      "char_start": 16,
+      "char_end": 19,
+      "normalized": "NOT",
+      "subword_indices": [
+        3
+      ],
+      "start": 1.24246875,
+      "end": 1.50246875,
+      "confidence": 0.9720250368118286,
+      "status": "aligned"
+    },
+    {
+      "index": 4,
+      "original": "until",
+      "char_start": 20,
+      "char_end": 25,
+      "normalized": "UNTIL",
+      "subword_indices": [
+        4
+      ],
+      "start": 1.58246875,
+      "end": 1.82246875,
+      "confidence": 0.9565959572792053,
+      "status": "aligned"
+    },
+    {
+      "index": 5,
+      "original": "they",
+      "char_start": 26,
+      "char_end": 30,
+      "normalized": "THEY",
+      "subword_indices": [
+        5
+      ],
+      "start": 1.86246875,
+      "end": 1.96246875,
+      "confidence": 0.9943794012069702,
+      "status": "aligned"
+    },
+    {
+      "index": 6,
+      "original": "get",
+      "char_start": 31,
+      "char_end": 34,
+      "normalized": "GET",
+      "subword_indices": [
+        6
+      ],
+      "start": 2.0224687500000003,
+      "end": 2.16246875,
+      "confidence": 0.9996753334999084,
+      "status": "aligned"
+    },
+    {
+      "index": 7,
+      "original": "to",
+      "char_start": 35,
+      "char_end": 37,
+      "normalized": "TO",
+      "subword_indices": [
+        7
+      ],
+      "start": 2.26246875,
+      "end": 2.3424687499999997,
+      "confidence": 0.7969067096710205,
+      "status": "aligned"
+    },
+    {
+      "index": 8,
+      "original": "be",
+      "char_start": 38,
+      "char_end": 40,
+      "normalized": "BE",
+      "subword_indices": [
+        8
+      ],
+      "start": 2.40246875,
+      "end": 2.50246875,
+      "confidence": 0.9987212419509888,
+      "status": "aligned"
+    },
+    {
+      "index": 9,
+      "original": "a",
+      "char_start": 41,
+      "char_end": 42,
+      "normalized": "A",
+      "subword_indices": [
+        9
+      ],
+      "start": 2.6624687500000004,
+      "end": 2.68246875,
+      "confidence": 0.9920337200164795,
+      "status": "aligned"
+    },
+    {
+      "index": 10,
+      "original": "older",
+      "char_start": 43,
+      "char_end": 48,
+      "normalized": "OLDER",
+      "subword_indices": [
+        10
+      ],
+      "start": 3.30246875,
+      "end": 3.54246875,
+      "confidence": 0.9870308041572571,
+      "status": "aligned"
+    },
+    {
+      "index": 11,
+      "original": "age",
+      "char_start": 49,
+      "char_end": 52,
+      "normalized": "AGE",
+      "subword_indices": [
+        11
+      ],
+      "start": 3.76246875,
+      "end": 3.9224687499999997,
+      "confidence": 0.9991502165794373,
+      "status": "aligned"
+    },
+    {
+      "index": 12,
+      "original": "and",
+      "char_start": 53,
+      "char_end": 56,
+      "normalized": "AND",
+      "subword_indices": [
+        12
+      ],
+      "start": 4.02246875,
+      "end": 4.082468749999999,
+      "confidence": 0.9404427409172058,
+      "status": "aligned"
+    },
+    {
+      "index": 13,
+      "original": "they",
+      "char_start": 57,
+      "char_end": 61,
+      "normalized": "THEY",
+      "subword_indices": [
+        13
+      ],
+      "start": 4.12246875,
+      "end": 4.22246875,
+      "confidence": 0.9916996955871582,
+      "status": "aligned"
+    },
+    {
+      "index": 14,
+      "original": "realize",
+      "char_start": 62,
+      "char_end": 69,
+      "normalized": "REALIZE",
+      "subword_indices": [
+        14
+      ],
+      "start": 4.3224687500000005,
+      "end": 4.72246875,
+      "confidence": 0.8561117649078369,
+      "status": "aligned"
+    },
+    {
+      "index": 15,
+      "original": "that",
+      "char_start": 70,
+      "char_end": 74,
+      "normalized": "THAT",
+      "subword_indices": [
+        15
+      ],
+      "start": 4.8224687500000005,
+      "end": 4.94246875,
+      "confidence": 0.9009920954704285,
+      "status": "aligned"
+    },
+    {
+      "index": 16,
+      "original": "gosh",
+      "char_start": 75,
+      "char_end": 79,
+      "normalized": "GOSH",
+      "subword_indices": [
+        16,
+        17
+      ],
+      "start": 5.06246875,
+      "end": 5.34246875,
+      "confidence": 0.6864533424377441,
+      "status": "aligned"
+    },
+    {
+      "index": 17,
+      "original": "they",
+      "char_start": 80,
+      "char_end": 84,
+      "normalized": "THEY",
+      "subword_indices": [
+        18
+      ],
+      "start": 5.7424687500000005,
+      "end": 5.84246875,
+      "confidence": 0.9906483292579651,
+      "status": "aligned"
+    },
+    {
+      "index": 18,
+      "original": "wasted",
+      "char_start": 85,
+      "char_end": 91,
+      "normalized": "WASTED",
+      "subword_indices": [
+        19
+      ],
+      "start": 6.00246875,
+      "end": 6.32246875,
+      "confidence": 0.839638888835907,
+      "status": "aligned"
+    },
+    {
+      "index": 19,
+      "original": "a",
+      "char_start": 92,
+      "char_end": 93,
+      "normalized": "A",
+      "subword_indices": [
+        20
+      ],
+      "start": 6.362468750000001,
+      "end": 6.38246875,
+      "confidence": 0.9986685514450073,
+      "status": "aligned"
+    },
+    {
+      "index": 20,
+      "original": "lot",
+      "char_start": 94,
+      "char_end": 97,
+      "normalized": "LOT",
+      "subword_indices": [
+        21
+      ],
+      "start": 6.442468750000001,
+      "end": 6.56246875,
+      "confidence": 0.9970299601554871,
+      "status": "aligned"
+    },
+    {
+      "index": 21,
+      "original": "of",
+      "char_start": 98,
+      "char_end": 100,
+      "normalized": "OF",
+      "subword_indices": [
+        22
+      ],
+      "start": 6.62246875,
+      "end": 6.6624687499999995,
+      "confidence": 0.9995110630989075,
+      "status": "aligned"
+    },
+    {
+      "index": 22,
+      "original": "time",
+      "char_start": 101,
+      "char_end": 105,
+      "normalized": "TIME",
+      "subword_indices": [
+        23
+      ],
+      "start": 6.7424687500000005,
+      "end": 7.06246875,
+      "confidence": 0.9997588396072388,
+      "status": "aligned"
+    },
+    {
+      "index": 23,
+      "original": "and",
+      "char_start": 106,
+      "char_end": 109,
+      "normalized": "AND",
+      "subword_indices": [
+        24
+      ],
+      "start": 7.14246875,
+      "end": 7.2024687499999995,
+      "confidence": 0.929629385471344,
+      "status": "aligned"
+    },
+    {
+      "index": 24,
+      "original": "money",
+      "char_start": 110,
+      "char_end": 115,
+      "normalized": "MONEY",
+      "subword_indices": [
+        25
+      ],
+      "start": 7.3224687500000005,
+      "end": 7.56246875,
+      "confidence": 0.9143131971359253,
+      "status": "aligned"
+    },
+    {
+      "index": 25,
+      "original": "in",
+      "char_start": 116,
+      "char_end": 118,
+      "normalized": "IN",
+      "subword_indices": [
+        26
+      ],
+      "start": 8.962468750000001,
+      "end": 9.02246875,
+      "confidence": 0.9906992316246033,
+      "status": "aligned"
+    },
+    {
+      "index": 26,
+      "original": "placing",
+      "char_start": 119,
+      "char_end": 126,
+      "normalized": "PLACING",
+      "subword_indices": [
+        27
+      ],
+      "start": 9.302468750000001,
+      "end": 9.62246875,
+      "confidence": 0.9998756647109985,
+      "status": "aligned"
+    },
+    {
+      "index": 27,
+      "original": "bets",
+      "char_start": 127,
+      "char_end": 131,
+      "normalized": "BETS",
+      "subword_indices": [
+        28
+      ],
+      "start": 9.70246875,
+      "end": 9.94246875,
+      "confidence": 0.7712766528129578,
+      "status": "aligned"
+    },
+    {
+      "index": 28,
+      "original": "on",
+      "char_start": 132,
+      "char_end": 134,
+      "normalized": "ON",
+      "subword_indices": [
+        29
+      ],
+      "start": 10.02246875,
+      "end": 10.062468749999999,
+      "confidence": 0.9980018138885498,
+      "status": "aligned"
+    },
+    {
+      "index": 29,
+      "original": "stock",
+      "char_start": 135,
+      "char_end": 140,
+      "normalized": "STOCK",
+      "subword_indices": [
+        30
+      ],
+      "start": 10.16246875,
+      "end": 10.42246875,
+      "confidence": 0.9982022643089294,
+      "status": "aligned"
+    },
+    {
+      "index": 30,
+      "original": "that's",
+      "char_start": 141,
+      "char_end": 147,
+      "normalized": "THAT'S",
+      "subword_indices": [
+        31,
+        32,
+        33
+      ],
+      "start": 10.52246875,
+      "end": 10.74246875,
+      "confidence": 0.8679810762405396,
+      "status": "aligned"
+    },
+    {
+      "index": 31,
+      "original": "ultimately",
+      "char_start": 148,
+      "char_end": 158,
+      "normalized": "ULTIMATELY",
+      "subword_indices": [
+        34
+      ],
+      "start": 10.86246875,
+      "end": 11.36246875,
+      "confidence": 0.9952672719955444,
+      "status": "aligned"
+    },
+    {
+      "index": 32,
+      "original": "lost",
+      "char_start": 159,
+      "char_end": 163,
+      "normalized": "LOST",
+      "subword_indices": [
+        35
+      ],
+      "start": 11.44246875,
+      "end": 11.70246875,
+      "confidence": 0.9764370322227478,
+      "status": "aligned"
+    },
+    {
+      "index": 33,
+      "original": "value",
+      "char_start": 164,
+      "char_end": 169,
+      "normalized": "VALUE",
+      "subword_indices": [
+        36
+      ],
+      "start": 11.84246875,
+      "end": 12.20246875,
+      "confidence": 0.9568528532981873,
+      "status": "aligned"
+    }
+  ],
+  "subwords": [
+    {
+      "index": 0,
+      "token_id": 2116,
+      "token": "many",
+      "char_start": 0,
+      "char_end": 4,
+      "word_index": 0,
+      "chunk_index": 0
+    },
+    {
+      "index": 1,
+      "token_id": 2111,
+      "token": "people",
+      "char_start": 5,
+      "char_end": 11,
+      "word_index": 1,
+      "chunk_index": 0
+    },
+    {
+      "index": 2,
+      "token_id": 2024,
+      "token": "are",
+      "char_start": 12,
+      "char_end": 15,
+      "word_index": 2,
+      "chunk_index": 0
+    },
+    {
+      "index": 3,
+      "token_id": 2025,
+      "token": "not",
+      "char_start": 16,
+      "char_end": 19,
+      "word_index": 3,
+      "chunk_index": 0
+    },
+    {
+      "index": 4,
+      "token_id": 2127,
+      "token": "until",
+      "char_start": 20,
+      "char_end": 25,
+      "word_index": 4,
+      "chunk_index": 0
+    },
+    {
+      "index": 5,
+      "token_id": 2027,
+      "token": "they",
+      "char_start": 26,
+      "char_end": 30,
+      "word_index": 5,
+      "chunk_index": 0
+    },
+    {
+      "index": 6,
+      "token_id": 2131,
+      "token": "get",
+      "char_start": 31,
+      "char_end": 34,
+      "word_index": 6,
+      "chunk_index": 0
+    },
+    {
+      "index": 7,
+      "token_id": 2000,
+      "token": "to",
+      "char_start": 35,
+      "char_end": 37,
+      "word_index": 7,
+      "chunk_index": 0
+    },
+    {
+      "index": 8,
+      "token_id": 2022,
+      "token": "be",
+      "char_start": 38,
+      "char_end": 40,
+      "word_index": 8,
+      "chunk_index": 0
+    },
+    {
+      "index": 9,
+      "token_id": 1037,
+      "token": "a",
+      "char_start": 41,
+      "char_end": 42,
+      "word_index": 9,
+      "chunk_index": 0
+    },
+    {
+      "index": 10,
+      "token_id": 3080,
+      "token": "older",
+      "char_start": 43,
+      "char_end": 48,
+      "word_index": 10,
+      "chunk_index": 0
+    },
+    {
+      "index": 11,
+      "token_id": 2287,
+      "token": "age",
+      "char_start": 49,
+      "char_end": 52,
+      "word_index": 11,
+      "chunk_index": 0
+    },
+    {
+      "index": 12,
+      "token_id": 1998,
+      "token": "and",
+      "char_start": 53,
+      "char_end": 56,
+      "word_index": 12,
+      "chunk_index": 0
+    },
+    {
+      "index": 13,
+      "token_id": 2027,
+      "token": "they",
+      "char_start": 57,
+      "char_end": 61,
+      "word_index": 13,
+      "chunk_index": 0
+    },
+    {
+      "index": 14,
+      "token_id": 5382,
+      "token": "realize",
+      "char_start": 62,
+      "char_end": 69,
+      "word_index": 14,
+      "chunk_index": 0
+    },
+    {
+      "index": 15,
+      "token_id": 2008,
+      "token": "that",
+      "char_start": 70,
+      "char_end": 74,
+      "word_index": 15,
+      "chunk_index": 0
+    },
+    {
+      "index": 16,
+      "token_id": 2175,
+      "token": "go",
+      "char_start": 75,
+      "char_end": 77,
+      "word_index": 16,
+      "chunk_index": 0
+    },
+    {
+      "index": 17,
+      "token_id": 4095,
+      "token": "##sh",
+      "char_start": 77,
+      "char_end": 79,
+      "word_index": 16,
+      "chunk_index": 0
+    },
+    {
+      "index": 18,
+      "token_id": 2027,
+      "token": "they",
+      "char_start": 80,
+      "char_end": 84,
+      "word_index": 17,
+      "chunk_index": 0
+    },
+    {
+      "index": 19,
+      "token_id": 13842,
+      "token": "wasted",
+      "char_start": 85,
+      "char_end": 91,
+      "word_index": 18,
+      "chunk_index": 0
+    },
+    {
+      "index": 20,
+      "token_id": 1037,
+      "token": "a",
+      "char_start": 92,
+      "char_end": 93,
+      "word_index": 19,
+      "chunk_index": 0
+    },
+    {
+      "index": 21,
+      "token_id": 2843,
+      "token": "lot",
+      "char_start": 94,
+      "char_end": 97,
+      "word_index": 20,
+      "chunk_index": 0
+    },
+    {
+      "index": 22,
+      "token_id": 1997,
+      "token": "of",
+      "char_start": 98,
+      "char_end": 100,
+      "word_index": 21,
+      "chunk_index": 0
+    },
+    {
+      "index": 23,
+      "token_id": 2051,
+      "token": "time",
+      "char_start": 101,
+      "char_end": 105,
+      "word_index": 22,
+      "chunk_index": 0
+    },
+    {
+      "index": 24,
+      "token_id": 1998,
+      "token": "and",
+      "char_start": 106,
+      "char_end": 109,
+      "word_index": 23,
+      "chunk_index": 0
+    },
+    {
+      "index": 25,
+      "token_id": 2769,
+      "token": "money",
+      "char_start": 110,
+      "char_end": 115,
+      "word_index": 24,
+      "chunk_index": 0
+    },
+    {
+      "index": 26,
+      "token_id": 1999,
+      "token": "in",
+      "char_start": 116,
+      "char_end": 118,
+      "word_index": 25,
+      "chunk_index": 0
+    },
+    {
+      "index": 27,
+      "token_id": 6885,
+      "token": "placing",
+      "char_start": 119,
+      "char_end": 126,
+      "word_index": 26,
+      "chunk_index": 0
+    },
+    {
+      "index": 28,
+      "token_id": 29475,
+      "token": "bets",
+      "char_start": 127,
+      "char_end": 131,
+      "word_index": 27,
+      "chunk_index": 0
+    },
+    {
+      "index": 29,
+      "token_id": 2006,
+      "token": "on",
+      "char_start": 132,
+      "char_end": 134,
+      "word_index": 28,
+      "chunk_index": 0
+    },
+    {
+      "index": 30,
+      "token_id": 4518,
+      "token": "stock",
+      "char_start": 135,
+      "char_end": 140,
+      "word_index": 29,
+      "chunk_index": 0
+    },
+    {
+      "index": 31,
+      "token_id": 2008,
+      "token": "that",
+      "char_start": 141,
+      "char_end": 145,
+      "word_index": 30,
+      "chunk_index": 0
+    },
+    {
+      "index": 32,
+      "token_id": 1005,
+      "token": "'",
+      "char_start": 145,
+      "char_end": 146,
+      "word_index": 30,
+      "chunk_index": 0
+    },
+    {
+      "index": 33,
+      "token_id": 1055,
+      "token": "s",
+      "char_start": 146,
+      "char_end": 147,
+      "word_index": 30,
+      "chunk_index": 0
+    },
+    {
+      "index": 34,
+      "token_id": 4821,
+      "token": "ultimately",
+      "char_start": 148,
+      "char_end": 158,
+      "word_index": 31,
+      "chunk_index": 0
+    },
+    {
+      "index": 35,
+      "token_id": 2439,
+      "token": "lost",
+      "char_start": 159,
+      "char_end": 163,
+      "word_index": 32,
+      "chunk_index": 0
+    },
+    {
+      "index": 36,
+      "token_id": 3643,
+      "token": "value",
+      "char_start": 164,
+      "char_end": 169,
+      "word_index": 33,
+      "chunk_index": 0
+    },
+    {
+      "index": 37,
+      "token_id": 1012,
+      "token": ".",
+      "char_start": 169,
+      "char_end": 170,
+      "word_index": -1,
+      "chunk_index": 0
+    }
+  ],
+  "audio_feature_names": [
+    "Loudness_sma3",
+    "alphaRatio_sma3",
+    "hammarbergIndex_sma3",
+    "slope0-500_sma3",
+    "slope500-1500_sma3",
+    "spectralFlux_sma3",
+    "mfcc1_sma3",
+    "mfcc2_sma3",
+    "mfcc3_sma3",
+    "mfcc4_sma3",
+    "F0semitoneFrom27.5Hz_sma3nz",
+    "jitterLocal_sma3nz",
+    "shimmerLocaldB_sma3nz",
+    "HNRdBACF_sma3nz",
+    "logRelF0-H1-H2_sma3nz",
+    "logRelF0-H1-A3_sma3nz",
+    "F1frequency_sma3nz",
+    "F1bandwidth_sma3nz",
+    "F1amplitudeLogRelF0_sma3nz",
+    "F2frequency_sma3nz",
+    "F2bandwidth_sma3nz",
+    "F2amplitudeLogRelF0_sma3nz",
+    "F3frequency_sma3nz",
+    "F3bandwidth_sma3nz",
+    "F3amplitudeLogRelF0_sma3nz"
+  ],
+  "vision_feature_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "convolution": {
+    "stride_samples": 320,
+    "receptive_field_samples": 400
+  },
+  "ctc_target_text": "MANY|PEOPLE|ARE|NOT|UNTIL|THEY|GET|TO|BE|A|OLDER|AGE|AND|THEY|REALIZE|THAT|GOSH|THEY|WASTED|A|LOT|OF|TIME|AND|MONEY|IN|PLACING|BETS|ON|STOCK|THAT'S|ULTIMATELY|LOST|VALUE",
+  "diagnostic_asr": "AWARE OF MANY PEOPLE ARE NOT UNTIL THEY GET TO BE A OLDER AGE AND THEY REALIZED THAT GASHEF THEY'VE WASTED A LOT OF TIME AND MONEY IN IN PLACING BATS ON STOCK THAT'S ULTIMATELY LOST VALUE",
+  "diagnostic_wer": 0.20588235294117646,
+  "alignment_path_log_probability": -177.47102124239592,
+  "alignment_error": null,
+  "padding_count": 0,
+  "truncated_words": 0,
+  "visual_time_support": "nearest-sampled-frame cells, midpoint boundaries; 5 Hz sampling",
+  "face_selection": "largest detected face; speaker identity not verified",
+  "feature_dimensions": {
+    "text": 768,
+    "audio": 25,
+    "vision": 52
+  },
+  "statuses": {
+    "low_confidence_words": 0,
+    "unaligned_words": 0,
+    "no_face_frames": 0,
+    "multiple_face_frames": 0,
+    "silent_audio_frames": 0,
+    "invalid_audio_frames": 0
+  },
+  "elapsed_seconds": 2.357759740203619
+}

@@ -1,0 +1,22 @@
+﻿sample_id,raw_text,manual_review_status,manual_category,review_note,words,usable_word_times,word_boundaries_annotated
+-HwX2H8Z4hY$_$9,It is a word which the administrator uses when he turns around anything which he doesn't like that the teacher is doing,已审核,音频卡顿、局部对应,语音识别正确，原视频音频存在卡顿，与原始文本不符合，但是大体词语正确因此,22,0,False
+-NFrJFQijFE$_$1,Structural mounts inside have to be properly stress analyzed so we make sure all that happens,已审核,无对应朗读,无朗读，音乐,16,0,False
+-NFrJFQijFE$_$2,So we coordinate with all the proper technical fields to get ready for the instrument to arrive here,已审核,分段内容不对应,前半段无朗读，后半段音轨无对应,18,0,False
+-hnBHBN8p5A$_$6,"Discussion, how to discuss ideas and opinions more effectively than a native speaker",已审核,音轨与文本不对应,音轨无对应,13,0,False
+-hnBHBN8p5A$_$7,"Picture this, before we actually start hacking, we’re in a room formal setting",已审核,音轨与文本不对应,音轨无对应,13,0,False
+-iRBcNs9oI8$_$3,"Well, it is the secret of power pose",已审核,音轨与文本不对应,音轨无对应,8,0,False
+-iRBcNs9oI8$_$6,What is a power pose,已审核,音轨与文本不对应,音轨无对应,5,0,False
+-iRBcNs9oI8$_$7,"Well, for starters, let's look at the word ""power""",已审核,音轨与文本不对应,音轨无对应,9,0,False
+-iRBcNs9oI8$_$8,"I've drawn this man here, and if you can tell, he has a lot of big muscles, he looks very strong",已审核,音轨与文本不对应,音轨无对应,21,0,False
+-iRBcNs9oI8$_$9,Power is similar to strength,已审核,音轨与文本不对应,音轨无对应,5,0,False
+-mJ2ud6oKI8$_$1,There are a dozen or more hands on techniques that we can do,已审核,无对应朗读,无朗读,13,0,False
+-mJ2ud6oKI8$_$2,So physical therapists and chiropractors will do joint manipulations and mobilizations,已审核,无对应朗读,无朗读,11,0,False
+-mJ2ud6oKI8$_$6,They are all very safe,已审核,音轨与文本不对应,音轨无对应,5,0,False
+-mJ2ud6oKI8$_$8,Sometimes we have to stretch that joint that is already irritated,已审核,音轨与文本不对应,音轨无对应,11,0,False
+-mJ2ud6oKI8$_$9,"It's safe and the person will feel better later on, but it's sort of like flossing your teeth for the first time",已审核,音轨与文本不对应,音轨无对应,22,0,False
+-ri04Z7vwnc$_$0,going to get married or are already married,已审核,无对应朗读,无朗读,8,0,False
+-ri04Z7vwnc$_$2,"most people think it'll sort itself out, ""we'll discuss it later,"" it's not something too important",已审核,无对应朗读,无朗读,16,0,False
+-ri04Z7vwnc$_$5,""" So I think it's important to discuss finances",已审核,音轨与文本不对应,音轨无对应,8,0,False
+-yRb-Jum7EQ$_$1,"it comes with the assistance and agitation of states and regimes, Yesterday Iran announced that it will finance the families of the terrorists and murderers this shows that Iran, even after the nuclear agreement, is continuing to aid terrorism, including Palestinian terrorism, Hezbollah terrorism and its assistance to Hamas.",已审核,非英语语音,并非英语,49,0,False
+-yRb-Jum7EQ$_$5,"Yesterday Eliav Gelman lost his life in another terrorist attack, not by the students of terrorism, but by those who teach terrorism, a Palestinian teacher.",已审核,非英语语音,并非英语,25,0,False
+-yRb-Jum7EQ$_$6,"Therefore, the world needs to stand with Israel against this incitement, which is the number one cause of terrorism.",已审核,非英语语音,并非英语,19,0,False

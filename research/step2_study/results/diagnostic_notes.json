@@ -1,0 +1,27 @@
+{
+  "text_patterns_are_review_clues_not_causal_labels": true,
+  "original_text_used_only_for_review": true,
+  "missing_cases_show_observed_text": true,
+  "classification_labels": {
+    "0": "negative",
+    "1": "neutral",
+    "2": "positive"
+  },
+  "strong_negative": "y <= -1.5",
+  "strong_positive": "y >= 1.5",
+  "neutral": "y == 0",
+  "models": [
+    "old_gated",
+    "shape_single",
+    "shape_multi",
+    "shape_unequal",
+    "text_frozen",
+    "text_lora",
+    "multi_lora",
+    "gate_quality",
+    "gate_reliability",
+    "gate_correction",
+    "reconstruct",
+    "expert_text"
+  ]
+}

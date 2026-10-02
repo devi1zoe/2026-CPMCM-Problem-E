@@ -1,0 +1,58 @@
+[
+  {
+    "file": "paper_5_2/figures/fig_5_2_source_examples.pdf",
+    "text_blocks": 66,
+    "text_colors": [
+      "#000000"
+    ],
+    "paper_copies": []
+  },
+  {
+    "file": "paper_5_3/figures/fig_5_3_text_mapping.pdf",
+    "text_blocks": 51,
+    "text_colors": [
+      "#000000"
+    ],
+    "paper_copies": []
+  },
+  {
+    "file": "paper_5_4/figures/fig_5_4_ctc_principle.pdf",
+    "text_blocks": 83,
+    "text_colors": [
+      "#000000"
+    ],
+    "paper_copies": [
+      "step1/paper_question1/结果分析与表格修订/figures/fig_5_4_ctc_principle.pdf"
+    ]
+  },
+  {
+    "file": "paper_5_4/figures/fig_5_4_overlap_principle.pdf",
+    "text_blocks": 83,
+    "text_colors": [
+      "#000000"
+    ],
+    "paper_copies": [
+      "step1/paper_question1/结果分析与表格修订/figures/fig_5_4_overlap_principle.pdf"
+    ]
+  },
+  {
+    "file": "paper_results/readable_figures/fig_p1_quality_flow.pdf",
+    "text_blocks": 35,
+    "text_colors": [
+      "#000000"
+    ],
+    "paper_copies": [
+      "step1/paper_question1/结果分析与表格修订/figures/fig_p1_quality_flow.pdf"
+    ]
+  },
+  {
+    "file": "paper_results/figures/fig_p1_multimodal_timeline.pdf",
+    "text_blocks": 29,
+    "text_colors": [
+      "#000000"
+    ],
+    "paper_copies": [
+      "step1/paper_question1/结果分析与表格修订/figures/fig_p1_multimodal_timeline.pdf"
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+﻿scenario,sample_id,raw_text,true_class,true_intensity,predicted_class,predicted_intensity,abs_error,confidence
+clean,130456$_$3,"(uhh) It's, out of five stars, I would give it a five",2,2.3333332538604736,0,-0.7410032153129578,3.0743364691734314,0.7159309387207031
+clean,266791$_$23,"As you're watching the movie it looks like they're actually looking at cue cards and reading these words for the first time, that's how the delivery is",0,-2.6666667461395264,2,0.3376233577728271,3.004290103912353,0.4433700144290924
+clean,f_ZJ7L14oYQ$_$21,They just so much more convenient than stupid boots that take forever to put on and just aren't comfortable!,2,2.0,0,-0.8870916962623596,2.88709169626236,0.8718307614326477
+clean,237009$_$11,"(umm), it should be rated junk",0,-3.0,0,-0.5606359243392944,2.4393640756607056,0.5657711625099182
+clean,252998$_$7,(uhh) I think the best line in the movie comes from Tori Spelling when she looks at Parker Posey and says no you're not insane you're just incredibly spoiled,2,1.3333333730697632,0,-1.0534309148788452,2.3867642879486084,0.8541872501373291
+clean,102858$_$6,It's probably three of the best (stutter) holiday specials made in the last (uhh) let's see,2,2.6666667461395264,2,0.3590054512023926,2.307661294937134,0.3831848204135895
+clean,TWszOxkOV0w$_$1,And I think I reflect the outrage of the ordinary citizen who feels very strongly about the notion that we were told that CEOs require those kinds of pay packages because they are tied to performance.,0,-2.3333332538604736,0,-0.0941886305809021,2.2391446232795715,0.5613314509391785
+clean,273539$_$3,(umm) xxx seen this with a few of my friends and I was much more soft having done so (umm) this film has little substance,0,-2.6666667461395264,0,-0.4440260827541351,2.2226406633853912,0.6190986037254333

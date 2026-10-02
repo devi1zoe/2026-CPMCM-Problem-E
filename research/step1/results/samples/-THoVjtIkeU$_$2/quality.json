@@ -1,0 +1,12 @@
+{
+  "sample_id": "-THoVjtIkeU$_$2",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.8781343698501587,
+  "low_confidence_fraction": 0.1,
+  "diagnostic_wer": 0.1,
+  "usable_word_times": 9,
+  "words": 10,
+  "raw_text": "I think social justice is extremely important for young people.",
+  "diagnostic_asr": "I THINK A SOCIAL JUSTICE IS EXTREMELY IMPORTANT FOR YOUNG PEOPLE"
+}

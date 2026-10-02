@@ -1,0 +1,12 @@
+{
+  "method": "Gauss-Legendre IG",
+  "initial_nodes": 32,
+  "refinement_nodes": [
+    64,
+    128,
+    256
+  ],
+  "absolute_completeness_tolerance": 0.001,
+  "criterion": "IG sum equals fixed-mask representation endpoint score difference; no labels used",
+  "reason": "numerical integration refinement, not prediction-model or explanation-budget tuning"
+}

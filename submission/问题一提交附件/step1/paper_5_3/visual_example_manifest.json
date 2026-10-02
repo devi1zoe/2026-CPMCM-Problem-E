@@ -1,0 +1,80 @@
+{
+  "sample_id": "-wny0OAz3g8$_$9",
+  "source_path": "E题_材料阅读/E题数据/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-wny0OAz3g8/9.mp4",
+  "duration": 6.213020833333333,
+  "sampling_hz": 5,
+  "total_frames": 31,
+  "valid_frames": 29,
+  "missing_times": [
+    5.6,
+    5.8
+  ],
+  "group_counts": {
+    "额眉部": 5,
+    "眼部": 14,
+    "面颊与鼻部": 5,
+    "嘴部": 23,
+    "下颌": 4,
+    "其他输出项": 1
+  },
+  "selected_frames": [
+    {
+      "time": 1.2,
+      "row_index": 6,
+      "original_frame_index": 36,
+      "valid": true,
+      "face_count": 1,
+      "values": {
+        "jawOpen": 0.3182539641857147,
+        "mouthSmileLeft": 0.4037790894508362,
+        "mouthSmileRight": 0.42882904410362244,
+        "eyeBlinkLeft": 0.06462740898132324,
+        "eyeBlinkRight": 0.053369343280792236
+      }
+    },
+    {
+      "time": 2.2,
+      "row_index": 11,
+      "original_frame_index": 66,
+      "valid": true,
+      "face_count": 1,
+      "values": {
+        "jawOpen": 0.15002860128879547,
+        "mouthSmileLeft": 0.6593393683433533,
+        "mouthSmileRight": 0.6054790019989014,
+        "eyeBlinkLeft": 0.24632865190505981,
+        "eyeBlinkRight": 0.36092379689216614
+      }
+    },
+    {
+      "time": 4.6,
+      "row_index": 23,
+      "original_frame_index": 138,
+      "valid": true,
+      "face_count": 1,
+      "values": {
+        "jawOpen": 0.07157258689403534,
+        "mouthSmileLeft": 0.06626701354980469,
+        "mouthSmileRight": 0.05981016531586647,
+        "eyeBlinkLeft": 0.5346325039863586,
+        "eyeBlinkRight": 0.6231303811073303
+      }
+    },
+    {
+      "time": 5.6,
+      "row_index": 28,
+      "original_frame_index": 168,
+      "valid": false,
+      "face_count": 0,
+      "values": {
+        "jawOpen": 0.0,
+        "mouthSmileLeft": 0.0,
+        "mouthSmileRight": 0.0,
+        "eyeBlinkLeft": 0.0,
+        "eyeBlinkRight": 0.0
+      }
+    }
+  ],
+  "selection_note": "从已有结果中选择同时具有系数变化与少量缺失观测的样本；四帧展示不同运动线索及缺失状态，不构成整体性能评价。",
+  "plot_note": "系数直接读取已有输出；无效位置绘图置为NaN断线，原始零占位与掩码不修改。"
+}

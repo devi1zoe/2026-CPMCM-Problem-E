@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "mask_rows": [
+    {
+      "seed": 17,
+      "clean": 1658,
+      "multi_changed": 737,
+      "unequal_changed": 945
+    },
+    {
+      "seed": 29,
+      "clean": 1723,
+      "multi_changed": 710,
+      "unequal_changed": 895
+    },
+    {
+      "seed": 43,
+      "clean": 1688,
+      "multi_changed": 714,
+      "unequal_changed": 931
+    }
+  ],
+  "baseline_masks_identical": true,
+  "single_multi_equal_counts": true,
+  "deleted_tokens_cannot_influence_remaining_context": true,
+  "source_video_splits_disjoint": true,
+  "protocol_sha256": "102694aa476b8a77840f7ad2da42e41f0b32afeb364d91fc6f1d254e1c21c276"
+}

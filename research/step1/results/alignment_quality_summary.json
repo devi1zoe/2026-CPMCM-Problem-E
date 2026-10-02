@@ -1,0 +1,61 @@
+{
+  "samples": 100,
+  "requires_transcript_review": 21,
+  "usable_word_times": 1545,
+  "total_words": 1932,
+  "thresholds": {
+    "mean_confidence": 0.2,
+    "word_low_confidence": 0.1,
+    "low_fraction": 0.5,
+    "diagnostic_wer": 0.8
+  },
+  "thresholds_chosen": "检查实际异常后设定的保守质控规则；不以情感标签、预测成绩或人工词界调参",
+  "interpretation": "仅是需要复核的信号，不证明赛题标签错误，也不证明未触发规则者时间正确",
+  "sensitivity": [
+    {
+      "mean_confidence_threshold": 0.1,
+      "wer_threshold": 0.6,
+      "flagged": 25
+    },
+    {
+      "mean_confidence_threshold": 0.1,
+      "wer_threshold": 0.8,
+      "flagged": 21
+    },
+    {
+      "mean_confidence_threshold": 0.1,
+      "wer_threshold": 1.0,
+      "flagged": 20
+    },
+    {
+      "mean_confidence_threshold": 0.2,
+      "wer_threshold": 0.6,
+      "flagged": 25
+    },
+    {
+      "mean_confidence_threshold": 0.2,
+      "wer_threshold": 0.8,
+      "flagged": 21
+    },
+    {
+      "mean_confidence_threshold": 0.2,
+      "wer_threshold": 1.0,
+      "flagged": 20
+    },
+    {
+      "mean_confidence_threshold": 0.3,
+      "wer_threshold": 0.6,
+      "flagged": 25
+    },
+    {
+      "mean_confidence_threshold": 0.3,
+      "wer_threshold": 0.8,
+      "flagged": 21
+    },
+    {
+      "mean_confidence_threshold": 0.3,
+      "wer_threshold": 1.0,
+      "flagged": 20
+    }
+  ]
+}

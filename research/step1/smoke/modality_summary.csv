@@ -1,0 +1,7 @@
+﻿sample_id,modality,duration_seconds,feature_dimension,stored_positions,valid_positions,alignment_granularity,padding_count,feature_path
+-3g5yACwYnA$_$13,text,5.513997395833333,768,15,15,original_transcript_word,0,samples/-3g5yACwYnA$_$13/features.npz
+-3g5yACwYnA$_$13,audio,5.513997395833333,25,15,15,original_transcript_word,0,samples/-3g5yACwYnA$_$13/features.npz
+-3g5yACwYnA$_$13,vision,5.513997395833333,52,15,15,original_transcript_word,0,samples/-3g5yACwYnA$_$13/features.npz
+-3g5yACwYnA$_$3,text,14.388997395833334,768,29,29,original_transcript_word,0,samples/-3g5yACwYnA$_$3/features.npz
+-3g5yACwYnA$_$3,audio,14.388997395833334,25,29,29,original_transcript_word,0,samples/-3g5yACwYnA$_$3/features.npz
+-3g5yACwYnA$_$3,vision,14.388997395833334,52,29,29,original_transcript_word,0,samples/-3g5yACwYnA$_$3/features.npz

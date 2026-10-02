@@ -1,0 +1,12 @@
+{
+  "sample_id": "-a55Q6RWvTA$_$3",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.8945378065109253,
+  "low_confidence_fraction": 0.03076923076923077,
+  "diagnostic_wer": 0.09230769230769231,
+  "usable_word_times": 63,
+  "words": 65,
+  "raw_text": "And if you clip coupons, if you don't go out for dinner and movies and things of that nature and try to take up things in life that, well, they always say, \"the best things in life are free\". Reading a book, going for a nice walk, and, of course, combining exercise and various things of that nature where you're not spending money per se.",
+  "diagnostic_asr": "AND A YOU CLIP COUPONS IF YOU DON'T GO OUT FOR DINNER AND MOVIES AND THINGS OF THAT NATURE AND TRY TO TAKE UP THINGS IN LIFE THAT WELL THEY ALWAYS SAY THE BEST THINGS IN LIFE ARE FREE READING A BOOK A GOING FOR A NICE WALK AND OF COURSE COMBINING EXERCISE AND VARIOUS THINGS TAT NATURE WERE YOU'RE NOT SPENDING MONEY PER SAY"
+}

@@ -1,0 +1,12 @@
+{
+  "sample_id": "-s9qJ7ATP7w$_$4",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.8438043594360352,
+  "low_confidence_fraction": 0.1111111111111111,
+  "diagnostic_wer": 0.5555555555555556,
+  "usable_word_times": 8,
+  "words": 9,
+  "raw_text": "I have lost at everything you can imagine, seriously",
+  "diagnostic_asr": "CIPCO I HAVE LOST THAT EVERYTHING YOU CAN IMAGINE CERCELY WE HAVE"
+}

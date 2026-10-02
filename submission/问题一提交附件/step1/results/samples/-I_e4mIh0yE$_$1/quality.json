@@ -1,0 +1,12 @@
+{
+  "sample_id": "-I_e4mIh0yE$_$1",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.9729844331741333,
+  "low_confidence_fraction": 0.0,
+  "diagnostic_wer": 0.05555555555555555,
+  "usable_word_times": 18,
+  "words": 18,
+  "raw_text": "In the United States we don't punish failure to the degree to which failure is punished in Europe.",
+  "diagnostic_asr": "SHIP IN THE UNITED STATES WE DON'T PUNISH FAILURE TO THE DEGREE TO WHICH FAILURE IS PUNISHED IN EUROPE"
+}

@@ -1,0 +1,91 @@
+{
+  "version": "attention-1",
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "models": [
+    "pool",
+    "self",
+    "cross",
+    "cross_clean"
+  ],
+  "attention_candidates": [
+    "self",
+    "cross"
+  ],
+  "hidden": 64,
+  "heads": 4,
+  "dropout": 0.2,
+  "batch": 64,
+  "lr": 0.0003,
+  "weight_decay": 0.001,
+  "epochs": 30,
+  "patience": 6,
+  "reg_weight": 2.0,
+  "clean_probability": 0.5,
+  "validation_profiles": [
+    {
+      "name": "clean",
+      "subset": "",
+      "rate": 0.0,
+      "position": "random"
+    },
+    {
+      "name": "T_r30_random",
+      "subset": "T",
+      "rate": 0.3,
+      "position": "random"
+    },
+    {
+      "name": "A_r30_random",
+      "subset": "A",
+      "rate": 0.3,
+      "position": "random"
+    },
+    {
+      "name": "V_r30_random",
+      "subset": "V",
+      "rate": 0.3,
+      "position": "random"
+    },
+    {
+      "name": "TAV_r30_random",
+      "subset": "TAV",
+      "rate": 0.3,
+      "position": "random"
+    },
+    {
+      "name": "TAV_r50_random",
+      "subset": "TAV",
+      "rate": 0.5,
+      "position": "random"
+    }
+  ],
+  "validation_seed": 20260924,
+  "evaluation_seed": 41000,
+  "selection": "min six-profile J among augmented attention models; clean weight .5 and five corrupt profiles .1 each",
+  "historical_guardrails": "reported separately; not an instruction to replace the previously adopted model",
+  "prior": [
+    0.2848306332842415,
+    0.2232695139911635,
+    0.49189985272459497
+  ],
+  "mean": 0.16583210777639465,
+  "encoder": {
+    "repo": "distilbert/distilbert-base-uncased",
+    "revision": "12040accade4e8a0f71eabdb258fecc2e7e948be",
+    "weights_sha256": "5e3f1108e3cb34ee048634875d8482665b65ac713291a7e32396fb18f6ff0063"
+  },
+  "source_sha256": "66e867aa74bc70a844e806e5571e371c9abb4a35f9e2887ce9b4d97ff2cb8fcd",
+  "normalization_sha256": "d11c18570f83af5f9569853444a73b3c112e0ae3aeff42d3fe2bcf04206971db",
+  "input_version": "aligned_50",
+  "training_mask": "SHA256(seed/epoch/sample_id), 50% clean; token deletion before encoder",
+  "test_previously_used": true,
+  "test_use": "one locked post-selection comparison; not a new independent test set",
+  "references": [
+    "https://aclanthology.org/P19-1656/",
+    "https://huggingface.co/distilbert/distilbert-base-uncased"
+  ]
+}

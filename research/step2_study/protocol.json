@@ -1,0 +1,207 @@
+{
+  "version": "study-1",
+  "configs": {
+    "shape_single": {},
+    "shape_multi": {},
+    "shape_unequal": {},
+    "text_frozen": {
+      "indices": [
+        0
+      ]
+    },
+    "text_lora": {
+      "indices": [
+        0
+      ],
+      "lora": true
+    },
+    "multi_lora": {
+      "lora": true
+    },
+    "gate_quality": {
+      "fusion": "quality"
+    },
+    "gate_reliability": {
+      "fusion": "reliability"
+    },
+    "gate_correction": {
+      "fusion": "correction"
+    },
+    "reconstruct": {
+      "reconstruct": true
+    }
+  },
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "prior": [
+    0.2848306332842415,
+    0.2232695139911635,
+    0.49189985272459497
+  ],
+  "mean": 0.16583210777639465,
+  "hidden": 64,
+  "dropout": 0.2,
+  "batch": 64,
+  "lr": 0.001,
+  "weight_decay": 0.001,
+  "stage_epochs": [
+    20,
+    15
+  ],
+  "patience": 5,
+  "clip_grad": 5,
+  "clean_probability": 0.5,
+  "reg_weight_candidates": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "validation_profiles": [
+    {
+      "name": "clean",
+      "subset": "",
+      "rate": 0.0,
+      "position": "random"
+    },
+    {
+      "name": "T_r30_random",
+      "subset": "T",
+      "rate": 0.3,
+      "position": "random"
+    },
+    {
+      "name": "A_r30_random",
+      "subset": "A",
+      "rate": 0.3,
+      "position": "random"
+    },
+    {
+      "name": "V_r30_random",
+      "subset": "V",
+      "rate": 0.3,
+      "position": "random"
+    },
+    {
+      "name": "TAV_r30_random",
+      "subset": "TAV",
+      "rate": 0.3,
+      "position": "random"
+    },
+    {
+      "name": "TAV_r50_random",
+      "subset": "TAV",
+      "rate": 0.5,
+      "position": "random"
+    }
+  ],
+  "validation_corruption_seed": 20260924,
+  "source_sha256": "66e867aa74bc70a844e806e5571e371c9abb4a35f9e2887ce9b4d97ff2cb8fcd",
+  "encoder": {
+    "repo": "distilbert/distilbert-base-uncased",
+    "revision": "12040accade4e8a0f71eabdb258fecc2e7e948be",
+    "weights_sha256": "5e3f1108e3cb34ee048634875d8482665b65ac713291a7e32396fb18f6ff0063"
+  },
+  "normalization_sha256": "d11c18570f83af5f9569853444a73b3c112e0ae3aeff42d3fe2bcf04206971db",
+  "loss_weights": {
+    "aux": 0.1,
+    "alignment": 0.05,
+    "orthogonal": 0.05,
+    "preserve": 0.05,
+    "kd": 0.1,
+    "emc": 0.01,
+    "emc_gradient": 0.01
+  },
+  "training_mask": "group1 paired deterministic seed/epoch/sample masks; B half single half three-part; C plus unequal modality lengths; group2/3/4 single masks",
+  "evaluation_seed": 41000,
+  "evaluation_repeats": 3,
+  "selection": "six-profile J; complete validation guardrails; ties within .002 prefer fewer parameters",
+  "guardrails": {
+    "clean_f1_drop": 0.005,
+    "clean_mae_rise": 0.01,
+    "robust_f1_gain": 0.01,
+    "robust_mae_rise": 0.0,
+    "neutral_recall_drop": 0.01,
+    "strong_mae_rise": 0.02
+  },
+  "previously_evaluated_test": true,
+  "bootstrap_repeats": 1000,
+  "bootstrap_seed": 20260926,
+  "package_limit_bytes": 50000000,
+  "text_frozen": false,
+  "regression_distillation": false,
+  "reg_weight": 2.0,
+  "groups": {
+    "1": [
+      "shape_single",
+      "shape_multi",
+      "shape_unequal"
+    ],
+    "2": [
+      "text_frozen",
+      "text_lora",
+      "shape_single",
+      "multi_lora"
+    ],
+    "3": [
+      "gate_quality",
+      "gate_reliability",
+      "gate_correction"
+    ],
+    "4": [
+      "shape_single",
+      "reconstruct"
+    ]
+  },
+  "lora": {
+    "rank": 4,
+    "alpha": 8,
+    "dropout": 0.0,
+    "layers": [
+      4,
+      5
+    ],
+    "targets": [
+      "q_lin",
+      "v_lin"
+    ],
+    "lr": 0.0001,
+    "micro_batch": 16,
+    "effective_batch": 64
+  },
+  "oof": {
+    "folds": 3,
+    "group": "source_video",
+    "split_seed": 20260925,
+    "expert_epochs": 8,
+    "heldout_used_for_early_stopping": false,
+    "normalization": "fit within each fold training partition"
+  },
+  "fusion": {
+    "epochs": 35,
+    "patience": 7,
+    "lr": 0.001,
+    "reg_weight": 2.0,
+    "correction_bound": 1.0
+  },
+  "reconstruction": {
+    "target": "frozen 64-dimensional projections, trained using train only",
+    "weight": 0.1,
+    "queries": "valid missing slots; keys observed only",
+    "recovered_weight": 0.5
+  },
+  "combination": {
+    "condition": "both component changes improve robust F1 and robust MAE against their controlled reference",
+    "only_one_combination": true
+  },
+  "evaluation_extended": "217 historical profiles plus 36 unequal-length realizations, reported separately",
+  "old_outputs_immutable": true,
+  "groups_plain": {
+    "1": "只改变缺失形状，检查单段、多段及不等长缺失",
+    "2": "只允许文本理解部分少量参数调整，比较文本与三模态",
+    "3": "用未见样本的专家预测学习何时相信哪个模态，再检查小幅回归修正",
+    "4": "利用剩余信息估计人工删除位置的低维特征，以情感预测成绩判断价值"
+  }
+}

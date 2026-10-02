@@ -1,0 +1,12 @@
+{
+  "sample_id": "-aNfi7CP8vM$_$7",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.941893994808197,
+  "low_confidence_fraction": 0.0,
+  "diagnostic_wer": 0.3888888888888889,
+  "usable_word_times": 18,
+  "words": 18,
+  "raw_text": "Maybe they have no political party affiliation, they're not interested in politics, they could care less about politics.",
+  "diagnostic_asr": "MAYBE THEY HAVE NOTIN THEY HAVE NO POLITICAL PARTY OFFILIATION THEY ARE NOT INTERESTED IN POLITICS THEY COULD CARE LESS ABOUT POLITICS OR"
+}

@@ -1,0 +1,12 @@
+{
+  "sample_id": "-6rXp3zJ3kc$_$8",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.9464350342750549,
+  "low_confidence_fraction": 0.0,
+  "diagnostic_wer": 0.20588235294117646,
+  "usable_word_times": 34,
+  "words": 34,
+  "raw_text": "Many people are not until they get to be a older age and they realize that gosh they wasted a lot of time and money in placing bets on stock that's ultimately lost value.",
+  "diagnostic_asr": "AWARE OF MANY PEOPLE ARE NOT UNTIL THEY GET TO BE A OLDER AGE AND THEY REALIZED THAT GASHEF THEY'VE WASTED A LOT OF TIME AND MONEY IN IN PLACING BATS ON STOCK THAT'S ULTIMATELY LOST VALUE"
+}

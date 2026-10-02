@@ -1,0 +1,12 @@
+{
+  "sample_id": "-egA8-b7-3M$_$17",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.9426929950714111,
+  "low_confidence_fraction": 0.0,
+  "diagnostic_wer": 0.0625,
+  "usable_word_times": 16,
+  "words": 16,
+  "raw_text": "As you have more experience, you have more times exhibiting, you get to know more people.",
+  "diagnostic_asr": "AS YOU HAVE MORE EXPERIENCE YOU HAVE MORE TIMES EXHIBITING YOU GET TO NO MORE PEOPLE"
+}

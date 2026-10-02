@@ -1,0 +1,12 @@
+{
+  "checkpoints": {
+    "step2_refine/checkpoints/dual_gate_17.pt": "a73359fdccf830c23f318bbb59ce52a3410c357dca962ca01ce6aede402fb9b9",
+    "step2_refine/checkpoints/dual_gate_29.pt": "c6b55d9c2bcbe482b30d10ebdf68a65b0ee821197b8fd5eaf5700bc0d345fd20",
+    "step2_refine/checkpoints/dual_gate_43.pt": "4eb47c339e65b9fa074fc50c412046b7897698e333e23034e3a6be4edbc89001"
+  },
+  "profiles": 217,
+  "selection_sha256": null,
+  "protocol_sha256": "b01566a1003e07db6b13367a4146c0059122b02f614d06108e9f2ee0449b6d2b",
+  "all_missing_policy": "train_prior",
+  "backend": "linear"
+}

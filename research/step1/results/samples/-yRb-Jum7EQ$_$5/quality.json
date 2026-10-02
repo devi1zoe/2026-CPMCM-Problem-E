@@ -1,0 +1,16 @@
+{
+  "sample_id": "-yRb-Jum7EQ$_$5",
+  "requires_transcript_review": true,
+  "reasons": [
+    "mean_CTC_confidence_below_0.2",
+    "more_than_half_words_below_0.1",
+    "diagnostic_WER_above_0.8"
+  ],
+  "mean_confidence": 0.0630141869187355,
+  "low_confidence_fraction": 0.92,
+  "diagnostic_wer": 1.0,
+  "usable_word_times": 0,
+  "words": 25,
+  "raw_text": "Yesterday Eliav Gelman lost his life in another terrorist attack, not by the students of terrorism, but by those who teach terrorism, a Palestinian teacher.",
+  "diagnostic_asr": "MORLE ILIAVE GOOD MINDNE ZIRONO LEVARA IBEDETRAEVE BE MA LACCE LA CAFANOSEFIT VAPAM LOCHEL TELLING ME DERTOO IRACHEMIHANCETOCHAN MRIFEESTINE VELARENA WO"
+}

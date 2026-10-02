@@ -1,0 +1,9 @@
+{
+  "name": "self",
+  "seed": 29,
+  "epochs": 15,
+  "seconds": 54.34172749519348,
+  "parameters": 170500,
+  "checkpoint_sha256": "b91c6bf5986b65739df8e44571d6ffca6b625ede133935aed91e5165acbbf10a",
+  "protocol_sha256": "f983b4b1e07dd23caec0b6027e26872d40545564cb4c6a4e7a485be8cb5db3e9"
+}

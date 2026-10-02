@@ -1,0 +1,12 @@
+{
+  "sample_id": "-t217m2on-s$_$7",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.9594894647598267,
+  "low_confidence_fraction": 0.0,
+  "diagnostic_wer": 0.06666666666666667,
+  "usable_word_times": 45,
+  "words": 45,
+  "raw_text": "If you find that your ears consistently do this and you can't pop them often, you'll definitely need to see a physician regarding those things, it could be something more of a nasal infection or a sinus infection that he would need to deal with.",
+  "diagnostic_asr": "IF YOU FIND THAT YOUR EARS PERCONSISTENTLY DO THIS AND YOU CAN'T POP THEM OFTEN YOU'LL DEFINITELYOU WANT NEED TO SEE A PHYSICIAN REGARDING THOSE THINGS IT COULD BE SOMETHING MORE OF A NASAL INFECTION OR A SINUS INFECTION THAT HE WOULD NEED TO DEAL WITH"
+}

@@ -1,0 +1,12 @@
+{
+  "sample_id": "-RfYyzHpjk4$_$11",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.8869133591651917,
+  "low_confidence_fraction": 0.0,
+  "diagnostic_wer": 0.35294117647058826,
+  "usable_word_times": 17,
+  "words": 17,
+  "raw_text": "So get your friends lined up, get your business colleagues lined up and have a good time.",
+  "diagnostic_asr": "SO UM GET YOUR FRIEND'S LIND UP GET YOUR BUSINESS COLLEGS LIND UP AND HAVE A GOOD TIME CATHY"
+}

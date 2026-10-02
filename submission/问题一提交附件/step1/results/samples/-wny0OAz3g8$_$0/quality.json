@@ -1,0 +1,12 @@
+{
+  "sample_id": "-wny0OAz3g8$_$0",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.9526786804199219,
+  "low_confidence_fraction": 0.0,
+  "diagnostic_wer": 0.2222222222222222,
+  "usable_word_times": 9,
+  "words": 9,
+  "raw_text": "trade labor unions didn’t allow Black workers to join",
+  "diagnostic_asr": "TRADE LABOR UNIONS DIDN'T ALLOW BLACK WORKERS TO JOIN AND BECAUSE"
+}

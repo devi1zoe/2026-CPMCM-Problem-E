@@ -1,0 +1,16 @@
+{
+  "sample_id": "-yRb-Jum7EQ$_$1",
+  "requires_transcript_review": true,
+  "reasons": [
+    "mean_CTC_confidence_below_0.2",
+    "more_than_half_words_below_0.1",
+    "diagnostic_WER_above_0.8"
+  ],
+  "mean_confidence": 0.0748576894402504,
+  "low_confidence_fraction": 0.8367346938775511,
+  "diagnostic_wer": 0.9591836734693877,
+  "usable_word_times": 0,
+  "words": 49,
+  "raw_text": "it comes with the assistance and agitation of states and regimes, Yesterday Iran announced that it will finance the families of the terrorists and murderers this shows that Iran, even after the nuclear agreement, is continuing to aid terrorism, including Palestinian terrorism, Hezbollah terrorism and its assistance to Hamas.",
+  "diagnostic_asr": "BEHALALRIC UBAMIE SIA THE MAZZASA SHILE MEDINOTO MICHTARIM ET MOLIRANE A HODIASHI OLEFETLEMAMIN ITE HAMICHPAHOTE CHELATO WISTIMA MIRASCIM VEZAMARECHI RANA HAVIESCEMAGERIN NAMCHIRA BISIOLATEVO GAMCHAM GAMATVO FILOSTINI GAMATOOSHOFISBALA TE MUVANGAME BISIO LA HAMAS"
+}

@@ -1,0 +1,12 @@
+{
+  "sample_id": "-egA8-b7-3M$_$13",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.8818216919898987,
+  "low_confidence_fraction": 0.09090909090909091,
+  "diagnostic_wer": 0.0,
+  "usable_word_times": 10,
+  "words": 11,
+  "raw_text": "What are you doing that's different?\" They always want an answer.",
+  "diagnostic_asr": "WHAT ARE YOU DOING THAT'S DIFFERENT THEY ALWAYS WANT AN ANSWER"
+}

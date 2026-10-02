@@ -1,0 +1,12 @@
+{
+  "sample_id": "-MeTTeMJBNc$_$7",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.8815749287605286,
+  "low_confidence_fraction": 0.06451612903225806,
+  "diagnostic_wer": 0.0967741935483871,
+  "usable_word_times": 29,
+  "words": 31,
+  "raw_text": "Maybe you could find a picture of the couple from their wedding or sometime in their life, or maybe even a current picture and have it put in a beautiful frame.",
+  "diagnostic_asr": "ICTURE MAYBE YOU COULD FIND A PICTURE OF THE COUPLE FROM THEIR WEDDING OR SOMETIME IN THEIR LIFE OR MAYBE EVEN A CURRENT PICTURE AND HAV TO PUT IN A BEAUTIFUL FRAME"
+}

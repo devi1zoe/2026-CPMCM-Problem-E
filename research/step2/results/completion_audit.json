@@ -1,0 +1,21 @@
+{
+  "requirements": {
+    "train_valid_test_separated": true,
+    "unified_aligned_interface": true,
+    "text_deletion_before_encoding": true,
+    "eight_model_families": true,
+    "sixteen_completed_fits": true,
+    "three_seeds_for_all_four_main_variants": true,
+    "locked_validation_selection": true,
+    "missing_type_position_duration": true,
+    "shape_and_synchronization": true,
+    "classification_and_regression_metrics": true,
+    "source_video_cluster_bootstrap": true,
+    "all_thirty_special_predictions": true,
+    "report_code_checkpoints_and_environment": true
+  },
+  "test_scenarios": 217,
+  "test_metric_rows": 5425,
+  "special_rows": 30,
+  "selected": "gated_aug"
+}

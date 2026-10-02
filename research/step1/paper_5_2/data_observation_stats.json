@@ -1,0 +1,35 @@
+{
+  "sample_count": 100,
+  "video_id_count": 37,
+  "duration_seconds": {
+    "min": 2.257,
+    "max": 29.288020833333334,
+    "mean": 7.879985859374999,
+    "median": 6.722493489583333,
+    "q1": 5.147493489583334,
+    "q3": 8.72548828125,
+    "total": 787.9985859374999
+  },
+  "words": {
+    "min": 5,
+    "max": 65,
+    "mean": 19.32,
+    "median": 18.0,
+    "total": 1932
+  },
+  "annotation_counts": {
+    "Positive": 57,
+    "Neutral": 25,
+    "Negative": 18
+  },
+  "decoded_count": 100,
+  "monotonic_video_pts_count": 100,
+  "word_count_rule": "字母词（允许内部撇号）及数字串；标点不单独计词；沿用step1/alignment.py规则",
+  "duration_definition": "沿用完整解码审计：视频终点和音频终点的较大者，时间以视频流起点为原点",
+  "provenance": [
+    "step1/results/media_audit.json",
+    "step1/results/input_manifest.json",
+    "原始label-100.xlsx；与manifest逐行核对",
+    "step1/results/sample_summary.csv；核对词数与时长"
+  ]
+}

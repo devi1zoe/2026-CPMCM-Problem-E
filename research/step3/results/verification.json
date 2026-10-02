@@ -1,0 +1,9 @@
+{
+  "shapley_known_signed_game": true,
+  "fixed_target_classes": true,
+  "ig_known_linear_probability": true,
+  "shapley_efficiency": true,
+  "deleted_tokens_cannot_leak": true,
+  "whole_text_absence_equals_input_deletion": true,
+  "selected_checkpoint_hashes": true
+}

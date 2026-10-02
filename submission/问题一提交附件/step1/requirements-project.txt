@@ -1,0 +1,10 @@
+# 只安装到现有 step1/.venv；继承根环境 torch==2.5.1+cu121，禁止安装/升级 torch。
+opensmile==2.6.0
+mediapipe==0.10.21
+openpyxl==3.1.5
+transformers==4.48.3
+num2words==0.5.14
+opencv-contrib-python==4.11.0.86
+jax==0.4.30
+jaxlib==0.4.30
+numpy==1.26.4

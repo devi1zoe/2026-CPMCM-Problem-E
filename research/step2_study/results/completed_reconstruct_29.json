@@ -1,0 +1,11 @@
+{
+  "score": 1.029811003170521,
+  "config": {
+    "reconstruct": true
+  },
+  "sha256": "5b808dcf77cbd77065fd91dac3903588fa8cfbbca9b7b0e7285c500d5302c1a6",
+  "protocol_sha256": "102694aa476b8a77840f7ad2da42e41f0b32afeb364d91fc6f1d254e1c21c276",
+  "target_source_sha256": "dce31a743788eea71d9249223afb0dd3f00a554628bf23a0292dbdb49f64da65",
+  "epochs": 18,
+  "seconds": 357.564532995224
+}

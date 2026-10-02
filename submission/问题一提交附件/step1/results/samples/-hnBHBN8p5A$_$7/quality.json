@@ -1,0 +1,16 @@
+{
+  "sample_id": "-hnBHBN8p5A$_$7",
+  "requires_transcript_review": true,
+  "reasons": [
+    "mean_CTC_confidence_below_0.2",
+    "more_than_half_words_below_0.1",
+    "diagnostic_WER_above_0.8"
+  ],
+  "mean_confidence": 0.003141609486192465,
+  "low_confidence_fraction": 1.0,
+  "diagnostic_wer": 1.1538461538461537,
+  "usable_word_times": 0,
+  "words": 13,
+  "raw_text": "Picture this, before we actually start hacking, we’re in a room formal setting",
+  "diagnostic_asr": "THE MAJORITY OF AN ENTIRE NATION TO BELIEVE IN TRUST HIS OR HER WORDS ISN'T TAT"
+}

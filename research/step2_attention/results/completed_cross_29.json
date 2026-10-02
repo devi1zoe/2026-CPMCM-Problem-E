@@ -1,0 +1,9 @@
+{
+  "name": "cross",
+  "seed": 29,
+  "epochs": 12,
+  "seconds": 39.22495627403259,
+  "parameters": 203972,
+  "checkpoint_sha256": "84e7a82f9e191530be699c937bc08bfd01a28744131149ce6c0005a3832d9c08",
+  "protocol_sha256": "f983b4b1e07dd23caec0b6027e26872d40545564cb4c6a4e7a485be8cb5db3e9"
+}

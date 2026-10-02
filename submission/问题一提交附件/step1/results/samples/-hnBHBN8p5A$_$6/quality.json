@@ -1,0 +1,16 @@
+{
+  "sample_id": "-hnBHBN8p5A$_$6",
+  "requires_transcript_review": true,
+  "reasons": [
+    "mean_CTC_confidence_below_0.2",
+    "more_than_half_words_below_0.1",
+    "diagnostic_WER_above_0.8"
+  ],
+  "mean_confidence": 0.07967864722013474,
+  "low_confidence_fraction": 0.9230769230769231,
+  "diagnostic_wer": 0.9230769230769231,
+  "usable_word_times": 0,
+  "words": 13,
+  "raw_text": "Discussion, how to discuss ideas and opinions more effectively than a native speaker",
+  "diagnostic_asr": "TO FOLLOW JUST ONE RISION YU NEVER WONDERED HOW A SINGLE B"
+}

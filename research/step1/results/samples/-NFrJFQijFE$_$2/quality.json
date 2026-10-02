@@ -1,0 +1,16 @@
+{
+  "sample_id": "-NFrJFQijFE$_$2",
+  "requires_transcript_review": true,
+  "reasons": [
+    "mean_CTC_confidence_below_0.2",
+    "more_than_half_words_below_0.1",
+    "diagnostic_WER_above_0.8"
+  ],
+  "mean_confidence": 0.005170820746570826,
+  "low_confidence_fraction": 1.0,
+  "diagnostic_wer": 1.0,
+  "usable_word_times": 0,
+  "words": 18,
+  "raw_text": "So we coordinate with all the proper technical fields to get ready for the instrument to arrive here",
+  "diagnostic_asr": "HAWK'S SENSE OF HERING IS EXCELLENT AND THEIR EYES S"
+}

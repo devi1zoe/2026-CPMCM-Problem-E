@@ -1,0 +1,35 @@
+{
+  "figures": [
+    "fig_p1_visual_coverage_single",
+    "fig_p1_audio_energy_share_single",
+    "fig_p1_ctc_confidence_single",
+    "fig_p1_diagnostic_wer_single",
+    "fig_p1_rms_single",
+    "fig_p1_rms_zoom_single",
+    "fig_p1_window_reconstruction_single",
+    "fig_p1_word_window_overlap_single",
+    "fig_p1_audio_window_error_single",
+    "fig_p1_vision_window_error_single",
+    "fig_p1_word_crossing_ratio_single"
+  ],
+  "checks": {
+    "example_crossings": {
+      "0.2": 4,
+      "0.5": 2
+    },
+    "example_interval": [
+      1.84246875,
+      2.4024687499999997
+    ],
+    "window_means_match_audit": true
+  },
+  "source_sha256": {
+    "data_audit.json": "cbb735aa4f7aee2f49751da102baebaae369a8a0e963e5057834e7f659900244",
+    "audited_window_comparison.csv": "a64206efba401f7dfad4ce8d51da492949a53d8027ee27a4a7874da0ff9f336a"
+  },
+  "note": "沿用原绘图的数据与图元，分别导出矢量PDF；未运行模型或修改实验数据。",
+  "minipages": 11,
+  "independent_figure_captions": 13,
+  "tables_unchanged": true,
+  "compiled_without_overflow_or_unresolved_references": true
+}

@@ -1,0 +1,12 @@
+{
+  "sample_id": "-vxjVxOeScU$_$4",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.8275817632675171,
+  "low_confidence_fraction": 0.14285714285714285,
+  "diagnostic_wer": 0.2857142857142857,
+  "usable_word_times": 18,
+  "words": 21,
+  "raw_text": "You're going to talk about their life, their marriage and usually how amazing it is that they've stayed together this long.",
+  "diagnostic_asr": "OR UN TO TALK ABOUT THEIR LIFE THEIR MARRIAGE  UNUSUALLY HOW AMAZING IT IS THAT THEY'VE STAYED TOGETHER THIS LONG WEDDING IN"
+}

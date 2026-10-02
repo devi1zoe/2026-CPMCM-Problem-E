@@ -1,0 +1,65 @@
+{
+  "diagnostic_sources": [
+    "step1/results/samples/*/features.npz",
+    "step1/results/alignment_quality_review.csv"
+  ],
+  "word_count": 1932,
+  "sample_count": 100,
+  "low_confidence_words": 350,
+  "mean_confidence": 0.7477365537178243,
+  "median_confidence": 0.9584778845310211,
+  "mean_diagnostic_wer": 0.4689218302522313,
+  "mapping_records": [
+    {
+      "word": "started",
+      "subword_indices": [
+        1
+      ],
+      "start": 1.28246875,
+      "end": 1.64246875,
+      "confidence": 0.9993772506713867,
+      "audio_first": 127,
+      "audio_last": 164,
+      "video_pts": [
+        1.2,
+        1.4,
+        1.6
+      ]
+    },
+    {
+      "word": "successful",
+      "subword_indices": [
+        3
+      ],
+      "start": 1.84246875,
+      "end": 2.4024687499999997,
+      "confidence": 0.9683406352996826,
+      "audio_first": 183,
+      "audio_last": 240,
+      "video_pts": [
+        1.8,
+        2.0,
+        2.2,
+        2.4
+      ]
+    },
+    {
+      "word": "Consulting",
+      "subword_indices": [
+        6
+      ],
+      "start": 3.0224687500000003,
+      "end": 3.52246875,
+      "confidence": 0.9795398712158203,
+      "audio_first": 301,
+      "audio_last": 352,
+      "video_pts": [
+        3.0,
+        3.2,
+        3.4,
+        3.6
+      ]
+    }
+  ],
+  "manual_review_scope": "本次只核读保存的实际帧图、候选词界和诊断记录；未听辨并标注全部词界。"
+}

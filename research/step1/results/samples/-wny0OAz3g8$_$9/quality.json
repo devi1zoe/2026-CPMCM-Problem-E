@@ -1,0 +1,12 @@
+{
+  "sample_id": "-wny0OAz3g8$_$9",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.8282870054244995,
+  "low_confidence_fraction": 0.05,
+  "diagnostic_wer": 0.4,
+  "usable_word_times": 19,
+  "words": 20,
+  "raw_text": "He explores why Black and White Americans tend to have such different outcomes in terms of income, education, and more",
+  "diagnostic_asr": "S WILSON E EXPLORES WHY BLOCK AND WHITE AMERICANS TEND TO HAVE SUCH DIFFERENT OUTCOMES IN TERMS OF INCOME EDUCATION AN  MORE AND HE AR"
+}

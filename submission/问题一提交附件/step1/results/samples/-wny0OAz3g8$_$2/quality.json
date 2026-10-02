@@ -1,0 +1,12 @@
+{
+  "sample_id": "-wny0OAz3g8$_$2",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.9587392210960388,
+  "low_confidence_fraction": 0.0,
+  "diagnostic_wer": 0.30434782608695654,
+  "usable_word_times": 23,
+  "words": 23,
+  "raw_text": "And because they couldn’t get these jobs, Black communities had more men out of work, higher rates of poverty, and more criminal behavior",
+  "diagnostic_asr": "SERVICE WERE AND BECAUSE THEY COULDN'T GET THESE JOBS BLACK COMMUNITIES HAD MORE MEN OUT OF WORK HIGHERRATES OF POVERTY AND MORE CRIMINAL BEHAVIOR WHICH THAT A"
+}

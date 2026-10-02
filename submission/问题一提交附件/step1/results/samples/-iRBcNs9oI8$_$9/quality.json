@@ -1,0 +1,16 @@
+{
+  "sample_id": "-iRBcNs9oI8$_$9",
+  "requires_transcript_review": true,
+  "reasons": [
+    "mean_CTC_confidence_below_0.2",
+    "more_than_half_words_below_0.1",
+    "diagnostic_WER_above_0.8"
+  ],
+  "mean_confidence": 0.0003849636996164918,
+  "low_confidence_fraction": 1.0,
+  "diagnostic_wer": 1.0,
+  "usable_word_times": 0,
+  "words": 5,
+  "raw_text": "Power is similar to strength",
+  "diagnostic_asr": "OF POWER EPOSE"
+}

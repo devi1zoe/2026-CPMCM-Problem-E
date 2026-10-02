@@ -1,0 +1,10 @@
+{
+  "score": 1.0381658950537478,
+  "config": {
+    "fixed": true
+  },
+  "reg_weight": 2.0,
+  "sha256": "98a60b5982d4021ab11c45ca3bde14c684bb647db4d78387e3cb9f9badf9293b",
+  "epochs": 15,
+  "seconds": 303.48344564437866
+}

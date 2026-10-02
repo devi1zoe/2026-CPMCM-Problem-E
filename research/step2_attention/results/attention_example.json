@@ -1,0 +1,7 @@
+{
+  "sample_id": "-UacrmKiTn4$_$7",
+  "raw_text": "You want your lectures to be different than your textbook material, but it's important that you test the students on the textbook.",
+  "model": "cross",
+  "seed": 17,
+  "interpretation": "internal routing, not causal attribution"
+}

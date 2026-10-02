@@ -1,0 +1,7 @@
+model,seed,selected_stage,selected_epoch,epochs_run,trainable_parameters,total_parameters
+dual_gate,17,1,2,13,166025,166025
+dual_gate,29,1,6,20,166025,166025
+dual_gate,43,1,3,17,166025,166025
+late_fusion,17,2,33,21,422,178008
+late_fusion,29,1,1,12,422,178008
+late_fusion,43,1,1,12,422,178008

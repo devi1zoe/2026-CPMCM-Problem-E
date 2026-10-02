@@ -1,0 +1,27 @@
+{
+  "expected_samples": 100,
+  "checked_samples": 2,
+  "all_passed": true,
+  "source_video_hashes_verified": true,
+  "code_and_config_hashes_verified": true,
+  "model_asset_hashes_verified": true,
+  "ctc_paths_verified": true,
+  "aggregation_recomputed": true,
+  "note": "通过仅指结构与数学映射自洽，不证明真实词界准确或最大人脸就是说话者。",
+  "samples": [
+    {
+      "sample_id": "-3g5yACwYnA$_$13",
+      "status": "passed",
+      "words": 15,
+      "feature_sha256": "dcd472134827b5994b246fd0de9f0a4e03fa6729061a539c05a38d7fad2d5a18",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-3g5yACwYnA$_$3",
+      "status": "passed",
+      "words": 29,
+      "feature_sha256": "ca0173ccb92258aa3f88dfeb01549d1a99aa7b56fe0a344232b808945b13a939",
+      "alignment_failed": false
+    }
+  ]
+}

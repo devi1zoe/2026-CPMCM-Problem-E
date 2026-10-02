@@ -1,0 +1,29 @@
+{
+  "models": [
+    "old_gated",
+    "pool",
+    "self",
+    "cross",
+    "cross_clean"
+  ],
+  "rows": 4340,
+  "profiles": 217,
+  "protocol_sha256": "f983b4b1e07dd23caec0b6027e26872d40545564cb4c6a4e7a485be8cb5db3e9",
+  "weights": {
+    "old_gated_17.pt": "184a3d258c7f92fa4767cacd5dd2cf92f87fb5a25535331e74377f79853ef6ab",
+    "old_gated_29.pt": "03b4c5a32093174c39369462ea911d265889039d392102ccbc3b8a5245c79abb",
+    "old_gated_43.pt": "6bdd37b99a2da1ce978f2fedb784d4a62421aba1b46e002f7985d2a29ec8f4e6",
+    "pool_17.pt": "2b36d3dec886e9011eeccf7785cb0c61c06e831b95f006e831a8f8a555edb0de",
+    "pool_29.pt": "da555d0b5a368d62a576de0ea308bd0d19724a158b0a90337227c92c49d376b2",
+    "pool_43.pt": "e9f13f35f163551d84fc2ddb5e9fe50e393118b474663edf6bf3e57601ac8f67",
+    "self_17.pt": "84d163cd46cdd9cbfa6a7bc81c38c2ae0e16ef0593701bd66198440e06b497af",
+    "self_29.pt": "b91c6bf5986b65739df8e44571d6ffca6b625ede133935aed91e5165acbbf10a",
+    "self_43.pt": "6b1d162d3f81f5c0f32ccae4d9752318e057904de15d6422b194b8eaeeb2a49c",
+    "cross_17.pt": "fb40a168e6e8d14a2eea5311197da062313244a48dcf35a158abe0623dccb79b",
+    "cross_29.pt": "84e7a82f9e191530be699c937bc08bfd01a28744131149ce6c0005a3832d9c08",
+    "cross_43.pt": "7d48fbd5c526d7846905ad99d3f166ee3e221f03128cedda97258edd917d6b75",
+    "cross_clean_17.pt": "58968706416da2a735458b34110aecfd0906b754dce862e6704ec72d21c36eb0",
+    "cross_clean_29.pt": "6ee4c5150dc9495ccc4a89cbe5a2b39534a0730aa9cf23562f98334d0d54b1ac",
+    "cross_clean_43.pt": "760a7968d56dc2675b46ad59f3f1cd8ad21ec7c4bc83c27dd43abc76d7fc212d"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "sample_id": "-dxfTGcXJoc$_$2",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.9223060011863708,
+  "low_confidence_fraction": 0.029411764705882353,
+  "diagnostic_wer": 0.08571428571428572,
+  "usable_word_times": 33,
+  "words": 34,
+  "raw_text": "An estimated 20,000 biotech scientists, executives and industry experts from more than 50 nations were at the BIO conference to learn about the latest scientific advances, and to exchange ideas and establish business relationships.",
+  "diagnostic_asr": "AN ESTIMATED TWENTY THOUSAND BAOTEC SCIENTIST EXECUTIVES AND INDUSTRY EXPERTS FROM MORE THAN FIFTY NATIONS WERE AT THE BOW CONFERENCE TO LEARN ABOUT THE LATEST SCIENTIFIC ADVANCES AND TO EXCHANGE IDEAS AND ESTABLISH BUSINESS RELATIONSHIPS"
+}

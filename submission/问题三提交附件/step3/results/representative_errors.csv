@@ -1,0 +1,9 @@
+﻿sample_id,raw_text,true_class,true_intensity,predicted_class,predicted_intensity,confidence,abs_error,intensity_group
+130456$_$3,"(uhh) It's, out of five stars, I would give it a five",2,2.3333332538604736,0,-0.7933335304260254,0.7812542915344238,3.126666784286499,强正向
+266791$_$23,"As you're watching the movie it looks like they're actually looking at cue cards and reading these words for the first time, that's how the delivery is",0,-2.6666667461395264,2,0.2648995220661163,0.4171886444091797,2.9315662682056427,强负向
+f_ZJ7L14oYQ$_$21,They just so much more convenient than stupid boots that take forever to put on and just aren't comfortable!,2,2.0,0,-0.8605130314826965,0.8988788723945618,2.8605130314826965,强正向
+252998$_$7,(uhh) I think the best line in the movie comes from Tori Spelling when she looks at Parker Posey and says no you're not insane you're just incredibly spoiled,2,1.3333333730697632,0,-1.144015908241272,0.923950970172882,2.477349281311035,弱正向
+102858$_$6,It's probably three of the best (stutter) holiday specials made in the last (uhh) let's see,2,2.6666667461395264,2,0.3444660007953644,0.4305296838283539,2.322200745344162,强正向
+99501$_$10,"(uhh) The special effects are nice, but not enough to warrant any kind of purchase or rental",0,-1.6666666269302368,2,0.6487400531768799,0.6950626373291016,2.3154066801071167,强负向
+TWszOxkOV0w$_$1,And I think I reflect the outrage of the ordinary citizen who feels very strongly about the notion that we were told that CEOs require those kinds of pay packages because they are tied to performance.,0,-2.3333332538604736,0,-0.1017218232154846,0.5509979128837585,2.231611430644989,强负向
+237009$_$11,"(umm), it should be rated junk",0,-3.0,0,-0.7903246879577637,0.663821280002594,2.2096753120422363,强负向

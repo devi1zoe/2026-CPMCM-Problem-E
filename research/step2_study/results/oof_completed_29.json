@@ -1,0 +1,51 @@
+{
+  "sha256": "d1e77b6d5a39fe0224d9660e927b2aaa1eddb3a8494cd9260bdc389469818a32",
+  "expert_hashes": {
+    "checkpoints/expert_29_0_0.pt": "161ceecaa7331aa2ad24e38325bd6b7e77ce28e7c739c5b69f4878453cacc9ef",
+    "checkpoints/expert_29_0_1.pt": "e69f56e33a5c3f4a4154efbd19478a95c262db6d6bb68af83e78d977bd60ed58",
+    "checkpoints/expert_29_0_2.pt": "b0cc9582ad0753481f4dc45adc2bf325f47f0b2bd206eadb64b22cd60783785a",
+    "checkpoints/expert_29_1_0.pt": "876d6bbf86f1ebafd78916c3dae93006d3697073803547acf2e85c42c95e8d63",
+    "checkpoints/expert_29_1_1.pt": "a434079c7a62993cb83a7fd9b31c4e8809770144ea82d5da6751acd5f34aa3cd",
+    "checkpoints/expert_29_1_2.pt": "3bf0dc5a94aa1963694655e36c7ebf0ad2271071b7fd0cf693c578e59a2c53b9",
+    "checkpoints/expert_29_2_0.pt": "9c02c9f996a29fc76122727b226dbb86955160e7dff77b3a2fad2b0d799acebd",
+    "checkpoints/expert_29_2_1.pt": "1e99a1d733359ab465ea7990e43393fd73a9498c4ce59a11e42b8964987f0a34",
+    "checkpoints/expert_29_2_2.pt": "e7ef5b5e410a47383885000be1f2db5974787df3a93785be8fc68bfe1b6ff3e5",
+    "checkpoints/expert_29_full_0.pt": "9edd74d235dccee4d09ec9bef55cb3feb6d00b38b03673ad890236968328b7cc",
+    "checkpoints/expert_29_full_1.pt": "cfd8181488f0e6265f79e13394a11d40d02abe52f97246f63120f453fc45231e",
+    "checkpoints/expert_29_full_2.pt": "50b090e69dba4aa993590d35d769dd5789eb382285c6dcbb0977b5a58aa08412"
+  },
+  "folds": [
+    {
+      "fold": "0",
+      "train": 2254,
+      "heldout": 1141,
+      "source_overlap": 0,
+      "normalization_sha256": "564d7b8db26c8b309bd8fd5703fa0e9adb764339df65b943974a8db2dd9f73b0"
+    },
+    {
+      "fold": "1",
+      "train": 2304,
+      "heldout": 1091,
+      "source_overlap": 0,
+      "normalization_sha256": "9c425fbad35bbe5e5daec6d32ea70bafd01b1e83bd776dce1ebe3b6dfba8786a"
+    },
+    {
+      "fold": "2",
+      "train": 2232,
+      "heldout": 1163,
+      "source_overlap": 0,
+      "normalization_sha256": "ba9847a2ce919c85b9f1a5b71418736a721d46cd6734e9637630f1a5a950fa4e"
+    },
+    {
+      "fold": "full",
+      "train": 3395,
+      "heldout": 0,
+      "source_overlap": 0,
+      "normalization_sha256": "d11c18570f83af5f9569853444a73b3c112e0ae3aeff42d3fe2bcf04206971db"
+    }
+  ],
+  "training_views": 9,
+  "clean_view_and_eight_dynamic_views": true,
+  "full_experts_same_fixed_8_epochs": true,
+  "protocol_sha256": "102694aa476b8a77840f7ad2da42e41f0b32afeb364d91fc6f1d254e1c21c276"
+}

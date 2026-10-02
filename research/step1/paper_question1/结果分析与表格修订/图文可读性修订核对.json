@@ -1,0 +1,46 @@
+{
+  "source": "/mnt/data/math/step1/paper_question1/archive/结果解释修订前_20260925/用户粘贴最新版.tex",
+  "tables_and_all_sample_rows_unchanged": true,
+  "subsection_titles_unchanged": true,
+  "delivery_and_reproducibility_text_unchanged": true,
+  "figure_count": 7,
+  "figures": [
+    "figures/fig_p1_observation_summary.pdf",
+    "figures/fig_p1_rms_explained.pdf",
+    "figures/fig_p1_alignment_screening.pdf",
+    "figures/fig_p1_quality_flow.pdf",
+    "figures/fig_p1_window_experiment.pdf",
+    "figures/fig_p1_window_tradeoff.pdf",
+    "figures/fig_p1_multimodal_readable.pdf"
+  ],
+  "duplicate_labels": false,
+  "unresolved_internal_references": false,
+  "figure_data_checks": {
+    "quality_counts": {
+      "words": 1932,
+      "risk_words": 317,
+      "low_outside": 70,
+      "passed": 1545,
+      "joint": 1387,
+      "risk_samples": 21
+    },
+    "example_crossings": {
+      "0.2": 4,
+      "0.5": 2
+    },
+    "example_interval": [
+      1.84246875,
+      2.4024687499999997
+    ],
+    "window_means_match_audit": true
+  },
+  "integrated_preceding_sections_unchanged": true,
+  "integrated_conclusion_unchanged": true,
+  "result_tables_synced_to_table_collection": true,
+  "preview_compiled": true,
+  "preview_overfull_boxes": 0,
+  "preview_undefined_references": 0,
+  "tables_preview_compiled": true,
+  "preview_pages": 12,
+  "figure_gallery_pages": 7
+}

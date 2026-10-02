@@ -1,0 +1,272 @@
+{
+  "status": "passed",
+  "scope": "100条源视频解码、77,261条RMS重算、1932词CTC分数、100条WER、质量掩码、200条窗口对照与正文全量表核验；不重跑预训练模型，不提供人工词界真值",
+  "counts": {
+    "samples": 100,
+    "words": 1932,
+    "subwords": 2317,
+    "sampled_frames": 3973,
+    "valid_face_frames": 3253,
+    "audio_records": 77261,
+    "low_energy": 9918,
+    "audio_valid_records": 77261,
+    "candidate_words": 1932,
+    "padding": 0,
+    "truncated": 0,
+    "text_observed_words": 1932,
+    "audio_observed_words": 1932,
+    "vision_observed_words": 1595,
+    "risk_samples": 21,
+    "risk_words": 317,
+    "low_words": 350,
+    "risk_low_words": 280,
+    "risk_high_words": 37,
+    "low_outside_risk": 70,
+    "time_usable": 1545,
+    "joint_usable": 1387,
+    "usable_no_vision": 158,
+    "decoded_video_frames": 23241
+  },
+  "unassigned_subwords": {
+    ".": 62,
+    ",": 112,
+    "-": 3,
+    "”": 1,
+    "[": 1,
+    ":": 1,
+    "]": 1,
+    "\"": 14,
+    "'": 2,
+    "^": 5,
+    "?": 1,
+    "—": 2,
+    "–": 1
+  },
+  "unassigned_subword_total": 206,
+  "confidence": {
+    "mean": 0.7477365537178243,
+    "median": 0.9584778845310211,
+    "below_0.1": 350,
+    "at_least_0.95": 1034
+  },
+  "wer": {
+    "mean": 0.4689218302522313,
+    "above_0.8": 21,
+    "above_1": 9,
+    "max": 1.875
+  },
+  "sensitivity": [
+    {
+      "mean_threshold": 0.1,
+      "wer_threshold": 0.6,
+      "samples": 25
+    },
+    {
+      "mean_threshold": 0.1,
+      "wer_threshold": 0.8,
+      "samples": 21
+    },
+    {
+      "mean_threshold": 0.1,
+      "wer_threshold": 1.0,
+      "samples": 20
+    },
+    {
+      "mean_threshold": 0.2,
+      "wer_threshold": 0.6,
+      "samples": 25
+    },
+    {
+      "mean_threshold": 0.2,
+      "wer_threshold": 0.8,
+      "samples": 21
+    },
+    {
+      "mean_threshold": 0.2,
+      "wer_threshold": 1.0,
+      "samples": 20
+    },
+    {
+      "mean_threshold": 0.3,
+      "wer_threshold": 0.6,
+      "samples": 25
+    },
+    {
+      "mean_threshold": 0.3,
+      "wer_threshold": 0.8,
+      "samples": 21
+    },
+    {
+      "mean_threshold": 0.3,
+      "wer_threshold": 1.0,
+      "samples": 20
+    }
+  ],
+  "duration_range": [
+    2.257,
+    29.288020833333334
+  ],
+  "selected_typical": "-egA8-b7-3M$_$1",
+  "constant_features": [
+    {
+      "sample_id": "-mJ2ud6oKI8$_$1",
+      "modality": "audio",
+      "records": 601,
+      "audio_waveform_max_abs": 0.0
+    },
+    {
+      "sample_id": "-mJ2ud6oKI8$_$2",
+      "modality": "audio",
+      "records": 566,
+      "audio_waveform_max_abs": 0.0
+    }
+  ],
+  "window_statistics": {
+    "audio_normalized_reconstruction_mse": {
+      "0.2": {
+        "n": 100,
+        "mean": 0.5449260640144348,
+        "median": 0.5558746159076691,
+        "q1": 0.5136846005916595,
+        "q3": 0.5912579298019409,
+        "zero_count": 2,
+        "outliers": 3
+      },
+      "0.5": {
+        "n": 100,
+        "mean": 0.7466779327392579,
+        "median": 0.7687207162380219,
+        "q1": 0.721211314201355,
+        "q3": 0.8062796294689178,
+        "zero_count": 2,
+        "outliers": 3
+      }
+    },
+    "vision_normalized_reconstruction_mse": {
+      "0.2": {
+        "n": 87,
+        "mean": 0.23570238019543133,
+        "median": 0.23631837964057922,
+        "q1": 0.2115609422326088,
+        "q3": 0.25887179374694824,
+        "zero_count": 0,
+        "outliers": 4
+      },
+      "0.5": {
+        "n": 87,
+        "mean": 0.43725648282588214,
+        "median": 0.43852218985557556,
+        "q1": 0.39433781802654266,
+        "q3": 0.4753800332546234,
+        "zero_count": 0,
+        "outliers": 3
+      }
+    },
+    "word_boundary_crossing_ratio": {
+      "0.2": {
+        "n": 79,
+        "mean": 0.7133393064357519,
+        "median": 0.7142857142857143,
+        "q1": 0.6511156186612577,
+        "q3": 0.7687165775401069,
+        "zero_count": 0,
+        "outliers": 5
+      },
+      "0.5": {
+        "n": 79,
+        "mean": 0.3950201597730336,
+        "median": 0.3888888888888889,
+        "q1": 0.3333333333333333,
+        "q3": 0.45454545454545453,
+        "zero_count": 0,
+        "outliers": 3
+      }
+    }
+  },
+  "paired_window_comparison": {
+    "audio_normalized_reconstruction_mse": {
+      "short_less": 98,
+      "equal_within_1e8": 2,
+      "short_greater": 0
+    },
+    "vision_normalized_reconstruction_mse": {
+      "short_less": 87,
+      "equal_within_1e8": 0,
+      "short_greater": 0
+    },
+    "word_boundary_crossing_ratio": {
+      "short_less": 0,
+      "equal_within_1e8": 2,
+      "short_greater": 77
+    }
+  },
+  "examples": {
+    "successful": {
+      "interval": [
+        1.84246875,
+        2.4024687499999997
+      ],
+      "audio_indices": [
+        183,
+        240
+      ],
+      "audio_record_count": 58,
+      "vision_pts": [
+        1.8,
+        2.0,
+        2.2,
+        2.4
+      ],
+      "vision_overlaps": [
+        0.05753124999999981,
+        0.20000000000000018,
+        0.19999999999999973,
+        0.10246874999999989
+      ],
+      "vision_weights": [
+        0.10273437201976776,
+        0.3571428656578064,
+        0.3571428656578064,
+        0.18297991156578064
+      ],
+      "overlap_past_2.4_seconds": 0.0024687499999997975
+    },
+    "typical_curve": {
+      "loudness_peak_time": 2.1100000000000003,
+      "loudness_peak_value": 0.9926158785820007,
+      "face_coefficients": {
+        "2.0": {
+          "jawOpen": 0.19123274087905884,
+          "mouthSmileLeft": 0.024121778085827827
+        },
+        "2.4": {
+          "jawOpen": 0.1946445107460022,
+          "mouthSmileLeft": 0.0033132254611700773
+        },
+        "2.8": {
+          "jawOpen": 0.2779234051704407,
+          "mouthSmileLeft": 0.003476402722299099
+        },
+        "3.0": {
+          "jawOpen": 0.1812978982925415,
+          "mouthSmileLeft": 0.006076065357774496
+        },
+        "3.4": {
+          "jawOpen": 0.07888390868902206,
+          "mouthSmileLeft": 1.0846205441339407e-05
+        }
+      }
+    }
+  },
+  "maximum_absolute_differences": {
+    "ctc_confidence": 0,
+    "raw_audio_rms": 2.9373411258859505e-08,
+    "window_seconds": 0,
+    "windows": 0,
+    "timing_usable_words": 0,
+    "words_crossing_boundary": 0,
+    "word_boundary_crossing_ratio": 0,
+    "audio_normalized_reconstruction_mse": 0,
+    "vision_normalized_reconstruction_mse": 0
+  }
+}

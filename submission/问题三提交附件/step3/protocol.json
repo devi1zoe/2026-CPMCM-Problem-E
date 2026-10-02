@@ -1,0 +1,69 @@
+{
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "initialization": "step2/gated_aug checkpoints, each trained on attachment2 train only",
+  "epochs": 20,
+  "patience": 5,
+  "lr": 0.0003,
+  "weight_decay": 0.001,
+  "batch_size": 64,
+  "dropout": 0.2,
+  "hidden": 64,
+  "coalition_probability": 0.2,
+  "coalition_sampling": "uniform proper subsets 0..6; otherwise complete inputs",
+  "loss": "train-frequency weighted CE + SmoothL1",
+  "checkpoint_selection": "clean validation MAE + 1 - MacroF1",
+  "prediction_candidates": [
+    "step2_fixed_clean",
+    "step2_fixed_aug",
+    "step2_mask_aug",
+    "step2_gated_aug",
+    "step3_coalition_aug"
+  ],
+  "explanation_target": "fixed original predicted class probability (ensemble mean), plus separate continuous intensity Shapley",
+  "primary_baseline": "modality absent: features zero, observation mask false, recomputed availability statistics",
+  "sensitivity_baseline": "training-only feature medians with original observation masks; a different representation-replacement game",
+  "ig": {
+    "nodes": 32,
+    "reference": "standardized zero, P/O/quality fixed; representation-level ranking only",
+    "convergence_nodes": 64,
+    "convergence_samples": 48
+  },
+  "local": {
+    "fraction": 0.2,
+    "ranking": "largest signed sum of IG over contiguous equal-length token windows",
+    "validation": "delete raw text tokens before frozen encoding; audio/vision rows zero with observation false",
+    "random_controls": 5,
+    "keep_control": "retain selected window within the same modality, other modalities unchanged",
+    "special_confirmation": "evaluate every same-length sliding window; report IG-selected and strongest observed deletion separately",
+    "probability_drop_warning": "negative deletion effect is counter-evidence, never relabeled supporting"
+  },
+  "faithfulness_validation_samples": "all 728 validation samples; primary main-modality and all-modality summaries",
+  "stability": {
+    "seeds": "all three predictors, target fixed to ensemble original class",
+    "noise_sd": 0.02,
+    "samples": 96
+  },
+  "weak_absolute_phi_threshold": 0.001,
+  "main_share_threshold": 0.45,
+  "timing": {
+    "method": "CTC forced alignment of original full transcript; fast tokenizer offsets to token slots",
+    "quality": {
+      "mean_confidence": 0.2,
+      "low_word_confidence": 0.1,
+      "max_low_fraction": 0.5,
+      "max_diagnostic_wer": 0.8
+    },
+    "source": "step1 fixed wav2vec2 assets; no proportional t/50 video timestamps",
+    "feature_correspondence": "task-provided aligned slot correspondence + within-word repeat audit; physical times estimated, not official ground truth"
+  },
+  "stage_boundary": "all model/baseline/window rules locked before special predictions",
+  "input_sha256": "66e867aa74bc70a844e806e5571e371c9abb4a35f9e2887ce9b4d97ff2cb8fcd",
+  "code_reuse": {
+    "alignment.py": "76b29c002cdc97e8e0e85cffae02d81db938fa39484ad908c28c5efc60de0c34"
+  },
+  "model_architecture_sha256": "1175a6d4f0fdac381a480f6b6f8d0aac948ac8192aae6149b0aaa75854e3fa5b"
+}

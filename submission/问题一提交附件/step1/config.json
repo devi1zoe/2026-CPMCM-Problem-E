@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "seed": 20260923,
+  "sample_rate": 16000,
+  "video_sampling_hz": 5,
+  "face_detection_threshold": 0.5,
+  "face_presence_threshold": 0.5,
+  "silence_rms_threshold": 0.0031622776601683794,
+  "word_confidence_threshold": 0.1,
+  "window_seconds": [0.2, 0.5],
+  "text_max_subwords_per_chunk": 510,
+  "text_model": "distilbert/distilbert-base-uncased",
+  "alignment_model": "facebook/wav2vec2-base-960h",
+  "audio_feature_set": "eGeMAPSv02 LowLevelDescriptors",
+  "vision_feature_set": "MediaPipe 52 blendshapes",
+  "storage_dtype": "float32",
+  "padding": "none; variable-length arrays per sample",
+  "alignment_fallback": "none; preserve failed words with invalid mask"
+}

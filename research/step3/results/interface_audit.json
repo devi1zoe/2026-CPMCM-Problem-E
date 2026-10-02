@@ -1,0 +1,76 @@
+{
+  "n": 20,
+  "ids": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20"
+  ],
+  "version": "aligned",
+  "fields": {
+    "text_bert": {
+      "shape": [
+        20,
+        3,
+        50
+      ],
+      "dtype": "int64"
+    },
+    "audio": {
+      "shape": [
+        20,
+        50,
+        74
+      ],
+      "dtype": "float64"
+    },
+    "vision": {
+      "shape": [
+        20,
+        50,
+        35
+      ],
+      "dtype": "float64"
+    }
+  },
+  "numpy_compatibility": "NumPy2 numpy._core -> installed NumPy1 numpy.core via custom Unpickler only",
+  "no_environment_or_input_modification": true,
+  "input_sha256": {
+    "01.pkl": "5a08410ee779863238edcf349556a2f8e10490a70e02fc95001a64f6c8d17452",
+    "02.pkl": "88ed34a500bd7f11027ffc97205e23fdcde162b32bee9c447367b026b41608ac",
+    "03.pkl": "237a657ffb78b451b4e504ab8021e6072de404afd83d3b08be1560e98ca62860",
+    "04.pkl": "f7d7291b6ed0050ad3fd439bd3f85ce6fafb230a6399366a76e0b52f017bf4a7",
+    "05.pkl": "c6948e101e25656832290edf03daaf400b9a566e912775193d5f3ecdf9388eec",
+    "06.pkl": "8c432420054ac28bfcacbbee18d0e8397bc87fa0c7e8cbb11f525d6e366fdd57",
+    "07.pkl": "f16e44523bd82862435489552910ef3b801dd5b7501d67b84b83ee1496b0c5a0",
+    "08.pkl": "a1cccd885234d22478f30d0a3b253277e0567abaecc6ac683734b7e3dfc255c4",
+    "09.pkl": "f00ad50bdc14a4c9fe58fb4e421d6c8ee052d281d917766314f2846e48af8ff7",
+    "10.pkl": "693326817b8253fc907a3c1df1b05dd1f10c7bc756a86ce125bb903b01eaf571",
+    "11.pkl": "6e4c4b2fe76d6bbc56d1d21447ec9dff5309adb1227de8adab116ff703f42ffb",
+    "12.pkl": "5d003f471f20ac8d51553c3b217fc594075067a4c806fc07139839d681a97032",
+    "13.pkl": "e2d3d3c55bc52e7178e6e7f9b28e677018f14c76966d9ec5ac486d8fbbfd8281",
+    "14.pkl": "5a07719d0610e979be9cc58f4137c951259048fe6ab9918cafd9e27d62f0b5dd",
+    "15.pkl": "1fd8521f61b769038a991088f11a9693e0ad9f05ad92f9924d502cc147a7cd1f",
+    "16.pkl": "5528f121c021c3648f41e013e829c0a73870eafbbde73415147a074be81d722f",
+    "17.pkl": "7b841ea3fdea42ef7d0ba607d90ea61a86a44066eb4ee3d1a70e8180a7b47796",
+    "18.pkl": "1fc0a00c832183dceeae626937716da6c4c096f621a7706c9268b76dedfa7f06",
+    "19.pkl": "ef099682c44a9e6ba5135a74d4babf12a91ba5ee2895b32d191679244dd1c221",
+    "20.pkl": "c9aed197e075fa99518e71cbb2ed17406178d9237d40c785409eacf1fa7f1a68"
+  }
+}

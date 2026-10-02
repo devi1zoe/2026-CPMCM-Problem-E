@@ -1,0 +1,16 @@
+{
+  "sample_id": "-mJ2ud6oKI8$_$8",
+  "requires_transcript_review": true,
+  "reasons": [
+    "mean_CTC_confidence_below_0.2",
+    "more_than_half_words_below_0.1",
+    "diagnostic_WER_above_0.8"
+  ],
+  "mean_confidence": 0.005572875961661339,
+  "low_confidence_fraction": 1.0,
+  "diagnostic_wer": 1.4545454545454546,
+  "usable_word_times": 0,
+  "words": 11,
+  "raw_text": "Sometimes we have to stretch that joint that is already irritated",
+  "diagnostic_asr": "WE WANT O TYUATE THEM AND IL GIV EM A FULL THOROUGH A VALUATION TO FI"
+}

@@ -1,0 +1,12 @@
+{
+  "sample_id": "-tPCytz4rww$_$11",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.9040341377258301,
+  "low_confidence_fraction": 0.0,
+  "diagnostic_wer": 0.29411764705882354,
+  "usable_word_times": 17,
+  "words": 17,
+  "raw_text": "Make sure that your using comps that are not larger, no larger than twelve hundred square feet.",
+  "diagnostic_asr": "OUGH MAY SURE THAT YOUR USING COMPS THAT ARE NO LARGER NO LARGER THAN TWELVE HUNDRED SQUARE FEET NO LESS"
+}

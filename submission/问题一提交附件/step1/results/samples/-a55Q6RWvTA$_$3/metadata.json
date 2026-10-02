@@ -1,0 +1,1802 @@
+{
+  "sample_id": "-a55Q6RWvTA$_$3",
+  "video_id": "-a55Q6RWvTA",
+  "clip_id": "3",
+  "raw_text": "And if you clip coupons, if you don't go out for dinner and movies and things of that nature and try to take up things in life that, well, they always say, \"the best things in life are free\". Reading a book, going for a nice walk, and, of course, combining exercise and various things of that nature where you're not spending money per se.",
+  "label": 0.6666666865348816,
+  "annotation": "Positive",
+  "source_path": "E题_材料阅读/E题数据/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-a55Q6RWvTA/3.mp4",
+  "source_sha256": "15d029fc15f50b268b98f1e8abc65e45582e638c13a018d7aa74a18373275946",
+  "config_sha256": "4a530340304f07255daf856e6891f0a15e50f05bd85343d067a663a573e8f888",
+  "code_sha256": {
+    "common.py": "4a37980b521a2f5a93e208d3ba265542a149336b3401aa89b8a4494517f5e16e",
+    "alignment.py": "76b29c002cdc97e8e0e85cffae02d81db938fa39484ad908c28c5efc60de0c34",
+    "features.py": "8283e0d0886b83bbd84d4db4521599b480b0ada4bc1afc4e4b9b91cddf5b4018",
+    "run.py": "f75d7b5bc6e342541664233a37a3d87f39313bcd3a8f3a50bfaea94798d4e07b"
+  },
+  "model_assets_sha256": {
+    "assets/face_landmarker.task": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff",
+    "assets/wav2vec2/preprocessor_config.json": "b225d617c025463b9e157e06afea8b90dc7078fc70b013c533328423e0486b4a",
+    "assets/wav2vec2/vocab.json": "19727f8944fe6459fc3f240ae2c198395b740f6a029bd23e06656266b83bcf64",
+    "assets/wav2vec2/special_tokens_map.json": "bb7068de1150661a10b55f9e4b12a0e77af8bf91f5e45e1b58afaf1d0e17f675",
+    "assets/wav2vec2/tokenizer_config.json": "dc790594f5bc351a4311c6624f40acd95850d4aaf2a5cb3c656c9b610720b608",
+    "assets/wav2vec2/model.safetensors": "8aa76ab2243c81747a1f832954586bc566090c83a0ac167df6f31f0fa917d74a",
+    "assets/wav2vec2/config.json": "d3ec255c063d9f95057b553b19c20135b259875834a4fe9deb218a6be25b4cf3",
+    "assets/distilbert/vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+    "assets/distilbert/tokenizer_config.json": "a025160ef0431f1a392f6f050c1310f4c5d9fb6f275932dbccba73c4d214bf10",
+    "assets/distilbert/model.safetensors": "5e3f1108e3cb34ee048634875d8482665b65ac713291a7e32396fb18f6ff0063",
+    "assets/distilbert/config.json": "69c94b0222d5d1f4b0ad027ca7416cdafb98378cbbb8305d0bf47c9365c60c83",
+    "assets/distilbert/tokenizer.json": "ce64fce797c24f68df90b40a3f74f579b336a493db14bd583fd520ea0d8c9a98"
+  },
+  "duration": 22.153971354166668,
+  "video_rate": 30.0,
+  "video_origin": 0.0,
+  "audio_start": 0.0,
+  "audio_duration": 22.0833125,
+  "audio_coverage_ratio": 1.0,
+  "words": [
+    {
+      "index": 0,
+      "original": "And",
+      "char_start": 0,
+      "char_end": 3,
+      "normalized": "AND",
+      "subword_indices": [
+        0
+      ],
+      "start": 0.76246875,
+      "end": 0.88246875,
+      "confidence": 0.9928406476974487,
+      "status": "aligned"
+    },
+    {
+      "index": 1,
+      "original": "if",
+      "char_start": 4,
+      "char_end": 6,
+      "normalized": "IF",
+      "subword_indices": [
+        1
+      ],
+      "start": 1.04246875,
+      "end": 1.08246875,
+      "confidence": 0.11468402296304703,
+      "status": "aligned"
+    },
+    {
+      "index": 2,
+      "original": "you",
+      "char_start": 7,
+      "char_end": 10,
+      "normalized": "YOU",
+      "subword_indices": [
+        2
+      ],
+      "start": 1.18246875,
+      "end": 1.28246875,
+      "confidence": 0.8203393220901489,
+      "status": "aligned"
+    },
+    {
+      "index": 3,
+      "original": "clip",
+      "char_start": 11,
+      "char_end": 15,
+      "normalized": "CLIP",
+      "subword_indices": [
+        3
+      ],
+      "start": 1.44246875,
+      "end": 1.68246875,
+      "confidence": 0.7988336682319641,
+      "status": "aligned"
+    },
+    {
+      "index": 4,
+      "original": "coupons",
+      "char_start": 16,
+      "char_end": 23,
+      "normalized": "COUPONS",
+      "subword_indices": [
+        4,
+        5
+      ],
+      "start": 1.76246875,
+      "end": 2.54246875,
+      "confidence": 0.9670788645744324,
+      "status": "aligned"
+    },
+    {
+      "index": 5,
+      "original": "if",
+      "char_start": 25,
+      "char_end": 27,
+      "normalized": "IF",
+      "subword_indices": [
+        7
+      ],
+      "start": 2.7024687500000004,
+      "end": 2.7424687499999996,
+      "confidence": 0.9992772340774536,
+      "status": "aligned"
+    },
+    {
+      "index": 6,
+      "original": "you",
+      "char_start": 28,
+      "char_end": 31,
+      "normalized": "YOU",
+      "subword_indices": [
+        8
+      ],
+      "start": 2.80246875,
+      "end": 2.9024687499999997,
+      "confidence": 0.9138544201850891,
+      "status": "aligned"
+    },
+    {
+      "index": 7,
+      "original": "don't",
+      "char_start": 32,
+      "char_end": 37,
+      "normalized": "DON'T",
+      "subword_indices": [
+        9,
+        10,
+        11
+      ],
+      "start": 3.0424687500000003,
+      "end": 3.2824687499999996,
+      "confidence": 0.9117260575294495,
+      "status": "aligned"
+    },
+    {
+      "index": 8,
+      "original": "go",
+      "char_start": 38,
+      "char_end": 40,
+      "normalized": "GO",
+      "subword_indices": [
+        12
+      ],
+      "start": 3.34246875,
+      "end": 3.4424687499999997,
+      "confidence": 0.9997204542160034,
+      "status": "aligned"
+    },
+    {
+      "index": 9,
+      "original": "out",
+      "char_start": 41,
+      "char_end": 44,
+      "normalized": "OUT",
+      "subword_indices": [
+        13
+      ],
+      "start": 3.5624687500000003,
+      "end": 3.66246875,
+      "confidence": 0.9977594017982483,
+      "status": "aligned"
+    },
+    {
+      "index": 10,
+      "original": "for",
+      "char_start": 45,
+      "char_end": 48,
+      "normalized": "FOR",
+      "subword_indices": [
+        14
+      ],
+      "start": 3.74246875,
+      "end": 3.8624687499999997,
+      "confidence": 0.9882511496543884,
+      "status": "aligned"
+    },
+    {
+      "index": 11,
+      "original": "dinner",
+      "char_start": 49,
+      "char_end": 55,
+      "normalized": "DINNER",
+      "subword_indices": [
+        15
+      ],
+      "start": 3.94246875,
+      "end": 4.32246875,
+      "confidence": 0.9932348728179932,
+      "status": "aligned"
+    },
+    {
+      "index": 12,
+      "original": "and",
+      "char_start": 56,
+      "char_end": 59,
+      "normalized": "AND",
+      "subword_indices": [
+        16
+      ],
+      "start": 4.46246875,
+      "end": 4.52246875,
+      "confidence": 0.987514853477478,
+      "status": "aligned"
+    },
+    {
+      "index": 13,
+      "original": "movies",
+      "char_start": 60,
+      "char_end": 66,
+      "normalized": "MOVIES",
+      "subword_indices": [
+        17
+      ],
+      "start": 4.66246875,
+      "end": 5.14246875,
+      "confidence": 0.9965111017227173,
+      "status": "aligned"
+    },
+    {
+      "index": 14,
+      "original": "and",
+      "char_start": 67,
+      "char_end": 70,
+      "normalized": "AND",
+      "subword_indices": [
+        18
+      ],
+      "start": 5.2424687500000005,
+      "end": 5.32246875,
+      "confidence": 0.8683910965919495,
+      "status": "aligned"
+    },
+    {
+      "index": 15,
+      "original": "things",
+      "char_start": 71,
+      "char_end": 77,
+      "normalized": "THINGS",
+      "subword_indices": [
+        19
+      ],
+      "start": 5.38246875,
+      "end": 5.56246875,
+      "confidence": 0.9996618032455444,
+      "status": "aligned"
+    },
+    {
+      "index": 16,
+      "original": "of",
+      "char_start": 78,
+      "char_end": 80,
+      "normalized": "OF",
+      "subword_indices": [
+        20
+      ],
+      "start": 5.60246875,
+      "end": 5.64246875,
+      "confidence": 0.682892382144928,
+      "status": "aligned"
+    },
+    {
+      "index": 17,
+      "original": "that",
+      "char_start": 81,
+      "char_end": 85,
+      "normalized": "THAT",
+      "subword_indices": [
+        21
+      ],
+      "start": 5.66246875,
+      "end": 5.80246875,
+      "confidence": 0.9327090382575989,
+      "status": "aligned"
+    },
+    {
+      "index": 18,
+      "original": "nature",
+      "char_start": 86,
+      "char_end": 92,
+      "normalized": "NATURE",
+      "subword_indices": [
+        22
+      ],
+      "start": 5.88246875,
+      "end": 6.28246875,
+      "confidence": 0.9505025148391724,
+      "status": "aligned"
+    },
+    {
+      "index": 19,
+      "original": "and",
+      "char_start": 93,
+      "char_end": 96,
+      "normalized": "AND",
+      "subword_indices": [
+        23
+      ],
+      "start": 6.942468750000001,
+      "end": 7.02246875,
+      "confidence": 0.9970990419387817,
+      "status": "aligned"
+    },
+    {
+      "index": 20,
+      "original": "try",
+      "char_start": 97,
+      "char_end": 100,
+      "normalized": "TRY",
+      "subword_indices": [
+        24
+      ],
+      "start": 7.16246875,
+      "end": 7.30246875,
+      "confidence": 0.9829722046852112,
+      "status": "aligned"
+    },
+    {
+      "index": 21,
+      "original": "to",
+      "char_start": 101,
+      "char_end": 103,
+      "normalized": "TO",
+      "subword_indices": [
+        25
+      ],
+      "start": 7.38246875,
+      "end": 7.44246875,
+      "confidence": 0.9498817324638367,
+      "status": "aligned"
+    },
+    {
+      "index": 22,
+      "original": "take",
+      "char_start": 104,
+      "char_end": 108,
+      "normalized": "TAKE",
+      "subword_indices": [
+        26
+      ],
+      "start": 7.50246875,
+      "end": 7.6624687499999995,
+      "confidence": 0.9985498189926147,
+      "status": "aligned"
+    },
+    {
+      "index": 23,
+      "original": "up",
+      "char_start": 109,
+      "char_end": 111,
+      "normalized": "UP",
+      "subword_indices": [
+        27
+      ],
+      "start": 7.7424687500000005,
+      "end": 7.80246875,
+      "confidence": 0.9981751441955566,
+      "status": "aligned"
+    },
+    {
+      "index": 24,
+      "original": "things",
+      "char_start": 112,
+      "char_end": 118,
+      "normalized": "THINGS",
+      "subword_indices": [
+        28
+      ],
+      "start": 7.96246875,
+      "end": 8.26246875,
+      "confidence": 0.9191468358039856,
+      "status": "aligned"
+    },
+    {
+      "index": 25,
+      "original": "in",
+      "char_start": 119,
+      "char_end": 121,
+      "normalized": "IN",
+      "subword_indices": [
+        29
+      ],
+      "start": 8.36246875,
+      "end": 8.40246875,
+      "confidence": 0.9991421699523926,
+      "status": "aligned"
+    },
+    {
+      "index": 26,
+      "original": "life",
+      "char_start": 122,
+      "char_end": 126,
+      "normalized": "LIFE",
+      "subword_indices": [
+        30
+      ],
+      "start": 8.54246875,
+      "end": 8.78246875,
+      "confidence": 0.975875973701477,
+      "status": "aligned"
+    },
+    {
+      "index": 27,
+      "original": "that",
+      "char_start": 127,
+      "char_end": 131,
+      "normalized": "THAT",
+      "subword_indices": [
+        31
+      ],
+      "start": 8.84246875,
+      "end": 8.98246875,
+      "confidence": 0.9849293231964111,
+      "status": "aligned"
+    },
+    {
+      "index": 28,
+      "original": "well",
+      "char_start": 133,
+      "char_end": 137,
+      "normalized": "WELL",
+      "subword_indices": [
+        33
+      ],
+      "start": 9.08246875,
+      "end": 9.32246875,
+      "confidence": 0.9981704354286194,
+      "status": "aligned"
+    },
+    {
+      "index": 29,
+      "original": "they",
+      "char_start": 139,
+      "char_end": 143,
+      "normalized": "THEY",
+      "subword_indices": [
+        35
+      ],
+      "start": 9.462468750000001,
+      "end": 9.58246875,
+      "confidence": 0.9908329844474792,
+      "status": "aligned"
+    },
+    {
+      "index": 30,
+      "original": "always",
+      "char_start": 144,
+      "char_end": 150,
+      "normalized": "ALWAYS",
+      "subword_indices": [
+        36
+      ],
+      "start": 9.64246875,
+      "end": 9.90246875,
+      "confidence": 0.9901966452598572,
+      "status": "aligned"
+    },
+    {
+      "index": 31,
+      "original": "say",
+      "char_start": 151,
+      "char_end": 154,
+      "normalized": "SAY",
+      "subword_indices": [
+        37
+      ],
+      "start": 9.962468750000001,
+      "end": 10.12246875,
+      "confidence": 0.9998086094856262,
+      "status": "aligned"
+    },
+    {
+      "index": 32,
+      "original": "the",
+      "char_start": 157,
+      "char_end": 160,
+      "normalized": "THE",
+      "subword_indices": [
+        40
+      ],
+      "start": 10.22246875,
+      "end": 10.28246875,
+      "confidence": 0.9936115741729736,
+      "status": "aligned"
+    },
+    {
+      "index": 33,
+      "original": "best",
+      "char_start": 161,
+      "char_end": 165,
+      "normalized": "BEST",
+      "subword_indices": [
+        41
+      ],
+      "start": 10.34246875,
+      "end": 10.54246875,
+      "confidence": 0.904340922832489,
+      "status": "aligned"
+    },
+    {
+      "index": 34,
+      "original": "things",
+      "char_start": 166,
+      "char_end": 172,
+      "normalized": "THINGS",
+      "subword_indices": [
+        42
+      ],
+      "start": 10.58246875,
+      "end": 10.78246875,
+      "confidence": 0.9987181425094604,
+      "status": "aligned"
+    },
+    {
+      "index": 35,
+      "original": "in",
+      "char_start": 173,
+      "char_end": 175,
+      "normalized": "IN",
+      "subword_indices": [
+        43
+      ],
+      "start": 10.84246875,
+      "end": 10.88246875,
+      "confidence": 0.9986686706542969,
+      "status": "aligned"
+    },
+    {
+      "index": 36,
+      "original": "life",
+      "char_start": 176,
+      "char_end": 180,
+      "normalized": "LIFE",
+      "subword_indices": [
+        44
+      ],
+      "start": 10.962468750000001,
+      "end": 11.16246875,
+      "confidence": 0.9813355803489685,
+      "status": "aligned"
+    },
+    {
+      "index": 37,
+      "original": "are",
+      "char_start": 181,
+      "char_end": 184,
+      "normalized": "ARE",
+      "subword_indices": [
+        45
+      ],
+      "start": 11.24246875,
+      "end": 11.34246875,
+      "confidence": 0.9946550726890564,
+      "status": "aligned"
+    },
+    {
+      "index": 38,
+      "original": "free",
+      "char_start": 185,
+      "char_end": 189,
+      "normalized": "FREE",
+      "subword_indices": [
+        46
+      ],
+      "start": 11.44246875,
+      "end": 11.722468749999999,
+      "confidence": 0.9819757342338562,
+      "status": "aligned"
+    },
+    {
+      "index": 39,
+      "original": "Reading",
+      "char_start": 192,
+      "char_end": 199,
+      "normalized": "READING",
+      "subword_indices": [
+        49
+      ],
+      "start": 12.42246875,
+      "end": 12.70246875,
+      "confidence": 0.9432186484336853,
+      "status": "aligned"
+    },
+    {
+      "index": 40,
+      "original": "a",
+      "char_start": 200,
+      "char_end": 201,
+      "normalized": "A",
+      "subword_indices": [
+        50
+      ],
+      "start": 12.78246875,
+      "end": 12.80246875,
+      "confidence": 0.9907039403915405,
+      "status": "aligned"
+    },
+    {
+      "index": 41,
+      "original": "book",
+      "char_start": 202,
+      "char_end": 206,
+      "normalized": "BOOK",
+      "subword_indices": [
+        51
+      ],
+      "start": 12.90246875,
+      "end": 13.16246875,
+      "confidence": 0.9689475893974304,
+      "status": "aligned"
+    },
+    {
+      "index": 42,
+      "original": "going",
+      "char_start": 208,
+      "char_end": 213,
+      "normalized": "GOING",
+      "subword_indices": [
+        53
+      ],
+      "start": 14.382468750000001,
+      "end": 14.60246875,
+      "confidence": 0.9882451891899109,
+      "status": "aligned"
+    },
+    {
+      "index": 43,
+      "original": "for",
+      "char_start": 214,
+      "char_end": 217,
+      "normalized": "FOR",
+      "subword_indices": [
+        54
+      ],
+      "start": 14.64246875,
+      "end": 14.74246875,
+      "confidence": 0.9992227554321289,
+      "status": "aligned"
+    },
+    {
+      "index": 44,
+      "original": "a",
+      "char_start": 218,
+      "char_end": 219,
+      "normalized": "A",
+      "subword_indices": [
+        55
+      ],
+      "start": 14.802468750000001,
+      "end": 14.82246875,
+      "confidence": 0.9564404487609863,
+      "status": "aligned"
+    },
+    {
+      "index": 45,
+      "original": "nice",
+      "char_start": 220,
+      "char_end": 224,
+      "normalized": "NICE",
+      "subword_indices": [
+        56
+      ],
+      "start": 14.882468750000001,
+      "end": 15.08246875,
+      "confidence": 0.9865889549255371,
+      "status": "aligned"
+    },
+    {
+      "index": 46,
+      "original": "walk",
+      "char_start": 225,
+      "char_end": 229,
+      "normalized": "WALK",
+      "subword_indices": [
+        57
+      ],
+      "start": 15.18246875,
+      "end": 15.46246875,
+      "confidence": 0.9909112453460693,
+      "status": "aligned"
+    },
+    {
+      "index": 47,
+      "original": "and",
+      "char_start": 231,
+      "char_end": 234,
+      "normalized": "AND",
+      "subword_indices": [
+        59
+      ],
+      "start": 15.54246875,
+      "end": 15.60246875,
+      "confidence": 0.6216591000556946,
+      "status": "aligned"
+    },
+    {
+      "index": 48,
+      "original": "of",
+      "char_start": 236,
+      "char_end": 238,
+      "normalized": "OF",
+      "subword_indices": [
+        61
+      ],
+      "start": 15.62246875,
+      "end": 15.66246875,
+      "confidence": 0.629628598690033,
+      "status": "aligned"
+    },
+    {
+      "index": 49,
+      "original": "course",
+      "char_start": 239,
+      "char_end": 245,
+      "normalized": "COURSE",
+      "subword_indices": [
+        62
+      ],
+      "start": 15.70246875,
+      "end": 15.90246875,
+      "confidence": 0.9221207499504089,
+      "status": "aligned"
+    },
+    {
+      "index": 50,
+      "original": "combining",
+      "char_start": 247,
+      "char_end": 256,
+      "normalized": "COMBINING",
+      "subword_indices": [
+        64
+      ],
+      "start": 15.962468750000001,
+      "end": 16.502468750000002,
+      "confidence": 0.9637881517410278,
+      "status": "aligned"
+    },
+    {
+      "index": 51,
+      "original": "exercise",
+      "char_start": 257,
+      "char_end": 265,
+      "normalized": "EXERCISE",
+      "subword_indices": [
+        65
+      ],
+      "start": 16.64246875,
+      "end": 17.162468750000002,
+      "confidence": 0.9796199202537537,
+      "status": "aligned"
+    },
+    {
+      "index": 52,
+      "original": "and",
+      "char_start": 266,
+      "char_end": 269,
+      "normalized": "AND",
+      "subword_indices": [
+        66
+      ],
+      "start": 17.242468749999997,
+      "end": 17.322468750000002,
+      "confidence": 0.8178850412368774,
+      "status": "aligned"
+    },
+    {
+      "index": 53,
+      "original": "various",
+      "char_start": 270,
+      "char_end": 277,
+      "normalized": "VARIOUS",
+      "subword_indices": [
+        67
+      ],
+      "start": 17.362468749999998,
+      "end": 17.622468750000003,
+      "confidence": 0.9793946743011475,
+      "status": "aligned"
+    },
+    {
+      "index": 54,
+      "original": "things",
+      "char_start": 278,
+      "char_end": 284,
+      "normalized": "THINGS",
+      "subword_indices": [
+        68
+      ],
+      "start": 17.682468749999998,
+      "end": 17.842468750000002,
+      "confidence": 0.9479467272758484,
+      "status": "aligned"
+    },
+    {
+      "index": 55,
+      "original": "of",
+      "char_start": 285,
+      "char_end": 287,
+      "normalized": "OF",
+      "subword_indices": [
+        69
+      ],
+      "start": 17.902468749999997,
+      "end": 17.942468750000003,
+      "confidence": 0.009342089295387268,
+      "status": "low_confidence"
+    },
+    {
+      "index": 56,
+      "original": "that",
+      "char_start": 288,
+      "char_end": 292,
+      "normalized": "THAT",
+      "subword_indices": [
+        70
+      ],
+      "start": 17.96246875,
+      "end": 18.08246875,
+      "confidence": 0.3984522223472595,
+      "status": "aligned"
+    },
+    {
+      "index": 57,
+      "original": "nature",
+      "char_start": 293,
+      "char_end": 299,
+      "normalized": "NATURE",
+      "subword_indices": [
+        71
+      ],
+      "start": 18.182468749999998,
+      "end": 18.52246875,
+      "confidence": 0.9422805905342102,
+      "status": "aligned"
+    },
+    {
+      "index": 58,
+      "original": "where",
+      "char_start": 300,
+      "char_end": 305,
+      "normalized": "WHERE",
+      "subword_indices": [
+        72
+      ],
+      "start": 18.94246875,
+      "end": 19.06246875,
+      "confidence": 0.7729942202568054,
+      "status": "aligned"
+    },
+    {
+      "index": 59,
+      "original": "you're",
+      "char_start": 306,
+      "char_end": 312,
+      "normalized": "YOU'RE",
+      "subword_indices": [
+        73,
+        74,
+        75
+      ],
+      "start": 19.082468749999997,
+      "end": 19.24246875,
+      "confidence": 0.8325146436691284,
+      "status": "aligned"
+    },
+    {
+      "index": 60,
+      "original": "not",
+      "char_start": 313,
+      "char_end": 316,
+      "normalized": "NOT",
+      "subword_indices": [
+        76
+      ],
+      "start": 19.28246875,
+      "end": 19.40246875,
+      "confidence": 0.998377799987793,
+      "status": "aligned"
+    },
+    {
+      "index": 61,
+      "original": "spending",
+      "char_start": 317,
+      "char_end": 325,
+      "normalized": "SPENDING",
+      "subword_indices": [
+        77
+      ],
+      "start": 19.562468749999997,
+      "end": 20.04246875,
+      "confidence": 0.980749785900116,
+      "status": "aligned"
+    },
+    {
+      "index": 62,
+      "original": "money",
+      "char_start": 326,
+      "char_end": 331,
+      "normalized": "MONEY",
+      "subword_indices": [
+        78
+      ],
+      "start": 20.26246875,
+      "end": 20.56246875,
+      "confidence": 0.9730952382087708,
+      "status": "aligned"
+    },
+    {
+      "index": 63,
+      "original": "per",
+      "char_start": 332,
+      "char_end": 335,
+      "normalized": "PER",
+      "subword_indices": [
+        79
+      ],
+      "start": 20.84246875,
+      "end": 21.06246875,
+      "confidence": 0.9769005179405212,
+      "status": "aligned"
+    },
+    {
+      "index": 64,
+      "original": "se",
+      "char_start": 336,
+      "char_end": 338,
+      "normalized": "SE",
+      "subword_indices": [
+        80
+      ],
+      "start": 21.222468749999997,
+      "end": 21.58246875,
+      "confidence": 0.020057033747434616,
+      "status": "low_confidence"
+    }
+  ],
+  "subwords": [
+    {
+      "index": 0,
+      "token_id": 1998,
+      "token": "and",
+      "char_start": 0,
+      "char_end": 3,
+      "word_index": 0,
+      "chunk_index": 0
+    },
+    {
+      "index": 1,
+      "token_id": 2065,
+      "token": "if",
+      "char_start": 4,
+      "char_end": 6,
+      "word_index": 1,
+      "chunk_index": 0
+    },
+    {
+      "index": 2,
+      "token_id": 2017,
+      "token": "you",
+      "char_start": 7,
+      "char_end": 10,
+      "word_index": 2,
+      "chunk_index": 0
+    },
+    {
+      "index": 3,
+      "token_id": 12528,
+      "token": "clip",
+      "char_start": 11,
+      "char_end": 15,
+      "word_index": 3,
+      "chunk_index": 0
+    },
+    {
+      "index": 4,
+      "token_id": 8648,
+      "token": "coup",
+      "char_start": 16,
+      "char_end": 20,
+      "word_index": 4,
+      "chunk_index": 0
+    },
+    {
+      "index": 5,
+      "token_id": 5644,
+      "token": "##ons",
+      "char_start": 20,
+      "char_end": 23,
+      "word_index": 4,
+      "chunk_index": 0
+    },
+    {
+      "index": 6,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 23,
+      "char_end": 24,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 7,
+      "token_id": 2065,
+      "token": "if",
+      "char_start": 25,
+      "char_end": 27,
+      "word_index": 5,
+      "chunk_index": 0
+    },
+    {
+      "index": 8,
+      "token_id": 2017,
+      "token": "you",
+      "char_start": 28,
+      "char_end": 31,
+      "word_index": 6,
+      "chunk_index": 0
+    },
+    {
+      "index": 9,
+      "token_id": 2123,
+      "token": "don",
+      "char_start": 32,
+      "char_end": 35,
+      "word_index": 7,
+      "chunk_index": 0
+    },
+    {
+      "index": 10,
+      "token_id": 1005,
+      "token": "'",
+      "char_start": 35,
+      "char_end": 36,
+      "word_index": 7,
+      "chunk_index": 0
+    },
+    {
+      "index": 11,
+      "token_id": 1056,
+      "token": "t",
+      "char_start": 36,
+      "char_end": 37,
+      "word_index": 7,
+      "chunk_index": 0
+    },
+    {
+      "index": 12,
+      "token_id": 2175,
+      "token": "go",
+      "char_start": 38,
+      "char_end": 40,
+      "word_index": 8,
+      "chunk_index": 0
+    },
+    {
+      "index": 13,
+      "token_id": 2041,
+      "token": "out",
+      "char_start": 41,
+      "char_end": 44,
+      "word_index": 9,
+      "chunk_index": 0
+    },
+    {
+      "index": 14,
+      "token_id": 2005,
+      "token": "for",
+      "char_start": 45,
+      "char_end": 48,
+      "word_index": 10,
+      "chunk_index": 0
+    },
+    {
+      "index": 15,
+      "token_id": 4596,
+      "token": "dinner",
+      "char_start": 49,
+      "char_end": 55,
+      "word_index": 11,
+      "chunk_index": 0
+    },
+    {
+      "index": 16,
+      "token_id": 1998,
+      "token": "and",
+      "char_start": 56,
+      "char_end": 59,
+      "word_index": 12,
+      "chunk_index": 0
+    },
+    {
+      "index": 17,
+      "token_id": 5691,
+      "token": "movies",
+      "char_start": 60,
+      "char_end": 66,
+      "word_index": 13,
+      "chunk_index": 0
+    },
+    {
+      "index": 18,
+      "token_id": 1998,
+      "token": "and",
+      "char_start": 67,
+      "char_end": 70,
+      "word_index": 14,
+      "chunk_index": 0
+    },
+    {
+      "index": 19,
+      "token_id": 2477,
+      "token": "things",
+      "char_start": 71,
+      "char_end": 77,
+      "word_index": 15,
+      "chunk_index": 0
+    },
+    {
+      "index": 20,
+      "token_id": 1997,
+      "token": "of",
+      "char_start": 78,
+      "char_end": 80,
+      "word_index": 16,
+      "chunk_index": 0
+    },
+    {
+      "index": 21,
+      "token_id": 2008,
+      "token": "that",
+      "char_start": 81,
+      "char_end": 85,
+      "word_index": 17,
+      "chunk_index": 0
+    },
+    {
+      "index": 22,
+      "token_id": 3267,
+      "token": "nature",
+      "char_start": 86,
+      "char_end": 92,
+      "word_index": 18,
+      "chunk_index": 0
+    },
+    {
+      "index": 23,
+      "token_id": 1998,
+      "token": "and",
+      "char_start": 93,
+      "char_end": 96,
+      "word_index": 19,
+      "chunk_index": 0
+    },
+    {
+      "index": 24,
+      "token_id": 3046,
+      "token": "try",
+      "char_start": 97,
+      "char_end": 100,
+      "word_index": 20,
+      "chunk_index": 0
+    },
+    {
+      "index": 25,
+      "token_id": 2000,
+      "token": "to",
+      "char_start": 101,
+      "char_end": 103,
+      "word_index": 21,
+      "chunk_index": 0
+    },
+    {
+      "index": 26,
+      "token_id": 2202,
+      "token": "take",
+      "char_start": 104,
+      "char_end": 108,
+      "word_index": 22,
+      "chunk_index": 0
+    },
+    {
+      "index": 27,
+      "token_id": 2039,
+      "token": "up",
+      "char_start": 109,
+      "char_end": 111,
+      "word_index": 23,
+      "chunk_index": 0
+    },
+    {
+      "index": 28,
+      "token_id": 2477,
+      "token": "things",
+      "char_start": 112,
+      "char_end": 118,
+      "word_index": 24,
+      "chunk_index": 0
+    },
+    {
+      "index": 29,
+      "token_id": 1999,
+      "token": "in",
+      "char_start": 119,
+      "char_end": 121,
+      "word_index": 25,
+      "chunk_index": 0
+    },
+    {
+      "index": 30,
+      "token_id": 2166,
+      "token": "life",
+      "char_start": 122,
+      "char_end": 126,
+      "word_index": 26,
+      "chunk_index": 0
+    },
+    {
+      "index": 31,
+      "token_id": 2008,
+      "token": "that",
+      "char_start": 127,
+      "char_end": 131,
+      "word_index": 27,
+      "chunk_index": 0
+    },
+    {
+      "index": 32,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 131,
+      "char_end": 132,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 33,
+      "token_id": 2092,
+      "token": "well",
+      "char_start": 133,
+      "char_end": 137,
+      "word_index": 28,
+      "chunk_index": 0
+    },
+    {
+      "index": 34,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 137,
+      "char_end": 138,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 35,
+      "token_id": 2027,
+      "token": "they",
+      "char_start": 139,
+      "char_end": 143,
+      "word_index": 29,
+      "chunk_index": 0
+    },
+    {
+      "index": 36,
+      "token_id": 2467,
+      "token": "always",
+      "char_start": 144,
+      "char_end": 150,
+      "word_index": 30,
+      "chunk_index": 0
+    },
+    {
+      "index": 37,
+      "token_id": 2360,
+      "token": "say",
+      "char_start": 151,
+      "char_end": 154,
+      "word_index": 31,
+      "chunk_index": 0
+    },
+    {
+      "index": 38,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 154,
+      "char_end": 155,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 39,
+      "token_id": 1000,
+      "token": "\"",
+      "char_start": 156,
+      "char_end": 157,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 40,
+      "token_id": 1996,
+      "token": "the",
+      "char_start": 157,
+      "char_end": 160,
+      "word_index": 32,
+      "chunk_index": 0
+    },
+    {
+      "index": 41,
+      "token_id": 2190,
+      "token": "best",
+      "char_start": 161,
+      "char_end": 165,
+      "word_index": 33,
+      "chunk_index": 0
+    },
+    {
+      "index": 42,
+      "token_id": 2477,
+      "token": "things",
+      "char_start": 166,
+      "char_end": 172,
+      "word_index": 34,
+      "chunk_index": 0
+    },
+    {
+      "index": 43,
+      "token_id": 1999,
+      "token": "in",
+      "char_start": 173,
+      "char_end": 175,
+      "word_index": 35,
+      "chunk_index": 0
+    },
+    {
+      "index": 44,
+      "token_id": 2166,
+      "token": "life",
+      "char_start": 176,
+      "char_end": 180,
+      "word_index": 36,
+      "chunk_index": 0
+    },
+    {
+      "index": 45,
+      "token_id": 2024,
+      "token": "are",
+      "char_start": 181,
+      "char_end": 184,
+      "word_index": 37,
+      "chunk_index": 0
+    },
+    {
+      "index": 46,
+      "token_id": 2489,
+      "token": "free",
+      "char_start": 185,
+      "char_end": 189,
+      "word_index": 38,
+      "chunk_index": 0
+    },
+    {
+      "index": 47,
+      "token_id": 1000,
+      "token": "\"",
+      "char_start": 189,
+      "char_end": 190,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 48,
+      "token_id": 1012,
+      "token": ".",
+      "char_start": 190,
+      "char_end": 191,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 49,
+      "token_id": 3752,
+      "token": "reading",
+      "char_start": 192,
+      "char_end": 199,
+      "word_index": 39,
+      "chunk_index": 0
+    },
+    {
+      "index": 50,
+      "token_id": 1037,
+      "token": "a",
+      "char_start": 200,
+      "char_end": 201,
+      "word_index": 40,
+      "chunk_index": 0
+    },
+    {
+      "index": 51,
+      "token_id": 2338,
+      "token": "book",
+      "char_start": 202,
+      "char_end": 206,
+      "word_index": 41,
+      "chunk_index": 0
+    },
+    {
+      "index": 52,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 206,
+      "char_end": 207,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 53,
+      "token_id": 2183,
+      "token": "going",
+      "char_start": 208,
+      "char_end": 213,
+      "word_index": 42,
+      "chunk_index": 0
+    },
+    {
+      "index": 54,
+      "token_id": 2005,
+      "token": "for",
+      "char_start": 214,
+      "char_end": 217,
+      "word_index": 43,
+      "chunk_index": 0
+    },
+    {
+      "index": 55,
+      "token_id": 1037,
+      "token": "a",
+      "char_start": 218,
+      "char_end": 219,
+      "word_index": 44,
+      "chunk_index": 0
+    },
+    {
+      "index": 56,
+      "token_id": 3835,
+      "token": "nice",
+      "char_start": 220,
+      "char_end": 224,
+      "word_index": 45,
+      "chunk_index": 0
+    },
+    {
+      "index": 57,
+      "token_id": 3328,
+      "token": "walk",
+      "char_start": 225,
+      "char_end": 229,
+      "word_index": 46,
+      "chunk_index": 0
+    },
+    {
+      "index": 58,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 229,
+      "char_end": 230,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 59,
+      "token_id": 1998,
+      "token": "and",
+      "char_start": 231,
+      "char_end": 234,
+      "word_index": 47,
+      "chunk_index": 0
+    },
+    {
+      "index": 60,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 234,
+      "char_end": 235,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 61,
+      "token_id": 1997,
+      "token": "of",
+      "char_start": 236,
+      "char_end": 238,
+      "word_index": 48,
+      "chunk_index": 0
+    },
+    {
+      "index": 62,
+      "token_id": 2607,
+      "token": "course",
+      "char_start": 239,
+      "char_end": 245,
+      "word_index": 49,
+      "chunk_index": 0
+    },
+    {
+      "index": 63,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 245,
+      "char_end": 246,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 64,
+      "token_id": 11566,
+      "token": "combining",
+      "char_start": 247,
+      "char_end": 256,
+      "word_index": 50,
+      "chunk_index": 0
+    },
+    {
+      "index": 65,
+      "token_id": 6912,
+      "token": "exercise",
+      "char_start": 257,
+      "char_end": 265,
+      "word_index": 51,
+      "chunk_index": 0
+    },
+    {
+      "index": 66,
+      "token_id": 1998,
+      "token": "and",
+      "char_start": 266,
+      "char_end": 269,
+      "word_index": 52,
+      "chunk_index": 0
+    },
+    {
+      "index": 67,
+      "token_id": 2536,
+      "token": "various",
+      "char_start": 270,
+      "char_end": 277,
+      "word_index": 53,
+      "chunk_index": 0
+    },
+    {
+      "index": 68,
+      "token_id": 2477,
+      "token": "things",
+      "char_start": 278,
+      "char_end": 284,
+      "word_index": 54,
+      "chunk_index": 0
+    },
+    {
+      "index": 69,
+      "token_id": 1997,
+      "token": "of",
+      "char_start": 285,
+      "char_end": 287,
+      "word_index": 55,
+      "chunk_index": 0
+    },
+    {
+      "index": 70,
+      "token_id": 2008,
+      "token": "that",
+      "char_start": 288,
+      "char_end": 292,
+      "word_index": 56,
+      "chunk_index": 0
+    },
+    {
+      "index": 71,
+      "token_id": 3267,
+      "token": "nature",
+      "char_start": 293,
+      "char_end": 299,
+      "word_index": 57,
+      "chunk_index": 0
+    },
+    {
+      "index": 72,
+      "token_id": 2073,
+      "token": "where",
+      "char_start": 300,
+      "char_end": 305,
+      "word_index": 58,
+      "chunk_index": 0
+    },
+    {
+      "index": 73,
+      "token_id": 2017,
+      "token": "you",
+      "char_start": 306,
+      "char_end": 309,
+      "word_index": 59,
+      "chunk_index": 0
+    },
+    {
+      "index": 74,
+      "token_id": 1005,
+      "token": "'",
+      "char_start": 309,
+      "char_end": 310,
+      "word_index": 59,
+      "chunk_index": 0
+    },
+    {
+      "index": 75,
+      "token_id": 2128,
+      "token": "re",
+      "char_start": 310,
+      "char_end": 312,
+      "word_index": 59,
+      "chunk_index": 0
+    },
+    {
+      "index": 76,
+      "token_id": 2025,
+      "token": "not",
+      "char_start": 313,
+      "char_end": 316,
+      "word_index": 60,
+      "chunk_index": 0
+    },
+    {
+      "index": 77,
+      "token_id": 5938,
+      "token": "spending",
+      "char_start": 317,
+      "char_end": 325,
+      "word_index": 61,
+      "chunk_index": 0
+    },
+    {
+      "index": 78,
+      "token_id": 2769,
+      "token": "money",
+      "char_start": 326,
+      "char_end": 331,
+      "word_index": 62,
+      "chunk_index": 0
+    },
+    {
+      "index": 79,
+      "token_id": 2566,
+      "token": "per",
+      "char_start": 332,
+      "char_end": 335,
+      "word_index": 63,
+      "chunk_index": 0
+    },
+    {
+      "index": 80,
+      "token_id": 7367,
+      "token": "se",
+      "char_start": 336,
+      "char_end": 338,
+      "word_index": 64,
+      "chunk_index": 0
+    },
+    {
+      "index": 81,
+      "token_id": 1012,
+      "token": ".",
+      "char_start": 338,
+      "char_end": 339,
+      "word_index": -1,
+      "chunk_index": 0
+    }
+  ],
+  "audio_feature_names": [
+    "Loudness_sma3",
+    "alphaRatio_sma3",
+    "hammarbergIndex_sma3",
+    "slope0-500_sma3",
+    "slope500-1500_sma3",
+    "spectralFlux_sma3",
+    "mfcc1_sma3",
+    "mfcc2_sma3",
+    "mfcc3_sma3",
+    "mfcc4_sma3",
+    "F0semitoneFrom27.5Hz_sma3nz",
+    "jitterLocal_sma3nz",
+    "shimmerLocaldB_sma3nz",
+    "HNRdBACF_sma3nz",
+    "logRelF0-H1-H2_sma3nz",
+    "logRelF0-H1-A3_sma3nz",
+    "F1frequency_sma3nz",
+    "F1bandwidth_sma3nz",
+    "F1amplitudeLogRelF0_sma3nz",
+    "F2frequency_sma3nz",
+    "F2bandwidth_sma3nz",
+    "F2amplitudeLogRelF0_sma3nz",
+    "F3frequency_sma3nz",
+    "F3bandwidth_sma3nz",
+    "F3amplitudeLogRelF0_sma3nz"
+  ],
+  "vision_feature_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "convolution": {
+    "stride_samples": 320,
+    "receptive_field_samples": 400
+  },
+  "ctc_target_text": "AND|IF|YOU|CLIP|COUPONS|IF|YOU|DON'T|GO|OUT|FOR|DINNER|AND|MOVIES|AND|THINGS|OF|THAT|NATURE|AND|TRY|TO|TAKE|UP|THINGS|IN|LIFE|THAT|WELL|THEY|ALWAYS|SAY|THE|BEST|THINGS|IN|LIFE|ARE|FREE|READING|A|BOOK|GOING|FOR|A|NICE|WALK|AND|OF|COURSE|COMBINING|EXERCISE|AND|VARIOUS|THINGS|OF|THAT|NATURE|WHERE|YOU'RE|NOT|SPENDING|MONEY|PER|SE",
+  "diagnostic_asr": "AND A YOU CLIP COUPONS IF YOU DON'T GO OUT FOR DINNER AND MOVIES AND THINGS OF THAT NATURE AND TRY TO TAKE UP THINGS IN LIFE THAT WELL THEY ALWAYS SAY THE BEST THINGS IN LIFE ARE FREE READING A BOOK A GOING FOR A NICE WALK AND OF COURSE COMBINING EXERCISE AND VARIOUS THINGS TAT NATURE WERE YOU'RE NOT SPENDING MONEY PER SAY",
+  "diagnostic_wer": 0.09230769230769231,
+  "alignment_path_log_probability": -105.31426056774524,
+  "alignment_error": null,
+  "padding_count": 0,
+  "truncated_words": 0,
+  "visual_time_support": "nearest-sampled-frame cells, midpoint boundaries; 5 Hz sampling",
+  "face_selection": "largest detected face; speaker identity not verified",
+  "feature_dimensions": {
+    "text": 768,
+    "audio": 25,
+    "vision": 52
+  },
+  "statuses": {
+    "low_confidence_words": 2,
+    "unaligned_words": 0,
+    "no_face_frames": 11,
+    "multiple_face_frames": 0,
+    "silent_audio_frames": 0,
+    "invalid_audio_frames": 0
+  },
+  "elapsed_seconds": 3.9118967056274414
+}

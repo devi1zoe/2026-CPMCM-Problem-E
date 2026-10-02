@@ -1,0 +1,53 @@
+{
+  "float64_algebraic_equivalence": true,
+  "rows": [
+    {
+      "model": "text",
+      "profile": 0,
+      "reference_seconds": 0.8086196631193161,
+      "linear_seconds": 0.010854832828044891,
+      "max_abs": 0.00010842457413673401,
+      "class_changes": 0
+    },
+    {
+      "model": "gated",
+      "profile": 0,
+      "reference_seconds": 1.3549096919596195,
+      "linear_seconds": 0.02046024054288864,
+      "max_abs": 8.147954940795898e-05,
+      "class_changes": 0
+    },
+    {
+      "model": "cce",
+      "profile": 0,
+      "reference_seconds": 1.404282335191965,
+      "linear_seconds": 0.03675823658704758,
+      "max_abs": 8.0108642578125e-05,
+      "class_changes": 0
+    },
+    {
+      "model": "text",
+      "profile": 5,
+      "reference_seconds": 0.458235178142786,
+      "linear_seconds": 0.00984196737408638,
+      "max_abs": 9.66787338256836e-05,
+      "class_changes": 0
+    },
+    {
+      "model": "gated",
+      "profile": 5,
+      "reference_seconds": 1.3522934913635254,
+      "linear_seconds": 0.02036639302968979,
+      "max_abs": 6.079673767089844e-05,
+      "class_changes": 0
+    },
+    {
+      "model": "cce",
+      "profile": 5,
+      "reference_seconds": 1.3749173991382122,
+      "linear_seconds": 0.03714119270443916,
+      "max_abs": 8.380413055419922e-05,
+      "class_changes": 0
+    }
+  ]
+}

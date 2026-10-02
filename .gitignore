@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+*.log
+# Reconstructed inputs and runtime artifacts; submitted weights remain tracked.
+**/assets/
+**/cache/
+**/caches/
+**/复现输出/
+**/E题_材料阅读/
+**/E题_本次阅读/
+/data/
+/runs/
+*.zip

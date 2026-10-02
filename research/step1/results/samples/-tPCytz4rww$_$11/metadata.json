@@ -1,0 +1,568 @@
+{
+  "sample_id": "-tPCytz4rww$_$11",
+  "video_id": "-tPCytz4rww",
+  "clip_id": "11",
+  "raw_text": "Make sure that your using comps that are not larger, no larger than twelve hundred square feet.",
+  "label": 0.0,
+  "annotation": "Neutral",
+  "source_path": "E题_材料阅读/E题数据/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-tPCytz4rww/11.mp4",
+  "source_sha256": "6dc09d02467baaef67594ff32cffb01f8ed1565cda4c5abd161b8261a51e2e5d",
+  "config_sha256": "4a530340304f07255daf856e6891f0a15e50f05bd85343d067a663a573e8f888",
+  "code_sha256": {
+    "common.py": "4a37980b521a2f5a93e208d3ba265542a149336b3401aa89b8a4494517f5e16e",
+    "alignment.py": "76b29c002cdc97e8e0e85cffae02d81db938fa39484ad908c28c5efc60de0c34",
+    "features.py": "8283e0d0886b83bbd84d4db4521599b480b0ada4bc1afc4e4b9b91cddf5b4018",
+    "run.py": "f75d7b5bc6e342541664233a37a3d87f39313bcd3a8f3a50bfaea94798d4e07b"
+  },
+  "model_assets_sha256": {
+    "assets/face_landmarker.task": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff",
+    "assets/wav2vec2/preprocessor_config.json": "b225d617c025463b9e157e06afea8b90dc7078fc70b013c533328423e0486b4a",
+    "assets/wav2vec2/vocab.json": "19727f8944fe6459fc3f240ae2c198395b740f6a029bd23e06656266b83bcf64",
+    "assets/wav2vec2/special_tokens_map.json": "bb7068de1150661a10b55f9e4b12a0e77af8bf91f5e45e1b58afaf1d0e17f675",
+    "assets/wav2vec2/tokenizer_config.json": "dc790594f5bc351a4311c6624f40acd95850d4aaf2a5cb3c656c9b610720b608",
+    "assets/wav2vec2/model.safetensors": "8aa76ab2243c81747a1f832954586bc566090c83a0ac167df6f31f0fa917d74a",
+    "assets/wav2vec2/config.json": "d3ec255c063d9f95057b553b19c20135b259875834a4fe9deb218a6be25b4cf3",
+    "assets/distilbert/vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+    "assets/distilbert/tokenizer_config.json": "a025160ef0431f1a392f6f050c1310f4c5d9fb6f275932dbccba73c4d214bf10",
+    "assets/distilbert/model.safetensors": "5e3f1108e3cb34ee048634875d8482665b65ac713291a7e32396fb18f6ff0063",
+    "assets/distilbert/config.json": "69c94b0222d5d1f4b0ad027ca7416cdafb98378cbbb8305d0bf47c9365c60c83",
+    "assets/distilbert/tokenizer.json": "ce64fce797c24f68df90b40a3f74f579b336a493db14bd583fd520ea0d8c9a98"
+  },
+  "duration": 5.4669921875,
+  "video_rate": 30.0,
+  "video_origin": 0.0,
+  "audio_start": 0.0,
+  "audio_duration": 5.3785625,
+  "audio_coverage_ratio": 1.0,
+  "words": [
+    {
+      "index": 0,
+      "original": "Make",
+      "char_start": 0,
+      "char_end": 4,
+      "normalized": "MAKE",
+      "subword_indices": [
+        0
+      ],
+      "start": 0.50246875,
+      "end": 0.64246875,
+      "confidence": 0.6586436629295349,
+      "status": "aligned"
+    },
+    {
+      "index": 1,
+      "original": "sure",
+      "char_start": 5,
+      "char_end": 9,
+      "normalized": "SURE",
+      "subword_indices": [
+        1
+      ],
+      "start": 0.70246875,
+      "end": 0.86246875,
+      "confidence": 0.9357370734214783,
+      "status": "aligned"
+    },
+    {
+      "index": 2,
+      "original": "that",
+      "char_start": 10,
+      "char_end": 14,
+      "normalized": "THAT",
+      "subword_indices": [
+        2
+      ],
+      "start": 0.90246875,
+      "end": 1.00246875,
+      "confidence": 0.999325692653656,
+      "status": "aligned"
+    },
+    {
+      "index": 3,
+      "original": "your",
+      "char_start": 15,
+      "char_end": 19,
+      "normalized": "YOUR",
+      "subword_indices": [
+        3
+      ],
+      "start": 1.04246875,
+      "end": 1.18246875,
+      "confidence": 0.9959840178489685,
+      "status": "aligned"
+    },
+    {
+      "index": 4,
+      "original": "using",
+      "char_start": 20,
+      "char_end": 25,
+      "normalized": "USING",
+      "subword_indices": [
+        4
+      ],
+      "start": 1.30246875,
+      "end": 1.50246875,
+      "confidence": 0.9914916753768921,
+      "status": "aligned"
+    },
+    {
+      "index": 5,
+      "original": "comps",
+      "char_start": 26,
+      "char_end": 31,
+      "normalized": "COMPS",
+      "subword_indices": [
+        5,
+        6
+      ],
+      "start": 1.56246875,
+      "end": 1.88246875,
+      "confidence": 0.9574640393257141,
+      "status": "aligned"
+    },
+    {
+      "index": 6,
+      "original": "that",
+      "char_start": 32,
+      "char_end": 36,
+      "normalized": "THAT",
+      "subword_indices": [
+        7
+      ],
+      "start": 1.92246875,
+      "end": 2.02246875,
+      "confidence": 0.9948896765708923,
+      "status": "aligned"
+    },
+    {
+      "index": 7,
+      "original": "are",
+      "char_start": 37,
+      "char_end": 40,
+      "normalized": "ARE",
+      "subword_indices": [
+        8
+      ],
+      "start": 2.1024687500000003,
+      "end": 2.18246875,
+      "confidence": 0.9713850617408752,
+      "status": "aligned"
+    },
+    {
+      "index": 8,
+      "original": "not",
+      "char_start": 41,
+      "char_end": 44,
+      "normalized": "NOT",
+      "subword_indices": [
+        9
+      ],
+      "start": 2.2024687500000004,
+      "end": 2.3224687499999996,
+      "confidence": 0.14162975549697876,
+      "status": "aligned"
+    },
+    {
+      "index": 9,
+      "original": "larger",
+      "char_start": 45,
+      "char_end": 51,
+      "normalized": "LARGER",
+      "subword_indices": [
+        10
+      ],
+      "start": 2.40246875,
+      "end": 2.7824687499999996,
+      "confidence": 0.9691001772880554,
+      "status": "aligned"
+    },
+    {
+      "index": 10,
+      "original": "no",
+      "char_start": 53,
+      "char_end": 55,
+      "normalized": "NO",
+      "subword_indices": [
+        12
+      ],
+      "start": 3.22246875,
+      "end": 3.3224687499999996,
+      "confidence": 0.9350829124450684,
+      "status": "aligned"
+    },
+    {
+      "index": 11,
+      "original": "larger",
+      "char_start": 56,
+      "char_end": 62,
+      "normalized": "LARGER",
+      "subword_indices": [
+        13
+      ],
+      "start": 3.38246875,
+      "end": 3.68246875,
+      "confidence": 0.9893258213996887,
+      "status": "aligned"
+    },
+    {
+      "index": 12,
+      "original": "than",
+      "char_start": 63,
+      "char_end": 67,
+      "normalized": "THAN",
+      "subword_indices": [
+        14
+      ],
+      "start": 3.74246875,
+      "end": 3.8424687499999997,
+      "confidence": 0.9990476369857788,
+      "status": "aligned"
+    },
+    {
+      "index": 13,
+      "original": "twelve",
+      "char_start": 68,
+      "char_end": 74,
+      "normalized": "TWELVE",
+      "subword_indices": [
+        15
+      ],
+      "start": 3.94246875,
+      "end": 4.1624687499999995,
+      "confidence": 0.885310709476471,
+      "status": "aligned"
+    },
+    {
+      "index": 14,
+      "original": "hundred",
+      "char_start": 75,
+      "char_end": 82,
+      "normalized": "HUNDRED",
+      "subword_indices": [
+        16
+      ],
+      "start": 4.18246875,
+      "end": 4.38246875,
+      "confidence": 0.9901240468025208,
+      "status": "aligned"
+    },
+    {
+      "index": 15,
+      "original": "square",
+      "char_start": 83,
+      "char_end": 89,
+      "normalized": "SQUARE",
+      "subword_indices": [
+        17
+      ],
+      "start": 4.42246875,
+      "end": 4.6224687499999995,
+      "confidence": 0.9702525734901428,
+      "status": "aligned"
+    },
+    {
+      "index": 16,
+      "original": "feet",
+      "char_start": 90,
+      "char_end": 94,
+      "normalized": "FEET",
+      "subword_indices": [
+        18
+      ],
+      "start": 4.66246875,
+      "end": 4.82246875,
+      "confidence": 0.983786940574646,
+      "status": "aligned"
+    }
+  ],
+  "subwords": [
+    {
+      "index": 0,
+      "token_id": 2191,
+      "token": "make",
+      "char_start": 0,
+      "char_end": 4,
+      "word_index": 0,
+      "chunk_index": 0
+    },
+    {
+      "index": 1,
+      "token_id": 2469,
+      "token": "sure",
+      "char_start": 5,
+      "char_end": 9,
+      "word_index": 1,
+      "chunk_index": 0
+    },
+    {
+      "index": 2,
+      "token_id": 2008,
+      "token": "that",
+      "char_start": 10,
+      "char_end": 14,
+      "word_index": 2,
+      "chunk_index": 0
+    },
+    {
+      "index": 3,
+      "token_id": 2115,
+      "token": "your",
+      "char_start": 15,
+      "char_end": 19,
+      "word_index": 3,
+      "chunk_index": 0
+    },
+    {
+      "index": 4,
+      "token_id": 2478,
+      "token": "using",
+      "char_start": 20,
+      "char_end": 25,
+      "word_index": 4,
+      "chunk_index": 0
+    },
+    {
+      "index": 5,
+      "token_id": 4012,
+      "token": "com",
+      "char_start": 26,
+      "char_end": 29,
+      "word_index": 5,
+      "chunk_index": 0
+    },
+    {
+      "index": 6,
+      "token_id": 4523,
+      "token": "##ps",
+      "char_start": 29,
+      "char_end": 31,
+      "word_index": 5,
+      "chunk_index": 0
+    },
+    {
+      "index": 7,
+      "token_id": 2008,
+      "token": "that",
+      "char_start": 32,
+      "char_end": 36,
+      "word_index": 6,
+      "chunk_index": 0
+    },
+    {
+      "index": 8,
+      "token_id": 2024,
+      "token": "are",
+      "char_start": 37,
+      "char_end": 40,
+      "word_index": 7,
+      "chunk_index": 0
+    },
+    {
+      "index": 9,
+      "token_id": 2025,
+      "token": "not",
+      "char_start": 41,
+      "char_end": 44,
+      "word_index": 8,
+      "chunk_index": 0
+    },
+    {
+      "index": 10,
+      "token_id": 3469,
+      "token": "larger",
+      "char_start": 45,
+      "char_end": 51,
+      "word_index": 9,
+      "chunk_index": 0
+    },
+    {
+      "index": 11,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 51,
+      "char_end": 52,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 12,
+      "token_id": 2053,
+      "token": "no",
+      "char_start": 53,
+      "char_end": 55,
+      "word_index": 10,
+      "chunk_index": 0
+    },
+    {
+      "index": 13,
+      "token_id": 3469,
+      "token": "larger",
+      "char_start": 56,
+      "char_end": 62,
+      "word_index": 11,
+      "chunk_index": 0
+    },
+    {
+      "index": 14,
+      "token_id": 2084,
+      "token": "than",
+      "char_start": 63,
+      "char_end": 67,
+      "word_index": 12,
+      "chunk_index": 0
+    },
+    {
+      "index": 15,
+      "token_id": 4376,
+      "token": "twelve",
+      "char_start": 68,
+      "char_end": 74,
+      "word_index": 13,
+      "chunk_index": 0
+    },
+    {
+      "index": 16,
+      "token_id": 3634,
+      "token": "hundred",
+      "char_start": 75,
+      "char_end": 82,
+      "word_index": 14,
+      "chunk_index": 0
+    },
+    {
+      "index": 17,
+      "token_id": 2675,
+      "token": "square",
+      "char_start": 83,
+      "char_end": 89,
+      "word_index": 15,
+      "chunk_index": 0
+    },
+    {
+      "index": 18,
+      "token_id": 2519,
+      "token": "feet",
+      "char_start": 90,
+      "char_end": 94,
+      "word_index": 16,
+      "chunk_index": 0
+    },
+    {
+      "index": 19,
+      "token_id": 1012,
+      "token": ".",
+      "char_start": 94,
+      "char_end": 95,
+      "word_index": -1,
+      "chunk_index": 0
+    }
+  ],
+  "audio_feature_names": [
+    "Loudness_sma3",
+    "alphaRatio_sma3",
+    "hammarbergIndex_sma3",
+    "slope0-500_sma3",
+    "slope500-1500_sma3",
+    "spectralFlux_sma3",
+    "mfcc1_sma3",
+    "mfcc2_sma3",
+    "mfcc3_sma3",
+    "mfcc4_sma3",
+    "F0semitoneFrom27.5Hz_sma3nz",
+    "jitterLocal_sma3nz",
+    "shimmerLocaldB_sma3nz",
+    "HNRdBACF_sma3nz",
+    "logRelF0-H1-H2_sma3nz",
+    "logRelF0-H1-A3_sma3nz",
+    "F1frequency_sma3nz",
+    "F1bandwidth_sma3nz",
+    "F1amplitudeLogRelF0_sma3nz",
+    "F2frequency_sma3nz",
+    "F2bandwidth_sma3nz",
+    "F2amplitudeLogRelF0_sma3nz",
+    "F3frequency_sma3nz",
+    "F3bandwidth_sma3nz",
+    "F3amplitudeLogRelF0_sma3nz"
+  ],
+  "vision_feature_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "convolution": {
+    "stride_samples": 320,
+    "receptive_field_samples": 400
+  },
+  "ctc_target_text": "MAKE|SURE|THAT|YOUR|USING|COMPS|THAT|ARE|NOT|LARGER|NO|LARGER|THAN|TWELVE|HUNDRED|SQUARE|FEET",
+  "diagnostic_asr": "OUGH MAY SURE THAT YOUR USING COMPS THAT ARE NO LARGER NO LARGER THAN TWELVE HUNDRED SQUARE FEET NO LESS",
+  "diagnostic_wer": 0.29411764705882354,
+  "alignment_path_log_probability": -186.2171614999504,
+  "alignment_error": null,
+  "padding_count": 0,
+  "truncated_words": 0,
+  "visual_time_support": "nearest-sampled-frame cells, midpoint boundaries; 5 Hz sampling",
+  "face_selection": "largest detected face; speaker identity not verified",
+  "feature_dimensions": {
+    "text": 768,
+    "audio": 25,
+    "vision": 52
+  },
+  "statuses": {
+    "low_confidence_words": 0,
+    "unaligned_words": 0,
+    "no_face_frames": 0,
+    "multiple_face_frames": 0,
+    "silent_audio_frames": 1,
+    "invalid_audio_frames": 0
+  },
+  "elapsed_seconds": 1.13963158801198
+}

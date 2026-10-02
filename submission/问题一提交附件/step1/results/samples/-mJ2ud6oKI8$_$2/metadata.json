@@ -1,0 +1,409 @@
+{
+  "sample_id": "-mJ2ud6oKI8$_$2",
+  "video_id": "-mJ2ud6oKI8",
+  "clip_id": "2",
+  "raw_text": "So physical therapists and chiropractors will do joint manipulations and mobilizations",
+  "label": 0.0,
+  "annotation": "Neutral",
+  "source_path": "E题_材料阅读/E题数据/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-mJ2ud6oKI8/2.mp4",
+  "source_sha256": "c41790f8b75f886bd1f5d6d72cbab1985306d0b715e5ae47203f3d0c8a3e7b28",
+  "config_sha256": "4a530340304f07255daf856e6891f0a15e50f05bd85343d067a663a573e8f888",
+  "code_sha256": {
+    "common.py": "4a37980b521a2f5a93e208d3ba265542a149336b3401aa89b8a4494517f5e16e",
+    "alignment.py": "76b29c002cdc97e8e0e85cffae02d81db938fa39484ad908c28c5efc60de0c34",
+    "features.py": "8283e0d0886b83bbd84d4db4521599b480b0ada4bc1afc4e4b9b91cddf5b4018",
+    "run.py": "f75d7b5bc6e342541664233a37a3d87f39313bcd3a8f3a50bfaea94798d4e07b"
+  },
+  "model_assets_sha256": {
+    "assets/face_landmarker.task": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff",
+    "assets/wav2vec2/preprocessor_config.json": "b225d617c025463b9e157e06afea8b90dc7078fc70b013c533328423e0486b4a",
+    "assets/wav2vec2/vocab.json": "19727f8944fe6459fc3f240ae2c198395b740f6a029bd23e06656266b83bcf64",
+    "assets/wav2vec2/special_tokens_map.json": "bb7068de1150661a10b55f9e4b12a0e77af8bf91f5e45e1b58afaf1d0e17f675",
+    "assets/wav2vec2/tokenizer_config.json": "dc790594f5bc351a4311c6624f40acd95850d4aaf2a5cb3c656c9b610720b608",
+    "assets/wav2vec2/model.safetensors": "8aa76ab2243c81747a1f832954586bc566090c83a0ac167df6f31f0fa917d74a",
+    "assets/wav2vec2/config.json": "d3ec255c063d9f95057b553b19c20135b259875834a4fe9deb218a6be25b4cf3",
+    "assets/distilbert/vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+    "assets/distilbert/tokenizer_config.json": "a025160ef0431f1a392f6f050c1310f4c5d9fb6f275932dbccba73c4d214bf10",
+    "assets/distilbert/model.safetensors": "5e3f1108e3cb34ee048634875d8482665b65ac713291a7e32396fb18f6ff0063",
+    "assets/distilbert/config.json": "69c94b0222d5d1f4b0ad027ca7416cdafb98378cbbb8305d0bf47c9365c60c83",
+    "assets/distilbert/tokenizer.json": "ce64fce797c24f68df90b40a3f74f579b336a493db14bd583fd520ea0d8c9a98"
+  },
+  "duration": 5.731,
+  "video_rate": 29.97002997002997,
+  "video_origin": 0.0,
+  "audio_start": 0.0,
+  "audio_duration": 5.7016875,
+  "audio_coverage_ratio": 1.0,
+  "words": [
+    {
+      "index": 0,
+      "original": "So",
+      "char_start": 0,
+      "char_end": 2,
+      "normalized": "SO",
+      "subword_indices": [
+        0
+      ],
+      "start": 0.0024687500000000005,
+      "end": 0.06246875,
+      "confidence": 0.025615694001317024,
+      "status": "low_confidence"
+    },
+    {
+      "index": 1,
+      "original": "physical",
+      "char_start": 3,
+      "char_end": 11,
+      "normalized": "PHYSICAL",
+      "subword_indices": [
+        1
+      ],
+      "start": 0.08246875000000001,
+      "end": 0.40246875,
+      "confidence": 0.00982232578098774,
+      "status": "low_confidence"
+    },
+    {
+      "index": 2,
+      "original": "therapists",
+      "char_start": 12,
+      "char_end": 22,
+      "normalized": "THERAPISTS",
+      "subword_indices": [
+        2,
+        3
+      ],
+      "start": 0.44246874999999997,
+      "end": 1.34246875,
+      "confidence": 0.019739577546715736,
+      "status": "low_confidence"
+    },
+    {
+      "index": 3,
+      "original": "and",
+      "char_start": 23,
+      "char_end": 26,
+      "normalized": "AND",
+      "subword_indices": [
+        4
+      ],
+      "start": 1.36246875,
+      "end": 1.42246875,
+      "confidence": 0.00508086709305644,
+      "status": "low_confidence"
+    },
+    {
+      "index": 4,
+      "original": "chiropractors",
+      "char_start": 27,
+      "char_end": 40,
+      "normalized": "CHIROPRACTORS",
+      "subword_indices": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "start": 1.44246875,
+      "end": 4.68246875,
+      "confidence": 0.01175188273191452,
+      "status": "low_confidence"
+    },
+    {
+      "index": 5,
+      "original": "will",
+      "char_start": 41,
+      "char_end": 45,
+      "normalized": "WILL",
+      "subword_indices": [
+        9
+      ],
+      "start": 4.72246875,
+      "end": 4.82246875,
+      "confidence": 0.00279142870567739,
+      "status": "low_confidence"
+    },
+    {
+      "index": 6,
+      "original": "do",
+      "char_start": 46,
+      "char_end": 48,
+      "normalized": "DO",
+      "subword_indices": [
+        10
+      ],
+      "start": 4.84246875,
+      "end": 4.88246875,
+      "confidence": 0.008106892928481102,
+      "status": "low_confidence"
+    },
+    {
+      "index": 7,
+      "original": "joint",
+      "char_start": 49,
+      "char_end": 54,
+      "normalized": "JOINT",
+      "subword_indices": [
+        11
+      ],
+      "start": 4.902468750000001,
+      "end": 5.002468749999999,
+      "confidence": 0.005203127861022949,
+      "status": "low_confidence"
+    },
+    {
+      "index": 8,
+      "original": "manipulations",
+      "char_start": 55,
+      "char_end": 68,
+      "normalized": "MANIPULATIONS",
+      "subword_indices": [
+        12,
+        13
+      ],
+      "start": 5.02246875,
+      "end": 5.28246875,
+      "confidence": 0.008738381788134575,
+      "status": "low_confidence"
+    },
+    {
+      "index": 9,
+      "original": "and",
+      "char_start": 69,
+      "char_end": 72,
+      "normalized": "AND",
+      "subword_indices": [
+        14
+      ],
+      "start": 5.30246875,
+      "end": 5.36246875,
+      "confidence": 0.005106927361339331,
+      "status": "low_confidence"
+    },
+    {
+      "index": 10,
+      "original": "mobilizations",
+      "char_start": 73,
+      "char_end": 86,
+      "normalized": "MOBILIZATIONS",
+      "subword_indices": [
+        15,
+        16
+      ],
+      "start": 5.38246875,
+      "end": 5.6624687499999995,
+      "confidence": 0.007167427334934473,
+      "status": "low_confidence"
+    }
+  ],
+  "subwords": [
+    {
+      "index": 0,
+      "token_id": 2061,
+      "token": "so",
+      "char_start": 0,
+      "char_end": 2,
+      "word_index": 0,
+      "chunk_index": 0
+    },
+    {
+      "index": 1,
+      "token_id": 3558,
+      "token": "physical",
+      "char_start": 3,
+      "char_end": 11,
+      "word_index": 1,
+      "chunk_index": 0
+    },
+    {
+      "index": 2,
+      "token_id": 19294,
+      "token": "therapist",
+      "char_start": 12,
+      "char_end": 21,
+      "word_index": 2,
+      "chunk_index": 0
+    },
+    {
+      "index": 3,
+      "token_id": 2015,
+      "token": "##s",
+      "char_start": 21,
+      "char_end": 22,
+      "word_index": 2,
+      "chunk_index": 0
+    },
+    {
+      "index": 4,
+      "token_id": 1998,
+      "token": "and",
+      "char_start": 23,
+      "char_end": 26,
+      "word_index": 3,
+      "chunk_index": 0
+    },
+    {
+      "index": 5,
+      "token_id": 9610,
+      "token": "chi",
+      "char_start": 27,
+      "char_end": 30,
+      "word_index": 4,
+      "chunk_index": 0
+    },
+    {
+      "index": 6,
+      "token_id": 18981,
+      "token": "##rop",
+      "char_start": 30,
+      "char_end": 33,
+      "word_index": 4,
+      "chunk_index": 0
+    },
+    {
+      "index": 7,
+      "token_id": 22648,
+      "token": "##rac",
+      "char_start": 33,
+      "char_end": 36,
+      "word_index": 4,
+      "chunk_index": 0
+    },
+    {
+      "index": 8,
+      "token_id": 6591,
+      "token": "##tors",
+      "char_start": 36,
+      "char_end": 40,
+      "word_index": 4,
+      "chunk_index": 0
+    },
+    {
+      "index": 9,
+      "token_id": 2097,
+      "token": "will",
+      "char_start": 41,
+      "char_end": 45,
+      "word_index": 5,
+      "chunk_index": 0
+    },
+    {
+      "index": 10,
+      "token_id": 2079,
+      "token": "do",
+      "char_start": 46,
+      "char_end": 48,
+      "word_index": 6,
+      "chunk_index": 0
+    },
+    {
+      "index": 11,
+      "token_id": 4101,
+      "token": "joint",
+      "char_start": 49,
+      "char_end": 54,
+      "word_index": 7,
+      "chunk_index": 0
+    },
+    {
+      "index": 12,
+      "token_id": 16924,
+      "token": "manipulation",
+      "char_start": 55,
+      "char_end": 67,
+      "word_index": 8,
+      "chunk_index": 0
+    },
+    {
+      "index": 13,
+      "token_id": 2015,
+      "token": "##s",
+      "char_start": 67,
+      "char_end": 68,
+      "word_index": 8,
+      "chunk_index": 0
+    },
+    {
+      "index": 14,
+      "token_id": 1998,
+      "token": "and",
+      "char_start": 69,
+      "char_end": 72,
+      "word_index": 9,
+      "chunk_index": 0
+    },
+    {
+      "index": 15,
+      "token_id": 25580,
+      "token": "mobilization",
+      "char_start": 73,
+      "char_end": 85,
+      "word_index": 10,
+      "chunk_index": 0
+    },
+    {
+      "index": 16,
+      "token_id": 2015,
+      "token": "##s",
+      "char_start": 85,
+      "char_end": 86,
+      "word_index": 10,
+      "chunk_index": 0
+    }
+  ],
+  "audio_feature_names": [
+    "Loudness_sma3",
+    "alphaRatio_sma3",
+    "hammarbergIndex_sma3",
+    "slope0-500_sma3",
+    "slope500-1500_sma3",
+    "spectralFlux_sma3",
+    "mfcc1_sma3",
+    "mfcc2_sma3",
+    "mfcc3_sma3",
+    "mfcc4_sma3",
+    "F0semitoneFrom27.5Hz_sma3nz",
+    "jitterLocal_sma3nz",
+    "shimmerLocaldB_sma3nz",
+    "HNRdBACF_sma3nz",
+    "logRelF0-H1-H2_sma3nz",
+    "logRelF0-H1-A3_sma3nz",
+    "F1frequency_sma3nz",
+    "F1bandwidth_sma3nz",
+    "F1amplitudeLogRelF0_sma3nz",
+    "F2frequency_sma3nz",
+    "F2bandwidth_sma3nz",
+    "F2amplitudeLogRelF0_sma3nz",
+    "F3frequency_sma3nz",
+    "F3bandwidth_sma3nz",
+    "F3amplitudeLogRelF0_sma3nz"
+  ],
+  "vision_feature_names": null,
+  "convolution": {
+    "stride_samples": 320,
+    "receptive_field_samples": 400
+  },
+  "ctc_target_text": "SO|PHYSICAL|THERAPISTS|AND|CHIROPRACTORS|WILL|DO|JOINT|MANIPULATIONS|AND|MOBILIZATIONS",
+  "diagnostic_asr": "",
+  "diagnostic_wer": 1.0,
+  "alignment_path_log_probability": -457.20682260394096,
+  "alignment_error": null,
+  "padding_count": 0,
+  "truncated_words": 0,
+  "visual_time_support": "nearest-sampled-frame cells, midpoint boundaries; 5 Hz sampling",
+  "face_selection": "largest detected face; speaker identity not verified",
+  "feature_dimensions": {
+    "text": 768,
+    "audio": 25,
+    "vision": 52
+  },
+  "statuses": {
+    "low_confidence_words": 11,
+    "unaligned_words": 0,
+    "no_face_frames": 29,
+    "multiple_face_frames": 0,
+    "silent_audio_frames": 566,
+    "invalid_audio_frames": 0
+  },
+  "elapsed_seconds": 1.41587533056736
+}

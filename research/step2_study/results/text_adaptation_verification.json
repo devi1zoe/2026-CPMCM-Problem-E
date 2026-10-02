@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "initial_prediction_max_difference": 0.0002073422074317932,
+  "frozen_backbone_unchanged": true,
+  "adapter_parameters": 24576,
+  "deleted_tokens_no_effect": true,
+  "head_initialization_identical": true,
+  "checkpoint_excludes_frozen_backbone": true,
+  "normalization": "fixed train-only reference statistics",
+  "micro_batch": 16,
+  "effective_batch": 64,
+  "note": "Microbatching changes dropout draws relative to frozen reference; three seeds are reported, no bitwise training equivalence claimed."
+}

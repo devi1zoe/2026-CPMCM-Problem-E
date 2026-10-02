@@ -1,0 +1,1048 @@
+{
+  "sample_id": "-dxfTGcXJoc$_$1",
+  "video_id": "-dxfTGcXJoc",
+  "clip_id": "1",
+  "raw_text": "For the 10th straight year, some of Kentucky’s best and most innovative biotech companies and technologies were on display at the annual BIO International Convention, which I and other state officials attended this week in Chicago.",
+  "label": 1.6666666269302368,
+  "annotation": "Positive",
+  "source_path": "E题_材料阅读/E题数据/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-dxfTGcXJoc/1.mp4",
+  "source_sha256": "b5ffdc98a4a98b8f0aae55dee5fed66a43bcb129f47a250a004c1cc74e572595",
+  "config_sha256": "4a530340304f07255daf856e6891f0a15e50f05bd85343d067a663a573e8f888",
+  "code_sha256": {
+    "common.py": "4a37980b521a2f5a93e208d3ba265542a149336b3401aa89b8a4494517f5e16e",
+    "alignment.py": "76b29c002cdc97e8e0e85cffae02d81db938fa39484ad908c28c5efc60de0c34",
+    "features.py": "8283e0d0886b83bbd84d4db4521599b480b0ada4bc1afc4e4b9b91cddf5b4018",
+    "run.py": "f75d7b5bc6e342541664233a37a3d87f39313bcd3a8f3a50bfaea94798d4e07b"
+  },
+  "model_assets_sha256": {
+    "assets/face_landmarker.task": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff",
+    "assets/wav2vec2/preprocessor_config.json": "b225d617c025463b9e157e06afea8b90dc7078fc70b013c533328423e0486b4a",
+    "assets/wav2vec2/vocab.json": "19727f8944fe6459fc3f240ae2c198395b740f6a029bd23e06656266b83bcf64",
+    "assets/wav2vec2/special_tokens_map.json": "bb7068de1150661a10b55f9e4b12a0e77af8bf91f5e45e1b58afaf1d0e17f675",
+    "assets/wav2vec2/tokenizer_config.json": "dc790594f5bc351a4311c6624f40acd95850d4aaf2a5cb3c656c9b610720b608",
+    "assets/wav2vec2/model.safetensors": "8aa76ab2243c81747a1f832954586bc566090c83a0ac167df6f31f0fa917d74a",
+    "assets/wav2vec2/config.json": "d3ec255c063d9f95057b553b19c20135b259875834a4fe9deb218a6be25b4cf3",
+    "assets/distilbert/vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+    "assets/distilbert/tokenizer_config.json": "a025160ef0431f1a392f6f050c1310f4c5d9fb6f275932dbccba73c4d214bf10",
+    "assets/distilbert/model.safetensors": "5e3f1108e3cb34ee048634875d8482665b65ac713291a7e32396fb18f6ff0063",
+    "assets/distilbert/config.json": "69c94b0222d5d1f4b0ad027ca7416cdafb98378cbbb8305d0bf47c9365c60c83",
+    "assets/distilbert/tokenizer.json": "ce64fce797c24f68df90b40a3f74f579b336a493db14bd583fd520ea0d8c9a98"
+  },
+  "duration": 16.161002604166665,
+  "video_rate": 30.0,
+  "video_origin": 0.0,
+  "audio_start": 0.0,
+  "audio_duration": 16.018125,
+  "audio_coverage_ratio": 1.0,
+  "words": [
+    {
+      "index": 0,
+      "original": "For",
+      "char_start": 0,
+      "char_end": 3,
+      "normalized": "FOR",
+      "subword_indices": [
+        0
+      ],
+      "start": 0.50246875,
+      "end": 0.60246875,
+      "confidence": 0.9995545148849487,
+      "status": "aligned"
+    },
+    {
+      "index": 1,
+      "original": "the",
+      "char_start": 4,
+      "char_end": 7,
+      "normalized": "THE",
+      "subword_indices": [
+        1
+      ],
+      "start": 0.6624687499999999,
+      "end": 0.74246875,
+      "confidence": 0.9496207237243652,
+      "status": "aligned"
+    },
+    {
+      "index": 2,
+      "original": "10",
+      "char_start": 8,
+      "char_end": 10,
+      "normalized": "TEN",
+      "subword_indices": [
+        2
+      ],
+      "start": 0.80246875,
+      "end": 0.94246875,
+      "confidence": 0.9677342772483826,
+      "status": "aligned"
+    },
+    {
+      "index": 3,
+      "original": "th",
+      "char_start": 10,
+      "char_end": 12,
+      "normalized": "TH",
+      "subword_indices": [
+        2
+      ],
+      "start": 0.98246875,
+      "end": 1.02246875,
+      "confidence": 0.9967427849769592,
+      "status": "aligned"
+    },
+    {
+      "index": 4,
+      "original": "straight",
+      "char_start": 13,
+      "char_end": 21,
+      "normalized": "STRAIGHT",
+      "subword_indices": [
+        3
+      ],
+      "start": 1.12246875,
+      "end": 1.40246875,
+      "confidence": 0.9529574513435364,
+      "status": "aligned"
+    },
+    {
+      "index": 5,
+      "original": "year",
+      "char_start": 22,
+      "char_end": 26,
+      "normalized": "YEAR",
+      "subword_indices": [
+        4
+      ],
+      "start": 1.48246875,
+      "end": 1.70246875,
+      "confidence": 0.9102014899253845,
+      "status": "aligned"
+    },
+    {
+      "index": 6,
+      "original": "some",
+      "char_start": 28,
+      "char_end": 32,
+      "normalized": "SOME",
+      "subword_indices": [
+        6
+      ],
+      "start": 2.26246875,
+      "end": 2.54246875,
+      "confidence": 0.9789296984672546,
+      "status": "aligned"
+    },
+    {
+      "index": 7,
+      "original": "of",
+      "char_start": 33,
+      "char_end": 35,
+      "normalized": "OF",
+      "subword_indices": [
+        7
+      ],
+      "start": 2.6424687500000004,
+      "end": 2.68246875,
+      "confidence": 0.9997822642326355,
+      "status": "aligned"
+    },
+    {
+      "index": 8,
+      "original": "Kentucky’s",
+      "char_start": 36,
+      "char_end": 46,
+      "normalized": "KENTUCKY'S",
+      "subword_indices": [
+        8,
+        9,
+        10
+      ],
+      "start": 2.76246875,
+      "end": 3.2624687499999996,
+      "confidence": 0.9703266024589539,
+      "status": "aligned"
+    },
+    {
+      "index": 9,
+      "original": "best",
+      "char_start": 47,
+      "char_end": 51,
+      "normalized": "BEST",
+      "subword_indices": [
+        11
+      ],
+      "start": 3.42246875,
+      "end": 3.72246875,
+      "confidence": 0.988732635974884,
+      "status": "aligned"
+    },
+    {
+      "index": 10,
+      "original": "and",
+      "char_start": 52,
+      "char_end": 55,
+      "normalized": "AND",
+      "subword_indices": [
+        12
+      ],
+      "start": 3.92246875,
+      "end": 3.98246875,
+      "confidence": 0.9996105432510376,
+      "status": "aligned"
+    },
+    {
+      "index": 11,
+      "original": "most",
+      "char_start": 56,
+      "char_end": 60,
+      "normalized": "MOST",
+      "subword_indices": [
+        13
+      ],
+      "start": 4.08246875,
+      "end": 4.28246875,
+      "confidence": 0.9074733257293701,
+      "status": "aligned"
+    },
+    {
+      "index": 12,
+      "original": "innovative",
+      "char_start": 61,
+      "char_end": 71,
+      "normalized": "INNOVATIVE",
+      "subword_indices": [
+        14
+      ],
+      "start": 4.442468750000001,
+      "end": 4.90246875,
+      "confidence": 0.3658393323421478,
+      "status": "aligned"
+    },
+    {
+      "index": 13,
+      "original": "biotech",
+      "char_start": 72,
+      "char_end": 79,
+      "normalized": "BIOTECH",
+      "subword_indices": [
+        15,
+        16
+      ],
+      "start": 4.96246875,
+      "end": 5.502468749999999,
+      "confidence": 0.45348432660102844,
+      "status": "aligned"
+    },
+    {
+      "index": 14,
+      "original": "companies",
+      "char_start": 80,
+      "char_end": 89,
+      "normalized": "COMPANIES",
+      "subword_indices": [
+        17
+      ],
+      "start": 5.58246875,
+      "end": 6.002468749999999,
+      "confidence": 0.9412307739257812,
+      "status": "aligned"
+    },
+    {
+      "index": 15,
+      "original": "and",
+      "char_start": 90,
+      "char_end": 93,
+      "normalized": "AND",
+      "subword_indices": [
+        18
+      ],
+      "start": 6.08246875,
+      "end": 6.14246875,
+      "confidence": 0.9995755553245544,
+      "status": "aligned"
+    },
+    {
+      "index": 16,
+      "original": "technologies",
+      "char_start": 94,
+      "char_end": 106,
+      "normalized": "TECHNOLOGIES",
+      "subword_indices": [
+        19
+      ],
+      "start": 6.22246875,
+      "end": 6.94246875,
+      "confidence": 0.9572046995162964,
+      "status": "aligned"
+    },
+    {
+      "index": 17,
+      "original": "were",
+      "char_start": 107,
+      "char_end": 111,
+      "normalized": "WERE",
+      "subword_indices": [
+        20
+      ],
+      "start": 7.3224687500000005,
+      "end": 7.502468749999999,
+      "confidence": 0.989687442779541,
+      "status": "aligned"
+    },
+    {
+      "index": 18,
+      "original": "on",
+      "char_start": 112,
+      "char_end": 114,
+      "normalized": "ON",
+      "subword_indices": [
+        21
+      ],
+      "start": 7.66246875,
+      "end": 7.74246875,
+      "confidence": 0.9050427675247192,
+      "status": "aligned"
+    },
+    {
+      "index": 19,
+      "original": "display",
+      "char_start": 115,
+      "char_end": 122,
+      "normalized": "DISPLAY",
+      "subword_indices": [
+        22
+      ],
+      "start": 7.84246875,
+      "end": 8.42246875,
+      "confidence": 0.9828115701675415,
+      "status": "aligned"
+    },
+    {
+      "index": 20,
+      "original": "at",
+      "char_start": 123,
+      "char_end": 125,
+      "normalized": "AT",
+      "subword_indices": [
+        23
+      ],
+      "start": 8.66246875,
+      "end": 8.722468749999999,
+      "confidence": 0.9574445486068726,
+      "status": "aligned"
+    },
+    {
+      "index": 21,
+      "original": "the",
+      "char_start": 126,
+      "char_end": 129,
+      "normalized": "THE",
+      "subword_indices": [
+        24
+      ],
+      "start": 8.78246875,
+      "end": 8.90246875,
+      "confidence": 0.9856420159339905,
+      "status": "aligned"
+    },
+    {
+      "index": 22,
+      "original": "annual",
+      "char_start": 130,
+      "char_end": 136,
+      "normalized": "ANNUAL",
+      "subword_indices": [
+        25
+      ],
+      "start": 9.08246875,
+      "end": 9.40246875,
+      "confidence": 0.9304395318031311,
+      "status": "aligned"
+    },
+    {
+      "index": 23,
+      "original": "BIO",
+      "char_start": 137,
+      "char_end": 140,
+      "normalized": "BIO",
+      "subword_indices": [
+        26
+      ],
+      "start": 9.66246875,
+      "end": 9.92246875,
+      "confidence": 0.1960570514202118,
+      "status": "aligned"
+    },
+    {
+      "index": 24,
+      "original": "International",
+      "char_start": 141,
+      "char_end": 154,
+      "normalized": "INTERNATIONAL",
+      "subword_indices": [
+        27
+      ],
+      "start": 10.24246875,
+      "end": 10.76246875,
+      "confidence": 0.9759693145751953,
+      "status": "aligned"
+    },
+    {
+      "index": 25,
+      "original": "Convention",
+      "char_start": 155,
+      "char_end": 165,
+      "normalized": "CONVENTION",
+      "subword_indices": [
+        28
+      ],
+      "start": 10.84246875,
+      "end": 11.30246875,
+      "confidence": 0.9541141986846924,
+      "status": "aligned"
+    },
+    {
+      "index": 26,
+      "original": "which",
+      "char_start": 167,
+      "char_end": 172,
+      "normalized": "WHICH",
+      "subword_indices": [
+        30
+      ],
+      "start": 11.86246875,
+      "end": 12.04246875,
+      "confidence": 0.9405736923217773,
+      "status": "aligned"
+    },
+    {
+      "index": 27,
+      "original": "I",
+      "char_start": 173,
+      "char_end": 174,
+      "normalized": "I",
+      "subword_indices": [
+        31
+      ],
+      "start": 12.382468750000001,
+      "end": 12.40246875,
+      "confidence": 0.996428906917572,
+      "status": "aligned"
+    },
+    {
+      "index": 28,
+      "original": "and",
+      "char_start": 175,
+      "char_end": 178,
+      "normalized": "AND",
+      "subword_indices": [
+        32
+      ],
+      "start": 12.58246875,
+      "end": 12.68246875,
+      "confidence": 0.9687464833259583,
+      "status": "aligned"
+    },
+    {
+      "index": 29,
+      "original": "other",
+      "char_start": 179,
+      "char_end": 184,
+      "normalized": "OTHER",
+      "subword_indices": [
+        33
+      ],
+      "start": 12.802468750000001,
+      "end": 12.96246875,
+      "confidence": 0.9994736909866333,
+      "status": "aligned"
+    },
+    {
+      "index": 30,
+      "original": "state",
+      "char_start": 185,
+      "char_end": 190,
+      "normalized": "STATE",
+      "subword_indices": [
+        34
+      ],
+      "start": 13.00246875,
+      "end": 13.20246875,
+      "confidence": 0.9973732829093933,
+      "status": "aligned"
+    },
+    {
+      "index": 31,
+      "original": "officials",
+      "char_start": 191,
+      "char_end": 200,
+      "normalized": "OFFICIALS",
+      "subword_indices": [
+        35
+      ],
+      "start": 13.24246875,
+      "end": 13.66246875,
+      "confidence": 0.9242717623710632,
+      "status": "aligned"
+    },
+    {
+      "index": 32,
+      "original": "attended",
+      "char_start": 201,
+      "char_end": 209,
+      "normalized": "ATTENDED",
+      "subword_indices": [
+        36
+      ],
+      "start": 13.78246875,
+      "end": 14.12246875,
+      "confidence": 0.9926890134811401,
+      "status": "aligned"
+    },
+    {
+      "index": 33,
+      "original": "this",
+      "char_start": 210,
+      "char_end": 214,
+      "normalized": "THIS",
+      "subword_indices": [
+        37
+      ],
+      "start": 14.18246875,
+      "end": 14.32246875,
+      "confidence": 0.9902879595756531,
+      "status": "aligned"
+    },
+    {
+      "index": 34,
+      "original": "week",
+      "char_start": 215,
+      "char_end": 219,
+      "normalized": "WEEK",
+      "subword_indices": [
+        38
+      ],
+      "start": 14.42246875,
+      "end": 14.62246875,
+      "confidence": 0.9784226417541504,
+      "status": "aligned"
+    },
+    {
+      "index": 35,
+      "original": "in",
+      "char_start": 220,
+      "char_end": 222,
+      "normalized": "IN",
+      "subword_indices": [
+        39
+      ],
+      "start": 14.86246875,
+      "end": 14.90246875,
+      "confidence": 0.9998047351837158,
+      "status": "aligned"
+    },
+    {
+      "index": 36,
+      "original": "Chicago",
+      "char_start": 223,
+      "char_end": 230,
+      "normalized": "CHICAGO",
+      "subword_indices": [
+        40
+      ],
+      "start": 14.962468750000001,
+      "end": 15.44246875,
+      "confidence": 0.9782277345657349,
+      "status": "aligned"
+    }
+  ],
+  "subwords": [
+    {
+      "index": 0,
+      "token_id": 2005,
+      "token": "for",
+      "char_start": 0,
+      "char_end": 3,
+      "word_index": 0,
+      "chunk_index": 0
+    },
+    {
+      "index": 1,
+      "token_id": 1996,
+      "token": "the",
+      "char_start": 4,
+      "char_end": 7,
+      "word_index": 1,
+      "chunk_index": 0
+    },
+    {
+      "index": 2,
+      "token_id": 6049,
+      "token": "10th",
+      "char_start": 8,
+      "char_end": 12,
+      "word_index": 3,
+      "chunk_index": 0
+    },
+    {
+      "index": 3,
+      "token_id": 3442,
+      "token": "straight",
+      "char_start": 13,
+      "char_end": 21,
+      "word_index": 4,
+      "chunk_index": 0
+    },
+    {
+      "index": 4,
+      "token_id": 2095,
+      "token": "year",
+      "char_start": 22,
+      "char_end": 26,
+      "word_index": 5,
+      "chunk_index": 0
+    },
+    {
+      "index": 5,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 26,
+      "char_end": 27,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 6,
+      "token_id": 2070,
+      "token": "some",
+      "char_start": 28,
+      "char_end": 32,
+      "word_index": 6,
+      "chunk_index": 0
+    },
+    {
+      "index": 7,
+      "token_id": 1997,
+      "token": "of",
+      "char_start": 33,
+      "char_end": 35,
+      "word_index": 7,
+      "chunk_index": 0
+    },
+    {
+      "index": 8,
+      "token_id": 5612,
+      "token": "kentucky",
+      "char_start": 36,
+      "char_end": 44,
+      "word_index": 8,
+      "chunk_index": 0
+    },
+    {
+      "index": 9,
+      "token_id": 1521,
+      "token": "’",
+      "char_start": 44,
+      "char_end": 45,
+      "word_index": 8,
+      "chunk_index": 0
+    },
+    {
+      "index": 10,
+      "token_id": 1055,
+      "token": "s",
+      "char_start": 45,
+      "char_end": 46,
+      "word_index": 8,
+      "chunk_index": 0
+    },
+    {
+      "index": 11,
+      "token_id": 2190,
+      "token": "best",
+      "char_start": 47,
+      "char_end": 51,
+      "word_index": 9,
+      "chunk_index": 0
+    },
+    {
+      "index": 12,
+      "token_id": 1998,
+      "token": "and",
+      "char_start": 52,
+      "char_end": 55,
+      "word_index": 10,
+      "chunk_index": 0
+    },
+    {
+      "index": 13,
+      "token_id": 2087,
+      "token": "most",
+      "char_start": 56,
+      "char_end": 60,
+      "word_index": 11,
+      "chunk_index": 0
+    },
+    {
+      "index": 14,
+      "token_id": 9525,
+      "token": "innovative",
+      "char_start": 61,
+      "char_end": 71,
+      "word_index": 12,
+      "chunk_index": 0
+    },
+    {
+      "index": 15,
+      "token_id": 16012,
+      "token": "bio",
+      "char_start": 72,
+      "char_end": 75,
+      "word_index": 13,
+      "chunk_index": 0
+    },
+    {
+      "index": 16,
+      "token_id": 15007,
+      "token": "##tech",
+      "char_start": 75,
+      "char_end": 79,
+      "word_index": 13,
+      "chunk_index": 0
+    },
+    {
+      "index": 17,
+      "token_id": 3316,
+      "token": "companies",
+      "char_start": 80,
+      "char_end": 89,
+      "word_index": 14,
+      "chunk_index": 0
+    },
+    {
+      "index": 18,
+      "token_id": 1998,
+      "token": "and",
+      "char_start": 90,
+      "char_end": 93,
+      "word_index": 15,
+      "chunk_index": 0
+    },
+    {
+      "index": 19,
+      "token_id": 6786,
+      "token": "technologies",
+      "char_start": 94,
+      "char_end": 106,
+      "word_index": 16,
+      "chunk_index": 0
+    },
+    {
+      "index": 20,
+      "token_id": 2020,
+      "token": "were",
+      "char_start": 107,
+      "char_end": 111,
+      "word_index": 17,
+      "chunk_index": 0
+    },
+    {
+      "index": 21,
+      "token_id": 2006,
+      "token": "on",
+      "char_start": 112,
+      "char_end": 114,
+      "word_index": 18,
+      "chunk_index": 0
+    },
+    {
+      "index": 22,
+      "token_id": 4653,
+      "token": "display",
+      "char_start": 115,
+      "char_end": 122,
+      "word_index": 19,
+      "chunk_index": 0
+    },
+    {
+      "index": 23,
+      "token_id": 2012,
+      "token": "at",
+      "char_start": 123,
+      "char_end": 125,
+      "word_index": 20,
+      "chunk_index": 0
+    },
+    {
+      "index": 24,
+      "token_id": 1996,
+      "token": "the",
+      "char_start": 126,
+      "char_end": 129,
+      "word_index": 21,
+      "chunk_index": 0
+    },
+    {
+      "index": 25,
+      "token_id": 3296,
+      "token": "annual",
+      "char_start": 130,
+      "char_end": 136,
+      "word_index": 22,
+      "chunk_index": 0
+    },
+    {
+      "index": 26,
+      "token_id": 16012,
+      "token": "bio",
+      "char_start": 137,
+      "char_end": 140,
+      "word_index": 23,
+      "chunk_index": 0
+    },
+    {
+      "index": 27,
+      "token_id": 2248,
+      "token": "international",
+      "char_start": 141,
+      "char_end": 154,
+      "word_index": 24,
+      "chunk_index": 0
+    },
+    {
+      "index": 28,
+      "token_id": 4680,
+      "token": "convention",
+      "char_start": 155,
+      "char_end": 165,
+      "word_index": 25,
+      "chunk_index": 0
+    },
+    {
+      "index": 29,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 165,
+      "char_end": 166,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 30,
+      "token_id": 2029,
+      "token": "which",
+      "char_start": 167,
+      "char_end": 172,
+      "word_index": 26,
+      "chunk_index": 0
+    },
+    {
+      "index": 31,
+      "token_id": 1045,
+      "token": "i",
+      "char_start": 173,
+      "char_end": 174,
+      "word_index": 27,
+      "chunk_index": 0
+    },
+    {
+      "index": 32,
+      "token_id": 1998,
+      "token": "and",
+      "char_start": 175,
+      "char_end": 178,
+      "word_index": 28,
+      "chunk_index": 0
+    },
+    {
+      "index": 33,
+      "token_id": 2060,
+      "token": "other",
+      "char_start": 179,
+      "char_end": 184,
+      "word_index": 29,
+      "chunk_index": 0
+    },
+    {
+      "index": 34,
+      "token_id": 2110,
+      "token": "state",
+      "char_start": 185,
+      "char_end": 190,
+      "word_index": 30,
+      "chunk_index": 0
+    },
+    {
+      "index": 35,
+      "token_id": 4584,
+      "token": "officials",
+      "char_start": 191,
+      "char_end": 200,
+      "word_index": 31,
+      "chunk_index": 0
+    },
+    {
+      "index": 36,
+      "token_id": 3230,
+      "token": "attended",
+      "char_start": 201,
+      "char_end": 209,
+      "word_index": 32,
+      "chunk_index": 0
+    },
+    {
+      "index": 37,
+      "token_id": 2023,
+      "token": "this",
+      "char_start": 210,
+      "char_end": 214,
+      "word_index": 33,
+      "chunk_index": 0
+    },
+    {
+      "index": 38,
+      "token_id": 2733,
+      "token": "week",
+      "char_start": 215,
+      "char_end": 219,
+      "word_index": 34,
+      "chunk_index": 0
+    },
+    {
+      "index": 39,
+      "token_id": 1999,
+      "token": "in",
+      "char_start": 220,
+      "char_end": 222,
+      "word_index": 35,
+      "chunk_index": 0
+    },
+    {
+      "index": 40,
+      "token_id": 3190,
+      "token": "chicago",
+      "char_start": 223,
+      "char_end": 230,
+      "word_index": 36,
+      "chunk_index": 0
+    },
+    {
+      "index": 41,
+      "token_id": 1012,
+      "token": ".",
+      "char_start": 230,
+      "char_end": 231,
+      "word_index": -1,
+      "chunk_index": 0
+    }
+  ],
+  "audio_feature_names": [
+    "Loudness_sma3",
+    "alphaRatio_sma3",
+    "hammarbergIndex_sma3",
+    "slope0-500_sma3",
+    "slope500-1500_sma3",
+    "spectralFlux_sma3",
+    "mfcc1_sma3",
+    "mfcc2_sma3",
+    "mfcc3_sma3",
+    "mfcc4_sma3",
+    "F0semitoneFrom27.5Hz_sma3nz",
+    "jitterLocal_sma3nz",
+    "shimmerLocaldB_sma3nz",
+    "HNRdBACF_sma3nz",
+    "logRelF0-H1-H2_sma3nz",
+    "logRelF0-H1-A3_sma3nz",
+    "F1frequency_sma3nz",
+    "F1bandwidth_sma3nz",
+    "F1amplitudeLogRelF0_sma3nz",
+    "F2frequency_sma3nz",
+    "F2bandwidth_sma3nz",
+    "F2amplitudeLogRelF0_sma3nz",
+    "F3frequency_sma3nz",
+    "F3bandwidth_sma3nz",
+    "F3amplitudeLogRelF0_sma3nz"
+  ],
+  "vision_feature_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "convolution": {
+    "stride_samples": 320,
+    "receptive_field_samples": 400
+  },
+  "ctc_target_text": "FOR|THE|TEN|TH|STRAIGHT|YEAR|SOME|OF|KENTUCKY'S|BEST|AND|MOST|INNOVATIVE|BIOTECH|COMPANIES|AND|TECHNOLOGIES|WERE|ON|DISPLAY|AT|THE|ANNUAL|BIO|INTERNATIONAL|CONVENTION|WHICH|I|AND|OTHER|STATE|OFFICIALS|ATTENDED|THIS|WEEK|IN|CHICAGO",
+  "diagnostic_asr": "FOR THE TENTH STRAIGHT YEAR SOME OF KENTUCKY'S BEST AND MOST ENNOVATING BOTEC COMPANIES AND TECHNOLOGIES WERE ON DISPLAY AT THE ANNUAL BO INTERNATIONAL CONVENTION WHICH I AND OTHER STATE OFFICIALS ATTENDED THIS WEEK IN CHICAGO",
+  "diagnostic_wer": 0.13513513513513514,
+  "alignment_path_log_probability": -88.26161997670151,
+  "alignment_error": null,
+  "padding_count": 0,
+  "truncated_words": 0,
+  "visual_time_support": "nearest-sampled-frame cells, midpoint boundaries; 5 Hz sampling",
+  "face_selection": "largest detected face; speaker identity not verified",
+  "feature_dimensions": {
+    "text": 768,
+    "audio": 25,
+    "vision": 52
+  },
+  "statuses": {
+    "low_confidence_words": 0,
+    "unaligned_words": 0,
+    "no_face_frames": 0,
+    "multiple_face_frames": 0,
+    "silent_audio_frames": 225,
+    "invalid_audio_frames": 0
+  },
+  "elapsed_seconds": 3.135320547968149
+}

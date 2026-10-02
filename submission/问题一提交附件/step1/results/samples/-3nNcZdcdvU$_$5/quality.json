@@ -1,0 +1,12 @@
+{
+  "sample_id": "-3nNcZdcdvU$_$5",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.9381778240203857,
+  "low_confidence_fraction": 0.0,
+  "diagnostic_wer": 0.16666666666666666,
+  "usable_word_times": 18,
+  "words": 18,
+  "raw_text": "Noncompliance can result in legal liability to you and to the school district in which you are employed.",
+  "diagnostic_asr": "NON COMPLIANCE CAN RESOLVE IN LEGAL LIABILITY TO YOU AND TO THE SCHOOL DISTRICT IN WHICH YOU ARE EMPLOYED"
+}

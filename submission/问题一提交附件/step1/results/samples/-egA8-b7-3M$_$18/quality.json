@@ -1,0 +1,12 @@
+{
+  "sample_id": "-egA8-b7-3M$_$18",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.942232072353363,
+  "low_confidence_fraction": 0.0,
+  "diagnostic_wer": 0.045454545454545456,
+  "usable_word_times": 22,
+  "words": 22,
+  "raw_text": "It becomes easier at each one of these conferences to connect with people that you've met or that you're doing business with.",
+  "diagnostic_asr": "IT BECOMES EASIER AT EACH ONE OF THESE CONFERENCES TO CONNECT WITH PEOPLE THAT YOU'VE MET OR THAT YOU'RE DOING BUSINESS WIP"
+}

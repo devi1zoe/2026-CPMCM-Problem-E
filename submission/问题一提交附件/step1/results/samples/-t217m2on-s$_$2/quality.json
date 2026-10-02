@@ -1,0 +1,12 @@
+{
+  "sample_id": "-t217m2on-s$_$2",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.7685797810554504,
+  "low_confidence_fraction": 0.08333333333333333,
+  "diagnostic_wer": 0.25,
+  "usable_word_times": 11,
+  "words": 12,
+  "raw_text": "But a good thing to do is yawning, chewing gum is effective.",
+  "diagnostic_asr": "WHAT A A GOOD THING TO DO IS YAWNING A CHEWING GUM IS EFFECTIVE"
+}

@@ -1,0 +1,835 @@
+{
+  "sample_id": "13",
+  "raw_text": "For example, I could take a set of data and from that data, I can find a relationship between any two of the given factors or more.",
+  "duration": 8.684249999999999,
+  "video_fps": 30.0,
+  "video_frames": 260,
+  "video_source": "附件4-可解释专项视频样本与特征文件/附件4-可解释专项视频样本与特征文件/对齐版本/videos/13.mp4",
+  "video_sha256": "8a64f1201e0299f79d915aa87b4a9be811e346525589d1f41060c2533599a7cb",
+  "audio_coverage_fraction": 1.0,
+  "diagnostic_asr": "FOR EXAMPLE I CAN TAKE A SETOTATA AND FROM FROM THAT DATA A CONFEDER RELATIONSHIP BETWEEN ANY TWO OF THE GIVEN BEARER RMO",
+  "diagnostic_wer": 0.4444444444444444,
+  "mean_ctc_confidence": 0.6673640608787537,
+  "requires_timing_review": false,
+  "reasons": [],
+  "words": [
+    {
+      "index": 0,
+      "original": "For",
+      "char_start": 0,
+      "char_end": 3,
+      "normalized": "FOR",
+      "start": 0.0024687500000000005,
+      "end": 0.10246875,
+      "confidence": 0.9837832450866699,
+      "status": "aligned"
+    },
+    {
+      "index": 1,
+      "original": "example",
+      "char_start": 4,
+      "char_end": 11,
+      "normalized": "EXAMPLE",
+      "start": 0.18246874999999999,
+      "end": 0.56246875,
+      "confidence": 0.9729429483413696,
+      "status": "aligned"
+    },
+    {
+      "index": 2,
+      "original": "I",
+      "char_start": 13,
+      "char_end": 14,
+      "normalized": "I",
+      "start": 0.88246875,
+      "end": 0.90246875,
+      "confidence": 0.9994385838508606,
+      "status": "aligned"
+    },
+    {
+      "index": 3,
+      "original": "could",
+      "char_start": 15,
+      "char_end": 20,
+      "normalized": "COULD",
+      "start": 0.96246875,
+      "end": 1.08246875,
+      "confidence": 0.36830389499664307,
+      "status": "aligned"
+    },
+    {
+      "index": 4,
+      "original": "take",
+      "char_start": 21,
+      "char_end": 25,
+      "normalized": "TAKE",
+      "start": 1.1024687499999999,
+      "end": 1.24246875,
+      "confidence": 0.9854732155799866,
+      "status": "aligned"
+    },
+    {
+      "index": 5,
+      "original": "a",
+      "char_start": 26,
+      "char_end": 27,
+      "normalized": "A",
+      "start": 1.32246875,
+      "end": 1.34246875,
+      "confidence": 0.9150773286819458,
+      "status": "aligned"
+    },
+    {
+      "index": 6,
+      "original": "set",
+      "char_start": 28,
+      "char_end": 31,
+      "normalized": "SET",
+      "start": 1.40246875,
+      "end": 1.56246875,
+      "confidence": 0.7001926898956299,
+      "status": "aligned"
+    },
+    {
+      "index": 7,
+      "original": "of",
+      "char_start": 32,
+      "char_end": 34,
+      "normalized": "OF",
+      "start": 1.62246875,
+      "end": 1.66246875,
+      "confidence": 0.3881198763847351,
+      "status": "aligned"
+    },
+    {
+      "index": 8,
+      "original": "data",
+      "char_start": 35,
+      "char_end": 39,
+      "normalized": "DATA",
+      "start": 1.72246875,
+      "end": 2.06246875,
+      "confidence": 0.4208270013332367,
+      "status": "aligned"
+    },
+    {
+      "index": 9,
+      "original": "and",
+      "char_start": 40,
+      "char_end": 43,
+      "normalized": "AND",
+      "start": 2.88246875,
+      "end": 3.00246875,
+      "confidence": 0.9884271621704102,
+      "status": "aligned"
+    },
+    {
+      "index": 10,
+      "original": "from",
+      "char_start": 44,
+      "char_end": 48,
+      "normalized": "FROM",
+      "start": 3.28246875,
+      "end": 3.4424687499999997,
+      "confidence": 0.8761104345321655,
+      "status": "aligned"
+    },
+    {
+      "index": 11,
+      "original": "that",
+      "char_start": 49,
+      "char_end": 53,
+      "normalized": "THAT",
+      "start": 3.90246875,
+      "end": 4.02246875,
+      "confidence": 0.8613783717155457,
+      "status": "aligned"
+    },
+    {
+      "index": 12,
+      "original": "data",
+      "char_start": 54,
+      "char_end": 58,
+      "normalized": "DATA",
+      "start": 4.06246875,
+      "end": 4.36246875,
+      "confidence": 0.6794732213020325,
+      "status": "aligned"
+    },
+    {
+      "index": 13,
+      "original": "I",
+      "char_start": 60,
+      "char_end": 61,
+      "normalized": "I",
+      "start": 4.68246875,
+      "end": 4.7024687499999995,
+      "confidence": 0.02160402201116085,
+      "status": "low_confidence"
+    },
+    {
+      "index": 14,
+      "original": "can",
+      "char_start": 62,
+      "char_end": 65,
+      "normalized": "CAN",
+      "start": 4.7424687500000005,
+      "end": 4.84246875,
+      "confidence": 0.38658982515335083,
+      "status": "aligned"
+    },
+    {
+      "index": 15,
+      "original": "find",
+      "char_start": 66,
+      "char_end": 70,
+      "normalized": "FIND",
+      "start": 4.862468750000001,
+      "end": 5.002468749999999,
+      "confidence": 0.21692058444023132,
+      "status": "aligned"
+    },
+    {
+      "index": 16,
+      "original": "a",
+      "char_start": 71,
+      "char_end": 72,
+      "normalized": "A",
+      "start": 5.06246875,
+      "end": 5.082468749999999,
+      "confidence": 0.02215430699288845,
+      "status": "low_confidence"
+    },
+    {
+      "index": 17,
+      "original": "relationship",
+      "char_start": 73,
+      "char_end": 85,
+      "normalized": "RELATIONSHIP",
+      "start": 5.10246875,
+      "end": 5.6624687499999995,
+      "confidence": 0.9437068104743958,
+      "status": "aligned"
+    },
+    {
+      "index": 18,
+      "original": "between",
+      "char_start": 86,
+      "char_end": 93,
+      "normalized": "BETWEEN",
+      "start": 5.76246875,
+      "end": 6.06246875,
+      "confidence": 0.9484941363334656,
+      "status": "aligned"
+    },
+    {
+      "index": 19,
+      "original": "any",
+      "char_start": 94,
+      "char_end": 97,
+      "normalized": "ANY",
+      "start": 6.3224687500000005,
+      "end": 6.44246875,
+      "confidence": 0.9104785323143005,
+      "status": "aligned"
+    },
+    {
+      "index": 20,
+      "original": "two",
+      "char_start": 98,
+      "char_end": 101,
+      "normalized": "TWO",
+      "start": 6.54246875,
+      "end": 6.6624687499999995,
+      "confidence": 0.9985206723213196,
+      "status": "aligned"
+    },
+    {
+      "index": 21,
+      "original": "of",
+      "char_start": 102,
+      "char_end": 104,
+      "normalized": "OF",
+      "start": 6.76246875,
+      "end": 6.80246875,
+      "confidence": 0.8881868124008179,
+      "status": "aligned"
+    },
+    {
+      "index": 22,
+      "original": "the",
+      "char_start": 105,
+      "char_end": 108,
+      "normalized": "THE",
+      "start": 6.862468750000001,
+      "end": 6.92246875,
+      "confidence": 0.8623862862586975,
+      "status": "aligned"
+    },
+    {
+      "index": 23,
+      "original": "given",
+      "char_start": 109,
+      "char_end": 114,
+      "normalized": "GIVEN",
+      "start": 6.98246875,
+      "end": 7.2024687499999995,
+      "confidence": 0.7935316562652588,
+      "status": "aligned"
+    },
+    {
+      "index": 24,
+      "original": "factors",
+      "char_start": 115,
+      "char_end": 122,
+      "normalized": "FACTORS",
+      "start": 7.2824687500000005,
+      "end": 7.6624687499999995,
+      "confidence": 0.0236592385917902,
+      "status": "low_confidence"
+    },
+    {
+      "index": 25,
+      "original": "or",
+      "char_start": 123,
+      "char_end": 125,
+      "normalized": "OR",
+      "start": 8.26246875,
+      "end": 8.34246875,
+      "confidence": 0.44216713309288025,
+      "status": "aligned"
+    },
+    {
+      "index": 26,
+      "original": "more",
+      "char_start": 126,
+      "char_end": 130,
+      "normalized": "MORE",
+      "start": 8.44246875,
+      "end": 8.60246875,
+      "confidence": 0.4208807647228241,
+      "status": "aligned"
+    }
+  ],
+  "tokens": [
+    {
+      "sample_id": "13",
+      "slot": 1,
+      "token": "for",
+      "token_id": 2005,
+      "char_start": 0,
+      "char_end": 3,
+      "raw_fragment": "For",
+      "word_indices": [
+        0
+      ],
+      "candidate_start": 0.0024687500000000005,
+      "candidate_end": 0.10246875,
+      "timing_usable": true,
+      "confidence": 0.9837832450866699,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "13",
+      "slot": 2,
+      "token": "example",
+      "token_id": 2742,
+      "char_start": 4,
+      "char_end": 11,
+      "raw_fragment": "example",
+      "word_indices": [
+        1
+      ],
+      "candidate_start": 0.18246874999999999,
+      "candidate_end": 0.56246875,
+      "timing_usable": true,
+      "confidence": 0.9729429483413696,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "13",
+      "slot": 3,
+      "token": ",",
+      "token_id": 1010,
+      "char_start": 11,
+      "char_end": 12,
+      "raw_fragment": ",",
+      "word_indices": [],
+      "candidate_start": null,
+      "candidate_end": null,
+      "timing_usable": false,
+      "confidence": null,
+      "mapping": "punctuation_without_own_acoustic_interval"
+    },
+    {
+      "sample_id": "13",
+      "slot": 4,
+      "token": "i",
+      "token_id": 1045,
+      "char_start": 13,
+      "char_end": 14,
+      "raw_fragment": "I",
+      "word_indices": [
+        2
+      ],
+      "candidate_start": 0.88246875,
+      "candidate_end": 0.90246875,
+      "timing_usable": true,
+      "confidence": 0.9994385838508606,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "13",
+      "slot": 5,
+      "token": "could",
+      "token_id": 2071,
+      "char_start": 15,
+      "char_end": 20,
+      "raw_fragment": "could",
+      "word_indices": [
+        3
+      ],
+      "candidate_start": 0.96246875,
+      "candidate_end": 1.08246875,
+      "timing_usable": true,
+      "confidence": 0.36830389499664307,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "13",
+      "slot": 6,
+      "token": "take",
+      "token_id": 2202,
+      "char_start": 21,
+      "char_end": 25,
+      "raw_fragment": "take",
+      "word_indices": [
+        4
+      ],
+      "candidate_start": 1.1024687499999999,
+      "candidate_end": 1.24246875,
+      "timing_usable": true,
+      "confidence": 0.9854732155799866,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "13",
+      "slot": 7,
+      "token": "a",
+      "token_id": 1037,
+      "char_start": 26,
+      "char_end": 27,
+      "raw_fragment": "a",
+      "word_indices": [
+        5
+      ],
+      "candidate_start": 1.32246875,
+      "candidate_end": 1.34246875,
+      "timing_usable": true,
+      "confidence": 0.9150773286819458,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "13",
+      "slot": 8,
+      "token": "set",
+      "token_id": 2275,
+      "char_start": 28,
+      "char_end": 31,
+      "raw_fragment": "set",
+      "word_indices": [
+        6
+      ],
+      "candidate_start": 1.40246875,
+      "candidate_end": 1.56246875,
+      "timing_usable": true,
+      "confidence": 0.7001926898956299,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "13",
+      "slot": 9,
+      "token": "of",
+      "token_id": 1997,
+      "char_start": 32,
+      "char_end": 34,
+      "raw_fragment": "of",
+      "word_indices": [
+        7
+      ],
+      "candidate_start": 1.62246875,
+      "candidate_end": 1.66246875,
+      "timing_usable": true,
+      "confidence": 0.3881198763847351,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "13",
+      "slot": 10,
+      "token": "data",
+      "token_id": 2951,
+      "char_start": 35,
+      "char_end": 39,
+      "raw_fragment": "data",
+      "word_indices": [
+        8
+      ],
+      "candidate_start": 1.72246875,
+      "candidate_end": 2.06246875,
+      "timing_usable": true,
+      "confidence": 0.4208270013332367,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "13",
+      "slot": 11,
+      "token": "and",
+      "token_id": 1998,
+      "char_start": 40,
+      "char_end": 43,
+      "raw_fragment": "and",
+      "word_indices": [
+        9
+      ],
+      "candidate_start": 2.88246875,
+      "candidate_end": 3.00246875,
+      "timing_usable": true,
+      "confidence": 0.9884271621704102,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "13",
+      "slot": 12,
+      "token": "from",
+      "token_id": 2013,
+      "char_start": 44,
+      "char_end": 48,
+      "raw_fragment": "from",
+      "word_indices": [
+        10
+      ],
+      "candidate_start": 3.28246875,
+      "candidate_end": 3.4424687499999997,
+      "timing_usable": true,
+      "confidence": 0.8761104345321655,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "13",
+      "slot": 13,
+      "token": "that",
+      "token_id": 2008,
+      "char_start": 49,
+      "char_end": 53,
+      "raw_fragment": "that",
+      "word_indices": [
+        11
+      ],
+      "candidate_start": 3.90246875,
+      "candidate_end": 4.02246875,
+      "timing_usable": true,
+      "confidence": 0.8613783717155457,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "13",
+      "slot": 14,
+      "token": "data",
+      "token_id": 2951,
+      "char_start": 54,
+      "char_end": 58,
+      "raw_fragment": "data",
+      "word_indices": [
+        12
+      ],
+      "candidate_start": 4.06246875,
+      "candidate_end": 4.36246875,
+      "timing_usable": true,
+      "confidence": 0.6794732213020325,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "13",
+      "slot": 15,
+      "token": ",",
+      "token_id": 1010,
+      "char_start": 58,
+      "char_end": 59,
+      "raw_fragment": ",",
+      "word_indices": [],
+      "candidate_start": null,
+      "candidate_end": null,
+      "timing_usable": false,
+      "confidence": null,
+      "mapping": "punctuation_without_own_acoustic_interval"
+    },
+    {
+      "sample_id": "13",
+      "slot": 16,
+      "token": "i",
+      "token_id": 1045,
+      "char_start": 60,
+      "char_end": 61,
+      "raw_fragment": "I",
+      "word_indices": [
+        13
+      ],
+      "candidate_start": 4.68246875,
+      "candidate_end": 4.7024687499999995,
+      "timing_usable": false,
+      "confidence": 0.02160402201116085,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "13",
+      "slot": 17,
+      "token": "can",
+      "token_id": 2064,
+      "char_start": 62,
+      "char_end": 65,
+      "raw_fragment": "can",
+      "word_indices": [
+        14
+      ],
+      "candidate_start": 4.7424687500000005,
+      "candidate_end": 4.84246875,
+      "timing_usable": true,
+      "confidence": 0.38658982515335083,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "13",
+      "slot": 18,
+      "token": "find",
+      "token_id": 2424,
+      "char_start": 66,
+      "char_end": 70,
+      "raw_fragment": "find",
+      "word_indices": [
+        15
+      ],
+      "candidate_start": 4.862468750000001,
+      "candidate_end": 5.002468749999999,
+      "timing_usable": true,
+      "confidence": 0.21692058444023132,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "13",
+      "slot": 19,
+      "token": "a",
+      "token_id": 1037,
+      "char_start": 71,
+      "char_end": 72,
+      "raw_fragment": "a",
+      "word_indices": [
+        16
+      ],
+      "candidate_start": 5.06246875,
+      "candidate_end": 5.082468749999999,
+      "timing_usable": false,
+      "confidence": 0.02215430699288845,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "13",
+      "slot": 20,
+      "token": "relationship",
+      "token_id": 3276,
+      "char_start": 73,
+      "char_end": 85,
+      "raw_fragment": "relationship",
+      "word_indices": [
+        17
+      ],
+      "candidate_start": 5.10246875,
+      "candidate_end": 5.6624687499999995,
+      "timing_usable": true,
+      "confidence": 0.9437068104743958,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "13",
+      "slot": 21,
+      "token": "between",
+      "token_id": 2090,
+      "char_start": 86,
+      "char_end": 93,
+      "raw_fragment": "between",
+      "word_indices": [
+        18
+      ],
+      "candidate_start": 5.76246875,
+      "candidate_end": 6.06246875,
+      "timing_usable": true,
+      "confidence": 0.9484941363334656,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "13",
+      "slot": 22,
+      "token": "any",
+      "token_id": 2151,
+      "char_start": 94,
+      "char_end": 97,
+      "raw_fragment": "any",
+      "word_indices": [
+        19
+      ],
+      "candidate_start": 6.3224687500000005,
+      "candidate_end": 6.44246875,
+      "timing_usable": true,
+      "confidence": 0.9104785323143005,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "13",
+      "slot": 23,
+      "token": "two",
+      "token_id": 2048,
+      "char_start": 98,
+      "char_end": 101,
+      "raw_fragment": "two",
+      "word_indices": [
+        20
+      ],
+      "candidate_start": 6.54246875,
+      "candidate_end": 6.6624687499999995,
+      "timing_usable": true,
+      "confidence": 0.9985206723213196,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "13",
+      "slot": 24,
+      "token": "of",
+      "token_id": 1997,
+      "char_start": 102,
+      "char_end": 104,
+      "raw_fragment": "of",
+      "word_indices": [
+        21
+      ],
+      "candidate_start": 6.76246875,
+      "candidate_end": 6.80246875,
+      "timing_usable": true,
+      "confidence": 0.8881868124008179,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "13",
+      "slot": 25,
+      "token": "the",
+      "token_id": 1996,
+      "char_start": 105,
+      "char_end": 108,
+      "raw_fragment": "the",
+      "word_indices": [
+        22
+      ],
+      "candidate_start": 6.862468750000001,
+      "candidate_end": 6.92246875,
+      "timing_usable": true,
+      "confidence": 0.8623862862586975,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "13",
+      "slot": 26,
+      "token": "given",
+      "token_id": 2445,
+      "char_start": 109,
+      "char_end": 114,
+      "raw_fragment": "given",
+      "word_indices": [
+        23
+      ],
+      "candidate_start": 6.98246875,
+      "candidate_end": 7.2024687499999995,
+      "timing_usable": true,
+      "confidence": 0.7935316562652588,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "13",
+      "slot": 27,
+      "token": "factors",
+      "token_id": 5876,
+      "char_start": 115,
+      "char_end": 122,
+      "raw_fragment": "factors",
+      "word_indices": [
+        24
+      ],
+      "candidate_start": 7.2824687500000005,
+      "candidate_end": 7.6624687499999995,
+      "timing_usable": false,
+      "confidence": 0.0236592385917902,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "13",
+      "slot": 28,
+      "token": "or",
+      "token_id": 2030,
+      "char_start": 123,
+      "char_end": 125,
+      "raw_fragment": "or",
+      "word_indices": [
+        25
+      ],
+      "candidate_start": 8.26246875,
+      "candidate_end": 8.34246875,
+      "timing_usable": true,
+      "confidence": 0.44216713309288025,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "13",
+      "slot": 29,
+      "token": "more",
+      "token_id": 2062,
+      "char_start": 126,
+      "char_end": 130,
+      "raw_fragment": "more",
+      "word_indices": [
+        26
+      ],
+      "candidate_start": 8.44246875,
+      "candidate_end": 8.60246875,
+      "timing_usable": true,
+      "confidence": 0.4208807647228241,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "13",
+      "slot": 30,
+      "token": ".",
+      "token_id": 1012,
+      "char_start": 130,
+      "char_end": 131,
+      "raw_fragment": ".",
+      "word_indices": [],
+      "candidate_start": null,
+      "candidate_end": null,
+      "timing_usable": false,
+      "confidence": null,
+      "mapping": "punctuation_without_own_acoustic_interval"
+    }
+  ],
+  "token_ids_match": true,
+  "feature_repetition_audit": {
+    "audio": {
+      "multi_piece_words": 0,
+      "identical_feature_groups": 0
+    },
+    "vision": {
+      "multi_piece_words": 0,
+      "identical_feature_groups": 0
+    }
+  },
+  "represented_char_end": 131,
+  "unrepresented_text_tail": "",
+  "timing_claim": "estimated CTC word intervals, not official feature timestamps; aligned AV correspondence follows task specification",
+  "alignment_error": null
+}

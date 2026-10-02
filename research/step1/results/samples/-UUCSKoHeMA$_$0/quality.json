@@ -1,0 +1,12 @@
+{
+  "sample_id": "-UUCSKoHeMA$_$0",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.8801082968711853,
+  "low_confidence_fraction": 0.0,
+  "diagnostic_wer": 0.2222222222222222,
+  "usable_word_times": 18,
+  "words": 18,
+  "raw_text": "I mentioned a word in the last clip called 'monotone', and I want to talk about that briefly.",
+  "diagnostic_asr": "OKA MENTIONED A WORD AN THE LAST CLIP CALLED MONOTONE AND I WANT TO TALK ABOUT THAT BRIEFLY WHAT YOU"
+}

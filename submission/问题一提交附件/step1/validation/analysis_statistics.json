@@ -1,0 +1,101 @@
+{
+  "status": "passed",
+  "source": "逐样本CTC记录与独立复算的200条窗口指标",
+  "rule_counts": {
+    "mean_below_0.2": 19,
+    "majority_below_0.1": 20,
+    "wer_above_0.8": 21,
+    "no_full_path": 0
+  },
+  "all_rule_sets_contained_in_wer_set": true,
+  "rule_sample_ids": {
+    "mean_below_0.2": [
+      "-NFrJFQijFE$_$1",
+      "-NFrJFQijFE$_$2",
+      "-hnBHBN8p5A$_$6",
+      "-hnBHBN8p5A$_$7",
+      "-iRBcNs9oI8$_$3",
+      "-iRBcNs9oI8$_$7",
+      "-iRBcNs9oI8$_$8",
+      "-iRBcNs9oI8$_$9",
+      "-mJ2ud6oKI8$_$1",
+      "-mJ2ud6oKI8$_$2",
+      "-mJ2ud6oKI8$_$6",
+      "-mJ2ud6oKI8$_$8",
+      "-mJ2ud6oKI8$_$9",
+      "-ri04Z7vwnc$_$0",
+      "-ri04Z7vwnc$_$2",
+      "-ri04Z7vwnc$_$5",
+      "-yRb-Jum7EQ$_$1",
+      "-yRb-Jum7EQ$_$5",
+      "-yRb-Jum7EQ$_$6"
+    ],
+    "majority_below_0.1": [
+      "-NFrJFQijFE$_$1",
+      "-NFrJFQijFE$_$2",
+      "-hnBHBN8p5A$_$6",
+      "-hnBHBN8p5A$_$7",
+      "-iRBcNs9oI8$_$3",
+      "-iRBcNs9oI8$_$6",
+      "-iRBcNs9oI8$_$7",
+      "-iRBcNs9oI8$_$8",
+      "-iRBcNs9oI8$_$9",
+      "-mJ2ud6oKI8$_$1",
+      "-mJ2ud6oKI8$_$2",
+      "-mJ2ud6oKI8$_$6",
+      "-mJ2ud6oKI8$_$8",
+      "-mJ2ud6oKI8$_$9",
+      "-ri04Z7vwnc$_$0",
+      "-ri04Z7vwnc$_$2",
+      "-ri04Z7vwnc$_$5",
+      "-yRb-Jum7EQ$_$1",
+      "-yRb-Jum7EQ$_$5",
+      "-yRb-Jum7EQ$_$6"
+    ],
+    "wer_above_0.8": [
+      "-HwX2H8Z4hY$_$9",
+      "-NFrJFQijFE$_$1",
+      "-NFrJFQijFE$_$2",
+      "-hnBHBN8p5A$_$6",
+      "-hnBHBN8p5A$_$7",
+      "-iRBcNs9oI8$_$3",
+      "-iRBcNs9oI8$_$6",
+      "-iRBcNs9oI8$_$7",
+      "-iRBcNs9oI8$_$8",
+      "-iRBcNs9oI8$_$9",
+      "-mJ2ud6oKI8$_$1",
+      "-mJ2ud6oKI8$_$2",
+      "-mJ2ud6oKI8$_$6",
+      "-mJ2ud6oKI8$_$8",
+      "-mJ2ud6oKI8$_$9",
+      "-ri04Z7vwnc$_$0",
+      "-ri04Z7vwnc$_$2",
+      "-ri04Z7vwnc$_$5",
+      "-yRb-Jum7EQ$_$1",
+      "-yRb-Jum7EQ$_$5",
+      "-yRb-Jum7EQ$_$6"
+    ],
+    "no_full_path": []
+  },
+  "constant_audio_sample_ids": [
+    "-mJ2ud6oKI8$_$1",
+    "-mJ2ud6oKI8$_$2"
+  ],
+  "nonconstant_audio_statistics": {
+    "0.2": {
+      "samples": 98,
+      "audio_mse": 0.5560470040963621
+    },
+    "0.5": {
+      "samples": 98,
+      "audio_mse": 0.7619162578972019
+    }
+  },
+  "relative_mse_reduction_percent": {
+    "audio": 27.019931871386305,
+    "vision": 46.095166234667516
+  },
+  "crossing_increase_percentage_points": 31.83191466627183,
+  "three_modal_usable_percent": 71.79089026915115,
+  "manual_word_boundary_validation_added": false
+}

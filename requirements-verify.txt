@@ -1,0 +1,2 @@
+# Only for offline verification of the submitted artifacts.
+numpy==1.26.4

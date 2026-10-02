@@ -1,0 +1,1138 @@
+{
+  "sample_id": "20",
+  "raw_text": "And of course, click in the link of the description of this video for more, and we'll have more live updates and a stock market video (wrap-up) at the end of the day today.",
+  "duration": 10.952994791666667,
+  "video_fps": 30.0,
+  "video_frames": 326,
+  "video_source": "附件4-可解释专项视频样本与特征文件/附件4-可解释专项视频样本与特征文件/对齐版本/videos/20.mp4",
+  "video_sha256": "0c75c37baddf51add457b20ad35e10166ff7baaa520f77bd6b2af2239c217a1c",
+  "audio_coverage_fraction": 1.0,
+  "diagnostic_asr": "OUT AND OF COURSE CLICK IN THE LINK IN THE DESCRIPTION OF THIS VIDIOPHER MORE A AND WE'LL HAVE MORE LIVE UPDATES AND DOS STOCK MARKET VIDIO FOR YOU AT THE END OF THE DAY TO DAY RIGHT AND I DON'T F",
+  "diagnostic_wer": 0.45714285714285713,
+  "mean_ctc_confidence": 0.8223168253898621,
+  "requires_timing_review": false,
+  "reasons": [],
+  "words": [
+    {
+      "index": 0,
+      "original": "And",
+      "char_start": 0,
+      "char_end": 3,
+      "normalized": "AND",
+      "start": 0.56246875,
+      "end": 0.64246875,
+      "confidence": 0.9969853758811951,
+      "status": "aligned"
+    },
+    {
+      "index": 1,
+      "original": "of",
+      "char_start": 4,
+      "char_end": 6,
+      "normalized": "OF",
+      "start": 0.70246875,
+      "end": 0.74246875,
+      "confidence": 0.9986615777015686,
+      "status": "aligned"
+    },
+    {
+      "index": 2,
+      "original": "course",
+      "char_start": 7,
+      "char_end": 13,
+      "normalized": "COURSE",
+      "start": 0.82246875,
+      "end": 1.04246875,
+      "confidence": 0.9446648359298706,
+      "status": "aligned"
+    },
+    {
+      "index": 3,
+      "original": "click",
+      "char_start": 15,
+      "char_end": 20,
+      "normalized": "CLICK",
+      "start": 1.18246875,
+      "end": 1.38246875,
+      "confidence": 0.8860551118850708,
+      "status": "aligned"
+    },
+    {
+      "index": 4,
+      "original": "in",
+      "char_start": 21,
+      "char_end": 23,
+      "normalized": "IN",
+      "start": 1.50246875,
+      "end": 1.54246875,
+      "confidence": 0.9968485832214355,
+      "status": "aligned"
+    },
+    {
+      "index": 5,
+      "original": "the",
+      "char_start": 24,
+      "char_end": 27,
+      "normalized": "THE",
+      "start": 1.62246875,
+      "end": 1.68246875,
+      "confidence": 0.9787731766700745,
+      "status": "aligned"
+    },
+    {
+      "index": 6,
+      "original": "link",
+      "char_start": 28,
+      "char_end": 32,
+      "normalized": "LINK",
+      "start": 1.76246875,
+      "end": 1.96246875,
+      "confidence": 0.9808173179626465,
+      "status": "aligned"
+    },
+    {
+      "index": 7,
+      "original": "of",
+      "char_start": 33,
+      "char_end": 35,
+      "normalized": "OF",
+      "start": 2.0624687500000003,
+      "end": 2.10246875,
+      "confidence": 0.0006955581484362483,
+      "status": "low_confidence"
+    },
+    {
+      "index": 8,
+      "original": "the",
+      "char_start": 36,
+      "char_end": 39,
+      "normalized": "THE",
+      "start": 2.1624687500000004,
+      "end": 2.22246875,
+      "confidence": 0.9842814803123474,
+      "status": "aligned"
+    },
+    {
+      "index": 9,
+      "original": "description",
+      "char_start": 40,
+      "char_end": 51,
+      "normalized": "DESCRIPTION",
+      "start": 2.24246875,
+      "end": 2.62246875,
+      "confidence": 0.9846801161766052,
+      "status": "aligned"
+    },
+    {
+      "index": 10,
+      "original": "of",
+      "char_start": 52,
+      "char_end": 54,
+      "normalized": "OF",
+      "start": 2.6624687500000004,
+      "end": 2.70246875,
+      "confidence": 0.9992218613624573,
+      "status": "aligned"
+    },
+    {
+      "index": 11,
+      "original": "this",
+      "char_start": 55,
+      "char_end": 59,
+      "normalized": "THIS",
+      "start": 2.76246875,
+      "end": 2.8824687499999997,
+      "confidence": 0.8305428624153137,
+      "status": "aligned"
+    },
+    {
+      "index": 12,
+      "original": "video",
+      "char_start": 60,
+      "char_end": 65,
+      "normalized": "VIDEO",
+      "start": 2.96246875,
+      "end": 3.22246875,
+      "confidence": 0.41092950105667114,
+      "status": "aligned"
+    },
+    {
+      "index": 13,
+      "original": "for",
+      "char_start": 66,
+      "char_end": 69,
+      "normalized": "FOR",
+      "start": 3.32246875,
+      "end": 3.4624687499999998,
+      "confidence": 0.5608615875244141,
+      "status": "aligned"
+    },
+    {
+      "index": 14,
+      "original": "more",
+      "char_start": 70,
+      "char_end": 74,
+      "normalized": "MORE",
+      "start": 3.5424687500000003,
+      "end": 3.7824687499999996,
+      "confidence": 0.966558575630188,
+      "status": "aligned"
+    },
+    {
+      "index": 15,
+      "original": "and",
+      "char_start": 76,
+      "char_end": 79,
+      "normalized": "AND",
+      "start": 4.56246875,
+      "end": 4.64246875,
+      "confidence": 0.9384353160858154,
+      "status": "aligned"
+    },
+    {
+      "index": 16,
+      "original": "we'll",
+      "char_start": 80,
+      "char_end": 85,
+      "normalized": "WE'LL",
+      "start": 4.70246875,
+      "end": 4.88246875,
+      "confidence": 0.9040180444717407,
+      "status": "aligned"
+    },
+    {
+      "index": 17,
+      "original": "have",
+      "char_start": 86,
+      "char_end": 90,
+      "normalized": "HAVE",
+      "start": 4.942468750000001,
+      "end": 5.10246875,
+      "confidence": 0.999366044998169,
+      "status": "aligned"
+    },
+    {
+      "index": 18,
+      "original": "more",
+      "char_start": 91,
+      "char_end": 95,
+      "normalized": "MORE",
+      "start": 5.22246875,
+      "end": 5.46246875,
+      "confidence": 0.9288788437843323,
+      "status": "aligned"
+    },
+    {
+      "index": 19,
+      "original": "live",
+      "char_start": 96,
+      "char_end": 100,
+      "normalized": "LIVE",
+      "start": 5.64246875,
+      "end": 5.88246875,
+      "confidence": 0.9934042692184448,
+      "status": "aligned"
+    },
+    {
+      "index": 20,
+      "original": "updates",
+      "char_start": 101,
+      "char_end": 108,
+      "normalized": "UPDATES",
+      "start": 6.04246875,
+      "end": 6.44246875,
+      "confidence": 0.9618054032325745,
+      "status": "aligned"
+    },
+    {
+      "index": 21,
+      "original": "and",
+      "char_start": 109,
+      "char_end": 112,
+      "normalized": "AND",
+      "start": 6.66246875,
+      "end": 6.78246875,
+      "confidence": 0.9625658988952637,
+      "status": "aligned"
+    },
+    {
+      "index": 22,
+      "original": "a",
+      "char_start": 113,
+      "char_end": 114,
+      "normalized": "A",
+      "start": 6.92246875,
+      "end": 6.94246875,
+      "confidence": 0.322466105222702,
+      "status": "aligned"
+    },
+    {
+      "index": 23,
+      "original": "stock",
+      "char_start": 115,
+      "char_end": 120,
+      "normalized": "STOCK",
+      "start": 7.08246875,
+      "end": 7.30246875,
+      "confidence": 0.9796991348266602,
+      "status": "aligned"
+    },
+    {
+      "index": 24,
+      "original": "market",
+      "char_start": 121,
+      "char_end": 127,
+      "normalized": "MARKET",
+      "start": 7.402468750000001,
+      "end": 7.72246875,
+      "confidence": 0.9918494820594788,
+      "status": "aligned"
+    },
+    {
+      "index": 25,
+      "original": "video",
+      "char_start": 128,
+      "char_end": 133,
+      "normalized": "VIDEO",
+      "start": 7.80246875,
+      "end": 8.10246875,
+      "confidence": 0.4080595374107361,
+      "status": "aligned"
+    },
+    {
+      "index": 26,
+      "original": "wrap",
+      "char_start": 135,
+      "char_end": 139,
+      "normalized": "WRAP",
+      "start": 8.24246875,
+      "end": 8.46246875,
+      "confidence": 0.0003452808887232095,
+      "status": "low_confidence"
+    },
+    {
+      "index": 27,
+      "original": "up",
+      "char_start": 140,
+      "char_end": 142,
+      "normalized": "UP",
+      "start": 8.58246875,
+      "end": 8.642468749999999,
+      "confidence": 0.0007254639058373868,
+      "status": "low_confidence"
+    },
+    {
+      "index": 28,
+      "original": "at",
+      "char_start": 144,
+      "char_end": 146,
+      "normalized": "AT",
+      "start": 8.78246875,
+      "end": 8.84246875,
+      "confidence": 0.9891664385795593,
+      "status": "aligned"
+    },
+    {
+      "index": 29,
+      "original": "the",
+      "char_start": 147,
+      "char_end": 150,
+      "normalized": "THE",
+      "start": 8.92246875,
+      "end": 9.00246875,
+      "confidence": 0.9892632961273193,
+      "status": "aligned"
+    },
+    {
+      "index": 30,
+      "original": "end",
+      "char_start": 151,
+      "char_end": 154,
+      "normalized": "END",
+      "start": 9.04246875,
+      "end": 9.10246875,
+      "confidence": 0.9992008805274963,
+      "status": "aligned"
+    },
+    {
+      "index": 31,
+      "original": "of",
+      "char_start": 155,
+      "char_end": 157,
+      "normalized": "OF",
+      "start": 9.14246875,
+      "end": 9.18246875,
+      "confidence": 0.9936656951904297,
+      "status": "aligned"
+    },
+    {
+      "index": 32,
+      "original": "the",
+      "char_start": 158,
+      "char_end": 161,
+      "normalized": "THE",
+      "start": 9.22246875,
+      "end": 9.28246875,
+      "confidence": 0.9787676930427551,
+      "status": "aligned"
+    },
+    {
+      "index": 33,
+      "original": "day",
+      "char_start": 162,
+      "char_end": 165,
+      "normalized": "DAY",
+      "start": 9.32246875,
+      "end": 9.42246875,
+      "confidence": 0.9986217021942139,
+      "status": "aligned"
+    },
+    {
+      "index": 34,
+      "original": "today",
+      "char_start": 166,
+      "char_end": 171,
+      "normalized": "TODAY",
+      "start": 9.462468750000001,
+      "end": 9.68246875,
+      "confidence": 0.9202078580856323,
+      "status": "aligned"
+    }
+  ],
+  "tokens": [
+    {
+      "sample_id": "20",
+      "slot": 1,
+      "token": "and",
+      "token_id": 1998,
+      "char_start": 0,
+      "char_end": 3,
+      "raw_fragment": "And",
+      "word_indices": [
+        0
+      ],
+      "candidate_start": 0.56246875,
+      "candidate_end": 0.64246875,
+      "timing_usable": true,
+      "confidence": 0.9969853758811951,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "20",
+      "slot": 2,
+      "token": "of",
+      "token_id": 1997,
+      "char_start": 4,
+      "char_end": 6,
+      "raw_fragment": "of",
+      "word_indices": [
+        1
+      ],
+      "candidate_start": 0.70246875,
+      "candidate_end": 0.74246875,
+      "timing_usable": true,
+      "confidence": 0.9986615777015686,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "20",
+      "slot": 3,
+      "token": "course",
+      "token_id": 2607,
+      "char_start": 7,
+      "char_end": 13,
+      "raw_fragment": "course",
+      "word_indices": [
+        2
+      ],
+      "candidate_start": 0.82246875,
+      "candidate_end": 1.04246875,
+      "timing_usable": true,
+      "confidence": 0.9446648359298706,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "20",
+      "slot": 4,
+      "token": ",",
+      "token_id": 1010,
+      "char_start": 13,
+      "char_end": 14,
+      "raw_fragment": ",",
+      "word_indices": [],
+      "candidate_start": null,
+      "candidate_end": null,
+      "timing_usable": false,
+      "confidence": null,
+      "mapping": "punctuation_without_own_acoustic_interval"
+    },
+    {
+      "sample_id": "20",
+      "slot": 5,
+      "token": "click",
+      "token_id": 11562,
+      "char_start": 15,
+      "char_end": 20,
+      "raw_fragment": "click",
+      "word_indices": [
+        3
+      ],
+      "candidate_start": 1.18246875,
+      "candidate_end": 1.38246875,
+      "timing_usable": true,
+      "confidence": 0.8860551118850708,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "20",
+      "slot": 6,
+      "token": "in",
+      "token_id": 1999,
+      "char_start": 21,
+      "char_end": 23,
+      "raw_fragment": "in",
+      "word_indices": [
+        4
+      ],
+      "candidate_start": 1.50246875,
+      "candidate_end": 1.54246875,
+      "timing_usable": true,
+      "confidence": 0.9968485832214355,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "20",
+      "slot": 7,
+      "token": "the",
+      "token_id": 1996,
+      "char_start": 24,
+      "char_end": 27,
+      "raw_fragment": "the",
+      "word_indices": [
+        5
+      ],
+      "candidate_start": 1.62246875,
+      "candidate_end": 1.68246875,
+      "timing_usable": true,
+      "confidence": 0.9787731766700745,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "20",
+      "slot": 8,
+      "token": "link",
+      "token_id": 4957,
+      "char_start": 28,
+      "char_end": 32,
+      "raw_fragment": "link",
+      "word_indices": [
+        6
+      ],
+      "candidate_start": 1.76246875,
+      "candidate_end": 1.96246875,
+      "timing_usable": true,
+      "confidence": 0.9808173179626465,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "20",
+      "slot": 9,
+      "token": "of",
+      "token_id": 1997,
+      "char_start": 33,
+      "char_end": 35,
+      "raw_fragment": "of",
+      "word_indices": [
+        7
+      ],
+      "candidate_start": 2.0624687500000003,
+      "candidate_end": 2.10246875,
+      "timing_usable": false,
+      "confidence": 0.0006955581484362483,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "20",
+      "slot": 10,
+      "token": "the",
+      "token_id": 1996,
+      "char_start": 36,
+      "char_end": 39,
+      "raw_fragment": "the",
+      "word_indices": [
+        8
+      ],
+      "candidate_start": 2.1624687500000004,
+      "candidate_end": 2.22246875,
+      "timing_usable": true,
+      "confidence": 0.9842814803123474,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "20",
+      "slot": 11,
+      "token": "description",
+      "token_id": 6412,
+      "char_start": 40,
+      "char_end": 51,
+      "raw_fragment": "description",
+      "word_indices": [
+        9
+      ],
+      "candidate_start": 2.24246875,
+      "candidate_end": 2.62246875,
+      "timing_usable": true,
+      "confidence": 0.9846801161766052,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "20",
+      "slot": 12,
+      "token": "of",
+      "token_id": 1997,
+      "char_start": 52,
+      "char_end": 54,
+      "raw_fragment": "of",
+      "word_indices": [
+        10
+      ],
+      "candidate_start": 2.6624687500000004,
+      "candidate_end": 2.70246875,
+      "timing_usable": true,
+      "confidence": 0.9992218613624573,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "20",
+      "slot": 13,
+      "token": "this",
+      "token_id": 2023,
+      "char_start": 55,
+      "char_end": 59,
+      "raw_fragment": "this",
+      "word_indices": [
+        11
+      ],
+      "candidate_start": 2.76246875,
+      "candidate_end": 2.8824687499999997,
+      "timing_usable": true,
+      "confidence": 0.8305428624153137,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "20",
+      "slot": 14,
+      "token": "video",
+      "token_id": 2678,
+      "char_start": 60,
+      "char_end": 65,
+      "raw_fragment": "video",
+      "word_indices": [
+        12
+      ],
+      "candidate_start": 2.96246875,
+      "candidate_end": 3.22246875,
+      "timing_usable": true,
+      "confidence": 0.41092950105667114,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "20",
+      "slot": 15,
+      "token": "for",
+      "token_id": 2005,
+      "char_start": 66,
+      "char_end": 69,
+      "raw_fragment": "for",
+      "word_indices": [
+        13
+      ],
+      "candidate_start": 3.32246875,
+      "candidate_end": 3.4624687499999998,
+      "timing_usable": true,
+      "confidence": 0.5608615875244141,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "20",
+      "slot": 16,
+      "token": "more",
+      "token_id": 2062,
+      "char_start": 70,
+      "char_end": 74,
+      "raw_fragment": "more",
+      "word_indices": [
+        14
+      ],
+      "candidate_start": 3.5424687500000003,
+      "candidate_end": 3.7824687499999996,
+      "timing_usable": true,
+      "confidence": 0.966558575630188,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "20",
+      "slot": 17,
+      "token": ",",
+      "token_id": 1010,
+      "char_start": 74,
+      "char_end": 75,
+      "raw_fragment": ",",
+      "word_indices": [],
+      "candidate_start": null,
+      "candidate_end": null,
+      "timing_usable": false,
+      "confidence": null,
+      "mapping": "punctuation_without_own_acoustic_interval"
+    },
+    {
+      "sample_id": "20",
+      "slot": 18,
+      "token": "and",
+      "token_id": 1998,
+      "char_start": 76,
+      "char_end": 79,
+      "raw_fragment": "and",
+      "word_indices": [
+        15
+      ],
+      "candidate_start": 4.56246875,
+      "candidate_end": 4.64246875,
+      "timing_usable": true,
+      "confidence": 0.9384353160858154,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "20",
+      "slot": 19,
+      "token": "we",
+      "token_id": 2057,
+      "char_start": 80,
+      "char_end": 82,
+      "raw_fragment": "we",
+      "word_indices": [
+        16
+      ],
+      "candidate_start": 4.70246875,
+      "candidate_end": 4.88246875,
+      "timing_usable": true,
+      "confidence": 0.9040180444717407,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "20",
+      "slot": 20,
+      "token": "'",
+      "token_id": 1005,
+      "char_start": 82,
+      "char_end": 83,
+      "raw_fragment": "'",
+      "word_indices": [
+        16
+      ],
+      "candidate_start": 4.70246875,
+      "candidate_end": 4.88246875,
+      "timing_usable": true,
+      "confidence": 0.9040180444717407,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "20",
+      "slot": 21,
+      "token": "ll",
+      "token_id": 2222,
+      "char_start": 83,
+      "char_end": 85,
+      "raw_fragment": "ll",
+      "word_indices": [
+        16
+      ],
+      "candidate_start": 4.70246875,
+      "candidate_end": 4.88246875,
+      "timing_usable": true,
+      "confidence": 0.9040180444717407,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "20",
+      "slot": 22,
+      "token": "have",
+      "token_id": 2031,
+      "char_start": 86,
+      "char_end": 90,
+      "raw_fragment": "have",
+      "word_indices": [
+        17
+      ],
+      "candidate_start": 4.942468750000001,
+      "candidate_end": 5.10246875,
+      "timing_usable": true,
+      "confidence": 0.999366044998169,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "20",
+      "slot": 23,
+      "token": "more",
+      "token_id": 2062,
+      "char_start": 91,
+      "char_end": 95,
+      "raw_fragment": "more",
+      "word_indices": [
+        18
+      ],
+      "candidate_start": 5.22246875,
+      "candidate_end": 5.46246875,
+      "timing_usable": true,
+      "confidence": 0.9288788437843323,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "20",
+      "slot": 24,
+      "token": "live",
+      "token_id": 2444,
+      "char_start": 96,
+      "char_end": 100,
+      "raw_fragment": "live",
+      "word_indices": [
+        19
+      ],
+      "candidate_start": 5.64246875,
+      "candidate_end": 5.88246875,
+      "timing_usable": true,
+      "confidence": 0.9934042692184448,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "20",
+      "slot": 25,
+      "token": "updates",
+      "token_id": 14409,
+      "char_start": 101,
+      "char_end": 108,
+      "raw_fragment": "updates",
+      "word_indices": [
+        20
+      ],
+      "candidate_start": 6.04246875,
+      "candidate_end": 6.44246875,
+      "timing_usable": true,
+      "confidence": 0.9618054032325745,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "20",
+      "slot": 26,
+      "token": "and",
+      "token_id": 1998,
+      "char_start": 109,
+      "char_end": 112,
+      "raw_fragment": "and",
+      "word_indices": [
+        21
+      ],
+      "candidate_start": 6.66246875,
+      "candidate_end": 6.78246875,
+      "timing_usable": true,
+      "confidence": 0.9625658988952637,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "20",
+      "slot": 27,
+      "token": "a",
+      "token_id": 1037,
+      "char_start": 113,
+      "char_end": 114,
+      "raw_fragment": "a",
+      "word_indices": [
+        22
+      ],
+      "candidate_start": 6.92246875,
+      "candidate_end": 6.94246875,
+      "timing_usable": true,
+      "confidence": 0.322466105222702,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "20",
+      "slot": 28,
+      "token": "stock",
+      "token_id": 4518,
+      "char_start": 115,
+      "char_end": 120,
+      "raw_fragment": "stock",
+      "word_indices": [
+        23
+      ],
+      "candidate_start": 7.08246875,
+      "candidate_end": 7.30246875,
+      "timing_usable": true,
+      "confidence": 0.9796991348266602,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "20",
+      "slot": 29,
+      "token": "market",
+      "token_id": 3006,
+      "char_start": 121,
+      "char_end": 127,
+      "raw_fragment": "market",
+      "word_indices": [
+        24
+      ],
+      "candidate_start": 7.402468750000001,
+      "candidate_end": 7.72246875,
+      "timing_usable": true,
+      "confidence": 0.9918494820594788,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "20",
+      "slot": 30,
+      "token": "video",
+      "token_id": 2678,
+      "char_start": 128,
+      "char_end": 133,
+      "raw_fragment": "video",
+      "word_indices": [
+        25
+      ],
+      "candidate_start": 7.80246875,
+      "candidate_end": 8.10246875,
+      "timing_usable": true,
+      "confidence": 0.4080595374107361,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "20",
+      "slot": 31,
+      "token": "(",
+      "token_id": 1006,
+      "char_start": 134,
+      "char_end": 135,
+      "raw_fragment": "(",
+      "word_indices": [],
+      "candidate_start": null,
+      "candidate_end": null,
+      "timing_usable": false,
+      "confidence": null,
+      "mapping": "punctuation_without_own_acoustic_interval"
+    },
+    {
+      "sample_id": "20",
+      "slot": 32,
+      "token": "wrap",
+      "token_id": 10236,
+      "char_start": 135,
+      "char_end": 139,
+      "raw_fragment": "wrap",
+      "word_indices": [
+        26
+      ],
+      "candidate_start": 8.24246875,
+      "candidate_end": 8.46246875,
+      "timing_usable": false,
+      "confidence": 0.0003452808887232095,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "20",
+      "slot": 33,
+      "token": "-",
+      "token_id": 1011,
+      "char_start": 139,
+      "char_end": 140,
+      "raw_fragment": "-",
+      "word_indices": [],
+      "candidate_start": null,
+      "candidate_end": null,
+      "timing_usable": false,
+      "confidence": null,
+      "mapping": "punctuation_without_own_acoustic_interval"
+    },
+    {
+      "sample_id": "20",
+      "slot": 34,
+      "token": "up",
+      "token_id": 2039,
+      "char_start": 140,
+      "char_end": 142,
+      "raw_fragment": "up",
+      "word_indices": [
+        27
+      ],
+      "candidate_start": 8.58246875,
+      "candidate_end": 8.642468749999999,
+      "timing_usable": false,
+      "confidence": 0.0007254639058373868,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "20",
+      "slot": 35,
+      "token": ")",
+      "token_id": 1007,
+      "char_start": 142,
+      "char_end": 143,
+      "raw_fragment": ")",
+      "word_indices": [],
+      "candidate_start": null,
+      "candidate_end": null,
+      "timing_usable": false,
+      "confidence": null,
+      "mapping": "punctuation_without_own_acoustic_interval"
+    },
+    {
+      "sample_id": "20",
+      "slot": 36,
+      "token": "at",
+      "token_id": 2012,
+      "char_start": 144,
+      "char_end": 146,
+      "raw_fragment": "at",
+      "word_indices": [
+        28
+      ],
+      "candidate_start": 8.78246875,
+      "candidate_end": 8.84246875,
+      "timing_usable": true,
+      "confidence": 0.9891664385795593,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "20",
+      "slot": 37,
+      "token": "the",
+      "token_id": 1996,
+      "char_start": 147,
+      "char_end": 150,
+      "raw_fragment": "the",
+      "word_indices": [
+        29
+      ],
+      "candidate_start": 8.92246875,
+      "candidate_end": 9.00246875,
+      "timing_usable": true,
+      "confidence": 0.9892632961273193,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "20",
+      "slot": 38,
+      "token": "end",
+      "token_id": 2203,
+      "char_start": 151,
+      "char_end": 154,
+      "raw_fragment": "end",
+      "word_indices": [
+        30
+      ],
+      "candidate_start": 9.04246875,
+      "candidate_end": 9.10246875,
+      "timing_usable": true,
+      "confidence": 0.9992008805274963,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "20",
+      "slot": 39,
+      "token": "of",
+      "token_id": 1997,
+      "char_start": 155,
+      "char_end": 157,
+      "raw_fragment": "of",
+      "word_indices": [
+        31
+      ],
+      "candidate_start": 9.14246875,
+      "candidate_end": 9.18246875,
+      "timing_usable": true,
+      "confidence": 0.9936656951904297,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "20",
+      "slot": 40,
+      "token": "the",
+      "token_id": 1996,
+      "char_start": 158,
+      "char_end": 161,
+      "raw_fragment": "the",
+      "word_indices": [
+        32
+      ],
+      "candidate_start": 9.22246875,
+      "candidate_end": 9.28246875,
+      "timing_usable": true,
+      "confidence": 0.9787676930427551,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "20",
+      "slot": 41,
+      "token": "day",
+      "token_id": 2154,
+      "char_start": 162,
+      "char_end": 165,
+      "raw_fragment": "day",
+      "word_indices": [
+        33
+      ],
+      "candidate_start": 9.32246875,
+      "candidate_end": 9.42246875,
+      "timing_usable": true,
+      "confidence": 0.9986217021942139,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "20",
+      "slot": 42,
+      "token": "today",
+      "token_id": 2651,
+      "char_start": 166,
+      "char_end": 171,
+      "raw_fragment": "today",
+      "word_indices": [
+        34
+      ],
+      "candidate_start": 9.462468750000001,
+      "candidate_end": 9.68246875,
+      "timing_usable": true,
+      "confidence": 0.9202078580856323,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "20",
+      "slot": 43,
+      "token": ".",
+      "token_id": 1012,
+      "char_start": 171,
+      "char_end": 172,
+      "raw_fragment": ".",
+      "word_indices": [],
+      "candidate_start": null,
+      "candidate_end": null,
+      "timing_usable": false,
+      "confidence": null,
+      "mapping": "punctuation_without_own_acoustic_interval"
+    }
+  ],
+  "token_ids_match": true,
+  "feature_repetition_audit": {
+    "audio": {
+      "multi_piece_words": 1,
+      "identical_feature_groups": 1
+    },
+    "vision": {
+      "multi_piece_words": 1,
+      "identical_feature_groups": 1
+    }
+  },
+  "represented_char_end": 172,
+  "unrepresented_text_tail": "",
+  "timing_claim": "estimated CTC word intervals, not official feature timestamps; aligned AV correspondence follows task specification",
+  "alignment_error": null
+}

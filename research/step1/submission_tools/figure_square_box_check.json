@@ -1,0 +1,32 @@
+{
+  "fig_5_2_source_examples": {
+    "visible_fancy_boxes": 0,
+    "all_boxes_square": true,
+    "text_color": "#000000"
+  },
+  "fig_5_3_text_mapping": {
+    "visible_fancy_boxes": 9,
+    "all_boxes_square": true,
+    "text_color": "#000000"
+  },
+  "fig_5_4_ctc_principle": {
+    "visible_fancy_boxes": 3,
+    "all_boxes_square": true,
+    "text_color": "#000000"
+  },
+  "fig_5_4_overlap_principle": {
+    "visible_fancy_boxes": 1,
+    "all_boxes_square": true,
+    "text_color": "#000000"
+  },
+  "fig_p1_multimodal_timeline": {
+    "visible_fancy_boxes": 0,
+    "all_boxes_square": true,
+    "text_color": "#000000"
+  },
+  "fig_p1_quality_flow": {
+    "visible_fancy_boxes": 7,
+    "all_boxes_square": true,
+    "text_color": "#000000"
+  }
+}

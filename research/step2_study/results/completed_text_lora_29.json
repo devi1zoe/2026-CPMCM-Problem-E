@@ -1,0 +1,15 @@
+{
+  "score": 1.0371018939732237,
+  "config": {
+    "indices": [
+      0
+    ],
+    "lora": true
+  },
+  "sha256": "688eedb3b6ac3791d653bc71537c16b88ba950082fd877eab1c86b30e46bc382",
+  "protocol_sha256": "102694aa476b8a77840f7ad2da42e41f0b32afeb364d91fc6f1d254e1c21c276",
+  "epochs": 16,
+  "seconds": 302.0249443054199,
+  "trainable_parameters": 114214,
+  "adapter_parameters": 24576
+}

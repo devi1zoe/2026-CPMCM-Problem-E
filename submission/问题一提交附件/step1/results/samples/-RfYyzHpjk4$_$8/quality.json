@@ -1,0 +1,12 @@
+{
+  "sample_id": "-RfYyzHpjk4$_$8",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.9372798204421997,
+  "low_confidence_fraction": 0.0,
+  "diagnostic_wer": 0.11764705882352941,
+  "usable_word_times": 17,
+  "words": 17,
+  "raw_text": "It's pretty, pretty easy to do but you got to set up those numbers ahead of time.",
+  "diagnostic_asr": "IT'S PRETTY PRETTY EASY TO DO BUT YOU'VE GOT TO SET UP THOSE NUMBERS AHEAD OF TIME YOU"
+}

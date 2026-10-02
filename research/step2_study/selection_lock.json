@@ -1,0 +1,39 @@
+{
+  "selected": "old_gated",
+  "challenger": "shape_single",
+  "eligible": [],
+  "final_test_models": [
+    "old_gated",
+    "shape_single"
+  ],
+  "checkpoint_hashes": {
+    "old_gated": {
+      "step2/checkpoints/gated_aug_17.pt": "184a3d258c7f92fa4767cacd5dd2cf92f87fb5a25535331e74377f79853ef6ab",
+      "step2/checkpoints/gated_aug_29.pt": "03b4c5a32093174c39369462ea911d265889039d392102ccbc3b8a5245c79abb",
+      "step2/checkpoints/gated_aug_43.pt": "6bdd37b99a2da1ce978f2fedb784d4a62421aba1b46e002f7985d2a29ec8f4e6"
+    },
+    "shape_single": {
+      "step2_study/checkpoints/shape_single_17.pt": "28c431264ea4ad513be4b5f74d3e7977973ce9add8533becada83f027bb50345",
+      "step2_study/checkpoints/shape_single_29.pt": "dce31a743788eea71d9249223afb0dd3f00a554628bf23a0292dbdb49f64da65",
+      "step2_study/checkpoints/shape_single_43.pt": "36465a51084e88186eb59e788d2868473d16a6ca1374344d8e561c12dafb2cd3"
+    }
+  },
+  "protocol_sha256": "102694aa476b8a77840f7ad2da42e41f0b32afeb364d91fc6f1d254e1c21c276",
+  "rules_sha256": "1f8387f43b00b6186db2054273390702fe0fe90c3fe14c8f0f4ed1d6a92c7833",
+  "combination_sha256": "4da3b5c4846149d7411c9c20a20e297508bf736f0e3802682ab42bd7f8e3cc73",
+  "validation_predictions": {
+    "old_gated": "96d7eebf2fc9c2a003360b2cb3fb754e965e07dd65dc2ad77675ec39d13b26fe",
+    "shape_single": "3c8af84be043b027270d95a2b1493f99c9c7c61f40517bd159c29755e1d87b0c",
+    "shape_multi": "f50d4c6fb84dfa244b2269edc9af0eefc0778cc0ea936755952ad93d2ec18725",
+    "shape_unequal": "9566b5377e13d138bf3b82c146b3dca83f34edd5e3c6f2561e3e53986db3097a",
+    "text_frozen": "22abad059658a80694782c58890b772ccb66bd02943ff21c7e278b9108fc4da4",
+    "text_lora": "d7df7fb1091095b74af390c55ca22d3549325d67b0a79f15d282c2f6f708cefc",
+    "multi_lora": "c3180e4945481a5d3dc66438ef372d5822f1008d2a045141651b949ea1e98a10",
+    "gate_quality": "3ad3b91bdc847b6e249856fc76c2a690d12e5e225fe7fd233df51b52abdf9a45",
+    "gate_reliability": "892124d39ed82150f80f5bbaad857d69da068e5478300128c8e175868bb3d819",
+    "gate_correction": "f64459621e853edb6f8d60905a57d9130cf0ed6ab8dde19b7934a49765380560",
+    "reconstruct": "2117ff71053d903e08b4315064d501812e75d869803516d4d4e451007d06eebd"
+  },
+  "previously_evaluated_test": true,
+  "reason": "No new candidate passed all seven original guardrails; retain historical model"
+}

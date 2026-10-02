@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "models": {
+    "pool": "padding/deletion invariance; finite forward/backward; train prior fallback; valid attention masks",
+    "self": "padding/deletion invariance; finite forward/backward; train prior fallback; valid attention masks",
+    "cross": "padding/deletion invariance; finite forward/backward; train prior fallback; valid attention masks",
+    "cross_clean": "padding/deletion invariance; finite forward/backward; train prior fallback; valid attention masks"
+  },
+  "raw_token_deletion_before_encoding": true,
+  "deterministic_epoch_masks": true,
+  "cached_text_reencode_max_error": 0.00394970178604126,
+  "protocol_sha256": "f983b4b1e07dd23caec0b6027e26872d40545564cb4c6a4e7a485be8cb5db3e9"
+}

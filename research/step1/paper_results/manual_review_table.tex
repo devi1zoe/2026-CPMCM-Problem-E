@@ -1,0 +1,20 @@
+% 用户提供的人工审核结果；由build_manual_review.py汇总。
+\begin{table}[H]
+    \centering\small
+    \caption{21条复核样本的人工审核结果}
+    \label{tab:p1_manual_review}
+    \setlength{\tabcolsep}{5pt}
+    \renewcommand{\arraystretch}{1.2}
+    \begin{tabular}{@{}lrr>{\raggedright\arraybackslash}p{5.0cm}@{}}
+        \toprule
+        审核发现 & 样本数 & 原文词数 & 主要表现\\ \midrule
+        音轨与文本不对应 & 11 & 120 & 实际语音内容与给定转写不对应。\\
+        无对应朗读 & 5 & 64 & 未听到对应朗读，其中1条为音乐。\\
+        非英语语音 & 3 & 93 & 实际语音并非英语。\\
+        分段内容不对应 & 1 & 18 & 前半段无朗读，后半段语音与转写不对应。\\
+        音频卡顿、局部对应 & 1 & 22 & 音频存在卡顿，部分词语与文本一致，但未形成完整对应。\\
+        \midrule
+        合计 & 21 & 317 & \\
+        \bottomrule
+    \end{tabular}
+\end{table}

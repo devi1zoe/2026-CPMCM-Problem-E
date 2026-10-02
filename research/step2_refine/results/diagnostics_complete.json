@@ -1,0 +1,12 @@
+{
+  "protocol_sha256": "b01566a1003e07db6b13367a4146c0059122b02f614d06108e9f2ee0449b6d2b",
+  "safe_to_compare": true,
+  "test_used": false,
+  "diagnostics": [
+    "full_train_valid",
+    "96_sample_memory",
+    "complementarity",
+    "gradient_cosine",
+    "intensity_saturation"
+  ]
+}

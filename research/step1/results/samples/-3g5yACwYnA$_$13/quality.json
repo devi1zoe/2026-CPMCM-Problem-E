@@ -1,0 +1,12 @@
+{
+  "sample_id": "-3g5yACwYnA$_$13",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.8303956389427185,
+  "low_confidence_fraction": 0.06666666666666667,
+  "diagnostic_wer": 0.5333333333333333,
+  "usable_word_times": 14,
+  "words": 15,
+  "raw_text": "They've been able to find solutions or at least bring some answers to the table.",
+  "diagnostic_asr": "THAT WE DO O THEY'VE BEEN ABLE TO FIND SOLUTIONS OR EARTLY SOPRING SOME MANCERS TO THE TABLE"
+}

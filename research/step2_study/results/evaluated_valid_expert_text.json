@@ -1,0 +1,12 @@
+{
+  "checkpoints": {
+    "step2_study/checkpoints/expert_17_full_0.pt": "3c3e600f22bf64d2f265df6c8b21abd0f087bea25a9218e80ea8e215e7c88a18",
+    "step2_study/checkpoints/expert_29_full_0.pt": "9edd74d235dccee4d09ec9bef55cb3feb6d00b38b03673ad890236968328b7cc",
+    "step2_study/checkpoints/expert_43_full_0.pt": "b48e55537f975f4c12b69f1bb6aafe0827d8d7d3d17aeba580d9b87c35411bca"
+  },
+  "profiles": 253,
+  "selection_sha256": null,
+  "protocol_sha256": "102694aa476b8a77840f7ad2da42e41f0b32afeb364d91fc6f1d254e1c21c276",
+  "all_missing_policy": "train_prior",
+  "backend": "linear"
+}

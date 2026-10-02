@@ -1,0 +1,9 @@
+{
+  "name": "cross_clean",
+  "seed": 29,
+  "epochs": 10,
+  "seconds": 21.7953040599823,
+  "parameters": 203972,
+  "checkpoint_sha256": "6ee4c5150dc9495ccc4a89cbe5a2b39534a0730aa9cf23562f98334d0d54b1ac",
+  "protocol_sha256": "f983b4b1e07dd23caec0b6027e26872d40545564cb4c6a4e7a485be8cb5db3e9"
+}

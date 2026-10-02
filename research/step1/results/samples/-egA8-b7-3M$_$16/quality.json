@@ -1,0 +1,12 @@
+{
+  "sample_id": "-egA8-b7-3M$_$16",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.9584527611732483,
+  "low_confidence_fraction": 0.0,
+  "diagnostic_wer": 0.0,
+  "usable_word_times": 11,
+  "words": 11,
+  "raw_text": "Third, another big benefit of exhibiting is connecting with existing clients.",
+  "diagnostic_asr": "THIRD ANOTHER BIG BENEFIT OF EXHIBITING IS CONNECTING WITH EXISTING CLIENTS"
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "sample_id": "-egA8-b7-3M$_$1",
+    "frame_description": "人物近景",
+    "actual_pts": 5.133333333333334,
+    "original_frame_index": 154,
+    "requested_fraction": 0.5,
+    "raw_text": "I started a successful Legal Nurse Consulting Business in 1989. I mentor nurses who want to become Legal Nurse Consultants.",
+    "displayed_excerpt": "I started a successful Legal Nurse Consulting Business in 1989. I…",
+    "source_path": "E题_材料阅读/E题数据/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-egA8-b7-3M/1.mp4"
+  },
+  {
+    "sample_id": "-9y-fZ3swSY$_$0",
+    "frame_description": "人物与板书",
+    "actual_pts": 3.466666666666667,
+    "original_frame_index": 104,
+    "requested_fraction": 0.5,
+    "raw_text": "is, you can say, hey I really like baby skin, they are so soft, they don’t have any hair on their face",
+    "displayed_excerpt": "is, you can say, hey I really like baby skin, they are so soft, they…",
+    "source_path": "E题_材料阅读/E题数据/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-9y-fZ3swSY/0.mp4"
+  },
+  {
+    "sample_id": "-HwX2H8Z4hY$_$2",
+    "frame_description": "文字卡画面",
+    "actual_pts": 2.0,
+    "original_frame_index": 60,
+    "requested_fraction": 0.5,
+    "raw_text": "” [President Ronald Reagan:] \"Look at the record",
+    "displayed_excerpt": "” [President Ronald Reagan:] \"Look at the record",
+    "source_path": "E题_材料阅读/E题数据/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-HwX2H8Z4hY/2.mp4"
+  },
+  {
+    "sample_id": "-mJ2ud6oKI8$_$1",
+    "frame_description": "器材展示",
+    "actual_pts": 3.069733333333333,
+    "original_frame_index": 92,
+    "requested_fraction": 0.5,
+    "raw_text": "There are a dozen or more hands on techniques that we can do",
+    "displayed_excerpt": "There are a dozen or more hands on techniques that we can do",
+    "source_path": "E题_材料阅读/E题数据/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-mJ2ud6oKI8/1.mp4"
+  },
+  {
+    "sample_id": "-NFrJFQijFE$_$1",
+    "frame_description": "山体景观",
+    "actual_pts": 2.88,
+    "original_frame_index": 72,
+    "requested_fraction": 0.5,
+    "raw_text": "Structural mounts inside have to be properly stress analyzed so we make sure all that happens",
+    "displayed_excerpt": "Structural mounts inside have to be properly stress analyzed so we make…",
+    "source_path": "E题_材料阅读/E题数据/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-NFrJFQijFE/1.mp4"
+  },
+  {
+    "sample_id": "-ri04Z7vwnc$_$0",
+    "frame_description": "图形与文字",
+    "actual_pts": 1.418088888888889,
+    "original_frame_index": 34,
+    "requested_fraction": 0.5,
+    "raw_text": "going to get married or are already married",
+    "displayed_excerpt": "going to get married or are already married",
+    "source_path": "E题_材料阅读/E题数据/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-ri04Z7vwnc/0.mp4"
+  }
+]

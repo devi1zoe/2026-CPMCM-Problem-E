@@ -1,0 +1,16 @@
+{
+  "sample_id": "-mJ2ud6oKI8$_$6",
+  "requires_transcript_review": true,
+  "reasons": [
+    "mean_CTC_confidence_below_0.2",
+    "more_than_half_words_below_0.1",
+    "diagnostic_WER_above_0.8"
+  ],
+  "mean_confidence": 0.015795908868312836,
+  "low_confidence_fraction": 1.0,
+  "diagnostic_wer": 1.4,
+  "usable_word_times": 0,
+  "words": 5,
+  "raw_text": "They are all very safe",
+  "diagnostic_asr": "THAT WE ALL WANT A PROACH REALLY ANY"
+}

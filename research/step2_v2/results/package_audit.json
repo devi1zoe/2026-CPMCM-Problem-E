@@ -1,0 +1,15 @@
+{
+  "bytes": 45721948,
+  "limit": 50000000,
+  "remaining": 4278052,
+  "sha256": "02b1c4cca45b4b2e07c399fda5de77dfe3425f902b334da072d325fc5bd621f3",
+  "old_files_verified": 195,
+  "old_directories_unchanged": true,
+  "extracted_independent_special_inference": true,
+  "all_30_predictions_match": true,
+  "step3_final_weights_verified": true,
+  "main_fits": 30,
+  "validation_inputs_per_model": 217,
+  "final_selected": "old_gated",
+  "accepted_improvement": false
+}

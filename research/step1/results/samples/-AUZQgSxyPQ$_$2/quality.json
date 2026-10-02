@@ -1,0 +1,12 @@
+{
+  "sample_id": "-AUZQgSxyPQ$_$2",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.7115200161933899,
+  "low_confidence_fraction": 0.04878048780487805,
+  "diagnostic_wer": 0.5121951219512195,
+  "usable_word_times": 39,
+  "words": 41,
+  "raw_text": "The perfect soul mate to the Clarisonic Spot Therapy Brush, this gentle, Ph balanced and hydrating exfoliant containing jojoba and acai fruit oils and bamboo and prickly bear extracts deliver intense healing, while smooth granules buff away dead, dry skin cells.",
+  "diagnostic_asr": "THE PERFECT SOL VAN TO THE CLARASYNIC SPOT VERFE BRUSH THIS GENTLE PGE BALANCED AND HYDRATING EXCOLIEN CONTAINS AHOBA IN A KAI FRUGOIL WITH BAMBOO AND QUICKLY VER EXTRACTS THESE DELIVERED INTENSE HEALING WHILE SMOOTH GRANOS PUFF AWAY DEAD DRY SKINJO"
+}

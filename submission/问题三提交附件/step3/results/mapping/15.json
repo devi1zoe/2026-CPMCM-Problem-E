@@ -1,0 +1,578 @@
+{
+  "sample_id": "15",
+  "raw_text": "However, despite their poverty, the family prioritize education because they believed in its power to transform lives",
+  "duration": 7.333333333333333,
+  "video_fps": 30.0,
+  "video_frames": 220,
+  "video_source": "附件4-可解释专项视频样本与特征文件/附件4-可解释专项视频样本与特征文件/对齐版本/videos/15.mp4",
+  "video_sha256": "bdd4ea47f2dac729a445cdf34009b9dff6d66bdc8ca997b82814bd55dc7fc675",
+  "audio_coverage_fraction": 1.0,
+  "diagnostic_asr": "HER FATHER THE BREAD WINTER DIED WHEN SHE WAS BARELY A YEAR OLD PUTTING THE FAMILY IN A DIRE FINANCIAL POSITION HOWEVER DESPITE THEIR POVER",
+  "diagnostic_wer": 1.411764705882353,
+  "mean_ctc_confidence": 0.006121113896369934,
+  "requires_timing_review": true,
+  "reasons": [
+    "low_mean_CTC_confidence",
+    "many_low_confidence_words",
+    "ASR_transcript_mismatch_signal"
+  ],
+  "words": [
+    {
+      "index": 0,
+      "original": "However",
+      "char_start": 0,
+      "char_end": 7,
+      "normalized": "HOWEVER",
+      "start": 0.08246875000000001,
+      "end": 0.58246875,
+      "confidence": 0.0023545650765299797,
+      "status": "low_confidence"
+    },
+    {
+      "index": 1,
+      "original": "despite",
+      "char_start": 9,
+      "char_end": 16,
+      "normalized": "DESPITE",
+      "start": 0.78246875,
+      "end": 1.20246875,
+      "confidence": 0.004907372407615185,
+      "status": "low_confidence"
+    },
+    {
+      "index": 2,
+      "original": "their",
+      "char_start": 17,
+      "char_end": 22,
+      "normalized": "THEIR",
+      "start": 1.34246875,
+      "end": 1.58246875,
+      "confidence": 2.556603249104228e-06,
+      "status": "low_confidence"
+    },
+    {
+      "index": 3,
+      "original": "poverty",
+      "char_start": 23,
+      "char_end": 30,
+      "normalized": "POVERTY",
+      "start": 1.62246875,
+      "end": 1.76246875,
+      "confidence": 1.1744799621737911e-06,
+      "status": "low_confidence"
+    },
+    {
+      "index": 4,
+      "original": "the",
+      "char_start": 32,
+      "char_end": 35,
+      "normalized": "THE",
+      "start": 1.78246875,
+      "end": 1.8624687500000001,
+      "confidence": 0.02259339764714241,
+      "status": "low_confidence"
+    },
+    {
+      "index": 5,
+      "original": "family",
+      "char_start": 36,
+      "char_end": 42,
+      "normalized": "FAMILY",
+      "start": 2.0624687500000003,
+      "end": 2.3624687499999997,
+      "confidence": 0.003624299541115761,
+      "status": "low_confidence"
+    },
+    {
+      "index": 6,
+      "original": "prioritize",
+      "char_start": 43,
+      "char_end": 53,
+      "normalized": "PRIORITIZE",
+      "start": 2.5024687500000002,
+      "end": 2.9424687499999997,
+      "confidence": 4.284210604055261e-07,
+      "status": "low_confidence"
+    },
+    {
+      "index": 7,
+      "original": "education",
+      "char_start": 54,
+      "char_end": 63,
+      "normalized": "EDUCATION",
+      "start": 3.0024687500000002,
+      "end": 3.54246875,
+      "confidence": 0.00018139113672077656,
+      "status": "low_confidence"
+    },
+    {
+      "index": 8,
+      "original": "because",
+      "char_start": 64,
+      "char_end": 71,
+      "normalized": "BECAUSE",
+      "start": 3.6224687500000003,
+      "end": 4.00246875,
+      "confidence": 4.5481312554329634e-05,
+      "status": "low_confidence"
+    },
+    {
+      "index": 9,
+      "original": "they",
+      "char_start": 72,
+      "char_end": 76,
+      "normalized": "THEY",
+      "start": 4.2424687500000005,
+      "end": 4.52246875,
+      "confidence": 0.005933777429163456,
+      "status": "low_confidence"
+    },
+    {
+      "index": 10,
+      "original": "believed",
+      "char_start": 77,
+      "char_end": 85,
+      "normalized": "BELIEVED",
+      "start": 4.56246875,
+      "end": 4.86246875,
+      "confidence": 1.5329753750847885e-06,
+      "status": "low_confidence"
+    },
+    {
+      "index": 11,
+      "original": "in",
+      "char_start": 86,
+      "char_end": 88,
+      "normalized": "IN",
+      "start": 4.942468750000001,
+      "end": 5.042468749999999,
+      "confidence": 0.002681498182937503,
+      "status": "low_confidence"
+    },
+    {
+      "index": 12,
+      "original": "its",
+      "char_start": 89,
+      "char_end": 92,
+      "normalized": "ITS",
+      "start": 5.3224687500000005,
+      "end": 5.44246875,
+      "confidence": 0.0060836439952254295,
+      "status": "low_confidence"
+    },
+    {
+      "index": 13,
+      "original": "power",
+      "char_start": 93,
+      "char_end": 98,
+      "normalized": "POWER",
+      "start": 6.02246875,
+      "end": 6.34246875,
+      "confidence": 0.05411956459283829,
+      "status": "low_confidence"
+    },
+    {
+      "index": 14,
+      "original": "to",
+      "char_start": 99,
+      "char_end": 101,
+      "normalized": "TO",
+      "start": 6.42246875,
+      "end": 6.502468749999999,
+      "confidence": 3.757683998628636e-06,
+      "status": "low_confidence"
+    },
+    {
+      "index": 15,
+      "original": "transform",
+      "char_start": 102,
+      "char_end": 111,
+      "normalized": "TRANSFORM",
+      "start": 6.7424687500000005,
+      "end": 6.98246875,
+      "confidence": 7.411141268676147e-05,
+      "status": "low_confidence"
+    },
+    {
+      "index": 16,
+      "original": "lives",
+      "char_start": 112,
+      "char_end": 117,
+      "normalized": "LIVES",
+      "start": 7.02246875,
+      "end": 7.28246875,
+      "confidence": 0.0014503778656944633,
+      "status": "low_confidence"
+    }
+  ],
+  "tokens": [
+    {
+      "sample_id": "15",
+      "slot": 1,
+      "token": "however",
+      "token_id": 2174,
+      "char_start": 0,
+      "char_end": 7,
+      "raw_fragment": "However",
+      "word_indices": [
+        0
+      ],
+      "candidate_start": 0.08246875000000001,
+      "candidate_end": 0.58246875,
+      "timing_usable": false,
+      "confidence": 0.0023545650765299797,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "15",
+      "slot": 2,
+      "token": ",",
+      "token_id": 1010,
+      "char_start": 7,
+      "char_end": 8,
+      "raw_fragment": ",",
+      "word_indices": [],
+      "candidate_start": null,
+      "candidate_end": null,
+      "timing_usable": false,
+      "confidence": null,
+      "mapping": "punctuation_without_own_acoustic_interval"
+    },
+    {
+      "sample_id": "15",
+      "slot": 3,
+      "token": "despite",
+      "token_id": 2750,
+      "char_start": 9,
+      "char_end": 16,
+      "raw_fragment": "despite",
+      "word_indices": [
+        1
+      ],
+      "candidate_start": 0.78246875,
+      "candidate_end": 1.20246875,
+      "timing_usable": false,
+      "confidence": 0.004907372407615185,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "15",
+      "slot": 4,
+      "token": "their",
+      "token_id": 2037,
+      "char_start": 17,
+      "char_end": 22,
+      "raw_fragment": "their",
+      "word_indices": [
+        2
+      ],
+      "candidate_start": 1.34246875,
+      "candidate_end": 1.58246875,
+      "timing_usable": false,
+      "confidence": 2.556603249104228e-06,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "15",
+      "slot": 5,
+      "token": "poverty",
+      "token_id": 5635,
+      "char_start": 23,
+      "char_end": 30,
+      "raw_fragment": "poverty",
+      "word_indices": [
+        3
+      ],
+      "candidate_start": 1.62246875,
+      "candidate_end": 1.76246875,
+      "timing_usable": false,
+      "confidence": 1.1744799621737911e-06,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "15",
+      "slot": 6,
+      "token": ",",
+      "token_id": 1010,
+      "char_start": 30,
+      "char_end": 31,
+      "raw_fragment": ",",
+      "word_indices": [],
+      "candidate_start": null,
+      "candidate_end": null,
+      "timing_usable": false,
+      "confidence": null,
+      "mapping": "punctuation_without_own_acoustic_interval"
+    },
+    {
+      "sample_id": "15",
+      "slot": 7,
+      "token": "the",
+      "token_id": 1996,
+      "char_start": 32,
+      "char_end": 35,
+      "raw_fragment": "the",
+      "word_indices": [
+        4
+      ],
+      "candidate_start": 1.78246875,
+      "candidate_end": 1.8624687500000001,
+      "timing_usable": false,
+      "confidence": 0.02259339764714241,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "15",
+      "slot": 8,
+      "token": "family",
+      "token_id": 2155,
+      "char_start": 36,
+      "char_end": 42,
+      "raw_fragment": "family",
+      "word_indices": [
+        5
+      ],
+      "candidate_start": 2.0624687500000003,
+      "candidate_end": 2.3624687499999997,
+      "timing_usable": false,
+      "confidence": 0.003624299541115761,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "15",
+      "slot": 9,
+      "token": "prior",
+      "token_id": 3188,
+      "char_start": 43,
+      "char_end": 48,
+      "raw_fragment": "prior",
+      "word_indices": [
+        6
+      ],
+      "candidate_start": 2.5024687500000002,
+      "candidate_end": 2.9424687499999997,
+      "timing_usable": false,
+      "confidence": 4.284210604055261e-07,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "15",
+      "slot": 10,
+      "token": "##iti",
+      "token_id": 25090,
+      "char_start": 48,
+      "char_end": 51,
+      "raw_fragment": "iti",
+      "word_indices": [
+        6
+      ],
+      "candidate_start": 2.5024687500000002,
+      "candidate_end": 2.9424687499999997,
+      "timing_usable": false,
+      "confidence": 4.284210604055261e-07,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "15",
+      "slot": 11,
+      "token": "##ze",
+      "token_id": 4371,
+      "char_start": 51,
+      "char_end": 53,
+      "raw_fragment": "ze",
+      "word_indices": [
+        6
+      ],
+      "candidate_start": 2.5024687500000002,
+      "candidate_end": 2.9424687499999997,
+      "timing_usable": false,
+      "confidence": 4.284210604055261e-07,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "15",
+      "slot": 12,
+      "token": "education",
+      "token_id": 2495,
+      "char_start": 54,
+      "char_end": 63,
+      "raw_fragment": "education",
+      "word_indices": [
+        7
+      ],
+      "candidate_start": 3.0024687500000002,
+      "candidate_end": 3.54246875,
+      "timing_usable": false,
+      "confidence": 0.00018139113672077656,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "15",
+      "slot": 13,
+      "token": "because",
+      "token_id": 2138,
+      "char_start": 64,
+      "char_end": 71,
+      "raw_fragment": "because",
+      "word_indices": [
+        8
+      ],
+      "candidate_start": 3.6224687500000003,
+      "candidate_end": 4.00246875,
+      "timing_usable": false,
+      "confidence": 4.5481312554329634e-05,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "15",
+      "slot": 14,
+      "token": "they",
+      "token_id": 2027,
+      "char_start": 72,
+      "char_end": 76,
+      "raw_fragment": "they",
+      "word_indices": [
+        9
+      ],
+      "candidate_start": 4.2424687500000005,
+      "candidate_end": 4.52246875,
+      "timing_usable": false,
+      "confidence": 0.005933777429163456,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "15",
+      "slot": 15,
+      "token": "believed",
+      "token_id": 3373,
+      "char_start": 77,
+      "char_end": 85,
+      "raw_fragment": "believed",
+      "word_indices": [
+        10
+      ],
+      "candidate_start": 4.56246875,
+      "candidate_end": 4.86246875,
+      "timing_usable": false,
+      "confidence": 1.5329753750847885e-06,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "15",
+      "slot": 16,
+      "token": "in",
+      "token_id": 1999,
+      "char_start": 86,
+      "char_end": 88,
+      "raw_fragment": "in",
+      "word_indices": [
+        11
+      ],
+      "candidate_start": 4.942468750000001,
+      "candidate_end": 5.042468749999999,
+      "timing_usable": false,
+      "confidence": 0.002681498182937503,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "15",
+      "slot": 17,
+      "token": "its",
+      "token_id": 2049,
+      "char_start": 89,
+      "char_end": 92,
+      "raw_fragment": "its",
+      "word_indices": [
+        12
+      ],
+      "candidate_start": 5.3224687500000005,
+      "candidate_end": 5.44246875,
+      "timing_usable": false,
+      "confidence": 0.0060836439952254295,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "15",
+      "slot": 18,
+      "token": "power",
+      "token_id": 2373,
+      "char_start": 93,
+      "char_end": 98,
+      "raw_fragment": "power",
+      "word_indices": [
+        13
+      ],
+      "candidate_start": 6.02246875,
+      "candidate_end": 6.34246875,
+      "timing_usable": false,
+      "confidence": 0.05411956459283829,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "15",
+      "slot": 19,
+      "token": "to",
+      "token_id": 2000,
+      "char_start": 99,
+      "char_end": 101,
+      "raw_fragment": "to",
+      "word_indices": [
+        14
+      ],
+      "candidate_start": 6.42246875,
+      "candidate_end": 6.502468749999999,
+      "timing_usable": false,
+      "confidence": 3.757683998628636e-06,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "15",
+      "slot": 20,
+      "token": "transform",
+      "token_id": 10938,
+      "char_start": 102,
+      "char_end": 111,
+      "raw_fragment": "transform",
+      "word_indices": [
+        15
+      ],
+      "candidate_start": 6.7424687500000005,
+      "candidate_end": 6.98246875,
+      "timing_usable": false,
+      "confidence": 7.411141268676147e-05,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "15",
+      "slot": 21,
+      "token": "lives",
+      "token_id": 3268,
+      "char_start": 112,
+      "char_end": 117,
+      "raw_fragment": "lives",
+      "word_indices": [
+        16
+      ],
+      "candidate_start": 7.02246875,
+      "candidate_end": 7.28246875,
+      "timing_usable": false,
+      "confidence": 0.0014503778656944633,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    }
+  ],
+  "token_ids_match": true,
+  "feature_repetition_audit": {
+    "audio": {
+      "multi_piece_words": 1,
+      "identical_feature_groups": 1
+    },
+    "vision": {
+      "multi_piece_words": 1,
+      "identical_feature_groups": 1
+    }
+  },
+  "represented_char_end": 117,
+  "unrepresented_text_tail": "",
+  "timing_claim": "estimated CTC word intervals, not official feature timestamps; aligned AV correspondence follows task specification",
+  "alignment_error": null
+}

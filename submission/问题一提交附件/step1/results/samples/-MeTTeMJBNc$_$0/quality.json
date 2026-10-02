@@ -1,0 +1,12 @@
+{
+  "sample_id": "-MeTTeMJBNc$_$0",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.9373154640197754,
+  "low_confidence_fraction": 0.0,
+  "diagnostic_wer": 0.14285714285714285,
+  "usable_word_times": 21,
+  "words": 21,
+  "raw_text": "Okay, what happens at this point after we've taken this brief walk down memory lane, is the presentation of the gift.",
+  "diagnostic_asr": "OQUEY WHAT HAPPENS AT THIS POINT AFTER WE HAVE TAKEN THIS BRIEF WALK DOWN MEMORY LANE IS THE PRESENTATION OF THE GIFT"
+}

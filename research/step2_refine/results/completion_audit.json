@@ -1,0 +1,61 @@
+{
+  "checks": {
+    "input_behavior_checks": true,
+    "full_train_valid_12_checkpoints": true,
+    "two_fixed_memory_probes": true,
+    "all_96_gradient_records": true,
+    "complementarity_oracles_separate": true,
+    "six_fits_completed": true,
+    "fixed_train_diagnostics_each_epoch": true,
+    "all_selected_experts_unchanged": true,
+    "full_validation_matrix": true,
+    "acceptance_gates_recomputed": true,
+    "no_new_test_special_or_package_when_rejected": true,
+    "old_artifacts_unchanged": true,
+    "v3_not_restored": true,
+    "encoder_unchanged": true,
+    "bootstrap_verified": true
+  },
+  "runs": [
+    {
+      "model": "dual_gate",
+      "seed": 17,
+      "epochs": 13,
+      "sha256": "a73359fdccf830c23f318bbb59ce52a3410c357dca962ca01ce6aede402fb9b9"
+    },
+    {
+      "model": "dual_gate",
+      "seed": 29,
+      "epochs": 20,
+      "sha256": "c6b55d9c2bcbe482b30d10ebdf68a65b0ee821197b8fd5eaf5700bc0d345fd20"
+    },
+    {
+      "model": "dual_gate",
+      "seed": 43,
+      "epochs": 17,
+      "sha256": "4eb47c339e65b9fa074fc50c412046b7897698e333e23034e3a6be4edbc89001"
+    },
+    {
+      "model": "late_fusion",
+      "seed": 17,
+      "epochs": 21,
+      "sha256": "cfd229a8ff823ba577062f6e1e025983b39e1c54e2702641118d0cd262308b54"
+    },
+    {
+      "model": "late_fusion",
+      "seed": 29,
+      "epochs": 12,
+      "sha256": "da760ddb1e90bb4c0f1610e7ab6819cc03545b2470b238ef3ee9c022e36d552f"
+    },
+    {
+      "model": "late_fusion",
+      "seed": 43,
+      "epochs": 12,
+      "sha256": "268de518e82ae09980cb350801fb3f89be7fef8a18580d8abad430fc5999dd95"
+    }
+  ],
+  "protected_files": 440,
+  "html_links": 9,
+  "selected": "old_gated",
+  "accepted_improvement": false
+}

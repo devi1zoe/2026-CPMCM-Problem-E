@@ -1,0 +1,52 @@
+{
+  "sample_id": "-3g5yACwYnA$_$3",
+  "raw_text": "We're a huge user of adhesives for our operation, called flocking, and we don't have the technical inside compounding or the technical expertise to do these types of things.",
+  "word": {
+    "index": 5,
+    "original": "adhesives",
+    "char_start": 21,
+    "char_end": 30,
+    "normalized": "ADHESIVES",
+    "subword_indices": [
+      7,
+      8,
+      9
+    ],
+    "start": 3.1024687500000003,
+    "end": 3.52246875,
+    "confidence": 0.38966840505599976,
+    "status": "aligned"
+  },
+  "subwords": [
+    {
+      "index": 7,
+      "token_id": 4748,
+      "token": "ad",
+      "char_start": 21,
+      "char_end": 23,
+      "word_index": 5,
+      "chunk_index": 0
+    },
+    {
+      "index": 8,
+      "token_id": 21579,
+      "token": "##hesive",
+      "char_start": 23,
+      "char_end": 29,
+      "word_index": 5,
+      "chunk_index": 0
+    },
+    {
+      "index": 9,
+      "token_id": 2015,
+      "token": "##s",
+      "char_start": 29,
+      "char_end": 30,
+      "word_index": 5,
+      "chunk_index": 0
+    }
+  ],
+  "source_features": "/mnt/data/math/step1/results/samples/-3g5yACwYnA$_$3/features.npz",
+  "pooling_max_absolute_error": 0.0,
+  "note": "图中h1、h2、h3为局部示意编号；保存的子词索引为7、8、9（从0开始）。"
+}

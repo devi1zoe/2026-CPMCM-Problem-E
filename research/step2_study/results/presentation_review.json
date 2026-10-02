@@ -1,0 +1,11 @@
+{
+  "html_relative_links_checked": 6,
+  "missing_links": [],
+  "plots_visually_reviewed": [
+    "overall",
+    "paired_changes",
+    "missing_conditions"
+  ],
+  "formal_special_class_changes": 0,
+  "formal_special_intensity_max_abs": 0.0
+}

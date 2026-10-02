@@ -1,0 +1,12 @@
+{
+  "sample_id": "-9y-fZ3swSY$_$8",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.885004997253418,
+  "low_confidence_fraction": 0.08333333333333333,
+  "diagnostic_wer": 0.16666666666666666,
+  "usable_word_times": 11,
+  "words": 12,
+  "raw_text": "That’s a more decent and more polite way to call a lady",
+  "diagnostic_asr": "A'AM THAT'S A MORE DECENT AND MORE POLITE WAY TO CALL A LADY AND"
+}

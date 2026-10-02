@@ -1,0 +1,32 @@
+{
+  "train": {
+    "n": 3395,
+    "classes": [
+      967,
+      758,
+      1670
+    ],
+    "token_matches": 3395,
+    "uncertain_span": 0
+  },
+  "valid": {
+    "n": 728,
+    "classes": [
+      206,
+      184,
+      338
+    ],
+    "token_matches": 728,
+    "uncertain_span": 0
+  },
+  "test": {
+    "n": 727,
+    "classes": [
+      207,
+      158,
+      362
+    ],
+    "token_matches": 727,
+    "uncertain_span": 0
+  }
+}

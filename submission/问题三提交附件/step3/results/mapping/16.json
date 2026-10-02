@@ -1,0 +1,309 @@
+{
+  "sample_id": "16",
+  "raw_text": "It's a terrible, this is a terrible movie",
+  "duration": 3.113997395833333,
+  "video_fps": 30.0,
+  "video_frames": 93,
+  "video_source": "附件4-可解释专项视频样本与特征文件/附件4-可解释专项视频样本与特征文件/对齐版本/videos/16.mp4",
+  "video_sha256": "819a4c15dce5b85d8f7717087ea660551c3044daf3cecba1d45d342ae85365e5",
+  "audio_coverage_fraction": 1.0,
+  "diagnostic_asr": "ITA TERRIBLE IS A TERRIBLE MOVING I DO NOT",
+  "diagnostic_wer": 0.875,
+  "mean_ctc_confidence": 0.6376915574073792,
+  "requires_timing_review": true,
+  "reasons": [
+    "ASR_transcript_mismatch_signal"
+  ],
+  "words": [
+    {
+      "index": 0,
+      "original": "It's",
+      "char_start": 0,
+      "char_end": 4,
+      "normalized": "IT'S",
+      "start": 0.48246875,
+      "end": 0.62246875,
+      "confidence": 0.5242742300033569,
+      "status": "aligned"
+    },
+    {
+      "index": 1,
+      "original": "a",
+      "char_start": 5,
+      "char_end": 6,
+      "normalized": "A",
+      "start": 0.68246875,
+      "end": 0.70246875,
+      "confidence": 0.8799465298652649,
+      "status": "aligned"
+    },
+    {
+      "index": 2,
+      "original": "terrible",
+      "char_start": 7,
+      "char_end": 15,
+      "normalized": "TERRIBLE",
+      "start": 0.80246875,
+      "end": 1.18246875,
+      "confidence": 0.9664989113807678,
+      "status": "aligned"
+    },
+    {
+      "index": 3,
+      "original": "this",
+      "char_start": 17,
+      "char_end": 21,
+      "normalized": "THIS",
+      "start": 1.50246875,
+      "end": 1.58246875,
+      "confidence": 0.03857364133000374,
+      "status": "low_confidence"
+    },
+    {
+      "index": 4,
+      "original": "is",
+      "char_start": 22,
+      "char_end": 24,
+      "normalized": "IS",
+      "start": 1.6024687499999999,
+      "end": 1.66246875,
+      "confidence": 0.6030969023704529,
+      "status": "aligned"
+    },
+    {
+      "index": 5,
+      "original": "a",
+      "char_start": 25,
+      "char_end": 26,
+      "normalized": "A",
+      "start": 1.72246875,
+      "end": 1.74246875,
+      "confidence": 0.9673195481300354,
+      "status": "aligned"
+    },
+    {
+      "index": 6,
+      "original": "terrible",
+      "char_start": 27,
+      "char_end": 35,
+      "normalized": "TERRIBLE",
+      "start": 1.82246875,
+      "end": 2.16246875,
+      "confidence": 0.9942152500152588,
+      "status": "aligned"
+    },
+    {
+      "index": 7,
+      "original": "movie",
+      "char_start": 36,
+      "char_end": 41,
+      "normalized": "MOVIE",
+      "start": 2.2024687500000004,
+      "end": 2.50246875,
+      "confidence": 0.12760737538337708,
+      "status": "aligned"
+    }
+  ],
+  "tokens": [
+    {
+      "sample_id": "16",
+      "slot": 1,
+      "token": "it",
+      "token_id": 2009,
+      "char_start": 0,
+      "char_end": 2,
+      "raw_fragment": "It",
+      "word_indices": [
+        0
+      ],
+      "candidate_start": 0.48246875,
+      "candidate_end": 0.62246875,
+      "timing_usable": false,
+      "confidence": 0.5242742300033569,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "16",
+      "slot": 2,
+      "token": "'",
+      "token_id": 1005,
+      "char_start": 2,
+      "char_end": 3,
+      "raw_fragment": "'",
+      "word_indices": [
+        0
+      ],
+      "candidate_start": 0.48246875,
+      "candidate_end": 0.62246875,
+      "timing_usable": false,
+      "confidence": 0.5242742300033569,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "16",
+      "slot": 3,
+      "token": "s",
+      "token_id": 1055,
+      "char_start": 3,
+      "char_end": 4,
+      "raw_fragment": "s",
+      "word_indices": [
+        0
+      ],
+      "candidate_start": 0.48246875,
+      "candidate_end": 0.62246875,
+      "timing_usable": false,
+      "confidence": 0.5242742300033569,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "16",
+      "slot": 4,
+      "token": "a",
+      "token_id": 1037,
+      "char_start": 5,
+      "char_end": 6,
+      "raw_fragment": "a",
+      "word_indices": [
+        1
+      ],
+      "candidate_start": 0.68246875,
+      "candidate_end": 0.70246875,
+      "timing_usable": false,
+      "confidence": 0.8799465298652649,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "16",
+      "slot": 5,
+      "token": "terrible",
+      "token_id": 6659,
+      "char_start": 7,
+      "char_end": 15,
+      "raw_fragment": "terrible",
+      "word_indices": [
+        2
+      ],
+      "candidate_start": 0.80246875,
+      "candidate_end": 1.18246875,
+      "timing_usable": false,
+      "confidence": 0.9664989113807678,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "16",
+      "slot": 6,
+      "token": ",",
+      "token_id": 1010,
+      "char_start": 15,
+      "char_end": 16,
+      "raw_fragment": ",",
+      "word_indices": [],
+      "candidate_start": null,
+      "candidate_end": null,
+      "timing_usable": false,
+      "confidence": null,
+      "mapping": "punctuation_without_own_acoustic_interval"
+    },
+    {
+      "sample_id": "16",
+      "slot": 7,
+      "token": "this",
+      "token_id": 2023,
+      "char_start": 17,
+      "char_end": 21,
+      "raw_fragment": "this",
+      "word_indices": [
+        3
+      ],
+      "candidate_start": 1.50246875,
+      "candidate_end": 1.58246875,
+      "timing_usable": false,
+      "confidence": 0.03857364133000374,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "16",
+      "slot": 8,
+      "token": "is",
+      "token_id": 2003,
+      "char_start": 22,
+      "char_end": 24,
+      "raw_fragment": "is",
+      "word_indices": [
+        4
+      ],
+      "candidate_start": 1.6024687499999999,
+      "candidate_end": 1.66246875,
+      "timing_usable": false,
+      "confidence": 0.6030969023704529,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "16",
+      "slot": 9,
+      "token": "a",
+      "token_id": 1037,
+      "char_start": 25,
+      "char_end": 26,
+      "raw_fragment": "a",
+      "word_indices": [
+        5
+      ],
+      "candidate_start": 1.72246875,
+      "candidate_end": 1.74246875,
+      "timing_usable": false,
+      "confidence": 0.9673195481300354,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "16",
+      "slot": 10,
+      "token": "terrible",
+      "token_id": 6659,
+      "char_start": 27,
+      "char_end": 35,
+      "raw_fragment": "terrible",
+      "word_indices": [
+        6
+      ],
+      "candidate_start": 1.82246875,
+      "candidate_end": 2.16246875,
+      "timing_usable": false,
+      "confidence": 0.9942152500152588,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "16",
+      "slot": 11,
+      "token": "movie",
+      "token_id": 3185,
+      "char_start": 36,
+      "char_end": 41,
+      "raw_fragment": "movie",
+      "word_indices": [
+        7
+      ],
+      "candidate_start": 2.2024687500000004,
+      "candidate_end": 2.50246875,
+      "timing_usable": false,
+      "confidence": 0.12760737538337708,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    }
+  ],
+  "token_ids_match": true,
+  "feature_repetition_audit": {
+    "audio": {
+      "multi_piece_words": 1,
+      "identical_feature_groups": 1
+    },
+    "vision": {
+      "multi_piece_words": 1,
+      "identical_feature_groups": 1
+    }
+  },
+  "represented_char_end": 41,
+  "unrepresented_text_tail": "",
+  "timing_claim": "estimated CTC word intervals, not official feature timestamps; aligned AV correspondence follows task specification",
+  "alignment_error": null
+}

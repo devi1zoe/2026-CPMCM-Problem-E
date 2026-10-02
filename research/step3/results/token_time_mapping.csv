@@ -1,0 +1,565 @@
+﻿sample_id,slot,token,token_id,char_start,char_end,raw_fragment,word_indices,candidate_start,candidate_end,timing_usable,confidence,mapping
+01,1,replacing,6419,0,9,Replacing,[0],0.50246875,0.94246875,True,0.9771482944488525,tokenizer_offsets + original_transcript_CTC
+01,2,these,2122,10,15,these,[1],1.00246875,1.14246875,True,0.952014684677124,tokenizer_offsets + original_transcript_CTC
+01,3,wear,4929,16,20,wear,[2],1.22246875,1.40246875,True,0.6072452664375305,tokenizer_offsets + original_transcript_CTC
+01,4,components,6177,21,31,components,[3],1.48246875,1.96246875,True,0.9862604737281799,tokenizer_offsets + original_transcript_CTC
+01,5,when,2043,32,36,when,[4],1.98246875,2.10246875,True,0.9641544818878174,tokenizer_offsets + original_transcript_CTC
+01,6,replacing,6419,37,46,replacing,[5],2.1624687500000004,2.58246875,True,0.9968125224113464,tokenizer_offsets + original_transcript_CTC
+01,7,the,1996,47,50,the,[6],2.6224687500000003,2.68246875,True,0.9120161533355713,tokenizer_offsets + original_transcript_CTC
+01,8,timing,10984,51,57,timing,[7],2.72246875,3.00246875,True,0.4783402979373932,tokenizer_offsets + original_transcript_CTC
+01,9,belt,5583,58,62,belt,[8],3.0424687500000003,3.22246875,True,0.9996196627616882,tokenizer_offsets + original_transcript_CTC
+01,10,is,2003,63,65,is,[9],3.6024687500000003,3.68246875,True,0.9317440390586853,tokenizer_offsets + original_transcript_CTC
+01,11,essential,6827,66,75,essential,[10],3.78246875,4.26246875,True,0.9996074438095093,tokenizer_offsets + original_transcript_CTC
+01,12,to,2000,76,78,to,[11],4.442468750000001,4.52246875,True,0.9999334216117859,tokenizer_offsets + original_transcript_CTC
+01,13,ensuring,12725,79,87,ensuring,[12],4.64246875,5.02246875,True,0.8565230965614319,tokenizer_offsets + original_transcript_CTC
+01,14,the,1996,88,91,the,[13],5.10246875,5.18246875,True,0.9850006699562073,tokenizer_offsets + original_transcript_CTC
+01,15,new,2047,92,95,new,[14],5.2424687500000005,5.36246875,True,0.9994285702705383,tokenizer_offsets + original_transcript_CTC
+01,16,belt,5583,96,100,belt,[15],5.48246875,5.7024687499999995,True,0.998221755027771,tokenizer_offsets + original_transcript_CTC
+01,17,performs,10438,101,109,performs,[16],6.16246875,6.7024687499999995,True,0.921750009059906,tokenizer_offsets + original_transcript_CTC
+01,18,to,2000,110,112,to,[17],6.84246875,6.92246875,True,0.9999034404754639,tokenizer_offsets + original_transcript_CTC
+01,19,its,2049,113,116,its,[18],7.04246875,7.14246875,True,0.9824143648147583,tokenizer_offsets + original_transcript_CTC
+01,20,mile,3542,117,121,mile,[19],7.2424687500000005,7.6224687499999995,True,0.4591582715511322,tokenizer_offsets + original_transcript_CTC
+01,21,##age,4270,121,124,age,[19],7.2424687500000005,7.6224687499999995,True,0.4591582715511322,tokenizer_offsets + original_transcript_CTC
+01,22,requirements,5918,125,137,requirements,[20],7.68246875,8.26246875,True,0.963895320892334,tokenizer_offsets + original_transcript_CTC
+02,1,we,2057,0,2,We,[0],0.48246875,0.54246875,True,0.9989751577377319,tokenizer_offsets + original_transcript_CTC
+02,2,want,2215,3,7,want,[1],0.60246875,0.70246875,True,0.9965008497238159,tokenizer_offsets + original_transcript_CTC
+02,3,to,2000,8,10,to,[2],0.74246875,0.78246875,True,0.9953874349594116,tokenizer_offsets + original_transcript_CTC
+02,4,live,2444,11,15,live,[3],0.82246875,0.94246875,True,0.9994577765464783,tokenizer_offsets + original_transcript_CTC
+02,5,by,2011,16,18,by,[4],0.98246875,1.04246875,True,0.998938798904419,tokenizer_offsets + original_transcript_CTC
+02,6,each,2169,19,23,each,[5],1.1024687499999999,1.18246875,True,0.9999646544456482,tokenizer_offsets + original_transcript_CTC
+02,7,other,2060,24,29,other,[6],1.24246875,1.42246875,True,0.9920466542243958,tokenizer_offsets + original_transcript_CTC
+02,8,’,1521,29,30,’,[6],1.24246875,1.42246875,True,0.9920466542243958,tokenizer_offsets + original_transcript_CTC
+02,9,s,1055,30,31,s,[6],1.24246875,1.42246875,True,0.9920466542243958,tokenizer_offsets + original_transcript_CTC
+02,10,happiness,8404,32,41,happiness,[7],1.44246875,1.80246875,True,0.9413952231407166,tokenizer_offsets + original_transcript_CTC
+02,11,-,1011,42,43,-,[],,,False,,punctuation_without_own_acoustic_interval
+02,12,not,2025,44,47,not,[8],1.82246875,1.92246875,True,0.9881092309951782,tokenizer_offsets + original_transcript_CTC
+02,13,by,2011,48,50,by,[9],1.98246875,2.04246875,True,0.9945611953735352,tokenizer_offsets + original_transcript_CTC
+02,14,each,2169,51,55,each,[10],2.1024687500000003,2.20246875,True,0.9695718288421631,tokenizer_offsets + original_transcript_CTC
+02,15,other,2060,56,61,other,[11],2.24246875,2.4424687499999997,True,0.9779191017150879,tokenizer_offsets + original_transcript_CTC
+02,16,’,1521,61,62,’,[11],2.24246875,2.4424687499999997,True,0.9779191017150879,tokenizer_offsets + original_transcript_CTC
+02,17,s,1055,62,63,s,[11],2.24246875,2.4424687499999997,True,0.9779191017150879,tokenizer_offsets + original_transcript_CTC
+02,18,misery,14624,64,70,misery,[12],2.4824687500000002,2.7624687499999996,True,0.9998611807823181,tokenizer_offsets + original_transcript_CTC
+02,19,.,1012,70,71,.,[],,,False,,punctuation_without_own_acoustic_interval
+03,1,there,2045,0,5,There,[0],0.50246875,0.72246875,True,0.9157401919364929,tokenizer_offsets + original_transcript_CTC
+03,2,',1005,5,6,',[0],0.50246875,0.72246875,True,0.9157401919364929,tokenizer_offsets + original_transcript_CTC
+03,3,s,1055,6,7,s,[0],0.50246875,0.72246875,True,0.9157401919364929,tokenizer_offsets + original_transcript_CTC
+03,4,one,2028,8,11,one,[1],0.88246875,0.98246875,True,0.9319535493850708,tokenizer_offsets + original_transcript_CTC
+03,5,lend,18496,12,16,lend,[2],1.04246875,1.40246875,True,0.7960464358329773,tokenizer_offsets + original_transcript_CTC
+03,6,##er,2121,16,18,er,[2],1.04246875,1.40246875,True,0.7960464358329773,tokenizer_offsets + original_transcript_CTC
+03,7,at,2012,19,21,at,[3],1.56246875,1.60246875,True,0.9960646033287048,tokenizer_offsets + original_transcript_CTC
+03,8,the,1996,22,25,the,[4],1.64246875,1.72246875,True,0.9667530655860901,tokenizer_offsets + original_transcript_CTC
+03,9,moment,2617,26,32,moment,[5],1.78246875,2.08246875,True,0.9157770276069641,tokenizer_offsets + original_transcript_CTC
+03,10,which,2029,33,38,which,[6],2.1624687500000004,2.2824687499999996,True,0.9999184608459473,tokenizer_offsets + original_transcript_CTC
+03,11,i,1045,39,40,I,[7],2.34246875,2.3624687499999997,True,0.9987835884094238,tokenizer_offsets + original_transcript_CTC
+03,12,think,2228,41,46,think,[8],2.40246875,2.54246875,True,0.937767744064331,tokenizer_offsets + original_transcript_CTC
+03,13,is,2003,47,49,is,[9],2.6024687500000003,2.70246875,True,0.6951922178268433,tokenizer_offsets + original_transcript_CTC
+03,14,just,2074,50,54,just,[10],2.72246875,2.8824687499999997,True,0.9245518445968628,tokenizer_offsets + original_transcript_CTC
+03,15,bank,2924,55,59,Bank,[11],3.0024687500000002,3.68246875,True,0.9906982779502869,tokenizer_offsets + original_transcript_CTC
+03,16,##west,19650,59,63,west,[11],3.0024687500000002,3.68246875,True,0.9906982779502869,tokenizer_offsets + original_transcript_CTC
+03,17,who,2040,64,67,who,[12],4.10246875,4.24246875,True,0.9944559335708618,tokenizer_offsets + original_transcript_CTC
+03,18,don,2123,68,71,don,[13],4.52246875,4.74246875,True,0.9812393188476562,tokenizer_offsets + original_transcript_CTC
+03,19,',1005,71,72,',[13],4.52246875,4.74246875,True,0.9812393188476562,tokenizer_offsets + original_transcript_CTC
+03,20,t,1056,72,73,t,[13],4.52246875,4.74246875,True,0.9812393188476562,tokenizer_offsets + original_transcript_CTC
+03,21,take,2202,74,78,take,[14],4.80246875,4.98246875,True,0.9965956807136536,tokenizer_offsets + original_transcript_CTC
+03,22,rental,12635,79,85,rental,[15],5.14246875,5.38246875,True,0.5081078410148621,tokenizer_offsets + original_transcript_CTC
+03,23,income,3318,86,92,income,[16],5.48246875,5.78246875,True,0.9239872097969055,tokenizer_offsets + original_transcript_CTC
+03,24,into,2046,93,97,into,[17],5.902468750000001,6.1224687499999995,True,0.970421552658081,tokenizer_offsets + original_transcript_CTC
+03,25,account,4070,98,105,account,[18],6.22246875,6.52246875,True,0.9467341303825378,tokenizer_offsets + original_transcript_CTC
+03,26,",",1010,105,106,",",[],,,False,,punctuation_without_own_acoustic_interval
+03,27,they,2027,107,111,they,[19],6.8224687500000005,6.96246875,True,0.9048709869384766,tokenizer_offsets + original_transcript_CTC
+03,28,take,2202,112,116,take,[20],7.04246875,7.22246875,True,0.9011486172676086,tokenizer_offsets + original_transcript_CTC
+03,29,rental,12635,117,123,rental,[21],7.50246875,7.80246875,True,0.6543473601341248,tokenizer_offsets + original_transcript_CTC
+03,30,yield,10750,124,129,yield,[22],7.98246875,8.34246875,True,0.95180743932724,tokenizer_offsets + original_transcript_CTC
+03,31,into,2046,130,134,into,[23],8.462468750000001,8.62246875,True,0.9991917014122009,tokenizer_offsets + original_transcript_CTC
+03,32,account,4070,135,142,account,[24],8.70246875,9.00246875,True,0.9665101170539856,tokenizer_offsets + original_transcript_CTC
+03,33,.,1012,142,143,.,[],,,False,,punctuation_without_own_acoustic_interval
+04,1,if,2065,0,2,If,[0],0.50246875,0.54246875,True,0.9998520612716675,tokenizer_offsets + original_transcript_CTC
+04,2,i,1045,3,4,I,[1],0.62246875,0.64246875,True,0.9997227787971497,tokenizer_offsets + original_transcript_CTC
+04,3,blow,6271,5,9,blow,[2],0.74246875,0.96246875,True,0.8345030546188354,tokenizer_offsets + original_transcript_CTC
+04,4,it,2009,10,12,it,[3],1.02246875,1.06246875,True,0.5415641069412231,tokenizer_offsets + original_transcript_CTC
+04,5,at,2012,13,15,at,[4],1.1024687499999999,1.14246875,True,0.990681529045105,tokenizer_offsets + original_transcript_CTC
+04,6,the,1996,16,19,the,[5],1.18246875,1.24246875,True,0.9919384717941284,tokenizer_offsets + original_transcript_CTC
+04,7,team,2136,20,24,team,[6],1.28246875,1.44246875,True,0.9894896149635315,tokenizer_offsets + original_transcript_CTC
+04,8,exercise,6912,25,33,exercise,[7],1.54246875,1.96246875,True,0.9462400674819946,tokenizer_offsets + original_transcript_CTC
+04,9,",",1010,33,34,",",[],,,False,,punctuation_without_own_acoustic_interval
+04,10,should,2323,35,41,should,[8],2.1824687500000004,2.3424687499999997,True,0.96504807472229,tokenizer_offsets + original_transcript_CTC
+04,11,i,1045,42,43,I,[9],2.38246875,2.4024687499999997,True,0.9996511936187744,tokenizer_offsets + original_transcript_CTC
+04,12,kiss,3610,44,48,kiss,[10],2.4824687500000002,2.66246875,True,0.9997100234031677,tokenizer_offsets + original_transcript_CTC
+04,13,my,2026,49,51,my,[11],2.74246875,2.8024687499999996,True,0.9997331500053406,tokenizer_offsets + original_transcript_CTC
+04,14,chances,9592,52,59,chances,[12],2.90246875,3.2424687499999996,True,0.9902027249336243,tokenizer_offsets + original_transcript_CTC
+04,15,of,1997,60,62,of,[13],3.30246875,3.3424687499999997,True,0.9980916380882263,tokenizer_offsets + original_transcript_CTC
+04,16,cheering,24867,63,71,cheering,[14],3.40246875,3.68246875,True,0.9894701242446899,tokenizer_offsets + original_transcript_CTC
+04,17,"""",1000,72,73,"""",[],,,False,,punctuation_without_own_acoustic_interval
+04,18,go,2175,73,75,GO,[15],3.78246875,3.8824687499999997,True,0.7831161618232727,tokenizer_offsets + original_transcript_CTC
+04,19,blue,2630,76,80,BLUE,[16],4.04246875,4.26246875,True,0.9833782911300659,tokenizer_offsets + original_transcript_CTC
+04,20,"""",1000,80,81,"""",[],,,False,,punctuation_without_own_acoustic_interval
+04,21,goodbye,9119,82,89,goodbye,[17],4.48246875,4.96246875,True,0.8455494046211243,tokenizer_offsets + original_transcript_CTC
+04,22,?,1029,89,90,?,[],,,False,,punctuation_without_own_acoustic_interval
+04,23,],1033,90,91,],[],,,False,,punctuation_without_own_acoustic_interval
+04,24,absolutely,7078,92,102,Absolutely,[18],5.442468750000001,5.94246875,True,0.9879932403564453,tokenizer_offsets + original_transcript_CTC
+04,25,not,2025,103,106,not,[19],6.02246875,6.24246875,True,0.9901034832000732,tokenizer_offsets + original_transcript_CTC
+04,26,.,1012,106,107,.,[],,,False,,punctuation_without_own_acoustic_interval
+05,1,hi,7632,0,2,Hi,[0],1.26246875,1.46246875,True,0.8061185479164124,tokenizer_offsets + original_transcript_CTC
+05,2,",",1010,2,3,",",[],,,False,,punctuation_without_own_acoustic_interval
+05,3,my,2026,4,6,my,[1],1.96246875,2.06246875,True,0.9998359680175781,tokenizer_offsets + original_transcript_CTC
+05,4,name,2171,7,11,name,[2],2.1224687500000003,2.2424687499999996,True,0.993571400642395,tokenizer_offsets + original_transcript_CTC
+05,5,is,2003,12,14,is,[3],2.30246875,2.3624687499999997,True,0.5092452764511108,tokenizer_offsets + original_transcript_CTC
+05,6,chloe,9318,15,20,Chloe,[4],2.44246875,2.7624687499999996,True,0.8153349757194519,tokenizer_offsets + original_transcript_CTC
+05,7,",",1010,20,21,",",[],,,False,,punctuation_without_own_acoustic_interval
+05,8,video,2678,22,27,video,[5],3.22246875,3.52246875,True,0.40344366431236267,tokenizer_offsets + original_transcript_CTC
+05,9,market,3006,28,34,market,[6],3.6224687500000003,4.02246875,True,0.9383236169815063,tokenizer_offsets + original_transcript_CTC
+05,10,##er,2121,34,36,er,[6],3.6224687500000003,4.02246875,True,0.9383236169815063,tokenizer_offsets + original_transcript_CTC
+05,11,for,2005,37,40,for,[7],4.16246875,4.26246875,True,0.9993891716003418,tokenizer_offsets + original_transcript_CTC
+05,12,red,2417,41,44,Red,[8],4.38246875,4.56246875,True,0.9907594323158264,tokenizer_offsets + original_transcript_CTC
+05,13,wagon,9540,45,50,Wagon,[9],4.64246875,4.92246875,True,0.5098183155059814,tokenizer_offsets + original_transcript_CTC
+05,14,marketing,5821,51,60,Marketing,[10],4.98246875,5.44246875,True,0.15600116550922394,tokenizer_offsets + original_transcript_CTC
+05,15,.,1012,60,61,.,[],,,False,,punctuation_without_own_acoustic_interval
+06,1,if,2065,0,2,If,[0],0.5424687499999999,0.60246875,True,0.9141788482666016,tokenizer_offsets + original_transcript_CTC
+06,2,you,2017,3,6,you,[1],0.62246875,0.76246875,True,0.5823807716369629,tokenizer_offsets + original_transcript_CTC
+06,3,',1005,6,7,',[1],0.62246875,0.76246875,True,0.5823807716369629,tokenizer_offsets + original_transcript_CTC
+06,4,re,2128,7,9,re,[1],0.62246875,0.76246875,True,0.5823807716369629,tokenizer_offsets + original_transcript_CTC
+06,5,a,1037,10,11,a,[2],0.78246875,0.8024687500000001,False,0.0029718910809606314,tokenizer_offsets + original_transcript_CTC
+06,6,fan,5470,12,15,fan,[3],0.82246875,0.94246875,True,0.11598731577396393,tokenizer_offsets + original_transcript_CTC
+06,7,of,1997,16,18,of,[4],1.02246875,1.06246875,True,0.8873940706253052,tokenizer_offsets + original_transcript_CTC
+06,8,dancing,5613,19,26,dancing,[5],1.1024687499999999,1.48246875,True,0.9757686257362366,tokenizer_offsets + original_transcript_CTC
+06,9,in,1999,27,29,in,[6],1.54246875,1.58246875,True,0.9200313687324524,tokenizer_offsets + original_transcript_CTC
+06,10,that,2008,30,34,that,[7],1.64246875,1.78246875,True,0.9799149632453918,tokenizer_offsets + original_transcript_CTC
+06,11,sense,3168,35,40,sense,[8],1.84246875,2.08246875,True,0.9330881834030151,tokenizer_offsets + original_transcript_CTC
+06,12,",",1010,40,41,",",[],,,False,,punctuation_without_own_acoustic_interval
+06,13,just,2074,42,46,just,[9],2.1424687500000004,2.3024687499999996,True,0.9845279455184937,tokenizer_offsets + original_transcript_CTC
+06,14,like,2066,47,51,like,[10],2.34246875,2.4624687499999998,True,0.9981744885444641,tokenizer_offsets + original_transcript_CTC
+06,15,to,2000,52,54,to,[11],2.5224687500000003,2.58246875,True,0.6835053563117981,tokenizer_offsets + original_transcript_CTC
+06,16,watch,3422,55,60,watch,[12],2.6624687500000004,2.8624687499999997,True,0.9847405552864075,tokenizer_offsets + original_transcript_CTC
+06,17,people,2111,61,67,people,[13],2.94246875,3.16246875,True,0.9097302556037903,tokenizer_offsets + original_transcript_CTC
+06,18,dance,3153,68,73,dance,[14],3.22246875,3.52246875,True,0.9994393587112427,tokenizer_offsets + original_transcript_CTC
+06,19,",",1010,73,74,",",[],,,False,,punctuation_without_own_acoustic_interval
+06,20,see,2156,75,78,see,[15],3.72246875,3.8624687499999997,True,0.9910810589790344,tokenizer_offsets + original_transcript_CTC
+06,21,impressive,8052,79,89,impressive,[16],3.96246875,4.40246875,True,0.9171409010887146,tokenizer_offsets + original_transcript_CTC
+06,22,dance,3153,90,95,dance,[17],4.46246875,4.7024687499999995,True,0.8953620195388794,tokenizer_offsets + original_transcript_CTC
+06,23,moves,5829,96,101,moves,[18],4.84246875,5.1224687499999995,True,0.9385619759559631,tokenizer_offsets + original_transcript_CTC
+06,24,then,2059,102,106,then,[19],5.58246875,5.68246875,True,0.1164652556180954,tokenizer_offsets + original_transcript_CTC
+06,25,you,2017,107,110,you,[20],5.72246875,5.78246875,True,0.9982954859733582,tokenizer_offsets + original_transcript_CTC
+06,26,might,2453,111,116,might,[21],5.8224687500000005,5.96246875,True,0.991399884223938,tokenizer_offsets + original_transcript_CTC
+06,27,want,2215,117,121,want,[22],5.98246875,6.082468749999999,True,0.21453195810317993,tokenizer_offsets + original_transcript_CTC
+06,28,to,2000,122,124,to,[23],6.10246875,6.14246875,False,0.0022876292932778597,tokenizer_offsets + original_transcript_CTC
+06,29,check,4638,125,130,check,[24],6.16246875,6.28246875,False,0.02983468770980835,tokenizer_offsets + original_transcript_CTC
+06,30,out,2041,131,134,out,[25],6.3224687500000005,6.38246875,False,0.0145493783056736,tokenizer_offsets + original_transcript_CTC
+06,31,this,2023,135,139,this,[26],6.402468750000001,6.48246875,False,0.04858129844069481,tokenizer_offsets + original_transcript_CTC
+06,32,movie,3185,140,145,movie,[27],6.54246875,6.72246875,True,0.1780746579170227,tokenizer_offsets + original_transcript_CTC
+06,33,solely,9578,146,152,solely,[28],6.80246875,7.1224687499999995,True,0.9828759431838989,tokenizer_offsets + original_transcript_CTC
+06,34,for,2005,153,156,for,[29],7.22246875,7.32246875,True,0.9982846975326538,tokenizer_offsets + original_transcript_CTC
+06,35,that,2008,157,161,that,[30],7.38246875,7.64246875,False,0.04255290329456329,tokenizer_offsets + original_transcript_CTC
+07,1,as,2004,0,2,As,[0],0.58246875,0.66246875,True,0.9933454394340515,tokenizer_offsets + original_transcript_CTC
+07,2,lin,11409,3,6,Lin,[1],0.76246875,0.96246875,True,0.1430712789297104,tokenizer_offsets + original_transcript_CTC
+07,3,##n,2078,6,7,n,[1],0.76246875,0.96246875,True,0.1430712789297104,tokenizer_offsets + original_transcript_CTC
+07,4,’,1521,7,8,’,[1],0.76246875,0.96246875,True,0.1430712789297104,tokenizer_offsets + original_transcript_CTC
+07,5,s,1055,8,9,s,[1],0.76246875,0.96246875,True,0.1430712789297104,tokenizer_offsets + original_transcript_CTC
+07,6,associate,5482,10,19,associate,[2],1.00246875,1.40246875,True,0.895214319229126,tokenizer_offsets + original_transcript_CTC
+07,7,editor,3559,20,26,editor,[3],1.46246875,1.70246875,True,0.7057914733886719,tokenizer_offsets + original_transcript_CTC
+07,8,michael,2745,27,34,Michael,[4],1.74246875,1.96246875,True,0.7606183886528015,tokenizer_offsets + original_transcript_CTC
+07,9,ba,8670,35,37,Ba,[5],2.0024687500000002,2.3424687499999997,False,0.07590226083993912,tokenizer_offsets + original_transcript_CTC
+07,10,##ad,4215,37,39,ad,[5],2.0024687500000002,2.3424687499999997,False,0.07590226083993912,tokenizer_offsets + original_transcript_CTC
+07,11,##ke,3489,39,41,ke,[5],2.0024687500000002,2.3424687499999997,False,0.07590226083993912,tokenizer_offsets + original_transcript_CTC
+07,12,reports,4311,42,49,reports,[6],2.42246875,2.8024687499999996,True,0.9615383148193359,tokenizer_offsets + original_transcript_CTC
+07,13,in,1999,50,52,in,[7],2.88246875,2.9224687499999997,True,0.9987801909446716,tokenizer_offsets + original_transcript_CTC
+07,14,our,2256,53,56,our,[8],3.0024687500000002,3.08246875,True,0.997440755367279,tokenizer_offsets + original_transcript_CTC
+07,15,november,2281,57,65,November,[9],3.1624687500000004,3.4624687499999998,True,0.9782755970954895,tokenizer_offsets + original_transcript_CTC
+07,16,28,2654,66,68,28,[10],3.5424687500000003,3.9424687499999997,True,0.936981201171875,tokenizer_offsets + original_transcript_CTC
+07,17,issue,3277,69,74,issue,[11],4.04246875,4.30246875,True,0.9820655584335327,tokenizer_offsets + original_transcript_CTC
+07,18,",",1010,74,75,",",[],,,False,,punctuation_without_own_acoustic_interval
+07,19,attendees,19973,76,85,attendees,[12],5.00246875,5.56246875,True,0.44176092743873596,tokenizer_offsets + original_transcript_CTC
+07,20,“,1523,86,87,“,[],,,False,,punctuation_without_own_acoustic_interval
+07,21,enthusiastically,24935,87,103,enthusiastically,[13],6.00246875,7.02246875,True,0.9508827924728394,tokenizer_offsets + original_transcript_CTC
+07,22,discussed,6936,104,113,discussed,[14],7.10246875,7.56246875,True,0.6675451397895813,tokenizer_offsets + original_transcript_CTC
+07,23,the,1996,114,117,the,[15],7.60246875,7.6624687499999995,True,0.9986116886138916,tokenizer_offsets + original_transcript_CTC
+07,24,topics,7832,118,124,topics,[16],7.70246875,8.142468749999999,True,0.975555956363678,tokenizer_offsets + original_transcript_CTC
+07,25,of,1997,125,127,of,[17],8.66246875,8.70246875,True,0.9998343586921692,tokenizer_offsets + original_transcript_CTC
+07,26,growing,3652,128,135,growing,[18],8.82246875,9.12246875,True,0.9783722758293152,tokenizer_offsets + original_transcript_CTC
+07,27,the,1996,136,139,the,[19],9.16246875,9.24246875,True,0.8811103105545044,tokenizer_offsets + original_transcript_CTC
+07,28,hobby,17792,140,145,hobby,[20],9.28246875,9.562468749999999,True,0.8516423106193542,tokenizer_offsets + original_transcript_CTC
+07,29,",",1010,145,146,",",[],,,False,,punctuation_without_own_acoustic_interval
+07,30,the,1996,147,150,the,[21],9.90246875,9.98246875,True,0.9849283695220947,tokenizer_offsets + original_transcript_CTC
+07,31,future,2925,151,157,future,[22],10.02246875,10.36246875,True,0.9735252261161804,tokenizer_offsets + original_transcript_CTC
+07,32,of,1997,158,160,of,[23],10.42246875,10.46246875,True,0.7551184892654419,tokenizer_offsets + original_transcript_CTC
+07,33,stamp,11359,161,166,stamp,[24],10.52246875,10.78246875,True,0.7095978856086731,tokenizer_offsets + original_transcript_CTC
+07,34,shows,3065,167,172,shows,[25],10.84246875,11.18246875,True,0.9689146280288696,tokenizer_offsets + original_transcript_CTC
+07,35,",",1010,172,173,",",[],,,False,,punctuation_without_own_acoustic_interval
+07,36,and,1998,174,177,and,[26],11.58246875,11.68246875,True,0.9918191432952881,tokenizer_offsets + original_transcript_CTC
+07,37,dealers,16743,178,185,dealers,[27],11.76246875,12.142468749999999,True,0.8835334777832031,tokenizer_offsets + original_transcript_CTC
+07,38,and,1998,186,189,and,[28],12.22246875,12.30246875,True,0.777185320854187,tokenizer_offsets + original_transcript_CTC
+07,39,phil,6316,190,194,phil,[29],12.382468750000001,12.82246875,True,0.5798161029815674,tokenizer_offsets + original_transcript_CTC
+07,40,##ate,3686,194,197,ate,[29],12.382468750000001,12.82246875,True,0.5798161029815674,tokenizer_offsets + original_transcript_CTC
+07,41,##lic,10415,197,200,lic,[29],12.382468750000001,12.82246875,True,0.5798161029815674,tokenizer_offsets + original_transcript_CTC
+07,42,partnerships,13797,201,213,partnerships,[30],12.90246875,13.48246875,True,0.9021687507629395,tokenizer_offsets + original_transcript_CTC
+07,43,",",1010,213,214,",",[],,,False,,punctuation_without_own_acoustic_interval
+07,44,along,2247,215,220,along,[31],13.962468750000001,14.26246875,True,0.9963183999061584,tokenizer_offsets + original_transcript_CTC
+07,45,with,2007,221,225,with,[32],14.32246875,14.44246875,True,0.990584671497345,tokenizer_offsets + original_transcript_CTC
+07,46,ways,3971,226,230,ways,[33],14.50246875,14.86246875,True,0.9973462820053101,tokenizer_offsets + original_transcript_CTC
+07,47,the,1996,231,234,the,[34],15.00246875,15.062468749999999,True,0.9990631937980652,tokenizer_offsets + original_transcript_CTC
+07,48,leading,2877,235,242,leading,[35],15.12246875,15.36246875,True,0.995831310749054,tokenizer_offsets + original_transcript_CTC
+08,1,that,2008,0,4,That,[0],0.64246875,0.78246875,True,0.9077375531196594,tokenizer_offsets + original_transcript_CTC
+08,2,brings,7545,5,11,brings,[1],0.86246875,1.06246875,True,0.9458962082862854,tokenizer_offsets + original_transcript_CTC
+08,3,us,2149,12,14,us,[2],1.14246875,1.20246875,True,0.9900795817375183,tokenizer_offsets + original_transcript_CTC
+08,4,to,2000,15,17,to,[3],1.26246875,1.34246875,True,0.9976248741149902,tokenizer_offsets + original_transcript_CTC
+08,5,tonight,3892,18,25,tonight,[4],1.46246875,1.80246875,True,0.9885605573654175,tokenizer_offsets + original_transcript_CTC
+08,6,",",1010,25,26,",",[],,,False,,punctuation_without_own_acoustic_interval
+08,7,the,1996,27,30,the,[5],1.84246875,1.92246875,True,0.8904691934585571,tokenizer_offsets + original_transcript_CTC
+08,8,universal,5415,31,40,Universal,[6],2.0424687500000003,2.50246875,True,0.9943367838859558,tokenizer_offsets + original_transcript_CTC
+08,9,design,2640,41,47,Design,[7],2.6024687500000003,3.04246875,True,0.9977148175239563,tokenizer_offsets + original_transcript_CTC
+08,10,grand,2882,48,53,Grand,[8],3.38246875,3.68246875,True,0.9673421382904053,tokenizer_offsets + original_transcript_CTC
+08,11,challenge,4119,54,63,Challenge,[9],3.78246875,4.26246875,True,0.9460681080818176,tokenizer_offsets + original_transcript_CTC
+09,1,(,1006,0,1,(,[],,,False,,punctuation_without_own_acoustic_interval
+09,2,uh,7910,1,3,uh,[0],0.48246875,0.84246875,False,0.0016039054607972503,tokenizer_offsets + original_transcript_CTC
+09,3,##h,2232,3,4,h,[0],0.48246875,0.84246875,False,0.0016039054607972503,tokenizer_offsets + original_transcript_CTC
+09,4,),1007,4,5,),[],,,False,,punctuation_without_own_acoustic_interval
+09,5,i,1045,6,7,I,[1],1.12246875,1.14246875,True,0.9998632073402405,tokenizer_offsets + original_transcript_CTC
+09,6,did,2106,8,11,did,[2],1.22246875,1.32246875,True,0.9929620027542114,tokenizer_offsets + original_transcript_CTC
+09,7,not,2025,12,15,not,[3],1.36246875,1.46246875,True,0.8974922895431519,tokenizer_offsets + original_transcript_CTC
+09,8,like,2066,16,20,like,[4],1.48246875,1.60246875,True,0.9280982613563538,tokenizer_offsets + original_transcript_CTC
+09,9,this,2023,21,25,this,[5],1.64246875,1.74246875,True,0.7968156933784485,tokenizer_offsets + original_transcript_CTC
+09,10,movie,3185,26,31,movie,[6],1.88246875,2.2424687499999996,True,0.811161458492279,tokenizer_offsets + original_transcript_CTC
+09,11,at,2012,32,34,at,[7],2.28246875,2.3224687499999996,True,0.8993285298347473,tokenizer_offsets + original_transcript_CTC
+09,12,all,2035,35,38,all,[8],2.5224687500000003,2.64246875,True,0.9895030856132507,tokenizer_offsets + original_transcript_CTC
+09,13,",",1010,38,39,",",[],,,False,,punctuation_without_own_acoustic_interval
+09,14,i,1045,40,41,I,[9],2.80246875,2.8224687499999996,True,0.9978924989700317,tokenizer_offsets + original_transcript_CTC
+09,15,would,2052,42,47,would,[10],2.88246875,3.02246875,True,0.9588571786880493,tokenizer_offsets + original_transcript_CTC
+09,16,not,2025,48,51,not,[11],3.0424687500000003,3.14246875,True,0.9878235459327698,tokenizer_offsets + original_transcript_CTC
+09,17,recommend,16755,52,61,recommend,[12],3.2024687500000004,3.62246875,True,0.9986118078231812,tokenizer_offsets + original_transcript_CTC
+09,18,it,2009,62,64,it,[13],4.12246875,4.34246875,False,0.004659363534301519,tokenizer_offsets + original_transcript_CTC
+10,1,(,1006,0,1,(,[],,,False,,punctuation_without_own_acoustic_interval
+10,2,umm,26114,1,4,umm,[0],0.40246875,0.54246875,False,0.02345314621925354,tokenizer_offsets + original_transcript_CTC
+10,3,),1007,4,5,),[],,,False,,punctuation_without_own_acoustic_interval
+10,4,and,1998,6,9,And,[1],1.22246875,1.30246875,True,0.7708461880683899,tokenizer_offsets + original_transcript_CTC
+10,5,you,2017,10,13,you,[2],1.34246875,1.42246875,True,0.8320465087890625,tokenizer_offsets + original_transcript_CTC
+10,6,know,2113,14,18,know,[3],1.46246875,1.58246875,True,0.9851935505867004,tokenizer_offsets + original_transcript_CTC
+10,7,i,1045,19,20,I,[4],1.92246875,1.94246875,True,0.9995675683021545,tokenizer_offsets + original_transcript_CTC
+10,8,really,2428,21,27,really,[5],2.0424687500000003,2.2824687499999996,True,0.9602537751197815,tokenizer_offsets + original_transcript_CTC
+10,9,do,2079,28,30,do,[6],2.34246875,2.4224687499999997,True,0.9988986849784851,tokenizer_offsets + original_transcript_CTC
+10,10,like,2066,31,35,like,[7],2.5224687500000003,2.68246875,True,0.9496533274650574,tokenizer_offsets + original_transcript_CTC
+10,11,to,2000,36,38,to,[8],2.74246875,2.8024687499999996,True,0.9990718960762024,tokenizer_offsets + original_transcript_CTC
+10,12,see,2156,39,42,see,[9],2.88246875,3.02246875,True,0.8857438564300537,tokenizer_offsets + original_transcript_CTC
+10,13,fluffy,27036,43,49,fluffy,[10],3.2024687500000004,3.52246875,True,0.6122666597366333,tokenizer_offsets + original_transcript_CTC
+10,14,chick,14556,50,55,chick,[11],3.6424687500000004,3.8424687499999997,True,0.97920823097229,tokenizer_offsets + original_transcript_CTC
+10,15,flick,17312,56,61,flick,[12],3.90246875,4.18246875,True,0.7064977884292603,tokenizer_offsets + original_transcript_CTC
+10,16,##s,2015,61,62,s,[12],3.90246875,4.18246875,True,0.7064977884292603,tokenizer_offsets + original_transcript_CTC
+10,17,sometimes,2823,63,72,sometimes,[13],4.26246875,4.96246875,True,0.9885182976722717,tokenizer_offsets + original_transcript_CTC
+10,18,so,2061,73,75,so,[14],5.04246875,5.1224687499999995,True,0.20759274065494537,tokenizer_offsets + original_transcript_CTC
+10,19,i,1045,76,77,I,[15],5.20246875,5.26246875,False,0.05888340622186661,tokenizer_offsets + original_transcript_CTC
+10,20,',1005,77,78,',[15],5.20246875,5.26246875,False,0.05888340622186661,tokenizer_offsets + original_transcript_CTC
+10,21,m,1049,78,79,m,[15],5.20246875,5.26246875,False,0.05888340622186661,tokenizer_offsets + original_transcript_CTC
+10,22,not,2025,80,83,not,[16],5.34246875,5.48246875,True,0.978531539440155,tokenizer_offsets + original_transcript_CTC
+10,23,against,2114,84,91,against,[17],5.80246875,6.18246875,True,0.9365839958190918,tokenizer_offsets + original_transcript_CTC
+10,24,that,2008,92,96,that,[18],6.34246875,6.60246875,True,0.9920241832733154,tokenizer_offsets + original_transcript_CTC
+10,25,but,2021,97,100,but,[19],6.7424687500000005,6.86246875,True,0.8415284156799316,tokenizer_offsets + original_transcript_CTC
+10,26,this,2023,101,105,this,[20],6.942468750000001,7.10246875,True,0.9978421926498413,tokenizer_offsets + original_transcript_CTC
+10,27,one,2028,106,109,one,[21],7.30246875,7.42246875,True,0.9139623045921326,tokenizer_offsets + original_transcript_CTC
+10,28,was,2001,110,113,was,[22],7.50246875,7.6624687499999995,True,0.9955320954322815,tokenizer_offsets + original_transcript_CTC
+10,29,pretty,3492,114,120,pretty,[23],8.382468750000001,8.60246875,True,0.9992891550064087,tokenizer_offsets + original_transcript_CTC
+10,30,terrible,6659,121,129,terrible,[24],8.68246875,9.20246875,False,0.0881417989730835,tokenizer_offsets + original_transcript_CTC
+11,1,i,1045,0,1,I,[0],0.56246875,0.58246875,True,0.4749165177345276,tokenizer_offsets + original_transcript_CTC
+11,2,would,2052,2,7,would,[1],0.62246875,0.74246875,True,0.13739585876464844,tokenizer_offsets + original_transcript_CTC
+11,3,be,2022,8,10,be,[2],0.78246875,0.86246875,True,0.9990657567977905,tokenizer_offsets + original_transcript_CTC
+11,4,ashamed,14984,11,18,ashamed,[3],0.92246875,1.34246875,True,0.9651485681533813,tokenizer_offsets + original_transcript_CTC
+11,5,to,2000,19,21,to,[4],3.22246875,3.2824687499999996,True,0.9581838846206665,tokenizer_offsets + original_transcript_CTC
+11,6,have,2031,22,26,have,[5],3.34246875,3.4624687499999998,True,0.9822789430618286,tokenizer_offsets + original_transcript_CTC
+11,7,made,2081,27,31,made,[6],3.5224687500000003,3.68246875,True,0.9995992183685303,tokenizer_offsets + original_transcript_CTC
+11,8,this,2023,32,36,this,[7],3.72246875,3.8624687499999997,True,0.8666845560073853,tokenizer_offsets + original_transcript_CTC
+11,9,film,2143,37,41,film,[8],3.92246875,4.14246875,True,0.9598777890205383,tokenizer_offsets + original_transcript_CTC
+11,10,if,2065,42,44,if,[9],4.42246875,4.46246875,True,0.9951391220092773,tokenizer_offsets + original_transcript_CTC
+11,11,i,1045,45,46,I,[10],4.54246875,4.56246875,True,0.6562606692314148,tokenizer_offsets + original_transcript_CTC
+11,12,was,2001,47,50,was,[11],4.62246875,4.7024687499999995,True,0.13428360223770142,tokenizer_offsets + original_transcript_CTC
+11,13,a,1037,51,52,a,[12],4.76246875,4.78246875,True,0.4620649814605713,tokenizer_offsets + original_transcript_CTC
+11,14,director,2472,53,61,director,[13],4.8224687500000005,5.26246875,True,0.13853955268859863,tokenizer_offsets + original_transcript_CTC
+12,1,or,2030,0,2,Or,[0],0.58246875,0.64246875,True,0.9994826912879944,tokenizer_offsets + original_transcript_CTC
+12,2,worse,4788,3,8,worse,[1],0.72246875,1.06246875,True,0.9890196919441223,tokenizer_offsets + original_transcript_CTC
+12,3,",",1010,8,9,",",[],,,False,,punctuation_without_own_acoustic_interval
+12,4,an,2019,10,12,an,[2],1.16246875,1.20246875,True,0.9957864284515381,tokenizer_offsets + original_transcript_CTC
+12,5,individual,3265,13,23,individual,[3],1.26246875,1.74246875,True,0.9929459095001221,tokenizer_offsets + original_transcript_CTC
+12,6,previously,3130,24,34,previously,[4],1.94246875,2.4224687499999997,True,0.9106520414352417,tokenizer_offsets + original_transcript_CTC
+12,7,had,2018,35,38,had,[5],2.5024687500000002,2.70246875,True,0.9987522959709167,tokenizer_offsets + original_transcript_CTC
+12,8,good,2204,39,43,good,[6],2.82246875,2.98246875,True,0.9997091889381409,tokenizer_offsets + original_transcript_CTC
+12,9,credit,4923,44,50,credit,[7],3.0824687500000003,3.4024687499999997,True,0.9724713563919067,tokenizer_offsets + original_transcript_CTC
+12,10,",",1010,50,51,",",[],,,False,,punctuation_without_own_acoustic_interval
+12,11,but,2021,52,55,but,[8],3.88246875,4.042468749999999,True,0.9992367029190063,tokenizer_offsets + original_transcript_CTC
+12,12,usually,2788,56,63,usually,[9],4.64246875,4.88246875,True,0.9925732016563416,tokenizer_offsets + original_transcript_CTC
+12,13,by,2011,64,66,by,[10],5.14246875,5.26246875,True,0.9997144341468811,tokenizer_offsets + original_transcript_CTC
+12,14,no,2053,67,69,no,[11],5.38246875,5.46246875,True,0.9999313950538635,tokenizer_offsets + original_transcript_CTC
+12,15,fault,6346,70,75,fault,[12],5.58246875,5.78246875,True,0.9980742931365967,tokenizer_offsets + original_transcript_CTC
+12,16,of,1997,76,78,of,[13],5.862468750000001,5.90246875,True,0.9472025632858276,tokenizer_offsets + original_transcript_CTC
+12,17,their,2037,79,84,their,[14],5.942468750000001,6.10246875,True,0.9983310699462891,tokenizer_offsets + original_transcript_CTC
+12,18,own,2219,85,88,own,[15],6.26246875,6.38246875,True,0.9837743639945984,tokenizer_offsets + original_transcript_CTC
+12,19,",",1010,88,89,",",[],,,False,,punctuation_without_own_acoustic_interval
+12,20,or,2030,90,92,or,[16],6.96246875,7.002468749999999,True,0.9978846311569214,tokenizer_offsets + original_transcript_CTC
+12,21,perhaps,3383,93,100,perhaps,[17],7.10246875,7.48246875,True,0.9346019625663757,tokenizer_offsets + original_transcript_CTC
+12,22,by,2011,101,103,by,[18],7.56246875,7.68246875,True,0.9995388984680176,tokenizer_offsets + original_transcript_CTC
+12,23,fault,6346,104,109,fault,[19],7.80246875,8.00246875,True,0.9195480942726135,tokenizer_offsets + original_transcript_CTC
+12,24,of,1997,110,112,of,[20],8.08246875,8.12246875,True,0.9943950772285461,tokenizer_offsets + original_transcript_CTC
+12,25,their,2037,113,118,their,[21],8.18246875,8.34246875,True,0.9932928085327148,tokenizer_offsets + original_transcript_CTC
+12,26,own,2219,119,122,own,[22],8.462468750000001,8.54246875,True,0.9997117519378662,tokenizer_offsets + original_transcript_CTC
+12,27,",",1010,122,123,",",[],,,False,,punctuation_without_own_acoustic_interval
+12,28,they,2027,124,128,they,[23],8.66246875,8.82246875,True,0.921578049659729,tokenizer_offsets + original_transcript_CTC
+12,29,have,2031,129,133,have,[24],8.882468750000001,9.02246875,True,0.976560115814209,tokenizer_offsets + original_transcript_CTC
+12,30,let,2292,134,137,let,[25],9.08246875,9.222468749999999,True,0.9710680246353149,tokenizer_offsets + original_transcript_CTC
+12,31,their,2037,138,143,their,[26],9.26246875,9.40246875,True,0.8702771067619324,tokenizer_offsets + original_transcript_CTC
+12,32,credit,4923,144,150,credit,[27],9.48246875,9.76246875,True,0.9851351976394653,tokenizer_offsets + original_transcript_CTC
+12,33,sa,7842,151,153,sa,[28],9.94246875,10.30246875,True,0.7085868120193481,tokenizer_offsets + original_transcript_CTC
+12,34,##g,2290,153,154,g,[28],9.94246875,10.30246875,True,0.7085868120193481,tokenizer_offsets + original_transcript_CTC
+12,35,",",1010,154,155,",",[],,,False,,punctuation_without_own_acoustic_interval
+12,36,and,1998,156,159,and,[29],10.62246875,10.74246875,True,0.9986951351165771,tokenizer_offsets + original_transcript_CTC
+12,37,credit,4923,160,166,credit,[30],11.10246875,11.30246875,True,0.2190321981906891,tokenizer_offsets + original_transcript_CTC
+12,38,scores,7644,167,173,scores,[31],11.32246875,11.58246875,True,0.2442546784877777,tokenizer_offsets + original_transcript_CTC
+12,39,is,2003,174,176,is,[32],11.62246875,11.68246875,True,0.3257482647895813,tokenizer_offsets + original_transcript_CTC
+12,40,very,2200,177,181,very,[33],11.74246875,11.94246875,True,0.8704485893249512,tokenizer_offsets + original_transcript_CTC
+12,41,low,2659,182,185,low,[34],12.02246875,12.26246875,True,0.9914333820343018,tokenizer_offsets + original_transcript_CTC
+12,42,.,1012,185,186,.,[],,,False,,punctuation_without_own_acoustic_interval
+13,1,for,2005,0,3,For,[0],0.0024687500000000005,0.10246875,True,0.9837832450866699,tokenizer_offsets + original_transcript_CTC
+13,2,example,2742,4,11,example,[1],0.18246874999999999,0.56246875,True,0.9729429483413696,tokenizer_offsets + original_transcript_CTC
+13,3,",",1010,11,12,",",[],,,False,,punctuation_without_own_acoustic_interval
+13,4,i,1045,13,14,I,[2],0.88246875,0.90246875,True,0.9994385838508606,tokenizer_offsets + original_transcript_CTC
+13,5,could,2071,15,20,could,[3],0.96246875,1.08246875,True,0.36830389499664307,tokenizer_offsets + original_transcript_CTC
+13,6,take,2202,21,25,take,[4],1.1024687499999999,1.24246875,True,0.9854732155799866,tokenizer_offsets + original_transcript_CTC
+13,7,a,1037,26,27,a,[5],1.32246875,1.34246875,True,0.9150773286819458,tokenizer_offsets + original_transcript_CTC
+13,8,set,2275,28,31,set,[6],1.40246875,1.56246875,True,0.7001926898956299,tokenizer_offsets + original_transcript_CTC
+13,9,of,1997,32,34,of,[7],1.62246875,1.66246875,True,0.3881198763847351,tokenizer_offsets + original_transcript_CTC
+13,10,data,2951,35,39,data,[8],1.72246875,2.06246875,True,0.4208270013332367,tokenizer_offsets + original_transcript_CTC
+13,11,and,1998,40,43,and,[9],2.88246875,3.00246875,True,0.9884271621704102,tokenizer_offsets + original_transcript_CTC
+13,12,from,2013,44,48,from,[10],3.28246875,3.4424687499999997,True,0.8761104345321655,tokenizer_offsets + original_transcript_CTC
+13,13,that,2008,49,53,that,[11],3.90246875,4.02246875,True,0.8613783717155457,tokenizer_offsets + original_transcript_CTC
+13,14,data,2951,54,58,data,[12],4.06246875,4.36246875,True,0.6794732213020325,tokenizer_offsets + original_transcript_CTC
+13,15,",",1010,58,59,",",[],,,False,,punctuation_without_own_acoustic_interval
+13,16,i,1045,60,61,I,[13],4.68246875,4.7024687499999995,False,0.02160402201116085,tokenizer_offsets + original_transcript_CTC
+13,17,can,2064,62,65,can,[14],4.7424687500000005,4.84246875,True,0.38658982515335083,tokenizer_offsets + original_transcript_CTC
+13,18,find,2424,66,70,find,[15],4.862468750000001,5.002468749999999,True,0.21692058444023132,tokenizer_offsets + original_transcript_CTC
+13,19,a,1037,71,72,a,[16],5.06246875,5.082468749999999,False,0.02215430699288845,tokenizer_offsets + original_transcript_CTC
+13,20,relationship,3276,73,85,relationship,[17],5.10246875,5.6624687499999995,True,0.9437068104743958,tokenizer_offsets + original_transcript_CTC
+13,21,between,2090,86,93,between,[18],5.76246875,6.06246875,True,0.9484941363334656,tokenizer_offsets + original_transcript_CTC
+13,22,any,2151,94,97,any,[19],6.3224687500000005,6.44246875,True,0.9104785323143005,tokenizer_offsets + original_transcript_CTC
+13,23,two,2048,98,101,two,[20],6.54246875,6.6624687499999995,True,0.9985206723213196,tokenizer_offsets + original_transcript_CTC
+13,24,of,1997,102,104,of,[21],6.76246875,6.80246875,True,0.8881868124008179,tokenizer_offsets + original_transcript_CTC
+13,25,the,1996,105,108,the,[22],6.862468750000001,6.92246875,True,0.8623862862586975,tokenizer_offsets + original_transcript_CTC
+13,26,given,2445,109,114,given,[23],6.98246875,7.2024687499999995,True,0.7935316562652588,tokenizer_offsets + original_transcript_CTC
+13,27,factors,5876,115,122,factors,[24],7.2824687500000005,7.6624687499999995,False,0.0236592385917902,tokenizer_offsets + original_transcript_CTC
+13,28,or,2030,123,125,or,[25],8.26246875,8.34246875,True,0.44216713309288025,tokenizer_offsets + original_transcript_CTC
+13,29,more,2062,126,130,more,[26],8.44246875,8.60246875,True,0.4208807647228241,tokenizer_offsets + original_transcript_CTC
+13,30,.,1012,130,131,.,[],,,False,,punctuation_without_own_acoustic_interval
+14,1,he,2002,0,2,He,[0],0.50246875,0.56246875,True,0.9386923909187317,tokenizer_offsets + original_transcript_CTC
+14,2,is,2003,3,5,is,[1],0.60246875,0.64246875,True,0.4806244969367981,tokenizer_offsets + original_transcript_CTC
+14,3,the,1996,6,9,the,[2],0.68246875,0.74246875,True,0.24964164197444916,tokenizer_offsets + original_transcript_CTC
+14,4,co,2522,10,12,co,[3],0.78246875,0.88246875,True,0.9996870756149292,tokenizer_offsets + original_transcript_CTC
+14,5,-,1011,12,13,-,[],,,False,,punctuation_without_own_acoustic_interval
+14,6,founder,3910,13,20,founder,[4],1.02246875,1.32246875,True,0.9222363829612732,tokenizer_offsets + original_transcript_CTC
+14,7,of,1997,21,23,of,[5],1.40246875,1.44246875,True,0.9996618628501892,tokenizer_offsets + original_transcript_CTC
+14,8,ross,5811,24,28,Ross,[6],1.58246875,1.96246875,True,0.5333347916603088,tokenizer_offsets + original_transcript_CTC
+14,9,##en,2368,28,30,en,[6],1.58246875,1.96246875,True,0.5333347916603088,tokenizer_offsets + original_transcript_CTC
+14,10,and,1998,31,34,and,[7],2.0424687500000003,2.10246875,True,0.9938400983810425,tokenizer_offsets + original_transcript_CTC
+14,11,vet,29525,35,38,Vet,[8],2.1424687500000004,2.4624687499999998,True,0.4009210765361786,tokenizer_offsets + original_transcript_CTC
+14,12,##tes,4570,38,41,tes,[8],2.1424687500000004,2.4624687499999998,True,0.4009210765361786,tokenizer_offsets + original_transcript_CTC
+14,13,##e,2063,41,42,e,[8],2.1424687500000004,2.4624687499999998,True,0.4009210765361786,tokenizer_offsets + original_transcript_CTC
+14,14,limited,3132,43,50,Limited,[9],2.5424687500000003,2.8424687499999997,True,0.9612064361572266,tokenizer_offsets + original_transcript_CTC
+14,15,and,1998,51,54,and,[10],3.2024687500000004,3.2624687499999996,True,0.954361617565155,tokenizer_offsets + original_transcript_CTC
+14,16,the,1996,55,58,the,[11],3.32246875,3.3824687499999997,True,0.9851070046424866,tokenizer_offsets + original_transcript_CTC
+14,17,former,2280,59,65,former,[12],3.46246875,3.7624687499999996,True,0.9768480062484741,tokenizer_offsets + original_transcript_CTC
+14,18,executive,3237,66,75,Executive,[13],3.82246875,4.24246875,True,0.968355655670166,tokenizer_offsets + original_transcript_CTC
+14,19,director,2472,76,84,Director,[14],4.2824687500000005,4.64246875,True,0.9772360920906067,tokenizer_offsets + original_transcript_CTC
+14,20,of,1997,85,87,of,[15],4.84246875,4.88246875,True,0.9996465444564819,tokenizer_offsets + original_transcript_CTC
+14,21,uniform,6375,88,95,Uniform,[16],5.06246875,5.48246875,True,0.959416389465332,tokenizer_offsets + original_transcript_CTC
+14,22,final,2345,96,101,Final,[17],5.64246875,5.88246875,True,0.9990925192832947,tokenizer_offsets + original_transcript_CTC
+14,23,examination,7749,102,113,Examination,[18],5.942468750000001,6.52246875,True,0.9386141300201416,tokenizer_offsets + original_transcript_CTC
+14,24,(,1006,114,115,(,[],,,False,,punctuation_without_own_acoustic_interval
+14,25,u,1057,115,116,U,[19],6.64246875,6.84246875,False,0.007937125861644745,tokenizer_offsets + original_transcript_CTC
+14,26,##fe,7959,116,118,FE,[19],6.64246875,6.84246875,False,0.007937125861644745,tokenizer_offsets + original_transcript_CTC
+14,27,),1007,118,119,),[],,,False,,punctuation_without_own_acoustic_interval
+14,28,courses,5352,120,127,courses,[20],6.96246875,7.86246875,False,3.2298605219693854e-05,tokenizer_offsets + original_transcript_CTC
+14,29,at,2012,128,130,at,[21],8.28246875,8.32246875,True,0.9957141280174255,tokenizer_offsets + original_transcript_CTC
+14,30,toronto,4361,131,138,Toronto,[22],8.382468750000001,8.76246875,True,0.5369113087654114,tokenizer_offsets + original_transcript_CTC
+14,31,',1005,138,139,',[22],8.382468750000001,8.76246875,True,0.5369113087654114,tokenizer_offsets + original_transcript_CTC
+14,32,s,1055,139,140,s,[22],8.382468750000001,8.76246875,True,0.5369113087654114,tokenizer_offsets + original_transcript_CTC
+14,33,york,2259,141,145,York,[23],8.802468750000001,8.96246875,True,0.9506526589393616,tokenizer_offsets + original_transcript_CTC
+14,34,university,2118,146,156,University,[24],9.06246875,9.60246875,True,0.9719800353050232,tokenizer_offsets + original_transcript_CTC
+14,35,.,1012,156,157,.,[],,,False,,punctuation_without_own_acoustic_interval
+15,1,however,2174,0,7,However,[0],0.08246875000000001,0.58246875,False,0.0023545650765299797,tokenizer_offsets + original_transcript_CTC
+15,2,",",1010,7,8,",",[],,,False,,punctuation_without_own_acoustic_interval
+15,3,despite,2750,9,16,despite,[1],0.78246875,1.20246875,False,0.004907372407615185,tokenizer_offsets + original_transcript_CTC
+15,4,their,2037,17,22,their,[2],1.34246875,1.58246875,False,2.556603249104228e-06,tokenizer_offsets + original_transcript_CTC
+15,5,poverty,5635,23,30,poverty,[3],1.62246875,1.76246875,False,1.1744799621737911e-06,tokenizer_offsets + original_transcript_CTC
+15,6,",",1010,30,31,",",[],,,False,,punctuation_without_own_acoustic_interval
+15,7,the,1996,32,35,the,[4],1.78246875,1.8624687500000001,False,0.02259339764714241,tokenizer_offsets + original_transcript_CTC
+15,8,family,2155,36,42,family,[5],2.0624687500000003,2.3624687499999997,False,0.003624299541115761,tokenizer_offsets + original_transcript_CTC
+15,9,prior,3188,43,48,prior,[6],2.5024687500000002,2.9424687499999997,False,4.284210604055261e-07,tokenizer_offsets + original_transcript_CTC
+15,10,##iti,25090,48,51,iti,[6],2.5024687500000002,2.9424687499999997,False,4.284210604055261e-07,tokenizer_offsets + original_transcript_CTC
+15,11,##ze,4371,51,53,ze,[6],2.5024687500000002,2.9424687499999997,False,4.284210604055261e-07,tokenizer_offsets + original_transcript_CTC
+15,12,education,2495,54,63,education,[7],3.0024687500000002,3.54246875,False,0.00018139113672077656,tokenizer_offsets + original_transcript_CTC
+15,13,because,2138,64,71,because,[8],3.6224687500000003,4.00246875,False,4.5481312554329634e-05,tokenizer_offsets + original_transcript_CTC
+15,14,they,2027,72,76,they,[9],4.2424687500000005,4.52246875,False,0.005933777429163456,tokenizer_offsets + original_transcript_CTC
+15,15,believed,3373,77,85,believed,[10],4.56246875,4.86246875,False,1.5329753750847885e-06,tokenizer_offsets + original_transcript_CTC
+15,16,in,1999,86,88,in,[11],4.942468750000001,5.042468749999999,False,0.002681498182937503,tokenizer_offsets + original_transcript_CTC
+15,17,its,2049,89,92,its,[12],5.3224687500000005,5.44246875,False,0.0060836439952254295,tokenizer_offsets + original_transcript_CTC
+15,18,power,2373,93,98,power,[13],6.02246875,6.34246875,False,0.05411956459283829,tokenizer_offsets + original_transcript_CTC
+15,19,to,2000,99,101,to,[14],6.42246875,6.502468749999999,False,3.757683998628636e-06,tokenizer_offsets + original_transcript_CTC
+15,20,transform,10938,102,111,transform,[15],6.7424687500000005,6.98246875,False,7.411141268676147e-05,tokenizer_offsets + original_transcript_CTC
+15,21,lives,3268,112,117,lives,[16],7.02246875,7.28246875,False,0.0014503778656944633,tokenizer_offsets + original_transcript_CTC
+16,1,it,2009,0,2,It,[0],0.48246875,0.62246875,False,0.5242742300033569,tokenizer_offsets + original_transcript_CTC
+16,2,',1005,2,3,',[0],0.48246875,0.62246875,False,0.5242742300033569,tokenizer_offsets + original_transcript_CTC
+16,3,s,1055,3,4,s,[0],0.48246875,0.62246875,False,0.5242742300033569,tokenizer_offsets + original_transcript_CTC
+16,4,a,1037,5,6,a,[1],0.68246875,0.70246875,False,0.8799465298652649,tokenizer_offsets + original_transcript_CTC
+16,5,terrible,6659,7,15,terrible,[2],0.80246875,1.18246875,False,0.9664989113807678,tokenizer_offsets + original_transcript_CTC
+16,6,",",1010,15,16,",",[],,,False,,punctuation_without_own_acoustic_interval
+16,7,this,2023,17,21,this,[3],1.50246875,1.58246875,False,0.03857364133000374,tokenizer_offsets + original_transcript_CTC
+16,8,is,2003,22,24,is,[4],1.6024687499999999,1.66246875,False,0.6030969023704529,tokenizer_offsets + original_transcript_CTC
+16,9,a,1037,25,26,a,[5],1.72246875,1.74246875,False,0.9673195481300354,tokenizer_offsets + original_transcript_CTC
+16,10,terrible,6659,27,35,terrible,[6],1.82246875,2.16246875,False,0.9942152500152588,tokenizer_offsets + original_transcript_CTC
+16,11,movie,3185,36,41,movie,[7],2.2024687500000004,2.50246875,False,0.12760737538337708,tokenizer_offsets + original_transcript_CTC
+17,1,applying,11243,0,8,Applying,[0],0.62246875,1.00246875,True,0.35405853390693665,tokenizer_offsets + original_transcript_CTC
+17,2,these,2122,9,14,these,[1],1.08246875,1.30246875,True,0.9975624680519104,tokenizer_offsets + original_transcript_CTC
+17,3,four,2176,15,19,four,[2],1.44246875,1.68246875,True,0.9754393100738525,tokenizer_offsets + original_transcript_CTC
+17,4,design,2640,20,26,design,[3],1.76246875,2.12246875,True,0.9881370067596436,tokenizer_offsets + original_transcript_CTC
+17,5,concepts,8474,27,35,concepts,[4],2.22246875,2.7424687499999996,True,0.9799201488494873,tokenizer_offsets + original_transcript_CTC
+17,6,to,2000,36,38,to,[5],2.82246875,2.9024687499999997,True,0.9998746514320374,tokenizer_offsets + original_transcript_CTC
+17,7,your,2115,39,43,your,[6],2.96246875,3.08246875,True,0.9912975430488586,tokenizer_offsets + original_transcript_CTC
+17,8,presentations,18216,44,57,presentations,[7],3.1224687500000003,3.8224687499999996,True,0.9872028827667236,tokenizer_offsets + original_transcript_CTC
+17,9,is,2003,58,60,is,[8],4.362468750000001,4.44246875,True,0.8696038126945496,tokenizer_offsets + original_transcript_CTC
+17,10,simple,3722,61,67,simple,[9],4.80246875,5.10246875,True,0.988266110420227,tokenizer_offsets + original_transcript_CTC
+17,11,",",1010,67,68,",",[],,,False,,punctuation_without_own_acoustic_interval
+17,12,easy,3733,69,73,easy,[10],5.64246875,5.86246875,True,0.905495285987854,tokenizer_offsets + original_transcript_CTC
+17,13,and,1998,74,77,and,[11],6.42246875,6.542468749999999,True,0.9991453289985657,tokenizer_offsets + original_transcript_CTC
+17,14,will,2097,78,82,will,[12],6.80246875,6.94246875,True,0.9990068674087524,tokenizer_offsets + original_transcript_CTC
+17,15,make,2191,83,87,make,[13],6.98246875,7.10246875,True,0.9999430775642395,tokenizer_offsets + original_transcript_CTC
+17,16,people,2111,88,94,people,[14],7.14246875,7.36246875,True,0.9978223443031311,tokenizer_offsets + original_transcript_CTC
+17,17,think,2228,95,100,think,[15],7.442468750000001,7.60246875,True,0.9998807907104492,tokenizer_offsets + original_transcript_CTC
+17,18,you,2017,101,104,you,[16],7.70246875,7.78246875,True,0.9950032234191895,tokenizer_offsets + original_transcript_CTC
+17,19,turned,2357,105,111,turned,[17],7.84246875,8.04246875,True,0.9033384323120117,tokenizer_offsets + original_transcript_CTC
+17,20,into,2046,112,116,into,[18],8.08246875,8.20246875,True,0.9751050472259521,tokenizer_offsets + original_transcript_CTC
+17,21,a,1037,117,118,a,[19],8.24246875,8.26246875,True,0.9939213991165161,tokenizer_offsets + original_transcript_CTC
+17,22,design,2640,119,125,design,[20],8.302468750000001,8.642468749999999,True,0.9076966643333435,tokenizer_offsets + original_transcript_CTC
+17,23,guru,11972,126,130,guru,[21],8.74246875,9.02246875,True,0.2903304696083069,tokenizer_offsets + original_transcript_CTC
+17,24,.,1012,130,131,.,[],,,False,,punctuation_without_own_acoustic_interval
+18,1,-,1011,0,1,-,[],,,False,,punctuation_without_own_acoustic_interval
+18,2,and,1998,1,4,And,[0],0.56246875,0.64246875,True,0.8556734323501587,tokenizer_offsets + original_transcript_CTC
+18,3,in,1999,5,7,in,[1],0.72246875,0.76246875,True,0.9958396553993225,tokenizer_offsets + original_transcript_CTC
+18,4,denmark,5842,8,15,Denmark,[2],0.82246875,1.20246875,True,0.8323358297348022,tokenizer_offsets + original_transcript_CTC
+18,5,-,1011,16,17,-,[],,,False,,punctuation_without_own_acoustic_interval
+18,6,the,1996,18,21,the,[3],1.58246875,1.66246875,True,0.9350138902664185,tokenizer_offsets + original_transcript_CTC
+18,7,first,2034,22,27,first,[4],1.72246875,1.94246875,True,0.9998643398284912,tokenizer_offsets + original_transcript_CTC
+18,8,baltic,11275,28,34,Baltic,[5],2.0024687500000002,2.3624687499999997,True,0.8455907106399536,tokenizer_offsets + original_transcript_CTC
+18,9,cod,19429,35,38,Cod,[6],2.46246875,2.72246875,True,0.9534637331962585,tokenizer_offsets + original_transcript_CTC
+18,10,fishery,22880,39,46,fishery,[7],2.82246875,3.2424687499999996,True,0.9499982595443726,tokenizer_offsets + original_transcript_CTC
+18,11,has,2038,47,50,has,[8],3.6624687500000004,3.7624687499999996,True,0.9920501708984375,tokenizer_offsets + original_transcript_CTC
+18,12,been,2042,51,55,been,[9],3.82246875,3.9624687499999998,True,0.9928425550460815,tokenizer_offsets + original_transcript_CTC
+18,13,msc,23794,56,59,MSC,[10],4.10246875,4.32246875,True,0.19307246804237366,tokenizer_offsets + original_transcript_CTC
+18,14,–,1516,60,61,–,[],,,False,,punctuation_without_own_acoustic_interval
+18,15,certified,7378,62,71,certified,[11],4.52246875,5.082468749999999,True,0.6883160471916199,tokenizer_offsets + original_transcript_CTC
+18,16,-,1011,72,73,-,[],,,False,,punctuation_without_own_acoustic_interval
+18,17,meanwhile,5564,73,82,Meanwhile,[12],6.34246875,6.82246875,True,0.9866660833358765,tokenizer_offsets + original_transcript_CTC
+18,18,",",1010,82,83,",",[],,,False,,punctuation_without_own_acoustic_interval
+18,19,the,1996,84,87,the,[13],7.14246875,7.24246875,True,0.9960798025131226,tokenizer_offsets + original_transcript_CTC
+18,20,fae,17282,88,91,Fae,[14],7.30246875,7.74246875,False,0.05736827105283737,tokenizer_offsets + original_transcript_CTC
+18,21,##ro,3217,91,93,ro,[14],7.30246875,7.74246875,False,0.05736827105283737,tokenizer_offsets + original_transcript_CTC
+18,22,##ese,6810,93,96,ese,[14],7.30246875,7.74246875,False,0.05736827105283737,tokenizer_offsets + original_transcript_CTC
+18,23,mack,11349,97,101,Mack,[15],7.8224687500000005,8.16246875,True,0.5664783716201782,tokenizer_offsets + original_transcript_CTC
+18,24,##ere,7869,101,104,ere,[15],7.8224687500000005,8.16246875,True,0.5664783716201782,tokenizer_offsets + original_transcript_CTC
+18,25,##l,2140,104,105,l,[15],7.8224687500000005,8.16246875,True,0.5664783716201782,tokenizer_offsets + original_transcript_CTC
+18,26,fishery,22880,106,113,Fishery,[16],8.24246875,8.58246875,True,0.6844070553779602,tokenizer_offsets + original_transcript_CTC
+18,27,has,2038,114,117,has,[17],8.68246875,8.76246875,True,0.9834122657775879,tokenizer_offsets + original_transcript_CTC
+18,28,been,2042,118,122,been,[18],8.84246875,8.98246875,True,0.9955397248268127,tokenizer_offsets + original_transcript_CTC
+18,29,denied,6380,123,129,denied,[19],9.02246875,9.42246875,True,0.9618099927902222,tokenizer_offsets + original_transcript_CTC
+18,30,msc,23794,130,133,MSC,[20],9.52246875,9.76246875,True,0.17645572125911713,tokenizer_offsets + original_transcript_CTC
+18,31,certification,10618,134,147,certification,[21],9.94246875,10.642468749999999,True,0.42344433069229126,tokenizer_offsets + original_transcript_CTC
+18,32,based,2241,148,153,based,[22],11.12246875,11.38246875,True,0.9966421127319336,tokenizer_offsets + original_transcript_CTC
+18,33,on,2006,154,156,on,[23],11.462468750000001,11.50246875,True,0.9997926950454712,tokenizer_offsets + original_transcript_CTC
+18,34,the,1996,157,160,the,[24],11.56246875,11.62246875,True,0.998633623123169,tokenizer_offsets + original_transcript_CTC
+18,35,fact,2755,161,165,fact,[25],11.66246875,11.88246875,True,0.9790154099464417,tokenizer_offsets + original_transcript_CTC
+18,36,that,2008,166,170,that,[26],11.92246875,12.04246875,True,0.9798809885978699,tokenizer_offsets + original_transcript_CTC
+18,37,the,1996,171,174,the,[27],12.06246875,12.12246875,True,0.9904630780220032,tokenizer_offsets + original_transcript_CTC
+18,38,fishery,22880,175,182,fishery,[28],12.18246875,12.54246875,True,0.9390960335731506,tokenizer_offsets + original_transcript_CTC
+18,39,has,2038,183,186,has,[29],12.58246875,12.68246875,True,0.49951204657554626,tokenizer_offsets + original_transcript_CTC
+18,40,failed,3478,187,193,failed,[30],12.78246875,13.08246875,True,0.946504533290863,tokenizer_offsets + original_transcript_CTC
+18,41,to,2000,194,196,to,[31],13.12246875,13.18246875,True,0.9586106538772583,tokenizer_offsets + original_transcript_CTC
+18,42,reach,3362,197,202,reach,[32],13.26246875,13.46246875,True,0.9707210063934326,tokenizer_offsets + original_transcript_CTC
+18,43,an,2019,203,205,an,[33],13.52246875,13.562468749999999,True,0.9885731935501099,tokenizer_offsets + original_transcript_CTC
+18,44,agreement,3820,206,215,agreement,[34],13.62246875,14.04246875,True,0.9382839798927307,tokenizer_offsets + original_transcript_CTC
+18,45,on,2006,216,218,on,[35],14.68246875,14.722468749999999,True,0.9987298846244812,tokenizer_offsets + original_transcript_CTC
+18,46,mack,11349,219,223,mack,[36],14.802468750000001,15.20246875,True,0.6282199621200562,tokenizer_offsets + original_transcript_CTC
+18,47,##ere,7869,223,226,ere,[36],14.802468750000001,15.20246875,True,0.6282199621200562,tokenizer_offsets + original_transcript_CTC
+18,48,##l,2140,226,227,l,[36],14.802468750000001,15.20246875,True,0.6282199621200562,tokenizer_offsets + original_transcript_CTC
+19,1,people,2111,0,6,People,[0],0.52246875,0.72246875,True,0.999176561832428,tokenizer_offsets + original_transcript_CTC
+19,2,are,2024,7,10,are,[1],0.76246875,0.84246875,True,0.9207941889762878,tokenizer_offsets + original_transcript_CTC
+19,3,surprisingly,10889,11,23,surprisingly,[2],0.96246875,1.70246875,True,0.9949117302894592,tokenizer_offsets + original_transcript_CTC
+19,4,for,2005,24,27,for,[3],1.80246875,2.22246875,True,0.9968234896659851,tokenizer_offsets + original_transcript_CTC
+19,5,##giving,23795,27,33,giving,[3],1.80246875,2.22246875,True,0.9968234896659851,tokenizer_offsets + original_transcript_CTC
+19,6,brands,9639,34,40,brands,[4],2.36246875,2.7424687499999996,True,0.9958784580230713,tokenizer_offsets + original_transcript_CTC
+19,7,when,2043,41,45,when,[5],2.82246875,2.9424687499999997,True,0.9860247373580933,tokenizer_offsets + original_transcript_CTC
+19,8,they,2027,46,50,they,[6],2.9824687500000002,3.10246875,True,0.9808379411697388,tokenizer_offsets + original_transcript_CTC
+19,9,own,2219,51,54,own,[7],3.30246875,3.4224687499999997,True,0.9975630044937134,tokenizer_offsets + original_transcript_CTC
+19,10,up,2039,55,57,up,[8],3.6024687500000003,3.68246875,True,0.8039038777351379,tokenizer_offsets + original_transcript_CTC
+19,11,to,2000,58,60,to,[9],3.76246875,3.8424687499999997,True,0.998837411403656,tokenizer_offsets + original_transcript_CTC
+19,12,mistakes,12051,61,69,mistakes,[10],3.90246875,4.40246875,True,0.9678189754486084,tokenizer_offsets + original_transcript_CTC
+19,13,",",1010,69,70,",",[],,,False,,punctuation_without_own_acoustic_interval
+19,14,and,1998,71,74,and,[11],5.20246875,5.26246875,True,0.9936143159866333,tokenizer_offsets + original_transcript_CTC
+19,15,unfortunately,6854,75,88,unfortunately,[12],5.34246875,6.06246875,True,0.9624181389808655,tokenizer_offsets + original_transcript_CTC
+19,16,some,2070,89,93,some,[13],6.14246875,6.30246875,True,0.9199090600013733,tokenizer_offsets + original_transcript_CTC
+19,17,hate,5223,94,98,hate,[14],6.38246875,6.74246875,True,0.9901571869850159,tokenizer_offsets + original_transcript_CTC
+19,18,##rs,2869,98,100,rs,[14],6.38246875,6.74246875,True,0.9901571869850159,tokenizer_offsets + original_transcript_CTC
+19,19,out,2041,101,104,out,[15],6.8224687500000005,6.92246875,True,0.9711909294128418,tokenizer_offsets + original_transcript_CTC
+19,20,there,2045,105,110,there,[16],6.98246875,7.14246875,True,0.7939778566360474,tokenizer_offsets + original_transcript_CTC
+19,21,love,2293,111,115,love,[17],7.60246875,7.82246875,True,0.992824375629425,tokenizer_offsets + original_transcript_CTC
+19,22,to,2000,116,118,to,[18],8.06246875,8.142468749999999,True,0.9997791647911072,tokenizer_offsets + original_transcript_CTC
+19,23,point,2391,119,124,point,[19],8.20246875,8.40246875,True,0.9992609620094299,tokenizer_offsets + original_transcript_CTC
+19,24,fingers,3093,125,132,fingers,[20],8.50246875,8.88246875,True,0.971007227897644,tokenizer_offsets + original_transcript_CTC
+19,25,and,1998,133,136,and,[21],9.00246875,9.08246875,True,0.999566376209259,tokenizer_offsets + original_transcript_CTC
+19,26,jump,5376,137,141,jump,[22],9.16246875,9.32246875,True,0.9999585747718811,tokenizer_offsets + original_transcript_CTC
+19,27,all,2035,142,145,all,[23],9.52246875,9.642468749999999,True,0.9998044371604919,tokenizer_offsets + original_transcript_CTC
+19,28,over,2058,146,150,over,[24],9.74246875,9.90246875,True,0.9676870107650757,tokenizer_offsets + original_transcript_CTC
+19,29,imperfect,29238,151,160,imperfect,[25],9.98246875,10.70246875,True,0.9588043093681335,tokenizer_offsets + original_transcript_CTC
+19,30,##ions,8496,160,164,ions,[25],9.98246875,10.70246875,True,0.9588043093681335,tokenizer_offsets + original_transcript_CTC
+19,31,",",1010,164,165,",",[],,,False,,punctuation_without_own_acoustic_interval
+19,32,but,2021,166,169,but,[26],11.20246875,11.30246875,True,0.9736051559448242,tokenizer_offsets + original_transcript_CTC
+19,33,for,2005,170,173,for,[27],11.34246875,11.42246875,True,0.9995461702346802,tokenizer_offsets + original_transcript_CTC
+19,34,the,1996,174,177,the,[28],11.48246875,11.54246875,True,0.9937551617622375,tokenizer_offsets + original_transcript_CTC
+19,35,most,2087,178,182,most,[29],11.58246875,11.76246875,True,0.9001030325889587,tokenizer_offsets + original_transcript_CTC
+19,36,part,2112,183,187,part,[30],11.82246875,12.00246875,True,0.9806471467018127,tokenizer_offsets + original_transcript_CTC
+19,37,",",1010,187,188,",",[],,,False,,punctuation_without_own_acoustic_interval
+19,38,people,2111,189,195,people,[31],12.10246875,12.34246875,True,0.9756661057472229,tokenizer_offsets + original_transcript_CTC
+19,39,understand,3305,196,206,understand,[32],12.44246875,13.062468749999999,False,0.057784393429756165,tokenizer_offsets + original_transcript_CTC
+20,1,and,1998,0,3,And,[0],0.56246875,0.64246875,True,0.9969853758811951,tokenizer_offsets + original_transcript_CTC
+20,2,of,1997,4,6,of,[1],0.70246875,0.74246875,True,0.9986615777015686,tokenizer_offsets + original_transcript_CTC
+20,3,course,2607,7,13,course,[2],0.82246875,1.04246875,True,0.9446648359298706,tokenizer_offsets + original_transcript_CTC
+20,4,",",1010,13,14,",",[],,,False,,punctuation_without_own_acoustic_interval
+20,5,click,11562,15,20,click,[3],1.18246875,1.38246875,True,0.8860551118850708,tokenizer_offsets + original_transcript_CTC
+20,6,in,1999,21,23,in,[4],1.50246875,1.54246875,True,0.9968485832214355,tokenizer_offsets + original_transcript_CTC
+20,7,the,1996,24,27,the,[5],1.62246875,1.68246875,True,0.9787731766700745,tokenizer_offsets + original_transcript_CTC
+20,8,link,4957,28,32,link,[6],1.76246875,1.96246875,True,0.9808173179626465,tokenizer_offsets + original_transcript_CTC
+20,9,of,1997,33,35,of,[7],2.0624687500000003,2.10246875,False,0.0006955581484362483,tokenizer_offsets + original_transcript_CTC
+20,10,the,1996,36,39,the,[8],2.1624687500000004,2.22246875,True,0.9842814803123474,tokenizer_offsets + original_transcript_CTC
+20,11,description,6412,40,51,description,[9],2.24246875,2.62246875,True,0.9846801161766052,tokenizer_offsets + original_transcript_CTC
+20,12,of,1997,52,54,of,[10],2.6624687500000004,2.70246875,True,0.9992218613624573,tokenizer_offsets + original_transcript_CTC
+20,13,this,2023,55,59,this,[11],2.76246875,2.8824687499999997,True,0.8305428624153137,tokenizer_offsets + original_transcript_CTC
+20,14,video,2678,60,65,video,[12],2.96246875,3.22246875,True,0.41092950105667114,tokenizer_offsets + original_transcript_CTC
+20,15,for,2005,66,69,for,[13],3.32246875,3.4624687499999998,True,0.5608615875244141,tokenizer_offsets + original_transcript_CTC
+20,16,more,2062,70,74,more,[14],3.5424687500000003,3.7824687499999996,True,0.966558575630188,tokenizer_offsets + original_transcript_CTC
+20,17,",",1010,74,75,",",[],,,False,,punctuation_without_own_acoustic_interval
+20,18,and,1998,76,79,and,[15],4.56246875,4.64246875,True,0.9384353160858154,tokenizer_offsets + original_transcript_CTC
+20,19,we,2057,80,82,we,[16],4.70246875,4.88246875,True,0.9040180444717407,tokenizer_offsets + original_transcript_CTC
+20,20,',1005,82,83,',[16],4.70246875,4.88246875,True,0.9040180444717407,tokenizer_offsets + original_transcript_CTC
+20,21,ll,2222,83,85,ll,[16],4.70246875,4.88246875,True,0.9040180444717407,tokenizer_offsets + original_transcript_CTC
+20,22,have,2031,86,90,have,[17],4.942468750000001,5.10246875,True,0.999366044998169,tokenizer_offsets + original_transcript_CTC
+20,23,more,2062,91,95,more,[18],5.22246875,5.46246875,True,0.9288788437843323,tokenizer_offsets + original_transcript_CTC
+20,24,live,2444,96,100,live,[19],5.64246875,5.88246875,True,0.9934042692184448,tokenizer_offsets + original_transcript_CTC
+20,25,updates,14409,101,108,updates,[20],6.04246875,6.44246875,True,0.9618054032325745,tokenizer_offsets + original_transcript_CTC
+20,26,and,1998,109,112,and,[21],6.66246875,6.78246875,True,0.9625658988952637,tokenizer_offsets + original_transcript_CTC
+20,27,a,1037,113,114,a,[22],6.92246875,6.94246875,True,0.322466105222702,tokenizer_offsets + original_transcript_CTC
+20,28,stock,4518,115,120,stock,[23],7.08246875,7.30246875,True,0.9796991348266602,tokenizer_offsets + original_transcript_CTC
+20,29,market,3006,121,127,market,[24],7.402468750000001,7.72246875,True,0.9918494820594788,tokenizer_offsets + original_transcript_CTC
+20,30,video,2678,128,133,video,[25],7.80246875,8.10246875,True,0.4080595374107361,tokenizer_offsets + original_transcript_CTC
+20,31,(,1006,134,135,(,[],,,False,,punctuation_without_own_acoustic_interval
+20,32,wrap,10236,135,139,wrap,[26],8.24246875,8.46246875,False,0.0003452808887232095,tokenizer_offsets + original_transcript_CTC
+20,33,-,1011,139,140,-,[],,,False,,punctuation_without_own_acoustic_interval
+20,34,up,2039,140,142,up,[27],8.58246875,8.642468749999999,False,0.0007254639058373868,tokenizer_offsets + original_transcript_CTC
+20,35,),1007,142,143,),[],,,False,,punctuation_without_own_acoustic_interval
+20,36,at,2012,144,146,at,[28],8.78246875,8.84246875,True,0.9891664385795593,tokenizer_offsets + original_transcript_CTC
+20,37,the,1996,147,150,the,[29],8.92246875,9.00246875,True,0.9892632961273193,tokenizer_offsets + original_transcript_CTC
+20,38,end,2203,151,154,end,[30],9.04246875,9.10246875,True,0.9992008805274963,tokenizer_offsets + original_transcript_CTC
+20,39,of,1997,155,157,of,[31],9.14246875,9.18246875,True,0.9936656951904297,tokenizer_offsets + original_transcript_CTC
+20,40,the,1996,158,161,the,[32],9.22246875,9.28246875,True,0.9787676930427551,tokenizer_offsets + original_transcript_CTC
+20,41,day,2154,162,165,day,[33],9.32246875,9.42246875,True,0.9986217021942139,tokenizer_offsets + original_transcript_CTC
+20,42,today,2651,166,171,today,[34],9.462468750000001,9.68246875,True,0.9202078580856323,tokenizer_offsets + original_transcript_CTC
+20,43,.,1012,171,172,.,[],,,False,,punctuation_without_own_acoustic_interval

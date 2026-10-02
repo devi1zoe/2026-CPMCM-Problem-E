@@ -1,0 +1,12 @@
+{
+  "checkpoints": {
+    "step2_study/checkpoints/shape_single_17.pt": "28c431264ea4ad513be4b5f74d3e7977973ce9add8533becada83f027bb50345",
+    "step2_study/checkpoints/shape_single_29.pt": "dce31a743788eea71d9249223afb0dd3f00a554628bf23a0292dbdb49f64da65",
+    "step2_study/checkpoints/shape_single_43.pt": "36465a51084e88186eb59e788d2868473d16a6ca1374344d8e561c12dafb2cd3"
+  },
+  "profiles": 253,
+  "selection_sha256": "6066f555e93c1a8c32ca166fd8bde7ec22b08d847b06c3868b79788368fbc8f2",
+  "protocol_sha256": "102694aa476b8a77840f7ad2da42e41f0b32afeb364d91fc6f1d254e1c21c276",
+  "all_missing_policy": "train_prior",
+  "backend": "linear"
+}

@@ -1,0 +1,1185 @@
+{
+  "sample_id": "-lzEya4AM_4$_$6",
+  "video_id": "-lzEya4AM_4",
+  "clip_id": "6",
+  "raw_text": "If the product or poison is some type of petroleum product or corrosive product, you would not attempt to induce vomiting and nausea, as as the product burned on the way down it could cause damage and burning on the way back up.",
+  "label": -0.3333333432674408,
+  "annotation": "Negative",
+  "source_path": "E题_材料阅读/E题数据/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-lzEya4AM_4/6.mp4",
+  "source_sha256": "ff5da5afb551001d58100ed2471caea51c741046d5396957efbf40082307ca18",
+  "config_sha256": "4a530340304f07255daf856e6891f0a15e50f05bd85343d067a663a573e8f888",
+  "code_sha256": {
+    "common.py": "4a37980b521a2f5a93e208d3ba265542a149336b3401aa89b8a4494517f5e16e",
+    "alignment.py": "76b29c002cdc97e8e0e85cffae02d81db938fa39484ad908c28c5efc60de0c34",
+    "features.py": "8283e0d0886b83bbd84d4db4521599b480b0ada4bc1afc4e4b9b91cddf5b4018",
+    "run.py": "f75d7b5bc6e342541664233a37a3d87f39313bcd3a8f3a50bfaea94798d4e07b"
+  },
+  "model_assets_sha256": {
+    "assets/face_landmarker.task": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff",
+    "assets/wav2vec2/preprocessor_config.json": "b225d617c025463b9e157e06afea8b90dc7078fc70b013c533328423e0486b4a",
+    "assets/wav2vec2/vocab.json": "19727f8944fe6459fc3f240ae2c198395b740f6a029bd23e06656266b83bcf64",
+    "assets/wav2vec2/special_tokens_map.json": "bb7068de1150661a10b55f9e4b12a0e77af8bf91f5e45e1b58afaf1d0e17f675",
+    "assets/wav2vec2/tokenizer_config.json": "dc790594f5bc351a4311c6624f40acd95850d4aaf2a5cb3c656c9b610720b608",
+    "assets/wav2vec2/model.safetensors": "8aa76ab2243c81747a1f832954586bc566090c83a0ac167df6f31f0fa917d74a",
+    "assets/wav2vec2/config.json": "d3ec255c063d9f95057b553b19c20135b259875834a4fe9deb218a6be25b4cf3",
+    "assets/distilbert/vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+    "assets/distilbert/tokenizer_config.json": "a025160ef0431f1a392f6f050c1310f4c5d9fb6f275932dbccba73c4d214bf10",
+    "assets/distilbert/model.safetensors": "5e3f1108e3cb34ee048634875d8482665b65ac713291a7e32396fb18f6ff0063",
+    "assets/distilbert/config.json": "69c94b0222d5d1f4b0ad027ca7416cdafb98378cbbb8305d0bf47c9365c60c83",
+    "assets/distilbert/tokenizer.json": "ce64fce797c24f68df90b40a3f74f579b336a493db14bd583fd520ea0d8c9a98"
+  },
+  "duration": 14.7919921875,
+  "video_rate": 30.0,
+  "video_origin": 0.0,
+  "audio_start": 0.0,
+  "audio_duration": 14.740375,
+  "audio_coverage_ratio": 1.0,
+  "words": [
+    {
+      "index": 0,
+      "original": "If",
+      "char_start": 0,
+      "char_end": 2,
+      "normalized": "IF",
+      "subword_indices": [
+        0
+      ],
+      "start": 0.60246875,
+      "end": 0.64246875,
+      "confidence": 0.9997050166130066,
+      "status": "aligned"
+    },
+    {
+      "index": 1,
+      "original": "the",
+      "char_start": 3,
+      "char_end": 6,
+      "normalized": "THE",
+      "subword_indices": [
+        1
+      ],
+      "start": 0.74246875,
+      "end": 0.8024687500000001,
+      "confidence": 0.9928651452064514,
+      "status": "aligned"
+    },
+    {
+      "index": 2,
+      "original": "product",
+      "char_start": 7,
+      "char_end": 14,
+      "normalized": "PRODUCT",
+      "subword_indices": [
+        2
+      ],
+      "start": 0.86246875,
+      "end": 1.24246875,
+      "confidence": 0.9994533061981201,
+      "status": "aligned"
+    },
+    {
+      "index": 3,
+      "original": "or",
+      "char_start": 15,
+      "char_end": 17,
+      "normalized": "OR",
+      "subword_indices": [
+        3
+      ],
+      "start": 1.58246875,
+      "end": 1.62246875,
+      "confidence": 0.999656617641449,
+      "status": "aligned"
+    },
+    {
+      "index": 4,
+      "original": "poison",
+      "char_start": 18,
+      "char_end": 24,
+      "normalized": "POISON",
+      "subword_indices": [
+        4
+      ],
+      "start": 1.72246875,
+      "end": 2.10246875,
+      "confidence": 0.955799400806427,
+      "status": "aligned"
+    },
+    {
+      "index": 5,
+      "original": "is",
+      "char_start": 25,
+      "char_end": 27,
+      "normalized": "IS",
+      "subword_indices": [
+        5
+      ],
+      "start": 2.2024687500000004,
+      "end": 2.2424687499999996,
+      "confidence": 0.47348448634147644,
+      "status": "aligned"
+    },
+    {
+      "index": 6,
+      "original": "some",
+      "char_start": 28,
+      "char_end": 32,
+      "normalized": "SOME",
+      "subword_indices": [
+        6
+      ],
+      "start": 2.28246875,
+      "end": 2.4424687499999997,
+      "confidence": 0.8727858662605286,
+      "status": "aligned"
+    },
+    {
+      "index": 7,
+      "original": "type",
+      "char_start": 33,
+      "char_end": 37,
+      "normalized": "TYPE",
+      "subword_indices": [
+        7
+      ],
+      "start": 2.46246875,
+      "end": 2.68246875,
+      "confidence": 0.8555541038513184,
+      "status": "aligned"
+    },
+    {
+      "index": 8,
+      "original": "of",
+      "char_start": 38,
+      "char_end": 40,
+      "normalized": "OF",
+      "subword_indices": [
+        8
+      ],
+      "start": 2.74246875,
+      "end": 2.7824687499999996,
+      "confidence": 0.9979967474937439,
+      "status": "aligned"
+    },
+    {
+      "index": 9,
+      "original": "petroleum",
+      "char_start": 41,
+      "char_end": 50,
+      "normalized": "PETROLEUM",
+      "subword_indices": [
+        9
+      ],
+      "start": 2.88246875,
+      "end": 3.3624687499999997,
+      "confidence": 0.7758728861808777,
+      "status": "aligned"
+    },
+    {
+      "index": 10,
+      "original": "product",
+      "char_start": 51,
+      "char_end": 58,
+      "normalized": "PRODUCT",
+      "subword_indices": [
+        10
+      ],
+      "start": 3.44246875,
+      "end": 3.7824687499999996,
+      "confidence": 0.9533442854881287,
+      "status": "aligned"
+    },
+    {
+      "index": 11,
+      "original": "or",
+      "char_start": 59,
+      "char_end": 61,
+      "normalized": "OR",
+      "subword_indices": [
+        11
+      ],
+      "start": 4.22246875,
+      "end": 4.28246875,
+      "confidence": 0.7974461317062378,
+      "status": "aligned"
+    },
+    {
+      "index": 12,
+      "original": "corrosive",
+      "char_start": 62,
+      "char_end": 71,
+      "normalized": "CORROSIVE",
+      "subword_indices": [
+        12,
+        13,
+        14
+      ],
+      "start": 4.362468750000001,
+      "end": 4.80246875,
+      "confidence": 0.9400955438613892,
+      "status": "aligned"
+    },
+    {
+      "index": 13,
+      "original": "product",
+      "char_start": 72,
+      "char_end": 79,
+      "normalized": "PRODUCT",
+      "subword_indices": [
+        15
+      ],
+      "start": 4.862468750000001,
+      "end": 5.22246875,
+      "confidence": 0.9217635989189148,
+      "status": "aligned"
+    },
+    {
+      "index": 14,
+      "original": "you",
+      "char_start": 81,
+      "char_end": 84,
+      "normalized": "YOU",
+      "subword_indices": [
+        17
+      ],
+      "start": 5.80246875,
+      "end": 5.88246875,
+      "confidence": 0.9991558790206909,
+      "status": "aligned"
+    },
+    {
+      "index": 15,
+      "original": "would",
+      "char_start": 85,
+      "char_end": 90,
+      "normalized": "WOULD",
+      "subword_indices": [
+        18
+      ],
+      "start": 5.92246875,
+      "end": 6.082468749999999,
+      "confidence": 0.926299512386322,
+      "status": "aligned"
+    },
+    {
+      "index": 16,
+      "original": "not",
+      "char_start": 91,
+      "char_end": 94,
+      "normalized": "NOT",
+      "subword_indices": [
+        19
+      ],
+      "start": 6.12246875,
+      "end": 6.28246875,
+      "confidence": 0.9261496067047119,
+      "status": "aligned"
+    },
+    {
+      "index": 17,
+      "original": "attempt",
+      "char_start": 95,
+      "char_end": 102,
+      "normalized": "ATTEMPT",
+      "subword_indices": [
+        20
+      ],
+      "start": 6.46246875,
+      "end": 6.78246875,
+      "confidence": 0.95364910364151,
+      "status": "aligned"
+    },
+    {
+      "index": 18,
+      "original": "to",
+      "char_start": 103,
+      "char_end": 105,
+      "normalized": "TO",
+      "subword_indices": [
+        21
+      ],
+      "start": 7.18246875,
+      "end": 7.28246875,
+      "confidence": 0.8475202918052673,
+      "status": "aligned"
+    },
+    {
+      "index": 19,
+      "original": "induce",
+      "char_start": 106,
+      "char_end": 112,
+      "normalized": "INDUCE",
+      "subword_indices": [
+        22
+      ],
+      "start": 7.62246875,
+      "end": 7.92246875,
+      "confidence": 0.9962121248245239,
+      "status": "aligned"
+    },
+    {
+      "index": 20,
+      "original": "vomiting",
+      "char_start": 113,
+      "char_end": 121,
+      "normalized": "VOMITING",
+      "subword_indices": [
+        23
+      ],
+      "start": 8.00246875,
+      "end": 8.38246875,
+      "confidence": 0.8460581302642822,
+      "status": "aligned"
+    },
+    {
+      "index": 21,
+      "original": "and",
+      "char_start": 122,
+      "char_end": 125,
+      "normalized": "AND",
+      "subword_indices": [
+        24
+      ],
+      "start": 8.60246875,
+      "end": 8.68246875,
+      "confidence": 0.8424057960510254,
+      "status": "aligned"
+    },
+    {
+      "index": 22,
+      "original": "nausea",
+      "char_start": 126,
+      "char_end": 132,
+      "normalized": "NAUSEA",
+      "subword_indices": [
+        25
+      ],
+      "start": 8.72246875,
+      "end": 9.08246875,
+      "confidence": 0.9385284185409546,
+      "status": "aligned"
+    },
+    {
+      "index": 23,
+      "original": "as",
+      "char_start": 134,
+      "char_end": 136,
+      "normalized": "AS",
+      "subword_indices": [
+        27
+      ],
+      "start": 9.64246875,
+      "end": 9.70246875,
+      "confidence": 0.9978101849555969,
+      "status": "aligned"
+    },
+    {
+      "index": 24,
+      "original": "as",
+      "char_start": 137,
+      "char_end": 139,
+      "normalized": "AS",
+      "subword_indices": [
+        28
+      ],
+      "start": 9.76246875,
+      "end": 9.80246875,
+      "confidence": 0.0026559256948530674,
+      "status": "low_confidence"
+    },
+    {
+      "index": 25,
+      "original": "the",
+      "char_start": 140,
+      "char_end": 143,
+      "normalized": "THE",
+      "subword_indices": [
+        29
+      ],
+      "start": 9.882468750000001,
+      "end": 9.94246875,
+      "confidence": 0.9905025959014893,
+      "status": "aligned"
+    },
+    {
+      "index": 26,
+      "original": "product",
+      "char_start": 144,
+      "char_end": 151,
+      "normalized": "PRODUCT",
+      "subword_indices": [
+        30
+      ],
+      "start": 9.98246875,
+      "end": 10.30246875,
+      "confidence": 0.9913223385810852,
+      "status": "aligned"
+    },
+    {
+      "index": 27,
+      "original": "burned",
+      "char_start": 152,
+      "char_end": 158,
+      "normalized": "BURNED",
+      "subword_indices": [
+        31
+      ],
+      "start": 10.42246875,
+      "end": 10.68246875,
+      "confidence": 0.9699600338935852,
+      "status": "aligned"
+    },
+    {
+      "index": 28,
+      "original": "on",
+      "char_start": 159,
+      "char_end": 161,
+      "normalized": "ON",
+      "subword_indices": [
+        32
+      ],
+      "start": 10.76246875,
+      "end": 10.80246875,
+      "confidence": 0.9992175102233887,
+      "status": "aligned"
+    },
+    {
+      "index": 29,
+      "original": "the",
+      "char_start": 162,
+      "char_end": 165,
+      "normalized": "THE",
+      "subword_indices": [
+        33
+      ],
+      "start": 10.86246875,
+      "end": 10.92246875,
+      "confidence": 0.9814375042915344,
+      "status": "aligned"
+    },
+    {
+      "index": 30,
+      "original": "way",
+      "char_start": 166,
+      "char_end": 169,
+      "normalized": "WAY",
+      "subword_indices": [
+        34
+      ],
+      "start": 10.962468750000001,
+      "end": 11.08246875,
+      "confidence": 0.9949960708618164,
+      "status": "aligned"
+    },
+    {
+      "index": 31,
+      "original": "down",
+      "char_start": 170,
+      "char_end": 174,
+      "normalized": "DOWN",
+      "subword_indices": [
+        35
+      ],
+      "start": 11.14246875,
+      "end": 11.38246875,
+      "confidence": 0.9999626278877258,
+      "status": "aligned"
+    },
+    {
+      "index": 32,
+      "original": "it",
+      "char_start": 175,
+      "char_end": 177,
+      "normalized": "IT",
+      "subword_indices": [
+        36
+      ],
+      "start": 11.802468750000001,
+      "end": 11.84246875,
+      "confidence": 0.998955488204956,
+      "status": "aligned"
+    },
+    {
+      "index": 33,
+      "original": "could",
+      "char_start": 178,
+      "char_end": 183,
+      "normalized": "COULD",
+      "subword_indices": [
+        37
+      ],
+      "start": 11.882468750000001,
+      "end": 12.02246875,
+      "confidence": 0.9986908435821533,
+      "status": "aligned"
+    },
+    {
+      "index": 34,
+      "original": "cause",
+      "char_start": 184,
+      "char_end": 189,
+      "normalized": "CAUSE",
+      "subword_indices": [
+        38
+      ],
+      "start": 12.04246875,
+      "end": 12.28246875,
+      "confidence": 0.9982569813728333,
+      "status": "aligned"
+    },
+    {
+      "index": 35,
+      "original": "damage",
+      "char_start": 190,
+      "char_end": 196,
+      "normalized": "DAMAGE",
+      "subword_indices": [
+        39
+      ],
+      "start": 12.34246875,
+      "end": 12.70246875,
+      "confidence": 0.9866528511047363,
+      "status": "aligned"
+    },
+    {
+      "index": 36,
+      "original": "and",
+      "char_start": 197,
+      "char_end": 200,
+      "normalized": "AND",
+      "subword_indices": [
+        40
+      ],
+      "start": 12.78246875,
+      "end": 12.84246875,
+      "confidence": 0.9672654271125793,
+      "status": "aligned"
+    },
+    {
+      "index": 37,
+      "original": "burning",
+      "char_start": 201,
+      "char_end": 208,
+      "normalized": "BURNING",
+      "subword_indices": [
+        41
+      ],
+      "start": 12.882468750000001,
+      "end": 13.20246875,
+      "confidence": 0.9878880381584167,
+      "status": "aligned"
+    },
+    {
+      "index": 38,
+      "original": "on",
+      "char_start": 209,
+      "char_end": 211,
+      "normalized": "ON",
+      "subword_indices": [
+        42
+      ],
+      "start": 13.462468750000001,
+      "end": 13.50246875,
+      "confidence": 0.9985377788543701,
+      "status": "aligned"
+    },
+    {
+      "index": 39,
+      "original": "the",
+      "char_start": 212,
+      "char_end": 215,
+      "normalized": "THE",
+      "subword_indices": [
+        43
+      ],
+      "start": 13.56246875,
+      "end": 13.62246875,
+      "confidence": 0.9889834523200989,
+      "status": "aligned"
+    },
+    {
+      "index": 40,
+      "original": "way",
+      "char_start": 216,
+      "char_end": 219,
+      "normalized": "WAY",
+      "subword_indices": [
+        44
+      ],
+      "start": 13.66246875,
+      "end": 13.76246875,
+      "confidence": 0.8657455444335938,
+      "status": "aligned"
+    },
+    {
+      "index": 41,
+      "original": "back",
+      "char_start": 220,
+      "char_end": 224,
+      "normalized": "BACK",
+      "subword_indices": [
+        45
+      ],
+      "start": 13.82246875,
+      "end": 13.98246875,
+      "confidence": 0.999927818775177,
+      "status": "aligned"
+    },
+    {
+      "index": 42,
+      "original": "up",
+      "char_start": 225,
+      "char_end": 227,
+      "normalized": "UP",
+      "subword_indices": [
+        46
+      ],
+      "start": 14.12246875,
+      "end": 14.18246875,
+      "confidence": 0.9993322491645813,
+      "status": "aligned"
+    }
+  ],
+  "subwords": [
+    {
+      "index": 0,
+      "token_id": 2065,
+      "token": "if",
+      "char_start": 0,
+      "char_end": 2,
+      "word_index": 0,
+      "chunk_index": 0
+    },
+    {
+      "index": 1,
+      "token_id": 1996,
+      "token": "the",
+      "char_start": 3,
+      "char_end": 6,
+      "word_index": 1,
+      "chunk_index": 0
+    },
+    {
+      "index": 2,
+      "token_id": 4031,
+      "token": "product",
+      "char_start": 7,
+      "char_end": 14,
+      "word_index": 2,
+      "chunk_index": 0
+    },
+    {
+      "index": 3,
+      "token_id": 2030,
+      "token": "or",
+      "char_start": 15,
+      "char_end": 17,
+      "word_index": 3,
+      "chunk_index": 0
+    },
+    {
+      "index": 4,
+      "token_id": 9947,
+      "token": "poison",
+      "char_start": 18,
+      "char_end": 24,
+      "word_index": 4,
+      "chunk_index": 0
+    },
+    {
+      "index": 5,
+      "token_id": 2003,
+      "token": "is",
+      "char_start": 25,
+      "char_end": 27,
+      "word_index": 5,
+      "chunk_index": 0
+    },
+    {
+      "index": 6,
+      "token_id": 2070,
+      "token": "some",
+      "char_start": 28,
+      "char_end": 32,
+      "word_index": 6,
+      "chunk_index": 0
+    },
+    {
+      "index": 7,
+      "token_id": 2828,
+      "token": "type",
+      "char_start": 33,
+      "char_end": 37,
+      "word_index": 7,
+      "chunk_index": 0
+    },
+    {
+      "index": 8,
+      "token_id": 1997,
+      "token": "of",
+      "char_start": 38,
+      "char_end": 40,
+      "word_index": 8,
+      "chunk_index": 0
+    },
+    {
+      "index": 9,
+      "token_id": 11540,
+      "token": "petroleum",
+      "char_start": 41,
+      "char_end": 50,
+      "word_index": 9,
+      "chunk_index": 0
+    },
+    {
+      "index": 10,
+      "token_id": 4031,
+      "token": "product",
+      "char_start": 51,
+      "char_end": 58,
+      "word_index": 10,
+      "chunk_index": 0
+    },
+    {
+      "index": 11,
+      "token_id": 2030,
+      "token": "or",
+      "char_start": 59,
+      "char_end": 61,
+      "word_index": 11,
+      "chunk_index": 0
+    },
+    {
+      "index": 12,
+      "token_id": 2522,
+      "token": "co",
+      "char_start": 62,
+      "char_end": 64,
+      "word_index": 12,
+      "chunk_index": 0
+    },
+    {
+      "index": 13,
+      "token_id": 18933,
+      "token": "##rro",
+      "char_start": 64,
+      "char_end": 67,
+      "word_index": 12,
+      "chunk_index": 0
+    },
+    {
+      "index": 14,
+      "token_id": 12742,
+      "token": "##sive",
+      "char_start": 67,
+      "char_end": 71,
+      "word_index": 12,
+      "chunk_index": 0
+    },
+    {
+      "index": 15,
+      "token_id": 4031,
+      "token": "product",
+      "char_start": 72,
+      "char_end": 79,
+      "word_index": 13,
+      "chunk_index": 0
+    },
+    {
+      "index": 16,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 79,
+      "char_end": 80,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 17,
+      "token_id": 2017,
+      "token": "you",
+      "char_start": 81,
+      "char_end": 84,
+      "word_index": 14,
+      "chunk_index": 0
+    },
+    {
+      "index": 18,
+      "token_id": 2052,
+      "token": "would",
+      "char_start": 85,
+      "char_end": 90,
+      "word_index": 15,
+      "chunk_index": 0
+    },
+    {
+      "index": 19,
+      "token_id": 2025,
+      "token": "not",
+      "char_start": 91,
+      "char_end": 94,
+      "word_index": 16,
+      "chunk_index": 0
+    },
+    {
+      "index": 20,
+      "token_id": 3535,
+      "token": "attempt",
+      "char_start": 95,
+      "char_end": 102,
+      "word_index": 17,
+      "chunk_index": 0
+    },
+    {
+      "index": 21,
+      "token_id": 2000,
+      "token": "to",
+      "char_start": 103,
+      "char_end": 105,
+      "word_index": 18,
+      "chunk_index": 0
+    },
+    {
+      "index": 22,
+      "token_id": 19653,
+      "token": "induce",
+      "char_start": 106,
+      "char_end": 112,
+      "word_index": 19,
+      "chunk_index": 0
+    },
+    {
+      "index": 23,
+      "token_id": 24780,
+      "token": "vomiting",
+      "char_start": 113,
+      "char_end": 121,
+      "word_index": 20,
+      "chunk_index": 0
+    },
+    {
+      "index": 24,
+      "token_id": 1998,
+      "token": "and",
+      "char_start": 122,
+      "char_end": 125,
+      "word_index": 21,
+      "chunk_index": 0
+    },
+    {
+      "index": 25,
+      "token_id": 19029,
+      "token": "nausea",
+      "char_start": 126,
+      "char_end": 132,
+      "word_index": 22,
+      "chunk_index": 0
+    },
+    {
+      "index": 26,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 132,
+      "char_end": 133,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 27,
+      "token_id": 2004,
+      "token": "as",
+      "char_start": 134,
+      "char_end": 136,
+      "word_index": 23,
+      "chunk_index": 0
+    },
+    {
+      "index": 28,
+      "token_id": 2004,
+      "token": "as",
+      "char_start": 137,
+      "char_end": 139,
+      "word_index": 24,
+      "chunk_index": 0
+    },
+    {
+      "index": 29,
+      "token_id": 1996,
+      "token": "the",
+      "char_start": 140,
+      "char_end": 143,
+      "word_index": 25,
+      "chunk_index": 0
+    },
+    {
+      "index": 30,
+      "token_id": 4031,
+      "token": "product",
+      "char_start": 144,
+      "char_end": 151,
+      "word_index": 26,
+      "chunk_index": 0
+    },
+    {
+      "index": 31,
+      "token_id": 5296,
+      "token": "burned",
+      "char_start": 152,
+      "char_end": 158,
+      "word_index": 27,
+      "chunk_index": 0
+    },
+    {
+      "index": 32,
+      "token_id": 2006,
+      "token": "on",
+      "char_start": 159,
+      "char_end": 161,
+      "word_index": 28,
+      "chunk_index": 0
+    },
+    {
+      "index": 33,
+      "token_id": 1996,
+      "token": "the",
+      "char_start": 162,
+      "char_end": 165,
+      "word_index": 29,
+      "chunk_index": 0
+    },
+    {
+      "index": 34,
+      "token_id": 2126,
+      "token": "way",
+      "char_start": 166,
+      "char_end": 169,
+      "word_index": 30,
+      "chunk_index": 0
+    },
+    {
+      "index": 35,
+      "token_id": 2091,
+      "token": "down",
+      "char_start": 170,
+      "char_end": 174,
+      "word_index": 31,
+      "chunk_index": 0
+    },
+    {
+      "index": 36,
+      "token_id": 2009,
+      "token": "it",
+      "char_start": 175,
+      "char_end": 177,
+      "word_index": 32,
+      "chunk_index": 0
+    },
+    {
+      "index": 37,
+      "token_id": 2071,
+      "token": "could",
+      "char_start": 178,
+      "char_end": 183,
+      "word_index": 33,
+      "chunk_index": 0
+    },
+    {
+      "index": 38,
+      "token_id": 3426,
+      "token": "cause",
+      "char_start": 184,
+      "char_end": 189,
+      "word_index": 34,
+      "chunk_index": 0
+    },
+    {
+      "index": 39,
+      "token_id": 4053,
+      "token": "damage",
+      "char_start": 190,
+      "char_end": 196,
+      "word_index": 35,
+      "chunk_index": 0
+    },
+    {
+      "index": 40,
+      "token_id": 1998,
+      "token": "and",
+      "char_start": 197,
+      "char_end": 200,
+      "word_index": 36,
+      "chunk_index": 0
+    },
+    {
+      "index": 41,
+      "token_id": 5255,
+      "token": "burning",
+      "char_start": 201,
+      "char_end": 208,
+      "word_index": 37,
+      "chunk_index": 0
+    },
+    {
+      "index": 42,
+      "token_id": 2006,
+      "token": "on",
+      "char_start": 209,
+      "char_end": 211,
+      "word_index": 38,
+      "chunk_index": 0
+    },
+    {
+      "index": 43,
+      "token_id": 1996,
+      "token": "the",
+      "char_start": 212,
+      "char_end": 215,
+      "word_index": 39,
+      "chunk_index": 0
+    },
+    {
+      "index": 44,
+      "token_id": 2126,
+      "token": "way",
+      "char_start": 216,
+      "char_end": 219,
+      "word_index": 40,
+      "chunk_index": 0
+    },
+    {
+      "index": 45,
+      "token_id": 2067,
+      "token": "back",
+      "char_start": 220,
+      "char_end": 224,
+      "word_index": 41,
+      "chunk_index": 0
+    },
+    {
+      "index": 46,
+      "token_id": 2039,
+      "token": "up",
+      "char_start": 225,
+      "char_end": 227,
+      "word_index": 42,
+      "chunk_index": 0
+    },
+    {
+      "index": 47,
+      "token_id": 1012,
+      "token": ".",
+      "char_start": 227,
+      "char_end": 228,
+      "word_index": -1,
+      "chunk_index": 0
+    }
+  ],
+  "audio_feature_names": [
+    "Loudness_sma3",
+    "alphaRatio_sma3",
+    "hammarbergIndex_sma3",
+    "slope0-500_sma3",
+    "slope500-1500_sma3",
+    "spectralFlux_sma3",
+    "mfcc1_sma3",
+    "mfcc2_sma3",
+    "mfcc3_sma3",
+    "mfcc4_sma3",
+    "F0semitoneFrom27.5Hz_sma3nz",
+    "jitterLocal_sma3nz",
+    "shimmerLocaldB_sma3nz",
+    "HNRdBACF_sma3nz",
+    "logRelF0-H1-H2_sma3nz",
+    "logRelF0-H1-A3_sma3nz",
+    "F1frequency_sma3nz",
+    "F1bandwidth_sma3nz",
+    "F1amplitudeLogRelF0_sma3nz",
+    "F2frequency_sma3nz",
+    "F2bandwidth_sma3nz",
+    "F2amplitudeLogRelF0_sma3nz",
+    "F3frequency_sma3nz",
+    "F3bandwidth_sma3nz",
+    "F3amplitudeLogRelF0_sma3nz"
+  ],
+  "vision_feature_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "convolution": {
+    "stride_samples": 320,
+    "receptive_field_samples": 400
+  },
+  "ctc_target_text": "IF|THE|PRODUCT|OR|POISON|IS|SOME|TYPE|OF|PETROLEUM|PRODUCT|OR|CORROSIVE|PRODUCT|YOU|WOULD|NOT|ATTEMPT|TO|INDUCE|VOMITING|AND|NAUSEA|AS|AS|THE|PRODUCT|BURNED|ON|THE|WAY|DOWN|IT|COULD|CAUSE|DAMAGE|AND|BURNING|ON|THE|WAY|BACK|UP",
+  "diagnostic_asr": "IF THE PRODUCT OR POISON O SOME TYPE OF PATROLEUM PRODUCT OR CORROSIVE PRODUCT YOU WOULD NOT ATTEMPT TO INDUCE VOMINING AND NAUSEA AS THE PRODUCT BURNED ON THE WAY DOWN IT COULD CAUSE DAMAGE AND BURNING ON THE WAY BACK UP",
+  "diagnostic_wer": 0.09302325581395349,
+  "alignment_path_log_probability": -51.90973314756816,
+  "alignment_error": null,
+  "padding_count": 0,
+  "truncated_words": 0,
+  "visual_time_support": "nearest-sampled-frame cells, midpoint boundaries; 5 Hz sampling",
+  "face_selection": "largest detected face; speaker identity not verified",
+  "feature_dimensions": {
+    "text": 768,
+    "audio": 25,
+    "vision": 52
+  },
+  "statuses": {
+    "low_confidence_words": 1,
+    "unaligned_words": 0,
+    "no_face_frames": 2,
+    "multiple_face_frames": 0,
+    "silent_audio_frames": 310,
+    "invalid_audio_frames": 0
+  },
+  "elapsed_seconds": 2.882131703197956
+}

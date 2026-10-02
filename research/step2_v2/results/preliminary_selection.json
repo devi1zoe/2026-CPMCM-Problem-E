@@ -1,0 +1,249 @@
+{
+  "audit_candidate": "gated",
+  "eligible": [],
+  "rows": [
+    {
+      "model": "old_gated",
+      "J": 0.9926251878531169,
+      "parameters": 163816,
+      "clean_f1": 0.6055407338598439,
+      "clean_mae": 0.5784114750311966,
+      "neutral_recall": 0.4076086956521739,
+      "strong_negative_mae": 1.042603030543903,
+      "strong_positive_mae": 1.0198169973557687,
+      "robust_f1": 0.5810535732843902,
+      "robust_mae": 0.6067294969008943,
+      "checks": {
+        "clean_f1": true,
+        "clean_mae": true,
+        "robust_f1": false,
+        "robust_mae": true,
+        "neutral": true,
+        "strong_negative": true,
+        "strong_positive": true
+      },
+      "eligible": false
+    },
+    {
+      "model": "text",
+      "J": 0.979565795888296,
+      "parameters": 89638,
+      "clean_f1": 0.6215432005304552,
+      "clean_mae": 0.5701642876241809,
+      "neutral_recall": 0.5,
+      "strong_negative_mae": 0.9667253988827096,
+      "strong_positive_mae": 1.061864666844884,
+      "robust_f1": 0.5871034094762733,
+      "robust_mae": 0.6032109511407421,
+      "checks": {
+        "clean_f1": true,
+        "clean_mae": true,
+        "robust_f1": false,
+        "robust_mae": true,
+        "neutral": true,
+        "strong_negative": true,
+        "strong_positive": false
+      },
+      "eligible": false
+    },
+    {
+      "model": "audio",
+      "J": 1.4629272267477162,
+      "parameters": 45222,
+      "clean_f1": 0.3188875089125879,
+      "clean_mae": 0.7800086788161275,
+      "neutral_recall": 0.0271739130434782,
+      "strong_negative_mae": 2.025978085006876,
+      "strong_positive_mae": 1.7950049778829291,
+      "robust_f1": 0.3206981713561568,
+      "robust_mae": 0.7822257137808952,
+      "checks": {
+        "clean_f1": false,
+        "clean_mae": false,
+        "robust_f1": false,
+        "robust_mae": false,
+        "neutral": false,
+        "strong_negative": false,
+        "strong_positive": false
+      },
+      "eligible": false
+    },
+    {
+      "model": "vision",
+      "J": 1.3449736244445072,
+      "parameters": 42726,
+      "clean_f1": 0.40759248066164,
+      "clean_mae": 0.7508411009376077,
+      "neutral_recall": 0.1467391304347826,
+      "strong_negative_mae": 1.9091600213553117,
+      "strong_positive_mae": 1.6012216424760854,
+      "robust_f1": 0.40508043384586845,
+      "robust_mae": 0.7543796812943755,
+      "checks": {
+        "clean_f1": false,
+        "clean_mae": false,
+        "robust_f1": false,
+        "robust_mae": false,
+        "neutral": false,
+        "strong_negative": false,
+        "strong_positive": false
+      },
+      "eligible": false
+    },
+    {
+      "model": "fixed",
+      "J": 0.9945660497802907,
+      "parameters": 163816,
+      "clean_f1": 0.605362129458515,
+      "clean_mae": 0.5813329140670488,
+      "neutral_recall": 0.4891304347826087,
+      "strong_negative_mae": 0.9593290325639576,
+      "strong_positive_mae": 1.0887058081283962,
+      "robust_f1": 0.5776035620918558,
+      "robust_mae": 0.610168590856091,
+      "checks": {
+        "clean_f1": true,
+        "clean_mae": true,
+        "robust_f1": false,
+        "robust_mae": false,
+        "neutral": true,
+        "strong_negative": true,
+        "strong_positive": false
+      },
+      "eligible": false
+    },
+    {
+      "model": "gated",
+      "J": 0.9697107662972272,
+      "parameters": 163816,
+      "clean_f1": 0.6213579826141662,
+      "clean_mae": 0.5579299217571023,
+      "neutral_recall": 0.4782608695652174,
+      "strong_negative_mae": 0.9945158131805988,
+      "strong_positive_mae": 1.0698926614163673,
+      "robust_f1": 0.5824964234200692,
+      "robust_mae": 0.5933764693188399,
+      "checks": {
+        "clean_f1": true,
+        "clean_mae": true,
+        "robust_f1": false,
+        "robust_mae": true,
+        "neutral": true,
+        "strong_negative": true,
+        "strong_positive": false
+      },
+      "eligible": false
+    },
+    {
+      "model": "aux",
+      "J": 0.9762486742094518,
+      "parameters": 164596,
+      "clean_f1": 0.6147268309033015,
+      "clean_mae": 0.5602966708326705,
+      "neutral_recall": 0.4673913043478261,
+      "strong_negative_mae": 1.005795274523954,
+      "strong_positive_mae": 1.095063989159128,
+      "robust_f1": 0.5841010376560954,
+      "robust_mae": 0.59580900235095,
+      "checks": {
+        "clean_f1": true,
+        "clean_mae": true,
+        "robust_f1": false,
+        "robust_mae": true,
+        "neutral": true,
+        "strong_negative": true,
+        "strong_positive": false
+      },
+      "eligible": false
+    },
+    {
+      "model": "msd",
+      "J": 0.9777344742257609,
+      "parameters": 176692,
+      "clean_f1": 0.6132624816177592,
+      "clean_mae": 0.5631432444116626,
+      "neutral_recall": 0.5108695652173914,
+      "strong_negative_mae": 0.9982614801104728,
+      "strong_positive_mae": 1.0637700973104125,
+      "robust_f1": 0.5815424329666532,
+      "robust_mae": 0.5988304568912823,
+      "checks": {
+        "clean_f1": true,
+        "clean_mae": true,
+        "robust_f1": false,
+        "robust_mae": true,
+        "neutral": true,
+        "strong_negative": true,
+        "strong_positive": false
+      },
+      "eligible": false
+    },
+    {
+      "model": "cce",
+      "J": 0.9814240376594066,
+      "parameters": 214912,
+      "clean_f1": 0.6211172649643179,
+      "clean_mae": 0.5740806057625117,
+      "neutral_recall": 0.5108695652173914,
+      "strong_negative_mae": 1.0013762852658743,
+      "strong_positive_mae": 1.025001664582181,
+      "robust_f1": 0.5839728757897081,
+      "robust_mae": 0.6049672174623449,
+      "checks": {
+        "clean_f1": true,
+        "clean_mae": true,
+        "robust_f1": false,
+        "robust_mae": true,
+        "neutral": true,
+        "strong_negative": true,
+        "strong_positive": true
+      },
+      "eligible": false
+    },
+    {
+      "model": "imtd",
+      "J": 0.9814240376594066,
+      "parameters": 214912,
+      "clean_f1": 0.6211172649643179,
+      "clean_mae": 0.5740806057625117,
+      "neutral_recall": 0.5108695652173914,
+      "strong_negative_mae": 1.0013762852658743,
+      "strong_positive_mae": 1.025001664582181,
+      "robust_f1": 0.5839728757897081,
+      "robust_mae": 0.6049672174623449,
+      "checks": {
+        "clean_f1": true,
+        "clean_mae": true,
+        "robust_f1": false,
+        "robust_mae": true,
+        "neutral": true,
+        "strong_negative": true,
+        "strong_positive": true
+      },
+      "eligible": false
+    },
+    {
+      "model": "emc",
+      "J": 0.9814240376594066,
+      "parameters": 214912,
+      "clean_f1": 0.6211172649643179,
+      "clean_mae": 0.5740806057625117,
+      "neutral_recall": 0.5108695652173914,
+      "strong_negative_mae": 1.0013762852658743,
+      "strong_positive_mae": 1.025001664582181,
+      "robust_f1": 0.5839728757897081,
+      "robust_mae": 0.6049672174623449,
+      "checks": {
+        "clean_f1": true,
+        "clean_mae": true,
+        "robust_f1": false,
+        "robust_mae": true,
+        "neutral": true,
+        "strong_negative": true,
+        "strong_positive": true
+      },
+      "eligible": false
+    }
+  ],
+  "explanation": "Leave-one-out performed even if candidate fails final guardrails; test remains inaccessible."
+}

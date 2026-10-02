@@ -1,0 +1,12 @@
+{
+  "sample_id": "-HeZS2-Prhc$_$2",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.7855417728424072,
+  "low_confidence_fraction": 0.0625,
+  "diagnostic_wer": 0.75,
+  "usable_word_times": 15,
+  "words": 16,
+  "raw_text": "The August jobs report is out and it was seen overall as solid but not great.",
+  "diagnostic_asr": "IT TO DAY AH THE AUGUST JOBS REPORTES OUT AND IT WAS SEEN OVER ALL A SOLID BUT NOT CRATE THE REPORT"
+}

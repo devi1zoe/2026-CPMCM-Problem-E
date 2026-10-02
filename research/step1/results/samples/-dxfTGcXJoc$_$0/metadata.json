@@ -1,0 +1,1264 @@
+{
+  "sample_id": "-dxfTGcXJoc$_$0",
+  "video_id": "-dxfTGcXJoc",
+  "clip_id": "0",
+  "raw_text": "This is Governor Steve Beshear ... About Kentucky Our state is home to more than 1,500 bioscience and lifescience companies and more than 100,000 people who work for these firms, in areas from nutrigenomics and pharmaceuticals to nanotechnology and medical devices.",
+  "label": 1.0,
+  "annotation": "Positive",
+  "source_path": "E题_材料阅读/E题数据/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-dxfTGcXJoc/0.mp4",
+  "source_sha256": "04bd0be907fb46c613f926fe1b06bc2c3b30881c293156510baa34a4105ade55",
+  "config_sha256": "4a530340304f07255daf856e6891f0a15e50f05bd85343d067a663a573e8f888",
+  "code_sha256": {
+    "common.py": "4a37980b521a2f5a93e208d3ba265542a149336b3401aa89b8a4494517f5e16e",
+    "alignment.py": "76b29c002cdc97e8e0e85cffae02d81db938fa39484ad908c28c5efc60de0c34",
+    "features.py": "8283e0d0886b83bbd84d4db4521599b480b0ada4bc1afc4e4b9b91cddf5b4018",
+    "run.py": "f75d7b5bc6e342541664233a37a3d87f39313bcd3a8f3a50bfaea94798d4e07b"
+  },
+  "model_assets_sha256": {
+    "assets/face_landmarker.task": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff",
+    "assets/wav2vec2/preprocessor_config.json": "b225d617c025463b9e157e06afea8b90dc7078fc70b013c533328423e0486b4a",
+    "assets/wav2vec2/vocab.json": "19727f8944fe6459fc3f240ae2c198395b740f6a029bd23e06656266b83bcf64",
+    "assets/wav2vec2/special_tokens_map.json": "bb7068de1150661a10b55f9e4b12a0e77af8bf91f5e45e1b58afaf1d0e17f675",
+    "assets/wav2vec2/tokenizer_config.json": "dc790594f5bc351a4311c6624f40acd95850d4aaf2a5cb3c656c9b610720b608",
+    "assets/wav2vec2/model.safetensors": "8aa76ab2243c81747a1f832954586bc566090c83a0ac167df6f31f0fa917d74a",
+    "assets/wav2vec2/config.json": "d3ec255c063d9f95057b553b19c20135b259875834a4fe9deb218a6be25b4cf3",
+    "assets/distilbert/vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+    "assets/distilbert/tokenizer_config.json": "a025160ef0431f1a392f6f050c1310f4c5d9fb6f275932dbccba73c4d214bf10",
+    "assets/distilbert/model.safetensors": "5e3f1108e3cb34ee048634875d8482665b65ac713291a7e32396fb18f6ff0063",
+    "assets/distilbert/config.json": "69c94b0222d5d1f4b0ad027ca7416cdafb98378cbbb8305d0bf47c9365c60c83",
+    "assets/distilbert/tokenizer.json": "ce64fce797c24f68df90b40a3f74f579b336a493db14bd583fd520ea0d8c9a98"
+  },
+  "duration": 20.533333333333335,
+  "video_rate": 30.0,
+  "video_origin": 0.0,
+  "audio_start": 0.0,
+  "audio_duration": 20.410375,
+  "audio_coverage_ratio": 1.0,
+  "words": [
+    {
+      "index": 0,
+      "original": "This",
+      "char_start": 0,
+      "char_end": 4,
+      "normalized": "THIS",
+      "subword_indices": [
+        0
+      ],
+      "start": 0.58246875,
+      "end": 0.68246875,
+      "confidence": 0.9981415271759033,
+      "status": "aligned"
+    },
+    {
+      "index": 1,
+      "original": "is",
+      "char_start": 5,
+      "char_end": 7,
+      "normalized": "IS",
+      "subword_indices": [
+        1
+      ],
+      "start": 0.78246875,
+      "end": 0.84246875,
+      "confidence": 0.9983425140380859,
+      "status": "aligned"
+    },
+    {
+      "index": 2,
+      "original": "Governor",
+      "char_start": 8,
+      "char_end": 16,
+      "normalized": "GOVERNOR",
+      "subword_indices": [
+        2
+      ],
+      "start": 0.90246875,
+      "end": 1.20246875,
+      "confidence": 0.9586246609687805,
+      "status": "aligned"
+    },
+    {
+      "index": 3,
+      "original": "Steve",
+      "char_start": 17,
+      "char_end": 22,
+      "normalized": "STEVE",
+      "subword_indices": [
+        3
+      ],
+      "start": 1.26246875,
+      "end": 1.56246875,
+      "confidence": 0.9534441828727722,
+      "status": "aligned"
+    },
+    {
+      "index": 4,
+      "original": "Beshear",
+      "char_start": 23,
+      "char_end": 30,
+      "normalized": "BESHEAR",
+      "subword_indices": [
+        4,
+        5,
+        6
+      ],
+      "start": 1.6024687499999999,
+      "end": 2.00246875,
+      "confidence": 0.39419785141944885,
+      "status": "aligned"
+    },
+    {
+      "index": 5,
+      "original": "About",
+      "char_start": 35,
+      "char_end": 40,
+      "normalized": "ABOUT",
+      "subword_indices": [
+        10
+      ],
+      "start": 2.6224687500000003,
+      "end": 2.8424687499999997,
+      "confidence": 0.999927818775177,
+      "status": "aligned"
+    },
+    {
+      "index": 6,
+      "original": "Kentucky",
+      "char_start": 41,
+      "char_end": 49,
+      "normalized": "KENTUCKY",
+      "subword_indices": [
+        11
+      ],
+      "start": 2.94246875,
+      "end": 3.3824687499999997,
+      "confidence": 0.9978795647621155,
+      "status": "aligned"
+    },
+    {
+      "index": 7,
+      "original": "Our",
+      "char_start": 50,
+      "char_end": 53,
+      "normalized": "OUR",
+      "subword_indices": [
+        12
+      ],
+      "start": 4.46246875,
+      "end": 4.542468749999999,
+      "confidence": 0.9996426105499268,
+      "status": "aligned"
+    },
+    {
+      "index": 8,
+      "original": "state",
+      "char_start": 54,
+      "char_end": 59,
+      "normalized": "STATE",
+      "subword_indices": [
+        13
+      ],
+      "start": 4.62246875,
+      "end": 4.90246875,
+      "confidence": 0.9945102334022522,
+      "status": "aligned"
+    },
+    {
+      "index": 9,
+      "original": "is",
+      "char_start": 60,
+      "char_end": 62,
+      "normalized": "IS",
+      "subword_indices": [
+        14
+      ],
+      "start": 4.98246875,
+      "end": 5.042468749999999,
+      "confidence": 0.998495876789093,
+      "status": "aligned"
+    },
+    {
+      "index": 10,
+      "original": "home",
+      "char_start": 63,
+      "char_end": 67,
+      "normalized": "HOME",
+      "subword_indices": [
+        15
+      ],
+      "start": 5.14246875,
+      "end": 5.44246875,
+      "confidence": 0.9658241868019104,
+      "status": "aligned"
+    },
+    {
+      "index": 11,
+      "original": "to",
+      "char_start": 68,
+      "char_end": 70,
+      "normalized": "TO",
+      "subword_indices": [
+        16
+      ],
+      "start": 5.54246875,
+      "end": 5.6224687499999995,
+      "confidence": 0.9999481439590454,
+      "status": "aligned"
+    },
+    {
+      "index": 12,
+      "original": "more",
+      "char_start": 71,
+      "char_end": 75,
+      "normalized": "MORE",
+      "subword_indices": [
+        17
+      ],
+      "start": 5.70246875,
+      "end": 5.88246875,
+      "confidence": 0.9744877219200134,
+      "status": "aligned"
+    },
+    {
+      "index": 13,
+      "original": "than",
+      "char_start": 76,
+      "char_end": 80,
+      "normalized": "THAN",
+      "subword_indices": [
+        18
+      ],
+      "start": 5.92246875,
+      "end": 6.06246875,
+      "confidence": 0.9828013181686401,
+      "status": "aligned"
+    },
+    {
+      "index": 14,
+      "original": "1,500",
+      "char_start": 81,
+      "char_end": 86,
+      "normalized": "ONE THOUSAND FIVE HUNDRED",
+      "subword_indices": [
+        19,
+        20,
+        21
+      ],
+      "start": 6.08246875,
+      "end": 7.14246875,
+      "confidence": 0.00021330462186597288,
+      "status": "low_confidence"
+    },
+    {
+      "index": 15,
+      "original": "bioscience",
+      "char_start": 87,
+      "char_end": 97,
+      "normalized": "BIOSCIENCE",
+      "subword_indices": [
+        22,
+        23,
+        24
+      ],
+      "start": 7.2824687500000005,
+      "end": 8.062468749999999,
+      "confidence": 0.6646630167961121,
+      "status": "aligned"
+    },
+    {
+      "index": 16,
+      "original": "and",
+      "char_start": 98,
+      "char_end": 101,
+      "normalized": "AND",
+      "subword_indices": [
+        25
+      ],
+      "start": 8.26246875,
+      "end": 8.34246875,
+      "confidence": 0.9992499947547913,
+      "status": "aligned"
+    },
+    {
+      "index": 17,
+      "original": "lifescience",
+      "char_start": 102,
+      "char_end": 113,
+      "normalized": "LIFESCIENCE",
+      "subword_indices": [
+        26,
+        27,
+        28
+      ],
+      "start": 8.462468750000001,
+      "end": 9.02246875,
+      "confidence": 0.9377003908157349,
+      "status": "aligned"
+    },
+    {
+      "index": 18,
+      "original": "companies",
+      "char_start": 114,
+      "char_end": 123,
+      "normalized": "COMPANIES",
+      "subword_indices": [
+        29
+      ],
+      "start": 9.10246875,
+      "end": 9.50246875,
+      "confidence": 0.9990957975387573,
+      "status": "aligned"
+    },
+    {
+      "index": 19,
+      "original": "and",
+      "char_start": 124,
+      "char_end": 127,
+      "normalized": "AND",
+      "subword_indices": [
+        30
+      ],
+      "start": 10.06246875,
+      "end": 10.142468749999999,
+      "confidence": 0.8477045297622681,
+      "status": "aligned"
+    },
+    {
+      "index": 20,
+      "original": "more",
+      "char_start": 128,
+      "char_end": 132,
+      "normalized": "MORE",
+      "subword_indices": [
+        31
+      ],
+      "start": 10.22246875,
+      "end": 10.38246875,
+      "confidence": 0.9787867665290833,
+      "status": "aligned"
+    },
+    {
+      "index": 21,
+      "original": "than",
+      "char_start": 133,
+      "char_end": 137,
+      "normalized": "THAN",
+      "subword_indices": [
+        32
+      ],
+      "start": 10.40246875,
+      "end": 10.52246875,
+      "confidence": 0.9915074110031128,
+      "status": "aligned"
+    },
+    {
+      "index": 22,
+      "original": "100,000",
+      "char_start": 138,
+      "char_end": 145,
+      "normalized": "ONE HUNDRED THOUSAND",
+      "subword_indices": [
+        33,
+        34,
+        35
+      ],
+      "start": 10.58246875,
+      "end": 11.50246875,
+      "confidence": 0.5017116069793701,
+      "status": "aligned"
+    },
+    {
+      "index": 23,
+      "original": "people",
+      "char_start": 146,
+      "char_end": 152,
+      "normalized": "PEOPLE",
+      "subword_indices": [
+        36
+      ],
+      "start": 11.56246875,
+      "end": 11.86246875,
+      "confidence": 0.9722285866737366,
+      "status": "aligned"
+    },
+    {
+      "index": 24,
+      "original": "who",
+      "char_start": 153,
+      "char_end": 156,
+      "normalized": "WHO",
+      "subword_indices": [
+        37
+      ],
+      "start": 12.06246875,
+      "end": 12.16246875,
+      "confidence": 0.9320753216743469,
+      "status": "aligned"
+    },
+    {
+      "index": 25,
+      "original": "work",
+      "char_start": 157,
+      "char_end": 161,
+      "normalized": "WORK",
+      "subword_indices": [
+        38
+      ],
+      "start": 12.26246875,
+      "end": 12.40246875,
+      "confidence": 0.9488118290901184,
+      "status": "aligned"
+    },
+    {
+      "index": 26,
+      "original": "for",
+      "char_start": 162,
+      "char_end": 165,
+      "normalized": "FOR",
+      "subword_indices": [
+        39
+      ],
+      "start": 12.48246875,
+      "end": 12.562468749999999,
+      "confidence": 0.9828564524650574,
+      "status": "aligned"
+    },
+    {
+      "index": 27,
+      "original": "these",
+      "char_start": 166,
+      "char_end": 171,
+      "normalized": "THESE",
+      "subword_indices": [
+        40
+      ],
+      "start": 12.60246875,
+      "end": 12.76246875,
+      "confidence": 0.9941778779029846,
+      "status": "aligned"
+    },
+    {
+      "index": 28,
+      "original": "firms",
+      "char_start": 172,
+      "char_end": 177,
+      "normalized": "FIRMS",
+      "subword_indices": [
+        41
+      ],
+      "start": 12.82246875,
+      "end": 13.20246875,
+      "confidence": 0.9613202214241028,
+      "status": "aligned"
+    },
+    {
+      "index": 29,
+      "original": "in",
+      "char_start": 179,
+      "char_end": 181,
+      "normalized": "IN",
+      "subword_indices": [
+        43
+      ],
+      "start": 13.94246875,
+      "end": 14.00246875,
+      "confidence": 0.919399619102478,
+      "status": "aligned"
+    },
+    {
+      "index": 30,
+      "original": "areas",
+      "char_start": 182,
+      "char_end": 187,
+      "normalized": "AREAS",
+      "subword_indices": [
+        44
+      ],
+      "start": 14.18246875,
+      "end": 14.54246875,
+      "confidence": 0.9909416437149048,
+      "status": "aligned"
+    },
+    {
+      "index": 31,
+      "original": "from",
+      "char_start": 188,
+      "char_end": 192,
+      "normalized": "FROM",
+      "subword_indices": [
+        45
+      ],
+      "start": 14.64246875,
+      "end": 14.84246875,
+      "confidence": 0.968936562538147,
+      "status": "aligned"
+    },
+    {
+      "index": 32,
+      "original": "nutrigenomics",
+      "char_start": 193,
+      "char_end": 206,
+      "normalized": "NUTRIGENOMICS",
+      "subword_indices": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "start": 15.18246875,
+      "end": 16.10246875,
+      "confidence": 0.653195858001709,
+      "status": "aligned"
+    },
+    {
+      "index": 33,
+      "original": "and",
+      "char_start": 207,
+      "char_end": 210,
+      "normalized": "AND",
+      "subword_indices": [
+        50
+      ],
+      "start": 16.26246875,
+      "end": 16.342468750000002,
+      "confidence": 0.9995084404945374,
+      "status": "aligned"
+    },
+    {
+      "index": 34,
+      "original": "pharmaceuticals",
+      "char_start": 211,
+      "char_end": 226,
+      "normalized": "PHARMACEUTICALS",
+      "subword_indices": [
+        51
+      ],
+      "start": 16.42246875,
+      "end": 17.24246875,
+      "confidence": 0.5464715361595154,
+      "status": "aligned"
+    },
+    {
+      "index": 35,
+      "original": "to",
+      "char_start": 227,
+      "char_end": 229,
+      "normalized": "TO",
+      "subword_indices": [
+        52
+      ],
+      "start": 17.64246875,
+      "end": 17.74246875,
+      "confidence": 0.6504343748092651,
+      "status": "aligned"
+    },
+    {
+      "index": 36,
+      "original": "nanotechnology",
+      "char_start": 230,
+      "char_end": 244,
+      "normalized": "NANOTECHNOLOGY",
+      "subword_indices": [
+        53,
+        54,
+        55
+      ],
+      "start": 17.78246875,
+      "end": 18.76246875,
+      "confidence": 0.95660001039505,
+      "status": "aligned"
+    },
+    {
+      "index": 37,
+      "original": "and",
+      "char_start": 245,
+      "char_end": 248,
+      "normalized": "AND",
+      "subword_indices": [
+        56
+      ],
+      "start": 18.82246875,
+      "end": 18.90246875,
+      "confidence": 0.8931348919868469,
+      "status": "aligned"
+    },
+    {
+      "index": 38,
+      "original": "medical",
+      "char_start": 249,
+      "char_end": 256,
+      "normalized": "MEDICAL",
+      "subword_indices": [
+        57
+      ],
+      "start": 18.94246875,
+      "end": 19.22246875,
+      "confidence": 0.9272875785827637,
+      "status": "aligned"
+    },
+    {
+      "index": 39,
+      "original": "devices",
+      "char_start": 257,
+      "char_end": 264,
+      "normalized": "DEVICES",
+      "subword_indices": [
+        58
+      ],
+      "start": 19.28246875,
+      "end": 19.782468750000003,
+      "confidence": 0.7951753735542297,
+      "status": "aligned"
+    }
+  ],
+  "subwords": [
+    {
+      "index": 0,
+      "token_id": 2023,
+      "token": "this",
+      "char_start": 0,
+      "char_end": 4,
+      "word_index": 0,
+      "chunk_index": 0
+    },
+    {
+      "index": 1,
+      "token_id": 2003,
+      "token": "is",
+      "char_start": 5,
+      "char_end": 7,
+      "word_index": 1,
+      "chunk_index": 0
+    },
+    {
+      "index": 2,
+      "token_id": 3099,
+      "token": "governor",
+      "char_start": 8,
+      "char_end": 16,
+      "word_index": 2,
+      "chunk_index": 0
+    },
+    {
+      "index": 3,
+      "token_id": 3889,
+      "token": "steve",
+      "char_start": 17,
+      "char_end": 22,
+      "word_index": 3,
+      "chunk_index": 0
+    },
+    {
+      "index": 4,
+      "token_id": 2022,
+      "token": "be",
+      "char_start": 23,
+      "char_end": 25,
+      "word_index": 4,
+      "chunk_index": 0
+    },
+    {
+      "index": 5,
+      "token_id": 4095,
+      "token": "##sh",
+      "char_start": 25,
+      "char_end": 27,
+      "word_index": 4,
+      "chunk_index": 0
+    },
+    {
+      "index": 6,
+      "token_id": 14644,
+      "token": "##ear",
+      "char_start": 27,
+      "char_end": 30,
+      "word_index": 4,
+      "chunk_index": 0
+    },
+    {
+      "index": 7,
+      "token_id": 1012,
+      "token": ".",
+      "char_start": 31,
+      "char_end": 32,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 8,
+      "token_id": 1012,
+      "token": ".",
+      "char_start": 32,
+      "char_end": 33,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 9,
+      "token_id": 1012,
+      "token": ".",
+      "char_start": 33,
+      "char_end": 34,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 10,
+      "token_id": 2055,
+      "token": "about",
+      "char_start": 35,
+      "char_end": 40,
+      "word_index": 5,
+      "chunk_index": 0
+    },
+    {
+      "index": 11,
+      "token_id": 5612,
+      "token": "kentucky",
+      "char_start": 41,
+      "char_end": 49,
+      "word_index": 6,
+      "chunk_index": 0
+    },
+    {
+      "index": 12,
+      "token_id": 2256,
+      "token": "our",
+      "char_start": 50,
+      "char_end": 53,
+      "word_index": 7,
+      "chunk_index": 0
+    },
+    {
+      "index": 13,
+      "token_id": 2110,
+      "token": "state",
+      "char_start": 54,
+      "char_end": 59,
+      "word_index": 8,
+      "chunk_index": 0
+    },
+    {
+      "index": 14,
+      "token_id": 2003,
+      "token": "is",
+      "char_start": 60,
+      "char_end": 62,
+      "word_index": 9,
+      "chunk_index": 0
+    },
+    {
+      "index": 15,
+      "token_id": 2188,
+      "token": "home",
+      "char_start": 63,
+      "char_end": 67,
+      "word_index": 10,
+      "chunk_index": 0
+    },
+    {
+      "index": 16,
+      "token_id": 2000,
+      "token": "to",
+      "char_start": 68,
+      "char_end": 70,
+      "word_index": 11,
+      "chunk_index": 0
+    },
+    {
+      "index": 17,
+      "token_id": 2062,
+      "token": "more",
+      "char_start": 71,
+      "char_end": 75,
+      "word_index": 12,
+      "chunk_index": 0
+    },
+    {
+      "index": 18,
+      "token_id": 2084,
+      "token": "than",
+      "char_start": 76,
+      "char_end": 80,
+      "word_index": 13,
+      "chunk_index": 0
+    },
+    {
+      "index": 19,
+      "token_id": 1015,
+      "token": "1",
+      "char_start": 81,
+      "char_end": 82,
+      "word_index": 14,
+      "chunk_index": 0
+    },
+    {
+      "index": 20,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 82,
+      "char_end": 83,
+      "word_index": 14,
+      "chunk_index": 0
+    },
+    {
+      "index": 21,
+      "token_id": 3156,
+      "token": "500",
+      "char_start": 83,
+      "char_end": 86,
+      "word_index": 14,
+      "chunk_index": 0
+    },
+    {
+      "index": 22,
+      "token_id": 16012,
+      "token": "bio",
+      "char_start": 87,
+      "char_end": 90,
+      "word_index": 15,
+      "chunk_index": 0
+    },
+    {
+      "index": 23,
+      "token_id": 11020,
+      "token": "##sc",
+      "char_start": 90,
+      "char_end": 92,
+      "word_index": 15,
+      "chunk_index": 0
+    },
+    {
+      "index": 24,
+      "token_id": 13684,
+      "token": "##ience",
+      "char_start": 92,
+      "char_end": 97,
+      "word_index": 15,
+      "chunk_index": 0
+    },
+    {
+      "index": 25,
+      "token_id": 1998,
+      "token": "and",
+      "char_start": 98,
+      "char_end": 101,
+      "word_index": 16,
+      "chunk_index": 0
+    },
+    {
+      "index": 26,
+      "token_id": 2166,
+      "token": "life",
+      "char_start": 102,
+      "char_end": 106,
+      "word_index": 17,
+      "chunk_index": 0
+    },
+    {
+      "index": 27,
+      "token_id": 11020,
+      "token": "##sc",
+      "char_start": 106,
+      "char_end": 108,
+      "word_index": 17,
+      "chunk_index": 0
+    },
+    {
+      "index": 28,
+      "token_id": 13684,
+      "token": "##ience",
+      "char_start": 108,
+      "char_end": 113,
+      "word_index": 17,
+      "chunk_index": 0
+    },
+    {
+      "index": 29,
+      "token_id": 3316,
+      "token": "companies",
+      "char_start": 114,
+      "char_end": 123,
+      "word_index": 18,
+      "chunk_index": 0
+    },
+    {
+      "index": 30,
+      "token_id": 1998,
+      "token": "and",
+      "char_start": 124,
+      "char_end": 127,
+      "word_index": 19,
+      "chunk_index": 0
+    },
+    {
+      "index": 31,
+      "token_id": 2062,
+      "token": "more",
+      "char_start": 128,
+      "char_end": 132,
+      "word_index": 20,
+      "chunk_index": 0
+    },
+    {
+      "index": 32,
+      "token_id": 2084,
+      "token": "than",
+      "char_start": 133,
+      "char_end": 137,
+      "word_index": 21,
+      "chunk_index": 0
+    },
+    {
+      "index": 33,
+      "token_id": 2531,
+      "token": "100",
+      "char_start": 138,
+      "char_end": 141,
+      "word_index": 22,
+      "chunk_index": 0
+    },
+    {
+      "index": 34,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 141,
+      "char_end": 142,
+      "word_index": 22,
+      "chunk_index": 0
+    },
+    {
+      "index": 35,
+      "token_id": 2199,
+      "token": "000",
+      "char_start": 142,
+      "char_end": 145,
+      "word_index": 22,
+      "chunk_index": 0
+    },
+    {
+      "index": 36,
+      "token_id": 2111,
+      "token": "people",
+      "char_start": 146,
+      "char_end": 152,
+      "word_index": 23,
+      "chunk_index": 0
+    },
+    {
+      "index": 37,
+      "token_id": 2040,
+      "token": "who",
+      "char_start": 153,
+      "char_end": 156,
+      "word_index": 24,
+      "chunk_index": 0
+    },
+    {
+      "index": 38,
+      "token_id": 2147,
+      "token": "work",
+      "char_start": 157,
+      "char_end": 161,
+      "word_index": 25,
+      "chunk_index": 0
+    },
+    {
+      "index": 39,
+      "token_id": 2005,
+      "token": "for",
+      "char_start": 162,
+      "char_end": 165,
+      "word_index": 26,
+      "chunk_index": 0
+    },
+    {
+      "index": 40,
+      "token_id": 2122,
+      "token": "these",
+      "char_start": 166,
+      "char_end": 171,
+      "word_index": 27,
+      "chunk_index": 0
+    },
+    {
+      "index": 41,
+      "token_id": 9786,
+      "token": "firms",
+      "char_start": 172,
+      "char_end": 177,
+      "word_index": 28,
+      "chunk_index": 0
+    },
+    {
+      "index": 42,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 177,
+      "char_end": 178,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 43,
+      "token_id": 1999,
+      "token": "in",
+      "char_start": 179,
+      "char_end": 181,
+      "word_index": 29,
+      "chunk_index": 0
+    },
+    {
+      "index": 44,
+      "token_id": 2752,
+      "token": "areas",
+      "char_start": 182,
+      "char_end": 187,
+      "word_index": 30,
+      "chunk_index": 0
+    },
+    {
+      "index": 45,
+      "token_id": 2013,
+      "token": "from",
+      "char_start": 188,
+      "char_end": 192,
+      "word_index": 31,
+      "chunk_index": 0
+    },
+    {
+      "index": 46,
+      "token_id": 17490,
+      "token": "nut",
+      "char_start": 193,
+      "char_end": 196,
+      "word_index": 32,
+      "chunk_index": 0
+    },
+    {
+      "index": 47,
+      "token_id": 3089,
+      "token": "##ri",
+      "char_start": 196,
+      "char_end": 198,
+      "word_index": 32,
+      "chunk_index": 0
+    },
+    {
+      "index": 48,
+      "token_id": 6914,
+      "token": "##gen",
+      "char_start": 198,
+      "char_end": 201,
+      "word_index": 32,
+      "chunk_index": 0
+    },
+    {
+      "index": 49,
+      "token_id": 25524,
+      "token": "##omics",
+      "char_start": 201,
+      "char_end": 206,
+      "word_index": 32,
+      "chunk_index": 0
+    },
+    {
+      "index": 50,
+      "token_id": 1998,
+      "token": "and",
+      "char_start": 207,
+      "char_end": 210,
+      "word_index": 33,
+      "chunk_index": 0
+    },
+    {
+      "index": 51,
+      "token_id": 24797,
+      "token": "pharmaceuticals",
+      "char_start": 211,
+      "char_end": 226,
+      "word_index": 34,
+      "chunk_index": 0
+    },
+    {
+      "index": 52,
+      "token_id": 2000,
+      "token": "to",
+      "char_start": 227,
+      "char_end": 229,
+      "word_index": 35,
+      "chunk_index": 0
+    },
+    {
+      "index": 53,
+      "token_id": 28991,
+      "token": "nano",
+      "char_start": 230,
+      "char_end": 234,
+      "word_index": 36,
+      "chunk_index": 0
+    },
+    {
+      "index": 54,
+      "token_id": 15007,
+      "token": "##tech",
+      "char_start": 234,
+      "char_end": 238,
+      "word_index": 36,
+      "chunk_index": 0
+    },
+    {
+      "index": 55,
+      "token_id": 21020,
+      "token": "##nology",
+      "char_start": 238,
+      "char_end": 244,
+      "word_index": 36,
+      "chunk_index": 0
+    },
+    {
+      "index": 56,
+      "token_id": 1998,
+      "token": "and",
+      "char_start": 245,
+      "char_end": 248,
+      "word_index": 37,
+      "chunk_index": 0
+    },
+    {
+      "index": 57,
+      "token_id": 2966,
+      "token": "medical",
+      "char_start": 249,
+      "char_end": 256,
+      "word_index": 38,
+      "chunk_index": 0
+    },
+    {
+      "index": 58,
+      "token_id": 5733,
+      "token": "devices",
+      "char_start": 257,
+      "char_end": 264,
+      "word_index": 39,
+      "chunk_index": 0
+    },
+    {
+      "index": 59,
+      "token_id": 1012,
+      "token": ".",
+      "char_start": 264,
+      "char_end": 265,
+      "word_index": -1,
+      "chunk_index": 0
+    }
+  ],
+  "audio_feature_names": [
+    "Loudness_sma3",
+    "alphaRatio_sma3",
+    "hammarbergIndex_sma3",
+    "slope0-500_sma3",
+    "slope500-1500_sma3",
+    "spectralFlux_sma3",
+    "mfcc1_sma3",
+    "mfcc2_sma3",
+    "mfcc3_sma3",
+    "mfcc4_sma3",
+    "F0semitoneFrom27.5Hz_sma3nz",
+    "jitterLocal_sma3nz",
+    "shimmerLocaldB_sma3nz",
+    "HNRdBACF_sma3nz",
+    "logRelF0-H1-H2_sma3nz",
+    "logRelF0-H1-A3_sma3nz",
+    "F1frequency_sma3nz",
+    "F1bandwidth_sma3nz",
+    "F1amplitudeLogRelF0_sma3nz",
+    "F2frequency_sma3nz",
+    "F2bandwidth_sma3nz",
+    "F2amplitudeLogRelF0_sma3nz",
+    "F3frequency_sma3nz",
+    "F3bandwidth_sma3nz",
+    "F3amplitudeLogRelF0_sma3nz"
+  ],
+  "vision_feature_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "convolution": {
+    "stride_samples": 320,
+    "receptive_field_samples": 400
+  },
+  "ctc_target_text": "THIS|IS|GOVERNOR|STEVE|BESHEAR|ABOUT|KENTUCKY|OUR|STATE|IS|HOME|TO|MORE|THAN|ONE|THOUSAND|FIVE|HUNDRED|BIOSCIENCE|AND|LIFESCIENCE|COMPANIES|AND|MORE|THAN|ONE|HUNDRED|THOUSAND|PEOPLE|WHO|WORK|FOR|THESE|FIRMS|IN|AREAS|FROM|NUTRIGENOMICS|AND|PHARMACEUTICALS|TO|NANOTECHNOLOGY|AND|MEDICAL|DEVICES",
+  "diagnostic_asr": "THIS IS GOVERNOR STEVE BISHR ABOUT KENTUCKY OUR STATE IS HOME TO MORE THAN FIFTEEN HUNDRED BAO SCIENCE AND LIFE SCIENCE COMPANIES AND MORE THAN A HUNDRED THOUSAND PEOPLE WHO WORK FOR THESE FIRMS IN AREAS FROM NEUTRAGENOMIKES AND PARMOSUTICLES TENANO TECHNOLOGY AND MEDICAL DEVICES",
+  "diagnostic_wer": 0.28888888888888886,
+  "alignment_path_log_probability": -333.36388488789305,
+  "alignment_error": null,
+  "padding_count": 0,
+  "truncated_words": 0,
+  "visual_time_support": "nearest-sampled-frame cells, midpoint boundaries; 5 Hz sampling",
+  "face_selection": "largest detected face; speaker identity not verified",
+  "feature_dimensions": {
+    "text": 768,
+    "audio": 25,
+    "vision": 52
+  },
+  "statuses": {
+    "low_confidence_words": 1,
+    "unaligned_words": 0,
+    "no_face_frames": 23,
+    "multiple_face_frames": 0,
+    "silent_audio_frames": 465,
+    "invalid_audio_frames": 0
+  },
+  "elapsed_seconds": 3.581124249845743
+}

@@ -1,0 +1,12 @@
+{
+  "checkpoints": {
+    "step2_v2/checkpoints/emc_17.pt": "86dc67124fd0cb320eecfec64db382d99e59f307b1b445558725e69e9f6ae84e",
+    "step2_v2/checkpoints/emc_29.pt": "36a053460c7b1c02e4417b31a7444a36326a20a9b8c3fc96d3d63de6ff0038a3",
+    "step2_v2/checkpoints/emc_43.pt": "8cf8ba77a5d331e8d90d0892c23c9fa020eb634b5d01bc533463293f3de3870a"
+  },
+  "profiles": 217,
+  "selection_sha256": null,
+  "protocol_sha256": "95fcdbc93fab54a7a050ff81ae98a07a21cae1d5fe37cef0b2ee540c9bab7098",
+  "all_missing_policy": "train_prior",
+  "backend": "linear"
+}

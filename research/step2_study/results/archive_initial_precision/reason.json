@@ -1,0 +1,1 @@
+{"reason": "FP16 gradient scaling overflow was treated as fatal instead of letting GradScaler skip update. Restart all three seeds under identical corrected numerical settings; no change to experiment/model/selection criteria.", "initial_scale": 1024, "nonfinite_gradient_policy": "skip affected optimizer step and reduce scale; record each occurrence"}

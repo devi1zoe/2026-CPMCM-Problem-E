@@ -1,0 +1,966 @@
+{
+  "sample_id": "06",
+  "raw_text": "If you're a fan of dancing in that sense, just like to watch people dance, see impressive dance moves then you might want to check out this movie solely for that",
+  "duration": 8.305013020833334,
+  "video_fps": 30.0,
+  "video_frames": 247,
+  "video_source": "E题_材料阅读/E题数据/附件4-可解释专项视频样本与特征文件/附件4-可解释专项视频样本与特征文件/对齐版本/videos/06.mp4",
+  "video_sha256": "22e0a0e7c0880d3e92e4eb5e98070e5128884dd21eebc8367852570feb1b1d7f",
+  "audio_coverage_fraction": 1.0,
+  "diagnostic_asr": "IF YOU'RE FAN OF DANCING IN THAT SENSE JUST LIKE THO WATCH PEOPLE DANCE SEE IMPRESSIVE DANCE MOVES THAT YOU MIGHT WANT COHAVE Y SOLELY FOR THAT",
+  "diagnostic_wer": 0.25806451612903225,
+  "mean_ctc_confidence": 0.652635931968689,
+  "requires_timing_review": false,
+  "reasons": [],
+  "words": [
+    {
+      "index": 0,
+      "original": "If",
+      "char_start": 0,
+      "char_end": 2,
+      "normalized": "IF",
+      "start": 0.5424687499999999,
+      "end": 0.60246875,
+      "confidence": 0.9141788482666016,
+      "status": "aligned"
+    },
+    {
+      "index": 1,
+      "original": "you're",
+      "char_start": 3,
+      "char_end": 9,
+      "normalized": "YOU'RE",
+      "start": 0.62246875,
+      "end": 0.76246875,
+      "confidence": 0.5823807716369629,
+      "status": "aligned"
+    },
+    {
+      "index": 2,
+      "original": "a",
+      "char_start": 10,
+      "char_end": 11,
+      "normalized": "A",
+      "start": 0.78246875,
+      "end": 0.8024687500000001,
+      "confidence": 0.0029718910809606314,
+      "status": "low_confidence"
+    },
+    {
+      "index": 3,
+      "original": "fan",
+      "char_start": 12,
+      "char_end": 15,
+      "normalized": "FAN",
+      "start": 0.82246875,
+      "end": 0.94246875,
+      "confidence": 0.11598731577396393,
+      "status": "aligned"
+    },
+    {
+      "index": 4,
+      "original": "of",
+      "char_start": 16,
+      "char_end": 18,
+      "normalized": "OF",
+      "start": 1.02246875,
+      "end": 1.06246875,
+      "confidence": 0.8873940706253052,
+      "status": "aligned"
+    },
+    {
+      "index": 5,
+      "original": "dancing",
+      "char_start": 19,
+      "char_end": 26,
+      "normalized": "DANCING",
+      "start": 1.1024687499999999,
+      "end": 1.48246875,
+      "confidence": 0.9757686257362366,
+      "status": "aligned"
+    },
+    {
+      "index": 6,
+      "original": "in",
+      "char_start": 27,
+      "char_end": 29,
+      "normalized": "IN",
+      "start": 1.54246875,
+      "end": 1.58246875,
+      "confidence": 0.9200313687324524,
+      "status": "aligned"
+    },
+    {
+      "index": 7,
+      "original": "that",
+      "char_start": 30,
+      "char_end": 34,
+      "normalized": "THAT",
+      "start": 1.64246875,
+      "end": 1.78246875,
+      "confidence": 0.9799149632453918,
+      "status": "aligned"
+    },
+    {
+      "index": 8,
+      "original": "sense",
+      "char_start": 35,
+      "char_end": 40,
+      "normalized": "SENSE",
+      "start": 1.84246875,
+      "end": 2.08246875,
+      "confidence": 0.9330881834030151,
+      "status": "aligned"
+    },
+    {
+      "index": 9,
+      "original": "just",
+      "char_start": 42,
+      "char_end": 46,
+      "normalized": "JUST",
+      "start": 2.1424687500000004,
+      "end": 2.3024687499999996,
+      "confidence": 0.9845279455184937,
+      "status": "aligned"
+    },
+    {
+      "index": 10,
+      "original": "like",
+      "char_start": 47,
+      "char_end": 51,
+      "normalized": "LIKE",
+      "start": 2.34246875,
+      "end": 2.4624687499999998,
+      "confidence": 0.9981744885444641,
+      "status": "aligned"
+    },
+    {
+      "index": 11,
+      "original": "to",
+      "char_start": 52,
+      "char_end": 54,
+      "normalized": "TO",
+      "start": 2.5224687500000003,
+      "end": 2.58246875,
+      "confidence": 0.6835053563117981,
+      "status": "aligned"
+    },
+    {
+      "index": 12,
+      "original": "watch",
+      "char_start": 55,
+      "char_end": 60,
+      "normalized": "WATCH",
+      "start": 2.6624687500000004,
+      "end": 2.8624687499999997,
+      "confidence": 0.9847405552864075,
+      "status": "aligned"
+    },
+    {
+      "index": 13,
+      "original": "people",
+      "char_start": 61,
+      "char_end": 67,
+      "normalized": "PEOPLE",
+      "start": 2.94246875,
+      "end": 3.16246875,
+      "confidence": 0.9097302556037903,
+      "status": "aligned"
+    },
+    {
+      "index": 14,
+      "original": "dance",
+      "char_start": 68,
+      "char_end": 73,
+      "normalized": "DANCE",
+      "start": 3.22246875,
+      "end": 3.52246875,
+      "confidence": 0.9994393587112427,
+      "status": "aligned"
+    },
+    {
+      "index": 15,
+      "original": "see",
+      "char_start": 75,
+      "char_end": 78,
+      "normalized": "SEE",
+      "start": 3.72246875,
+      "end": 3.8624687499999997,
+      "confidence": 0.9910810589790344,
+      "status": "aligned"
+    },
+    {
+      "index": 16,
+      "original": "impressive",
+      "char_start": 79,
+      "char_end": 89,
+      "normalized": "IMPRESSIVE",
+      "start": 3.96246875,
+      "end": 4.40246875,
+      "confidence": 0.9171409010887146,
+      "status": "aligned"
+    },
+    {
+      "index": 17,
+      "original": "dance",
+      "char_start": 90,
+      "char_end": 95,
+      "normalized": "DANCE",
+      "start": 4.46246875,
+      "end": 4.7024687499999995,
+      "confidence": 0.8953620195388794,
+      "status": "aligned"
+    },
+    {
+      "index": 18,
+      "original": "moves",
+      "char_start": 96,
+      "char_end": 101,
+      "normalized": "MOVES",
+      "start": 4.84246875,
+      "end": 5.1224687499999995,
+      "confidence": 0.9385619759559631,
+      "status": "aligned"
+    },
+    {
+      "index": 19,
+      "original": "then",
+      "char_start": 102,
+      "char_end": 106,
+      "normalized": "THEN",
+      "start": 5.58246875,
+      "end": 5.68246875,
+      "confidence": 0.1164652556180954,
+      "status": "aligned"
+    },
+    {
+      "index": 20,
+      "original": "you",
+      "char_start": 107,
+      "char_end": 110,
+      "normalized": "YOU",
+      "start": 5.72246875,
+      "end": 5.78246875,
+      "confidence": 0.9982954859733582,
+      "status": "aligned"
+    },
+    {
+      "index": 21,
+      "original": "might",
+      "char_start": 111,
+      "char_end": 116,
+      "normalized": "MIGHT",
+      "start": 5.8224687500000005,
+      "end": 5.96246875,
+      "confidence": 0.991399884223938,
+      "status": "aligned"
+    },
+    {
+      "index": 22,
+      "original": "want",
+      "char_start": 117,
+      "char_end": 121,
+      "normalized": "WANT",
+      "start": 5.98246875,
+      "end": 6.082468749999999,
+      "confidence": 0.21453195810317993,
+      "status": "aligned"
+    },
+    {
+      "index": 23,
+      "original": "to",
+      "char_start": 122,
+      "char_end": 124,
+      "normalized": "TO",
+      "start": 6.10246875,
+      "end": 6.14246875,
+      "confidence": 0.0022876292932778597,
+      "status": "low_confidence"
+    },
+    {
+      "index": 24,
+      "original": "check",
+      "char_start": 125,
+      "char_end": 130,
+      "normalized": "CHECK",
+      "start": 6.16246875,
+      "end": 6.28246875,
+      "confidence": 0.02983468770980835,
+      "status": "low_confidence"
+    },
+    {
+      "index": 25,
+      "original": "out",
+      "char_start": 131,
+      "char_end": 134,
+      "normalized": "OUT",
+      "start": 6.3224687500000005,
+      "end": 6.38246875,
+      "confidence": 0.0145493783056736,
+      "status": "low_confidence"
+    },
+    {
+      "index": 26,
+      "original": "this",
+      "char_start": 135,
+      "char_end": 139,
+      "normalized": "THIS",
+      "start": 6.402468750000001,
+      "end": 6.48246875,
+      "confidence": 0.04858129844069481,
+      "status": "low_confidence"
+    },
+    {
+      "index": 27,
+      "original": "movie",
+      "char_start": 140,
+      "char_end": 145,
+      "normalized": "MOVIE",
+      "start": 6.54246875,
+      "end": 6.72246875,
+      "confidence": 0.1780746579170227,
+      "status": "aligned"
+    },
+    {
+      "index": 28,
+      "original": "solely",
+      "char_start": 146,
+      "char_end": 152,
+      "normalized": "SOLELY",
+      "start": 6.80246875,
+      "end": 7.1224687499999995,
+      "confidence": 0.9828759431838989,
+      "status": "aligned"
+    },
+    {
+      "index": 29,
+      "original": "for",
+      "char_start": 153,
+      "char_end": 156,
+      "normalized": "FOR",
+      "start": 7.22246875,
+      "end": 7.32246875,
+      "confidence": 0.9982846975326538,
+      "status": "aligned"
+    },
+    {
+      "index": 30,
+      "original": "that",
+      "char_start": 157,
+      "char_end": 161,
+      "normalized": "THAT",
+      "start": 7.38246875,
+      "end": 7.64246875,
+      "confidence": 0.04255290329456329,
+      "status": "low_confidence"
+    }
+  ],
+  "tokens": [
+    {
+      "sample_id": "06",
+      "slot": 1,
+      "token": "if",
+      "token_id": 2065,
+      "char_start": 0,
+      "char_end": 2,
+      "raw_fragment": "If",
+      "word_indices": [
+        0
+      ],
+      "candidate_start": 0.5424687499999999,
+      "candidate_end": 0.60246875,
+      "timing_usable": true,
+      "confidence": 0.9141788482666016,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "06",
+      "slot": 2,
+      "token": "you",
+      "token_id": 2017,
+      "char_start": 3,
+      "char_end": 6,
+      "raw_fragment": "you",
+      "word_indices": [
+        1
+      ],
+      "candidate_start": 0.62246875,
+      "candidate_end": 0.76246875,
+      "timing_usable": true,
+      "confidence": 0.5823807716369629,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "06",
+      "slot": 3,
+      "token": "'",
+      "token_id": 1005,
+      "char_start": 6,
+      "char_end": 7,
+      "raw_fragment": "'",
+      "word_indices": [
+        1
+      ],
+      "candidate_start": 0.62246875,
+      "candidate_end": 0.76246875,
+      "timing_usable": true,
+      "confidence": 0.5823807716369629,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "06",
+      "slot": 4,
+      "token": "re",
+      "token_id": 2128,
+      "char_start": 7,
+      "char_end": 9,
+      "raw_fragment": "re",
+      "word_indices": [
+        1
+      ],
+      "candidate_start": 0.62246875,
+      "candidate_end": 0.76246875,
+      "timing_usable": true,
+      "confidence": 0.5823807716369629,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "06",
+      "slot": 5,
+      "token": "a",
+      "token_id": 1037,
+      "char_start": 10,
+      "char_end": 11,
+      "raw_fragment": "a",
+      "word_indices": [
+        2
+      ],
+      "candidate_start": 0.78246875,
+      "candidate_end": 0.8024687500000001,
+      "timing_usable": false,
+      "confidence": 0.0029718910809606314,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "06",
+      "slot": 6,
+      "token": "fan",
+      "token_id": 5470,
+      "char_start": 12,
+      "char_end": 15,
+      "raw_fragment": "fan",
+      "word_indices": [
+        3
+      ],
+      "candidate_start": 0.82246875,
+      "candidate_end": 0.94246875,
+      "timing_usable": true,
+      "confidence": 0.11598731577396393,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "06",
+      "slot": 7,
+      "token": "of",
+      "token_id": 1997,
+      "char_start": 16,
+      "char_end": 18,
+      "raw_fragment": "of",
+      "word_indices": [
+        4
+      ],
+      "candidate_start": 1.02246875,
+      "candidate_end": 1.06246875,
+      "timing_usable": true,
+      "confidence": 0.8873940706253052,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "06",
+      "slot": 8,
+      "token": "dancing",
+      "token_id": 5613,
+      "char_start": 19,
+      "char_end": 26,
+      "raw_fragment": "dancing",
+      "word_indices": [
+        5
+      ],
+      "candidate_start": 1.1024687499999999,
+      "candidate_end": 1.48246875,
+      "timing_usable": true,
+      "confidence": 0.9757686257362366,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "06",
+      "slot": 9,
+      "token": "in",
+      "token_id": 1999,
+      "char_start": 27,
+      "char_end": 29,
+      "raw_fragment": "in",
+      "word_indices": [
+        6
+      ],
+      "candidate_start": 1.54246875,
+      "candidate_end": 1.58246875,
+      "timing_usable": true,
+      "confidence": 0.9200313687324524,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "06",
+      "slot": 10,
+      "token": "that",
+      "token_id": 2008,
+      "char_start": 30,
+      "char_end": 34,
+      "raw_fragment": "that",
+      "word_indices": [
+        7
+      ],
+      "candidate_start": 1.64246875,
+      "candidate_end": 1.78246875,
+      "timing_usable": true,
+      "confidence": 0.9799149632453918,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "06",
+      "slot": 11,
+      "token": "sense",
+      "token_id": 3168,
+      "char_start": 35,
+      "char_end": 40,
+      "raw_fragment": "sense",
+      "word_indices": [
+        8
+      ],
+      "candidate_start": 1.84246875,
+      "candidate_end": 2.08246875,
+      "timing_usable": true,
+      "confidence": 0.9330881834030151,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "06",
+      "slot": 12,
+      "token": ",",
+      "token_id": 1010,
+      "char_start": 40,
+      "char_end": 41,
+      "raw_fragment": ",",
+      "word_indices": [],
+      "candidate_start": null,
+      "candidate_end": null,
+      "timing_usable": false,
+      "confidence": null,
+      "mapping": "punctuation_without_own_acoustic_interval"
+    },
+    {
+      "sample_id": "06",
+      "slot": 13,
+      "token": "just",
+      "token_id": 2074,
+      "char_start": 42,
+      "char_end": 46,
+      "raw_fragment": "just",
+      "word_indices": [
+        9
+      ],
+      "candidate_start": 2.1424687500000004,
+      "candidate_end": 2.3024687499999996,
+      "timing_usable": true,
+      "confidence": 0.9845279455184937,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "06",
+      "slot": 14,
+      "token": "like",
+      "token_id": 2066,
+      "char_start": 47,
+      "char_end": 51,
+      "raw_fragment": "like",
+      "word_indices": [
+        10
+      ],
+      "candidate_start": 2.34246875,
+      "candidate_end": 2.4624687499999998,
+      "timing_usable": true,
+      "confidence": 0.9981744885444641,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "06",
+      "slot": 15,
+      "token": "to",
+      "token_id": 2000,
+      "char_start": 52,
+      "char_end": 54,
+      "raw_fragment": "to",
+      "word_indices": [
+        11
+      ],
+      "candidate_start": 2.5224687500000003,
+      "candidate_end": 2.58246875,
+      "timing_usable": true,
+      "confidence": 0.6835053563117981,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "06",
+      "slot": 16,
+      "token": "watch",
+      "token_id": 3422,
+      "char_start": 55,
+      "char_end": 60,
+      "raw_fragment": "watch",
+      "word_indices": [
+        12
+      ],
+      "candidate_start": 2.6624687500000004,
+      "candidate_end": 2.8624687499999997,
+      "timing_usable": true,
+      "confidence": 0.9847405552864075,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "06",
+      "slot": 17,
+      "token": "people",
+      "token_id": 2111,
+      "char_start": 61,
+      "char_end": 67,
+      "raw_fragment": "people",
+      "word_indices": [
+        13
+      ],
+      "candidate_start": 2.94246875,
+      "candidate_end": 3.16246875,
+      "timing_usable": true,
+      "confidence": 0.9097302556037903,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "06",
+      "slot": 18,
+      "token": "dance",
+      "token_id": 3153,
+      "char_start": 68,
+      "char_end": 73,
+      "raw_fragment": "dance",
+      "word_indices": [
+        14
+      ],
+      "candidate_start": 3.22246875,
+      "candidate_end": 3.52246875,
+      "timing_usable": true,
+      "confidence": 0.9994393587112427,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "06",
+      "slot": 19,
+      "token": ",",
+      "token_id": 1010,
+      "char_start": 73,
+      "char_end": 74,
+      "raw_fragment": ",",
+      "word_indices": [],
+      "candidate_start": null,
+      "candidate_end": null,
+      "timing_usable": false,
+      "confidence": null,
+      "mapping": "punctuation_without_own_acoustic_interval"
+    },
+    {
+      "sample_id": "06",
+      "slot": 20,
+      "token": "see",
+      "token_id": 2156,
+      "char_start": 75,
+      "char_end": 78,
+      "raw_fragment": "see",
+      "word_indices": [
+        15
+      ],
+      "candidate_start": 3.72246875,
+      "candidate_end": 3.8624687499999997,
+      "timing_usable": true,
+      "confidence": 0.9910810589790344,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "06",
+      "slot": 21,
+      "token": "impressive",
+      "token_id": 8052,
+      "char_start": 79,
+      "char_end": 89,
+      "raw_fragment": "impressive",
+      "word_indices": [
+        16
+      ],
+      "candidate_start": 3.96246875,
+      "candidate_end": 4.40246875,
+      "timing_usable": true,
+      "confidence": 0.9171409010887146,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "06",
+      "slot": 22,
+      "token": "dance",
+      "token_id": 3153,
+      "char_start": 90,
+      "char_end": 95,
+      "raw_fragment": "dance",
+      "word_indices": [
+        17
+      ],
+      "candidate_start": 4.46246875,
+      "candidate_end": 4.7024687499999995,
+      "timing_usable": true,
+      "confidence": 0.8953620195388794,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "06",
+      "slot": 23,
+      "token": "moves",
+      "token_id": 5829,
+      "char_start": 96,
+      "char_end": 101,
+      "raw_fragment": "moves",
+      "word_indices": [
+        18
+      ],
+      "candidate_start": 4.84246875,
+      "candidate_end": 5.1224687499999995,
+      "timing_usable": true,
+      "confidence": 0.9385619759559631,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "06",
+      "slot": 24,
+      "token": "then",
+      "token_id": 2059,
+      "char_start": 102,
+      "char_end": 106,
+      "raw_fragment": "then",
+      "word_indices": [
+        19
+      ],
+      "candidate_start": 5.58246875,
+      "candidate_end": 5.68246875,
+      "timing_usable": true,
+      "confidence": 0.1164652556180954,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "06",
+      "slot": 25,
+      "token": "you",
+      "token_id": 2017,
+      "char_start": 107,
+      "char_end": 110,
+      "raw_fragment": "you",
+      "word_indices": [
+        20
+      ],
+      "candidate_start": 5.72246875,
+      "candidate_end": 5.78246875,
+      "timing_usable": true,
+      "confidence": 0.9982954859733582,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "06",
+      "slot": 26,
+      "token": "might",
+      "token_id": 2453,
+      "char_start": 111,
+      "char_end": 116,
+      "raw_fragment": "might",
+      "word_indices": [
+        21
+      ],
+      "candidate_start": 5.8224687500000005,
+      "candidate_end": 5.96246875,
+      "timing_usable": true,
+      "confidence": 0.991399884223938,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "06",
+      "slot": 27,
+      "token": "want",
+      "token_id": 2215,
+      "char_start": 117,
+      "char_end": 121,
+      "raw_fragment": "want",
+      "word_indices": [
+        22
+      ],
+      "candidate_start": 5.98246875,
+      "candidate_end": 6.082468749999999,
+      "timing_usable": true,
+      "confidence": 0.21453195810317993,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "06",
+      "slot": 28,
+      "token": "to",
+      "token_id": 2000,
+      "char_start": 122,
+      "char_end": 124,
+      "raw_fragment": "to",
+      "word_indices": [
+        23
+      ],
+      "candidate_start": 6.10246875,
+      "candidate_end": 6.14246875,
+      "timing_usable": false,
+      "confidence": 0.0022876292932778597,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "06",
+      "slot": 29,
+      "token": "check",
+      "token_id": 4638,
+      "char_start": 125,
+      "char_end": 130,
+      "raw_fragment": "check",
+      "word_indices": [
+        24
+      ],
+      "candidate_start": 6.16246875,
+      "candidate_end": 6.28246875,
+      "timing_usable": false,
+      "confidence": 0.02983468770980835,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "06",
+      "slot": 30,
+      "token": "out",
+      "token_id": 2041,
+      "char_start": 131,
+      "char_end": 134,
+      "raw_fragment": "out",
+      "word_indices": [
+        25
+      ],
+      "candidate_start": 6.3224687500000005,
+      "candidate_end": 6.38246875,
+      "timing_usable": false,
+      "confidence": 0.0145493783056736,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "06",
+      "slot": 31,
+      "token": "this",
+      "token_id": 2023,
+      "char_start": 135,
+      "char_end": 139,
+      "raw_fragment": "this",
+      "word_indices": [
+        26
+      ],
+      "candidate_start": 6.402468750000001,
+      "candidate_end": 6.48246875,
+      "timing_usable": false,
+      "confidence": 0.04858129844069481,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "06",
+      "slot": 32,
+      "token": "movie",
+      "token_id": 3185,
+      "char_start": 140,
+      "char_end": 145,
+      "raw_fragment": "movie",
+      "word_indices": [
+        27
+      ],
+      "candidate_start": 6.54246875,
+      "candidate_end": 6.72246875,
+      "timing_usable": true,
+      "confidence": 0.1780746579170227,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "06",
+      "slot": 33,
+      "token": "solely",
+      "token_id": 9578,
+      "char_start": 146,
+      "char_end": 152,
+      "raw_fragment": "solely",
+      "word_indices": [
+        28
+      ],
+      "candidate_start": 6.80246875,
+      "candidate_end": 7.1224687499999995,
+      "timing_usable": true,
+      "confidence": 0.9828759431838989,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "06",
+      "slot": 34,
+      "token": "for",
+      "token_id": 2005,
+      "char_start": 153,
+      "char_end": 156,
+      "raw_fragment": "for",
+      "word_indices": [
+        29
+      ],
+      "candidate_start": 7.22246875,
+      "candidate_end": 7.32246875,
+      "timing_usable": true,
+      "confidence": 0.9982846975326538,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "06",
+      "slot": 35,
+      "token": "that",
+      "token_id": 2008,
+      "char_start": 157,
+      "char_end": 161,
+      "raw_fragment": "that",
+      "word_indices": [
+        30
+      ],
+      "candidate_start": 7.38246875,
+      "candidate_end": 7.64246875,
+      "timing_usable": false,
+      "confidence": 0.04255290329456329,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    }
+  ],
+  "token_ids_match": true,
+  "feature_repetition_audit": {
+    "audio": {
+      "multi_piece_words": 1,
+      "identical_feature_groups": 1
+    },
+    "vision": {
+      "multi_piece_words": 1,
+      "identical_feature_groups": 1
+    }
+  },
+  "represented_char_end": 161,
+  "unrepresented_text_tail": "",
+  "timing_claim": "estimated CTC word intervals, not official feature timestamps; aligned AV correspondence follows task specification",
+  "alignment_error": null
+}

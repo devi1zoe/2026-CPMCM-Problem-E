@@ -1,0 +1,12 @@
+{
+  "sample_id": "-tPCytz4rww$_$12",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.8481909036636353,
+  "low_confidence_fraction": 0.07692307692307693,
+  "diagnostic_wer": 0.38461538461538464,
+  "usable_word_times": 24,
+  "words": 26,
+  "raw_text": "No less than eight hundred squire feet and going to similar in, similar with bedrooms and bathrooms as well and hopefully the complexes have similar amenities.",
+  "diagnostic_asr": "SQUARE FEET NO LESS THAN EIGHT HUNDRED SQUARE FEET AN GNTO BE SIMILAR IN AM SIMILAR WITH BEDROOMS AND BATHROOMS AS WELL AND AHOPEFULLY THE THE COMPLEXES HAVE SIMILAR AMENITIES MEANIN"
+}

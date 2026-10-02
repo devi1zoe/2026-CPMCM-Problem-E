@@ -1,0 +1,1237 @@
+{
+  "sample_id": "-AUZQgSxyPQ$_$2",
+  "video_id": "-AUZQgSxyPQ",
+  "clip_id": "2",
+  "raw_text": "The perfect soul mate to the Clarisonic Spot Therapy Brush, this gentle, Ph balanced and hydrating exfoliant containing jojoba and acai fruit oils and bamboo and prickly bear extracts deliver intense healing, while smooth granules buff away dead, dry skin cells.",
+  "label": 0.6666666865348816,
+  "annotation": "Positive",
+  "source_path": "E题_材料阅读/E题数据/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-AUZQgSxyPQ/2.mp4",
+  "source_sha256": "e09034b30bb4f8fb9f9c2568afc20f2a764e327fe6ef4e13f21804eaac51bb7b",
+  "config_sha256": "4a530340304f07255daf856e6891f0a15e50f05bd85343d067a663a573e8f888",
+  "code_sha256": {
+    "common.py": "4a37980b521a2f5a93e208d3ba265542a149336b3401aa89b8a4494517f5e16e",
+    "alignment.py": "76b29c002cdc97e8e0e85cffae02d81db938fa39484ad908c28c5efc60de0c34",
+    "features.py": "8283e0d0886b83bbd84d4db4521599b480b0ada4bc1afc4e4b9b91cddf5b4018",
+    "run.py": "f75d7b5bc6e342541664233a37a3d87f39313bcd3a8f3a50bfaea94798d4e07b"
+  },
+  "model_assets_sha256": {
+    "assets/face_landmarker.task": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff",
+    "assets/wav2vec2/preprocessor_config.json": "b225d617c025463b9e157e06afea8b90dc7078fc70b013c533328423e0486b4a",
+    "assets/wav2vec2/vocab.json": "19727f8944fe6459fc3f240ae2c198395b740f6a029bd23e06656266b83bcf64",
+    "assets/wav2vec2/special_tokens_map.json": "bb7068de1150661a10b55f9e4b12a0e77af8bf91f5e45e1b58afaf1d0e17f675",
+    "assets/wav2vec2/tokenizer_config.json": "dc790594f5bc351a4311c6624f40acd95850d4aaf2a5cb3c656c9b610720b608",
+    "assets/wav2vec2/model.safetensors": "8aa76ab2243c81747a1f832954586bc566090c83a0ac167df6f31f0fa917d74a",
+    "assets/wav2vec2/config.json": "d3ec255c063d9f95057b553b19c20135b259875834a4fe9deb218a6be25b4cf3",
+    "assets/distilbert/vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+    "assets/distilbert/tokenizer_config.json": "a025160ef0431f1a392f6f050c1310f4c5d9fb6f275932dbccba73c4d214bf10",
+    "assets/distilbert/model.safetensors": "5e3f1108e3cb34ee048634875d8482665b65ac713291a7e32396fb18f6ff0063",
+    "assets/distilbert/config.json": "69c94b0222d5d1f4b0ad027ca7416cdafb98378cbbb8305d0bf47c9365c60c83",
+    "assets/distilbert/tokenizer.json": "ce64fce797c24f68df90b40a3f74f579b336a493db14bd583fd520ea0d8c9a98"
+  },
+  "duration": 22.511002604166666,
+  "video_rate": 30.0,
+  "video_origin": 0.0,
+  "audio_start": 0.0,
+  "audio_duration": 22.4045625,
+  "audio_coverage_ratio": 1.0,
+  "words": [
+    {
+      "index": 0,
+      "original": "The",
+      "char_start": 0,
+      "char_end": 3,
+      "normalized": "THE",
+      "subword_indices": [
+        0
+      ],
+      "start": 0.50246875,
+      "end": 0.58246875,
+      "confidence": 0.9963613748550415,
+      "status": "aligned"
+    },
+    {
+      "index": 1,
+      "original": "perfect",
+      "char_start": 4,
+      "char_end": 11,
+      "normalized": "PERFECT",
+      "subword_indices": [
+        1
+      ],
+      "start": 0.64246875,
+      "end": 0.96246875,
+      "confidence": 0.9996806979179382,
+      "status": "aligned"
+    },
+    {
+      "index": 2,
+      "original": "soul",
+      "char_start": 12,
+      "char_end": 16,
+      "normalized": "SOUL",
+      "subword_indices": [
+        2
+      ],
+      "start": 1.04246875,
+      "end": 1.22246875,
+      "confidence": 0.6666305661201477,
+      "status": "aligned"
+    },
+    {
+      "index": 3,
+      "original": "mate",
+      "char_start": 17,
+      "char_end": 21,
+      "normalized": "MATE",
+      "subword_indices": [
+        3
+      ],
+      "start": 1.32246875,
+      "end": 1.50246875,
+      "confidence": 0.24483786523342133,
+      "status": "aligned"
+    },
+    {
+      "index": 4,
+      "original": "to",
+      "char_start": 22,
+      "char_end": 24,
+      "normalized": "TO",
+      "subword_indices": [
+        4
+      ],
+      "start": 1.6024687499999999,
+      "end": 1.66246875,
+      "confidence": 0.9938085675239563,
+      "status": "aligned"
+    },
+    {
+      "index": 5,
+      "original": "the",
+      "char_start": 25,
+      "char_end": 28,
+      "normalized": "THE",
+      "subword_indices": [
+        5
+      ],
+      "start": 1.72246875,
+      "end": 1.78246875,
+      "confidence": 0.9649666547775269,
+      "status": "aligned"
+    },
+    {
+      "index": 6,
+      "original": "Clarisonic",
+      "char_start": 29,
+      "char_end": 39,
+      "normalized": "CLARISONIC",
+      "subword_indices": [
+        6,
+        7,
+        8
+      ],
+      "start": 1.86246875,
+      "end": 2.50246875,
+      "confidence": 0.46774017810821533,
+      "status": "aligned"
+    },
+    {
+      "index": 7,
+      "original": "Spot",
+      "char_start": 40,
+      "char_end": 44,
+      "normalized": "SPOT",
+      "subword_indices": [
+        9
+      ],
+      "start": 3.0824687500000003,
+      "end": 3.4024687499999997,
+      "confidence": 0.894709587097168,
+      "status": "aligned"
+    },
+    {
+      "index": 8,
+      "original": "Therapy",
+      "char_start": 45,
+      "char_end": 52,
+      "normalized": "THERAPY",
+      "subword_indices": [
+        10
+      ],
+      "start": 3.5624687500000003,
+      "end": 3.9624687499999998,
+      "confidence": 0.43445220589637756,
+      "status": "aligned"
+    },
+    {
+      "index": 9,
+      "original": "Brush",
+      "char_start": 53,
+      "char_end": 58,
+      "normalized": "BRUSH",
+      "subword_indices": [
+        11
+      ],
+      "start": 4.04246875,
+      "end": 4.32246875,
+      "confidence": 0.9534527063369751,
+      "status": "aligned"
+    },
+    {
+      "index": 10,
+      "original": "this",
+      "char_start": 60,
+      "char_end": 64,
+      "normalized": "THIS",
+      "subword_indices": [
+        13
+      ],
+      "start": 4.942468750000001,
+      "end": 5.082468749999999,
+      "confidence": 0.9535245299339294,
+      "status": "aligned"
+    },
+    {
+      "index": 11,
+      "original": "gentle",
+      "char_start": 65,
+      "char_end": 71,
+      "normalized": "GENTLE",
+      "subword_indices": [
+        14
+      ],
+      "start": 5.18246875,
+      "end": 5.56246875,
+      "confidence": 0.962714672088623,
+      "status": "aligned"
+    },
+    {
+      "index": 12,
+      "original": "Ph",
+      "char_start": 73,
+      "char_end": 75,
+      "normalized": "PH",
+      "subword_indices": [
+        16
+      ],
+      "start": 5.80246875,
+      "end": 6.10246875,
+      "confidence": 0.48229292035102844,
+      "status": "aligned"
+    },
+    {
+      "index": 13,
+      "original": "balanced",
+      "char_start": 76,
+      "char_end": 84,
+      "normalized": "BALANCED",
+      "subword_indices": [
+        17
+      ],
+      "start": 6.18246875,
+      "end": 6.60246875,
+      "confidence": 0.9616939425468445,
+      "status": "aligned"
+    },
+    {
+      "index": 14,
+      "original": "and",
+      "char_start": 85,
+      "char_end": 88,
+      "normalized": "AND",
+      "subword_indices": [
+        18
+      ],
+      "start": 6.7424687500000005,
+      "end": 6.82246875,
+      "confidence": 0.7376559972763062,
+      "status": "aligned"
+    },
+    {
+      "index": 15,
+      "original": "hydrating",
+      "char_start": 89,
+      "char_end": 98,
+      "normalized": "HYDRATING",
+      "subword_indices": [
+        19,
+        20
+      ],
+      "start": 6.902468750000001,
+      "end": 7.46246875,
+      "confidence": 0.9185242056846619,
+      "status": "aligned"
+    },
+    {
+      "index": 16,
+      "original": "exfoliant",
+      "char_start": 99,
+      "char_end": 108,
+      "normalized": "EXFOLIANT",
+      "subword_indices": [
+        21,
+        22,
+        23
+      ],
+      "start": 7.64246875,
+      "end": 8.24246875,
+      "confidence": 0.5255492925643921,
+      "status": "aligned"
+    },
+    {
+      "index": 17,
+      "original": "containing",
+      "char_start": 109,
+      "char_end": 119,
+      "normalized": "CONTAINING",
+      "subword_indices": [
+        24
+      ],
+      "start": 8.76246875,
+      "end": 9.18246875,
+      "confidence": 0.10968738794326782,
+      "status": "aligned"
+    },
+    {
+      "index": 18,
+      "original": "jojoba",
+      "char_start": 120,
+      "char_end": 126,
+      "normalized": "JOJOBA",
+      "subword_indices": [
+        25,
+        26,
+        27
+      ],
+      "start": 9.382468750000001,
+      "end": 9.86246875,
+      "confidence": 0.059524089097976685,
+      "status": "low_confidence"
+    },
+    {
+      "index": 19,
+      "original": "and",
+      "char_start": 127,
+      "char_end": 130,
+      "normalized": "AND",
+      "subword_indices": [
+        28
+      ],
+      "start": 10.302468750000001,
+      "end": 10.38246875,
+      "confidence": 0.5828806757926941,
+      "status": "aligned"
+    },
+    {
+      "index": 20,
+      "original": "acai",
+      "char_start": 131,
+      "char_end": 135,
+      "normalized": "ACAI",
+      "subword_indices": [
+        29,
+        30
+      ],
+      "start": 10.462468750000001,
+      "end": 10.76246875,
+      "confidence": 0.6736646890640259,
+      "status": "aligned"
+    },
+    {
+      "index": 21,
+      "original": "fruit",
+      "char_start": 136,
+      "char_end": 141,
+      "normalized": "FRUIT",
+      "subword_indices": [
+        31
+      ],
+      "start": 11.14246875,
+      "end": 11.36246875,
+      "confidence": 0.5270341634750366,
+      "status": "aligned"
+    },
+    {
+      "index": 22,
+      "original": "oils",
+      "char_start": 142,
+      "char_end": 146,
+      "normalized": "OILS",
+      "subword_indices": [
+        32
+      ],
+      "start": 11.48246875,
+      "end": 11.68246875,
+      "confidence": 0.706782877445221,
+      "status": "aligned"
+    },
+    {
+      "index": 23,
+      "original": "and",
+      "char_start": 147,
+      "char_end": 150,
+      "normalized": "AND",
+      "subword_indices": [
+        33
+      ],
+      "start": 12.462468750000001,
+      "end": 12.562468749999999,
+      "confidence": 0.0015973043628036976,
+      "status": "low_confidence"
+    },
+    {
+      "index": 24,
+      "original": "bamboo",
+      "char_start": 151,
+      "char_end": 157,
+      "normalized": "BAMBOO",
+      "subword_indices": [
+        34
+      ],
+      "start": 12.70246875,
+      "end": 13.12246875,
+      "confidence": 0.9416812062263489,
+      "status": "aligned"
+    },
+    {
+      "index": 25,
+      "original": "and",
+      "char_start": 158,
+      "char_end": 161,
+      "normalized": "AND",
+      "subword_indices": [
+        35
+      ],
+      "start": 13.56246875,
+      "end": 13.642468749999999,
+      "confidence": 0.7963991761207581,
+      "status": "aligned"
+    },
+    {
+      "index": 26,
+      "original": "prickly",
+      "char_start": 162,
+      "char_end": 169,
+      "normalized": "PRICKLY",
+      "subword_indices": [
+        36,
+        37
+      ],
+      "start": 13.74246875,
+      "end": 14.062468749999999,
+      "confidence": 0.7305823564529419,
+      "status": "aligned"
+    },
+    {
+      "index": 27,
+      "original": "bear",
+      "char_start": 170,
+      "char_end": 174,
+      "normalized": "BEAR",
+      "subword_indices": [
+        38
+      ],
+      "start": 14.14246875,
+      "end": 14.36246875,
+      "confidence": 0.3912462592124939,
+      "status": "aligned"
+    },
+    {
+      "index": 28,
+      "original": "extracts",
+      "char_start": 175,
+      "char_end": 183,
+      "normalized": "EXTRACTS",
+      "subword_indices": [
+        39
+      ],
+      "start": 14.64246875,
+      "end": 15.84246875,
+      "confidence": 0.9662741422653198,
+      "status": "aligned"
+    },
+    {
+      "index": 29,
+      "original": "deliver",
+      "char_start": 184,
+      "char_end": 191,
+      "normalized": "DELIVER",
+      "subword_indices": [
+        40
+      ],
+      "start": 15.94246875,
+      "end": 16.282468750000003,
+      "confidence": 0.998920738697052,
+      "status": "aligned"
+    },
+    {
+      "index": 30,
+      "original": "intense",
+      "char_start": 192,
+      "char_end": 199,
+      "normalized": "INTENSE",
+      "subword_indices": [
+        41
+      ],
+      "start": 16.50246875,
+      "end": 16.86246875,
+      "confidence": 0.98077791929245,
+      "status": "aligned"
+    },
+    {
+      "index": 31,
+      "original": "healing",
+      "char_start": 200,
+      "char_end": 207,
+      "normalized": "HEALING",
+      "subword_indices": [
+        42
+      ],
+      "start": 16.96246875,
+      "end": 17.322468750000002,
+      "confidence": 0.9944213628768921,
+      "status": "aligned"
+    },
+    {
+      "index": 32,
+      "original": "while",
+      "char_start": 209,
+      "char_end": 214,
+      "normalized": "WHILE",
+      "subword_indices": [
+        44
+      ],
+      "start": 17.82246875,
+      "end": 18.02246875,
+      "confidence": 0.9499810338020325,
+      "status": "aligned"
+    },
+    {
+      "index": 33,
+      "original": "smooth",
+      "char_start": 215,
+      "char_end": 221,
+      "normalized": "SMOOTH",
+      "subword_indices": [
+        45
+      ],
+      "start": 18.12246875,
+      "end": 18.38246875,
+      "confidence": 0.9130024909973145,
+      "status": "aligned"
+    },
+    {
+      "index": 34,
+      "original": "granules",
+      "char_start": 222,
+      "char_end": 230,
+      "normalized": "GRANULES",
+      "subword_indices": [
+        46,
+        47
+      ],
+      "start": 18.46246875,
+      "end": 18.92246875,
+      "confidence": 0.3106919229030609,
+      "status": "aligned"
+    },
+    {
+      "index": 35,
+      "original": "buff",
+      "char_start": 231,
+      "char_end": 235,
+      "normalized": "BUFF",
+      "subword_indices": [
+        48
+      ],
+      "start": 19.062468749999997,
+      "end": 19.26246875,
+      "confidence": 0.7317865490913391,
+      "status": "aligned"
+    },
+    {
+      "index": 36,
+      "original": "away",
+      "char_start": 236,
+      "char_end": 240,
+      "normalized": "AWAY",
+      "subword_indices": [
+        49
+      ],
+      "start": 19.362468749999998,
+      "end": 19.622468750000003,
+      "confidence": 0.9202715754508972,
+      "status": "aligned"
+    },
+    {
+      "index": 37,
+      "original": "dead",
+      "char_start": 241,
+      "char_end": 245,
+      "normalized": "DEAD",
+      "subword_indices": [
+        50
+      ],
+      "start": 20.12246875,
+      "end": 20.342468750000002,
+      "confidence": 0.8176203966140747,
+      "status": "aligned"
+    },
+    {
+      "index": 38,
+      "original": "dry",
+      "char_start": 247,
+      "char_end": 250,
+      "normalized": "DRY",
+      "subword_indices": [
+        52
+      ],
+      "start": 20.682468749999998,
+      "end": 20.962468750000003,
+      "confidence": 0.8784087896347046,
+      "status": "aligned"
+    },
+    {
+      "index": 39,
+      "original": "skin",
+      "char_start": 251,
+      "char_end": 255,
+      "normalized": "SKIN",
+      "subword_indices": [
+        53
+      ],
+      "start": 21.202468749999998,
+      "end": 21.40246875,
+      "confidence": 0.9078909754753113,
+      "status": "aligned"
+    },
+    {
+      "index": 40,
+      "original": "cells",
+      "char_start": 256,
+      "char_end": 261,
+      "normalized": "CELLS",
+      "subword_indices": [
+        54
+      ],
+      "start": 21.522468749999998,
+      "end": 21.802468750000003,
+      "confidence": 0.12259642779827118,
+      "status": "aligned"
+    }
+  ],
+  "subwords": [
+    {
+      "index": 0,
+      "token_id": 1996,
+      "token": "the",
+      "char_start": 0,
+      "char_end": 3,
+      "word_index": 0,
+      "chunk_index": 0
+    },
+    {
+      "index": 1,
+      "token_id": 3819,
+      "token": "perfect",
+      "char_start": 4,
+      "char_end": 11,
+      "word_index": 1,
+      "chunk_index": 0
+    },
+    {
+      "index": 2,
+      "token_id": 3969,
+      "token": "soul",
+      "char_start": 12,
+      "char_end": 16,
+      "word_index": 2,
+      "chunk_index": 0
+    },
+    {
+      "index": 3,
+      "token_id": 6775,
+      "token": "mate",
+      "char_start": 17,
+      "char_end": 21,
+      "word_index": 3,
+      "chunk_index": 0
+    },
+    {
+      "index": 4,
+      "token_id": 2000,
+      "token": "to",
+      "char_start": 22,
+      "char_end": 24,
+      "word_index": 4,
+      "chunk_index": 0
+    },
+    {
+      "index": 5,
+      "token_id": 1996,
+      "token": "the",
+      "char_start": 25,
+      "char_end": 28,
+      "word_index": 5,
+      "chunk_index": 0
+    },
+    {
+      "index": 6,
+      "token_id": 18856,
+      "token": "cl",
+      "char_start": 29,
+      "char_end": 31,
+      "word_index": 6,
+      "chunk_index": 0
+    },
+    {
+      "index": 7,
+      "token_id": 23061,
+      "token": "##aris",
+      "char_start": 31,
+      "char_end": 35,
+      "word_index": 6,
+      "chunk_index": 0
+    },
+    {
+      "index": 8,
+      "token_id": 12356,
+      "token": "##onic",
+      "char_start": 35,
+      "char_end": 39,
+      "word_index": 6,
+      "chunk_index": 0
+    },
+    {
+      "index": 9,
+      "token_id": 3962,
+      "token": "spot",
+      "char_start": 40,
+      "char_end": 44,
+      "word_index": 7,
+      "chunk_index": 0
+    },
+    {
+      "index": 10,
+      "token_id": 7242,
+      "token": "therapy",
+      "char_start": 45,
+      "char_end": 52,
+      "word_index": 8,
+      "chunk_index": 0
+    },
+    {
+      "index": 11,
+      "token_id": 8248,
+      "token": "brush",
+      "char_start": 53,
+      "char_end": 58,
+      "word_index": 9,
+      "chunk_index": 0
+    },
+    {
+      "index": 12,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 58,
+      "char_end": 59,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 13,
+      "token_id": 2023,
+      "token": "this",
+      "char_start": 60,
+      "char_end": 64,
+      "word_index": 10,
+      "chunk_index": 0
+    },
+    {
+      "index": 14,
+      "token_id": 7132,
+      "token": "gentle",
+      "char_start": 65,
+      "char_end": 71,
+      "word_index": 11,
+      "chunk_index": 0
+    },
+    {
+      "index": 15,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 71,
+      "char_end": 72,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 16,
+      "token_id": 6887,
+      "token": "ph",
+      "char_start": 73,
+      "char_end": 75,
+      "word_index": 12,
+      "chunk_index": 0
+    },
+    {
+      "index": 17,
+      "token_id": 12042,
+      "token": "balanced",
+      "char_start": 76,
+      "char_end": 84,
+      "word_index": 13,
+      "chunk_index": 0
+    },
+    {
+      "index": 18,
+      "token_id": 1998,
+      "token": "and",
+      "char_start": 85,
+      "char_end": 88,
+      "word_index": 14,
+      "chunk_index": 0
+    },
+    {
+      "index": 19,
+      "token_id": 26018,
+      "token": "hydra",
+      "char_start": 89,
+      "char_end": 94,
+      "word_index": 15,
+      "chunk_index": 0
+    },
+    {
+      "index": 20,
+      "token_id": 3436,
+      "token": "##ting",
+      "char_start": 94,
+      "char_end": 98,
+      "word_index": 15,
+      "chunk_index": 0
+    },
+    {
+      "index": 21,
+      "token_id": 4654,
+      "token": "ex",
+      "char_start": 99,
+      "char_end": 101,
+      "word_index": 16,
+      "chunk_index": 0
+    },
+    {
+      "index": 22,
+      "token_id": 21710,
+      "token": "##folia",
+      "char_start": 101,
+      "char_end": 106,
+      "word_index": 16,
+      "chunk_index": 0
+    },
+    {
+      "index": 23,
+      "token_id": 3372,
+      "token": "##nt",
+      "char_start": 106,
+      "char_end": 108,
+      "word_index": 16,
+      "chunk_index": 0
+    },
+    {
+      "index": 24,
+      "token_id": 4820,
+      "token": "containing",
+      "char_start": 109,
+      "char_end": 119,
+      "word_index": 17,
+      "chunk_index": 0
+    },
+    {
+      "index": 25,
+      "token_id": 8183,
+      "token": "jo",
+      "char_start": 120,
+      "char_end": 122,
+      "word_index": 18,
+      "chunk_index": 0
+    },
+    {
+      "index": 26,
+      "token_id": 5558,
+      "token": "##jo",
+      "char_start": 122,
+      "char_end": 124,
+      "word_index": 18,
+      "chunk_index": 0
+    },
+    {
+      "index": 27,
+      "token_id": 3676,
+      "token": "##ba",
+      "char_start": 124,
+      "char_end": 126,
+      "word_index": 18,
+      "chunk_index": 0
+    },
+    {
+      "index": 28,
+      "token_id": 1998,
+      "token": "and",
+      "char_start": 127,
+      "char_end": 130,
+      "word_index": 19,
+      "chunk_index": 0
+    },
+    {
+      "index": 29,
+      "token_id": 9353,
+      "token": "ac",
+      "char_start": 131,
+      "char_end": 133,
+      "word_index": 20,
+      "chunk_index": 0
+    },
+    {
+      "index": 30,
+      "token_id": 4886,
+      "token": "##ai",
+      "char_start": 133,
+      "char_end": 135,
+      "word_index": 20,
+      "chunk_index": 0
+    },
+    {
+      "index": 31,
+      "token_id": 5909,
+      "token": "fruit",
+      "char_start": 136,
+      "char_end": 141,
+      "word_index": 21,
+      "chunk_index": 0
+    },
+    {
+      "index": 32,
+      "token_id": 20631,
+      "token": "oils",
+      "char_start": 142,
+      "char_end": 146,
+      "word_index": 22,
+      "chunk_index": 0
+    },
+    {
+      "index": 33,
+      "token_id": 1998,
+      "token": "and",
+      "char_start": 147,
+      "char_end": 150,
+      "word_index": 23,
+      "chunk_index": 0
+    },
+    {
+      "index": 34,
+      "token_id": 15216,
+      "token": "bamboo",
+      "char_start": 151,
+      "char_end": 157,
+      "word_index": 24,
+      "chunk_index": 0
+    },
+    {
+      "index": 35,
+      "token_id": 1998,
+      "token": "and",
+      "char_start": 158,
+      "char_end": 161,
+      "word_index": 25,
+      "chunk_index": 0
+    },
+    {
+      "index": 36,
+      "token_id": 24858,
+      "token": "prick",
+      "char_start": 162,
+      "char_end": 167,
+      "word_index": 26,
+      "chunk_index": 0
+    },
+    {
+      "index": 37,
+      "token_id": 2135,
+      "token": "##ly",
+      "char_start": 167,
+      "char_end": 169,
+      "word_index": 26,
+      "chunk_index": 0
+    },
+    {
+      "index": 38,
+      "token_id": 4562,
+      "token": "bear",
+      "char_start": 170,
+      "char_end": 174,
+      "word_index": 27,
+      "chunk_index": 0
+    },
+    {
+      "index": 39,
+      "token_id": 27059,
+      "token": "extracts",
+      "char_start": 175,
+      "char_end": 183,
+      "word_index": 28,
+      "chunk_index": 0
+    },
+    {
+      "index": 40,
+      "token_id": 8116,
+      "token": "deliver",
+      "char_start": 184,
+      "char_end": 191,
+      "word_index": 29,
+      "chunk_index": 0
+    },
+    {
+      "index": 41,
+      "token_id": 6387,
+      "token": "intense",
+      "char_start": 192,
+      "char_end": 199,
+      "word_index": 30,
+      "chunk_index": 0
+    },
+    {
+      "index": 42,
+      "token_id": 8907,
+      "token": "healing",
+      "char_start": 200,
+      "char_end": 207,
+      "word_index": 31,
+      "chunk_index": 0
+    },
+    {
+      "index": 43,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 207,
+      "char_end": 208,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 44,
+      "token_id": 2096,
+      "token": "while",
+      "char_start": 209,
+      "char_end": 214,
+      "word_index": 32,
+      "chunk_index": 0
+    },
+    {
+      "index": 45,
+      "token_id": 5744,
+      "token": "smooth",
+      "char_start": 215,
+      "char_end": 221,
+      "word_index": 33,
+      "chunk_index": 0
+    },
+    {
+      "index": 46,
+      "token_id": 12604,
+      "token": "gran",
+      "char_start": 222,
+      "char_end": 226,
+      "word_index": 34,
+      "chunk_index": 0
+    },
+    {
+      "index": 47,
+      "token_id": 16308,
+      "token": "##ules",
+      "char_start": 226,
+      "char_end": 230,
+      "word_index": 34,
+      "chunk_index": 0
+    },
+    {
+      "index": 48,
+      "token_id": 23176,
+      "token": "buff",
+      "char_start": 231,
+      "char_end": 235,
+      "word_index": 35,
+      "chunk_index": 0
+    },
+    {
+      "index": 49,
+      "token_id": 2185,
+      "token": "away",
+      "char_start": 236,
+      "char_end": 240,
+      "word_index": 36,
+      "chunk_index": 0
+    },
+    {
+      "index": 50,
+      "token_id": 2757,
+      "token": "dead",
+      "char_start": 241,
+      "char_end": 245,
+      "word_index": 37,
+      "chunk_index": 0
+    },
+    {
+      "index": 51,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 245,
+      "char_end": 246,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 52,
+      "token_id": 4318,
+      "token": "dry",
+      "char_start": 247,
+      "char_end": 250,
+      "word_index": 38,
+      "chunk_index": 0
+    },
+    {
+      "index": 53,
+      "token_id": 3096,
+      "token": "skin",
+      "char_start": 251,
+      "char_end": 255,
+      "word_index": 39,
+      "chunk_index": 0
+    },
+    {
+      "index": 54,
+      "token_id": 4442,
+      "token": "cells",
+      "char_start": 256,
+      "char_end": 261,
+      "word_index": 40,
+      "chunk_index": 0
+    },
+    {
+      "index": 55,
+      "token_id": 1012,
+      "token": ".",
+      "char_start": 261,
+      "char_end": 262,
+      "word_index": -1,
+      "chunk_index": 0
+    }
+  ],
+  "audio_feature_names": [
+    "Loudness_sma3",
+    "alphaRatio_sma3",
+    "hammarbergIndex_sma3",
+    "slope0-500_sma3",
+    "slope500-1500_sma3",
+    "spectralFlux_sma3",
+    "mfcc1_sma3",
+    "mfcc2_sma3",
+    "mfcc3_sma3",
+    "mfcc4_sma3",
+    "F0semitoneFrom27.5Hz_sma3nz",
+    "jitterLocal_sma3nz",
+    "shimmerLocaldB_sma3nz",
+    "HNRdBACF_sma3nz",
+    "logRelF0-H1-H2_sma3nz",
+    "logRelF0-H1-A3_sma3nz",
+    "F1frequency_sma3nz",
+    "F1bandwidth_sma3nz",
+    "F1amplitudeLogRelF0_sma3nz",
+    "F2frequency_sma3nz",
+    "F2bandwidth_sma3nz",
+    "F2amplitudeLogRelF0_sma3nz",
+    "F3frequency_sma3nz",
+    "F3bandwidth_sma3nz",
+    "F3amplitudeLogRelF0_sma3nz"
+  ],
+  "vision_feature_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "convolution": {
+    "stride_samples": 320,
+    "receptive_field_samples": 400
+  },
+  "ctc_target_text": "THE|PERFECT|SOUL|MATE|TO|THE|CLARISONIC|SPOT|THERAPY|BRUSH|THIS|GENTLE|PH|BALANCED|AND|HYDRATING|EXFOLIANT|CONTAINING|JOJOBA|AND|ACAI|FRUIT|OILS|AND|BAMBOO|AND|PRICKLY|BEAR|EXTRACTS|DELIVER|INTENSE|HEALING|WHILE|SMOOTH|GRANULES|BUFF|AWAY|DEAD|DRY|SKIN|CELLS",
+  "diagnostic_asr": "THE PERFECT SOL VAN TO THE CLARASYNIC SPOT VERFE BRUSH THIS GENTLE PGE BALANCED AND HYDRATING EXCOLIEN CONTAINS AHOBA IN A KAI FRUGOIL WITH BAMBOO AND QUICKLY VER EXTRACTS THESE DELIVERED INTENSE HEALING WHILE SMOOTH GRANOS PUFF AWAY DEAD DRY SKINJO",
+  "diagnostic_wer": 0.5121951219512195,
+  "alignment_path_log_probability": -239.26340396184787,
+  "alignment_error": null,
+  "padding_count": 0,
+  "truncated_words": 0,
+  "visual_time_support": "nearest-sampled-frame cells, midpoint boundaries; 5 Hz sampling",
+  "face_selection": "largest detected face; speaker identity not verified",
+  "feature_dimensions": {
+    "text": 768,
+    "audio": 25,
+    "vision": 52
+  },
+  "statuses": {
+    "low_confidence_words": 2,
+    "unaligned_words": 0,
+    "no_face_frames": 0,
+    "multiple_face_frames": 0,
+    "silent_audio_frames": 0,
+    "invalid_audio_frames": 0
+  },
+  "elapsed_seconds": 7.1587188839912415
+}

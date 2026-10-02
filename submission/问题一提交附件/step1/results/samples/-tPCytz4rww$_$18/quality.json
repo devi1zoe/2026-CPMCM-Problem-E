@@ -1,0 +1,12 @@
+{
+  "sample_id": "-tPCytz4rww$_$18",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.9099047780036926,
+  "low_confidence_fraction": 0.0,
+  "diagnostic_wer": 0.3125,
+  "usable_word_times": 16,
+  "words": 16,
+  "raw_text": "Do so and as well you'll also want to remove any clutter from that you've accumulated.",
+  "diagnostic_asr": "O DO SO AND AS WELL A YOU'LL ALSO WANT TO REMOVE ANY CLUTTER FROM THE HOME THAT YOU'VE ACCUMULATED OVER"
+}

@@ -1,0 +1,141 @@
+{
+  "source_hashes": true,
+  "training_only_reference_recomputed": true,
+  "validation_selection_recomputed": true,
+  "all_8_coalitions_checked": true,
+  "fixed_targets_and_shapley_efficiency": true,
+  "all_728_ig_within_tolerance": true,
+  "all_2184_local_fidelity_rows_recomputed": true,
+  "equal_random_window_budgets": true,
+  "probe_count": 39312,
+  "independent_special_prediction_recompute": true,
+  "all_20_csv_json_and_char_offsets_checked": true,
+  "no_unverified_time_claims": true,
+  "original_frame_pixels_and_pts": [
+    {
+      "sample_id": "01",
+      "actual_frame_index": 47,
+      "pts_verified": true,
+      "pixels_verified": true
+    },
+    {
+      "sample_id": "02",
+      "actual_frame_index": 75,
+      "pts_verified": true,
+      "pixels_verified": true
+    },
+    {
+      "sample_id": "03",
+      "actual_frame_index": 176,
+      "pts_verified": true,
+      "pixels_verified": true
+    },
+    {
+      "sample_id": "04",
+      "actual_frame_index": 25,
+      "pts_verified": true,
+      "pixels_verified": true
+    },
+    {
+      "sample_id": "05",
+      "actual_frame_index": 50,
+      "pts_verified": true,
+      "pixels_verified": true
+    },
+    {
+      "sample_id": "06",
+      "actual_frame_index": 125,
+      "pts_verified": true,
+      "pixels_verified": true
+    },
+    {
+      "sample_id": "07",
+      "actual_frame_index": 399,
+      "pts_verified": true,
+      "pixels_verified": true
+    },
+    {
+      "sample_id": "08",
+      "actual_frame_index": 56,
+      "pts_verified": true,
+      "pixels_verified": true
+    },
+    {
+      "sample_id": "09",
+      "actual_frame_index": 64,
+      "pts_verified": true,
+      "pixels_verified": true
+    },
+    {
+      "sample_id": "10",
+      "actual_frame_index": 53,
+      "pts_verified": true,
+      "pixels_verified": true
+    },
+    {
+      "sample_id": "11",
+      "actual_frame_index": 21,
+      "pts_verified": true,
+      "pixels_verified": true
+    },
+    {
+      "sample_id": "12",
+      "actual_frame_index": 199,
+      "pts_verified": true,
+      "pixels_verified": true
+    },
+    {
+      "sample_id": "13",
+      "actual_frame_index": 19,
+      "pts_verified": true,
+      "pixels_verified": true
+    },
+    {
+      "sample_id": "14",
+      "actual_frame_index": 29,
+      "pts_verified": true,
+      "pixels_verified": true
+    },
+    {
+      "sample_id": "15",
+      "actual_frame_index": 110,
+      "pts_verified": true,
+      "pixels_verified": true
+    },
+    {
+      "sample_id": "16",
+      "actual_frame_index": 47,
+      "pts_verified": true,
+      "pixels_verified": true
+    },
+    {
+      "sample_id": "17",
+      "actual_frame_index": 253,
+      "pts_verified": true,
+      "pixels_verified": true
+    },
+    {
+      "sample_id": "18",
+      "actual_frame_index": 282,
+      "pts_verified": true,
+      "pixels_verified": true
+    },
+    {
+      "sample_id": "19",
+      "actual_frame_index": 70,
+      "pts_verified": true,
+      "pixels_verified": true
+    },
+    {
+      "sample_id": "20",
+      "actual_frame_index": 115,
+      "pts_verified": true,
+      "pixels_verified": true
+    }
+  ],
+  "html_cards": 20,
+  "html_links": 92,
+  "prediction_and_explanation_validation": true,
+  "figures": 8,
+  "limitations": "15/16 need whole-clip timing review; other low-confidence local windows remain unlocalized; text/feature-slot evidence preserved for all 20"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "pool",
+  "seed": 29,
+  "epochs": 13,
+  "seconds": 93.97037672996521,
+  "parameters": 70084,
+  "checkpoint_sha256": "da555d0b5a368d62a576de0ea308bd0d19724a158b0a90337227c92c49d376b2",
+  "protocol_sha256": "f983b4b1e07dd23caec0b6027e26872d40545564cb4c6a4e7a485be8cb5db3e9"
+}

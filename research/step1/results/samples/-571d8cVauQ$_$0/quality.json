@@ -1,0 +1,12 @@
+{
+  "sample_id": "-571d8cVauQ$_$0",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.6989590525627136,
+  "low_confidence_fraction": 0.16666666666666666,
+  "diagnostic_wer": 0.5,
+  "usable_word_times": 10,
+  "words": 12,
+  "raw_text": "This is Rhett Reiger, White Caspian Studios on behalf of Expert Village.",
+  "diagnostic_asr": "MISSUS RED RIGER WHITECASPING STUDIOS ON BEHALF OF EXPERT VILLAGE"
+}

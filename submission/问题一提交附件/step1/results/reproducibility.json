@@ -1,0 +1,57 @@
+{
+  "scope": "独立试跑与正式运行的2条样本全部NPZ字段对照",
+  "samples": [
+    {
+      "sample_id": "-3g5yACwYnA$_$13",
+      "max_absolute_difference": 0.0,
+      "float_arrays": {
+        "text": 0.0,
+        "audio": 0.0,
+        "vision": 0.0,
+        "word_bounds": 0.0,
+        "word_confidence": 0.0,
+        "subword_features": 0.0,
+        "audio_frames": 0.0,
+        "audio_bounds": 0.0,
+        "audio_rms": 0.0,
+        "vision_frames": 0.0,
+        "vision_pts": 0.0,
+        "vision_bounds": 0.0,
+        "all_video_pts": 0.0,
+        "audio_weights": 0.0,
+        "vision_weights": 0.0,
+        "ctc_log_probs": 0.0,
+        "ctc_bounds": 0.0
+      },
+      "passed": true
+    },
+    {
+      "sample_id": "-3g5yACwYnA$_$3",
+      "max_absolute_difference": 0.0,
+      "float_arrays": {
+        "text": 0.0,
+        "audio": 0.0,
+        "vision": 0.0,
+        "word_bounds": 0.0,
+        "word_confidence": 0.0,
+        "subword_features": 0.0,
+        "audio_frames": 0.0,
+        "audio_bounds": 0.0,
+        "audio_rms": 0.0,
+        "vision_frames": 0.0,
+        "vision_pts": 0.0,
+        "vision_bounds": 0.0,
+        "all_video_pts": 0.0,
+        "audio_weights": 0.0,
+        "vision_weights": 0.0,
+        "ctc_log_probs": 0.0,
+        "ctc_bounds": 0.0
+      },
+      "passed": true
+    }
+  ],
+  "tolerance": {
+    "rtol": 1e-05,
+    "atol": 1e-06
+  }
+}

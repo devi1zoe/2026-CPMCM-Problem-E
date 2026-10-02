@@ -1,0 +1,16 @@
+{
+  "sample_id": "-iRBcNs9oI8$_$8",
+  "requires_transcript_review": true,
+  "reasons": [
+    "mean_CTC_confidence_below_0.2",
+    "more_than_half_words_below_0.1",
+    "diagnostic_WER_above_0.8"
+  ],
+  "mean_confidence": 0.06751171499490738,
+  "low_confidence_fraction": 0.9047619047619048,
+  "diagnostic_wer": 1.0952380952380953,
+  "usable_word_times": 0,
+  "words": 21,
+  "raw_text": "I've drawn this man here, and if you can tell, he has a lot of big muscles, he looks very strong",
+  "diagnostic_asr": "EVER DECIDE TO ASK OUT THAT SPECIAL SOME ONE SO WHAT IS THE SECRET I'M TELLING YOU ABOUT WELL IT IS THE SECRE"
+}

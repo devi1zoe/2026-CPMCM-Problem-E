@@ -1,0 +1,15 @@
+{
+  "score": 1.0128260677900238,
+  "config": {
+    "kind": "dual_gate"
+  },
+  "reg_weight": 2.0,
+  "sha256": "a73359fdccf830c23f318bbb59ce52a3410c357dca962ca01ce6aede402fb9b9",
+  "epochs": 13,
+  "seconds": 308.454048871994,
+  "protocol_sha256": "b01566a1003e07db6b13367a4146c0059122b02f614d06108e9f2ee0449b6d2b",
+  "trainable_parameters": 166025,
+  "total_parameters": 166025,
+  "expert_sources": {},
+  "frozen_experts_unchanged": false
+}

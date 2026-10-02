@@ -1,0 +1,887 @@
+{
+  "sample_id": "-s9qJ7ATP7w$_$7",
+  "video_id": "-s9qJ7ATP7w",
+  "clip_id": "7",
+  "raw_text": "I used to work for Warren Avis, the guy who started Avis Rent a Car, and he said to me one day, \"Robert, \"what's the purpose of business",
+  "label": 1.0,
+  "annotation": "Positive",
+  "source_path": "E题_材料阅读/E题数据/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-s9qJ7ATP7w/7.mp4",
+  "source_sha256": "5301f4403cf7cd299cc525d2f443392ac70fd70c3c9cd4a09406f2ba4df6734d",
+  "config_sha256": "4a530340304f07255daf856e6891f0a15e50f05bd85343d067a663a573e8f888",
+  "code_sha256": {
+    "common.py": "4a37980b521a2f5a93e208d3ba265542a149336b3401aa89b8a4494517f5e16e",
+    "alignment.py": "76b29c002cdc97e8e0e85cffae02d81db938fa39484ad908c28c5efc60de0c34",
+    "features.py": "8283e0d0886b83bbd84d4db4521599b480b0ada4bc1afc4e4b9b91cddf5b4018",
+    "run.py": "f75d7b5bc6e342541664233a37a3d87f39313bcd3a8f3a50bfaea94798d4e07b"
+  },
+  "model_assets_sha256": {
+    "assets/face_landmarker.task": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff",
+    "assets/wav2vec2/preprocessor_config.json": "b225d617c025463b9e157e06afea8b90dc7078fc70b013c533328423e0486b4a",
+    "assets/wav2vec2/vocab.json": "19727f8944fe6459fc3f240ae2c198395b740f6a029bd23e06656266b83bcf64",
+    "assets/wav2vec2/special_tokens_map.json": "bb7068de1150661a10b55f9e4b12a0e77af8bf91f5e45e1b58afaf1d0e17f675",
+    "assets/wav2vec2/tokenizer_config.json": "dc790594f5bc351a4311c6624f40acd95850d4aaf2a5cb3c656c9b610720b608",
+    "assets/wav2vec2/model.safetensors": "8aa76ab2243c81747a1f832954586bc566090c83a0ac167df6f31f0fa917d74a",
+    "assets/wav2vec2/config.json": "d3ec255c063d9f95057b553b19c20135b259875834a4fe9deb218a6be25b4cf3",
+    "assets/distilbert/vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+    "assets/distilbert/tokenizer_config.json": "a025160ef0431f1a392f6f050c1310f4c5d9fb6f275932dbccba73c4d214bf10",
+    "assets/distilbert/model.safetensors": "5e3f1108e3cb34ee048634875d8482665b65ac713291a7e32396fb18f6ff0063",
+    "assets/distilbert/config.json": "69c94b0222d5d1f4b0ad027ca7416cdafb98378cbbb8305d0bf47c9365c60c83",
+    "assets/distilbert/tokenizer.json": "ce64fce797c24f68df90b40a3f74f579b336a493db14bd583fd520ea0d8c9a98"
+  },
+  "duration": 6.966015625,
+  "video_rate": 30.0,
+  "video_origin": 0.0,
+  "audio_start": 0.0,
+  "audio_duration": 6.8385625,
+  "audio_coverage_ratio": 1.0,
+  "words": [
+    {
+      "index": 0,
+      "original": "I",
+      "char_start": 0,
+      "char_end": 1,
+      "normalized": "I",
+      "subword_indices": [
+        0
+      ],
+      "start": 0.56246875,
+      "end": 0.58246875,
+      "confidence": 0.8158094882965088,
+      "status": "aligned"
+    },
+    {
+      "index": 1,
+      "original": "used",
+      "char_start": 2,
+      "char_end": 6,
+      "normalized": "USED",
+      "subword_indices": [
+        1
+      ],
+      "start": 0.68246875,
+      "end": 0.78246875,
+      "confidence": 0.9637113213539124,
+      "status": "aligned"
+    },
+    {
+      "index": 2,
+      "original": "to",
+      "char_start": 7,
+      "char_end": 9,
+      "normalized": "TO",
+      "subword_indices": [
+        2
+      ],
+      "start": 0.80246875,
+      "end": 0.86246875,
+      "confidence": 0.9806554913520813,
+      "status": "aligned"
+    },
+    {
+      "index": 3,
+      "original": "work",
+      "char_start": 10,
+      "char_end": 14,
+      "normalized": "WORK",
+      "subword_indices": [
+        3
+      ],
+      "start": 0.88246875,
+      "end": 0.98246875,
+      "confidence": 0.998844563961029,
+      "status": "aligned"
+    },
+    {
+      "index": 4,
+      "original": "for",
+      "char_start": 15,
+      "char_end": 18,
+      "normalized": "FOR",
+      "subword_indices": [
+        4
+      ],
+      "start": 1.04246875,
+      "end": 1.12246875,
+      "confidence": 0.9984386563301086,
+      "status": "aligned"
+    },
+    {
+      "index": 5,
+      "original": "Warren",
+      "char_start": 19,
+      "char_end": 25,
+      "normalized": "WARREN",
+      "subword_indices": [
+        5
+      ],
+      "start": 1.16246875,
+      "end": 1.40246875,
+      "confidence": 0.7938508987426758,
+      "status": "aligned"
+    },
+    {
+      "index": 6,
+      "original": "Avis",
+      "char_start": 26,
+      "char_end": 30,
+      "normalized": "AVIS",
+      "subword_indices": [
+        6,
+        7
+      ],
+      "start": 1.44246875,
+      "end": 1.68246875,
+      "confidence": 0.8961067199707031,
+      "status": "aligned"
+    },
+    {
+      "index": 7,
+      "original": "the",
+      "char_start": 32,
+      "char_end": 35,
+      "normalized": "THE",
+      "subword_indices": [
+        9
+      ],
+      "start": 1.92246875,
+      "end": 1.98246875,
+      "confidence": 0.9773637652397156,
+      "status": "aligned"
+    },
+    {
+      "index": 8,
+      "original": "guy",
+      "char_start": 36,
+      "char_end": 39,
+      "normalized": "GUY",
+      "subword_indices": [
+        10
+      ],
+      "start": 2.0224687500000003,
+      "end": 2.12246875,
+      "confidence": 0.046472903341054916,
+      "status": "low_confidence"
+    },
+    {
+      "index": 9,
+      "original": "who",
+      "char_start": 40,
+      "char_end": 43,
+      "normalized": "WHO",
+      "subword_indices": [
+        11
+      ],
+      "start": 2.1624687500000004,
+      "end": 2.22246875,
+      "confidence": 0.01451442763209343,
+      "status": "low_confidence"
+    },
+    {
+      "index": 10,
+      "original": "started",
+      "char_start": 44,
+      "char_end": 51,
+      "normalized": "STARTED",
+      "subword_indices": [
+        12
+      ],
+      "start": 2.26246875,
+      "end": 2.52246875,
+      "confidence": 0.26180320978164673,
+      "status": "aligned"
+    },
+    {
+      "index": 11,
+      "original": "Avis",
+      "char_start": 52,
+      "char_end": 56,
+      "normalized": "AVIS",
+      "subword_indices": [
+        13,
+        14
+      ],
+      "start": 2.5424687500000003,
+      "end": 2.7624687499999996,
+      "confidence": 0.9464036822319031,
+      "status": "aligned"
+    },
+    {
+      "index": 12,
+      "original": "Rent",
+      "char_start": 57,
+      "char_end": 61,
+      "normalized": "RENT",
+      "subword_indices": [
+        15
+      ],
+      "start": 2.80246875,
+      "end": 2.9624687499999998,
+      "confidence": 0.24736644327640533,
+      "status": "aligned"
+    },
+    {
+      "index": 13,
+      "original": "a",
+      "char_start": 62,
+      "char_end": 63,
+      "normalized": "A",
+      "subword_indices": [
+        16
+      ],
+      "start": 2.9824687500000002,
+      "end": 3.00246875,
+      "confidence": 0.11746368557214737,
+      "status": "aligned"
+    },
+    {
+      "index": 14,
+      "original": "Car",
+      "char_start": 64,
+      "char_end": 67,
+      "normalized": "CAR",
+      "subword_indices": [
+        17
+      ],
+      "start": 3.0624687500000003,
+      "end": 3.18246875,
+      "confidence": 0.8213446140289307,
+      "status": "aligned"
+    },
+    {
+      "index": 15,
+      "original": "and",
+      "char_start": 69,
+      "char_end": 72,
+      "normalized": "AND",
+      "subword_indices": [
+        19
+      ],
+      "start": 3.22246875,
+      "end": 3.2824687499999996,
+      "confidence": 0.8038066029548645,
+      "status": "aligned"
+    },
+    {
+      "index": 16,
+      "original": "he",
+      "char_start": 73,
+      "char_end": 75,
+      "normalized": "HE",
+      "subword_indices": [
+        20
+      ],
+      "start": 3.32246875,
+      "end": 3.3624687499999997,
+      "confidence": 0.99760502576828,
+      "status": "aligned"
+    },
+    {
+      "index": 17,
+      "original": "said",
+      "char_start": 76,
+      "char_end": 80,
+      "normalized": "SAID",
+      "subword_indices": [
+        21
+      ],
+      "start": 3.44246875,
+      "end": 3.62246875,
+      "confidence": 0.0007986495620571077,
+      "status": "low_confidence"
+    },
+    {
+      "index": 18,
+      "original": "to",
+      "char_start": 81,
+      "char_end": 83,
+      "normalized": "TO",
+      "subword_indices": [
+        22
+      ],
+      "start": 3.6424687500000004,
+      "end": 3.68246875,
+      "confidence": 0.0004647534224204719,
+      "status": "low_confidence"
+    },
+    {
+      "index": 19,
+      "original": "me",
+      "char_start": 84,
+      "char_end": 86,
+      "normalized": "ME",
+      "subword_indices": [
+        23
+      ],
+      "start": 3.7024687500000004,
+      "end": 3.7624687499999996,
+      "confidence": 0.8524792194366455,
+      "status": "aligned"
+    },
+    {
+      "index": 20,
+      "original": "one",
+      "char_start": 87,
+      "char_end": 90,
+      "normalized": "ONE",
+      "subword_indices": [
+        24
+      ],
+      "start": 3.88246875,
+      "end": 3.98246875,
+      "confidence": 0.7965003848075867,
+      "status": "aligned"
+    },
+    {
+      "index": 21,
+      "original": "day",
+      "char_start": 91,
+      "char_end": 94,
+      "normalized": "DAY",
+      "subword_indices": [
+        25
+      ],
+      "start": 4.02246875,
+      "end": 4.18246875,
+      "confidence": 0.9995744228363037,
+      "status": "aligned"
+    },
+    {
+      "index": 22,
+      "original": "Robert",
+      "char_start": 97,
+      "char_end": 103,
+      "normalized": "ROBERT",
+      "subword_indices": [
+        28
+      ],
+      "start": 4.8224687500000005,
+      "end": 5.10246875,
+      "confidence": 0.9984051585197449,
+      "status": "aligned"
+    },
+    {
+      "index": 23,
+      "original": "what's",
+      "char_start": 106,
+      "char_end": 112,
+      "normalized": "WHAT'S",
+      "subword_indices": [
+        31,
+        32,
+        33
+      ],
+      "start": 5.16246875,
+      "end": 5.34246875,
+      "confidence": 0.974693238735199,
+      "status": "aligned"
+    },
+    {
+      "index": 24,
+      "original": "the",
+      "char_start": 113,
+      "char_end": 116,
+      "normalized": "THE",
+      "subword_indices": [
+        34
+      ],
+      "start": 5.38246875,
+      "end": 5.44246875,
+      "confidence": 0.9989643692970276,
+      "status": "aligned"
+    },
+    {
+      "index": 25,
+      "original": "purpose",
+      "char_start": 117,
+      "char_end": 124,
+      "normalized": "PURPOSE",
+      "subword_indices": [
+        35
+      ],
+      "start": 5.50246875,
+      "end": 5.80246875,
+      "confidence": 0.9460338950157166,
+      "status": "aligned"
+    },
+    {
+      "index": 26,
+      "original": "of",
+      "char_start": 125,
+      "char_end": 127,
+      "normalized": "OF",
+      "subword_indices": [
+        36
+      ],
+      "start": 5.84246875,
+      "end": 5.88246875,
+      "confidence": 0.993854820728302,
+      "status": "aligned"
+    },
+    {
+      "index": 27,
+      "original": "business",
+      "char_start": 128,
+      "char_end": 136,
+      "normalized": "BUSINESS",
+      "subword_indices": [
+        37
+      ],
+      "start": 5.942468750000001,
+      "end": 6.6224687499999995,
+      "confidence": 0.9771423935890198,
+      "status": "aligned"
+    }
+  ],
+  "subwords": [
+    {
+      "index": 0,
+      "token_id": 1045,
+      "token": "i",
+      "char_start": 0,
+      "char_end": 1,
+      "word_index": 0,
+      "chunk_index": 0
+    },
+    {
+      "index": 1,
+      "token_id": 2109,
+      "token": "used",
+      "char_start": 2,
+      "char_end": 6,
+      "word_index": 1,
+      "chunk_index": 0
+    },
+    {
+      "index": 2,
+      "token_id": 2000,
+      "token": "to",
+      "char_start": 7,
+      "char_end": 9,
+      "word_index": 2,
+      "chunk_index": 0
+    },
+    {
+      "index": 3,
+      "token_id": 2147,
+      "token": "work",
+      "char_start": 10,
+      "char_end": 14,
+      "word_index": 3,
+      "chunk_index": 0
+    },
+    {
+      "index": 4,
+      "token_id": 2005,
+      "token": "for",
+      "char_start": 15,
+      "char_end": 18,
+      "word_index": 4,
+      "chunk_index": 0
+    },
+    {
+      "index": 5,
+      "token_id": 6031,
+      "token": "warren",
+      "char_start": 19,
+      "char_end": 25,
+      "word_index": 5,
+      "chunk_index": 0
+    },
+    {
+      "index": 6,
+      "token_id": 20704,
+      "token": "av",
+      "char_start": 26,
+      "char_end": 28,
+      "word_index": 6,
+      "chunk_index": 0
+    },
+    {
+      "index": 7,
+      "token_id": 2483,
+      "token": "##is",
+      "char_start": 28,
+      "char_end": 30,
+      "word_index": 6,
+      "chunk_index": 0
+    },
+    {
+      "index": 8,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 30,
+      "char_end": 31,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 9,
+      "token_id": 1996,
+      "token": "the",
+      "char_start": 32,
+      "char_end": 35,
+      "word_index": 7,
+      "chunk_index": 0
+    },
+    {
+      "index": 10,
+      "token_id": 3124,
+      "token": "guy",
+      "char_start": 36,
+      "char_end": 39,
+      "word_index": 8,
+      "chunk_index": 0
+    },
+    {
+      "index": 11,
+      "token_id": 2040,
+      "token": "who",
+      "char_start": 40,
+      "char_end": 43,
+      "word_index": 9,
+      "chunk_index": 0
+    },
+    {
+      "index": 12,
+      "token_id": 2318,
+      "token": "started",
+      "char_start": 44,
+      "char_end": 51,
+      "word_index": 10,
+      "chunk_index": 0
+    },
+    {
+      "index": 13,
+      "token_id": 20704,
+      "token": "av",
+      "char_start": 52,
+      "char_end": 54,
+      "word_index": 11,
+      "chunk_index": 0
+    },
+    {
+      "index": 14,
+      "token_id": 2483,
+      "token": "##is",
+      "char_start": 54,
+      "char_end": 56,
+      "word_index": 11,
+      "chunk_index": 0
+    },
+    {
+      "index": 15,
+      "token_id": 9278,
+      "token": "rent",
+      "char_start": 57,
+      "char_end": 61,
+      "word_index": 12,
+      "chunk_index": 0
+    },
+    {
+      "index": 16,
+      "token_id": 1037,
+      "token": "a",
+      "char_start": 62,
+      "char_end": 63,
+      "word_index": 13,
+      "chunk_index": 0
+    },
+    {
+      "index": 17,
+      "token_id": 2482,
+      "token": "car",
+      "char_start": 64,
+      "char_end": 67,
+      "word_index": 14,
+      "chunk_index": 0
+    },
+    {
+      "index": 18,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 67,
+      "char_end": 68,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 19,
+      "token_id": 1998,
+      "token": "and",
+      "char_start": 69,
+      "char_end": 72,
+      "word_index": 15,
+      "chunk_index": 0
+    },
+    {
+      "index": 20,
+      "token_id": 2002,
+      "token": "he",
+      "char_start": 73,
+      "char_end": 75,
+      "word_index": 16,
+      "chunk_index": 0
+    },
+    {
+      "index": 21,
+      "token_id": 2056,
+      "token": "said",
+      "char_start": 76,
+      "char_end": 80,
+      "word_index": 17,
+      "chunk_index": 0
+    },
+    {
+      "index": 22,
+      "token_id": 2000,
+      "token": "to",
+      "char_start": 81,
+      "char_end": 83,
+      "word_index": 18,
+      "chunk_index": 0
+    },
+    {
+      "index": 23,
+      "token_id": 2033,
+      "token": "me",
+      "char_start": 84,
+      "char_end": 86,
+      "word_index": 19,
+      "chunk_index": 0
+    },
+    {
+      "index": 24,
+      "token_id": 2028,
+      "token": "one",
+      "char_start": 87,
+      "char_end": 90,
+      "word_index": 20,
+      "chunk_index": 0
+    },
+    {
+      "index": 25,
+      "token_id": 2154,
+      "token": "day",
+      "char_start": 91,
+      "char_end": 94,
+      "word_index": 21,
+      "chunk_index": 0
+    },
+    {
+      "index": 26,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 94,
+      "char_end": 95,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 27,
+      "token_id": 1000,
+      "token": "\"",
+      "char_start": 96,
+      "char_end": 97,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 28,
+      "token_id": 2728,
+      "token": "robert",
+      "char_start": 97,
+      "char_end": 103,
+      "word_index": 22,
+      "chunk_index": 0
+    },
+    {
+      "index": 29,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 103,
+      "char_end": 104,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 30,
+      "token_id": 1000,
+      "token": "\"",
+      "char_start": 105,
+      "char_end": 106,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 31,
+      "token_id": 2054,
+      "token": "what",
+      "char_start": 106,
+      "char_end": 110,
+      "word_index": 23,
+      "chunk_index": 0
+    },
+    {
+      "index": 32,
+      "token_id": 1005,
+      "token": "'",
+      "char_start": 110,
+      "char_end": 111,
+      "word_index": 23,
+      "chunk_index": 0
+    },
+    {
+      "index": 33,
+      "token_id": 1055,
+      "token": "s",
+      "char_start": 111,
+      "char_end": 112,
+      "word_index": 23,
+      "chunk_index": 0
+    },
+    {
+      "index": 34,
+      "token_id": 1996,
+      "token": "the",
+      "char_start": 113,
+      "char_end": 116,
+      "word_index": 24,
+      "chunk_index": 0
+    },
+    {
+      "index": 35,
+      "token_id": 3800,
+      "token": "purpose",
+      "char_start": 117,
+      "char_end": 124,
+      "word_index": 25,
+      "chunk_index": 0
+    },
+    {
+      "index": 36,
+      "token_id": 1997,
+      "token": "of",
+      "char_start": 125,
+      "char_end": 127,
+      "word_index": 26,
+      "chunk_index": 0
+    },
+    {
+      "index": 37,
+      "token_id": 2449,
+      "token": "business",
+      "char_start": 128,
+      "char_end": 136,
+      "word_index": 27,
+      "chunk_index": 0
+    }
+  ],
+  "audio_feature_names": [
+    "Loudness_sma3",
+    "alphaRatio_sma3",
+    "hammarbergIndex_sma3",
+    "slope0-500_sma3",
+    "slope500-1500_sma3",
+    "spectralFlux_sma3",
+    "mfcc1_sma3",
+    "mfcc2_sma3",
+    "mfcc3_sma3",
+    "mfcc4_sma3",
+    "F0semitoneFrom27.5Hz_sma3nz",
+    "jitterLocal_sma3nz",
+    "shimmerLocaldB_sma3nz",
+    "HNRdBACF_sma3nz",
+    "logRelF0-H1-H2_sma3nz",
+    "logRelF0-H1-A3_sma3nz",
+    "F1frequency_sma3nz",
+    "F1bandwidth_sma3nz",
+    "F1amplitudeLogRelF0_sma3nz",
+    "F2frequency_sma3nz",
+    "F2bandwidth_sma3nz",
+    "F2amplitudeLogRelF0_sma3nz",
+    "F3frequency_sma3nz",
+    "F3bandwidth_sma3nz",
+    "F3amplitudeLogRelF0_sma3nz"
+  ],
+  "vision_feature_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "convolution": {
+    "stride_samples": 320,
+    "receptive_field_samples": 400
+  },
+  "ctc_target_text": "I|USED|TO|WORK|FOR|WARREN|AVIS|THE|GUY|WHO|STARTED|AVIS|RENT|A|CAR|AND|HE|SAID|TO|ME|ONE|DAY|ROBERT|WHAT'S|THE|PURPOSE|OF|BUSINESS",
+  "diagnostic_asr": "OIN TI USED TO WORK FOR WARREN AVIS THE GARSTAR DAVIS RENICAR AND HE SETS ME ONE DAY ROBERT WHAT'S THE PURPOSE OF BUSINESS AND I SAIT U",
+  "diagnostic_wer": 0.5357142857142857,
+  "alignment_path_log_probability": -213.823932060782,
+  "alignment_error": null,
+  "padding_count": 0,
+  "truncated_words": 0,
+  "visual_time_support": "nearest-sampled-frame cells, midpoint boundaries; 5 Hz sampling",
+  "face_selection": "largest detected face; speaker identity not verified",
+  "feature_dimensions": {
+    "text": 768,
+    "audio": 25,
+    "vision": 52
+  },
+  "statuses": {
+    "low_confidence_words": 4,
+    "unaligned_words": 0,
+    "no_face_frames": 15,
+    "multiple_face_frames": 0,
+    "silent_audio_frames": 5,
+    "invalid_audio_frames": 0
+  },
+  "elapsed_seconds": 2.2449123337864876
+}

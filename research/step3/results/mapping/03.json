@@ -1,0 +1,866 @@
+{
+  "sample_id": "03",
+  "raw_text": "There's one lender at the moment which I think is just Bankwest who don't take rental income into account, they take rental yield into account.",
+  "duration": 9.663997395833333,
+  "video_fps": 30.0,
+  "video_frames": 289,
+  "video_source": "E题_材料阅读/E题数据/附件4-可解释专项视频样本与特征文件/附件4-可解释专项视频样本与特征文件/对齐版本/videos/03.mp4",
+  "video_sha256": "556b83449ac17fd8cb99ed1dcd6f11c287dd6e0198885e88555579f9bcab84f3",
+  "audio_coverage_fraction": 1.0,
+  "diagnostic_asr": "OUNT THERE'S ONE LENDAR AT THE MOMENT WHICH I THINK ITS JUST BANK WEST WHO DON'T TAKE RENTEL INCOME INTO ACCOUNT THEY TAKE RENTEL YIELD INTO ACCOUNT SO THAT",
+  "diagnostic_wer": 0.36,
+  "mean_ctc_confidence": 0.9107466340065002,
+  "requires_timing_review": false,
+  "reasons": [],
+  "words": [
+    {
+      "index": 0,
+      "original": "There's",
+      "char_start": 0,
+      "char_end": 7,
+      "normalized": "THERE'S",
+      "start": 0.50246875,
+      "end": 0.72246875,
+      "confidence": 0.9157401919364929,
+      "status": "aligned"
+    },
+    {
+      "index": 1,
+      "original": "one",
+      "char_start": 8,
+      "char_end": 11,
+      "normalized": "ONE",
+      "start": 0.88246875,
+      "end": 0.98246875,
+      "confidence": 0.9319535493850708,
+      "status": "aligned"
+    },
+    {
+      "index": 2,
+      "original": "lender",
+      "char_start": 12,
+      "char_end": 18,
+      "normalized": "LENDER",
+      "start": 1.04246875,
+      "end": 1.40246875,
+      "confidence": 0.7960464358329773,
+      "status": "aligned"
+    },
+    {
+      "index": 3,
+      "original": "at",
+      "char_start": 19,
+      "char_end": 21,
+      "normalized": "AT",
+      "start": 1.56246875,
+      "end": 1.60246875,
+      "confidence": 0.9960646033287048,
+      "status": "aligned"
+    },
+    {
+      "index": 4,
+      "original": "the",
+      "char_start": 22,
+      "char_end": 25,
+      "normalized": "THE",
+      "start": 1.64246875,
+      "end": 1.72246875,
+      "confidence": 0.9667530655860901,
+      "status": "aligned"
+    },
+    {
+      "index": 5,
+      "original": "moment",
+      "char_start": 26,
+      "char_end": 32,
+      "normalized": "MOMENT",
+      "start": 1.78246875,
+      "end": 2.08246875,
+      "confidence": 0.9157770276069641,
+      "status": "aligned"
+    },
+    {
+      "index": 6,
+      "original": "which",
+      "char_start": 33,
+      "char_end": 38,
+      "normalized": "WHICH",
+      "start": 2.1624687500000004,
+      "end": 2.2824687499999996,
+      "confidence": 0.9999184608459473,
+      "status": "aligned"
+    },
+    {
+      "index": 7,
+      "original": "I",
+      "char_start": 39,
+      "char_end": 40,
+      "normalized": "I",
+      "start": 2.34246875,
+      "end": 2.3624687499999997,
+      "confidence": 0.9987835884094238,
+      "status": "aligned"
+    },
+    {
+      "index": 8,
+      "original": "think",
+      "char_start": 41,
+      "char_end": 46,
+      "normalized": "THINK",
+      "start": 2.40246875,
+      "end": 2.54246875,
+      "confidence": 0.937767744064331,
+      "status": "aligned"
+    },
+    {
+      "index": 9,
+      "original": "is",
+      "char_start": 47,
+      "char_end": 49,
+      "normalized": "IS",
+      "start": 2.6024687500000003,
+      "end": 2.70246875,
+      "confidence": 0.6951922178268433,
+      "status": "aligned"
+    },
+    {
+      "index": 10,
+      "original": "just",
+      "char_start": 50,
+      "char_end": 54,
+      "normalized": "JUST",
+      "start": 2.72246875,
+      "end": 2.8824687499999997,
+      "confidence": 0.9245518445968628,
+      "status": "aligned"
+    },
+    {
+      "index": 11,
+      "original": "Bankwest",
+      "char_start": 55,
+      "char_end": 63,
+      "normalized": "BANKWEST",
+      "start": 3.0024687500000002,
+      "end": 3.68246875,
+      "confidence": 0.9906982779502869,
+      "status": "aligned"
+    },
+    {
+      "index": 12,
+      "original": "who",
+      "char_start": 64,
+      "char_end": 67,
+      "normalized": "WHO",
+      "start": 4.10246875,
+      "end": 4.24246875,
+      "confidence": 0.9944559335708618,
+      "status": "aligned"
+    },
+    {
+      "index": 13,
+      "original": "don't",
+      "char_start": 68,
+      "char_end": 73,
+      "normalized": "DON'T",
+      "start": 4.52246875,
+      "end": 4.74246875,
+      "confidence": 0.9812393188476562,
+      "status": "aligned"
+    },
+    {
+      "index": 14,
+      "original": "take",
+      "char_start": 74,
+      "char_end": 78,
+      "normalized": "TAKE",
+      "start": 4.80246875,
+      "end": 4.98246875,
+      "confidence": 0.9965956807136536,
+      "status": "aligned"
+    },
+    {
+      "index": 15,
+      "original": "rental",
+      "char_start": 79,
+      "char_end": 85,
+      "normalized": "RENTAL",
+      "start": 5.14246875,
+      "end": 5.38246875,
+      "confidence": 0.5081078410148621,
+      "status": "aligned"
+    },
+    {
+      "index": 16,
+      "original": "income",
+      "char_start": 86,
+      "char_end": 92,
+      "normalized": "INCOME",
+      "start": 5.48246875,
+      "end": 5.78246875,
+      "confidence": 0.9239872097969055,
+      "status": "aligned"
+    },
+    {
+      "index": 17,
+      "original": "into",
+      "char_start": 93,
+      "char_end": 97,
+      "normalized": "INTO",
+      "start": 5.902468750000001,
+      "end": 6.1224687499999995,
+      "confidence": 0.970421552658081,
+      "status": "aligned"
+    },
+    {
+      "index": 18,
+      "original": "account",
+      "char_start": 98,
+      "char_end": 105,
+      "normalized": "ACCOUNT",
+      "start": 6.22246875,
+      "end": 6.52246875,
+      "confidence": 0.9467341303825378,
+      "status": "aligned"
+    },
+    {
+      "index": 19,
+      "original": "they",
+      "char_start": 107,
+      "char_end": 111,
+      "normalized": "THEY",
+      "start": 6.8224687500000005,
+      "end": 6.96246875,
+      "confidence": 0.9048709869384766,
+      "status": "aligned"
+    },
+    {
+      "index": 20,
+      "original": "take",
+      "char_start": 112,
+      "char_end": 116,
+      "normalized": "TAKE",
+      "start": 7.04246875,
+      "end": 7.22246875,
+      "confidence": 0.9011486172676086,
+      "status": "aligned"
+    },
+    {
+      "index": 21,
+      "original": "rental",
+      "char_start": 117,
+      "char_end": 123,
+      "normalized": "RENTAL",
+      "start": 7.50246875,
+      "end": 7.80246875,
+      "confidence": 0.6543473601341248,
+      "status": "aligned"
+    },
+    {
+      "index": 22,
+      "original": "yield",
+      "char_start": 124,
+      "char_end": 129,
+      "normalized": "YIELD",
+      "start": 7.98246875,
+      "end": 8.34246875,
+      "confidence": 0.95180743932724,
+      "status": "aligned"
+    },
+    {
+      "index": 23,
+      "original": "into",
+      "char_start": 130,
+      "char_end": 134,
+      "normalized": "INTO",
+      "start": 8.462468750000001,
+      "end": 8.62246875,
+      "confidence": 0.9991917014122009,
+      "status": "aligned"
+    },
+    {
+      "index": 24,
+      "original": "account",
+      "char_start": 135,
+      "char_end": 142,
+      "normalized": "ACCOUNT",
+      "start": 8.70246875,
+      "end": 9.00246875,
+      "confidence": 0.9665101170539856,
+      "status": "aligned"
+    }
+  ],
+  "tokens": [
+    {
+      "sample_id": "03",
+      "slot": 1,
+      "token": "there",
+      "token_id": 2045,
+      "char_start": 0,
+      "char_end": 5,
+      "raw_fragment": "There",
+      "word_indices": [
+        0
+      ],
+      "candidate_start": 0.50246875,
+      "candidate_end": 0.72246875,
+      "timing_usable": true,
+      "confidence": 0.9157401919364929,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "03",
+      "slot": 2,
+      "token": "'",
+      "token_id": 1005,
+      "char_start": 5,
+      "char_end": 6,
+      "raw_fragment": "'",
+      "word_indices": [
+        0
+      ],
+      "candidate_start": 0.50246875,
+      "candidate_end": 0.72246875,
+      "timing_usable": true,
+      "confidence": 0.9157401919364929,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "03",
+      "slot": 3,
+      "token": "s",
+      "token_id": 1055,
+      "char_start": 6,
+      "char_end": 7,
+      "raw_fragment": "s",
+      "word_indices": [
+        0
+      ],
+      "candidate_start": 0.50246875,
+      "candidate_end": 0.72246875,
+      "timing_usable": true,
+      "confidence": 0.9157401919364929,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "03",
+      "slot": 4,
+      "token": "one",
+      "token_id": 2028,
+      "char_start": 8,
+      "char_end": 11,
+      "raw_fragment": "one",
+      "word_indices": [
+        1
+      ],
+      "candidate_start": 0.88246875,
+      "candidate_end": 0.98246875,
+      "timing_usable": true,
+      "confidence": 0.9319535493850708,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "03",
+      "slot": 5,
+      "token": "lend",
+      "token_id": 18496,
+      "char_start": 12,
+      "char_end": 16,
+      "raw_fragment": "lend",
+      "word_indices": [
+        2
+      ],
+      "candidate_start": 1.04246875,
+      "candidate_end": 1.40246875,
+      "timing_usable": true,
+      "confidence": 0.7960464358329773,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "03",
+      "slot": 6,
+      "token": "##er",
+      "token_id": 2121,
+      "char_start": 16,
+      "char_end": 18,
+      "raw_fragment": "er",
+      "word_indices": [
+        2
+      ],
+      "candidate_start": 1.04246875,
+      "candidate_end": 1.40246875,
+      "timing_usable": true,
+      "confidence": 0.7960464358329773,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "03",
+      "slot": 7,
+      "token": "at",
+      "token_id": 2012,
+      "char_start": 19,
+      "char_end": 21,
+      "raw_fragment": "at",
+      "word_indices": [
+        3
+      ],
+      "candidate_start": 1.56246875,
+      "candidate_end": 1.60246875,
+      "timing_usable": true,
+      "confidence": 0.9960646033287048,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "03",
+      "slot": 8,
+      "token": "the",
+      "token_id": 1996,
+      "char_start": 22,
+      "char_end": 25,
+      "raw_fragment": "the",
+      "word_indices": [
+        4
+      ],
+      "candidate_start": 1.64246875,
+      "candidate_end": 1.72246875,
+      "timing_usable": true,
+      "confidence": 0.9667530655860901,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "03",
+      "slot": 9,
+      "token": "moment",
+      "token_id": 2617,
+      "char_start": 26,
+      "char_end": 32,
+      "raw_fragment": "moment",
+      "word_indices": [
+        5
+      ],
+      "candidate_start": 1.78246875,
+      "candidate_end": 2.08246875,
+      "timing_usable": true,
+      "confidence": 0.9157770276069641,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "03",
+      "slot": 10,
+      "token": "which",
+      "token_id": 2029,
+      "char_start": 33,
+      "char_end": 38,
+      "raw_fragment": "which",
+      "word_indices": [
+        6
+      ],
+      "candidate_start": 2.1624687500000004,
+      "candidate_end": 2.2824687499999996,
+      "timing_usable": true,
+      "confidence": 0.9999184608459473,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "03",
+      "slot": 11,
+      "token": "i",
+      "token_id": 1045,
+      "char_start": 39,
+      "char_end": 40,
+      "raw_fragment": "I",
+      "word_indices": [
+        7
+      ],
+      "candidate_start": 2.34246875,
+      "candidate_end": 2.3624687499999997,
+      "timing_usable": true,
+      "confidence": 0.9987835884094238,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "03",
+      "slot": 12,
+      "token": "think",
+      "token_id": 2228,
+      "char_start": 41,
+      "char_end": 46,
+      "raw_fragment": "think",
+      "word_indices": [
+        8
+      ],
+      "candidate_start": 2.40246875,
+      "candidate_end": 2.54246875,
+      "timing_usable": true,
+      "confidence": 0.937767744064331,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "03",
+      "slot": 13,
+      "token": "is",
+      "token_id": 2003,
+      "char_start": 47,
+      "char_end": 49,
+      "raw_fragment": "is",
+      "word_indices": [
+        9
+      ],
+      "candidate_start": 2.6024687500000003,
+      "candidate_end": 2.70246875,
+      "timing_usable": true,
+      "confidence": 0.6951922178268433,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "03",
+      "slot": 14,
+      "token": "just",
+      "token_id": 2074,
+      "char_start": 50,
+      "char_end": 54,
+      "raw_fragment": "just",
+      "word_indices": [
+        10
+      ],
+      "candidate_start": 2.72246875,
+      "candidate_end": 2.8824687499999997,
+      "timing_usable": true,
+      "confidence": 0.9245518445968628,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "03",
+      "slot": 15,
+      "token": "bank",
+      "token_id": 2924,
+      "char_start": 55,
+      "char_end": 59,
+      "raw_fragment": "Bank",
+      "word_indices": [
+        11
+      ],
+      "candidate_start": 3.0024687500000002,
+      "candidate_end": 3.68246875,
+      "timing_usable": true,
+      "confidence": 0.9906982779502869,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "03",
+      "slot": 16,
+      "token": "##west",
+      "token_id": 19650,
+      "char_start": 59,
+      "char_end": 63,
+      "raw_fragment": "west",
+      "word_indices": [
+        11
+      ],
+      "candidate_start": 3.0024687500000002,
+      "candidate_end": 3.68246875,
+      "timing_usable": true,
+      "confidence": 0.9906982779502869,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "03",
+      "slot": 17,
+      "token": "who",
+      "token_id": 2040,
+      "char_start": 64,
+      "char_end": 67,
+      "raw_fragment": "who",
+      "word_indices": [
+        12
+      ],
+      "candidate_start": 4.10246875,
+      "candidate_end": 4.24246875,
+      "timing_usable": true,
+      "confidence": 0.9944559335708618,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "03",
+      "slot": 18,
+      "token": "don",
+      "token_id": 2123,
+      "char_start": 68,
+      "char_end": 71,
+      "raw_fragment": "don",
+      "word_indices": [
+        13
+      ],
+      "candidate_start": 4.52246875,
+      "candidate_end": 4.74246875,
+      "timing_usable": true,
+      "confidence": 0.9812393188476562,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "03",
+      "slot": 19,
+      "token": "'",
+      "token_id": 1005,
+      "char_start": 71,
+      "char_end": 72,
+      "raw_fragment": "'",
+      "word_indices": [
+        13
+      ],
+      "candidate_start": 4.52246875,
+      "candidate_end": 4.74246875,
+      "timing_usable": true,
+      "confidence": 0.9812393188476562,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "03",
+      "slot": 20,
+      "token": "t",
+      "token_id": 1056,
+      "char_start": 72,
+      "char_end": 73,
+      "raw_fragment": "t",
+      "word_indices": [
+        13
+      ],
+      "candidate_start": 4.52246875,
+      "candidate_end": 4.74246875,
+      "timing_usable": true,
+      "confidence": 0.9812393188476562,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "03",
+      "slot": 21,
+      "token": "take",
+      "token_id": 2202,
+      "char_start": 74,
+      "char_end": 78,
+      "raw_fragment": "take",
+      "word_indices": [
+        14
+      ],
+      "candidate_start": 4.80246875,
+      "candidate_end": 4.98246875,
+      "timing_usable": true,
+      "confidence": 0.9965956807136536,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "03",
+      "slot": 22,
+      "token": "rental",
+      "token_id": 12635,
+      "char_start": 79,
+      "char_end": 85,
+      "raw_fragment": "rental",
+      "word_indices": [
+        15
+      ],
+      "candidate_start": 5.14246875,
+      "candidate_end": 5.38246875,
+      "timing_usable": true,
+      "confidence": 0.5081078410148621,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "03",
+      "slot": 23,
+      "token": "income",
+      "token_id": 3318,
+      "char_start": 86,
+      "char_end": 92,
+      "raw_fragment": "income",
+      "word_indices": [
+        16
+      ],
+      "candidate_start": 5.48246875,
+      "candidate_end": 5.78246875,
+      "timing_usable": true,
+      "confidence": 0.9239872097969055,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "03",
+      "slot": 24,
+      "token": "into",
+      "token_id": 2046,
+      "char_start": 93,
+      "char_end": 97,
+      "raw_fragment": "into",
+      "word_indices": [
+        17
+      ],
+      "candidate_start": 5.902468750000001,
+      "candidate_end": 6.1224687499999995,
+      "timing_usable": true,
+      "confidence": 0.970421552658081,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "03",
+      "slot": 25,
+      "token": "account",
+      "token_id": 4070,
+      "char_start": 98,
+      "char_end": 105,
+      "raw_fragment": "account",
+      "word_indices": [
+        18
+      ],
+      "candidate_start": 6.22246875,
+      "candidate_end": 6.52246875,
+      "timing_usable": true,
+      "confidence": 0.9467341303825378,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "03",
+      "slot": 26,
+      "token": ",",
+      "token_id": 1010,
+      "char_start": 105,
+      "char_end": 106,
+      "raw_fragment": ",",
+      "word_indices": [],
+      "candidate_start": null,
+      "candidate_end": null,
+      "timing_usable": false,
+      "confidence": null,
+      "mapping": "punctuation_without_own_acoustic_interval"
+    },
+    {
+      "sample_id": "03",
+      "slot": 27,
+      "token": "they",
+      "token_id": 2027,
+      "char_start": 107,
+      "char_end": 111,
+      "raw_fragment": "they",
+      "word_indices": [
+        19
+      ],
+      "candidate_start": 6.8224687500000005,
+      "candidate_end": 6.96246875,
+      "timing_usable": true,
+      "confidence": 0.9048709869384766,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "03",
+      "slot": 28,
+      "token": "take",
+      "token_id": 2202,
+      "char_start": 112,
+      "char_end": 116,
+      "raw_fragment": "take",
+      "word_indices": [
+        20
+      ],
+      "candidate_start": 7.04246875,
+      "candidate_end": 7.22246875,
+      "timing_usable": true,
+      "confidence": 0.9011486172676086,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "03",
+      "slot": 29,
+      "token": "rental",
+      "token_id": 12635,
+      "char_start": 117,
+      "char_end": 123,
+      "raw_fragment": "rental",
+      "word_indices": [
+        21
+      ],
+      "candidate_start": 7.50246875,
+      "candidate_end": 7.80246875,
+      "timing_usable": true,
+      "confidence": 0.6543473601341248,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "03",
+      "slot": 30,
+      "token": "yield",
+      "token_id": 10750,
+      "char_start": 124,
+      "char_end": 129,
+      "raw_fragment": "yield",
+      "word_indices": [
+        22
+      ],
+      "candidate_start": 7.98246875,
+      "candidate_end": 8.34246875,
+      "timing_usable": true,
+      "confidence": 0.95180743932724,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "03",
+      "slot": 31,
+      "token": "into",
+      "token_id": 2046,
+      "char_start": 130,
+      "char_end": 134,
+      "raw_fragment": "into",
+      "word_indices": [
+        23
+      ],
+      "candidate_start": 8.462468750000001,
+      "candidate_end": 8.62246875,
+      "timing_usable": true,
+      "confidence": 0.9991917014122009,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "03",
+      "slot": 32,
+      "token": "account",
+      "token_id": 4070,
+      "char_start": 135,
+      "char_end": 142,
+      "raw_fragment": "account",
+      "word_indices": [
+        24
+      ],
+      "candidate_start": 8.70246875,
+      "candidate_end": 9.00246875,
+      "timing_usable": true,
+      "confidence": 0.9665101170539856,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "03",
+      "slot": 33,
+      "token": ".",
+      "token_id": 1012,
+      "char_start": 142,
+      "char_end": 143,
+      "raw_fragment": ".",
+      "word_indices": [],
+      "candidate_start": null,
+      "candidate_end": null,
+      "timing_usable": false,
+      "confidence": null,
+      "mapping": "punctuation_without_own_acoustic_interval"
+    }
+  ],
+  "token_ids_match": true,
+  "feature_repetition_audit": {
+    "audio": {
+      "multi_piece_words": 4,
+      "identical_feature_groups": 4
+    },
+    "vision": {
+      "multi_piece_words": 4,
+      "identical_feature_groups": 4
+    }
+  },
+  "represented_char_end": 143,
+  "unrepresented_text_tail": "",
+  "timing_claim": "estimated CTC word intervals, not official feature timestamps; aligned AV correspondence follows task specification",
+  "alignment_error": null
+}

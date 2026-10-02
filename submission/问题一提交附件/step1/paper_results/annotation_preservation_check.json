@@ -1,0 +1,72 @@
+{
+  "status": "passed",
+  "reference": [
+    "build_readable_results_figures.py",
+    "export_results_minipage.py",
+    "readable_figures/readable_figures_manifest.json"
+  ],
+  "scope": "核对独立图中原有坐标含义、数量、阈值、图例与交叠标注；合图总标题和公共页脚不属于原独立导出内容。",
+  "required_annotations": {
+    "fig_p1_visual_coverage": [
+      "1595 词",
+      "3253 帧",
+      "337 词",
+      "720 帧",
+      "占比 / %",
+      "抽样帧",
+      "无面部记录",
+      "有面部记录",
+      "词位置"
+    ],
+    "fig_p1_audio_energy_share": [
+      "67343 条",
+      "9918 条",
+      "低能量",
+      "声学记录占比 / %",
+      "非低能量"
+    ],
+    "fig_p1_ctc_confidence": [
+      "CTC 置信度",
+      "低于 0.1：350 个词",
+      "词数 / 个"
+    ],
+    "fig_p1_diagnostic_wer": [
+      "片段数 / 条",
+      "诊断 WER",
+      "高于 0.8：21 条片段"
+    ],
+    "fig_p1_rms": [
+      "原生 RMS",
+      "低能量阈值",
+      "低能量记录",
+      "低能量记录：147 / 333 条",
+      "相对视频起点的时间 / s",
+      "短时 RMS"
+    ],
+    "fig_p1_rms_zoom": [
+      "原生 RMS",
+      "低能量阈值",
+      "低能量记录",
+      "阈值 0.0031623",
+      "相对视频起点的时间 / s",
+      "短时 RMS"
+    ],
+    "fig_p1_window_reconstruction": [
+      "原生记录",
+      "0.2 s 重建",
+      "0.5 s 重建",
+      "响度",
+      "时间 / s"
+    ],
+    "fig_p1_word_window_overlap": [
+      "绿色线：successful",
+      "4 个窗",
+      "2 个窗",
+      "末窗仍交叠 0.00247 s",
+      "0.2 s",
+      "0.5 s",
+      "时间 / s"
+    ]
+  },
+  "pdf_text_checked": true
+}

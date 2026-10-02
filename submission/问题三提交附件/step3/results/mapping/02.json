@@ -1,0 +1,496 @@
+{
+  "sample_id": "02",
+  "raw_text": "We want to live by each other’s happiness - not by each other’s misery.",
+  "duration": 3.49296875,
+  "video_fps": 30.0,
+  "video_frames": 101,
+  "video_source": "附件4-可解释专项视频样本与特征文件/附件4-可解释专项视频样本与特征文件/对齐版本/videos/02.mp4",
+  "video_sha256": "6b651e908aefd86959f85b78f945f7d5a5d9e767eb4c095926e1df2ed9629ff9",
+  "audio_coverage_fraction": 1.0,
+  "diagnostic_asr": "WE WANT TO LIVE BY EACH OTHER'S HAPPINESS NOT BY EACH OTHER'S MISERY",
+  "diagnostic_wer": 0.0,
+  "mean_ctc_confidence": 0.9886684417724609,
+  "requires_timing_review": false,
+  "reasons": [],
+  "words": [
+    {
+      "index": 0,
+      "original": "We",
+      "char_start": 0,
+      "char_end": 2,
+      "normalized": "WE",
+      "start": 0.48246875,
+      "end": 0.54246875,
+      "confidence": 0.9989751577377319,
+      "status": "aligned"
+    },
+    {
+      "index": 1,
+      "original": "want",
+      "char_start": 3,
+      "char_end": 7,
+      "normalized": "WANT",
+      "start": 0.60246875,
+      "end": 0.70246875,
+      "confidence": 0.9965008497238159,
+      "status": "aligned"
+    },
+    {
+      "index": 2,
+      "original": "to",
+      "char_start": 8,
+      "char_end": 10,
+      "normalized": "TO",
+      "start": 0.74246875,
+      "end": 0.78246875,
+      "confidence": 0.9953874349594116,
+      "status": "aligned"
+    },
+    {
+      "index": 3,
+      "original": "live",
+      "char_start": 11,
+      "char_end": 15,
+      "normalized": "LIVE",
+      "start": 0.82246875,
+      "end": 0.94246875,
+      "confidence": 0.9994577765464783,
+      "status": "aligned"
+    },
+    {
+      "index": 4,
+      "original": "by",
+      "char_start": 16,
+      "char_end": 18,
+      "normalized": "BY",
+      "start": 0.98246875,
+      "end": 1.04246875,
+      "confidence": 0.998938798904419,
+      "status": "aligned"
+    },
+    {
+      "index": 5,
+      "original": "each",
+      "char_start": 19,
+      "char_end": 23,
+      "normalized": "EACH",
+      "start": 1.1024687499999999,
+      "end": 1.18246875,
+      "confidence": 0.9999646544456482,
+      "status": "aligned"
+    },
+    {
+      "index": 6,
+      "original": "other’s",
+      "char_start": 24,
+      "char_end": 31,
+      "normalized": "OTHER'S",
+      "start": 1.24246875,
+      "end": 1.42246875,
+      "confidence": 0.9920466542243958,
+      "status": "aligned"
+    },
+    {
+      "index": 7,
+      "original": "happiness",
+      "char_start": 32,
+      "char_end": 41,
+      "normalized": "HAPPINESS",
+      "start": 1.44246875,
+      "end": 1.80246875,
+      "confidence": 0.9413952231407166,
+      "status": "aligned"
+    },
+    {
+      "index": 8,
+      "original": "not",
+      "char_start": 44,
+      "char_end": 47,
+      "normalized": "NOT",
+      "start": 1.82246875,
+      "end": 1.92246875,
+      "confidence": 0.9881092309951782,
+      "status": "aligned"
+    },
+    {
+      "index": 9,
+      "original": "by",
+      "char_start": 48,
+      "char_end": 50,
+      "normalized": "BY",
+      "start": 1.98246875,
+      "end": 2.04246875,
+      "confidence": 0.9945611953735352,
+      "status": "aligned"
+    },
+    {
+      "index": 10,
+      "original": "each",
+      "char_start": 51,
+      "char_end": 55,
+      "normalized": "EACH",
+      "start": 2.1024687500000003,
+      "end": 2.20246875,
+      "confidence": 0.9695718288421631,
+      "status": "aligned"
+    },
+    {
+      "index": 11,
+      "original": "other’s",
+      "char_start": 56,
+      "char_end": 63,
+      "normalized": "OTHER'S",
+      "start": 2.24246875,
+      "end": 2.4424687499999997,
+      "confidence": 0.9779191017150879,
+      "status": "aligned"
+    },
+    {
+      "index": 12,
+      "original": "misery",
+      "char_start": 64,
+      "char_end": 70,
+      "normalized": "MISERY",
+      "start": 2.4824687500000002,
+      "end": 2.7624687499999996,
+      "confidence": 0.9998611807823181,
+      "status": "aligned"
+    }
+  ],
+  "tokens": [
+    {
+      "sample_id": "02",
+      "slot": 1,
+      "token": "we",
+      "token_id": 2057,
+      "char_start": 0,
+      "char_end": 2,
+      "raw_fragment": "We",
+      "word_indices": [
+        0
+      ],
+      "candidate_start": 0.48246875,
+      "candidate_end": 0.54246875,
+      "timing_usable": true,
+      "confidence": 0.9989751577377319,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "02",
+      "slot": 2,
+      "token": "want",
+      "token_id": 2215,
+      "char_start": 3,
+      "char_end": 7,
+      "raw_fragment": "want",
+      "word_indices": [
+        1
+      ],
+      "candidate_start": 0.60246875,
+      "candidate_end": 0.70246875,
+      "timing_usable": true,
+      "confidence": 0.9965008497238159,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "02",
+      "slot": 3,
+      "token": "to",
+      "token_id": 2000,
+      "char_start": 8,
+      "char_end": 10,
+      "raw_fragment": "to",
+      "word_indices": [
+        2
+      ],
+      "candidate_start": 0.74246875,
+      "candidate_end": 0.78246875,
+      "timing_usable": true,
+      "confidence": 0.9953874349594116,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "02",
+      "slot": 4,
+      "token": "live",
+      "token_id": 2444,
+      "char_start": 11,
+      "char_end": 15,
+      "raw_fragment": "live",
+      "word_indices": [
+        3
+      ],
+      "candidate_start": 0.82246875,
+      "candidate_end": 0.94246875,
+      "timing_usable": true,
+      "confidence": 0.9994577765464783,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "02",
+      "slot": 5,
+      "token": "by",
+      "token_id": 2011,
+      "char_start": 16,
+      "char_end": 18,
+      "raw_fragment": "by",
+      "word_indices": [
+        4
+      ],
+      "candidate_start": 0.98246875,
+      "candidate_end": 1.04246875,
+      "timing_usable": true,
+      "confidence": 0.998938798904419,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "02",
+      "slot": 6,
+      "token": "each",
+      "token_id": 2169,
+      "char_start": 19,
+      "char_end": 23,
+      "raw_fragment": "each",
+      "word_indices": [
+        5
+      ],
+      "candidate_start": 1.1024687499999999,
+      "candidate_end": 1.18246875,
+      "timing_usable": true,
+      "confidence": 0.9999646544456482,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "02",
+      "slot": 7,
+      "token": "other",
+      "token_id": 2060,
+      "char_start": 24,
+      "char_end": 29,
+      "raw_fragment": "other",
+      "word_indices": [
+        6
+      ],
+      "candidate_start": 1.24246875,
+      "candidate_end": 1.42246875,
+      "timing_usable": true,
+      "confidence": 0.9920466542243958,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "02",
+      "slot": 8,
+      "token": "’",
+      "token_id": 1521,
+      "char_start": 29,
+      "char_end": 30,
+      "raw_fragment": "’",
+      "word_indices": [
+        6
+      ],
+      "candidate_start": 1.24246875,
+      "candidate_end": 1.42246875,
+      "timing_usable": true,
+      "confidence": 0.9920466542243958,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "02",
+      "slot": 9,
+      "token": "s",
+      "token_id": 1055,
+      "char_start": 30,
+      "char_end": 31,
+      "raw_fragment": "s",
+      "word_indices": [
+        6
+      ],
+      "candidate_start": 1.24246875,
+      "candidate_end": 1.42246875,
+      "timing_usable": true,
+      "confidence": 0.9920466542243958,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "02",
+      "slot": 10,
+      "token": "happiness",
+      "token_id": 8404,
+      "char_start": 32,
+      "char_end": 41,
+      "raw_fragment": "happiness",
+      "word_indices": [
+        7
+      ],
+      "candidate_start": 1.44246875,
+      "candidate_end": 1.80246875,
+      "timing_usable": true,
+      "confidence": 0.9413952231407166,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "02",
+      "slot": 11,
+      "token": "-",
+      "token_id": 1011,
+      "char_start": 42,
+      "char_end": 43,
+      "raw_fragment": "-",
+      "word_indices": [],
+      "candidate_start": null,
+      "candidate_end": null,
+      "timing_usable": false,
+      "confidence": null,
+      "mapping": "punctuation_without_own_acoustic_interval"
+    },
+    {
+      "sample_id": "02",
+      "slot": 12,
+      "token": "not",
+      "token_id": 2025,
+      "char_start": 44,
+      "char_end": 47,
+      "raw_fragment": "not",
+      "word_indices": [
+        8
+      ],
+      "candidate_start": 1.82246875,
+      "candidate_end": 1.92246875,
+      "timing_usable": true,
+      "confidence": 0.9881092309951782,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "02",
+      "slot": 13,
+      "token": "by",
+      "token_id": 2011,
+      "char_start": 48,
+      "char_end": 50,
+      "raw_fragment": "by",
+      "word_indices": [
+        9
+      ],
+      "candidate_start": 1.98246875,
+      "candidate_end": 2.04246875,
+      "timing_usable": true,
+      "confidence": 0.9945611953735352,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "02",
+      "slot": 14,
+      "token": "each",
+      "token_id": 2169,
+      "char_start": 51,
+      "char_end": 55,
+      "raw_fragment": "each",
+      "word_indices": [
+        10
+      ],
+      "candidate_start": 2.1024687500000003,
+      "candidate_end": 2.20246875,
+      "timing_usable": true,
+      "confidence": 0.9695718288421631,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "02",
+      "slot": 15,
+      "token": "other",
+      "token_id": 2060,
+      "char_start": 56,
+      "char_end": 61,
+      "raw_fragment": "other",
+      "word_indices": [
+        11
+      ],
+      "candidate_start": 2.24246875,
+      "candidate_end": 2.4424687499999997,
+      "timing_usable": true,
+      "confidence": 0.9779191017150879,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "02",
+      "slot": 16,
+      "token": "’",
+      "token_id": 1521,
+      "char_start": 61,
+      "char_end": 62,
+      "raw_fragment": "’",
+      "word_indices": [
+        11
+      ],
+      "candidate_start": 2.24246875,
+      "candidate_end": 2.4424687499999997,
+      "timing_usable": true,
+      "confidence": 0.9779191017150879,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "02",
+      "slot": 17,
+      "token": "s",
+      "token_id": 1055,
+      "char_start": 62,
+      "char_end": 63,
+      "raw_fragment": "s",
+      "word_indices": [
+        11
+      ],
+      "candidate_start": 2.24246875,
+      "candidate_end": 2.4424687499999997,
+      "timing_usable": true,
+      "confidence": 0.9779191017150879,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "02",
+      "slot": 18,
+      "token": "misery",
+      "token_id": 14624,
+      "char_start": 64,
+      "char_end": 70,
+      "raw_fragment": "misery",
+      "word_indices": [
+        12
+      ],
+      "candidate_start": 2.4824687500000002,
+      "candidate_end": 2.7624687499999996,
+      "timing_usable": true,
+      "confidence": 0.9998611807823181,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "02",
+      "slot": 19,
+      "token": ".",
+      "token_id": 1012,
+      "char_start": 70,
+      "char_end": 71,
+      "raw_fragment": ".",
+      "word_indices": [],
+      "candidate_start": null,
+      "candidate_end": null,
+      "timing_usable": false,
+      "confidence": null,
+      "mapping": "punctuation_without_own_acoustic_interval"
+    }
+  ],
+  "token_ids_match": true,
+  "feature_repetition_audit": {
+    "audio": {
+      "multi_piece_words": 2,
+      "identical_feature_groups": 2
+    },
+    "vision": {
+      "multi_piece_words": 2,
+      "identical_feature_groups": 2
+    }
+  },
+  "represented_char_end": 71,
+  "unrepresented_text_tail": "",
+  "timing_claim": "estimated CTC word intervals, not official feature timestamps; aligned AV correspondence follows task specification",
+  "alignment_error": null
+}

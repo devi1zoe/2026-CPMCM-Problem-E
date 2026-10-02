@@ -1,0 +1,765 @@
+{
+  "sample_id": "-tPCytz4rww$_$12",
+  "video_id": "-tPCytz4rww",
+  "clip_id": "12",
+  "raw_text": "No less than eight hundred squire feet and going to similar in, similar with bedrooms and bathrooms as well and hopefully the complexes have similar amenities.",
+  "label": 0.0,
+  "annotation": "Neutral",
+  "source_path": "E题_材料阅读/E题数据/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-tPCytz4rww/12.mp4",
+  "source_sha256": "e3c7f9cd67ad2d20fef997696dc278361f97f027db58762e22104e5720d509d5",
+  "config_sha256": "4a530340304f07255daf856e6891f0a15e50f05bd85343d067a663a573e8f888",
+  "code_sha256": {
+    "common.py": "4a37980b521a2f5a93e208d3ba265542a149336b3401aa89b8a4494517f5e16e",
+    "alignment.py": "76b29c002cdc97e8e0e85cffae02d81db938fa39484ad908c28c5efc60de0c34",
+    "features.py": "8283e0d0886b83bbd84d4db4521599b480b0ada4bc1afc4e4b9b91cddf5b4018",
+    "run.py": "f75d7b5bc6e342541664233a37a3d87f39313bcd3a8f3a50bfaea94798d4e07b"
+  },
+  "model_assets_sha256": {
+    "assets/face_landmarker.task": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff",
+    "assets/wav2vec2/preprocessor_config.json": "b225d617c025463b9e157e06afea8b90dc7078fc70b013c533328423e0486b4a",
+    "assets/wav2vec2/vocab.json": "19727f8944fe6459fc3f240ae2c198395b740f6a029bd23e06656266b83bcf64",
+    "assets/wav2vec2/special_tokens_map.json": "bb7068de1150661a10b55f9e4b12a0e77af8bf91f5e45e1b58afaf1d0e17f675",
+    "assets/wav2vec2/tokenizer_config.json": "dc790594f5bc351a4311c6624f40acd95850d4aaf2a5cb3c656c9b610720b608",
+    "assets/wav2vec2/model.safetensors": "8aa76ab2243c81747a1f832954586bc566090c83a0ac167df6f31f0fa917d74a",
+    "assets/wav2vec2/config.json": "d3ec255c063d9f95057b553b19c20135b259875834a4fe9deb218a6be25b4cf3",
+    "assets/distilbert/vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+    "assets/distilbert/tokenizer_config.json": "a025160ef0431f1a392f6f050c1310f4c5d9fb6f275932dbccba73c4d214bf10",
+    "assets/distilbert/model.safetensors": "5e3f1108e3cb34ee048634875d8482665b65ac713291a7e32396fb18f6ff0063",
+    "assets/distilbert/config.json": "69c94b0222d5d1f4b0ad027ca7416cdafb98378cbbb8305d0bf47c9365c60c83",
+    "assets/distilbert/tokenizer.json": "ce64fce797c24f68df90b40a3f74f579b336a493db14bd583fd520ea0d8c9a98"
+  },
+  "duration": 11.863997395833334,
+  "video_rate": 30.0,
+  "video_origin": 0.0,
+  "audio_start": 0.0,
+  "audio_duration": 11.7361875,
+  "audio_coverage_ratio": 1.0,
+  "words": [
+    {
+      "index": 0,
+      "original": "No",
+      "char_start": 0,
+      "char_end": 2,
+      "normalized": "NO",
+      "subword_indices": [
+        0
+      ],
+      "start": 0.5424687499999999,
+      "end": 0.62246875,
+      "confidence": 0.999237060546875,
+      "status": "aligned"
+    },
+    {
+      "index": 1,
+      "original": "less",
+      "char_start": 3,
+      "char_end": 7,
+      "normalized": "LESS",
+      "subword_indices": [
+        1
+      ],
+      "start": 0.70246875,
+      "end": 0.88246875,
+      "confidence": 0.9546180963516235,
+      "status": "aligned"
+    },
+    {
+      "index": 2,
+      "original": "than",
+      "char_start": 8,
+      "char_end": 12,
+      "normalized": "THAN",
+      "subword_indices": [
+        2
+      ],
+      "start": 0.94246875,
+      "end": 1.06246875,
+      "confidence": 0.9996739625930786,
+      "status": "aligned"
+    },
+    {
+      "index": 3,
+      "original": "eight",
+      "char_start": 13,
+      "char_end": 18,
+      "normalized": "EIGHT",
+      "subword_indices": [
+        3
+      ],
+      "start": 1.34246875,
+      "end": 1.50246875,
+      "confidence": 0.9155876040458679,
+      "status": "aligned"
+    },
+    {
+      "index": 4,
+      "original": "hundred",
+      "char_start": 19,
+      "char_end": 26,
+      "normalized": "HUNDRED",
+      "subword_indices": [
+        4
+      ],
+      "start": 1.54246875,
+      "end": 1.74246875,
+      "confidence": 0.9215489029884338,
+      "status": "aligned"
+    },
+    {
+      "index": 5,
+      "original": "squire",
+      "char_start": 27,
+      "char_end": 33,
+      "normalized": "SQUIRE",
+      "subword_indices": [
+        5
+      ],
+      "start": 1.78246875,
+      "end": 2.00246875,
+      "confidence": 0.37202978134155273,
+      "status": "aligned"
+    },
+    {
+      "index": 6,
+      "original": "feet",
+      "char_start": 34,
+      "char_end": 38,
+      "normalized": "FEET",
+      "subword_indices": [
+        6
+      ],
+      "start": 2.0424687500000003,
+      "end": 2.22246875,
+      "confidence": 0.9841253161430359,
+      "status": "aligned"
+    },
+    {
+      "index": 7,
+      "original": "and",
+      "char_start": 39,
+      "char_end": 42,
+      "normalized": "AND",
+      "subword_indices": [
+        7
+      ],
+      "start": 2.6024687500000003,
+      "end": 2.66246875,
+      "confidence": 0.4672519564628601,
+      "status": "aligned"
+    },
+    {
+      "index": 8,
+      "original": "going",
+      "char_start": 43,
+      "char_end": 48,
+      "normalized": "GOING",
+      "subword_indices": [
+        8
+      ],
+      "start": 2.6824687500000004,
+      "end": 2.8024687499999996,
+      "confidence": 0.010573235340416431,
+      "status": "low_confidence"
+    },
+    {
+      "index": 9,
+      "original": "to",
+      "char_start": 49,
+      "char_end": 51,
+      "normalized": "TO",
+      "subword_indices": [
+        9
+      ],
+      "start": 2.82246875,
+      "end": 2.8824687499999997,
+      "confidence": 0.0016071529826149344,
+      "status": "low_confidence"
+    },
+    {
+      "index": 10,
+      "original": "similar",
+      "char_start": 52,
+      "char_end": 59,
+      "normalized": "SIMILAR",
+      "subword_indices": [
+        10
+      ],
+      "start": 2.9824687500000002,
+      "end": 3.3824687499999997,
+      "confidence": 0.9898147583007812,
+      "status": "aligned"
+    },
+    {
+      "index": 11,
+      "original": "in",
+      "char_start": 60,
+      "char_end": 62,
+      "normalized": "IN",
+      "subword_indices": [
+        11
+      ],
+      "start": 3.6224687500000003,
+      "end": 3.66246875,
+      "confidence": 0.9633718132972717,
+      "status": "aligned"
+    },
+    {
+      "index": 12,
+      "original": "similar",
+      "char_start": 64,
+      "char_end": 71,
+      "normalized": "SIMILAR",
+      "subword_indices": [
+        13
+      ],
+      "start": 4.942468750000001,
+      "end": 5.32246875,
+      "confidence": 0.9627279043197632,
+      "status": "aligned"
+    },
+    {
+      "index": 13,
+      "original": "with",
+      "char_start": 72,
+      "char_end": 76,
+      "normalized": "WITH",
+      "subword_indices": [
+        14
+      ],
+      "start": 5.58246875,
+      "end": 5.74246875,
+      "confidence": 0.9996200799942017,
+      "status": "aligned"
+    },
+    {
+      "index": 14,
+      "original": "bedrooms",
+      "char_start": 77,
+      "char_end": 85,
+      "normalized": "BEDROOMS",
+      "subword_indices": [
+        15
+      ],
+      "start": 5.92246875,
+      "end": 6.26246875,
+      "confidence": 0.9484715461730957,
+      "status": "aligned"
+    },
+    {
+      "index": 15,
+      "original": "and",
+      "char_start": 86,
+      "char_end": 89,
+      "normalized": "AND",
+      "subword_indices": [
+        16
+      ],
+      "start": 6.30246875,
+      "end": 6.36246875,
+      "confidence": 0.8879608511924744,
+      "status": "aligned"
+    },
+    {
+      "index": 16,
+      "original": "bathrooms",
+      "char_start": 90,
+      "char_end": 99,
+      "normalized": "BATHROOMS",
+      "subword_indices": [
+        17
+      ],
+      "start": 6.42246875,
+      "end": 6.88246875,
+      "confidence": 0.996461808681488,
+      "status": "aligned"
+    },
+    {
+      "index": 17,
+      "original": "as",
+      "char_start": 100,
+      "char_end": 102,
+      "normalized": "AS",
+      "subword_indices": [
+        18
+      ],
+      "start": 6.96246875,
+      "end": 7.002468749999999,
+      "confidence": 0.998127281665802,
+      "status": "aligned"
+    },
+    {
+      "index": 18,
+      "original": "well",
+      "char_start": 103,
+      "char_end": 107,
+      "normalized": "WELL",
+      "subword_indices": [
+        19
+      ],
+      "start": 7.08246875,
+      "end": 7.28246875,
+      "confidence": 0.9978455901145935,
+      "status": "aligned"
+    },
+    {
+      "index": 19,
+      "original": "and",
+      "char_start": 108,
+      "char_end": 111,
+      "normalized": "AND",
+      "subword_indices": [
+        20
+      ],
+      "start": 7.88246875,
+      "end": 8.02246875,
+      "confidence": 0.9117481708526611,
+      "status": "aligned"
+    },
+    {
+      "index": 20,
+      "original": "hopefully",
+      "char_start": 112,
+      "char_end": 121,
+      "normalized": "HOPEFULLY",
+      "subword_indices": [
+        21
+      ],
+      "start": 8.40246875,
+      "end": 8.76246875,
+      "confidence": 0.9454322457313538,
+      "status": "aligned"
+    },
+    {
+      "index": 21,
+      "original": "the",
+      "char_start": 122,
+      "char_end": 125,
+      "normalized": "THE",
+      "subword_indices": [
+        22
+      ],
+      "start": 9.12246875,
+      "end": 9.222468749999999,
+      "confidence": 0.9923077821731567,
+      "status": "aligned"
+    },
+    {
+      "index": 22,
+      "original": "complexes",
+      "char_start": 126,
+      "char_end": 135,
+      "normalized": "COMPLEXES",
+      "subword_indices": [
+        23
+      ],
+      "start": 9.40246875,
+      "end": 9.88246875,
+      "confidence": 0.9140243530273438,
+      "status": "aligned"
+    },
+    {
+      "index": 23,
+      "original": "have",
+      "char_start": 136,
+      "char_end": 140,
+      "normalized": "HAVE",
+      "subword_indices": [
+        24
+      ],
+      "start": 9.94246875,
+      "end": 10.062468749999999,
+      "confidence": 0.9992892146110535,
+      "status": "aligned"
+    },
+    {
+      "index": 24,
+      "original": "similar",
+      "char_start": 141,
+      "char_end": 148,
+      "normalized": "SIMILAR",
+      "subword_indices": [
+        25
+      ],
+      "start": 10.16246875,
+      "end": 10.50246875,
+      "confidence": 0.9414277672767639,
+      "status": "aligned"
+    },
+    {
+      "index": 25,
+      "original": "amenities",
+      "char_start": 149,
+      "char_end": 158,
+      "normalized": "AMENITIES",
+      "subword_indices": [
+        26
+      ],
+      "start": 10.62246875,
+      "end": 11.12246875,
+      "confidence": 0.9780789613723755,
+      "status": "aligned"
+    }
+  ],
+  "subwords": [
+    {
+      "index": 0,
+      "token_id": 2053,
+      "token": "no",
+      "char_start": 0,
+      "char_end": 2,
+      "word_index": 0,
+      "chunk_index": 0
+    },
+    {
+      "index": 1,
+      "token_id": 2625,
+      "token": "less",
+      "char_start": 3,
+      "char_end": 7,
+      "word_index": 1,
+      "chunk_index": 0
+    },
+    {
+      "index": 2,
+      "token_id": 2084,
+      "token": "than",
+      "char_start": 8,
+      "char_end": 12,
+      "word_index": 2,
+      "chunk_index": 0
+    },
+    {
+      "index": 3,
+      "token_id": 2809,
+      "token": "eight",
+      "char_start": 13,
+      "char_end": 18,
+      "word_index": 3,
+      "chunk_index": 0
+    },
+    {
+      "index": 4,
+      "token_id": 3634,
+      "token": "hundred",
+      "char_start": 19,
+      "char_end": 26,
+      "word_index": 4,
+      "chunk_index": 0
+    },
+    {
+      "index": 5,
+      "token_id": 21263,
+      "token": "squire",
+      "char_start": 27,
+      "char_end": 33,
+      "word_index": 5,
+      "chunk_index": 0
+    },
+    {
+      "index": 6,
+      "token_id": 2519,
+      "token": "feet",
+      "char_start": 34,
+      "char_end": 38,
+      "word_index": 6,
+      "chunk_index": 0
+    },
+    {
+      "index": 7,
+      "token_id": 1998,
+      "token": "and",
+      "char_start": 39,
+      "char_end": 42,
+      "word_index": 7,
+      "chunk_index": 0
+    },
+    {
+      "index": 8,
+      "token_id": 2183,
+      "token": "going",
+      "char_start": 43,
+      "char_end": 48,
+      "word_index": 8,
+      "chunk_index": 0
+    },
+    {
+      "index": 9,
+      "token_id": 2000,
+      "token": "to",
+      "char_start": 49,
+      "char_end": 51,
+      "word_index": 9,
+      "chunk_index": 0
+    },
+    {
+      "index": 10,
+      "token_id": 2714,
+      "token": "similar",
+      "char_start": 52,
+      "char_end": 59,
+      "word_index": 10,
+      "chunk_index": 0
+    },
+    {
+      "index": 11,
+      "token_id": 1999,
+      "token": "in",
+      "char_start": 60,
+      "char_end": 62,
+      "word_index": 11,
+      "chunk_index": 0
+    },
+    {
+      "index": 12,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 62,
+      "char_end": 63,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 13,
+      "token_id": 2714,
+      "token": "similar",
+      "char_start": 64,
+      "char_end": 71,
+      "word_index": 12,
+      "chunk_index": 0
+    },
+    {
+      "index": 14,
+      "token_id": 2007,
+      "token": "with",
+      "char_start": 72,
+      "char_end": 76,
+      "word_index": 13,
+      "chunk_index": 0
+    },
+    {
+      "index": 15,
+      "token_id": 18390,
+      "token": "bedrooms",
+      "char_start": 77,
+      "char_end": 85,
+      "word_index": 14,
+      "chunk_index": 0
+    },
+    {
+      "index": 16,
+      "token_id": 1998,
+      "token": "and",
+      "char_start": 86,
+      "char_end": 89,
+      "word_index": 15,
+      "chunk_index": 0
+    },
+    {
+      "index": 17,
+      "token_id": 28942,
+      "token": "bathrooms",
+      "char_start": 90,
+      "char_end": 99,
+      "word_index": 16,
+      "chunk_index": 0
+    },
+    {
+      "index": 18,
+      "token_id": 2004,
+      "token": "as",
+      "char_start": 100,
+      "char_end": 102,
+      "word_index": 17,
+      "chunk_index": 0
+    },
+    {
+      "index": 19,
+      "token_id": 2092,
+      "token": "well",
+      "char_start": 103,
+      "char_end": 107,
+      "word_index": 18,
+      "chunk_index": 0
+    },
+    {
+      "index": 20,
+      "token_id": 1998,
+      "token": "and",
+      "char_start": 108,
+      "char_end": 111,
+      "word_index": 19,
+      "chunk_index": 0
+    },
+    {
+      "index": 21,
+      "token_id": 11504,
+      "token": "hopefully",
+      "char_start": 112,
+      "char_end": 121,
+      "word_index": 20,
+      "chunk_index": 0
+    },
+    {
+      "index": 22,
+      "token_id": 1996,
+      "token": "the",
+      "char_start": 122,
+      "char_end": 125,
+      "word_index": 21,
+      "chunk_index": 0
+    },
+    {
+      "index": 23,
+      "token_id": 15420,
+      "token": "complexes",
+      "char_start": 126,
+      "char_end": 135,
+      "word_index": 22,
+      "chunk_index": 0
+    },
+    {
+      "index": 24,
+      "token_id": 2031,
+      "token": "have",
+      "char_start": 136,
+      "char_end": 140,
+      "word_index": 23,
+      "chunk_index": 0
+    },
+    {
+      "index": 25,
+      "token_id": 2714,
+      "token": "similar",
+      "char_start": 141,
+      "char_end": 148,
+      "word_index": 24,
+      "chunk_index": 0
+    },
+    {
+      "index": 26,
+      "token_id": 19870,
+      "token": "amenities",
+      "char_start": 149,
+      "char_end": 158,
+      "word_index": 25,
+      "chunk_index": 0
+    },
+    {
+      "index": 27,
+      "token_id": 1012,
+      "token": ".",
+      "char_start": 158,
+      "char_end": 159,
+      "word_index": -1,
+      "chunk_index": 0
+    }
+  ],
+  "audio_feature_names": [
+    "Loudness_sma3",
+    "alphaRatio_sma3",
+    "hammarbergIndex_sma3",
+    "slope0-500_sma3",
+    "slope500-1500_sma3",
+    "spectralFlux_sma3",
+    "mfcc1_sma3",
+    "mfcc2_sma3",
+    "mfcc3_sma3",
+    "mfcc4_sma3",
+    "F0semitoneFrom27.5Hz_sma3nz",
+    "jitterLocal_sma3nz",
+    "shimmerLocaldB_sma3nz",
+    "HNRdBACF_sma3nz",
+    "logRelF0-H1-H2_sma3nz",
+    "logRelF0-H1-A3_sma3nz",
+    "F1frequency_sma3nz",
+    "F1bandwidth_sma3nz",
+    "F1amplitudeLogRelF0_sma3nz",
+    "F2frequency_sma3nz",
+    "F2bandwidth_sma3nz",
+    "F2amplitudeLogRelF0_sma3nz",
+    "F3frequency_sma3nz",
+    "F3bandwidth_sma3nz",
+    "F3amplitudeLogRelF0_sma3nz"
+  ],
+  "vision_feature_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "convolution": {
+    "stride_samples": 320,
+    "receptive_field_samples": 400
+  },
+  "ctc_target_text": "NO|LESS|THAN|EIGHT|HUNDRED|SQUIRE|FEET|AND|GOING|TO|SIMILAR|IN|SIMILAR|WITH|BEDROOMS|AND|BATHROOMS|AS|WELL|AND|HOPEFULLY|THE|COMPLEXES|HAVE|SIMILAR|AMENITIES",
+  "diagnostic_asr": "SQUARE FEET NO LESS THAN EIGHT HUNDRED SQUARE FEET AN GNTO BE SIMILAR IN AM SIMILAR WITH BEDROOMS AND BATHROOMS AS WELL AND AHOPEFULLY THE THE COMPLEXES HAVE SIMILAR AMENITIES MEANIN",
+  "diagnostic_wer": 0.38461538461538464,
+  "alignment_path_log_probability": -244.55093581582958,
+  "alignment_error": null,
+  "padding_count": 0,
+  "truncated_words": 0,
+  "visual_time_support": "nearest-sampled-frame cells, midpoint boundaries; 5 Hz sampling",
+  "face_selection": "largest detected face; speaker identity not verified",
+  "feature_dimensions": {
+    "text": 768,
+    "audio": 25,
+    "vision": 52
+  },
+  "statuses": {
+    "low_confidence_words": 2,
+    "unaligned_words": 0,
+    "no_face_frames": 0,
+    "multiple_face_frames": 0,
+    "silent_audio_frames": 4,
+    "invalid_audio_frames": 0
+  },
+  "elapsed_seconds": 2.2687814235687256
+}

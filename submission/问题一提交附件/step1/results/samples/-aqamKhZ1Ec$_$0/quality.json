@@ -1,0 +1,12 @@
+{
+  "sample_id": "-aqamKhZ1Ec$_$0",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.8172222375869751,
+  "low_confidence_fraction": 0.0,
+  "diagnostic_wer": 0.7647058823529411,
+  "usable_word_times": 14,
+  "words": 14,
+  "raw_text": "In 2008, there were very serious tribal warfare in Kenya following a disputed election.",
+  "diagnostic_asr": "TWO THOUSAND AND OF EIHT THERE WERE VERY SERIOUS TRIBAL WARFARE IN ANYON AND AND EVEN AS THE TF FOLLOWING AT DISPUTED ELECTION AND EVEN"
+}

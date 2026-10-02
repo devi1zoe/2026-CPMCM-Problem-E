@@ -1,0 +1,4 @@
+﻿类型,样本,文本,真实极性,预测极性,真实强度,预测强度,诊断边界
+评分表达,130456$_$3,"(uhh) It's, out of five stars, I would give it a five",正向,负向,2.3333332538604736,-0.7410032153129578,明确的满分评分仍被判错，提示数字评分表达是当前模型的失败类型；不能凭输出断言具体哪个模态导致错误。
+比较结构,f_ZJ7L14oYQ$_$21,They just so much more convenient than stupid boots that take forever to put on and just aren't comfortable!,正向,负向,2.0,-0.8870916962623596,负面词修饰被比较的靴子，整体表达偏正向；预测错误与比较结构处理不足相符，但这只是文本诊断线索。
+强度低估,237009$_$11,"(umm), it should be rated junk",负向,负向,-3.0,-0.5606359243392944,核对极性是否正确与强度幅度是否充分，是两个不同的问题；此例用于审查强负向幅度低估。

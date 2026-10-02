@@ -1,0 +1,40 @@
+{
+  "sample_id": "-egA8-b7-3M$_$1",
+  "source_video": "E题_材料阅读/E题数据/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-egA8-b7-3M/1.mp4",
+  "feature_file": "step1/results/samples/-egA8-b7-3M$_$1/features.npz",
+  "display_interval": [
+    1.0,
+    3.2
+  ],
+  "examples": [
+    {
+      "row_index_zero_based": 149,
+      "time_center": 1.5,
+      "recorded_interval": [
+        1.49,
+        1.51
+      ],
+      "valid": true,
+      "values": {
+        "Loudness_sma3": 0.870079517364502,
+        "F0semitoneFrom27.5Hz_sma3nz": 36.3679084777832,
+        "mfcc1_sma3": 36.94733810424805
+      }
+    },
+    {
+      "row_index_zero_based": 199,
+      "time_center": 2.0,
+      "recorded_interval": [
+        1.99,
+        2.01
+      ],
+      "valid": true,
+      "values": {
+        "Loudness_sma3": 0.3630021810531616,
+        "F0semitoneFrom27.5Hz_sma3nz": 0.0,
+        "mfcc1_sma3": -4.4552226066589355
+      }
+    }
+  ],
+  "note": "读取既有特征，未重新提取。F0零值仅在图中隐藏；原数据不变。输出区间并非全部内部分析窗口的完整支持范围。"
+}

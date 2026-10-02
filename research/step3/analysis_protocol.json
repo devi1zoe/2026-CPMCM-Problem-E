@@ -1,0 +1,11 @@
+{
+  "selection_sha256": "80e03d67f8896006cb644f1bf62a3c7d0b430a596d99b0b013e6957edafcf04c",
+  "target": "fixed original predicted class probability (ensemble mean), plus separate continuous intensity Shapley",
+  "local_fraction": 0.2,
+  "random_controls": 5,
+  "conditional_retention": "keep window in selected modality; other modalities unchanged",
+  "unconditional_retention": "keep only selected window in selected modality; remove all other modalities",
+  "stability_sample_seed": 20260926,
+  "model_reselection_after_explanation": false,
+  "oracle_warning": "exhaustive maximum deletion used only for special evidence confirmation, never presented as independent fidelity test"
+}

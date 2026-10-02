@@ -1,0 +1,34 @@
+{
+  "model": "gated_aug",
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "hidden": 64,
+  "dropout": 0.2,
+  "classes": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "backend": "linear",
+  "fallback_prior": [
+    0.2848306332842415,
+    0.2232695139911635,
+    0.49189985272459497
+  ],
+  "fallback_mean": 0.16583210777639465,
+  "ensemble": "mean probabilities and mean intensities",
+  "encoder": {
+    "repo": "distilbert/distilbert-base-uncased",
+    "revision": "12040accade4e8a0f71eabdb258fecc2e7e948be",
+    "weights_sha256": "5e3f1108e3cb34ee048634875d8482665b65ac713291a7e32396fb18f6ff0063"
+  },
+  "checkpoints": {
+    "final_17.pt": "b61089dc1a8afc5908e76a3912e346a2d92aecd4a8015ca0cbd498922eabc338",
+    "final_29.pt": "4a7d2973838ecabb6be4c562ce45edea950a1e246fba30563a67d6808521b8de",
+    "final_43.pt": "6433ea85d531bd3b53f95d1cae49e4904b33683705f6c811cd0c7cf72681d2a8"
+  },
+  "normalization_sha256": "d11c18570f83af5f9569853444a73b3c112e0ae3aeff42d3fe2bcf04206971db"
+}

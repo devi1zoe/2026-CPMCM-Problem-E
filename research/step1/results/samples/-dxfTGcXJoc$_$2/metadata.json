@@ -1,0 +1,988 @@
+{
+  "sample_id": "-dxfTGcXJoc$_$2",
+  "video_id": "-dxfTGcXJoc",
+  "clip_id": "2",
+  "raw_text": "An estimated 20,000 biotech scientists, executives and industry experts from more than 50 nations were at the BIO conference to learn about the latest scientific advances, and to exchange ideas and establish business relationships.",
+  "label": 0.6666666865348816,
+  "annotation": "Positive",
+  "source_path": "E题_材料阅读/E题数据/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-dxfTGcXJoc/2.mp4",
+  "source_sha256": "46a5e523b5dd00364c99a3bcbc6fae4c80e1382a84b5b5e681c46eb074ed10f7",
+  "config_sha256": "4a530340304f07255daf856e6891f0a15e50f05bd85343d067a663a573e8f888",
+  "code_sha256": {
+    "common.py": "4a37980b521a2f5a93e208d3ba265542a149336b3401aa89b8a4494517f5e16e",
+    "alignment.py": "76b29c002cdc97e8e0e85cffae02d81db938fa39484ad908c28c5efc60de0c34",
+    "features.py": "8283e0d0886b83bbd84d4db4521599b480b0ada4bc1afc4e4b9b91cddf5b4018",
+    "run.py": "f75d7b5bc6e342541664233a37a3d87f39313bcd3a8f3a50bfaea94798d4e07b"
+  },
+  "model_assets_sha256": {
+    "assets/face_landmarker.task": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff",
+    "assets/wav2vec2/preprocessor_config.json": "b225d617c025463b9e157e06afea8b90dc7078fc70b013c533328423e0486b4a",
+    "assets/wav2vec2/vocab.json": "19727f8944fe6459fc3f240ae2c198395b740f6a029bd23e06656266b83bcf64",
+    "assets/wav2vec2/special_tokens_map.json": "bb7068de1150661a10b55f9e4b12a0e77af8bf91f5e45e1b58afaf1d0e17f675",
+    "assets/wav2vec2/tokenizer_config.json": "dc790594f5bc351a4311c6624f40acd95850d4aaf2a5cb3c656c9b610720b608",
+    "assets/wav2vec2/model.safetensors": "8aa76ab2243c81747a1f832954586bc566090c83a0ac167df6f31f0fa917d74a",
+    "assets/wav2vec2/config.json": "d3ec255c063d9f95057b553b19c20135b259875834a4fe9deb218a6be25b4cf3",
+    "assets/distilbert/vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+    "assets/distilbert/tokenizer_config.json": "a025160ef0431f1a392f6f050c1310f4c5d9fb6f275932dbccba73c4d214bf10",
+    "assets/distilbert/model.safetensors": "5e3f1108e3cb34ee048634875d8482665b65ac713291a7e32396fb18f6ff0063",
+    "assets/distilbert/config.json": "69c94b0222d5d1f4b0ad027ca7416cdafb98378cbbb8305d0bf47c9365c60c83",
+    "assets/distilbert/tokenizer.json": "ce64fce797c24f68df90b40a3f74f579b336a493db14bd583fd520ea0d8c9a98"
+  },
+  "duration": 16.697981770833334,
+  "video_rate": 30.0,
+  "video_origin": 0.0,
+  "audio_start": 0.0,
+  "audio_duration": 16.6331875,
+  "audio_coverage_ratio": 1.0,
+  "words": [
+    {
+      "index": 0,
+      "original": "An",
+      "char_start": 0,
+      "char_end": 2,
+      "normalized": "AN",
+      "subword_indices": [
+        0
+      ],
+      "start": 0.56246875,
+      "end": 0.60246875,
+      "confidence": 0.9999091029167175,
+      "status": "aligned"
+    },
+    {
+      "index": 1,
+      "original": "estimated",
+      "char_start": 3,
+      "char_end": 12,
+      "normalized": "ESTIMATED",
+      "subword_indices": [
+        1
+      ],
+      "start": 0.76246875,
+      "end": 1.26246875,
+      "confidence": 0.8959313035011292,
+      "status": "aligned"
+    },
+    {
+      "index": 2,
+      "original": "20,000",
+      "char_start": 13,
+      "char_end": 19,
+      "normalized": "TWENTY THOUSAND",
+      "subword_indices": [
+        2,
+        3,
+        4
+      ],
+      "start": 1.38246875,
+      "end": 2.20246875,
+      "confidence": 0.9495432376861572,
+      "status": "aligned"
+    },
+    {
+      "index": 3,
+      "original": "biotech",
+      "char_start": 20,
+      "char_end": 27,
+      "normalized": "BIOTECH",
+      "subword_indices": [
+        5,
+        6
+      ],
+      "start": 2.36246875,
+      "end": 2.9224687499999997,
+      "confidence": 0.4819099009037018,
+      "status": "aligned"
+    },
+    {
+      "index": 4,
+      "original": "scientists",
+      "char_start": 28,
+      "char_end": 38,
+      "normalized": "SCIENTISTS",
+      "subword_indices": [
+        7
+      ],
+      "start": 3.0224687500000003,
+      "end": 3.60246875,
+      "confidence": 0.9111611843109131,
+      "status": "aligned"
+    },
+    {
+      "index": 5,
+      "original": "executives",
+      "char_start": 40,
+      "char_end": 50,
+      "normalized": "EXECUTIVES",
+      "subword_indices": [
+        9
+      ],
+      "start": 3.90246875,
+      "end": 4.542468749999999,
+      "confidence": 0.9636428952217102,
+      "status": "aligned"
+    },
+    {
+      "index": 6,
+      "original": "and",
+      "char_start": 51,
+      "char_end": 54,
+      "normalized": "AND",
+      "subword_indices": [
+        10
+      ],
+      "start": 4.7424687500000005,
+      "end": 4.82246875,
+      "confidence": 0.9105329513549805,
+      "status": "aligned"
+    },
+    {
+      "index": 7,
+      "original": "industry",
+      "char_start": 55,
+      "char_end": 63,
+      "normalized": "INDUSTRY",
+      "subword_indices": [
+        11
+      ],
+      "start": 5.04246875,
+      "end": 5.44246875,
+      "confidence": 0.9640577435493469,
+      "status": "aligned"
+    },
+    {
+      "index": 8,
+      "original": "experts",
+      "char_start": 64,
+      "char_end": 71,
+      "normalized": "EXPERTS",
+      "subword_indices": [
+        12
+      ],
+      "start": 5.56246875,
+      "end": 6.02246875,
+      "confidence": 0.9930566549301147,
+      "status": "aligned"
+    },
+    {
+      "index": 9,
+      "original": "from",
+      "char_start": 72,
+      "char_end": 76,
+      "normalized": "FROM",
+      "subword_indices": [
+        13
+      ],
+      "start": 6.42246875,
+      "end": 6.542468749999999,
+      "confidence": 0.9839990139007568,
+      "status": "aligned"
+    },
+    {
+      "index": 10,
+      "original": "more",
+      "char_start": 77,
+      "char_end": 81,
+      "normalized": "MORE",
+      "subword_indices": [
+        14
+      ],
+      "start": 6.62246875,
+      "end": 6.76246875,
+      "confidence": 0.9993194341659546,
+      "status": "aligned"
+    },
+    {
+      "index": 11,
+      "original": "than",
+      "char_start": 82,
+      "char_end": 86,
+      "normalized": "THAN",
+      "subword_indices": [
+        15
+      ],
+      "start": 6.80246875,
+      "end": 6.92246875,
+      "confidence": 0.8908308744430542,
+      "status": "aligned"
+    },
+    {
+      "index": 12,
+      "original": "50",
+      "char_start": 87,
+      "char_end": 89,
+      "normalized": "FIFTY",
+      "subword_indices": [
+        16
+      ],
+      "start": 7.00246875,
+      "end": 7.28246875,
+      "confidence": 0.986922562122345,
+      "status": "aligned"
+    },
+    {
+      "index": 13,
+      "original": "nations",
+      "char_start": 90,
+      "char_end": 97,
+      "normalized": "NATIONS",
+      "subword_indices": [
+        17
+      ],
+      "start": 7.362468750000001,
+      "end": 7.76246875,
+      "confidence": 0.9276462197303772,
+      "status": "aligned"
+    },
+    {
+      "index": 14,
+      "original": "were",
+      "char_start": 98,
+      "char_end": 102,
+      "normalized": "WERE",
+      "subword_indices": [
+        18
+      ],
+      "start": 8.06246875,
+      "end": 8.222468749999999,
+      "confidence": 0.9790710806846619,
+      "status": "aligned"
+    },
+    {
+      "index": 15,
+      "original": "at",
+      "char_start": 103,
+      "char_end": 105,
+      "normalized": "AT",
+      "subword_indices": [
+        19
+      ],
+      "start": 8.382468750000001,
+      "end": 8.46246875,
+      "confidence": 0.9443398118019104,
+      "status": "aligned"
+    },
+    {
+      "index": 16,
+      "original": "the",
+      "char_start": 106,
+      "char_end": 109,
+      "normalized": "THE",
+      "subword_indices": [
+        20
+      ],
+      "start": 8.52246875,
+      "end": 8.60246875,
+      "confidence": 0.9936023950576782,
+      "status": "aligned"
+    },
+    {
+      "index": 17,
+      "original": "BIO",
+      "char_start": 110,
+      "char_end": 113,
+      "normalized": "BIO",
+      "subword_indices": [
+        21
+      ],
+      "start": 8.66246875,
+      "end": 8.84246875,
+      "confidence": 0.060432638972997665,
+      "status": "low_confidence"
+    },
+    {
+      "index": 18,
+      "original": "conference",
+      "char_start": 114,
+      "char_end": 124,
+      "normalized": "CONFERENCE",
+      "subword_indices": [
+        22
+      ],
+      "start": 9.06246875,
+      "end": 9.50246875,
+      "confidence": 0.9926773309707642,
+      "status": "aligned"
+    },
+    {
+      "index": 19,
+      "original": "to",
+      "char_start": 125,
+      "char_end": 127,
+      "normalized": "TO",
+      "subword_indices": [
+        23
+      ],
+      "start": 9.60246875,
+      "end": 9.70246875,
+      "confidence": 0.9999760985374451,
+      "status": "aligned"
+    },
+    {
+      "index": 20,
+      "original": "learn",
+      "char_start": 128,
+      "char_end": 133,
+      "normalized": "LEARN",
+      "subword_indices": [
+        24
+      ],
+      "start": 9.78246875,
+      "end": 10.08246875,
+      "confidence": 0.8973053693771362,
+      "status": "aligned"
+    },
+    {
+      "index": 21,
+      "original": "about",
+      "char_start": 134,
+      "char_end": 139,
+      "normalized": "ABOUT",
+      "subword_indices": [
+        25
+      ],
+      "start": 10.20246875,
+      "end": 10.42246875,
+      "confidence": 0.9071759581565857,
+      "status": "aligned"
+    },
+    {
+      "index": 22,
+      "original": "the",
+      "char_start": 140,
+      "char_end": 143,
+      "normalized": "THE",
+      "subword_indices": [
+        26
+      ],
+      "start": 10.462468750000001,
+      "end": 10.52246875,
+      "confidence": 0.9998196363449097,
+      "status": "aligned"
+    },
+    {
+      "index": 23,
+      "original": "latest",
+      "char_start": 144,
+      "char_end": 150,
+      "normalized": "LATEST",
+      "subword_indices": [
+        27
+      ],
+      "start": 10.58246875,
+      "end": 10.90246875,
+      "confidence": 0.9996088147163391,
+      "status": "aligned"
+    },
+    {
+      "index": 24,
+      "original": "scientific",
+      "char_start": 151,
+      "char_end": 161,
+      "normalized": "SCIENTIFIC",
+      "subword_indices": [
+        28
+      ],
+      "start": 10.94246875,
+      "end": 11.46246875,
+      "confidence": 0.9283968210220337,
+      "status": "aligned"
+    },
+    {
+      "index": 25,
+      "original": "advances",
+      "char_start": 162,
+      "char_end": 170,
+      "normalized": "ADVANCES",
+      "subword_indices": [
+        29
+      ],
+      "start": 11.54246875,
+      "end": 12.062468749999999,
+      "confidence": 0.9772048592567444,
+      "status": "aligned"
+    },
+    {
+      "index": 26,
+      "original": "and",
+      "char_start": 172,
+      "char_end": 175,
+      "normalized": "AND",
+      "subword_indices": [
+        31
+      ],
+      "start": 12.54246875,
+      "end": 12.62246875,
+      "confidence": 0.9905988574028015,
+      "status": "aligned"
+    },
+    {
+      "index": 27,
+      "original": "to",
+      "char_start": 176,
+      "char_end": 178,
+      "normalized": "TO",
+      "subword_indices": [
+        32
+      ],
+      "start": 12.68246875,
+      "end": 12.74246875,
+      "confidence": 0.9999134540557861,
+      "status": "aligned"
+    },
+    {
+      "index": 28,
+      "original": "exchange",
+      "char_start": 179,
+      "char_end": 187,
+      "normalized": "EXCHANGE",
+      "subword_indices": [
+        33
+      ],
+      "start": 12.82246875,
+      "end": 13.32246875,
+      "confidence": 0.974719762802124,
+      "status": "aligned"
+    },
+    {
+      "index": 29,
+      "original": "ideas",
+      "char_start": 188,
+      "char_end": 193,
+      "normalized": "IDEAS",
+      "subword_indices": [
+        34
+      ],
+      "start": 13.48246875,
+      "end": 13.90246875,
+      "confidence": 0.9160205125808716,
+      "status": "aligned"
+    },
+    {
+      "index": 30,
+      "original": "and",
+      "char_start": 194,
+      "char_end": 197,
+      "normalized": "AND",
+      "subword_indices": [
+        35
+      ],
+      "start": 14.20246875,
+      "end": 14.28246875,
+      "confidence": 0.9998870491981506,
+      "status": "aligned"
+    },
+    {
+      "index": 31,
+      "original": "establish",
+      "char_start": 198,
+      "char_end": 207,
+      "normalized": "ESTABLISH",
+      "subword_indices": [
+        36
+      ],
+      "start": 14.32246875,
+      "end": 14.76246875,
+      "confidence": 0.995479941368103,
+      "status": "aligned"
+    },
+    {
+      "index": 32,
+      "original": "business",
+      "char_start": 208,
+      "char_end": 216,
+      "normalized": "BUSINESS",
+      "subword_indices": [
+        37
+      ],
+      "start": 14.86246875,
+      "end": 15.222468749999999,
+      "confidence": 0.9967593550682068,
+      "status": "aligned"
+    },
+    {
+      "index": 33,
+      "original": "relationships",
+      "char_start": 217,
+      "char_end": 230,
+      "normalized": "RELATIONSHIPS",
+      "subword_indices": [
+        38
+      ],
+      "start": 15.26246875,
+      "end": 16.002468750000002,
+      "confidence": 0.9469507932662964,
+      "status": "aligned"
+    }
+  ],
+  "subwords": [
+    {
+      "index": 0,
+      "token_id": 2019,
+      "token": "an",
+      "char_start": 0,
+      "char_end": 2,
+      "word_index": 0,
+      "chunk_index": 0
+    },
+    {
+      "index": 1,
+      "token_id": 4358,
+      "token": "estimated",
+      "char_start": 3,
+      "char_end": 12,
+      "word_index": 1,
+      "chunk_index": 0
+    },
+    {
+      "index": 2,
+      "token_id": 2322,
+      "token": "20",
+      "char_start": 13,
+      "char_end": 15,
+      "word_index": 2,
+      "chunk_index": 0
+    },
+    {
+      "index": 3,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 15,
+      "char_end": 16,
+      "word_index": 2,
+      "chunk_index": 0
+    },
+    {
+      "index": 4,
+      "token_id": 2199,
+      "token": "000",
+      "char_start": 16,
+      "char_end": 19,
+      "word_index": 2,
+      "chunk_index": 0
+    },
+    {
+      "index": 5,
+      "token_id": 16012,
+      "token": "bio",
+      "char_start": 20,
+      "char_end": 23,
+      "word_index": 3,
+      "chunk_index": 0
+    },
+    {
+      "index": 6,
+      "token_id": 15007,
+      "token": "##tech",
+      "char_start": 23,
+      "char_end": 27,
+      "word_index": 3,
+      "chunk_index": 0
+    },
+    {
+      "index": 7,
+      "token_id": 6529,
+      "token": "scientists",
+      "char_start": 28,
+      "char_end": 38,
+      "word_index": 4,
+      "chunk_index": 0
+    },
+    {
+      "index": 8,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 38,
+      "char_end": 39,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 9,
+      "token_id": 12706,
+      "token": "executives",
+      "char_start": 40,
+      "char_end": 50,
+      "word_index": 5,
+      "chunk_index": 0
+    },
+    {
+      "index": 10,
+      "token_id": 1998,
+      "token": "and",
+      "char_start": 51,
+      "char_end": 54,
+      "word_index": 6,
+      "chunk_index": 0
+    },
+    {
+      "index": 11,
+      "token_id": 3068,
+      "token": "industry",
+      "char_start": 55,
+      "char_end": 63,
+      "word_index": 7,
+      "chunk_index": 0
+    },
+    {
+      "index": 12,
+      "token_id": 8519,
+      "token": "experts",
+      "char_start": 64,
+      "char_end": 71,
+      "word_index": 8,
+      "chunk_index": 0
+    },
+    {
+      "index": 13,
+      "token_id": 2013,
+      "token": "from",
+      "char_start": 72,
+      "char_end": 76,
+      "word_index": 9,
+      "chunk_index": 0
+    },
+    {
+      "index": 14,
+      "token_id": 2062,
+      "token": "more",
+      "char_start": 77,
+      "char_end": 81,
+      "word_index": 10,
+      "chunk_index": 0
+    },
+    {
+      "index": 15,
+      "token_id": 2084,
+      "token": "than",
+      "char_start": 82,
+      "char_end": 86,
+      "word_index": 11,
+      "chunk_index": 0
+    },
+    {
+      "index": 16,
+      "token_id": 2753,
+      "token": "50",
+      "char_start": 87,
+      "char_end": 89,
+      "word_index": 12,
+      "chunk_index": 0
+    },
+    {
+      "index": 17,
+      "token_id": 3741,
+      "token": "nations",
+      "char_start": 90,
+      "char_end": 97,
+      "word_index": 13,
+      "chunk_index": 0
+    },
+    {
+      "index": 18,
+      "token_id": 2020,
+      "token": "were",
+      "char_start": 98,
+      "char_end": 102,
+      "word_index": 14,
+      "chunk_index": 0
+    },
+    {
+      "index": 19,
+      "token_id": 2012,
+      "token": "at",
+      "char_start": 103,
+      "char_end": 105,
+      "word_index": 15,
+      "chunk_index": 0
+    },
+    {
+      "index": 20,
+      "token_id": 1996,
+      "token": "the",
+      "char_start": 106,
+      "char_end": 109,
+      "word_index": 16,
+      "chunk_index": 0
+    },
+    {
+      "index": 21,
+      "token_id": 16012,
+      "token": "bio",
+      "char_start": 110,
+      "char_end": 113,
+      "word_index": 17,
+      "chunk_index": 0
+    },
+    {
+      "index": 22,
+      "token_id": 3034,
+      "token": "conference",
+      "char_start": 114,
+      "char_end": 124,
+      "word_index": 18,
+      "chunk_index": 0
+    },
+    {
+      "index": 23,
+      "token_id": 2000,
+      "token": "to",
+      "char_start": 125,
+      "char_end": 127,
+      "word_index": 19,
+      "chunk_index": 0
+    },
+    {
+      "index": 24,
+      "token_id": 4553,
+      "token": "learn",
+      "char_start": 128,
+      "char_end": 133,
+      "word_index": 20,
+      "chunk_index": 0
+    },
+    {
+      "index": 25,
+      "token_id": 2055,
+      "token": "about",
+      "char_start": 134,
+      "char_end": 139,
+      "word_index": 21,
+      "chunk_index": 0
+    },
+    {
+      "index": 26,
+      "token_id": 1996,
+      "token": "the",
+      "char_start": 140,
+      "char_end": 143,
+      "word_index": 22,
+      "chunk_index": 0
+    },
+    {
+      "index": 27,
+      "token_id": 6745,
+      "token": "latest",
+      "char_start": 144,
+      "char_end": 150,
+      "word_index": 23,
+      "chunk_index": 0
+    },
+    {
+      "index": 28,
+      "token_id": 4045,
+      "token": "scientific",
+      "char_start": 151,
+      "char_end": 161,
+      "word_index": 24,
+      "chunk_index": 0
+    },
+    {
+      "index": 29,
+      "token_id": 9849,
+      "token": "advances",
+      "char_start": 162,
+      "char_end": 170,
+      "word_index": 25,
+      "chunk_index": 0
+    },
+    {
+      "index": 30,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 170,
+      "char_end": 171,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 31,
+      "token_id": 1998,
+      "token": "and",
+      "char_start": 172,
+      "char_end": 175,
+      "word_index": 26,
+      "chunk_index": 0
+    },
+    {
+      "index": 32,
+      "token_id": 2000,
+      "token": "to",
+      "char_start": 176,
+      "char_end": 178,
+      "word_index": 27,
+      "chunk_index": 0
+    },
+    {
+      "index": 33,
+      "token_id": 3863,
+      "token": "exchange",
+      "char_start": 179,
+      "char_end": 187,
+      "word_index": 28,
+      "chunk_index": 0
+    },
+    {
+      "index": 34,
+      "token_id": 4784,
+      "token": "ideas",
+      "char_start": 188,
+      "char_end": 193,
+      "word_index": 29,
+      "chunk_index": 0
+    },
+    {
+      "index": 35,
+      "token_id": 1998,
+      "token": "and",
+      "char_start": 194,
+      "char_end": 197,
+      "word_index": 30,
+      "chunk_index": 0
+    },
+    {
+      "index": 36,
+      "token_id": 5323,
+      "token": "establish",
+      "char_start": 198,
+      "char_end": 207,
+      "word_index": 31,
+      "chunk_index": 0
+    },
+    {
+      "index": 37,
+      "token_id": 2449,
+      "token": "business",
+      "char_start": 208,
+      "char_end": 216,
+      "word_index": 32,
+      "chunk_index": 0
+    },
+    {
+      "index": 38,
+      "token_id": 6550,
+      "token": "relationships",
+      "char_start": 217,
+      "char_end": 230,
+      "word_index": 33,
+      "chunk_index": 0
+    },
+    {
+      "index": 39,
+      "token_id": 1012,
+      "token": ".",
+      "char_start": 230,
+      "char_end": 231,
+      "word_index": -1,
+      "chunk_index": 0
+    }
+  ],
+  "audio_feature_names": [
+    "Loudness_sma3",
+    "alphaRatio_sma3",
+    "hammarbergIndex_sma3",
+    "slope0-500_sma3",
+    "slope500-1500_sma3",
+    "spectralFlux_sma3",
+    "mfcc1_sma3",
+    "mfcc2_sma3",
+    "mfcc3_sma3",
+    "mfcc4_sma3",
+    "F0semitoneFrom27.5Hz_sma3nz",
+    "jitterLocal_sma3nz",
+    "shimmerLocaldB_sma3nz",
+    "HNRdBACF_sma3nz",
+    "logRelF0-H1-H2_sma3nz",
+    "logRelF0-H1-A3_sma3nz",
+    "F1frequency_sma3nz",
+    "F1bandwidth_sma3nz",
+    "F1amplitudeLogRelF0_sma3nz",
+    "F2frequency_sma3nz",
+    "F2bandwidth_sma3nz",
+    "F2amplitudeLogRelF0_sma3nz",
+    "F3frequency_sma3nz",
+    "F3bandwidth_sma3nz",
+    "F3amplitudeLogRelF0_sma3nz"
+  ],
+  "vision_feature_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "convolution": {
+    "stride_samples": 320,
+    "receptive_field_samples": 400
+  },
+  "ctc_target_text": "AN|ESTIMATED|TWENTY|THOUSAND|BIOTECH|SCIENTISTS|EXECUTIVES|AND|INDUSTRY|EXPERTS|FROM|MORE|THAN|FIFTY|NATIONS|WERE|AT|THE|BIO|CONFERENCE|TO|LEARN|ABOUT|THE|LATEST|SCIENTIFIC|ADVANCES|AND|TO|EXCHANGE|IDEAS|AND|ESTABLISH|BUSINESS|RELATIONSHIPS",
+  "diagnostic_asr": "AN ESTIMATED TWENTY THOUSAND BAOTEC SCIENTIST EXECUTIVES AND INDUSTRY EXPERTS FROM MORE THAN FIFTY NATIONS WERE AT THE BOW CONFERENCE TO LEARN ABOUT THE LATEST SCIENTIFIC ADVANCES AND TO EXCHANGE IDEAS AND ESTABLISH BUSINESS RELATIONSHIPS",
+  "diagnostic_wer": 0.08571428571428572,
+  "alignment_path_log_probability": -54.83457643304304,
+  "alignment_error": null,
+  "padding_count": 0,
+  "truncated_words": 0,
+  "visual_time_support": "nearest-sampled-frame cells, midpoint boundaries; 5 Hz sampling",
+  "face_selection": "largest detected face; speaker identity not verified",
+  "feature_dimensions": {
+    "text": 768,
+    "audio": 25,
+    "vision": 52
+  },
+  "statuses": {
+    "low_confidence_words": 1,
+    "unaligned_words": 0,
+    "no_face_frames": 0,
+    "multiple_face_frames": 0,
+    "silent_audio_frames": 230,
+    "invalid_audio_frames": 0
+  },
+  "elapsed_seconds": 3.1140697970986366
+}

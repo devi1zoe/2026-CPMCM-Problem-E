@@ -1,0 +1,22 @@
+{
+  "paper_table_5_5_rows_matched": 20,
+  "source_feature_hashes_checked": 20,
+  "source_video_hashes_checked": 20,
+  "actual_frame_pixels_and_pts_checked": 20,
+  "final_weights_and_training_initialization_checked": true,
+  "best_epochs": {
+    "17": 1,
+    "29": 2,
+    "43": 0
+  },
+  "special_predictions_and_contributions_recomputed": true,
+  "special_evidence_windows_and_directions_match": true,
+  "max_special_numeric_difference": 0.0,
+  "validation_shapley_samples_checked": 728,
+  "validation_ig_residual_tolerance": 0.001,
+  "validation_fidelity_rows_recomputed": 2184,
+  "viewer_cards": 20,
+  "viewer_local_effect_charts": 60,
+  "scope": "使用提交模型重新计算附件4预测、八种组合、IG及全部滑窗删除；验证已有验证集记录的数值一致性；未重新训练或重新估计CTC词界。",
+  "report_generation_checked": true
+}

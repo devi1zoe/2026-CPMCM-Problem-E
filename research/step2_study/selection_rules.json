@@ -1,0 +1,9 @@
+{
+  "combination_candidates": [["shape_multi", "multi_lora"], ["shape_unequal", "multi_lora"]],
+  "combination_reference": "shape_single",
+  "condition": "Both components must improve primary robust Macro-F1 and primary robust MAE relative to their controlled reference; choose the qualifying shape with lower six-profile J; at most one combination.",
+  "uncertainty": "Report source-video paired bootstrap intervals and seed variation; point improvements are exploratory if intervals include zero.",
+  "formal_selection": "All seven historical guardrails must pass; lowest six-profile J, within .002 prefer fewer total deployed parameters; otherwise keep old_gated.",
+  "test": "After final validation selection lock only; historical test has already been seen in earlier experiments.",
+  "recorded_before_full_new_validation_results": true
+}

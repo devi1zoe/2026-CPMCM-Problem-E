@@ -1,0 +1,68 @@
+{
+  "status": "passed",
+  "source": "原始正文_用户提供.txt",
+  "output": "问题一_结构调整稿.tex",
+  "allowed_changes": {
+    "renamed_headings": {
+      "特征提取覆盖与数据质量": "样本覆盖完整性与特征有效性",
+      "词级对齐的自动诊断与人工审核": "时序对齐质量评估与人工审核",
+      "典型样本的时序对应与计算核验": "典型样本的跨模态时序对齐验证",
+      "全量结果汇总与复现检查": "三模态特征文件说明与100条样本结果汇总"
+    },
+    "removed_standalone_heading": "时间粒度对照与信息保留",
+    "added_heading": "方案可复现性说明",
+    "moved_block": "时间粒度对照整体移至人工审核之后、典型样本之前",
+    "added_transition": "在上述对齐质量评估与人工审核之后，进一步从时间粒度角度分析特征的组织方式。",
+    "added_forward_reference": "以第~\\ref{sec:p1_verification_examples}~节展示的典型样本为例，"
+  },
+  "reversing_only_allowed_changes_restores_source_exactly": true,
+  "before_results_section_unchanged": true,
+  "final_summary_unchanged": true,
+  "all_original_numbers_unchanged": true,
+  "unchanged_environments": {
+    "equation": 17,
+    "figure": 16,
+    "table": 9,
+    "longtable": 1
+  },
+  "result_headings": [
+    "样本覆盖完整性与特征有效性",
+    "时序对齐质量评估与人工审核",
+    "典型样本的跨模态时序对齐验证",
+    "三模态特征文件说明与100条样本结果汇总",
+    "方案可复现性说明"
+  ],
+  "figure_paths_unchanged": true,
+  "figure_paths": [
+    "figures/p1_all.pdf",
+    "figures/fig_5_2_duration.pdf",
+    "figures/fig_5_2_transcript_length.pdf",
+    "figures/fig_5_2_duration_words.pdf",
+    "figures/fig_5_2_label_distribution.pdf",
+    "figures/fig_5_2_source_examples.pdf",
+    "figures/fig_5_3_text_mapping.pdf",
+    "figures/fig_5_3_acoustic_example.pdf",
+    "figures/fig_5_3_visual_example.pdf",
+    "figures/fig_5_4_ctc_principle.pdf",
+    "figures/fig_5_4_overlap_principle.pdf",
+    "figures/fig_p1_observation_work.pdf",
+    "figures/fig_p1_observation_day.pdf",
+    "figures/fig_p1_observation_similar.pdf",
+    "figures/fig_p1_visual_coverage.pdf",
+    "figures/fig_p1_audio_energy_share.pdf",
+    "figures/fig_p1_rms.pdf",
+    "figures/fig_p1_rms_zoom.pdf",
+    "figures/fig_p1_ctc_confidence.pdf",
+    "figures/fig_p1_diagnostic_wer.pdf",
+    "figures/fig_p1_window_reconstruction.pdf",
+    "figures/fig_p1_word_window_overlap.pdf",
+    "figures/fig_p1_audio_window_error.pdf",
+    "figures/fig_p1_vision_window_error.pdf",
+    "figures/fig_p1_word_crossing_ratio.pdf",
+    "figures/fig_p1_multimodal_timeline.pdf"
+  ],
+  "preexisting_external_references": [
+    "app:p1_acoustic_details"
+  ],
+  "new_unresolved_references": []
+}

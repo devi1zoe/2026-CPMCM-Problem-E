@@ -1,0 +1,12 @@
+{
+  "sample_id": "-s9qJ7ATP7w$_$8",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.8319240212440491,
+  "low_confidence_fraction": 0.0,
+  "diagnostic_wer": 0.5833333333333334,
+  "usable_word_times": 12,
+  "words": 12,
+  "raw_text": "\" And I said, \"Oh, make a profit, and all these other things",
+  "diagnostic_asr": "O BUSINESS AND I SET O MAKE A PROFIT AND AL THESE OTHER THINGS THINGS SITNO"
+}

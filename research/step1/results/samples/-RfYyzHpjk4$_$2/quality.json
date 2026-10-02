@@ -1,0 +1,12 @@
+{
+  "sample_id": "-RfYyzHpjk4$_$2",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.676798403263092,
+  "low_confidence_fraction": 0.16,
+  "diagnostic_wer": 0.32,
+  "usable_word_times": 21,
+  "words": 25,
+  "raw_text": "You can make a conference call but it takes quite a bit of planning, well not a lot of planning it's pretty easy to do.",
+  "diagnostic_asr": "IT CAN MAKE A CONFERENCE CALL BUT A TEXT TRIED A BIT OF PLANANG WELE NOT A LOT OF PLANING IT'S PRETTY EASY TO DO WHAT"
+}

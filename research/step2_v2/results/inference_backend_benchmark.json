@@ -1,0 +1,26 @@
+[
+  {
+    "model": "text",
+    "reference_seconds": 0.7414210997521877,
+    "native_seconds": 0.5265072993934155,
+    "max_probability_difference": 7.385015487670898e-05,
+    "max_intensity_difference": 0.0001085139811038971,
+    "class_disagreements": 0
+  },
+  {
+    "model": "gated",
+    "reference_seconds": 1.3229484036564827,
+    "native_seconds": 1.5418720617890358,
+    "max_probability_difference": 3.5762786865234375e-05,
+    "max_intensity_difference": 8.143484592437744e-05,
+    "class_disagreements": 0
+  },
+  {
+    "model": "cce",
+    "reference_seconds": 1.3677734360098839,
+    "native_seconds": 1.5938834808766842,
+    "max_probability_difference": 3.921985626220703e-05,
+    "max_intensity_difference": 8.025765419006348e-05,
+    "class_disagreements": 0
+  }
+]

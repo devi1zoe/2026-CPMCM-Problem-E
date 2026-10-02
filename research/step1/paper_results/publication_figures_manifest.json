@@ -1,0 +1,421 @@
+{
+  "fonts": {
+    "Chinese": "SimSun",
+    "Latin_and_digits": "Times New Roman"
+  },
+  "figures": [
+    "figures/fig_p1_visual_coverage.pdf",
+    "figures/fig_p1_audio_energy_share.pdf",
+    "figures/fig_p1_observation_work.pdf",
+    "figures/fig_p1_observation_day.pdf",
+    "figures/fig_p1_observation_similar.pdf",
+    "figures/fig_p1_rms.pdf",
+    "figures/fig_p1_rms_zoom.pdf",
+    "figures/fig_p1_ctc_confidence.pdf",
+    "figures/fig_p1_diagnostic_wer.pdf",
+    "figures/fig_p1_multimodal_timeline.pdf",
+    "figures/fig_p1_window_reconstruction.pdf",
+    "figures/fig_p1_word_window_overlap.pdf",
+    "figures/fig_p1_audio_window_error.pdf",
+    "figures/fig_p1_vision_window_error.pdf",
+    "figures/fig_p1_word_crossing_ratio.pdf"
+  ],
+  "evidence": {
+    "observation_examples": [
+      {
+        "sample_id": "-s9qJ7ATP7w$_$7",
+        "word": "work",
+        "word_interval": [
+          0.88246875,
+          0.98246875
+        ],
+        "frame_pts": [
+          0.8,
+          1.0
+        ],
+        "valid_frames": 0,
+        "displayed_frame_pts": 0.8
+      },
+      {
+        "sample_id": "-s9qJ7ATP7w$_$7",
+        "word": "day",
+        "word_interval": [
+          4.02246875,
+          4.18246875
+        ],
+        "frame_pts": [
+          4.0,
+          4.2
+        ],
+        "valid_frames": 2,
+        "displayed_frame_pts": 4.0
+      },
+      {
+        "sample_id": "-iRBcNs9oI8$_$9",
+        "word": "similar",
+        "word_interval": [
+          1.30246875,
+          1.66246875
+        ],
+        "frame_pts": [
+          1.4014,
+          1.6016
+        ],
+        "valid_frames": 0,
+        "displayed_frame_pts": 1.6016
+      }
+    ],
+    "low_energy": {
+      "sample_id": "-iRBcNs9oI8$_$9",
+      "records": 333,
+      "low_energy": 147,
+      "threshold": 0.0031622776601683794
+    },
+    "diagnostics": {
+      "words": 1932,
+      "samples": 100,
+      "low_words": 350
+    },
+    "multimodal": {
+      "sample_id": "-egA8-b7-3M$_$1",
+      "time_range": [
+        1.8,
+        3.6
+      ],
+      "displayed_frame_pts": [
+        2.0,
+        2.4,
+        3.0,
+        3.4
+      ],
+      "vision_ylim": [
+        -0.015,
+        0.4
+      ]
+    },
+    "crossings": {
+      "0.2": 4,
+      "0.5": 2
+    },
+    "window_statistics": {
+      "audio_normalized_reconstruction_mse": {
+        "samples_per_width": 100,
+        "means": [
+          0.5449260640144348,
+          0.7466779327392579
+        ],
+        "display_scale": 1
+      },
+      "vision_normalized_reconstruction_mse": {
+        "samples_per_width": 87,
+        "means": [
+          0.23570238019543133,
+          0.43725648282588214
+        ],
+        "display_scale": 1
+      },
+      "word_boundary_crossing_ratio": {
+        "samples_per_width": 79,
+        "means": [
+          0.7133393064357519,
+          0.3950201597730336
+        ],
+        "display_scale": 100
+      }
+    }
+  },
+  "figure_text": {
+    "fig_p1_visual_coverage": [
+      "-25",
+      "0",
+      "100",
+      "125",
+      "1595 词",
+      "25",
+      "3253 帧",
+      "337 词",
+      "50",
+      "720 帧",
+      "75",
+      "占比 / %",
+      "抽样帧",
+      "无面部记录",
+      "有面部记录",
+      "词位置"
+    ],
+    "fig_p1_audio_energy_share": [
+      "-20",
+      "0",
+      "100",
+      "120",
+      "20",
+      "40",
+      "60",
+      "67343 条",
+      "80",
+      "9918 条",
+      "低能量",
+      "声学记录占比 / %",
+      "非低能量"
+    ],
+    "fig_p1_observation_work": [
+      "0.8",
+      "1.0",
+      "work",
+      "时间 / s"
+    ],
+    "fig_p1_observation_day": [
+      "4.0",
+      "4.2",
+      "day",
+      "时间 / s"
+    ],
+    "fig_p1_observation_similar": [
+      "1.4",
+      "1.6",
+      "similar",
+      "时间 / s"
+    ],
+    "fig_p1_rms": [
+      "-1",
+      "0",
+      "0.0",
+      "0.1",
+      "0.2",
+      "0.3",
+      "0.4",
+      "0.5",
+      "0.6",
+      "1",
+      "2",
+      "3",
+      "4",
+      "低能量记录",
+      "低能量记录：147 / 333 条",
+      "低能量阈值",
+      "原生 RMS",
+      "相对视频起点的时间 / s",
+      "短时 RMS"
+    ],
+    "fig_p1_rms_zoom": [
+      "-0.002",
+      "-1",
+      "0",
+      "0.000",
+      "0.002",
+      "0.004",
+      "0.006",
+      "0.008",
+      "0.010",
+      "0.012",
+      "1",
+      "2",
+      "3",
+      "4",
+      "低能量记录",
+      "低能量阈值",
+      "原生 RMS",
+      "相对视频起点的时间 / s",
+      "短时 RMS",
+      "阈值 0.0031623"
+    ],
+    "fig_p1_ctc_confidence": [
+      "0",
+      "0.0",
+      "0.2",
+      "0.4",
+      "0.6",
+      "0.8",
+      "1.0",
+      "1000",
+      "1200",
+      "200",
+      "400",
+      "600",
+      "800",
+      "CTC 置信度",
+      "低于 0.1：350 个词",
+      "词数 / 个"
+    ],
+    "fig_p1_diagnostic_wer": [
+      "0",
+      "0.00",
+      "0.25",
+      "0.50",
+      "0.75",
+      "1.00",
+      "1.25",
+      "1.50",
+      "1.75",
+      "12",
+      "16",
+      "2.00",
+      "20",
+      "4",
+      "8",
+      "片段数 / 条",
+      "诊断 WER",
+      "高于 0.8：21 条片段"
+    ],
+    "fig_p1_multimodal_timeline": [
+      "0.0",
+      "0.2",
+      "0.4",
+      "0.5",
+      "1.0",
+      "1.5",
+      "1.6",
+      "1.8",
+      "2.0",
+      "2.0 s",
+      "2.2",
+      "2.4",
+      "2.4 s",
+      "2.6",
+      "2.8",
+      "3.0",
+      "3.0 s",
+      "3.2",
+      "3.4",
+      "3.4 s",
+      "3.6",
+      "3.8",
+      "Consulting",
+      "Legal",
+      "Nurse",
+      "successful",
+      "响度",
+      "左嘴角上扬",
+      "张嘴",
+      "时间 / s",
+      "面部系数"
+    ],
+    "fig_p1_window_reconstruction": [
+      "0.0",
+      "0.2",
+      "0.2 s 重建",
+      "0.4",
+      "0.5 s 重建",
+      "0.6",
+      "0.8",
+      "1.0",
+      "1.2",
+      "1.4",
+      "1.6",
+      "2.0",
+      "2.4",
+      "2.8",
+      "3.2",
+      "3.6",
+      "4.0",
+      "原生记录",
+      "响度",
+      "时间 / s"
+    ],
+    "fig_p1_word_window_overlap": [
+      "0.2 s",
+      "0.5 s",
+      "1.6",
+      "1.8",
+      "2 个窗",
+      "2.0",
+      "2.2",
+      "2.4",
+      "2.6",
+      "2.8",
+      "4 个窗",
+      "时间 / s",
+      "末窗仍交叠 0.00247 s",
+      "绿色线：successful"
+    ],
+    "fig_p1_audio_window_error": [
+      "0.0",
+      "0.2",
+      "0.2 s",
+      "0.4",
+      "0.5 s",
+      "0.6",
+      "0.8",
+      "n = 100",
+      "均值",
+      "声学标准化重建误差",
+      "窗口宽度"
+    ],
+    "fig_p1_vision_window_error": [
+      "0.0",
+      "0.2",
+      "0.2 s",
+      "0.4",
+      "0.5 s",
+      "0.6",
+      "n = 87",
+      "均值",
+      "窗口宽度",
+      "视觉标准化重建误差"
+    ],
+    "fig_p1_word_crossing_ratio": [
+      "0",
+      "0.2 s",
+      "0.5 s",
+      "100",
+      "25",
+      "50",
+      "75",
+      "n = 79",
+      "均值",
+      "窗口宽度",
+      "词跨界比例 / %"
+    ]
+  },
+  "fonts_by_figure": {
+    "fig_p1_rms": {
+      "Chinese": "SimHei",
+      "Latin_and_digits": "DejaVu Sans"
+    },
+    "fig_p1_rms_zoom": {
+      "Chinese": "SimHei",
+      "Latin_and_digits": "DejaVu Sans"
+    },
+    "fig_p1_ctc_confidence": {
+      "Chinese": "SimHei",
+      "Latin_and_digits": "DejaVu Sans"
+    },
+    "fig_p1_diagnostic_wer": {
+      "Chinese": "SimHei",
+      "Latin_and_digits": "DejaVu Sans"
+    },
+    "fig_p1_window_reconstruction": {
+      "Chinese": "SimHei",
+      "Latin_and_digits": "DejaVu Sans"
+    },
+    "fig_p1_word_window_overlap": {
+      "Chinese": "SimHei",
+      "Latin_and_digits": "DejaVu Sans"
+    },
+    "fig_p1_visual_coverage": {
+      "Chinese": "SimHei",
+      "Latin_and_digits": "DejaVu Sans"
+    },
+    "fig_p1_audio_energy_share": {
+      "Chinese": "SimHei",
+      "Latin_and_digits": "DejaVu Sans"
+    },
+    "fig_p1_audio_window_error": {
+      "Chinese": "SimHei",
+      "Latin_and_digits": "DejaVu Sans"
+    },
+    "fig_p1_vision_window_error": {
+      "Chinese": "SimHei",
+      "Latin_and_digits": "DejaVu Sans"
+    },
+    "fig_p1_word_crossing_ratio": {
+      "Chinese": "SimHei",
+      "Latin_and_digits": "DejaVu Sans"
+    },
+    "fig_p1_multimodal_timeline": {
+      "Chinese": "SimHei",
+      "Latin_and_digits": "DejaVu Sans",
+      "frame_timestamps_and_transcript": "Times New Roman"
+    }
+  }
+}

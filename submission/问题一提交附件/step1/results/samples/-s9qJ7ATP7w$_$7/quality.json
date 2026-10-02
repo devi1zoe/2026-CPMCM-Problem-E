@@ -1,0 +1,12 @@
+{
+  "sample_id": "-s9qJ7ATP7w$_$7",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.722159743309021,
+  "low_confidence_fraction": 0.14285714285714285,
+  "diagnostic_wer": 0.5357142857142857,
+  "usable_word_times": 24,
+  "words": 28,
+  "raw_text": "I used to work for Warren Avis, the guy who started Avis Rent a Car, and he said to me one day, \"Robert, \"what's the purpose of business",
+  "diagnostic_asr": "OIN TI USED TO WORK FOR WARREN AVIS THE GARSTAR DAVIS RENICAR AND HE SETS ME ONE DAY ROBERT WHAT'S THE PURPOSE OF BUSINESS AND I SAIT U"
+}

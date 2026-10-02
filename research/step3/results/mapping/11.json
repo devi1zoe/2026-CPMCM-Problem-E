@@ -1,0 +1,426 @@
+{
+  "sample_id": "11",
+  "raw_text": "I would be ashamed to have made this film if I was a director",
+  "duration": 5.803971354166666,
+  "video_fps": 30.0,
+  "video_frames": 174,
+  "video_source": "E题_材料阅读/E题数据/附件4-可解释专项视频样本与特征文件/附件4-可解释专项视频样本与特征文件/对齐版本/videos/11.mp4",
+  "video_sha256": "972bbc9b3f3cd620b2e576672301be7ccba0f54dae3a22b42194a3e322fd7905",
+  "audio_coverage_fraction": 1.0,
+  "diagnostic_asr": "I'D BE ASHAMED TO HAVE MADE THIS FILM IF IL'S A DIRECTOR S",
+  "diagnostic_wer": 0.35714285714285715,
+  "mean_ctc_confidence": 0.6949599385261536,
+  "requires_timing_review": false,
+  "reasons": [],
+  "words": [
+    {
+      "index": 0,
+      "original": "I",
+      "char_start": 0,
+      "char_end": 1,
+      "normalized": "I",
+      "start": 0.56246875,
+      "end": 0.58246875,
+      "confidence": 0.4749165177345276,
+      "status": "aligned"
+    },
+    {
+      "index": 1,
+      "original": "would",
+      "char_start": 2,
+      "char_end": 7,
+      "normalized": "WOULD",
+      "start": 0.62246875,
+      "end": 0.74246875,
+      "confidence": 0.13739585876464844,
+      "status": "aligned"
+    },
+    {
+      "index": 2,
+      "original": "be",
+      "char_start": 8,
+      "char_end": 10,
+      "normalized": "BE",
+      "start": 0.78246875,
+      "end": 0.86246875,
+      "confidence": 0.9990657567977905,
+      "status": "aligned"
+    },
+    {
+      "index": 3,
+      "original": "ashamed",
+      "char_start": 11,
+      "char_end": 18,
+      "normalized": "ASHAMED",
+      "start": 0.92246875,
+      "end": 1.34246875,
+      "confidence": 0.9651485681533813,
+      "status": "aligned"
+    },
+    {
+      "index": 4,
+      "original": "to",
+      "char_start": 19,
+      "char_end": 21,
+      "normalized": "TO",
+      "start": 3.22246875,
+      "end": 3.2824687499999996,
+      "confidence": 0.9581838846206665,
+      "status": "aligned"
+    },
+    {
+      "index": 5,
+      "original": "have",
+      "char_start": 22,
+      "char_end": 26,
+      "normalized": "HAVE",
+      "start": 3.34246875,
+      "end": 3.4624687499999998,
+      "confidence": 0.9822789430618286,
+      "status": "aligned"
+    },
+    {
+      "index": 6,
+      "original": "made",
+      "char_start": 27,
+      "char_end": 31,
+      "normalized": "MADE",
+      "start": 3.5224687500000003,
+      "end": 3.68246875,
+      "confidence": 0.9995992183685303,
+      "status": "aligned"
+    },
+    {
+      "index": 7,
+      "original": "this",
+      "char_start": 32,
+      "char_end": 36,
+      "normalized": "THIS",
+      "start": 3.72246875,
+      "end": 3.8624687499999997,
+      "confidence": 0.8666845560073853,
+      "status": "aligned"
+    },
+    {
+      "index": 8,
+      "original": "film",
+      "char_start": 37,
+      "char_end": 41,
+      "normalized": "FILM",
+      "start": 3.92246875,
+      "end": 4.14246875,
+      "confidence": 0.9598777890205383,
+      "status": "aligned"
+    },
+    {
+      "index": 9,
+      "original": "if",
+      "char_start": 42,
+      "char_end": 44,
+      "normalized": "IF",
+      "start": 4.42246875,
+      "end": 4.46246875,
+      "confidence": 0.9951391220092773,
+      "status": "aligned"
+    },
+    {
+      "index": 10,
+      "original": "I",
+      "char_start": 45,
+      "char_end": 46,
+      "normalized": "I",
+      "start": 4.54246875,
+      "end": 4.56246875,
+      "confidence": 0.6562606692314148,
+      "status": "aligned"
+    },
+    {
+      "index": 11,
+      "original": "was",
+      "char_start": 47,
+      "char_end": 50,
+      "normalized": "WAS",
+      "start": 4.62246875,
+      "end": 4.7024687499999995,
+      "confidence": 0.13428360223770142,
+      "status": "aligned"
+    },
+    {
+      "index": 12,
+      "original": "a",
+      "char_start": 51,
+      "char_end": 52,
+      "normalized": "A",
+      "start": 4.76246875,
+      "end": 4.78246875,
+      "confidence": 0.4620649814605713,
+      "status": "aligned"
+    },
+    {
+      "index": 13,
+      "original": "director",
+      "char_start": 53,
+      "char_end": 61,
+      "normalized": "DIRECTOR",
+      "start": 4.8224687500000005,
+      "end": 5.26246875,
+      "confidence": 0.13853955268859863,
+      "status": "aligned"
+    }
+  ],
+  "tokens": [
+    {
+      "sample_id": "11",
+      "slot": 1,
+      "token": "i",
+      "token_id": 1045,
+      "char_start": 0,
+      "char_end": 1,
+      "raw_fragment": "I",
+      "word_indices": [
+        0
+      ],
+      "candidate_start": 0.56246875,
+      "candidate_end": 0.58246875,
+      "timing_usable": true,
+      "confidence": 0.4749165177345276,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "11",
+      "slot": 2,
+      "token": "would",
+      "token_id": 2052,
+      "char_start": 2,
+      "char_end": 7,
+      "raw_fragment": "would",
+      "word_indices": [
+        1
+      ],
+      "candidate_start": 0.62246875,
+      "candidate_end": 0.74246875,
+      "timing_usable": true,
+      "confidence": 0.13739585876464844,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "11",
+      "slot": 3,
+      "token": "be",
+      "token_id": 2022,
+      "char_start": 8,
+      "char_end": 10,
+      "raw_fragment": "be",
+      "word_indices": [
+        2
+      ],
+      "candidate_start": 0.78246875,
+      "candidate_end": 0.86246875,
+      "timing_usable": true,
+      "confidence": 0.9990657567977905,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "11",
+      "slot": 4,
+      "token": "ashamed",
+      "token_id": 14984,
+      "char_start": 11,
+      "char_end": 18,
+      "raw_fragment": "ashamed",
+      "word_indices": [
+        3
+      ],
+      "candidate_start": 0.92246875,
+      "candidate_end": 1.34246875,
+      "timing_usable": true,
+      "confidence": 0.9651485681533813,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "11",
+      "slot": 5,
+      "token": "to",
+      "token_id": 2000,
+      "char_start": 19,
+      "char_end": 21,
+      "raw_fragment": "to",
+      "word_indices": [
+        4
+      ],
+      "candidate_start": 3.22246875,
+      "candidate_end": 3.2824687499999996,
+      "timing_usable": true,
+      "confidence": 0.9581838846206665,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "11",
+      "slot": 6,
+      "token": "have",
+      "token_id": 2031,
+      "char_start": 22,
+      "char_end": 26,
+      "raw_fragment": "have",
+      "word_indices": [
+        5
+      ],
+      "candidate_start": 3.34246875,
+      "candidate_end": 3.4624687499999998,
+      "timing_usable": true,
+      "confidence": 0.9822789430618286,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "11",
+      "slot": 7,
+      "token": "made",
+      "token_id": 2081,
+      "char_start": 27,
+      "char_end": 31,
+      "raw_fragment": "made",
+      "word_indices": [
+        6
+      ],
+      "candidate_start": 3.5224687500000003,
+      "candidate_end": 3.68246875,
+      "timing_usable": true,
+      "confidence": 0.9995992183685303,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "11",
+      "slot": 8,
+      "token": "this",
+      "token_id": 2023,
+      "char_start": 32,
+      "char_end": 36,
+      "raw_fragment": "this",
+      "word_indices": [
+        7
+      ],
+      "candidate_start": 3.72246875,
+      "candidate_end": 3.8624687499999997,
+      "timing_usable": true,
+      "confidence": 0.8666845560073853,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "11",
+      "slot": 9,
+      "token": "film",
+      "token_id": 2143,
+      "char_start": 37,
+      "char_end": 41,
+      "raw_fragment": "film",
+      "word_indices": [
+        8
+      ],
+      "candidate_start": 3.92246875,
+      "candidate_end": 4.14246875,
+      "timing_usable": true,
+      "confidence": 0.9598777890205383,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "11",
+      "slot": 10,
+      "token": "if",
+      "token_id": 2065,
+      "char_start": 42,
+      "char_end": 44,
+      "raw_fragment": "if",
+      "word_indices": [
+        9
+      ],
+      "candidate_start": 4.42246875,
+      "candidate_end": 4.46246875,
+      "timing_usable": true,
+      "confidence": 0.9951391220092773,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "11",
+      "slot": 11,
+      "token": "i",
+      "token_id": 1045,
+      "char_start": 45,
+      "char_end": 46,
+      "raw_fragment": "I",
+      "word_indices": [
+        10
+      ],
+      "candidate_start": 4.54246875,
+      "candidate_end": 4.56246875,
+      "timing_usable": true,
+      "confidence": 0.6562606692314148,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "11",
+      "slot": 12,
+      "token": "was",
+      "token_id": 2001,
+      "char_start": 47,
+      "char_end": 50,
+      "raw_fragment": "was",
+      "word_indices": [
+        11
+      ],
+      "candidate_start": 4.62246875,
+      "candidate_end": 4.7024687499999995,
+      "timing_usable": true,
+      "confidence": 0.13428360223770142,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "11",
+      "slot": 13,
+      "token": "a",
+      "token_id": 1037,
+      "char_start": 51,
+      "char_end": 52,
+      "raw_fragment": "a",
+      "word_indices": [
+        12
+      ],
+      "candidate_start": 4.76246875,
+      "candidate_end": 4.78246875,
+      "timing_usable": true,
+      "confidence": 0.4620649814605713,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "11",
+      "slot": 14,
+      "token": "director",
+      "token_id": 2472,
+      "char_start": 53,
+      "char_end": 61,
+      "raw_fragment": "director",
+      "word_indices": [
+        13
+      ],
+      "candidate_start": 4.8224687500000005,
+      "candidate_end": 5.26246875,
+      "timing_usable": true,
+      "confidence": 0.13853955268859863,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    }
+  ],
+  "token_ids_match": true,
+  "feature_repetition_audit": {
+    "audio": {
+      "multi_piece_words": 0,
+      "identical_feature_groups": 0
+    },
+    "vision": {
+      "multi_piece_words": 0,
+      "identical_feature_groups": 0
+    }
+  },
+  "represented_char_end": 61,
+  "unrepresented_text_tail": "",
+  "timing_claim": "estimated CTC word intervals, not official feature timestamps; aligned AV correspondence follows task specification",
+  "alignment_error": null
+}

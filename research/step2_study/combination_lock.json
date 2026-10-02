@@ -1,0 +1,19 @@
+{
+  "run": false,
+  "shape": null,
+  "config": {
+    "lora": true
+  },
+  "components": [],
+  "reason": "No preregistered pair improved both primary robust outcomes independently",
+  "protocol_sha256": "102694aa476b8a77840f7ad2da42e41f0b32afeb364d91fc6f1d254e1c21c276",
+  "rules_sha256": "1f8387f43b00b6186db2054273390702fe0fe90c3fe14c8f0f4ed1d6a92c7833",
+  "evidence": {
+    "multi_lora": "c3180e4945481a5d3dc66438ef372d5822f1008d2a045141651b949ea1e98a10",
+    "shape_multi": "f50d4c6fb84dfa244b2269edc9af0eefc0778cc0ea936755952ad93d2ec18725",
+    "shape_single": "3c8af84be043b027270d95a2b1493f99c9c7c61f40517bd159c29755e1d87b0c",
+    "shape_unequal": "9566b5377e13d138bf3b82c146b3dca83f34edd5e3c6f2561e3e53986db3097a",
+    "text_frozen": "22abad059658a80694782c58890b772ccb66bd02943ff21c7e278b9108fc4da4",
+    "text_lora": "d7df7fb1091095b74af390c55ca22d3549325d67b0a79f15d282c2f6f708cefc"
+  }
+}

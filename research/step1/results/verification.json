@@ -1,0 +1,713 @@
+{
+  "expected_samples": 100,
+  "checked_samples": 100,
+  "all_passed": true,
+  "source_video_hashes_verified": true,
+  "code_and_config_hashes_verified": true,
+  "model_asset_hashes_verified": true,
+  "ctc_paths_verified": true,
+  "aggregation_recomputed": true,
+  "note": "通过仅指结构与数学映射自洽，不证明真实词界准确或最大人脸就是说话者。",
+  "samples": [
+    {
+      "sample_id": "-3g5yACwYnA$_$13",
+      "status": "passed",
+      "words": 15,
+      "feature_sha256": "dcd472134827b5994b246fd0de9f0a4e03fa6729061a539c05a38d7fad2d5a18",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-3g5yACwYnA$_$3",
+      "status": "passed",
+      "words": 29,
+      "feature_sha256": "ca0173ccb92258aa3f88dfeb01549d1a99aa7b56fe0a344232b808945b13a939",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-3g5yACwYnA$_$2",
+      "status": "passed",
+      "words": 14,
+      "feature_sha256": "1f065023e7d9c5400dfd8b70eb5712cb3dbb3b4d716c55721311926a037d529f",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-3g5yACwYnA$_$9",
+      "status": "passed",
+      "words": 23,
+      "feature_sha256": "6838207203a00040a117d90631d2678575ec16c4dd80c098013d908ac4b32849",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-3nNcZdcdvU$_$5",
+      "status": "passed",
+      "words": 18,
+      "feature_sha256": "3bce1a75bcb84bd849e9c773f8c425540fda2e69538e5a7461c3d8e73b1f14b7",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-HwX2H8Z4hY$_$2",
+      "status": "passed",
+      "words": 7,
+      "feature_sha256": "9df01d7b9a2902a732551b9008e5439fd29b9e909cbef7d0cca9dd79c7e9d9c0",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-HwX2H8Z4hY$_$5",
+      "status": "passed",
+      "words": 9,
+      "feature_sha256": "3594ce8c3b1e8efbd12563b554e0b7be3db00a87ae99f037eacc8690d2025976",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-HwX2H8Z4hY$_$6",
+      "status": "passed",
+      "words": 7,
+      "feature_sha256": "91e2e84dac5e2c19d7782de11f3b509773d7817b92f7f4b41266f51ea0ee9e94",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-HwX2H8Z4hY$_$9",
+      "status": "passed",
+      "words": 22,
+      "feature_sha256": "e927367259513d312e0c97f52708cd4d5a19cd10d1f09ebe9ce5456089567580",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-NFrJFQijFE$_$1",
+      "status": "passed",
+      "words": 16,
+      "feature_sha256": "0dc02ebbb2cb192f770fe765e269601443cecc7673b5a0588598c33cbfc77eb4",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-NFrJFQijFE$_$2",
+      "status": "passed",
+      "words": 18,
+      "feature_sha256": "f16cc05b77af97881f8a42ae58c5f8414bf23845bf236671f4505f02e3b009ce",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-THoVjtIkeU$_$12",
+      "status": "passed",
+      "words": 39,
+      "feature_sha256": "499be32c32b168ab17a5cde3ce60bdfe512c5fffafa936b6ac713f7744e62f22",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-THoVjtIkeU$_$2",
+      "status": "passed",
+      "words": 10,
+      "feature_sha256": "f5fa21db96fa5012c076e03e2570e6ff85be14e8f2cb62b3f22b7b08d26c2ea1",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-THoVjtIkeU$_$6",
+      "status": "passed",
+      "words": 30,
+      "feature_sha256": "3bdd18a7355b9af0e6d3931c08c5d682c7d87c9a2f63fd74580d24c079e2e6db",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-UuX1xuaiiE$_$1",
+      "status": "passed",
+      "words": 27,
+      "feature_sha256": "0e350d706677384e468a66578279c9963ea1155f79fbb8455d1b86121b94ce19",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-UuX1xuaiiE$_$0",
+      "status": "passed",
+      "words": 9,
+      "feature_sha256": "c41efe14f4230816cbe7cb88a6b75800a396bf37c8a05127336dbe1c6c8f1a18",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-UuX1xuaiiE$_$3",
+      "status": "passed",
+      "words": 9,
+      "feature_sha256": "2f1e29c2c283ea91def40e6b612138dd7b05b6d8209dd4ac0afb5f9c7404d729",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-UuX1xuaiiE$_$6",
+      "status": "passed",
+      "words": 22,
+      "feature_sha256": "a1be94831d1239e0b1d02098d2a854319c9eeaafb00e03417eada39d1f77d6c1",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-a55Q6RWvTA$_$3",
+      "status": "passed",
+      "words": 65,
+      "feature_sha256": "fcbdbf6a4c5bb9f4ca0ba8c5dbce6e8ffa9fced818e8f5cc975bc2e79912245d",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-aNfi7CP8vM$_$7",
+      "status": "passed",
+      "words": 18,
+      "feature_sha256": "cd4463ba39c98268ceab36a14f230edef5686de1ebf0f3c72c2fb56c2be45b11",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-aqamKhZ1Ec$_$0",
+      "status": "passed",
+      "words": 14,
+      "feature_sha256": "387ad75f37fa77137920cb2bb54079b2dd7c700492171657046ab59573b79133",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-dxfTGcXJoc$_$1",
+      "status": "passed",
+      "words": 37,
+      "feature_sha256": "f455df6f3e221df77083c0eab560ae0495a2f4b701ae4359972496eef14180b1",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-dxfTGcXJoc$_$0",
+      "status": "passed",
+      "words": 40,
+      "feature_sha256": "c23169bcc76163186e065c586001749360f1f53b763890210b873b13bb9963a9",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-dxfTGcXJoc$_$2",
+      "status": "passed",
+      "words": 34,
+      "feature_sha256": "4eb6f6edcaa81e91f7af3c8e56f785078ac72cfc5af9630a78c28c8940311f46",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-dxfTGcXJoc$_$6",
+      "status": "passed",
+      "words": 28,
+      "feature_sha256": "e9011c9da305f15ddb8be770f1f8c8370f2adaa81823e48c41c73909d25b9ff7",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-egA8-b7-3M$_$26",
+      "status": "passed",
+      "words": 15,
+      "feature_sha256": "3d4dc7a2dbd3ff69f780a410f8ea6410fa3492e2b85d85a425924da141e8f346",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-egA8-b7-3M$_$17",
+      "status": "passed",
+      "words": 16,
+      "feature_sha256": "37db9ef18f77b7bcc4aff7e4ee1002965ca2211dd1668f11161393a2a6b7304c",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-egA8-b7-3M$_$18",
+      "status": "passed",
+      "words": 22,
+      "feature_sha256": "3b23e2b77f0ec7c8a85914f584d4a0d6bedbbdde4c063dfa7d1844d1a3b8511c",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-egA8-b7-3M$_$16",
+      "status": "passed",
+      "words": 11,
+      "feature_sha256": "58caf176e734b3d1b8ca428963ea45b2b5b4c76f9da49415d1ce8f9eb352d3f6",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-egA8-b7-3M$_$13",
+      "status": "passed",
+      "words": 11,
+      "feature_sha256": "07a6406b2e1f596a0c30a2ffc5759d1d5994dcf95226aca8cfd02c97f18e3f2d",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-egA8-b7-3M$_$1",
+      "status": "passed",
+      "words": 20,
+      "feature_sha256": "e4c3c0b61b0bb6b69cd850a6e3d4754597865ddb118cc382e2570918cc0d347b",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-egA8-b7-3M$_$6",
+      "status": "passed",
+      "words": 12,
+      "feature_sha256": "0e4fc6cfcd50fe1f763bd9f9e47fe33d9fa09e93e7b24bba325f4adf8a925f93",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-egA8-b7-3M$_$9",
+      "status": "passed",
+      "words": 10,
+      "feature_sha256": "b62ae1d6d8af08a61c70405a0bf066a8e9944b52a7b9ccebf041cefb5fa2627d",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-egA8-b7-3M$_$20",
+      "status": "passed",
+      "words": 20,
+      "feature_sha256": "c10665248fba21a1bbcc9ab8d9db74080eb624369452a8e552753090c5495edc",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-iRBcNs9oI8$_$3",
+      "status": "passed",
+      "words": 8,
+      "feature_sha256": "e79705900e9c0292e12352fc1da9bef5c51a00dd1e55ac12017dfc397f4cbe8a",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-iRBcNs9oI8$_$7",
+      "status": "passed",
+      "words": 9,
+      "feature_sha256": "cf3d905cef748b266a633b4788127d9468751c066ec65e98872ad139fe1a8e58",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-iRBcNs9oI8$_$6",
+      "status": "passed",
+      "words": 5,
+      "feature_sha256": "803ad21eade770d4f479d1c37d94d65170c0623d785434d274a23e433ef582ea",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-iRBcNs9oI8$_$9",
+      "status": "passed",
+      "words": 5,
+      "feature_sha256": "141559aaa906e1dc3db80171b2151a03f25566b496a2647ae3aec1f5fcbb9872",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-iRBcNs9oI8$_$8",
+      "status": "passed",
+      "words": 21,
+      "feature_sha256": "83184fda0642f65845fc9345fd710ac57deeafb292245122298ad395aab259c6",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-lzEya4AM_4$_$5",
+      "status": "passed",
+      "words": 19,
+      "feature_sha256": "36d89c3df0f375a5b4aacaff7ccc6d57a94fb55b9789dc91abb1289424af17fb",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-lzEya4AM_4$_$6",
+      "status": "passed",
+      "words": 43,
+      "feature_sha256": "d051758287f47f01d79ec0043b3e62308ab9f86189104776691598dea497ec6e",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-mJ2ud6oKI8$_$1",
+      "status": "passed",
+      "words": 13,
+      "feature_sha256": "76aa600f5b614306c878ada859f012f79f14fb6cd16332a6c61e9f66002069cd",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-mJ2ud6oKI8$_$2",
+      "status": "passed",
+      "words": 11,
+      "feature_sha256": "fd962ceed461b9a3d0814a7bfbad13581da047d2bb2a6b7656ddfc0681b9c82b",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-mJ2ud6oKI8$_$6",
+      "status": "passed",
+      "words": 5,
+      "feature_sha256": "6c03a9aa0b2dea9736c2b2d6842ae4ff693a43e6d5e375478e39e0a91861716a",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-mJ2ud6oKI8$_$9",
+      "status": "passed",
+      "words": 22,
+      "feature_sha256": "597021f2fa2fffc410ad15fd2acdbeea27b04124c58bcf647bae2c95d0f115e0",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-mJ2ud6oKI8$_$8",
+      "status": "passed",
+      "words": 11,
+      "feature_sha256": "01ba00126702f554a96a262ce5b05450094bf950f22163ad461ba52971aadbbd",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-mqbVkbCndg$_$0",
+      "status": "passed",
+      "words": 14,
+      "feature_sha256": "5a2747e457572737dfd1e73b0f20ab373ce09645fa989418f063550a34fa3507",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-t217m2on-s$_$2",
+      "status": "passed",
+      "words": 12,
+      "feature_sha256": "98142946a5f61e57ef62b102ffebbd0613d1cd317bdfab64781f11c79046219f",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-t217m2on-s$_$7",
+      "status": "passed",
+      "words": 45,
+      "feature_sha256": "8bef0b3c73026a5df3840d7173f9306ee76c3515149631c427e23fbd65cfd6b6",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-tANM6ETl_M$_$3",
+      "status": "passed",
+      "words": 22,
+      "feature_sha256": "bce24f2c06d3d0b2b15abf56ac8e7be0f467bf92d92b3ec5d694845e44b603c8",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-tPCytz4rww$_$11",
+      "status": "passed",
+      "words": 17,
+      "feature_sha256": "f4115cb8c3e2b74cfa56cca4926c1b115f78629ab4d42549781b62bbf458df27",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-tPCytz4rww$_$10",
+      "status": "passed",
+      "words": 12,
+      "feature_sha256": "ae3479eb322ff98e44c38111e6967b030ae19fd9940d99dd3727257d56ad2fed",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-tPCytz4rww$_$12",
+      "status": "passed",
+      "words": 26,
+      "feature_sha256": "4da9db139191cc6d338f82cfb4886349b1ce5000ed68a6c025a587f72fb55c02",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-tPCytz4rww$_$16",
+      "status": "passed",
+      "words": 16,
+      "feature_sha256": "e7b14714148e4ffcbe784c48d91a8bf912b3b002e77461d75af1a8bcf37e7a45",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-tPCytz4rww$_$18",
+      "status": "passed",
+      "words": 16,
+      "feature_sha256": "c59e35e03babf42ebe52fd65f917d5bcf5436d5a63f7bafbb7bafddc2346aa6d",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-vxjVxOeScU$_$4",
+      "status": "passed",
+      "words": 21,
+      "feature_sha256": "341719f2924cf6ea1b3145140b6d160925c75d059f069d6abaec97ffdb4cee77",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-wMB_hJL-3o$_$7",
+      "status": "passed",
+      "words": 22,
+      "feature_sha256": "1789157264d9963680d61f9da42660d56b0deb7165c0a28c0b48c61904bde300",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-wny0OAz3g8$_$1",
+      "status": "passed",
+      "words": 22,
+      "feature_sha256": "f1d01c53db7ec9b8be2a3b505e04bd71825b12187e7f47a765f273a2a3e1992e",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-wny0OAz3g8$_$0",
+      "status": "passed",
+      "words": 9,
+      "feature_sha256": "ae9d46e75d6f9053e400fc9471d7b5c8064931766366eaf113480b219f7e5e8d",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-wny0OAz3g8$_$3",
+      "status": "passed",
+      "words": 20,
+      "feature_sha256": "99808e8163cecc57bdc68b341fa540c1a156a9ea9bbfdb9e8eee3d13a5e116e0",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-wny0OAz3g8$_$2",
+      "status": "passed",
+      "words": 23,
+      "feature_sha256": "05836cf3381076c097ae1d7c4217629de9e388ac6d80507fdcb55831426e5e3b",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-wny0OAz3g8$_$5",
+      "status": "passed",
+      "words": 20,
+      "feature_sha256": "107cc7bc017cae901364fdf8ee00b66add534e5fad2d9111b73a0d66f4936dab",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-wny0OAz3g8$_$7",
+      "status": "passed",
+      "words": 29,
+      "feature_sha256": "63fbfc34acd98a51dd2645f235dc75749b9fdf1119e2e785c87567fd850b21c2",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-wny0OAz3g8$_$9",
+      "status": "passed",
+      "words": 20,
+      "feature_sha256": "f87a1157553f8ee698e213ca20302c62db243172fe79574555b9836b0e08ba0b",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-571d8cVauQ$_$0",
+      "status": "passed",
+      "words": 12,
+      "feature_sha256": "484d88925aca8ede8166286876384350e6a8a9bdbc71248823818788f9bea174",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-571d8cVauQ$_$5",
+      "status": "passed",
+      "words": 43,
+      "feature_sha256": "7ddc59c067a0baa6add615f798eee3928e3e0d75c4a67025fca17f5ebaba12c5",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-I_e4mIh0yE$_$1",
+      "status": "passed",
+      "words": 18,
+      "feature_sha256": "b95efd9cf0159618613f330f5a97862faa40ab189971695a077c4e8dd81a91d0",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-I_e4mIh0yE$_$3",
+      "status": "passed",
+      "words": 22,
+      "feature_sha256": "1119bdd51a2a67f3e56dae4889a81f604fc66e381ed1e4ec5b97c5ba04ab3937",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-UacrmKiTn4$_$10",
+      "status": "passed",
+      "words": 18,
+      "feature_sha256": "15078c864d85cd488b5733a1dd5cde2e280c036194025cad0c19dfa304ad3ae8",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-UacrmKiTn4$_$4",
+      "status": "passed",
+      "words": 14,
+      "feature_sha256": "28dc6599e431d2b0548466058a01fadb60a60e1d041a19e602b3c466c35d7dce",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-hnBHBN8p5A$_$7",
+      "status": "passed",
+      "words": 13,
+      "feature_sha256": "e459f989eef1f0f51a1753ac8e785dafe2bd7f70510240d24beddef9a3724863",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-hnBHBN8p5A$_$6",
+      "status": "passed",
+      "words": 13,
+      "feature_sha256": "3f487117365420f5816b34e0483e32835a735f88442e940fe11b77945b319a54",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-qDkUB0GgYY$_$6",
+      "status": "passed",
+      "words": 16,
+      "feature_sha256": "7246f0e020ebd40721ae0d3a05a1d19c2b81b7bc087000ccc8b156d34730cd0e",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-uywlfIYOS8$_$4",
+      "status": "passed",
+      "words": 18,
+      "feature_sha256": "dacce7d5476040a6d41456f21549b57f03e1605ec63aca4d16087c24986ff511",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-6rXp3zJ3kc$_$8",
+      "status": "passed",
+      "words": 34,
+      "feature_sha256": "49f3fc4b42cc5dbbd7147ece9922253461847bc1d7fd25e402711bfcc43abda7",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-9y-fZ3swSY$_$0",
+      "status": "passed",
+      "words": 22,
+      "feature_sha256": "332e8efd02e22a13465817e1c29b4d9901dd0690d82e091e65c407607291bb5d",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-9y-fZ3swSY$_$4",
+      "status": "passed",
+      "words": 9,
+      "feature_sha256": "1c765ebef988e579b2519082000a05bb9ddc3e3caaf241861c22f53713f8f4fc",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-9y-fZ3swSY$_$8",
+      "status": "passed",
+      "words": 12,
+      "feature_sha256": "366420b47765785efb4cdecef79a7e5cd61a727f81a96303415b6c5370aeb7a0",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-AUZQgSxyPQ$_$2",
+      "status": "passed",
+      "words": 41,
+      "feature_sha256": "602539e15c4a8542af79d7f431eca98ebf8e8fba0c47e80bc9d9fb3591108510",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-HeZS2-Prhc$_$2",
+      "status": "passed",
+      "words": 16,
+      "feature_sha256": "efeb41ec3605b42e05a08d89a5346723056aaa9e279b6a698e088abdd3a9c93d",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-MeTTeMJBNc$_$0",
+      "status": "passed",
+      "words": 21,
+      "feature_sha256": "4f588be8041bd7ededa99fa53076269a7334bdb17637529ec9e36b38c92c0e59",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-MeTTeMJBNc$_$13",
+      "status": "passed",
+      "words": 14,
+      "feature_sha256": "4249b968cb858964af850b889432040898cfa9fd8c49b6b30685a3415ef946f9",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-MeTTeMJBNc$_$7",
+      "status": "passed",
+      "words": 31,
+      "feature_sha256": "1577a707e5da8758d993921ade2cc6df8beae5b9b53d473bc8e10c814be4aeb0",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-RfYyzHpjk4$_$11",
+      "status": "passed",
+      "words": 17,
+      "feature_sha256": "511bb11bffe30b042e916c8bcd3f1ace9cb73ec0557ef84a6b280351800b5f29",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-RfYyzHpjk4$_$8",
+      "status": "passed",
+      "words": 17,
+      "feature_sha256": "1198b9333fffa396ff707c721702f884b5043383fc901462294317e15119f7dc",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-RfYyzHpjk4$_$2",
+      "status": "passed",
+      "words": 25,
+      "feature_sha256": "392c2a0d557d33f79ebc117ca180b66b3bb2aa95eccd2bebdc8d03acc05c2de5",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-UUCSKoHeMA$_$0",
+      "status": "passed",
+      "words": 18,
+      "feature_sha256": "00e913d984a736094ae706902219e0a09e5a224dce266c010d7e106563e25ca8",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-ri04Z7vwnc$_$0",
+      "status": "passed",
+      "words": 8,
+      "feature_sha256": "b5cd14001dee986251ce5e5ffcc3f493bab15107c357e519a6ebaf684422b60b",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-ri04Z7vwnc$_$2",
+      "status": "passed",
+      "words": 16,
+      "feature_sha256": "08a3cc00e89d0064d0828b39252192c79d9476f8b624382c62e68bc1796bcbf9",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-ri04Z7vwnc$_$5",
+      "status": "passed",
+      "words": 8,
+      "feature_sha256": "690935fb100f385aaa31128ca4995819d1bcd98f5f8a8041849622c1547b0ae6",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-s9qJ7ATP7w$_$1",
+      "status": "passed",
+      "words": 11,
+      "feature_sha256": "9da4c168676e6c0d3fd4c4e70f0b250a58ee0f6851222f89a291a0f06b5da86f",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-s9qJ7ATP7w$_$0",
+      "status": "passed",
+      "words": 24,
+      "feature_sha256": "b69edcb6f35886575ddd788a66e20974c8e75b8f34b34e19a6f23d92e40259f7",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-s9qJ7ATP7w$_$5",
+      "status": "passed",
+      "words": 19,
+      "feature_sha256": "ce51acac7c7fb28e77784f5211b18e7e7d628cdccde2c1e05928766d68775cee",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-s9qJ7ATP7w$_$4",
+      "status": "passed",
+      "words": 9,
+      "feature_sha256": "70f16b895c6badc005553c8cdfe25cc18d0515b77273bda8c80ed9acf4d1cc55",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-s9qJ7ATP7w$_$7",
+      "status": "passed",
+      "words": 28,
+      "feature_sha256": "bb989fd57bb2d19542eb05a9c71234a735bb1422f6384d3ec1c5a3a1e0d5eb7f",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-s9qJ7ATP7w$_$6",
+      "status": "passed",
+      "words": 5,
+      "feature_sha256": "dd4b0809bb7cbbe043d419e5835d72d15eeb4b06f1a894669ed062d47c0dcd89",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-s9qJ7ATP7w$_$8",
+      "status": "passed",
+      "words": 12,
+      "feature_sha256": "2e3a79938ea87f73956511902fdfccf1a48d4c8452a667688dbf2897ae821423",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-yRb-Jum7EQ$_$1",
+      "status": "passed",
+      "words": 49,
+      "feature_sha256": "d6f34e229ea4d04d5a59d2bc3e6c134adb27e72a9f5aab6b95cd4244f99ed6d9",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-yRb-Jum7EQ$_$5",
+      "status": "passed",
+      "words": 25,
+      "feature_sha256": "23115375b2be4db7e6701ee8bd90597e2d85c678be498896c0401e2d748ef560",
+      "alignment_failed": false
+    },
+    {
+      "sample_id": "-yRb-Jum7EQ$_$6",
+      "status": "passed",
+      "words": 19,
+      "feature_sha256": "e13e6ce331a15bd449161e4cd05f2ca2c7d905953b3a98b9de6b6ff8038f40c2",
+      "alignment_failed": false
+    }
+  ]
+}

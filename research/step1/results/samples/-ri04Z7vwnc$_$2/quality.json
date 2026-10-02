@@ -1,0 +1,16 @@
+{
+  "sample_id": "-ri04Z7vwnc$_$2",
+  "requires_transcript_review": true,
+  "reasons": [
+    "mean_CTC_confidence_below_0.2",
+    "more_than_half_words_below_0.1",
+    "diagnostic_WER_above_0.8"
+  ],
+  "mean_confidence": 0.0025197379291057587,
+  "low_confidence_fraction": 1.0,
+  "diagnostic_wer": 1.0,
+  "usable_word_times": 0,
+  "words": 16,
+  "raw_text": "most people think it'll sort itself out, \"we'll discuss it later,\" it's not something too important",
+  "diagnostic_asr": "URUL  Y I'M A GENTLE"
+}

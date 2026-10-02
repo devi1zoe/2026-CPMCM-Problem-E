@@ -1,0 +1,93 @@
+{
+  "fonts": {
+    "Chinese": "SimHei",
+    "Latin_and_digits": "DejaVu Sans"
+  },
+  "source_sha256": "a64206efba401f7dfad4ce8d51da492949a53d8027ee27a4a7874da0ff9f336a",
+  "figures": [
+    "figures/fig_p1_audio_window_error.pdf",
+    "figures/fig_p1_vision_window_error.pdf",
+    "figures/fig_p1_word_crossing_ratio.pdf"
+  ],
+  "figure_text": {
+    "fig_p1_audio_window_error": [
+      "0.0",
+      "0.2",
+      "0.2 s",
+      "0.4",
+      "0.5 s",
+      "0.6",
+      "0.8",
+      "n = 100",
+      "均值",
+      "声学标准化重建误差",
+      "窗口宽度"
+    ],
+    "fig_p1_vision_window_error": [
+      "0.0",
+      "0.2",
+      "0.2 s",
+      "0.4",
+      "0.5 s",
+      "0.6",
+      "n = 87",
+      "均值",
+      "窗口宽度",
+      "视觉标准化重建误差"
+    ],
+    "fig_p1_word_crossing_ratio": [
+      "0",
+      "0.2 s",
+      "0.5 s",
+      "100",
+      "25",
+      "50",
+      "75",
+      "n = 79",
+      "均值",
+      "窗口宽度",
+      "词跨界比例 / %"
+    ]
+  },
+  "evidence": {
+    "audio_normalized_reconstruction_mse": {
+      "samples_per_width": 100,
+      "means": [
+        0.5449260640144348,
+        0.7466779327392579
+      ],
+      "display_scale": 1,
+      "all_outliers_retained": true,
+      "required_annotations": [
+        "n = 100",
+        "均值"
+      ]
+    },
+    "vision_normalized_reconstruction_mse": {
+      "samples_per_width": 87,
+      "means": [
+        0.23570238019543133,
+        0.43725648282588214
+      ],
+      "display_scale": 1,
+      "all_outliers_retained": true,
+      "required_annotations": [
+        "n = 87",
+        "均值"
+      ]
+    },
+    "word_boundary_crossing_ratio": {
+      "samples_per_width": 79,
+      "means": [
+        0.7133393064357519,
+        0.3950201597730336
+      ],
+      "display_scale": 100,
+      "all_outliers_retained": true,
+      "required_annotations": [
+        "n = 79",
+        "均值"
+      ]
+    }
+  }
+}

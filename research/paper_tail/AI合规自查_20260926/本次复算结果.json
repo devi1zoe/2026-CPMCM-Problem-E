@@ -1,0 +1,28 @@
+{
+  "n": 728,
+  "accuracy": 0.6291208791208791,
+  "macro_f1": 0.604558017847249,
+  "mae": 0.5650779997384954,
+  "confusion_matrix": [
+    [
+      138,
+      32,
+      36
+    ],
+    [
+      32,
+      78,
+      74
+    ],
+    [
+      32,
+      64,
+      242
+    ]
+  ],
+  "fidelity_n": 728,
+  "deletion_drop": 0.12841992419223291,
+  "random_deletion_drop": 0.04643248598817941,
+  "deletion_advantage": 0.08198743812985472,
+  "unconditional_class_retained": 0.8516483516483516
+}

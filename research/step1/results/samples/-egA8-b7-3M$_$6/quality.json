@@ -1,0 +1,12 @@
+{
+  "sample_id": "-egA8-b7-3M$_$6",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.8902336955070496,
+  "low_confidence_fraction": 0.0,
+  "diagnostic_wer": 0.3333333333333333,
+  "usable_word_times": 12,
+  "words": 12,
+  "raw_text": "First exhibiting is a wonderful opportunity to network with other legal vendors.",
+  "diagnostic_asr": "FIRST EXHIBITING ITS A WONDERFUL OPPORTUNITY TO NET WORK WITH OTHER LEGAL VENGERS"
+}

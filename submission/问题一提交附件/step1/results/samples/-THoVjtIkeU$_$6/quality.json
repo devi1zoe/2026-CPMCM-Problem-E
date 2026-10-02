@@ -1,0 +1,12 @@
+{
+  "sample_id": "-THoVjtIkeU$_$6",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.8570106625556946,
+  "low_confidence_fraction": 0.1,
+  "diagnostic_wer": 0.13333333333333333,
+  "usable_word_times": 27,
+  "words": 30,
+  "raw_text": "You know that I think listening to young people, taking in what they have to say because what we have seen all around the world is the power of youth.",
+  "diagnostic_asr": "YOU KNOW I THINK THAT LISTENING TO YOUNG PEOPLE TAKING IN WHAT THEY HAVE TO SAY BECAUSE WHAT WE'VE SEEN ALL AROUND THE WORLD IS THE POWER OF YOUTH"
+}

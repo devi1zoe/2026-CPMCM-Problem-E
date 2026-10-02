@@ -1,0 +1,26 @@
+{
+  "n": 20,
+  "no_labels_used": true,
+  "input_version": "aligned",
+  "selection_sha256": "80e03d67f8896006cb644f1bf62a3c7d0b430a596d99b0b013e6957edafcf04c",
+  "model": "step3_coalition_aug",
+  "primary_main_counts": {
+    "text": 17,
+    "vision": 3
+  },
+  "polarity_counts": {
+    "positive": 10,
+    "negative": 6,
+    "neutral": 4
+  },
+  "timing_review_sample_ids": [
+    "15",
+    "16"
+  ],
+  "text_offsets_available_for_all": true,
+  "localized_evidence_counts": {
+    "text": 17,
+    "audio": 15,
+    "vision": 16
+  }
+}

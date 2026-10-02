@@ -1,0 +1,21 @@
+{
+  "n": 30,
+  "device": "cuda",
+  "backend": "linear",
+  "input_sha256_match": true,
+  "encoder_sha256_match": true,
+  "ids_match": true,
+  "classes_match": true,
+  "max_intensity_difference": 2.220446049250313e-16,
+  "paper_table_4_16_rows_checked": 30,
+  "trained_state_dicts_equal": true,
+  "all_missing_fallback_verified": true,
+  "validation_clean": {
+    "n": 728,
+    "accuracy": 0.6346153846153846,
+    "macro_f1": 0.6055407338598439,
+    "mae": 0.5784114750311966,
+    "pearson": 0.6827219419721464
+  },
+  "verification_scope": "提交权重重新推理附件3、验证集完整输入及全缺失边界；未重新训练模型。"
+}

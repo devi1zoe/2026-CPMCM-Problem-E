@@ -1,0 +1,680 @@
+{
+  "sample_id": "17",
+  "raw_text": "Applying these four design concepts to your presentations is simple, easy and will make people think you turned into a design guru.",
+  "duration": 9.6669921875,
+  "video_fps": 30.0,
+  "video_frames": 289,
+  "video_source": "E题_材料阅读/E题数据/附件4-可解释专项视频样本与特征文件/附件4-可解释专项视频样本与特征文件/对齐版本/videos/17.mp4",
+  "video_sha256": "8a2f9bad44684ae0ba22f4ad39e848020dbac6acf7e5fe9d974f2448e6902462",
+  "audio_coverage_fraction": 1.0,
+  "diagnostic_asr": "TY APPLY THESE FOUR DESIGN CONCEPTS TO YOUR PRESENTATIONS IS SIMPLE EASY AND WILL MAKE PEOPLE THINK YOU TURNED INTO A DESIGN GOROEW",
+  "diagnostic_wer": 0.13636363636363635,
+  "mean_ctc_confidence": 0.9135478734970093,
+  "requires_timing_review": false,
+  "reasons": [],
+  "words": [
+    {
+      "index": 0,
+      "original": "Applying",
+      "char_start": 0,
+      "char_end": 8,
+      "normalized": "APPLYING",
+      "start": 0.62246875,
+      "end": 1.00246875,
+      "confidence": 0.35405853390693665,
+      "status": "aligned"
+    },
+    {
+      "index": 1,
+      "original": "these",
+      "char_start": 9,
+      "char_end": 14,
+      "normalized": "THESE",
+      "start": 1.08246875,
+      "end": 1.30246875,
+      "confidence": 0.9975624680519104,
+      "status": "aligned"
+    },
+    {
+      "index": 2,
+      "original": "four",
+      "char_start": 15,
+      "char_end": 19,
+      "normalized": "FOUR",
+      "start": 1.44246875,
+      "end": 1.68246875,
+      "confidence": 0.9754393100738525,
+      "status": "aligned"
+    },
+    {
+      "index": 3,
+      "original": "design",
+      "char_start": 20,
+      "char_end": 26,
+      "normalized": "DESIGN",
+      "start": 1.76246875,
+      "end": 2.12246875,
+      "confidence": 0.9881370067596436,
+      "status": "aligned"
+    },
+    {
+      "index": 4,
+      "original": "concepts",
+      "char_start": 27,
+      "char_end": 35,
+      "normalized": "CONCEPTS",
+      "start": 2.22246875,
+      "end": 2.7424687499999996,
+      "confidence": 0.9799201488494873,
+      "status": "aligned"
+    },
+    {
+      "index": 5,
+      "original": "to",
+      "char_start": 36,
+      "char_end": 38,
+      "normalized": "TO",
+      "start": 2.82246875,
+      "end": 2.9024687499999997,
+      "confidence": 0.9998746514320374,
+      "status": "aligned"
+    },
+    {
+      "index": 6,
+      "original": "your",
+      "char_start": 39,
+      "char_end": 43,
+      "normalized": "YOUR",
+      "start": 2.96246875,
+      "end": 3.08246875,
+      "confidence": 0.9912975430488586,
+      "status": "aligned"
+    },
+    {
+      "index": 7,
+      "original": "presentations",
+      "char_start": 44,
+      "char_end": 57,
+      "normalized": "PRESENTATIONS",
+      "start": 3.1224687500000003,
+      "end": 3.8224687499999996,
+      "confidence": 0.9872028827667236,
+      "status": "aligned"
+    },
+    {
+      "index": 8,
+      "original": "is",
+      "char_start": 58,
+      "char_end": 60,
+      "normalized": "IS",
+      "start": 4.362468750000001,
+      "end": 4.44246875,
+      "confidence": 0.8696038126945496,
+      "status": "aligned"
+    },
+    {
+      "index": 9,
+      "original": "simple",
+      "char_start": 61,
+      "char_end": 67,
+      "normalized": "SIMPLE",
+      "start": 4.80246875,
+      "end": 5.10246875,
+      "confidence": 0.988266110420227,
+      "status": "aligned"
+    },
+    {
+      "index": 10,
+      "original": "easy",
+      "char_start": 69,
+      "char_end": 73,
+      "normalized": "EASY",
+      "start": 5.64246875,
+      "end": 5.86246875,
+      "confidence": 0.905495285987854,
+      "status": "aligned"
+    },
+    {
+      "index": 11,
+      "original": "and",
+      "char_start": 74,
+      "char_end": 77,
+      "normalized": "AND",
+      "start": 6.42246875,
+      "end": 6.542468749999999,
+      "confidence": 0.9991453289985657,
+      "status": "aligned"
+    },
+    {
+      "index": 12,
+      "original": "will",
+      "char_start": 78,
+      "char_end": 82,
+      "normalized": "WILL",
+      "start": 6.80246875,
+      "end": 6.94246875,
+      "confidence": 0.9990068674087524,
+      "status": "aligned"
+    },
+    {
+      "index": 13,
+      "original": "make",
+      "char_start": 83,
+      "char_end": 87,
+      "normalized": "MAKE",
+      "start": 6.98246875,
+      "end": 7.10246875,
+      "confidence": 0.9999430775642395,
+      "status": "aligned"
+    },
+    {
+      "index": 14,
+      "original": "people",
+      "char_start": 88,
+      "char_end": 94,
+      "normalized": "PEOPLE",
+      "start": 7.14246875,
+      "end": 7.36246875,
+      "confidence": 0.9978223443031311,
+      "status": "aligned"
+    },
+    {
+      "index": 15,
+      "original": "think",
+      "char_start": 95,
+      "char_end": 100,
+      "normalized": "THINK",
+      "start": 7.442468750000001,
+      "end": 7.60246875,
+      "confidence": 0.9998807907104492,
+      "status": "aligned"
+    },
+    {
+      "index": 16,
+      "original": "you",
+      "char_start": 101,
+      "char_end": 104,
+      "normalized": "YOU",
+      "start": 7.70246875,
+      "end": 7.78246875,
+      "confidence": 0.9950032234191895,
+      "status": "aligned"
+    },
+    {
+      "index": 17,
+      "original": "turned",
+      "char_start": 105,
+      "char_end": 111,
+      "normalized": "TURNED",
+      "start": 7.84246875,
+      "end": 8.04246875,
+      "confidence": 0.9033384323120117,
+      "status": "aligned"
+    },
+    {
+      "index": 18,
+      "original": "into",
+      "char_start": 112,
+      "char_end": 116,
+      "normalized": "INTO",
+      "start": 8.08246875,
+      "end": 8.20246875,
+      "confidence": 0.9751050472259521,
+      "status": "aligned"
+    },
+    {
+      "index": 19,
+      "original": "a",
+      "char_start": 117,
+      "char_end": 118,
+      "normalized": "A",
+      "start": 8.24246875,
+      "end": 8.26246875,
+      "confidence": 0.9939213991165161,
+      "status": "aligned"
+    },
+    {
+      "index": 20,
+      "original": "design",
+      "char_start": 119,
+      "char_end": 125,
+      "normalized": "DESIGN",
+      "start": 8.302468750000001,
+      "end": 8.642468749999999,
+      "confidence": 0.9076966643333435,
+      "status": "aligned"
+    },
+    {
+      "index": 21,
+      "original": "guru",
+      "char_start": 126,
+      "char_end": 130,
+      "normalized": "GURU",
+      "start": 8.74246875,
+      "end": 9.02246875,
+      "confidence": 0.2903304696083069,
+      "status": "aligned"
+    }
+  ],
+  "tokens": [
+    {
+      "sample_id": "17",
+      "slot": 1,
+      "token": "applying",
+      "token_id": 11243,
+      "char_start": 0,
+      "char_end": 8,
+      "raw_fragment": "Applying",
+      "word_indices": [
+        0
+      ],
+      "candidate_start": 0.62246875,
+      "candidate_end": 1.00246875,
+      "timing_usable": true,
+      "confidence": 0.35405853390693665,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "17",
+      "slot": 2,
+      "token": "these",
+      "token_id": 2122,
+      "char_start": 9,
+      "char_end": 14,
+      "raw_fragment": "these",
+      "word_indices": [
+        1
+      ],
+      "candidate_start": 1.08246875,
+      "candidate_end": 1.30246875,
+      "timing_usable": true,
+      "confidence": 0.9975624680519104,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "17",
+      "slot": 3,
+      "token": "four",
+      "token_id": 2176,
+      "char_start": 15,
+      "char_end": 19,
+      "raw_fragment": "four",
+      "word_indices": [
+        2
+      ],
+      "candidate_start": 1.44246875,
+      "candidate_end": 1.68246875,
+      "timing_usable": true,
+      "confidence": 0.9754393100738525,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "17",
+      "slot": 4,
+      "token": "design",
+      "token_id": 2640,
+      "char_start": 20,
+      "char_end": 26,
+      "raw_fragment": "design",
+      "word_indices": [
+        3
+      ],
+      "candidate_start": 1.76246875,
+      "candidate_end": 2.12246875,
+      "timing_usable": true,
+      "confidence": 0.9881370067596436,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "17",
+      "slot": 5,
+      "token": "concepts",
+      "token_id": 8474,
+      "char_start": 27,
+      "char_end": 35,
+      "raw_fragment": "concepts",
+      "word_indices": [
+        4
+      ],
+      "candidate_start": 2.22246875,
+      "candidate_end": 2.7424687499999996,
+      "timing_usable": true,
+      "confidence": 0.9799201488494873,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "17",
+      "slot": 6,
+      "token": "to",
+      "token_id": 2000,
+      "char_start": 36,
+      "char_end": 38,
+      "raw_fragment": "to",
+      "word_indices": [
+        5
+      ],
+      "candidate_start": 2.82246875,
+      "candidate_end": 2.9024687499999997,
+      "timing_usable": true,
+      "confidence": 0.9998746514320374,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "17",
+      "slot": 7,
+      "token": "your",
+      "token_id": 2115,
+      "char_start": 39,
+      "char_end": 43,
+      "raw_fragment": "your",
+      "word_indices": [
+        6
+      ],
+      "candidate_start": 2.96246875,
+      "candidate_end": 3.08246875,
+      "timing_usable": true,
+      "confidence": 0.9912975430488586,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "17",
+      "slot": 8,
+      "token": "presentations",
+      "token_id": 18216,
+      "char_start": 44,
+      "char_end": 57,
+      "raw_fragment": "presentations",
+      "word_indices": [
+        7
+      ],
+      "candidate_start": 3.1224687500000003,
+      "candidate_end": 3.8224687499999996,
+      "timing_usable": true,
+      "confidence": 0.9872028827667236,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "17",
+      "slot": 9,
+      "token": "is",
+      "token_id": 2003,
+      "char_start": 58,
+      "char_end": 60,
+      "raw_fragment": "is",
+      "word_indices": [
+        8
+      ],
+      "candidate_start": 4.362468750000001,
+      "candidate_end": 4.44246875,
+      "timing_usable": true,
+      "confidence": 0.8696038126945496,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "17",
+      "slot": 10,
+      "token": "simple",
+      "token_id": 3722,
+      "char_start": 61,
+      "char_end": 67,
+      "raw_fragment": "simple",
+      "word_indices": [
+        9
+      ],
+      "candidate_start": 4.80246875,
+      "candidate_end": 5.10246875,
+      "timing_usable": true,
+      "confidence": 0.988266110420227,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "17",
+      "slot": 11,
+      "token": ",",
+      "token_id": 1010,
+      "char_start": 67,
+      "char_end": 68,
+      "raw_fragment": ",",
+      "word_indices": [],
+      "candidate_start": null,
+      "candidate_end": null,
+      "timing_usable": false,
+      "confidence": null,
+      "mapping": "punctuation_without_own_acoustic_interval"
+    },
+    {
+      "sample_id": "17",
+      "slot": 12,
+      "token": "easy",
+      "token_id": 3733,
+      "char_start": 69,
+      "char_end": 73,
+      "raw_fragment": "easy",
+      "word_indices": [
+        10
+      ],
+      "candidate_start": 5.64246875,
+      "candidate_end": 5.86246875,
+      "timing_usable": true,
+      "confidence": 0.905495285987854,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "17",
+      "slot": 13,
+      "token": "and",
+      "token_id": 1998,
+      "char_start": 74,
+      "char_end": 77,
+      "raw_fragment": "and",
+      "word_indices": [
+        11
+      ],
+      "candidate_start": 6.42246875,
+      "candidate_end": 6.542468749999999,
+      "timing_usable": true,
+      "confidence": 0.9991453289985657,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "17",
+      "slot": 14,
+      "token": "will",
+      "token_id": 2097,
+      "char_start": 78,
+      "char_end": 82,
+      "raw_fragment": "will",
+      "word_indices": [
+        12
+      ],
+      "candidate_start": 6.80246875,
+      "candidate_end": 6.94246875,
+      "timing_usable": true,
+      "confidence": 0.9990068674087524,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "17",
+      "slot": 15,
+      "token": "make",
+      "token_id": 2191,
+      "char_start": 83,
+      "char_end": 87,
+      "raw_fragment": "make",
+      "word_indices": [
+        13
+      ],
+      "candidate_start": 6.98246875,
+      "candidate_end": 7.10246875,
+      "timing_usable": true,
+      "confidence": 0.9999430775642395,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "17",
+      "slot": 16,
+      "token": "people",
+      "token_id": 2111,
+      "char_start": 88,
+      "char_end": 94,
+      "raw_fragment": "people",
+      "word_indices": [
+        14
+      ],
+      "candidate_start": 7.14246875,
+      "candidate_end": 7.36246875,
+      "timing_usable": true,
+      "confidence": 0.9978223443031311,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "17",
+      "slot": 17,
+      "token": "think",
+      "token_id": 2228,
+      "char_start": 95,
+      "char_end": 100,
+      "raw_fragment": "think",
+      "word_indices": [
+        15
+      ],
+      "candidate_start": 7.442468750000001,
+      "candidate_end": 7.60246875,
+      "timing_usable": true,
+      "confidence": 0.9998807907104492,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "17",
+      "slot": 18,
+      "token": "you",
+      "token_id": 2017,
+      "char_start": 101,
+      "char_end": 104,
+      "raw_fragment": "you",
+      "word_indices": [
+        16
+      ],
+      "candidate_start": 7.70246875,
+      "candidate_end": 7.78246875,
+      "timing_usable": true,
+      "confidence": 0.9950032234191895,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "17",
+      "slot": 19,
+      "token": "turned",
+      "token_id": 2357,
+      "char_start": 105,
+      "char_end": 111,
+      "raw_fragment": "turned",
+      "word_indices": [
+        17
+      ],
+      "candidate_start": 7.84246875,
+      "candidate_end": 8.04246875,
+      "timing_usable": true,
+      "confidence": 0.9033384323120117,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "17",
+      "slot": 20,
+      "token": "into",
+      "token_id": 2046,
+      "char_start": 112,
+      "char_end": 116,
+      "raw_fragment": "into",
+      "word_indices": [
+        18
+      ],
+      "candidate_start": 8.08246875,
+      "candidate_end": 8.20246875,
+      "timing_usable": true,
+      "confidence": 0.9751050472259521,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "17",
+      "slot": 21,
+      "token": "a",
+      "token_id": 1037,
+      "char_start": 117,
+      "char_end": 118,
+      "raw_fragment": "a",
+      "word_indices": [
+        19
+      ],
+      "candidate_start": 8.24246875,
+      "candidate_end": 8.26246875,
+      "timing_usable": true,
+      "confidence": 0.9939213991165161,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "17",
+      "slot": 22,
+      "token": "design",
+      "token_id": 2640,
+      "char_start": 119,
+      "char_end": 125,
+      "raw_fragment": "design",
+      "word_indices": [
+        20
+      ],
+      "candidate_start": 8.302468750000001,
+      "candidate_end": 8.642468749999999,
+      "timing_usable": true,
+      "confidence": 0.9076966643333435,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "17",
+      "slot": 23,
+      "token": "guru",
+      "token_id": 11972,
+      "char_start": 126,
+      "char_end": 130,
+      "raw_fragment": "guru",
+      "word_indices": [
+        21
+      ],
+      "candidate_start": 8.74246875,
+      "candidate_end": 9.02246875,
+      "timing_usable": true,
+      "confidence": 0.2903304696083069,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "17",
+      "slot": 24,
+      "token": ".",
+      "token_id": 1012,
+      "char_start": 130,
+      "char_end": 131,
+      "raw_fragment": ".",
+      "word_indices": [],
+      "candidate_start": null,
+      "candidate_end": null,
+      "timing_usable": false,
+      "confidence": null,
+      "mapping": "punctuation_without_own_acoustic_interval"
+    }
+  ],
+  "token_ids_match": true,
+  "feature_repetition_audit": {
+    "audio": {
+      "multi_piece_words": 0,
+      "identical_feature_groups": 0
+    },
+    "vision": {
+      "multi_piece_words": 0,
+      "identical_feature_groups": 0
+    }
+  },
+  "represented_char_end": 131,
+  "unrepresented_text_tail": "",
+  "timing_claim": "estimated CTC word intervals, not official feature timestamps; aligned AV correspondence follows task specification",
+  "alignment_error": null
+}

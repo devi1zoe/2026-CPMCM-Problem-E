@@ -1,0 +1,12 @@
+{
+  "sample_id": "-dxfTGcXJoc$_$0",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.8807364702224731,
+  "low_confidence_fraction": 0.025,
+  "diagnostic_wer": 0.28888888888888886,
+  "usable_word_times": 39,
+  "words": 40,
+  "raw_text": "This is Governor Steve Beshear ... About Kentucky Our state is home to more than 1,500 bioscience and lifescience companies and more than 100,000 people who work for these firms, in areas from nutrigenomics and pharmaceuticals to nanotechnology and medical devices.",
+  "diagnostic_asr": "THIS IS GOVERNOR STEVE BISHR ABOUT KENTUCKY OUR STATE IS HOME TO MORE THAN FIFTEEN HUNDRED BAO SCIENCE AND LIFE SCIENCE COMPANIES AND MORE THAN A HUNDRED THOUSAND PEOPLE WHO WORK FOR THESE FIRMS IN AREAS FROM NEUTRAGENOMIKES AND PARMOSUTICLES TENANO TECHNOLOGY AND MEDICAL DEVICES"
+}

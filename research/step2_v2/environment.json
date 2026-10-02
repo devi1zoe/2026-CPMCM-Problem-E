@@ -1,0 +1,15 @@
+{
+  "python": "3.10.13",
+  "executable": "/usr/local/python3.10/bin/python3",
+  "packages": {
+    "torch": "2.5.1+cu121",
+    "transformers": "4.48.3",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.3.2",
+    "matplotlib": "3.10.9"
+  },
+  "setup": "/home/ubuntu/.bashrc_hyf read; reuse root Python and step1/.venv; no installation",
+  "gpus": "Use idle physical GPU 2/3; leave 0/1 untouched",
+  "gpu_allocation_update": "Main orchestration used GPU 2 after GPU 3 acquired an external job. When GPU 3 became free again, completed-model validation ran there. No external processes were stopped."
+}

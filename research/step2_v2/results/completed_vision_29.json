@@ -1,0 +1,12 @@
+{
+  "score": 1.3913258071536805,
+  "config": {
+    "indices": [
+      2
+    ]
+  },
+  "reg_weight": 2.0,
+  "sha256": "be1609c5c5d46864f2facc77957e80ad7df2ae137fb912b19c7c8ff0aa7a4453",
+  "epochs": 15,
+  "seconds": 142.25905871391296
+}

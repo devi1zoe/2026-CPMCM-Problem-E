@@ -1,0 +1,576 @@
+{
+  "sample_id": "-tPCytz4rww$_$18",
+  "video_id": "-tPCytz4rww",
+  "clip_id": "18",
+  "raw_text": "Do so and as well you'll also want to remove any clutter from that you've accumulated.",
+  "label": 0.0,
+  "annotation": "Neutral",
+  "source_path": "E题_材料阅读/E题数据/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-tPCytz4rww/18.mp4",
+  "source_sha256": "eece70451e9c37a4b5f375bf646f66e09113fe3467f35bf1720cc14d986c1776",
+  "config_sha256": "4a530340304f07255daf856e6891f0a15e50f05bd85343d067a663a573e8f888",
+  "code_sha256": {
+    "common.py": "4a37980b521a2f5a93e208d3ba265542a149336b3401aa89b8a4494517f5e16e",
+    "alignment.py": "76b29c002cdc97e8e0e85cffae02d81db938fa39484ad908c28c5efc60de0c34",
+    "features.py": "8283e0d0886b83bbd84d4db4521599b480b0ada4bc1afc4e4b9b91cddf5b4018",
+    "run.py": "f75d7b5bc6e342541664233a37a3d87f39313bcd3a8f3a50bfaea94798d4e07b"
+  },
+  "model_assets_sha256": {
+    "assets/face_landmarker.task": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff",
+    "assets/wav2vec2/preprocessor_config.json": "b225d617c025463b9e157e06afea8b90dc7078fc70b013c533328423e0486b4a",
+    "assets/wav2vec2/vocab.json": "19727f8944fe6459fc3f240ae2c198395b740f6a029bd23e06656266b83bcf64",
+    "assets/wav2vec2/special_tokens_map.json": "bb7068de1150661a10b55f9e4b12a0e77af8bf91f5e45e1b58afaf1d0e17f675",
+    "assets/wav2vec2/tokenizer_config.json": "dc790594f5bc351a4311c6624f40acd95850d4aaf2a5cb3c656c9b610720b608",
+    "assets/wav2vec2/model.safetensors": "8aa76ab2243c81747a1f832954586bc566090c83a0ac167df6f31f0fa917d74a",
+    "assets/wav2vec2/config.json": "d3ec255c063d9f95057b553b19c20135b259875834a4fe9deb218a6be25b4cf3",
+    "assets/distilbert/vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+    "assets/distilbert/tokenizer_config.json": "a025160ef0431f1a392f6f050c1310f4c5d9fb6f275932dbccba73c4d214bf10",
+    "assets/distilbert/model.safetensors": "5e3f1108e3cb34ee048634875d8482665b65ac713291a7e32396fb18f6ff0063",
+    "assets/distilbert/config.json": "69c94b0222d5d1f4b0ad027ca7416cdafb98378cbbb8305d0bf47c9365c60c83",
+    "assets/distilbert/tokenizer.json": "ce64fce797c24f68df90b40a3f74f579b336a493db14bd583fd520ea0d8c9a98"
+  },
+  "duration": 6.644986979166666,
+  "video_rate": 30.0,
+  "video_origin": 0.0,
+  "audio_start": 0.0,
+  "audio_duration": 6.5688125,
+  "audio_coverage_ratio": 1.0,
+  "words": [
+    {
+      "index": 0,
+      "original": "Do",
+      "char_start": 0,
+      "char_end": 2,
+      "normalized": "DO",
+      "subword_indices": [
+        0
+      ],
+      "start": 0.5424687499999999,
+      "end": 0.64246875,
+      "confidence": 0.9990373849868774,
+      "status": "aligned"
+    },
+    {
+      "index": 1,
+      "original": "so",
+      "char_start": 3,
+      "char_end": 5,
+      "normalized": "SO",
+      "subword_indices": [
+        1
+      ],
+      "start": 0.76246875,
+      "end": 0.9224687500000001,
+      "confidence": 0.9201878905296326,
+      "status": "aligned"
+    },
+    {
+      "index": 2,
+      "original": "and",
+      "char_start": 6,
+      "char_end": 9,
+      "normalized": "AND",
+      "subword_indices": [
+        2
+      ],
+      "start": 1.52246875,
+      "end": 1.62246875,
+      "confidence": 0.989425003528595,
+      "status": "aligned"
+    },
+    {
+      "index": 3,
+      "original": "as",
+      "char_start": 10,
+      "char_end": 12,
+      "normalized": "AS",
+      "subword_indices": [
+        3
+      ],
+      "start": 1.70246875,
+      "end": 1.76246875,
+      "confidence": 0.992788553237915,
+      "status": "aligned"
+    },
+    {
+      "index": 4,
+      "original": "well",
+      "char_start": 13,
+      "char_end": 17,
+      "normalized": "WELL",
+      "subword_indices": [
+        4
+      ],
+      "start": 1.82246875,
+      "end": 2.06246875,
+      "confidence": 0.8915529847145081,
+      "status": "aligned"
+    },
+    {
+      "index": 5,
+      "original": "you'll",
+      "char_start": 18,
+      "char_end": 24,
+      "normalized": "YOU'LL",
+      "subword_indices": [
+        5,
+        6,
+        7
+      ],
+      "start": 2.5624687500000003,
+      "end": 2.7824687499999996,
+      "confidence": 0.9676229357719421,
+      "status": "aligned"
+    },
+    {
+      "index": 6,
+      "original": "also",
+      "char_start": 25,
+      "char_end": 29,
+      "normalized": "ALSO",
+      "subword_indices": [
+        8
+      ],
+      "start": 2.82246875,
+      "end": 3.02246875,
+      "confidence": 0.9999597072601318,
+      "status": "aligned"
+    },
+    {
+      "index": 7,
+      "original": "want",
+      "char_start": 30,
+      "char_end": 34,
+      "normalized": "WANT",
+      "subword_indices": [
+        9
+      ],
+      "start": 3.1224687500000003,
+      "end": 3.3224687499999996,
+      "confidence": 0.9029729962348938,
+      "status": "aligned"
+    },
+    {
+      "index": 8,
+      "original": "to",
+      "char_start": 35,
+      "char_end": 37,
+      "normalized": "TO",
+      "subword_indices": [
+        10
+      ],
+      "start": 3.40246875,
+      "end": 3.54246875,
+      "confidence": 0.999760091304779,
+      "status": "aligned"
+    },
+    {
+      "index": 9,
+      "original": "remove",
+      "char_start": 38,
+      "char_end": 44,
+      "normalized": "REMOVE",
+      "subword_indices": [
+        11
+      ],
+      "start": 3.6824687500000004,
+      "end": 3.9424687499999997,
+      "confidence": 0.8902962803840637,
+      "status": "aligned"
+    },
+    {
+      "index": 10,
+      "original": "any",
+      "char_start": 45,
+      "char_end": 48,
+      "normalized": "ANY",
+      "subword_indices": [
+        12
+      ],
+      "start": 4.00246875,
+      "end": 4.1224687499999995,
+      "confidence": 0.9669453501701355,
+      "status": "aligned"
+    },
+    {
+      "index": 11,
+      "original": "clutter",
+      "char_start": 49,
+      "char_end": 56,
+      "normalized": "CLUTTER",
+      "subword_indices": [
+        13,
+        14
+      ],
+      "start": 4.22246875,
+      "end": 4.52246875,
+      "confidence": 0.9323419332504272,
+      "status": "aligned"
+    },
+    {
+      "index": 12,
+      "original": "from",
+      "char_start": 57,
+      "char_end": 61,
+      "normalized": "FROM",
+      "subword_indices": [
+        15
+      ],
+      "start": 4.56246875,
+      "end": 4.68246875,
+      "confidence": 0.9742295742034912,
+      "status": "aligned"
+    },
+    {
+      "index": 13,
+      "original": "that",
+      "char_start": 62,
+      "char_end": 66,
+      "normalized": "THAT",
+      "subword_indices": [
+        16
+      ],
+      "start": 5.00246875,
+      "end": 5.10246875,
+      "confidence": 0.9737941026687622,
+      "status": "aligned"
+    },
+    {
+      "index": 14,
+      "original": "you've",
+      "char_start": 67,
+      "char_end": 73,
+      "normalized": "YOU'VE",
+      "subword_indices": [
+        17,
+        18,
+        19
+      ],
+      "start": 5.16246875,
+      "end": 5.34246875,
+      "confidence": 0.9973636269569397,
+      "status": "aligned"
+    },
+    {
+      "index": 15,
+      "original": "accumulated",
+      "char_start": 74,
+      "char_end": 85,
+      "normalized": "ACCUMULATED",
+      "subword_indices": [
+        20
+      ],
+      "start": 5.38246875,
+      "end": 6.02246875,
+      "confidence": 0.16019810736179352,
+      "status": "aligned"
+    }
+  ],
+  "subwords": [
+    {
+      "index": 0,
+      "token_id": 2079,
+      "token": "do",
+      "char_start": 0,
+      "char_end": 2,
+      "word_index": 0,
+      "chunk_index": 0
+    },
+    {
+      "index": 1,
+      "token_id": 2061,
+      "token": "so",
+      "char_start": 3,
+      "char_end": 5,
+      "word_index": 1,
+      "chunk_index": 0
+    },
+    {
+      "index": 2,
+      "token_id": 1998,
+      "token": "and",
+      "char_start": 6,
+      "char_end": 9,
+      "word_index": 2,
+      "chunk_index": 0
+    },
+    {
+      "index": 3,
+      "token_id": 2004,
+      "token": "as",
+      "char_start": 10,
+      "char_end": 12,
+      "word_index": 3,
+      "chunk_index": 0
+    },
+    {
+      "index": 4,
+      "token_id": 2092,
+      "token": "well",
+      "char_start": 13,
+      "char_end": 17,
+      "word_index": 4,
+      "chunk_index": 0
+    },
+    {
+      "index": 5,
+      "token_id": 2017,
+      "token": "you",
+      "char_start": 18,
+      "char_end": 21,
+      "word_index": 5,
+      "chunk_index": 0
+    },
+    {
+      "index": 6,
+      "token_id": 1005,
+      "token": "'",
+      "char_start": 21,
+      "char_end": 22,
+      "word_index": 5,
+      "chunk_index": 0
+    },
+    {
+      "index": 7,
+      "token_id": 2222,
+      "token": "ll",
+      "char_start": 22,
+      "char_end": 24,
+      "word_index": 5,
+      "chunk_index": 0
+    },
+    {
+      "index": 8,
+      "token_id": 2036,
+      "token": "also",
+      "char_start": 25,
+      "char_end": 29,
+      "word_index": 6,
+      "chunk_index": 0
+    },
+    {
+      "index": 9,
+      "token_id": 2215,
+      "token": "want",
+      "char_start": 30,
+      "char_end": 34,
+      "word_index": 7,
+      "chunk_index": 0
+    },
+    {
+      "index": 10,
+      "token_id": 2000,
+      "token": "to",
+      "char_start": 35,
+      "char_end": 37,
+      "word_index": 8,
+      "chunk_index": 0
+    },
+    {
+      "index": 11,
+      "token_id": 6366,
+      "token": "remove",
+      "char_start": 38,
+      "char_end": 44,
+      "word_index": 9,
+      "chunk_index": 0
+    },
+    {
+      "index": 12,
+      "token_id": 2151,
+      "token": "any",
+      "char_start": 45,
+      "char_end": 48,
+      "word_index": 10,
+      "chunk_index": 0
+    },
+    {
+      "index": 13,
+      "token_id": 18856,
+      "token": "cl",
+      "char_start": 49,
+      "char_end": 51,
+      "word_index": 11,
+      "chunk_index": 0
+    },
+    {
+      "index": 14,
+      "token_id": 26878,
+      "token": "##utter",
+      "char_start": 51,
+      "char_end": 56,
+      "word_index": 11,
+      "chunk_index": 0
+    },
+    {
+      "index": 15,
+      "token_id": 2013,
+      "token": "from",
+      "char_start": 57,
+      "char_end": 61,
+      "word_index": 12,
+      "chunk_index": 0
+    },
+    {
+      "index": 16,
+      "token_id": 2008,
+      "token": "that",
+      "char_start": 62,
+      "char_end": 66,
+      "word_index": 13,
+      "chunk_index": 0
+    },
+    {
+      "index": 17,
+      "token_id": 2017,
+      "token": "you",
+      "char_start": 67,
+      "char_end": 70,
+      "word_index": 14,
+      "chunk_index": 0
+    },
+    {
+      "index": 18,
+      "token_id": 1005,
+      "token": "'",
+      "char_start": 70,
+      "char_end": 71,
+      "word_index": 14,
+      "chunk_index": 0
+    },
+    {
+      "index": 19,
+      "token_id": 2310,
+      "token": "ve",
+      "char_start": 71,
+      "char_end": 73,
+      "word_index": 14,
+      "chunk_index": 0
+    },
+    {
+      "index": 20,
+      "token_id": 14830,
+      "token": "accumulated",
+      "char_start": 74,
+      "char_end": 85,
+      "word_index": 15,
+      "chunk_index": 0
+    },
+    {
+      "index": 21,
+      "token_id": 1012,
+      "token": ".",
+      "char_start": 85,
+      "char_end": 86,
+      "word_index": -1,
+      "chunk_index": 0
+    }
+  ],
+  "audio_feature_names": [
+    "Loudness_sma3",
+    "alphaRatio_sma3",
+    "hammarbergIndex_sma3",
+    "slope0-500_sma3",
+    "slope500-1500_sma3",
+    "spectralFlux_sma3",
+    "mfcc1_sma3",
+    "mfcc2_sma3",
+    "mfcc3_sma3",
+    "mfcc4_sma3",
+    "F0semitoneFrom27.5Hz_sma3nz",
+    "jitterLocal_sma3nz",
+    "shimmerLocaldB_sma3nz",
+    "HNRdBACF_sma3nz",
+    "logRelF0-H1-H2_sma3nz",
+    "logRelF0-H1-A3_sma3nz",
+    "F1frequency_sma3nz",
+    "F1bandwidth_sma3nz",
+    "F1amplitudeLogRelF0_sma3nz",
+    "F2frequency_sma3nz",
+    "F2bandwidth_sma3nz",
+    "F2amplitudeLogRelF0_sma3nz",
+    "F3frequency_sma3nz",
+    "F3bandwidth_sma3nz",
+    "F3amplitudeLogRelF0_sma3nz"
+  ],
+  "vision_feature_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "convolution": {
+    "stride_samples": 320,
+    "receptive_field_samples": 400
+  },
+  "ctc_target_text": "DO|SO|AND|AS|WELL|YOU'LL|ALSO|WANT|TO|REMOVE|ANY|CLUTTER|FROM|THAT|YOU'VE|ACCUMULATED",
+  "diagnostic_asr": "O DO SO AND AS WELL A YOU'LL ALSO WANT TO REMOVE ANY CLUTTER FROM THE HOME THAT YOU'VE ACCUMULATED OVER",
+  "diagnostic_wer": 0.3125,
+  "alignment_path_log_probability": -152.85463817160263,
+  "alignment_error": null,
+  "padding_count": 0,
+  "truncated_words": 0,
+  "visual_time_support": "nearest-sampled-frame cells, midpoint boundaries; 5 Hz sampling",
+  "face_selection": "largest detected face; speaker identity not verified",
+  "feature_dimensions": {
+    "text": 768,
+    "audio": 25,
+    "vision": 52
+  },
+  "statuses": {
+    "low_confidence_words": 0,
+    "unaligned_words": 0,
+    "no_face_frames": 0,
+    "multiple_face_frames": 0,
+    "silent_audio_frames": 2,
+    "invalid_audio_frames": 0
+  },
+  "elapsed_seconds": 1.4028693214058876
+}

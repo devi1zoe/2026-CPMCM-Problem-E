@@ -1,0 +1,8 @@
+# Preserve the bytes covered by the original submission manifests on all OSes.
+/submission/** -text
+*.pdf binary
+*.png binary
+*.jpg binary
+*.npz binary
+*.pt binary
+*.ttf binary

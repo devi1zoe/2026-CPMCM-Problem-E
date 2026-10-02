@@ -1,0 +1,24 @@
+% 自动读取既有特征文件生成；由 results_section.tex 插入。
+\begin{table}[H]
+    \centering
+    \caption{典型样本的部分词级映射记录}
+    \label{tab:p1_mapping_records}
+    \begingroup
+    \small
+    \setlength{\tabcolsep}{3pt}
+    \renewcommand{\arraystretch}{1.2}
+    \begin{lrbox}{\pOneResultTableBox}
+\begin{tabular}{@{}l c c c l@{}}
+        \hline
+        原文词 & 子词索引 & 候选区间/s & 声学记录索引 & 视觉帧时刻/s\\ \hline
+        started & 1 & $[1.2825,1.6425]$ & 127--164 & 1.2, 1.4, 1.6\\
+        successful & 3 & $[1.8425,2.4025]$ & 183--240 & 1.8, 2.0, 2.2, 2.4\\
+        Consulting & 6 & $[3.0225,3.5225]$ & 301--352 & 3.0, 3.2, 3.4, 3.6\\
+        \hline
+    \end{tabular}
+\end{lrbox}
+\usebox{\pOneResultTableBox}
+    \par\smallskip
+    \parbox{\wd\pOneResultTableBox}{\footnotesize 注：索引从0开始；声学索引指具有正聚合权重的原生特征记录，不是波形采样点。视觉帧按其时间支持区间与候选词区间的交叠关系参与聚合，帧中心不必位于词区间内部。}
+    \endgroup
+\end{table}

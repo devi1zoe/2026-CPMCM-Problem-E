@@ -1,0 +1,28 @@
+{
+  "selected": "step3_coalition_aug",
+  "scores": {
+    "step2_fixed_clean": 0.9741066349985589,
+    "step2_fixed_aug": 0.9861159921480352,
+    "step2_mask_aug": 0.9831380835519379,
+    "step2_gated_aug": 0.9728707856675914,
+    "step3_coalition_aug": 0.9605196446207075
+  },
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "checkpoints": {
+    "final_17.pt": "b74a9ce4a9103beed28987b340e2cb82dff014ab7b20f370dfe00fc0a02000ec",
+    "final_29.pt": "0ce3e3947d24b96dc44a3c0e0b1ec3f2279372bbaec5d7d7388572ba912f7406",
+    "final_43.pt": "fadbd7b5849662f12f7e40208a99aa89a079b31c353d29da035e89fde72d2597"
+  },
+  "selected_source_paths": [
+    "step3/checkpoints/coalition_aug_17.pt",
+    "step3/checkpoints/coalition_aug_29.pt",
+    "step3/checkpoints/coalition_aug_43.pt"
+  ],
+  "protocol_sha256": "e6085a3571e1dfe3f3f9f2aed4445bc51f4f0675236fb55927b7a90589729139",
+  "criterion": "clean validation MAE + 1 - MacroF1",
+  "special_predictions_seen": false
+}

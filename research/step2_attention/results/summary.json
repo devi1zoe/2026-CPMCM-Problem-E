@@ -1,0 +1,35 @@
+{
+  "selected": "self",
+  "meets_previous_criteria": false,
+  "failed": [
+    "clean_mae",
+    "robust_f1",
+    "robust_mae",
+    "strong_positive"
+  ],
+  "validation": {
+    "J": 1.0181274106278049,
+    "clean_accuracy": 0.6291208791208791,
+    "clean_f1": 0.6045981610134291,
+    "clean_mae": 0.6029673381649395,
+    "clean_pearson": 0.6509921869328864,
+    "neutral_recall": 0.4673913043478261,
+    "strong_negative_mae": 1.010901737436331,
+    "strong_positive_mae": 1.0701329663191756,
+    "robust_f1": 0.574528272962527,
+    "robust_mae": 0.6302146575054044
+  },
+  "test_clean": {
+    "accuracy": 0.6602475928473177,
+    "macro_f1": 0.6131195730124656,
+    "mae": 0.6663818049038494,
+    "pearson": 0.6380771943292005
+  },
+  "test_tav50": {
+    "macro_f1": 0.5519068924881113,
+    "mae": 0.7473275749604306
+  },
+  "training_fits": 12,
+  "validation_realizations": 217,
+  "special_predictions": 30
+}

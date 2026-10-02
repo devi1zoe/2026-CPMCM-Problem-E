@@ -1,0 +1,1330 @@
+{
+  "sample_id": "-yRb-Jum7EQ$_$1",
+  "video_id": "-yRb-Jum7EQ",
+  "clip_id": "1",
+  "raw_text": "it comes with the assistance and agitation of states and regimes, Yesterday Iran announced that it will finance the families of the terrorists and murderers this shows that Iran, even after the nuclear agreement, is continuing to aid terrorism, including Palestinian terrorism, Hezbollah terrorism and its assistance to Hamas.",
+  "label": 0.0,
+  "annotation": "Neutral",
+  "source_path": "E题_材料阅读/E题数据/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-yRb-Jum7EQ/1.mp4",
+  "source_sha256": "2f16da1baa8660e5bfc608f5237cdd59725d16e57a19bc02c4556cd2c7129a46",
+  "config_sha256": "4a530340304f07255daf856e6891f0a15e50f05bd85343d067a663a573e8f888",
+  "code_sha256": {
+    "common.py": "4a37980b521a2f5a93e208d3ba265542a149336b3401aa89b8a4494517f5e16e",
+    "alignment.py": "76b29c002cdc97e8e0e85cffae02d81db938fa39484ad908c28c5efc60de0c34",
+    "features.py": "8283e0d0886b83bbd84d4db4521599b480b0ada4bc1afc4e4b9b91cddf5b4018",
+    "run.py": "f75d7b5bc6e342541664233a37a3d87f39313bcd3a8f3a50bfaea94798d4e07b"
+  },
+  "model_assets_sha256": {
+    "assets/face_landmarker.task": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff",
+    "assets/wav2vec2/preprocessor_config.json": "b225d617c025463b9e157e06afea8b90dc7078fc70b013c533328423e0486b4a",
+    "assets/wav2vec2/vocab.json": "19727f8944fe6459fc3f240ae2c198395b740f6a029bd23e06656266b83bcf64",
+    "assets/wav2vec2/special_tokens_map.json": "bb7068de1150661a10b55f9e4b12a0e77af8bf91f5e45e1b58afaf1d0e17f675",
+    "assets/wav2vec2/tokenizer_config.json": "dc790594f5bc351a4311c6624f40acd95850d4aaf2a5cb3c656c9b610720b608",
+    "assets/wav2vec2/model.safetensors": "8aa76ab2243c81747a1f832954586bc566090c83a0ac167df6f31f0fa917d74a",
+    "assets/wav2vec2/config.json": "d3ec255c063d9f95057b553b19c20135b259875834a4fe9deb218a6be25b4cf3",
+    "assets/distilbert/vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+    "assets/distilbert/tokenizer_config.json": "a025160ef0431f1a392f6f050c1310f4c5d9fb6f275932dbccba73c4d214bf10",
+    "assets/distilbert/model.safetensors": "5e3f1108e3cb34ee048634875d8482665b65ac713291a7e32396fb18f6ff0063",
+    "assets/distilbert/config.json": "69c94b0222d5d1f4b0ad027ca7416cdafb98378cbbb8305d0bf47c9365c60c83",
+    "assets/distilbert/tokenizer.json": "ce64fce797c24f68df90b40a3f74f579b336a493db14bd583fd520ea0d8c9a98"
+  },
+  "duration": 29.288020833333334,
+  "video_rate": 30.0,
+  "video_origin": 0.0,
+  "audio_start": 0.0,
+  "audio_duration": 29.10975,
+  "audio_coverage_ratio": 1.0,
+  "words": [
+    {
+      "index": 0,
+      "original": "it",
+      "char_start": 0,
+      "char_end": 2,
+      "normalized": "IT",
+      "subword_indices": [
+        0
+      ],
+      "start": 1.02246875,
+      "end": 1.10246875,
+      "confidence": 0.02615225687623024,
+      "status": "low_confidence"
+    },
+    {
+      "index": 1,
+      "original": "comes",
+      "char_start": 3,
+      "char_end": 8,
+      "normalized": "COMES",
+      "subword_indices": [
+        1
+      ],
+      "start": 2.24246875,
+      "end": 2.9424687499999997,
+      "confidence": 0.004225846845656633,
+      "status": "low_confidence"
+    },
+    {
+      "index": 2,
+      "original": "with",
+      "char_start": 9,
+      "char_end": 13,
+      "normalized": "WITH",
+      "subword_indices": [
+        2
+      ],
+      "start": 3.24246875,
+      "end": 3.66246875,
+      "confidence": 0.009715369902551174,
+      "status": "low_confidence"
+    },
+    {
+      "index": 3,
+      "original": "the",
+      "char_start": 14,
+      "char_end": 17,
+      "normalized": "THE",
+      "subword_indices": [
+        3
+      ],
+      "start": 4.52246875,
+      "end": 4.76246875,
+      "confidence": 0.7457762956619263,
+      "status": "aligned"
+    },
+    {
+      "index": 4,
+      "original": "assistance",
+      "char_start": 18,
+      "char_end": 28,
+      "normalized": "ASSISTANCE",
+      "subword_indices": [
+        4
+      ],
+      "start": 5.16246875,
+      "end": 6.6224687499999995,
+      "confidence": 0.05814018100500107,
+      "status": "low_confidence"
+    },
+    {
+      "index": 5,
+      "original": "and",
+      "char_start": 29,
+      "char_end": 32,
+      "normalized": "AND",
+      "subword_indices": [
+        5
+      ],
+      "start": 6.96246875,
+      "end": 7.082468749999999,
+      "confidence": 0.0012993915006518364,
+      "status": "low_confidence"
+    },
+    {
+      "index": 6,
+      "original": "agitation",
+      "char_start": 33,
+      "char_end": 42,
+      "normalized": "AGITATION",
+      "subword_indices": [
+        6
+      ],
+      "start": 7.68246875,
+      "end": 8.04246875,
+      "confidence": 0.010706585831940174,
+      "status": "low_confidence"
+    },
+    {
+      "index": 7,
+      "original": "of",
+      "char_start": 43,
+      "char_end": 45,
+      "normalized": "OF",
+      "subword_indices": [
+        7
+      ],
+      "start": 8.08246875,
+      "end": 8.142468749999999,
+      "confidence": 0.01113396417349577,
+      "status": "low_confidence"
+    },
+    {
+      "index": 8,
+      "original": "states",
+      "char_start": 46,
+      "char_end": 52,
+      "normalized": "STATES",
+      "subword_indices": [
+        8
+      ],
+      "start": 8.16246875,
+      "end": 8.38246875,
+      "confidence": 0.006026786752045155,
+      "status": "low_confidence"
+    },
+    {
+      "index": 9,
+      "original": "and",
+      "char_start": 53,
+      "char_end": 56,
+      "normalized": "AND",
+      "subword_indices": [
+        9
+      ],
+      "start": 8.40246875,
+      "end": 8.54246875,
+      "confidence": 0.00041686935583129525,
+      "status": "low_confidence"
+    },
+    {
+      "index": 10,
+      "original": "regimes",
+      "char_start": 57,
+      "char_end": 64,
+      "normalized": "REGIMES",
+      "subword_indices": [
+        10
+      ],
+      "start": 8.62246875,
+      "end": 8.84246875,
+      "confidence": 0.03646409884095192,
+      "status": "low_confidence"
+    },
+    {
+      "index": 11,
+      "original": "Yesterday",
+      "char_start": 66,
+      "char_end": 75,
+      "normalized": "YESTERDAY",
+      "subword_indices": [
+        12
+      ],
+      "start": 9.302468750000001,
+      "end": 9.74246875,
+      "confidence": 0.009151541627943516,
+      "status": "low_confidence"
+    },
+    {
+      "index": 12,
+      "original": "Iran",
+      "char_start": 76,
+      "char_end": 80,
+      "normalized": "IRAN",
+      "subword_indices": [
+        13
+      ],
+      "start": 9.78246875,
+      "end": 10.00246875,
+      "confidence": 0.08893278241157532,
+      "status": "low_confidence"
+    },
+    {
+      "index": 13,
+      "original": "announced",
+      "char_start": 81,
+      "char_end": 90,
+      "normalized": "ANNOUNCED",
+      "subword_indices": [
+        14
+      ],
+      "start": 10.06246875,
+      "end": 11.38246875,
+      "confidence": 0.00403174851089716,
+      "status": "low_confidence"
+    },
+    {
+      "index": 14,
+      "original": "that",
+      "char_start": 91,
+      "char_end": 95,
+      "normalized": "THAT",
+      "subword_indices": [
+        15
+      ],
+      "start": 11.42246875,
+      "end": 11.722468749999999,
+      "confidence": 0.024652503430843353,
+      "status": "low_confidence"
+    },
+    {
+      "index": 15,
+      "original": "it",
+      "char_start": 96,
+      "char_end": 98,
+      "normalized": "IT",
+      "subword_indices": [
+        16
+      ],
+      "start": 11.84246875,
+      "end": 11.90246875,
+      "confidence": 0.07056348770856857,
+      "status": "low_confidence"
+    },
+    {
+      "index": 16,
+      "original": "will",
+      "char_start": 99,
+      "char_end": 103,
+      "normalized": "WILL",
+      "subword_indices": [
+        17
+      ],
+      "start": 11.94246875,
+      "end": 12.08246875,
+      "confidence": 0.06785684078931808,
+      "status": "low_confidence"
+    },
+    {
+      "index": 17,
+      "original": "finance",
+      "char_start": 104,
+      "char_end": 111,
+      "normalized": "FINANCE",
+      "subword_indices": [
+        18
+      ],
+      "start": 12.18246875,
+      "end": 12.86246875,
+      "confidence": 0.014944164082407951,
+      "status": "low_confidence"
+    },
+    {
+      "index": 18,
+      "original": "the",
+      "char_start": 112,
+      "char_end": 115,
+      "normalized": "THE",
+      "subword_indices": [
+        19
+      ],
+      "start": 13.84246875,
+      "end": 14.02246875,
+      "confidence": 0.18615536391735077,
+      "status": "aligned"
+    },
+    {
+      "index": 19,
+      "original": "families",
+      "char_start": 116,
+      "char_end": 124,
+      "normalized": "FAMILIES",
+      "subword_indices": [
+        20
+      ],
+      "start": 14.24246875,
+      "end": 14.562468749999999,
+      "confidence": 0.011298954486846924,
+      "status": "low_confidence"
+    },
+    {
+      "index": 20,
+      "original": "of",
+      "char_start": 125,
+      "char_end": 127,
+      "normalized": "OF",
+      "subword_indices": [
+        21
+      ],
+      "start": 14.82246875,
+      "end": 14.88246875,
+      "confidence": 0.006449462845921516,
+      "status": "low_confidence"
+    },
+    {
+      "index": 21,
+      "original": "the",
+      "char_start": 128,
+      "char_end": 131,
+      "normalized": "THE",
+      "subword_indices": [
+        22
+      ],
+      "start": 14.98246875,
+      "end": 15.16246875,
+      "confidence": 0.11593738198280334,
+      "status": "aligned"
+    },
+    {
+      "index": 22,
+      "original": "terrorists",
+      "char_start": 132,
+      "char_end": 142,
+      "normalized": "TERRORISTS",
+      "subword_indices": [
+        23
+      ],
+      "start": 15.28246875,
+      "end": 16.04246875,
+      "confidence": 0.02555217035114765,
+      "status": "low_confidence"
+    },
+    {
+      "index": 23,
+      "original": "and",
+      "char_start": 143,
+      "char_end": 146,
+      "normalized": "AND",
+      "subword_indices": [
+        24
+      ],
+      "start": 16.14246875,
+      "end": 16.20246875,
+      "confidence": 0.21764010190963745,
+      "status": "aligned"
+    },
+    {
+      "index": 24,
+      "original": "murderers",
+      "char_start": 147,
+      "char_end": 156,
+      "normalized": "MURDERERS",
+      "subword_indices": [
+        25
+      ],
+      "start": 16.222468749999997,
+      "end": 16.52246875,
+      "confidence": 0.02451603300869465,
+      "status": "low_confidence"
+    },
+    {
+      "index": 25,
+      "original": "this",
+      "char_start": 157,
+      "char_end": 161,
+      "normalized": "THIS",
+      "subword_indices": [
+        26
+      ],
+      "start": 16.562468749999997,
+      "end": 16.782468750000003,
+      "confidence": 0.16108307242393494,
+      "status": "aligned"
+    },
+    {
+      "index": 26,
+      "original": "shows",
+      "char_start": 162,
+      "char_end": 167,
+      "normalized": "SHOWS",
+      "subword_indices": [
+        27
+      ],
+      "start": 17.582468749999997,
+      "end": 17.68246875,
+      "confidence": 0.0011799430940300226,
+      "status": "low_confidence"
+    },
+    {
+      "index": 27,
+      "original": "that",
+      "char_start": 168,
+      "char_end": 172,
+      "normalized": "THAT",
+      "subword_indices": [
+        28
+      ],
+      "start": 17.702468749999998,
+      "end": 17.802468750000003,
+      "confidence": 0.039966098964214325,
+      "status": "low_confidence"
+    },
+    {
+      "index": 28,
+      "original": "Iran",
+      "char_start": 173,
+      "char_end": 177,
+      "normalized": "IRAN",
+      "subword_indices": [
+        29
+      ],
+      "start": 17.862468749999998,
+      "end": 18.02246875,
+      "confidence": 0.013435658067464828,
+      "status": "low_confidence"
+    },
+    {
+      "index": 29,
+      "original": "even",
+      "char_start": 179,
+      "char_end": 183,
+      "normalized": "EVEN",
+      "subword_indices": [
+        31
+      ],
+      "start": 18.182468749999998,
+      "end": 18.52246875,
+      "confidence": 0.06832832098007202,
+      "status": "low_confidence"
+    },
+    {
+      "index": 30,
+      "original": "after",
+      "char_start": 184,
+      "char_end": 189,
+      "normalized": "AFTER",
+      "subword_indices": [
+        32
+      ],
+      "start": 18.78246875,
+      "end": 19.04246875,
+      "confidence": 0.019736630842089653,
+      "status": "low_confidence"
+    },
+    {
+      "index": 31,
+      "original": "the",
+      "char_start": 190,
+      "char_end": 193,
+      "normalized": "THE",
+      "subword_indices": [
+        33
+      ],
+      "start": 19.082468749999997,
+      "end": 19.142468750000003,
+      "confidence": 0.0006343478453345597,
+      "status": "low_confidence"
+    },
+    {
+      "index": 32,
+      "original": "nuclear",
+      "char_start": 194,
+      "char_end": 201,
+      "normalized": "NUCLEAR",
+      "subword_indices": [
+        34
+      ],
+      "start": 19.182468749999998,
+      "end": 19.322468750000002,
+      "confidence": 0.0015875750686973333,
+      "status": "low_confidence"
+    },
+    {
+      "index": 33,
+      "original": "agreement",
+      "char_start": 202,
+      "char_end": 211,
+      "normalized": "AGREEMENT",
+      "subword_indices": [
+        35
+      ],
+      "start": 19.402468749999997,
+      "end": 19.822468750000002,
+      "confidence": 0.044825244694948196,
+      "status": "low_confidence"
+    },
+    {
+      "index": 34,
+      "original": "is",
+      "char_start": 213,
+      "char_end": 215,
+      "normalized": "IS",
+      "subword_indices": [
+        37
+      ],
+      "start": 20.26246875,
+      "end": 20.40246875,
+      "confidence": 0.014013729058206081,
+      "status": "low_confidence"
+    },
+    {
+      "index": 35,
+      "original": "continuing",
+      "char_start": 216,
+      "char_end": 226,
+      "normalized": "CONTINUING",
+      "subword_indices": [
+        38
+      ],
+      "start": 20.562468749999997,
+      "end": 21.822468750000002,
+      "confidence": 0.002918979385867715,
+      "status": "low_confidence"
+    },
+    {
+      "index": 36,
+      "original": "to",
+      "char_start": 227,
+      "char_end": 229,
+      "normalized": "TO",
+      "subword_indices": [
+        39
+      ],
+      "start": 21.84246875,
+      "end": 21.90246875,
+      "confidence": 0.0151519188657403,
+      "status": "low_confidence"
+    },
+    {
+      "index": 37,
+      "original": "aid",
+      "char_start": 230,
+      "char_end": 233,
+      "normalized": "AID",
+      "subword_indices": [
+        40
+      ],
+      "start": 22.022468749999998,
+      "end": 22.08246875,
+      "confidence": 0.00970182940363884,
+      "status": "low_confidence"
+    },
+    {
+      "index": 38,
+      "original": "terrorism",
+      "char_start": 234,
+      "char_end": 243,
+      "normalized": "TERRORISM",
+      "subword_indices": [
+        41
+      ],
+      "start": 22.12246875,
+      "end": 22.842468750000002,
+      "confidence": 0.008871286176145077,
+      "status": "low_confidence"
+    },
+    {
+      "index": 39,
+      "original": "including",
+      "char_start": 245,
+      "char_end": 254,
+      "normalized": "INCLUDING",
+      "subword_indices": [
+        43
+      ],
+      "start": 23.062468749999997,
+      "end": 24.002468750000002,
+      "confidence": 0.0018051165388897061,
+      "status": "low_confidence"
+    },
+    {
+      "index": 40,
+      "original": "Palestinian",
+      "char_start": 255,
+      "char_end": 266,
+      "normalized": "PALESTINIAN",
+      "subword_indices": [
+        44
+      ],
+      "start": 24.10246875,
+      "end": 24.88246875,
+      "confidence": 0.2509706914424896,
+      "status": "aligned"
+    },
+    {
+      "index": 41,
+      "original": "terrorism",
+      "char_start": 267,
+      "char_end": 276,
+      "normalized": "TERRORISM",
+      "subword_indices": [
+        45
+      ],
+      "start": 24.98246875,
+      "end": 25.462468750000003,
+      "confidence": 0.07803791761398315,
+      "status": "low_confidence"
+    },
+    {
+      "index": 42,
+      "original": "Hezbollah",
+      "char_start": 278,
+      "char_end": 287,
+      "normalized": "HEZBOLLAH",
+      "subword_indices": [
+        47
+      ],
+      "start": 25.522468749999998,
+      "end": 26.06246875,
+      "confidence": 0.11054830253124237,
+      "status": "aligned"
+    },
+    {
+      "index": 43,
+      "original": "terrorism",
+      "char_start": 288,
+      "char_end": 297,
+      "normalized": "TERRORISM",
+      "subword_indices": [
+        48
+      ],
+      "start": 26.84246875,
+      "end": 27.302468750000003,
+      "confidence": 0.005636090878397226,
+      "status": "low_confidence"
+    },
+    {
+      "index": 44,
+      "original": "and",
+      "char_start": 298,
+      "char_end": 301,
+      "normalized": "AND",
+      "subword_indices": [
+        49
+      ],
+      "start": 27.382468749999997,
+      "end": 27.482468750000002,
+      "confidence": 0.06974245607852936,
+      "status": "low_confidence"
+    },
+    {
+      "index": 45,
+      "original": "its",
+      "char_start": 302,
+      "char_end": 305,
+      "normalized": "ITS",
+      "subword_indices": [
+        50
+      ],
+      "start": 27.60246875,
+      "end": 27.70246875,
+      "confidence": 0.010940080508589745,
+      "status": "low_confidence"
+    },
+    {
+      "index": 46,
+      "original": "assistance",
+      "char_start": 306,
+      "char_end": 316,
+      "normalized": "ASSISTANCE",
+      "subword_indices": [
+        51
+      ],
+      "start": 27.78246875,
+      "end": 28.142468750000003,
+      "confidence": 0.00166250579059124,
+      "status": "low_confidence"
+    },
+    {
+      "index": 47,
+      "original": "to",
+      "char_start": 317,
+      "char_end": 319,
+      "normalized": "TO",
+      "subword_indices": [
+        52
+      ],
+      "start": 28.202468749999998,
+      "end": 28.282468750000003,
+      "confidence": 0.0017885223496705294,
+      "status": "low_confidence"
+    },
+    {
+      "index": 48,
+      "original": "Hamas",
+      "char_start": 320,
+      "char_end": 325,
+      "normalized": "HAMAS",
+      "subword_indices": [
+        53
+      ],
+      "start": 28.34246875,
+      "end": 28.68246875,
+      "confidence": 0.9577203392982483,
+      "status": "aligned"
+    }
+  ],
+  "subwords": [
+    {
+      "index": 0,
+      "token_id": 2009,
+      "token": "it",
+      "char_start": 0,
+      "char_end": 2,
+      "word_index": 0,
+      "chunk_index": 0
+    },
+    {
+      "index": 1,
+      "token_id": 3310,
+      "token": "comes",
+      "char_start": 3,
+      "char_end": 8,
+      "word_index": 1,
+      "chunk_index": 0
+    },
+    {
+      "index": 2,
+      "token_id": 2007,
+      "token": "with",
+      "char_start": 9,
+      "char_end": 13,
+      "word_index": 2,
+      "chunk_index": 0
+    },
+    {
+      "index": 3,
+      "token_id": 1996,
+      "token": "the",
+      "char_start": 14,
+      "char_end": 17,
+      "word_index": 3,
+      "chunk_index": 0
+    },
+    {
+      "index": 4,
+      "token_id": 5375,
+      "token": "assistance",
+      "char_start": 18,
+      "char_end": 28,
+      "word_index": 4,
+      "chunk_index": 0
+    },
+    {
+      "index": 5,
+      "token_id": 1998,
+      "token": "and",
+      "char_start": 29,
+      "char_end": 32,
+      "word_index": 5,
+      "chunk_index": 0
+    },
+    {
+      "index": 6,
+      "token_id": 22356,
+      "token": "agitation",
+      "char_start": 33,
+      "char_end": 42,
+      "word_index": 6,
+      "chunk_index": 0
+    },
+    {
+      "index": 7,
+      "token_id": 1997,
+      "token": "of",
+      "char_start": 43,
+      "char_end": 45,
+      "word_index": 7,
+      "chunk_index": 0
+    },
+    {
+      "index": 8,
+      "token_id": 2163,
+      "token": "states",
+      "char_start": 46,
+      "char_end": 52,
+      "word_index": 8,
+      "chunk_index": 0
+    },
+    {
+      "index": 9,
+      "token_id": 1998,
+      "token": "and",
+      "char_start": 53,
+      "char_end": 56,
+      "word_index": 9,
+      "chunk_index": 0
+    },
+    {
+      "index": 10,
+      "token_id": 25228,
+      "token": "regimes",
+      "char_start": 57,
+      "char_end": 64,
+      "word_index": 10,
+      "chunk_index": 0
+    },
+    {
+      "index": 11,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 64,
+      "char_end": 65,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 12,
+      "token_id": 7483,
+      "token": "yesterday",
+      "char_start": 66,
+      "char_end": 75,
+      "word_index": 11,
+      "chunk_index": 0
+    },
+    {
+      "index": 13,
+      "token_id": 4238,
+      "token": "iran",
+      "char_start": 76,
+      "char_end": 80,
+      "word_index": 12,
+      "chunk_index": 0
+    },
+    {
+      "index": 14,
+      "token_id": 2623,
+      "token": "announced",
+      "char_start": 81,
+      "char_end": 90,
+      "word_index": 13,
+      "chunk_index": 0
+    },
+    {
+      "index": 15,
+      "token_id": 2008,
+      "token": "that",
+      "char_start": 91,
+      "char_end": 95,
+      "word_index": 14,
+      "chunk_index": 0
+    },
+    {
+      "index": 16,
+      "token_id": 2009,
+      "token": "it",
+      "char_start": 96,
+      "char_end": 98,
+      "word_index": 15,
+      "chunk_index": 0
+    },
+    {
+      "index": 17,
+      "token_id": 2097,
+      "token": "will",
+      "char_start": 99,
+      "char_end": 103,
+      "word_index": 16,
+      "chunk_index": 0
+    },
+    {
+      "index": 18,
+      "token_id": 5446,
+      "token": "finance",
+      "char_start": 104,
+      "char_end": 111,
+      "word_index": 17,
+      "chunk_index": 0
+    },
+    {
+      "index": 19,
+      "token_id": 1996,
+      "token": "the",
+      "char_start": 112,
+      "char_end": 115,
+      "word_index": 18,
+      "chunk_index": 0
+    },
+    {
+      "index": 20,
+      "token_id": 2945,
+      "token": "families",
+      "char_start": 116,
+      "char_end": 124,
+      "word_index": 19,
+      "chunk_index": 0
+    },
+    {
+      "index": 21,
+      "token_id": 1997,
+      "token": "of",
+      "char_start": 125,
+      "char_end": 127,
+      "word_index": 20,
+      "chunk_index": 0
+    },
+    {
+      "index": 22,
+      "token_id": 1996,
+      "token": "the",
+      "char_start": 128,
+      "char_end": 131,
+      "word_index": 21,
+      "chunk_index": 0
+    },
+    {
+      "index": 23,
+      "token_id": 15554,
+      "token": "terrorists",
+      "char_start": 132,
+      "char_end": 142,
+      "word_index": 22,
+      "chunk_index": 0
+    },
+    {
+      "index": 24,
+      "token_id": 1998,
+      "token": "and",
+      "char_start": 143,
+      "char_end": 146,
+      "word_index": 23,
+      "chunk_index": 0
+    },
+    {
+      "index": 25,
+      "token_id": 28882,
+      "token": "murderers",
+      "char_start": 147,
+      "char_end": 156,
+      "word_index": 24,
+      "chunk_index": 0
+    },
+    {
+      "index": 26,
+      "token_id": 2023,
+      "token": "this",
+      "char_start": 157,
+      "char_end": 161,
+      "word_index": 25,
+      "chunk_index": 0
+    },
+    {
+      "index": 27,
+      "token_id": 3065,
+      "token": "shows",
+      "char_start": 162,
+      "char_end": 167,
+      "word_index": 26,
+      "chunk_index": 0
+    },
+    {
+      "index": 28,
+      "token_id": 2008,
+      "token": "that",
+      "char_start": 168,
+      "char_end": 172,
+      "word_index": 27,
+      "chunk_index": 0
+    },
+    {
+      "index": 29,
+      "token_id": 4238,
+      "token": "iran",
+      "char_start": 173,
+      "char_end": 177,
+      "word_index": 28,
+      "chunk_index": 0
+    },
+    {
+      "index": 30,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 177,
+      "char_end": 178,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 31,
+      "token_id": 2130,
+      "token": "even",
+      "char_start": 179,
+      "char_end": 183,
+      "word_index": 29,
+      "chunk_index": 0
+    },
+    {
+      "index": 32,
+      "token_id": 2044,
+      "token": "after",
+      "char_start": 184,
+      "char_end": 189,
+      "word_index": 30,
+      "chunk_index": 0
+    },
+    {
+      "index": 33,
+      "token_id": 1996,
+      "token": "the",
+      "char_start": 190,
+      "char_end": 193,
+      "word_index": 31,
+      "chunk_index": 0
+    },
+    {
+      "index": 34,
+      "token_id": 4517,
+      "token": "nuclear",
+      "char_start": 194,
+      "char_end": 201,
+      "word_index": 32,
+      "chunk_index": 0
+    },
+    {
+      "index": 35,
+      "token_id": 3820,
+      "token": "agreement",
+      "char_start": 202,
+      "char_end": 211,
+      "word_index": 33,
+      "chunk_index": 0
+    },
+    {
+      "index": 36,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 211,
+      "char_end": 212,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 37,
+      "token_id": 2003,
+      "token": "is",
+      "char_start": 213,
+      "char_end": 215,
+      "word_index": 34,
+      "chunk_index": 0
+    },
+    {
+      "index": 38,
+      "token_id": 5719,
+      "token": "continuing",
+      "char_start": 216,
+      "char_end": 226,
+      "word_index": 35,
+      "chunk_index": 0
+    },
+    {
+      "index": 39,
+      "token_id": 2000,
+      "token": "to",
+      "char_start": 227,
+      "char_end": 229,
+      "word_index": 36,
+      "chunk_index": 0
+    },
+    {
+      "index": 40,
+      "token_id": 4681,
+      "token": "aid",
+      "char_start": 230,
+      "char_end": 233,
+      "word_index": 37,
+      "chunk_index": 0
+    },
+    {
+      "index": 41,
+      "token_id": 10130,
+      "token": "terrorism",
+      "char_start": 234,
+      "char_end": 243,
+      "word_index": 38,
+      "chunk_index": 0
+    },
+    {
+      "index": 42,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 243,
+      "char_end": 244,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 43,
+      "token_id": 2164,
+      "token": "including",
+      "char_start": 245,
+      "char_end": 254,
+      "word_index": 39,
+      "chunk_index": 0
+    },
+    {
+      "index": 44,
+      "token_id": 9302,
+      "token": "palestinian",
+      "char_start": 255,
+      "char_end": 266,
+      "word_index": 40,
+      "chunk_index": 0
+    },
+    {
+      "index": 45,
+      "token_id": 10130,
+      "token": "terrorism",
+      "char_start": 267,
+      "char_end": 276,
+      "word_index": 41,
+      "chunk_index": 0
+    },
+    {
+      "index": 46,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 276,
+      "char_end": 277,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 47,
+      "token_id": 25713,
+      "token": "hezbollah",
+      "char_start": 278,
+      "char_end": 287,
+      "word_index": 42,
+      "chunk_index": 0
+    },
+    {
+      "index": 48,
+      "token_id": 10130,
+      "token": "terrorism",
+      "char_start": 288,
+      "char_end": 297,
+      "word_index": 43,
+      "chunk_index": 0
+    },
+    {
+      "index": 49,
+      "token_id": 1998,
+      "token": "and",
+      "char_start": 298,
+      "char_end": 301,
+      "word_index": 44,
+      "chunk_index": 0
+    },
+    {
+      "index": 50,
+      "token_id": 2049,
+      "token": "its",
+      "char_start": 302,
+      "char_end": 305,
+      "word_index": 45,
+      "chunk_index": 0
+    },
+    {
+      "index": 51,
+      "token_id": 5375,
+      "token": "assistance",
+      "char_start": 306,
+      "char_end": 316,
+      "word_index": 46,
+      "chunk_index": 0
+    },
+    {
+      "index": 52,
+      "token_id": 2000,
+      "token": "to",
+      "char_start": 317,
+      "char_end": 319,
+      "word_index": 47,
+      "chunk_index": 0
+    },
+    {
+      "index": 53,
+      "token_id": 22129,
+      "token": "hamas",
+      "char_start": 320,
+      "char_end": 325,
+      "word_index": 48,
+      "chunk_index": 0
+    },
+    {
+      "index": 54,
+      "token_id": 1012,
+      "token": ".",
+      "char_start": 325,
+      "char_end": 326,
+      "word_index": -1,
+      "chunk_index": 0
+    }
+  ],
+  "audio_feature_names": [
+    "Loudness_sma3",
+    "alphaRatio_sma3",
+    "hammarbergIndex_sma3",
+    "slope0-500_sma3",
+    "slope500-1500_sma3",
+    "spectralFlux_sma3",
+    "mfcc1_sma3",
+    "mfcc2_sma3",
+    "mfcc3_sma3",
+    "mfcc4_sma3",
+    "F0semitoneFrom27.5Hz_sma3nz",
+    "jitterLocal_sma3nz",
+    "shimmerLocaldB_sma3nz",
+    "HNRdBACF_sma3nz",
+    "logRelF0-H1-H2_sma3nz",
+    "logRelF0-H1-A3_sma3nz",
+    "F1frequency_sma3nz",
+    "F1bandwidth_sma3nz",
+    "F1amplitudeLogRelF0_sma3nz",
+    "F2frequency_sma3nz",
+    "F2bandwidth_sma3nz",
+    "F2amplitudeLogRelF0_sma3nz",
+    "F3frequency_sma3nz",
+    "F3bandwidth_sma3nz",
+    "F3amplitudeLogRelF0_sma3nz"
+  ],
+  "vision_feature_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "convolution": {
+    "stride_samples": 320,
+    "receptive_field_samples": 400
+  },
+  "ctc_target_text": "IT|COMES|WITH|THE|ASSISTANCE|AND|AGITATION|OF|STATES|AND|REGIMES|YESTERDAY|IRAN|ANNOUNCED|THAT|IT|WILL|FINANCE|THE|FAMILIES|OF|THE|TERRORISTS|AND|MURDERERS|THIS|SHOWS|THAT|IRAN|EVEN|AFTER|THE|NUCLEAR|AGREEMENT|IS|CONTINUING|TO|AID|TERRORISM|INCLUDING|PALESTINIAN|TERRORISM|HEZBOLLAH|TERRORISM|AND|ITS|ASSISTANCE|TO|HAMAS",
+  "diagnostic_asr": "BEHALALRIC UBAMIE SIA THE MAZZASA SHILE MEDINOTO MICHTARIM ET MOLIRANE A HODIASHI OLEFETLEMAMIN ITE HAMICHPAHOTE CHELATO WISTIMA MIRASCIM VEZAMARECHI RANA HAVIESCEMAGERIN NAMCHIRA BISIOLATEVO GAMCHAM GAMATVO FILOSTINI GAMATOOSHOFISBALA TE MUVANGAME BISIO LA HAMAS",
+  "diagnostic_wer": 0.9591836734693877,
+  "alignment_path_log_probability": -1504.785173489953,
+  "alignment_error": null,
+  "padding_count": 0,
+  "truncated_words": 0,
+  "visual_time_support": "nearest-sampled-frame cells, midpoint boundaries; 5 Hz sampling",
+  "face_selection": "largest detected face; speaker identity not verified",
+  "feature_dimensions": {
+    "text": 768,
+    "audio": 25,
+    "vision": 52
+  },
+  "statuses": {
+    "low_confidence_words": 41,
+    "unaligned_words": 0,
+    "no_face_frames": 10,
+    "multiple_face_frames": 11,
+    "silent_audio_frames": 1031,
+    "invalid_audio_frames": 0
+  },
+  "elapsed_seconds": 9.79010647162795
+}

@@ -1,0 +1,33 @@
+{
+  "selected_attention": "self",
+  "selection_rule": "min six-profile J among augmented attention models; clean weight .5 and five corrupt profiles .1 each",
+  "reference_guardrails": {
+    "self": {
+      "clean_f1": true,
+      "clean_mae": false,
+      "robust_f1": false,
+      "robust_mae": false,
+      "neutral": true,
+      "strong_negative": true,
+      "strong_positive": false
+    },
+    "cross": {
+      "clean_f1": true,
+      "clean_mae": false,
+      "robust_f1": false,
+      "robust_mae": false,
+      "neutral": true,
+      "strong_negative": false,
+      "strong_positive": false
+    }
+  },
+  "meets_previous_replacement_criteria": false,
+  "protocol_sha256": "f983b4b1e07dd23caec0b6027e26872d40545564cb4c6a4e7a485be8cb5db3e9",
+  "weights": {
+    "self_17.pt": "84d163cd46cdd9cbfa6a7bc81c38c2ae0e16ef0593701bd66198440e06b497af",
+    "self_29.pt": "b91c6bf5986b65739df8e44571d6ffca6b625ede133935aed91e5165acbbf10a",
+    "self_43.pt": "6b1d162d3f81f5c0f32ccae4d9752318e057904de15d6422b194b8eaeeb2a49c"
+  },
+  "previous_outputs_replaced": false,
+  "test_previously_evaluated": true
+}

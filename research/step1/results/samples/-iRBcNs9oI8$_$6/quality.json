@@ -1,0 +1,15 @@
+{
+  "sample_id": "-iRBcNs9oI8$_$6",
+  "requires_transcript_review": true,
+  "reasons": [
+    "more_than_half_words_below_0.1",
+    "diagnostic_WER_above_0.8"
+  ],
+  "mean_confidence": 0.2011333405971527,
+  "low_confidence_fraction": 0.8,
+  "diagnostic_wer": 1.8,
+  "usable_word_times": 0,
+  "words": 5,
+  "raw_text": "What is a power pose",
+  "diagnostic_asr": "HELP YOU IF YOU HAVE AN ENGLISH JOB INTERVIEW"
+}

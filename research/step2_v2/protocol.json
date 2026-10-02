@@ -1,0 +1,150 @@
+{
+  "version": 2,
+  "configs": {
+    "text": {
+      "indices": [
+        0
+      ]
+    },
+    "audio": {
+      "indices": [
+        1
+      ]
+    },
+    "vision": {
+      "indices": [
+        2
+      ]
+    },
+    "fixed": {
+      "fixed": true
+    },
+    "gated": {},
+    "aux": {
+      "aux": true
+    },
+    "msd": {
+      "aux": true,
+      "msd": true
+    },
+    "cce": {
+      "aux": true,
+      "msd": true,
+      "cce": true
+    },
+    "imtd": {
+      "aux": true,
+      "msd": true,
+      "cce": true,
+      "imtd": true
+    },
+    "emc": {
+      "aux": true,
+      "msd": true,
+      "cce": true,
+      "imtd": true,
+      "emc": true
+    }
+  },
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "prior": [
+    0.2848306332842415,
+    0.2232695139911635,
+    0.49189985272459497
+  ],
+  "mean": 0.16583210777639465,
+  "hidden": 64,
+  "dropout": 0.2,
+  "batch": 64,
+  "lr": 0.001,
+  "weight_decay": 0.001,
+  "stage_epochs": [
+    20,
+    15
+  ],
+  "patience": 5,
+  "clip_grad": 5,
+  "clean_probability": 0.5,
+  "reg_weight_candidates": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "validation_profiles": [
+    {
+      "name": "clean",
+      "subset": "",
+      "rate": 0.0,
+      "position": "random"
+    },
+    {
+      "name": "T_r30_random",
+      "subset": "T",
+      "rate": 0.3,
+      "position": "random"
+    },
+    {
+      "name": "A_r30_random",
+      "subset": "A",
+      "rate": 0.3,
+      "position": "random"
+    },
+    {
+      "name": "V_r30_random",
+      "subset": "V",
+      "rate": 0.3,
+      "position": "random"
+    },
+    {
+      "name": "TAV_r30_random",
+      "subset": "TAV",
+      "rate": 0.3,
+      "position": "random"
+    },
+    {
+      "name": "TAV_r50_random",
+      "subset": "TAV",
+      "rate": 0.5,
+      "position": "random"
+    }
+  ],
+  "validation_corruption_seed": 20260924,
+  "source_sha256": "66e867aa74bc70a844e806e5571e371c9abb4a35f9e2887ce9b4d97ff2cb8fcd",
+  "encoder": {
+    "repo": "distilbert/distilbert-base-uncased",
+    "revision": "12040accade4e8a0f71eabdb258fecc2e7e948be",
+    "weights_sha256": "5e3f1108e3cb34ee048634875d8482665b65ac713291a7e32396fb18f6ff0063"
+  },
+  "normalization_sha256": "d11c18570f83af5f9569853444a73b3c112e0ae3aeff42d3fe2bcf04206971db",
+  "loss_weights": {
+    "aux": 0.1,
+    "alignment": 0.05,
+    "orthogonal": 0.05,
+    "preserve": 0.05,
+    "kd": 0.1,
+    "emc": 0.01,
+    "emc_gradient": 0.01
+  },
+  "training_mask": "SHA256(seed,global_epoch,sample_id); independent of model and label; clean probability .5",
+  "evaluation_seed": 41000,
+  "evaluation_repeats": 3,
+  "selection": "six-profile J; complete validation guardrails; ties within .002 prefer fewer parameters",
+  "guardrails": {
+    "clean_f1_drop": 0.005,
+    "clean_mae_rise": 0.01,
+    "robust_f1_gain": 0.01,
+    "robust_mae_rise": 0.0,
+    "neutral_recall_drop": 0.01,
+    "strong_mae_rise": 0.02
+  },
+  "previously_evaluated_test": true,
+  "bootstrap_repeats": 1000,
+  "bootstrap_seed": 20260926,
+  "package_limit_bytes": 50000000,
+  "text_frozen": true,
+  "regression_distillation": false
+}

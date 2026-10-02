@@ -1,0 +1,12 @@
+{
+  "sample_id": "-egA8-b7-3M$_$9",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.9757975339889526,
+  "low_confidence_fraction": 0.0,
+  "diagnostic_wer": 0.0,
+  "usable_word_times": 10,
+  "words": 10,
+  "raw_text": "Secondly, another goal of exhibiting  is building your company image.",
+  "diagnostic_asr": "SECONDLY ANOTHER GOAL OF EXHIBITING IS BUILDING YOUR COMPANY IMAGE"
+}

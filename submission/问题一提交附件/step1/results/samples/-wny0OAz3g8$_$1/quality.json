@@ -1,0 +1,12 @@
+{
+  "sample_id": "-wny0OAz3g8$_$1",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.9666914343833923,
+  "low_confidence_fraction": 0.0,
+  "diagnostic_wer": 0.22727272727272727,
+  "usable_word_times": 22,
+  "words": 22,
+  "raw_text": "And because they couldn’t join unions, many Black workers couldn’t get manufacturing or trade work – which paid much better than service work",
+  "diagnostic_asr": "S TO JOIN AND BECAUSE THEY COULDN'T JOIN UNIONS MANY BLACK WORKERS COULDN'T GET MANUFACTURING OR TRADE WORK WHICH PAID MUCH BETTER THAN SERVICE WORK AND BECAUSE"
+}

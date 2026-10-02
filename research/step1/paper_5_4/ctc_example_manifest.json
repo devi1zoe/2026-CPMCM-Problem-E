@@ -1,0 +1,377 @@
+{
+  "sample_id": "-egA8-b7-3M$_$1",
+  "source_video": "E题_材料阅读/E题数据/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-egA8-b7-3M/1.mp4",
+  "feature_file": "/mnt/data/math/step1/results/samples/-egA8-b7-3M$_$1/features.npz",
+  "display_interval": [
+    1.8,
+    2.76
+  ],
+  "target_subsequence": "SUCCESSFUL|LEGAL",
+  "words": [
+    {
+      "word_index": 3,
+      "word": "successful",
+      "interval": [
+        1.84246875,
+        2.4024687499999997
+      ],
+      "confidence": 0.9683406352996826,
+      "emitting_ctc_frames": [
+        92,
+        95,
+        96,
+        97,
+        102,
+        106,
+        107,
+        110,
+        111,
+        112,
+        115,
+        118,
+        119
+      ]
+    },
+    {
+      "word_index": 4,
+      "word": "Legal",
+      "interval": [
+        2.5024687500000002,
+        2.72246875
+      ],
+      "confidence": 0.9984953999519348,
+      "emitting_ctc_frames": [
+        125,
+        128,
+        131,
+        134,
+        135
+      ]
+    }
+  ],
+  "plotted_path": [
+    {
+      "ctc_frame": 91,
+      "time_center": 1.83246875,
+      "expanded_state": 24,
+      "symbol": "<blank>",
+      "plot_row": 16
+    },
+    {
+      "ctc_frame": 92,
+      "time_center": 1.85246875,
+      "expanded_state": 25,
+      "symbol": "S",
+      "plot_row": 0
+    },
+    {
+      "ctc_frame": 93,
+      "time_center": 1.87246875,
+      "expanded_state": 26,
+      "symbol": "<blank>",
+      "plot_row": 16
+    },
+    {
+      "ctc_frame": 94,
+      "time_center": 1.89246875,
+      "expanded_state": 26,
+      "symbol": "<blank>",
+      "plot_row": 16
+    },
+    {
+      "ctc_frame": 95,
+      "time_center": 1.91246875,
+      "expanded_state": 27,
+      "symbol": "U",
+      "plot_row": 1
+    },
+    {
+      "ctc_frame": 96,
+      "time_center": 1.93246875,
+      "expanded_state": 27,
+      "symbol": "U",
+      "plot_row": 1
+    },
+    {
+      "ctc_frame": 97,
+      "time_center": 1.95246875,
+      "expanded_state": 29,
+      "symbol": "C",
+      "plot_row": 2
+    },
+    {
+      "ctc_frame": 98,
+      "time_center": 1.97246875,
+      "expanded_state": 30,
+      "symbol": "<blank>",
+      "plot_row": 16
+    },
+    {
+      "ctc_frame": 99,
+      "time_center": 1.99246875,
+      "expanded_state": 30,
+      "symbol": "<blank>",
+      "plot_row": 16
+    },
+    {
+      "ctc_frame": 100,
+      "time_center": 2.01246875,
+      "expanded_state": 30,
+      "symbol": "<blank>",
+      "plot_row": 16
+    },
+    {
+      "ctc_frame": 101,
+      "time_center": 2.03246875,
+      "expanded_state": 30,
+      "symbol": "<blank>",
+      "plot_row": 16
+    },
+    {
+      "ctc_frame": 102,
+      "time_center": 2.05246875,
+      "expanded_state": 31,
+      "symbol": "C",
+      "plot_row": 3
+    },
+    {
+      "ctc_frame": 103,
+      "time_center": 2.07246875,
+      "expanded_state": 32,
+      "symbol": "<blank>",
+      "plot_row": 16
+    },
+    {
+      "ctc_frame": 104,
+      "time_center": 2.09246875,
+      "expanded_state": 32,
+      "symbol": "<blank>",
+      "plot_row": 16
+    },
+    {
+      "ctc_frame": 105,
+      "time_center": 2.11246875,
+      "expanded_state": 32,
+      "symbol": "<blank>",
+      "plot_row": 16
+    },
+    {
+      "ctc_frame": 106,
+      "time_center": 2.13246875,
+      "expanded_state": 33,
+      "symbol": "E",
+      "plot_row": 4
+    },
+    {
+      "ctc_frame": 107,
+      "time_center": 2.15246875,
+      "expanded_state": 35,
+      "symbol": "S",
+      "plot_row": 5
+    },
+    {
+      "ctc_frame": 108,
+      "time_center": 2.17246875,
+      "expanded_state": 36,
+      "symbol": "<blank>",
+      "plot_row": 16
+    },
+    {
+      "ctc_frame": 109,
+      "time_center": 2.19246875,
+      "expanded_state": 36,
+      "symbol": "<blank>",
+      "plot_row": 16
+    },
+    {
+      "ctc_frame": 110,
+      "time_center": 2.21246875,
+      "expanded_state": 37,
+      "symbol": "S",
+      "plot_row": 6
+    },
+    {
+      "ctc_frame": 111,
+      "time_center": 2.23246875,
+      "expanded_state": 37,
+      "symbol": "S",
+      "plot_row": 6
+    },
+    {
+      "ctc_frame": 112,
+      "time_center": 2.25246875,
+      "expanded_state": 37,
+      "symbol": "S",
+      "plot_row": 6
+    },
+    {
+      "ctc_frame": 113,
+      "time_center": 2.27246875,
+      "expanded_state": 38,
+      "symbol": "<blank>",
+      "plot_row": 16
+    },
+    {
+      "ctc_frame": 114,
+      "time_center": 2.29246875,
+      "expanded_state": 38,
+      "symbol": "<blank>",
+      "plot_row": 16
+    },
+    {
+      "ctc_frame": 115,
+      "time_center": 2.31246875,
+      "expanded_state": 39,
+      "symbol": "F",
+      "plot_row": 7
+    },
+    {
+      "ctc_frame": 116,
+      "time_center": 2.33246875,
+      "expanded_state": 40,
+      "symbol": "<blank>",
+      "plot_row": 16
+    },
+    {
+      "ctc_frame": 117,
+      "time_center": 2.35246875,
+      "expanded_state": 40,
+      "symbol": "<blank>",
+      "plot_row": 16
+    },
+    {
+      "ctc_frame": 118,
+      "time_center": 2.37246875,
+      "expanded_state": 41,
+      "symbol": "U",
+      "plot_row": 8
+    },
+    {
+      "ctc_frame": 119,
+      "time_center": 2.39246875,
+      "expanded_state": 43,
+      "symbol": "L",
+      "plot_row": 9
+    },
+    {
+      "ctc_frame": 120,
+      "time_center": 2.41246875,
+      "expanded_state": 44,
+      "symbol": "<blank>",
+      "plot_row": 16
+    },
+    {
+      "ctc_frame": 121,
+      "time_center": 2.43246875,
+      "expanded_state": 45,
+      "symbol": "|",
+      "plot_row": 10
+    },
+    {
+      "ctc_frame": 122,
+      "time_center": 2.45246875,
+      "expanded_state": 45,
+      "symbol": "|",
+      "plot_row": 10
+    },
+    {
+      "ctc_frame": 123,
+      "time_center": 2.47246875,
+      "expanded_state": 45,
+      "symbol": "|",
+      "plot_row": 10
+    },
+    {
+      "ctc_frame": 124,
+      "time_center": 2.49246875,
+      "expanded_state": 46,
+      "symbol": "<blank>",
+      "plot_row": 16
+    },
+    {
+      "ctc_frame": 125,
+      "time_center": 2.51246875,
+      "expanded_state": 47,
+      "symbol": "L",
+      "plot_row": 11
+    },
+    {
+      "ctc_frame": 126,
+      "time_center": 2.53246875,
+      "expanded_state": 48,
+      "symbol": "<blank>",
+      "plot_row": 16
+    },
+    {
+      "ctc_frame": 127,
+      "time_center": 2.55246875,
+      "expanded_state": 48,
+      "symbol": "<blank>",
+      "plot_row": 16
+    },
+    {
+      "ctc_frame": 128,
+      "time_center": 2.57246875,
+      "expanded_state": 49,
+      "symbol": "E",
+      "plot_row": 12
+    },
+    {
+      "ctc_frame": 129,
+      "time_center": 2.59246875,
+      "expanded_state": 50,
+      "symbol": "<blank>",
+      "plot_row": 16
+    },
+    {
+      "ctc_frame": 130,
+      "time_center": 2.61246875,
+      "expanded_state": 50,
+      "symbol": "<blank>",
+      "plot_row": 16
+    },
+    {
+      "ctc_frame": 131,
+      "time_center": 2.63246875,
+      "expanded_state": 51,
+      "symbol": "G",
+      "plot_row": 13
+    },
+    {
+      "ctc_frame": 132,
+      "time_center": 2.65246875,
+      "expanded_state": 52,
+      "symbol": "<blank>",
+      "plot_row": 16
+    },
+    {
+      "ctc_frame": 133,
+      "time_center": 2.67246875,
+      "expanded_state": 52,
+      "symbol": "<blank>",
+      "plot_row": 16
+    },
+    {
+      "ctc_frame": 134,
+      "time_center": 2.69246875,
+      "expanded_state": 53,
+      "symbol": "A",
+      "plot_row": 14
+    },
+    {
+      "ctc_frame": 135,
+      "time_center": 2.71246875,
+      "expanded_state": 55,
+      "symbol": "L",
+      "plot_row": 15
+    },
+    {
+      "ctc_frame": 136,
+      "time_center": 2.73246875,
+      "expanded_state": 56,
+      "symbol": "<blank>",
+      "plot_row": 16
+    }
+  ],
+  "note": "仅读取既有模型结果并解码原音频；不重跑推理。概率热图含重复字符行及空白符行；圆点显示完整转写最优路径的局部结果。词界符不参与词边界与置信度计算。区间未经人工边界标注验证。"
+}

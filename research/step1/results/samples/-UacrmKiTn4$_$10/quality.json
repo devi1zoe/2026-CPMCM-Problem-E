@@ -1,0 +1,12 @@
+{
+  "sample_id": "-UacrmKiTn4$_$10",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.92751544713974,
+  "low_confidence_fraction": 0.0,
+  "diagnostic_wer": 0.1111111111111111,
+  "usable_word_times": 18,
+  "words": 18,
+  "raw_text": "Because, if they are not in any way held accountable for reading the material they won't do it.",
+  "diagnostic_asr": "READING IT BECAUSE IF THEY ARE NOT IN ANY WAY HELD ACCOUNTABLE FOR READING THE MATERIAL THEY WON'T DO IT"
+}

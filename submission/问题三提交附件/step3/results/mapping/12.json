@@ -1,0 +1,1121 @@
+{
+  "sample_id": "12",
+  "raw_text": "Or worse, an individual previously had good credit, but usually by no fault of their own, or perhaps by fault of their own, they have let their credit sag, and credit scores is very low.",
+  "duration": 13.013997395833334,
+  "video_fps": 30.0,
+  "video_frames": 388,
+  "video_source": "附件4-可解释专项视频样本与特征文件/附件4-可解释专项视频样本与特征文件/对齐版本/videos/12.mp4",
+  "video_sha256": "5d4da7ef7e6a4a344a2b9657fadfa2207c3565a9f7c1fb806e629c95b453aff3",
+  "audio_coverage_fraction": 1.0,
+  "diagnostic_asr": "OR WORSE AN INDIVIDUAL PREVIOUSLY HAD GOOD CREDIT BUT USUALLY BY NO FAULT OF THEIR OWN OR PERHAPS BY FAULT OF THEIR OWN THEY HAVE LET THEIR CREDIT SEG AND A CREDSCORES VERY LOW",
+  "diagnostic_wer": 0.11428571428571428,
+  "mean_ctc_confidence": 0.9056985378265381,
+  "requires_timing_review": false,
+  "reasons": [],
+  "words": [
+    {
+      "index": 0,
+      "original": "Or",
+      "char_start": 0,
+      "char_end": 2,
+      "normalized": "OR",
+      "start": 0.58246875,
+      "end": 0.64246875,
+      "confidence": 0.9994826912879944,
+      "status": "aligned"
+    },
+    {
+      "index": 1,
+      "original": "worse",
+      "char_start": 3,
+      "char_end": 8,
+      "normalized": "WORSE",
+      "start": 0.72246875,
+      "end": 1.06246875,
+      "confidence": 0.9890196919441223,
+      "status": "aligned"
+    },
+    {
+      "index": 2,
+      "original": "an",
+      "char_start": 10,
+      "char_end": 12,
+      "normalized": "AN",
+      "start": 1.16246875,
+      "end": 1.20246875,
+      "confidence": 0.9957864284515381,
+      "status": "aligned"
+    },
+    {
+      "index": 3,
+      "original": "individual",
+      "char_start": 13,
+      "char_end": 23,
+      "normalized": "INDIVIDUAL",
+      "start": 1.26246875,
+      "end": 1.74246875,
+      "confidence": 0.9929459095001221,
+      "status": "aligned"
+    },
+    {
+      "index": 4,
+      "original": "previously",
+      "char_start": 24,
+      "char_end": 34,
+      "normalized": "PREVIOUSLY",
+      "start": 1.94246875,
+      "end": 2.4224687499999997,
+      "confidence": 0.9106520414352417,
+      "status": "aligned"
+    },
+    {
+      "index": 5,
+      "original": "had",
+      "char_start": 35,
+      "char_end": 38,
+      "normalized": "HAD",
+      "start": 2.5024687500000002,
+      "end": 2.70246875,
+      "confidence": 0.9987522959709167,
+      "status": "aligned"
+    },
+    {
+      "index": 6,
+      "original": "good",
+      "char_start": 39,
+      "char_end": 43,
+      "normalized": "GOOD",
+      "start": 2.82246875,
+      "end": 2.98246875,
+      "confidence": 0.9997091889381409,
+      "status": "aligned"
+    },
+    {
+      "index": 7,
+      "original": "credit",
+      "char_start": 44,
+      "char_end": 50,
+      "normalized": "CREDIT",
+      "start": 3.0824687500000003,
+      "end": 3.4024687499999997,
+      "confidence": 0.9724713563919067,
+      "status": "aligned"
+    },
+    {
+      "index": 8,
+      "original": "but",
+      "char_start": 52,
+      "char_end": 55,
+      "normalized": "BUT",
+      "start": 3.88246875,
+      "end": 4.042468749999999,
+      "confidence": 0.9992367029190063,
+      "status": "aligned"
+    },
+    {
+      "index": 9,
+      "original": "usually",
+      "char_start": 56,
+      "char_end": 63,
+      "normalized": "USUALLY",
+      "start": 4.64246875,
+      "end": 4.88246875,
+      "confidence": 0.9925732016563416,
+      "status": "aligned"
+    },
+    {
+      "index": 10,
+      "original": "by",
+      "char_start": 64,
+      "char_end": 66,
+      "normalized": "BY",
+      "start": 5.14246875,
+      "end": 5.26246875,
+      "confidence": 0.9997144341468811,
+      "status": "aligned"
+    },
+    {
+      "index": 11,
+      "original": "no",
+      "char_start": 67,
+      "char_end": 69,
+      "normalized": "NO",
+      "start": 5.38246875,
+      "end": 5.46246875,
+      "confidence": 0.9999313950538635,
+      "status": "aligned"
+    },
+    {
+      "index": 12,
+      "original": "fault",
+      "char_start": 70,
+      "char_end": 75,
+      "normalized": "FAULT",
+      "start": 5.58246875,
+      "end": 5.78246875,
+      "confidence": 0.9980742931365967,
+      "status": "aligned"
+    },
+    {
+      "index": 13,
+      "original": "of",
+      "char_start": 76,
+      "char_end": 78,
+      "normalized": "OF",
+      "start": 5.862468750000001,
+      "end": 5.90246875,
+      "confidence": 0.9472025632858276,
+      "status": "aligned"
+    },
+    {
+      "index": 14,
+      "original": "their",
+      "char_start": 79,
+      "char_end": 84,
+      "normalized": "THEIR",
+      "start": 5.942468750000001,
+      "end": 6.10246875,
+      "confidence": 0.9983310699462891,
+      "status": "aligned"
+    },
+    {
+      "index": 15,
+      "original": "own",
+      "char_start": 85,
+      "char_end": 88,
+      "normalized": "OWN",
+      "start": 6.26246875,
+      "end": 6.38246875,
+      "confidence": 0.9837743639945984,
+      "status": "aligned"
+    },
+    {
+      "index": 16,
+      "original": "or",
+      "char_start": 90,
+      "char_end": 92,
+      "normalized": "OR",
+      "start": 6.96246875,
+      "end": 7.002468749999999,
+      "confidence": 0.9978846311569214,
+      "status": "aligned"
+    },
+    {
+      "index": 17,
+      "original": "perhaps",
+      "char_start": 93,
+      "char_end": 100,
+      "normalized": "PERHAPS",
+      "start": 7.10246875,
+      "end": 7.48246875,
+      "confidence": 0.9346019625663757,
+      "status": "aligned"
+    },
+    {
+      "index": 18,
+      "original": "by",
+      "char_start": 101,
+      "char_end": 103,
+      "normalized": "BY",
+      "start": 7.56246875,
+      "end": 7.68246875,
+      "confidence": 0.9995388984680176,
+      "status": "aligned"
+    },
+    {
+      "index": 19,
+      "original": "fault",
+      "char_start": 104,
+      "char_end": 109,
+      "normalized": "FAULT",
+      "start": 7.80246875,
+      "end": 8.00246875,
+      "confidence": 0.9195480942726135,
+      "status": "aligned"
+    },
+    {
+      "index": 20,
+      "original": "of",
+      "char_start": 110,
+      "char_end": 112,
+      "normalized": "OF",
+      "start": 8.08246875,
+      "end": 8.12246875,
+      "confidence": 0.9943950772285461,
+      "status": "aligned"
+    },
+    {
+      "index": 21,
+      "original": "their",
+      "char_start": 113,
+      "char_end": 118,
+      "normalized": "THEIR",
+      "start": 8.18246875,
+      "end": 8.34246875,
+      "confidence": 0.9932928085327148,
+      "status": "aligned"
+    },
+    {
+      "index": 22,
+      "original": "own",
+      "char_start": 119,
+      "char_end": 122,
+      "normalized": "OWN",
+      "start": 8.462468750000001,
+      "end": 8.54246875,
+      "confidence": 0.9997117519378662,
+      "status": "aligned"
+    },
+    {
+      "index": 23,
+      "original": "they",
+      "char_start": 124,
+      "char_end": 128,
+      "normalized": "THEY",
+      "start": 8.66246875,
+      "end": 8.82246875,
+      "confidence": 0.921578049659729,
+      "status": "aligned"
+    },
+    {
+      "index": 24,
+      "original": "have",
+      "char_start": 129,
+      "char_end": 133,
+      "normalized": "HAVE",
+      "start": 8.882468750000001,
+      "end": 9.02246875,
+      "confidence": 0.976560115814209,
+      "status": "aligned"
+    },
+    {
+      "index": 25,
+      "original": "let",
+      "char_start": 134,
+      "char_end": 137,
+      "normalized": "LET",
+      "start": 9.08246875,
+      "end": 9.222468749999999,
+      "confidence": 0.9710680246353149,
+      "status": "aligned"
+    },
+    {
+      "index": 26,
+      "original": "their",
+      "char_start": 138,
+      "char_end": 143,
+      "normalized": "THEIR",
+      "start": 9.26246875,
+      "end": 9.40246875,
+      "confidence": 0.8702771067619324,
+      "status": "aligned"
+    },
+    {
+      "index": 27,
+      "original": "credit",
+      "char_start": 144,
+      "char_end": 150,
+      "normalized": "CREDIT",
+      "start": 9.48246875,
+      "end": 9.76246875,
+      "confidence": 0.9851351976394653,
+      "status": "aligned"
+    },
+    {
+      "index": 28,
+      "original": "sag",
+      "char_start": 151,
+      "char_end": 154,
+      "normalized": "SAG",
+      "start": 9.94246875,
+      "end": 10.30246875,
+      "confidence": 0.7085868120193481,
+      "status": "aligned"
+    },
+    {
+      "index": 29,
+      "original": "and",
+      "char_start": 156,
+      "char_end": 159,
+      "normalized": "AND",
+      "start": 10.62246875,
+      "end": 10.74246875,
+      "confidence": 0.9986951351165771,
+      "status": "aligned"
+    },
+    {
+      "index": 30,
+      "original": "credit",
+      "char_start": 160,
+      "char_end": 166,
+      "normalized": "CREDIT",
+      "start": 11.10246875,
+      "end": 11.30246875,
+      "confidence": 0.2190321981906891,
+      "status": "aligned"
+    },
+    {
+      "index": 31,
+      "original": "scores",
+      "char_start": 167,
+      "char_end": 173,
+      "normalized": "SCORES",
+      "start": 11.32246875,
+      "end": 11.58246875,
+      "confidence": 0.2442546784877777,
+      "status": "aligned"
+    },
+    {
+      "index": 32,
+      "original": "is",
+      "char_start": 174,
+      "char_end": 176,
+      "normalized": "IS",
+      "start": 11.62246875,
+      "end": 11.68246875,
+      "confidence": 0.3257482647895813,
+      "status": "aligned"
+    },
+    {
+      "index": 33,
+      "original": "very",
+      "char_start": 177,
+      "char_end": 181,
+      "normalized": "VERY",
+      "start": 11.74246875,
+      "end": 11.94246875,
+      "confidence": 0.8704485893249512,
+      "status": "aligned"
+    },
+    {
+      "index": 34,
+      "original": "low",
+      "char_start": 182,
+      "char_end": 185,
+      "normalized": "LOW",
+      "start": 12.02246875,
+      "end": 12.26246875,
+      "confidence": 0.9914333820343018,
+      "status": "aligned"
+    }
+  ],
+  "tokens": [
+    {
+      "sample_id": "12",
+      "slot": 1,
+      "token": "or",
+      "token_id": 2030,
+      "char_start": 0,
+      "char_end": 2,
+      "raw_fragment": "Or",
+      "word_indices": [
+        0
+      ],
+      "candidate_start": 0.58246875,
+      "candidate_end": 0.64246875,
+      "timing_usable": true,
+      "confidence": 0.9994826912879944,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "12",
+      "slot": 2,
+      "token": "worse",
+      "token_id": 4788,
+      "char_start": 3,
+      "char_end": 8,
+      "raw_fragment": "worse",
+      "word_indices": [
+        1
+      ],
+      "candidate_start": 0.72246875,
+      "candidate_end": 1.06246875,
+      "timing_usable": true,
+      "confidence": 0.9890196919441223,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "12",
+      "slot": 3,
+      "token": ",",
+      "token_id": 1010,
+      "char_start": 8,
+      "char_end": 9,
+      "raw_fragment": ",",
+      "word_indices": [],
+      "candidate_start": null,
+      "candidate_end": null,
+      "timing_usable": false,
+      "confidence": null,
+      "mapping": "punctuation_without_own_acoustic_interval"
+    },
+    {
+      "sample_id": "12",
+      "slot": 4,
+      "token": "an",
+      "token_id": 2019,
+      "char_start": 10,
+      "char_end": 12,
+      "raw_fragment": "an",
+      "word_indices": [
+        2
+      ],
+      "candidate_start": 1.16246875,
+      "candidate_end": 1.20246875,
+      "timing_usable": true,
+      "confidence": 0.9957864284515381,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "12",
+      "slot": 5,
+      "token": "individual",
+      "token_id": 3265,
+      "char_start": 13,
+      "char_end": 23,
+      "raw_fragment": "individual",
+      "word_indices": [
+        3
+      ],
+      "candidate_start": 1.26246875,
+      "candidate_end": 1.74246875,
+      "timing_usable": true,
+      "confidence": 0.9929459095001221,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "12",
+      "slot": 6,
+      "token": "previously",
+      "token_id": 3130,
+      "char_start": 24,
+      "char_end": 34,
+      "raw_fragment": "previously",
+      "word_indices": [
+        4
+      ],
+      "candidate_start": 1.94246875,
+      "candidate_end": 2.4224687499999997,
+      "timing_usable": true,
+      "confidence": 0.9106520414352417,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "12",
+      "slot": 7,
+      "token": "had",
+      "token_id": 2018,
+      "char_start": 35,
+      "char_end": 38,
+      "raw_fragment": "had",
+      "word_indices": [
+        5
+      ],
+      "candidate_start": 2.5024687500000002,
+      "candidate_end": 2.70246875,
+      "timing_usable": true,
+      "confidence": 0.9987522959709167,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "12",
+      "slot": 8,
+      "token": "good",
+      "token_id": 2204,
+      "char_start": 39,
+      "char_end": 43,
+      "raw_fragment": "good",
+      "word_indices": [
+        6
+      ],
+      "candidate_start": 2.82246875,
+      "candidate_end": 2.98246875,
+      "timing_usable": true,
+      "confidence": 0.9997091889381409,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "12",
+      "slot": 9,
+      "token": "credit",
+      "token_id": 4923,
+      "char_start": 44,
+      "char_end": 50,
+      "raw_fragment": "credit",
+      "word_indices": [
+        7
+      ],
+      "candidate_start": 3.0824687500000003,
+      "candidate_end": 3.4024687499999997,
+      "timing_usable": true,
+      "confidence": 0.9724713563919067,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "12",
+      "slot": 10,
+      "token": ",",
+      "token_id": 1010,
+      "char_start": 50,
+      "char_end": 51,
+      "raw_fragment": ",",
+      "word_indices": [],
+      "candidate_start": null,
+      "candidate_end": null,
+      "timing_usable": false,
+      "confidence": null,
+      "mapping": "punctuation_without_own_acoustic_interval"
+    },
+    {
+      "sample_id": "12",
+      "slot": 11,
+      "token": "but",
+      "token_id": 2021,
+      "char_start": 52,
+      "char_end": 55,
+      "raw_fragment": "but",
+      "word_indices": [
+        8
+      ],
+      "candidate_start": 3.88246875,
+      "candidate_end": 4.042468749999999,
+      "timing_usable": true,
+      "confidence": 0.9992367029190063,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "12",
+      "slot": 12,
+      "token": "usually",
+      "token_id": 2788,
+      "char_start": 56,
+      "char_end": 63,
+      "raw_fragment": "usually",
+      "word_indices": [
+        9
+      ],
+      "candidate_start": 4.64246875,
+      "candidate_end": 4.88246875,
+      "timing_usable": true,
+      "confidence": 0.9925732016563416,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "12",
+      "slot": 13,
+      "token": "by",
+      "token_id": 2011,
+      "char_start": 64,
+      "char_end": 66,
+      "raw_fragment": "by",
+      "word_indices": [
+        10
+      ],
+      "candidate_start": 5.14246875,
+      "candidate_end": 5.26246875,
+      "timing_usable": true,
+      "confidence": 0.9997144341468811,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "12",
+      "slot": 14,
+      "token": "no",
+      "token_id": 2053,
+      "char_start": 67,
+      "char_end": 69,
+      "raw_fragment": "no",
+      "word_indices": [
+        11
+      ],
+      "candidate_start": 5.38246875,
+      "candidate_end": 5.46246875,
+      "timing_usable": true,
+      "confidence": 0.9999313950538635,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "12",
+      "slot": 15,
+      "token": "fault",
+      "token_id": 6346,
+      "char_start": 70,
+      "char_end": 75,
+      "raw_fragment": "fault",
+      "word_indices": [
+        12
+      ],
+      "candidate_start": 5.58246875,
+      "candidate_end": 5.78246875,
+      "timing_usable": true,
+      "confidence": 0.9980742931365967,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "12",
+      "slot": 16,
+      "token": "of",
+      "token_id": 1997,
+      "char_start": 76,
+      "char_end": 78,
+      "raw_fragment": "of",
+      "word_indices": [
+        13
+      ],
+      "candidate_start": 5.862468750000001,
+      "candidate_end": 5.90246875,
+      "timing_usable": true,
+      "confidence": 0.9472025632858276,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "12",
+      "slot": 17,
+      "token": "their",
+      "token_id": 2037,
+      "char_start": 79,
+      "char_end": 84,
+      "raw_fragment": "their",
+      "word_indices": [
+        14
+      ],
+      "candidate_start": 5.942468750000001,
+      "candidate_end": 6.10246875,
+      "timing_usable": true,
+      "confidence": 0.9983310699462891,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "12",
+      "slot": 18,
+      "token": "own",
+      "token_id": 2219,
+      "char_start": 85,
+      "char_end": 88,
+      "raw_fragment": "own",
+      "word_indices": [
+        15
+      ],
+      "candidate_start": 6.26246875,
+      "candidate_end": 6.38246875,
+      "timing_usable": true,
+      "confidence": 0.9837743639945984,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "12",
+      "slot": 19,
+      "token": ",",
+      "token_id": 1010,
+      "char_start": 88,
+      "char_end": 89,
+      "raw_fragment": ",",
+      "word_indices": [],
+      "candidate_start": null,
+      "candidate_end": null,
+      "timing_usable": false,
+      "confidence": null,
+      "mapping": "punctuation_without_own_acoustic_interval"
+    },
+    {
+      "sample_id": "12",
+      "slot": 20,
+      "token": "or",
+      "token_id": 2030,
+      "char_start": 90,
+      "char_end": 92,
+      "raw_fragment": "or",
+      "word_indices": [
+        16
+      ],
+      "candidate_start": 6.96246875,
+      "candidate_end": 7.002468749999999,
+      "timing_usable": true,
+      "confidence": 0.9978846311569214,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "12",
+      "slot": 21,
+      "token": "perhaps",
+      "token_id": 3383,
+      "char_start": 93,
+      "char_end": 100,
+      "raw_fragment": "perhaps",
+      "word_indices": [
+        17
+      ],
+      "candidate_start": 7.10246875,
+      "candidate_end": 7.48246875,
+      "timing_usable": true,
+      "confidence": 0.9346019625663757,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "12",
+      "slot": 22,
+      "token": "by",
+      "token_id": 2011,
+      "char_start": 101,
+      "char_end": 103,
+      "raw_fragment": "by",
+      "word_indices": [
+        18
+      ],
+      "candidate_start": 7.56246875,
+      "candidate_end": 7.68246875,
+      "timing_usable": true,
+      "confidence": 0.9995388984680176,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "12",
+      "slot": 23,
+      "token": "fault",
+      "token_id": 6346,
+      "char_start": 104,
+      "char_end": 109,
+      "raw_fragment": "fault",
+      "word_indices": [
+        19
+      ],
+      "candidate_start": 7.80246875,
+      "candidate_end": 8.00246875,
+      "timing_usable": true,
+      "confidence": 0.9195480942726135,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "12",
+      "slot": 24,
+      "token": "of",
+      "token_id": 1997,
+      "char_start": 110,
+      "char_end": 112,
+      "raw_fragment": "of",
+      "word_indices": [
+        20
+      ],
+      "candidate_start": 8.08246875,
+      "candidate_end": 8.12246875,
+      "timing_usable": true,
+      "confidence": 0.9943950772285461,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "12",
+      "slot": 25,
+      "token": "their",
+      "token_id": 2037,
+      "char_start": 113,
+      "char_end": 118,
+      "raw_fragment": "their",
+      "word_indices": [
+        21
+      ],
+      "candidate_start": 8.18246875,
+      "candidate_end": 8.34246875,
+      "timing_usable": true,
+      "confidence": 0.9932928085327148,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "12",
+      "slot": 26,
+      "token": "own",
+      "token_id": 2219,
+      "char_start": 119,
+      "char_end": 122,
+      "raw_fragment": "own",
+      "word_indices": [
+        22
+      ],
+      "candidate_start": 8.462468750000001,
+      "candidate_end": 8.54246875,
+      "timing_usable": true,
+      "confidence": 0.9997117519378662,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "12",
+      "slot": 27,
+      "token": ",",
+      "token_id": 1010,
+      "char_start": 122,
+      "char_end": 123,
+      "raw_fragment": ",",
+      "word_indices": [],
+      "candidate_start": null,
+      "candidate_end": null,
+      "timing_usable": false,
+      "confidence": null,
+      "mapping": "punctuation_without_own_acoustic_interval"
+    },
+    {
+      "sample_id": "12",
+      "slot": 28,
+      "token": "they",
+      "token_id": 2027,
+      "char_start": 124,
+      "char_end": 128,
+      "raw_fragment": "they",
+      "word_indices": [
+        23
+      ],
+      "candidate_start": 8.66246875,
+      "candidate_end": 8.82246875,
+      "timing_usable": true,
+      "confidence": 0.921578049659729,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "12",
+      "slot": 29,
+      "token": "have",
+      "token_id": 2031,
+      "char_start": 129,
+      "char_end": 133,
+      "raw_fragment": "have",
+      "word_indices": [
+        24
+      ],
+      "candidate_start": 8.882468750000001,
+      "candidate_end": 9.02246875,
+      "timing_usable": true,
+      "confidence": 0.976560115814209,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "12",
+      "slot": 30,
+      "token": "let",
+      "token_id": 2292,
+      "char_start": 134,
+      "char_end": 137,
+      "raw_fragment": "let",
+      "word_indices": [
+        25
+      ],
+      "candidate_start": 9.08246875,
+      "candidate_end": 9.222468749999999,
+      "timing_usable": true,
+      "confidence": 0.9710680246353149,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "12",
+      "slot": 31,
+      "token": "their",
+      "token_id": 2037,
+      "char_start": 138,
+      "char_end": 143,
+      "raw_fragment": "their",
+      "word_indices": [
+        26
+      ],
+      "candidate_start": 9.26246875,
+      "candidate_end": 9.40246875,
+      "timing_usable": true,
+      "confidence": 0.8702771067619324,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "12",
+      "slot": 32,
+      "token": "credit",
+      "token_id": 4923,
+      "char_start": 144,
+      "char_end": 150,
+      "raw_fragment": "credit",
+      "word_indices": [
+        27
+      ],
+      "candidate_start": 9.48246875,
+      "candidate_end": 9.76246875,
+      "timing_usable": true,
+      "confidence": 0.9851351976394653,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "12",
+      "slot": 33,
+      "token": "sa",
+      "token_id": 7842,
+      "char_start": 151,
+      "char_end": 153,
+      "raw_fragment": "sa",
+      "word_indices": [
+        28
+      ],
+      "candidate_start": 9.94246875,
+      "candidate_end": 10.30246875,
+      "timing_usable": true,
+      "confidence": 0.7085868120193481,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "12",
+      "slot": 34,
+      "token": "##g",
+      "token_id": 2290,
+      "char_start": 153,
+      "char_end": 154,
+      "raw_fragment": "g",
+      "word_indices": [
+        28
+      ],
+      "candidate_start": 9.94246875,
+      "candidate_end": 10.30246875,
+      "timing_usable": true,
+      "confidence": 0.7085868120193481,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "12",
+      "slot": 35,
+      "token": ",",
+      "token_id": 1010,
+      "char_start": 154,
+      "char_end": 155,
+      "raw_fragment": ",",
+      "word_indices": [],
+      "candidate_start": null,
+      "candidate_end": null,
+      "timing_usable": false,
+      "confidence": null,
+      "mapping": "punctuation_without_own_acoustic_interval"
+    },
+    {
+      "sample_id": "12",
+      "slot": 36,
+      "token": "and",
+      "token_id": 1998,
+      "char_start": 156,
+      "char_end": 159,
+      "raw_fragment": "and",
+      "word_indices": [
+        29
+      ],
+      "candidate_start": 10.62246875,
+      "candidate_end": 10.74246875,
+      "timing_usable": true,
+      "confidence": 0.9986951351165771,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "12",
+      "slot": 37,
+      "token": "credit",
+      "token_id": 4923,
+      "char_start": 160,
+      "char_end": 166,
+      "raw_fragment": "credit",
+      "word_indices": [
+        30
+      ],
+      "candidate_start": 11.10246875,
+      "candidate_end": 11.30246875,
+      "timing_usable": true,
+      "confidence": 0.2190321981906891,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "12",
+      "slot": 38,
+      "token": "scores",
+      "token_id": 7644,
+      "char_start": 167,
+      "char_end": 173,
+      "raw_fragment": "scores",
+      "word_indices": [
+        31
+      ],
+      "candidate_start": 11.32246875,
+      "candidate_end": 11.58246875,
+      "timing_usable": true,
+      "confidence": 0.2442546784877777,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "12",
+      "slot": 39,
+      "token": "is",
+      "token_id": 2003,
+      "char_start": 174,
+      "char_end": 176,
+      "raw_fragment": "is",
+      "word_indices": [
+        32
+      ],
+      "candidate_start": 11.62246875,
+      "candidate_end": 11.68246875,
+      "timing_usable": true,
+      "confidence": 0.3257482647895813,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "12",
+      "slot": 40,
+      "token": "very",
+      "token_id": 2200,
+      "char_start": 177,
+      "char_end": 181,
+      "raw_fragment": "very",
+      "word_indices": [
+        33
+      ],
+      "candidate_start": 11.74246875,
+      "candidate_end": 11.94246875,
+      "timing_usable": true,
+      "confidence": 0.8704485893249512,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "12",
+      "slot": 41,
+      "token": "low",
+      "token_id": 2659,
+      "char_start": 182,
+      "char_end": 185,
+      "raw_fragment": "low",
+      "word_indices": [
+        34
+      ],
+      "candidate_start": 12.02246875,
+      "candidate_end": 12.26246875,
+      "timing_usable": true,
+      "confidence": 0.9914333820343018,
+      "mapping": "tokenizer_offsets + original_transcript_CTC"
+    },
+    {
+      "sample_id": "12",
+      "slot": 42,
+      "token": ".",
+      "token_id": 1012,
+      "char_start": 185,
+      "char_end": 186,
+      "raw_fragment": ".",
+      "word_indices": [],
+      "candidate_start": null,
+      "candidate_end": null,
+      "timing_usable": false,
+      "confidence": null,
+      "mapping": "punctuation_without_own_acoustic_interval"
+    }
+  ],
+  "token_ids_match": true,
+  "feature_repetition_audit": {
+    "audio": {
+      "multi_piece_words": 1,
+      "identical_feature_groups": 1
+    },
+    "vision": {
+      "multi_piece_words": 1,
+      "identical_feature_groups": 1
+    }
+  },
+  "represented_char_end": 186,
+  "unrepresented_text_tail": "",
+  "timing_claim": "estimated CTC word intervals, not official feature timestamps; aligned AV correspondence follows task specification",
+  "alignment_error": null
+}

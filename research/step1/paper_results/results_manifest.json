@@ -1,0 +1,152 @@
+{
+  "source": "step1/results 中的已保存结果；本次仅读取、汇总与绘图",
+  "counts": {
+    "words": 1932,
+    "timing_usable": 1545,
+    "joint_usable": 1387,
+    "timing_only": 158,
+    "timing_restricted": 387,
+    "risk_sample_words": 317,
+    "low_outside_risk": 70
+  },
+  "quality_rules": {
+    "samples": 100,
+    "requires_transcript_review": 21,
+    "usable_word_times": 1545,
+    "total_words": 1932,
+    "thresholds": {
+      "mean_confidence": 0.2,
+      "word_low_confidence": 0.1,
+      "low_fraction": 0.5,
+      "diagnostic_wer": 0.8
+    },
+    "thresholds_chosen": "检查实际异常后设定的保守质控规则；不以情感标签、预测成绩或人工词界调参",
+    "interpretation": "仅是需要复核的信号，不证明赛题标签错误，也不证明未触发规则者时间正确",
+    "sensitivity": [
+      {
+        "mean_confidence_threshold": 0.1,
+        "wer_threshold": 0.6,
+        "flagged": 25
+      },
+      {
+        "mean_confidence_threshold": 0.1,
+        "wer_threshold": 0.8,
+        "flagged": 21
+      },
+      {
+        "mean_confidence_threshold": 0.1,
+        "wer_threshold": 1.0,
+        "flagged": 20
+      },
+      {
+        "mean_confidence_threshold": 0.2,
+        "wer_threshold": 0.6,
+        "flagged": 25
+      },
+      {
+        "mean_confidence_threshold": 0.2,
+        "wer_threshold": 0.8,
+        "flagged": 21
+      },
+      {
+        "mean_confidence_threshold": 0.2,
+        "wer_threshold": 1.0,
+        "flagged": 20
+      },
+      {
+        "mean_confidence_threshold": 0.3,
+        "wer_threshold": 0.6,
+        "flagged": 25
+      },
+      {
+        "mean_confidence_threshold": 0.3,
+        "wer_threshold": 0.8,
+        "flagged": 21
+      },
+      {
+        "mean_confidence_threshold": 0.3,
+        "wer_threshold": 1.0,
+        "flagged": 20
+      }
+    ]
+  },
+  "verification": {
+    "expected_samples": 100,
+    "checked_samples": 100,
+    "all_passed": true,
+    "source_video_hashes_verified": true,
+    "code_and_config_hashes_verified": true,
+    "model_asset_hashes_verified": true,
+    "ctc_paths_verified": true,
+    "aggregation_recomputed": true,
+    "note": "通过仅指结构与数学映射自洽，不证明真实词界准确或最大人脸就是说话者。"
+  },
+  "example": {
+    "sample_id": "-egA8-b7-3M$_$1",
+    "display_seconds": [
+      1.8,
+      3.6
+    ],
+    "words": [
+      {
+        "word": "successful",
+        "start": 1.84246875,
+        "end": 2.4024687499999997,
+        "confidence": 0.9683406352996826
+      },
+      {
+        "word": "Legal",
+        "start": 2.5024687500000002,
+        "end": 2.72246875,
+        "confidence": 0.9984953999519348
+      },
+      {
+        "word": "Nurse",
+        "start": 2.78246875,
+        "end": 2.9624687499999998,
+        "confidence": 0.8438114523887634
+      },
+      {
+        "word": "Consulting",
+        "start": 3.0224687500000003,
+        "end": 3.52246875,
+        "confidence": 0.9795398712158203
+      }
+    ],
+    "frame_pts": [
+      2.0,
+      2.4,
+      3.0,
+      3.4
+    ]
+  },
+  "window_statistics": {
+    "audio_normalized_reconstruction_mse": {
+      "samples_per_width": 100,
+      "mean_0.2s": 0.5449260640144348,
+      "mean_0.5s": 0.7466779327392579
+    },
+    "vision_normalized_reconstruction_mse": {
+      "samples_per_width": 87,
+      "mean_0.2s": 0.23570238019543133,
+      "mean_0.5s": 0.43725648282588214
+    },
+    "word_boundary_crossing_ratio": {
+      "samples_per_width": 79,
+      "mean_0.2s": 0.7133393064357519,
+      "mean_0.5s": 0.3950201597730336
+    }
+  },
+  "figures": [
+    "fig_p1_alignment_diagnostics.pdf",
+    "fig_p1_difficult_result.pdf",
+    "fig_p1_low_energy_explained.pdf",
+    "fig_p1_multimodal_result.pdf",
+    "fig_p1_observation_explained.pdf",
+    "fig_p1_quality_composition.pdf",
+    "fig_p1_results_roadmap.pdf",
+    "fig_p1_roadmap_maintext.pdf",
+    "fig_p1_window_comparison.pdf",
+    "fig_p1_window_explained.pdf"
+  ]
+}

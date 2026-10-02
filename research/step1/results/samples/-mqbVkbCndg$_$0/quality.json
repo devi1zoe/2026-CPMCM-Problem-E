@@ -1,0 +1,12 @@
+{
+  "sample_id": "-mqbVkbCndg$_$0",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.975062906742096,
+  "low_confidence_fraction": 0.0,
+  "diagnostic_wer": 0.0,
+  "usable_word_times": 14,
+  "words": 14,
+  "raw_text": "How, at a particular moment in time—our moment in time—are they limited",
+  "diagnostic_asr": "HOW AT A PARTICULAR MOMENT IN TIME OUR MOMENT IN TIME ARE THEY LIMITED"
+}

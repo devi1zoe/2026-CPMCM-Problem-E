@@ -1,0 +1,4401 @@
+{
+  "algorithm": "SHA256",
+  "scope": "除本清单自身外的全部合并交付文件",
+  "files": [
+    {
+      "path": "AI标注记录.json",
+      "bytes": 15689,
+      "sha256": "cae1b53db5bdde2a1e239b3f3a502f5ff4a80b1df97c987872bb1b2ccfc65a54"
+    },
+    {
+      "path": "合并核验记录.json",
+      "bytes": 1960,
+      "sha256": "f23ad0416d8a1214fdf94fb4f6a5f272c3dc080902ba2da282d556a18dc3b9cb"
+    },
+    {
+      "path": "总说明.md",
+      "bytes": 3538,
+      "sha256": "3fcf85e56502e5c37513e7402b1051c17be2a761cd9b24e64e19e9f745541eff"
+    },
+    {
+      "path": "核验总附件.py",
+      "bytes": 2200,
+      "sha256": "a512a5701069e3a3aaf605ab21239568ce5541455008295b15a8cb7484e4594f"
+    },
+    {
+      "path": "问题一提交附件/step1/alignment.py",
+      "bytes": 5749,
+      "sha256": "3794e5fe38ec5c27551c1d35e43e008b6593fcf2832359b0c3594a5a1977a003"
+    },
+    {
+      "path": "问题一提交附件/step1/analyze.py",
+      "bytes": 18672,
+      "sha256": "d4fd59a56d26ef7b2a46ddb69d40064a9d4dc51576a9a446559250d88b1ad7b9"
+    },
+    {
+      "path": "问题一提交附件/step1/assets_manifest.json",
+      "bytes": 1788,
+      "sha256": "5bec640a165439af1653d378aeb05d8cb4b5a753341db6ef4a833d788e4f7bf6"
+    },
+    {
+      "path": "问题一提交附件/step1/audit_media.py",
+      "bytes": 1755,
+      "sha256": "602da1f780fcb962e3bcaf3d3b2a2b9c2db72292749479adb6eb324a6d57ab06"
+    },
+    {
+      "path": "问题一提交附件/step1/check_reproducibility.py",
+      "bytes": 1732,
+      "sha256": "2fcccc25567dd1af303a4dfc3d62388e4a29743c5e3ae6fa1bad9dc4eaadbde5"
+    },
+    {
+      "path": "问题一提交附件/step1/common.py",
+      "bytes": 2278,
+      "sha256": "25c313e48bb9b07268e24cf99c70893b28eaa5f7e56933f8c3fbc58b1271f017"
+    },
+    {
+      "path": "问题一提交附件/step1/config.json",
+      "bytes": 699,
+      "sha256": "4a530340304f07255daf856e6891f0a15e50f05bd85343d067a663a573e8f888"
+    },
+    {
+      "path": "问题一提交附件/step1/download_assets.py",
+      "bytes": 2100,
+      "sha256": "65e6bba853beb281ea90949600873b1a0d3f8be6ee618f8ecfa8fcff32036b72"
+    },
+    {
+      "path": "问题一提交附件/step1/features.py",
+      "bytes": 11130,
+      "sha256": "0d1b1ffab5189c1ee374197d5e23ca8ea17bfc6e9b79b2542ca7147a0305c91d"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_5_2/data_observation_samples.csv",
+      "bytes": 32210,
+      "sha256": "287f53fe8ba0e234af174aa0339859dd1a6871d249f95f3ffc0fcea971c9f292"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_5_2/figure_style.py",
+      "bytes": 887,
+      "sha256": "1accee24398c21ffdba908a07197f22d4b534ed2c98ec77a5f9ad0ddd0d3141b"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_5_2/figures/fig_5_2_duration.pdf",
+      "bytes": 11684,
+      "sha256": "79f1cb8ceb4c5d298835115c17e08887e0a7f9ee095c57c3cdd7312b8791fbd3"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_5_2/figures/fig_5_2_duration_words.pdf",
+      "bytes": 12748,
+      "sha256": "00c757f058ccfd72e3fa2e2d8cf7fdeb9e41654992ba31d2e770bc661ace0425"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_5_2/figures/fig_5_2_label_distribution.pdf",
+      "bytes": 11320,
+      "sha256": "620ea8a202009fa007330e27d9f4271fb1daece8e82c0df0e4f53cb87a8b6c7f"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_5_2/figures/fig_5_2_source_examples.pdf",
+      "bytes": 1752552,
+      "sha256": "15d4a6771e8313d8ba4684c7e83acd5edb881de0aabcb4f93baf0ff329a21213"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_5_2/figures/fig_5_2_transcript_length.pdf",
+      "bytes": 11746,
+      "sha256": "e714b6b57f0d071d8c92d6891650f654d8cfe7da6cadba8f49e2176f0894134f"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_5_2/fonts/SimHei.ttf",
+      "bytes": 9706960,
+      "sha256": "ef70e6bba293c9d30bdeb0dba2dd6019cceacbfddab3fb0c550ff14d9127c813"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_5_2/fonts/source.json",
+      "bytes": 203,
+      "sha256": "65b53c997b8d5b59a8f6332e279c14cff2de516cd0619e551de36802f5be4181"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_5_2/plot_histograms.py",
+      "bytes": 4484,
+      "sha256": "850b201e484be2b85711815af936d7b7a4d3f38c475d2035e87702146a50074c"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_5_2/plot_relationships.py",
+      "bytes": 3530,
+      "sha256": "a9bb2189e7111f46d1f9016db8bc21b45bc492389ce0508c8177e5ff4fe1499b"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_5_2/绘图说明.md",
+      "bytes": 2599,
+      "sha256": "05a6dab75de5a2765c48c9e8805959c5af33491a701f2863e7a9302b8f8d01d6"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_5_3/acoustic_example_manifest.json",
+      "bytes": 1131,
+      "sha256": "50080e7ff8ed19ed1c48b481086175ea2d17d703359eb45ac3fdc23a25ed47d0"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_5_3/acoustic_example_values.csv",
+      "bytes": 58263,
+      "sha256": "80f428aa60d6e1218633b10a903c7a666a56f99a6883813feda3441f552207ff"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_5_3/build_acoustic_example.py",
+      "bytes": 5369,
+      "sha256": "97c6ea333c3c1d0dfea3999aa12ad58a5d11175c8d001d7ff81553304edd9e1f"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_5_3/build_visual_example.py",
+      "bytes": 6353,
+      "sha256": "ee3c5ae55642fd2d834341ab6a702ab859b7712e8af989fc4fc5578b4c17a6b2"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_5_3/figures/fig_5_3_acoustic_example.pdf",
+      "bytes": 107027,
+      "sha256": "a59989da3e16e4dc4e0eb5f6eade3e15cca87859e4a6a0d2969cce5b88086b0e"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_5_3/figures/fig_5_3_text_mapping.pdf",
+      "bytes": 55233,
+      "sha256": "aad9e4eb89d4771b0f88085c51ee56fa36b65dc00f77a89e68e6e05eceaa8eae"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_5_3/figures/fig_5_3_visual_example.pdf",
+      "bytes": 163117,
+      "sha256": "e416b093b1c21641edbe23f08893ad9f102dbb15c9d758dcbc6db4d54af341ee"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_5_3/visual_example_manifest.json",
+      "bytes": 2258,
+      "sha256": "270a2a45eec0bf0209f43699cd29f6e33bc187bd6c38fefae1f67def24b3ab05"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_5_3/visual_example_values.csv",
+      "bytes": 20004,
+      "sha256": "fb69496eb2ddba7e0e361c96cfedb3f34d050b189f570827d82ffb2e6869c8eb"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_5_3/绘图说明.md",
+      "bytes": 1570,
+      "sha256": "79b5ce002841c72c33263d4bfd7e72ea8b1f78680cad3311c753e11cf4e3c42c"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_5_4/figures/fig_5_4_ctc_principle.pdf",
+      "bytes": 48694,
+      "sha256": "a4a1e70042827f9a81ee9dbb4e5560218ac4c007257a6f63d06cbd691004b175"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_5_4/figures/fig_5_4_overlap_principle.pdf",
+      "bytes": 49276,
+      "sha256": "373cce335a179939689447ba9ad5802c15c2273e50e0d001166e5e4e4fc87e4d"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_results/annotation_preservation_check.json",
+      "bytes": 1721,
+      "sha256": "d1f8bfce531352a86d77285fefd2fe916f56428fe4819840f60384febf418030"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_results/figures/fig_p1_audio_energy_share.pdf",
+      "bytes": 11228,
+      "sha256": "48a408ed8cffbb2908d39165b93c4b463281ff3d109c4f0aaa2b8ef822f076fe"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_results/figures/fig_p1_ctc_confidence.pdf",
+      "bytes": 11630,
+      "sha256": "5b999d64530cdbf73b148387190e83093851fffd3e4b6ff5e2352e1ea45f99ff"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_results/figures/fig_p1_diagnostic_wer.pdf",
+      "bytes": 12161,
+      "sha256": "04fee6dd796ac41d053125a6b9f9a9f9c21338095df2bbebfc6fd9cafa72a6b2"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_results/figures/fig_p1_multimodal_timeline.pdf",
+      "bytes": 94068,
+      "sha256": "6689ca1474389b618cf3d023eee70adf80f6e7f90ab924ae3eef1adce7c93bde"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_results/figures/fig_p1_rms.pdf",
+      "bytes": 18297,
+      "sha256": "786b52e2e4dcf1c9c7276db0de41903d602876d17e974f5bbc32ff22307f632f"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_results/figures/fig_p1_rms_zoom.pdf",
+      "bytes": 17474,
+      "sha256": "dd61f0b5cf60d3edac851a21567ac4c4ce0de966184eaee00cf4e311e977146b"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_results/figures/fig_p1_visual_coverage.pdf",
+      "bytes": 11630,
+      "sha256": "55cb497a9d24a059629c78b0e53176d81fe31a5b57e59e5440a56ad511ca77a8"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_results/figures/fig_p1_window_reconstruction.pdf",
+      "bytes": 13643,
+      "sha256": "d0ac5bf8179e1370c08a7a749ae89f2e2fce93846abb110be1526422746dfdde"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_results/figures/fig_p1_word_window_overlap.pdf",
+      "bytes": 13341,
+      "sha256": "4e70d9a621ca053d3d7f5abcaf9d9fe8bcbb25f12cc0083fc2fa4d0beb24a624"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_results/plot_selected_results.py",
+      "bytes": 13109,
+      "sha256": "6deebd90c431ba51a06bf142afdf9c16f0983017c1f2887042ca25a4a7cea08d"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_results/readable_figures/fig_p1_quality_flow.pdf",
+      "bytes": 25382,
+      "sha256": "60f17b4640086cd4372255af612c1611b922b644d7ea54b70ea4351330e60ee6"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_results/selected_figures_manifest.json",
+      "bytes": 5793,
+      "sha256": "411104bc643bcd33cf495ce18affb35305248e35000ffa70667aeb7a65aedd5a"
+    },
+    {
+      "path": "问题一提交附件/step1/paper_results/指定配图说明.md",
+      "bytes": 3040,
+      "sha256": "76fabdf4f32037bd6431d051d1102cd5860685a9f066069e3d20d4eebe8e9304"
+    },
+    {
+      "path": "问题一提交附件/step1/quality_audit.py",
+      "bytes": 3893,
+      "sha256": "a249c56a9dbfa6d0b56e15efedafd2def2e41959c55a592ac3e512090219cce9"
+    },
+    {
+      "path": "问题一提交附件/step1/requirements-project-resolved.txt",
+      "bytes": 517,
+      "sha256": "c60347317cecf38ec1f8758307f16de72f85991fea875dc55c698c6c0415c5a0"
+    },
+    {
+      "path": "问题一提交附件/step1/requirements-project.txt",
+      "bytes": 266,
+      "sha256": "7dea43cba953dbf5b8059a0881d64c07f63896df307e8aa2025422630428912f"
+    },
+    {
+      "path": "问题一提交附件/step1/results/alignment_quality_review.csv",
+      "bytes": 31270,
+      "sha256": "640c81b7d8bc063f082f277755ba5e26c78eb7a19ef743fb4054855ac54bd39a"
+    },
+    {
+      "path": "问题一提交附件/step1/results/alignment_quality_summary.json",
+      "bytes": 1432,
+      "sha256": "ddd6811b4693e1cb3c5a71480ed1a1397b8b8c8498574a3aaf17cafca185bf38"
+    },
+    {
+      "path": "问题一提交附件/step1/results/environment.json",
+      "bytes": 4540,
+      "sha256": "63b86976923717b43b24a00d9c6a86d8e8913474e12cd166a9915f28f6da3719"
+    },
+    {
+      "path": "问题一提交附件/step1/results/failures.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "问题一提交附件/step1/results/figure_samples.json",
+      "bytes": 73,
+      "sha256": "70a595e2cd9c619bfe02699a163879e3585b1cf979833d68087cd6425b806d4d"
+    },
+    {
+      "path": "问题一提交附件/step1/results/input_manifest.json",
+      "bytes": 51824,
+      "sha256": "613ea923a16f9deddbe3b603871477260ebf662bd993185c879f8d1d4cf3b0a0"
+    },
+    {
+      "path": "问题一提交附件/step1/results/media_audit.csv",
+      "bytes": 8781,
+      "sha256": "c326c58293cf16c1d5d2fe8e69f7db86cc752bee8ede6754b7ebb591c3de8729"
+    },
+    {
+      "path": "问题一提交附件/step1/results/media_audit.json",
+      "bytes": 29662,
+      "sha256": "54358d2d66fa41c9daea56e3a54e4e24de45ffec6f2dc52f35fab986e803f390"
+    },
+    {
+      "path": "问题一提交附件/step1/results/metrics.json",
+      "bytes": 9663,
+      "sha256": "67b8ab3474090d3fba3e8531f7ac1ea0e5e4460fd40a4a6e92a30838e11f8765"
+    },
+    {
+      "path": "问题一提交附件/step1/results/modality_summary.csv",
+      "bytes": 33059,
+      "sha256": "d4ed45b7c50a1b829af1da81f86dcf8f1b817c4ed914427d8f5a5b1b6467fb87"
+    },
+    {
+      "path": "问题一提交附件/step1/results/processing_log.jsonl",
+      "bytes": 25592,
+      "sha256": "03b53ee7f31c8217099c9147453663d47394bb26c8258363e09510a3962e9111"
+    },
+    {
+      "path": "问题一提交附件/step1/results/quality_threshold_sensitivity.csv",
+      "bytes": 150,
+      "sha256": "f392eacc222c0cb6bddbf4c6523dc5a64876c60ed40e72afc9de40a8de461598"
+    },
+    {
+      "path": "问题一提交附件/step1/results/reproducibility.json",
+      "bytes": 1397,
+      "sha256": "b34f886e90cbe45237c5721d08905fee0dbf3c0e48a7a708c3c339d27665789f"
+    },
+    {
+      "path": "问题一提交附件/step1/results/sample_summary.csv",
+      "bytes": 15352,
+      "sha256": "d3c686e257e1a468d65991a257a239c63f1cb9c24ea43f94cd492de1ee285612"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-3g5yACwYnA$_$13/features.npz",
+      "bytes": 189815,
+      "sha256": "dcd472134827b5994b246fd0de9f0a4e03fa6729061a539c05a38d7fad2d5a18"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-3g5yACwYnA$_$13/metadata.json",
+      "bytes": 12841,
+      "sha256": "dd713634685d90014ef93964a4262755878805ef04e73af8395b8a3432e59a18"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-3g5yACwYnA$_$13/quality.json",
+      "bytes": 480,
+      "sha256": "5801f82eb5e88d4afc25d666eef479eb2bfa5ecd13124ab827ea1510db822378"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-3g5yACwYnA$_$13/quality_masks.npz",
+      "bytes": 880,
+      "sha256": "fb912c13cff1f911c10a0d57652d33c5945937f5422bcfa10123e05583a981b5"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-3g5yACwYnA$_$13/windows_0.2s.npz",
+      "bytes": 9636,
+      "sha256": "bf2e5fd1afde1dffb28a2814f2616bbbe9816db527ef1dbc513de2850423a818"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-3g5yACwYnA$_$13/windows_0.5s.npz",
+      "bytes": 5019,
+      "sha256": "3b27362c7c447dc8f0acb642a546cb97d02f2fe5d402c8fb3fed641b6118076f"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-3g5yACwYnA$_$2/features.npz",
+      "bytes": 244348,
+      "sha256": "1f065023e7d9c5400dfd8b70eb5712cb3dbb3b4d716c55721311926a037d529f"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-3g5yACwYnA$_$2/metadata.json",
+      "bytes": 12434,
+      "sha256": "a6ac0f6ad2ff0f8ab2979c878164e92f1cec4475e3d74ce1a59070f4ae39d026"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-3g5yACwYnA$_$2/quality.json",
+      "bytes": 512,
+      "sha256": "655b8f4a28f15d787fa26c31cc2604b68f4b4fde0803cccad851e44b9022148a"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-3g5yACwYnA$_$2/quality_masks.npz",
+      "bytes": 880,
+      "sha256": "91b81f790b389387ab836a41f0d13d71bd8460cd309a5a08d8e5f8420cab3d25"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-3g5yACwYnA$_$2/windows_0.2s.npz",
+      "bytes": 15242,
+      "sha256": "a78c0a9f9fb8fdba58e54c3cc2c3981ff111041cc924952aa41bc542b42ca29a"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-3g5yACwYnA$_$2/windows_0.5s.npz",
+      "bytes": 7147,
+      "sha256": "f342dd458c5b4c2e6e62e5aaf473521d2d9ef03e78d7050307cee8320dfc2324"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-3g5yACwYnA$_$3/features.npz",
+      "bytes": 435025,
+      "sha256": "ca0173ccb92258aa3f88dfeb01549d1a99aa7b56fe0a344232b808945b13a939"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-3g5yACwYnA$_$3/metadata.json",
+      "bytes": 21246,
+      "sha256": "79ec5fb12d390bae0f3f71d5cbbc4251186cbd30ba3c5bad9a868426ac11c43b"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-3g5yACwYnA$_$3/quality.json",
+      "bytes": 661,
+      "sha256": "138700486286d8e143e993532ecc29c49308d17658d6e1c889b476f6461890df"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-3g5yACwYnA$_$3/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "664aa606db48d086d1821b2387dbcc2ad9ac05ae76e8c6c1089ac9e4b873588c"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-3g5yACwYnA$_$3/windows_0.2s.npz",
+      "bytes": 22665,
+      "sha256": "22af9d0b40d06a01405560040dad1815633adeaf120c97cb6583c4aa68488eb4"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-3g5yACwYnA$_$3/windows_0.5s.npz",
+      "bytes": 10127,
+      "sha256": "3beb312a8720fc8bbc36a2d8ecb00859815951286d3e5dc921a080cf3f9b6026"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-3g5yACwYnA$_$9/features.npz",
+      "bytes": 296796,
+      "sha256": "6838207203a00040a117d90631d2678575ec16c4dd80c098013d908ac4b32849"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-3g5yACwYnA$_$9/metadata.json",
+      "bytes": 17178,
+      "sha256": "0d6f734dffc573628a4ca168a1d7be7d68d887e1e587bfac324fa3ebbb8016a1"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-3g5yACwYnA$_$9/quality.json",
+      "bytes": 582,
+      "sha256": "3785aa17ae3cc52669d4fb528e356f368df81c8993a6fd1b7dc635c76e9ac4fe"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-3g5yACwYnA$_$9/quality_masks.npz",
+      "bytes": 880,
+      "sha256": "14f633b53a2f61fbd2abf0acf5bde9464e461ff8a465b8b77894212a791b532d"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-3g5yACwYnA$_$9/windows_0.2s.npz",
+      "bytes": 14411,
+      "sha256": "6468fe03039509cff271ee9a9d9c6715d9843410becd4b38214c63edc5e051e1"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-3g5yACwYnA$_$9/windows_0.5s.npz",
+      "bytes": 6917,
+      "sha256": "a01ea961f177427d6b62f045b3875f6608264a4154494437ec983a413374ccab"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-3nNcZdcdvU$_$5/features.npz",
+      "bytes": 249481,
+      "sha256": "3bce1a75bcb84bd849e9c773f8c425540fda2e69538e5a7461c3d8e73b1f14b7"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-3nNcZdcdvU$_$5/metadata.json",
+      "bytes": 14523,
+      "sha256": "9697408372b317315d6267ac92682457798e248dd6643d8d9a5b698cf4a873bb"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-3nNcZdcdvU$_$5/quality.json",
+      "bytes": 501,
+      "sha256": "37366a4203177355fb968c08597f5d2cf74c3df1e50cdd54f6e0210bcb77bd9c"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-3nNcZdcdvU$_$5/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "a4d6a9750e33503c85b6a1898c75f0c2ffe767910f903c25d5ead45fabe7d4b0"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-3nNcZdcdvU$_$5/windows_0.2s.npz",
+      "bytes": 12894,
+      "sha256": "ca6423467ee6c82ee34c1ba2063d0a8f6236795faedb3cd12c34aa213e1bec5f"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-3nNcZdcdvU$_$5/windows_0.5s.npz",
+      "bytes": 6262,
+      "sha256": "f4522a490c8243a211f9c621b7a67bc1e83dd46a6d23fb043ea9dadd41e39769"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-571d8cVauQ$_$0/features.npz",
+      "bytes": 168119,
+      "sha256": "484d88925aca8ede8166286876384350e6a8a9bdbc71248823818788f9bea174"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-571d8cVauQ$_$0/metadata.json",
+      "bytes": 11533,
+      "sha256": "3624d6125191806a385c754f3d81256754d9d031325d63fbe25d1fd91d3da47d"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-571d8cVauQ$_$0/quality.json",
+      "bytes": 429,
+      "sha256": "2fe11783d3c20474eaa15f04eb0cff6f5b1d619b9e04e978d2777a4dcda71b13"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-571d8cVauQ$_$0/quality_masks.npz",
+      "bytes": 884,
+      "sha256": "96f2d26e968cbf9e712e3667b94ae9751b4ae9ed63da1de2ea1fbeee87341211"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-571d8cVauQ$_$0/windows_0.2s.npz",
+      "bytes": 8980,
+      "sha256": "9ebdedc7a3ee0d7883e0c2382645e1fac41ee5e6bf9d10713dfa058b998cb26a"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-571d8cVauQ$_$0/windows_0.5s.npz",
+      "bytes": 4681,
+      "sha256": "cfbb797fe881cfd2b7889af29b58f5e22ff4c8a38803f45c3b7958a54c5f6b63"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-571d8cVauQ$_$5/features.npz",
+      "bytes": 529179,
+      "sha256": "7ddc59c067a0baa6add615f798eee3928e3e0d75c4a67025fca17f5ebaba12c5"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-571d8cVauQ$_$5/metadata.json",
+      "bytes": 27579,
+      "sha256": "1ca5a85d7ed040fc826e9ac6cc927b9fe0ee58b0e6df3779f3d17a83efb28e73"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-571d8cVauQ$_$5/quality.json",
+      "bytes": 770,
+      "sha256": "59ef43ec5d02cfee3ba856a1cacac983638f7f87bb0e5474fd3920b188d14dce"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-571d8cVauQ$_$5/quality_masks.npz",
+      "bytes": 876,
+      "sha256": "907dce8384209a1a1f00e5046861ee2dd4961e0f760b0800e9b3aace96da6522"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-571d8cVauQ$_$5/windows_0.2s.npz",
+      "bytes": 24063,
+      "sha256": "2777416bf3b8a71ad3e301710828d99fd3bd2e5921924e55bc5a7771b6bb2c49"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-571d8cVauQ$_$5/windows_0.5s.npz",
+      "bytes": 10822,
+      "sha256": "242dedefc983fbf3ab16d79948f17ce1c68517cf96debdaa1de4b361364349d3"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-6rXp3zJ3kc$_$8/features.npz",
+      "bytes": 427394,
+      "sha256": "49f3fc4b42cc5dbbd7147ece9922253461847bc1d7fd25e402711bfcc43abda7"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-6rXp3zJ3kc$_$8/metadata.json",
+      "bytes": 22304,
+      "sha256": "3242d6bb12754ac34f939aa2a7e37eecdc9fe0982ad4d1f3db70f2067015d1f1"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-6rXp3zJ3kc$_$8/quality.json",
+      "bytes": 649,
+      "sha256": "8acca6d1a798dd28159ad29f8afb7b65fedbf311f71d303bc8ee24271fc4bae3"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-6rXp3zJ3kc$_$8/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "9bdde63e98c9195fdd84bab3b521eca3543b55d6420851c4e231e3aeba0abc1a"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-6rXp3zJ3kc$_$8/windows_0.2s.npz",
+      "bytes": 20460,
+      "sha256": "9e7a0d03c863dfa2eb6e4e4a08e62d3e4dc253b81388f612a4dbfb4feec67124"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-6rXp3zJ3kc$_$8/windows_0.5s.npz",
+      "bytes": 9352,
+      "sha256": "039f09ce144029e3c4a8c430dca6ca96cfb3094f92d79d47e67d098b6668ac59"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-9y-fZ3swSY$_$0/features.npz",
+      "bytes": 265126,
+      "sha256": "332e8efd02e22a13465817e1c29b4d9901dd0690d82e091e65c407607291bb5d"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-9y-fZ3swSY$_$0/metadata.json",
+      "bytes": 16690,
+      "sha256": "efae3c0b73d47f0ca945e0134aabf1255400de9719c4a5466e9db4373cfdc4d3"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-9y-fZ3swSY$_$0/quality.json",
+      "bytes": 523,
+      "sha256": "ac67385167b2d16e38fe677c8a945d450934c8e6e19bc7b076a558785719e750"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-9y-fZ3swSY$_$0/quality_masks.npz",
+      "bytes": 896,
+      "sha256": "ad83049b3fc0040a2484f8473e2d3cf7003f733f662441f98d8e1cd153157125"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-9y-fZ3swSY$_$0/windows_0.2s.npz",
+      "bytes": 11832,
+      "sha256": "ed4539f0719a9131afad1d42c834da0e3d24a463f24c7fe1f2dfc6f0d3ff1e8c"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-9y-fZ3swSY$_$0/windows_0.5s.npz",
+      "bytes": 5738,
+      "sha256": "d5016310bcf3db2ad5eb252d11904c43f8a9d5d988eca32e56b452831cb9464e"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-9y-fZ3swSY$_$4/features.npz",
+      "bytes": 108780,
+      "sha256": "1c765ebef988e579b2519082000a05bb9ddc3e3caaf241861c22f53713f8f4fc"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-9y-fZ3swSY$_$4/metadata.json",
+      "bytes": 9609,
+      "sha256": "358bcc542d82fe678fbaef1a09b543fb9552d89d73487bab90309e9c81906fbc"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-9y-fZ3swSY$_$4/quality.json",
+      "bytes": 370,
+      "sha256": "a649405340b8f9d0059c01127c5d74a322492612c9f6b34c714bd96431807ba5"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-9y-fZ3swSY$_$4/quality_masks.npz",
+      "bytes": 888,
+      "sha256": "59bdb137bb5a5db73fe57513b1eaf815b60f7c325c0d59be8a2218789d458992"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-9y-fZ3swSY$_$4/windows_0.2s.npz",
+      "bytes": 5618,
+      "sha256": "2f3107d8b32b108facdf8ac25702b210ba391f15cff552d73f117caa5430a156"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-9y-fZ3swSY$_$4/windows_0.5s.npz",
+      "bytes": 3271,
+      "sha256": "dde4003b22f10743e094d1209d42917b6a6fe12ebc3e95a1d1e7c6d263487e7d"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-9y-fZ3swSY$_$8/features.npz",
+      "bytes": 156776,
+      "sha256": "366420b47765785efb4cdecef79a7e5cd61a727f81a96303415b6c5370aeb7a0"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-9y-fZ3swSY$_$8/metadata.json",
+      "bytes": 11141,
+      "sha256": "89b760e06afbf8fbcd364002bbb09ddf585fc1c1097ba82be5f36ba4e714a7f2"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-9y-fZ3swSY$_$8/quality.json",
+      "bytes": 428,
+      "sha256": "dc738edca428bcebe4fc6f62ee73e875810070c88a76ffc648e80583df4df997"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-9y-fZ3swSY$_$8/quality_masks.npz",
+      "bytes": 880,
+      "sha256": "64d9312ba3672aba2957609db85ff914f13b4dab3dfcf2f9020a89eb9e3ad663"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-9y-fZ3swSY$_$8/windows_0.2s.npz",
+      "bytes": 5658,
+      "sha256": "13c3d28cd9fef1b4a9b03a164d678adf1620ebee3fe033a1e872392601f7a468"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-9y-fZ3swSY$_$8/windows_0.5s.npz",
+      "bytes": 3578,
+      "sha256": "9de23699c96a0a7ac94e36e76ac1f677e697715cf00759241a957fde7fa985f2"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-AUZQgSxyPQ$_$2/features.npz",
+      "bytes": 633388,
+      "sha256": "602539e15c4a8542af79d7f431eca98ebf8e8fba0c47e80bc9d9fb3591108510"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-AUZQgSxyPQ$_$2/metadata.json",
+      "bytes": 28151,
+      "sha256": "1c6e2639e866de479687a1edf26a8b52a7e84f160250bd7e8a20124149662141"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-AUZQgSxyPQ$_$2/quality.json",
+      "bytes": 818,
+      "sha256": "42c9900c2415bad0b25da8d7bdeaae8c3d1b39d6cd36b06eb674682cd85c77db"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-AUZQgSxyPQ$_$2/quality_masks.npz",
+      "bytes": 888,
+      "sha256": "63e27b480c537a94ad45b6cf2bb83ee75a363902dd409558dcb035b4ad4676f3"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-AUZQgSxyPQ$_$2/windows_0.2s.npz",
+      "bytes": 33990,
+      "sha256": "66862078c654163af25eeec86d8fce2c3272c16710533bfc448f01a56597bf12"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-AUZQgSxyPQ$_$2/windows_0.5s.npz",
+      "bytes": 14904,
+      "sha256": "50eac95eee7b64b13b826544ddcd31a8b93179f03f0934c52d1390215ab3aed8"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-HeZS2-Prhc$_$2/features.npz",
+      "bytes": 234351,
+      "sha256": "efeb41ec3605b42e05a08d89a5346723056aaa9e279b6a698e088abdd3a9c93d"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-HeZS2-Prhc$_$2/metadata.json",
+      "bytes": 12894,
+      "sha256": "c6ff215f7b8f1cb29b7405cb00b3f2b5119ff85ae49d94845e6134e096905257"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-HeZS2-Prhc$_$2/quality.json",
+      "bytes": 456,
+      "sha256": "ba4e2f77ed27a1196b25238dacb35237d707f79388ac21b4219f5e874c51644e"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-HeZS2-Prhc$_$2/quality_masks.npz",
+      "bytes": 876,
+      "sha256": "8b73b03fe4b8152c6ce0141e752a61cb445b00f6b978849a12bed094774c26bd"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-HeZS2-Prhc$_$2/windows_0.2s.npz",
+      "bytes": 13726,
+      "sha256": "3dc9042f2016f50cebdbf2381350c720b7a0a102356b7bf547855082670edca9"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-HeZS2-Prhc$_$2/windows_0.5s.npz",
+      "bytes": 6528,
+      "sha256": "1aeb60de428bfde8a8323b97f5fdb788dbb1a0596e7d06965099d697ab87c413"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-HwX2H8Z4hY$_$2/features.npz",
+      "bytes": 119702,
+      "sha256": "9df01d7b9a2902a732551b9008e5439fd29b9e909cbef7d0cca9dd79c7e9d9c0"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-HwX2H8Z4hY$_$2/metadata.json",
+      "bytes": 9299,
+      "sha256": "eae22a9ea5142304145f8e3cbdb967e11d24ab964ba41d52dd8d8316a4eb7cc7"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-HwX2H8Z4hY$_$2/quality.json",
+      "bytes": 386,
+      "sha256": "f6975e7300b3c7fe87128f5b742c47b730b1e33dd13371fd29f71affa652a022"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-HwX2H8Z4hY$_$2/quality_masks.npz",
+      "bytes": 878,
+      "sha256": "d73829abcd25d6578450c95dfccf087cbaa4e8d4f6012f2616ea24ece35270c6"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-HwX2H8Z4hY$_$2/windows_0.2s.npz",
+      "bytes": 4462,
+      "sha256": "b620560c58c2d33198b0f8bf9402398fec1e073db46340d6658836b72c5b3d1b"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-HwX2H8Z4hY$_$2/windows_0.5s.npz",
+      "bytes": 2683,
+      "sha256": "0ab066a4e0ca918b77e612c52abc2d1b9849833b8d79315ed2a04d357030ae1a"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-HwX2H8Z4hY$_$5/features.npz",
+      "bytes": 146982,
+      "sha256": "3594ce8c3b1e8efbd12563b554e0b7be3db00a87ae99f037eacc8690d2025976"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-HwX2H8Z4hY$_$5/metadata.json",
+      "bytes": 9667,
+      "sha256": "20f405702acf430f17819aea47207c2c4a3e6d7d1785f998ad76b32c77f7c9f6"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-HwX2H8Z4hY$_$5/quality.json",
+      "bytes": 447,
+      "sha256": "059f0ff4ae9d0927ca0c843f777655ac7848555694a14dbbc53fc554862eb555"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-HwX2H8Z4hY$_$5/quality_masks.npz",
+      "bytes": 873,
+      "sha256": "665333a936838e6c035a73fa438ef3b6a5346e74275ddce4bca5ad3dd7175e3d"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-HwX2H8Z4hY$_$5/windows_0.2s.npz",
+      "bytes": 6332,
+      "sha256": "839599fe3e26e1ac9c661404bb29bb1aca496073946ff3fd9048f64e338b02f8"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-HwX2H8Z4hY$_$5/windows_0.5s.npz",
+      "bytes": 3758,
+      "sha256": "bb295fb23d9aea17d067451e6d6add426ef41da1a3304881f9baac42194a6e86"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-HwX2H8Z4hY$_$6/features.npz",
+      "bytes": 105803,
+      "sha256": "91e2e84dac5e2c19d7782de11f3b509773d7817b92f7f4b41266f51ea0ee9e94"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-HwX2H8Z4hY$_$6/metadata.json",
+      "bytes": 8665,
+      "sha256": "2405071503a1408edd2f58d49a9af2989ebe622cf4d7d9a1b1c55ec6a72a3ea1"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-HwX2H8Z4hY$_$6/quality.json",
+      "bytes": 365,
+      "sha256": "8ece85a680266b21ab39ffe84f452b120c931df1c7df4b2cd31225d203f929bd"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-HwX2H8Z4hY$_$6/quality_masks.npz",
+      "bytes": 873,
+      "sha256": "7949aab813c76d4b5a4f0bbf07876e9d0e248e9c3a44832c12783e5393e726ea"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-HwX2H8Z4hY$_$6/windows_0.2s.npz",
+      "bytes": 5625,
+      "sha256": "e60e7e5d5248bbb624cee320ca2a4bd0ead9793db17a540004e219782f26e6b2"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-HwX2H8Z4hY$_$6/windows_0.5s.npz",
+      "bytes": 3414,
+      "sha256": "1ef76288f416e1a0c8847ec699e9d93a9a8d2dc83c23720d504f5eda5f1d9401"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-HwX2H8Z4hY$_$9/features.npz",
+      "bytes": 255642,
+      "sha256": "e927367259513d312e0c97f52708cd4d5a19cd10d1f09ebe9ce5456089567580"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-HwX2H8Z4hY$_$9/metadata.json",
+      "bytes": 15012,
+      "sha256": "c3efb0de83f763d652fb340d9d2840aac0ba9754a7085ac45ae733cdfe8187b5"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-HwX2H8Z4hY$_$9/quality.json",
+      "bytes": 627,
+      "sha256": "6fe9b127ba70f6be093c42f8f7f09c192ace9185cbd2c42ed5b4d214db7520f8"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-HwX2H8Z4hY$_$9/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "5c9060326156f2f17acaa8c92d046219cb8938ef6819748d75655fe72fa7fe8b"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-HwX2H8Z4hY$_$9/windows_0.2s.npz",
+      "bytes": 5347,
+      "sha256": "1e6afc099d41f9306be980e7d91e6f5d793247140008c82845490b511867d56f"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-HwX2H8Z4hY$_$9/windows_0.5s.npz",
+      "bytes": 3029,
+      "sha256": "50147cf9f29e70fdd2c9ccabede1b126d57139ea852bf0f623cb7c99c150fe5f"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-I_e4mIh0yE$_$1/features.npz",
+      "bytes": 239741,
+      "sha256": "b95efd9cf0159618613f330f5a97862faa40ab189971695a077c4e8dd81a91d0"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-I_e4mIh0yE$_$1/metadata.json",
+      "bytes": 14290,
+      "sha256": "269f5812dc5af3a683d384768354a1017362f475a26f05afed8b07436be0c2c8"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-I_e4mIh0yE$_$1/quality.json",
+      "bytes": 492,
+      "sha256": "b8d42ac723e5c3206c0a2afe8bad289a4a443b6a3884841138b2f9926d4c2465"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-I_e4mIh0yE$_$1/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "a4d6a9750e33503c85b6a1898c75f0c2ffe767910f903c25d5ead45fabe7d4b0"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-I_e4mIh0yE$_$1/windows_0.2s.npz",
+      "bytes": 12660,
+      "sha256": "d83dccd63c7a58698f6bde325f00a7ca86bf4faf4b79a663c12f82192e86a8ef"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-I_e4mIh0yE$_$1/windows_0.5s.npz",
+      "bytes": 6231,
+      "sha256": "f10dfd89a51b5cc34c8a4b27b523c2bb33caaf58897a9c594150e9a6afe1e20e"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-I_e4mIh0yE$_$3/features.npz",
+      "bytes": 300757,
+      "sha256": "1119bdd51a2a67f3e56dae4889a81f604fc66e381ed1e4ec5b97c5ba04ab3937"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-I_e4mIh0yE$_$3/metadata.json",
+      "bytes": 17251,
+      "sha256": "5ea7d13093c0b6c61b33dc7d14baec522c856839ee6a9c3218ea74422fbcb180"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-I_e4mIh0yE$_$3/quality.json",
+      "bytes": 592,
+      "sha256": "ea89f241afeb9a4563ad9c9129bc870a3852daafd4f3e455907f4bec1dbd5288"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-I_e4mIh0yE$_$3/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "19d879ff4acf78fb03aa5cdca89f0e3e524ac5d33c68e8360768ccacf406ac6a"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-I_e4mIh0yE$_$3/windows_0.2s.npz",
+      "bytes": 14949,
+      "sha256": "b35874792d7b6b7131dac03c1c49c91dbc8943dd2140ac3869b0e7cf43de8832"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-I_e4mIh0yE$_$3/windows_0.5s.npz",
+      "bytes": 7131,
+      "sha256": "2e73681475f02d85b9e468cab034261e21a8466a3a1df8b27d9c8a0a5319eee0"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-MeTTeMJBNc$_$0/features.npz",
+      "bytes": 290806,
+      "sha256": "4f588be8041bd7ededa99fa53076269a7334bdb17637529ec9e36b38c92c0e59"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-MeTTeMJBNc$_$0/metadata.json",
+      "bytes": 16119,
+      "sha256": "7b27d641ecfd951bf4b55c1c5066782768871d4a7672ce5f978fd9d56e2cfbfb"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-MeTTeMJBNc$_$0/quality.json",
+      "bytes": 526,
+      "sha256": "b873ba74bb2a13837fe6d84af0119405bfe08e668fbabdc2b568f0b26306e486"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-MeTTeMJBNc$_$0/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "0cfe28ab9596cec308e11d53c034bb24fb2540e9748f3befbe5108bf76f4af9d"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-MeTTeMJBNc$_$0/windows_0.2s.npz",
+      "bytes": 15229,
+      "sha256": "19a0110a613a5a293253b3a22cbf7737c0fbd45270b8ac9be71a0fec0b6bbd5a"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-MeTTeMJBNc$_$0/windows_0.5s.npz",
+      "bytes": 7152,
+      "sha256": "7fc2ee00f59bfae7d782ee3730b81e23c423a767afee73ff7ad85ffa3cad96c0"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-MeTTeMJBNc$_$13/features.npz",
+      "bytes": 177800,
+      "sha256": "4249b968cb858964af850b889432040898cfa9fd8c49b6b30685a3415ef946f9"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-MeTTeMJBNc$_$13/metadata.json",
+      "bytes": 12112,
+      "sha256": "637246c14cf0b717f0565532387b486a52f8acc86d576ef7fda3b161516f9e9d"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-MeTTeMJBNc$_$13/quality.json",
+      "bytes": 436,
+      "sha256": "3a5c9ab92ec96f075a1c47cf88701c982fa301edbfc151b9153401688724e27a"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-MeTTeMJBNc$_$13/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "257f5e3e38f0ca8b9a7b0b42e9c8bc4b14971654c14a8e096689024852eecb00"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-MeTTeMJBNc$_$13/windows_0.2s.npz",
+      "bytes": 9345,
+      "sha256": "a15c64a2637e13ea6c493791681d923516e7a3af06f327005d3fdd9d8987e0d2"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-MeTTeMJBNc$_$13/windows_0.5s.npz",
+      "bytes": 4755,
+      "sha256": "0e23b6fc1b5035658aaf5bf11f1d2e869aad5c472238f64d328049ff4189c9e7"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-MeTTeMJBNc$_$7/features.npz",
+      "bytes": 364596,
+      "sha256": "1577a707e5da8758d993921ade2cc6df8beae5b9b53d473bc8e10c814be4aeb0"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-MeTTeMJBNc$_$7/metadata.json",
+      "bytes": 20479,
+      "sha256": "ed4e3ef2c6aad85eff5f72e8a6394a6bac1e7e9d73659f1ea7060d19d050b838"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-MeTTeMJBNc$_$7/quality.json",
+      "bytes": 631,
+      "sha256": "7c0a8da6bf77649d3a92fc181b4111ce66c949b78ef56bc90adce297a4e6450a"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-MeTTeMJBNc$_$7/quality_masks.npz",
+      "bytes": 884,
+      "sha256": "994d79be26527cae786343e4f7cb39991903ed98fb21efaacd15aa18026aba99"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-MeTTeMJBNc$_$7/windows_0.2s.npz",
+      "bytes": 17185,
+      "sha256": "db9b5f5d533ea49b648721656c78c74b401404d954e14add32d4decbee9d100c"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-MeTTeMJBNc$_$7/windows_0.5s.npz",
+      "bytes": 8023,
+      "sha256": "3acb77b4517d3370e909b26d8fe75a8db7d03cae917dcc7d4d49a572b73203f0"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-NFrJFQijFE$_$1/features.npz",
+      "bytes": 176677,
+      "sha256": "0dc02ebbb2cb192f770fe765e269601443cecc7673b5a0588598c33cbfc77eb4"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-NFrJFQijFE$_$1/metadata.json",
+      "bytes": 11755,
+      "sha256": "e270603dbf7b45b75865b484abcea1bfa0faafc97eb6ad5f0a5709cef5964604"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-NFrJFQijFE$_$1/quality.json",
+      "bytes": 478,
+      "sha256": "2003c1dab2ee093111112a128fc54b350bd1319b534ac8e62229eaf198f77d55"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-NFrJFQijFE$_$1/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "09ce565ea9ef04c672ad2cb406a8f9c200256d1538971483fe70032ced3e8fa2"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-NFrJFQijFE$_$1/windows_0.2s.npz",
+      "bytes": 3916,
+      "sha256": "4d13abb4d223f6550b046031d5bce715bce1a4acca91e5634ab9edae59d7274c"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-NFrJFQijFE$_$1/windows_0.5s.npz",
+      "bytes": 2527,
+      "sha256": "6060192853237a257db0dc3a8f30c17b7038c4f5f7d8fef02512bd50987901dd"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-NFrJFQijFE$_$2/features.npz",
+      "bytes": 203501,
+      "sha256": "f16cc05b77af97881f8a42ae58c5f8414bf23845bf236671f4505f02e3b009ce"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-NFrJFQijFE$_$2/metadata.json",
+      "bytes": 12793,
+      "sha256": "eb2cc823f72092efcc2308c7238d94d6a1a136d032c5b0d98771514bf37b0e20"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-NFrJFQijFE$_$2/quality.json",
+      "bytes": 537,
+      "sha256": "f31a4553d3a4da343215f16a2d3db48e0ff363b551a1aeff04efccb1c2f0fe83"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-NFrJFQijFE$_$2/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "541c90c6b65453c6da9d3e587c09417733c15dd7f99a8ffee866822ff3b1039e"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-NFrJFQijFE$_$2/windows_0.2s.npz",
+      "bytes": 4294,
+      "sha256": "ed7b5479b6bb73c5953e8ee089a39ec6b27652a26915d3fdb6cf46255ee4c1a8"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-NFrJFQijFE$_$2/windows_0.5s.npz",
+      "bytes": 2646,
+      "sha256": "81bd48621721bc7d727e9c22d604ecb2aabb107ebbf7a4715e5011cce135f407"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-RfYyzHpjk4$_$11/features.npz",
+      "bytes": 197395,
+      "sha256": "511bb11bffe30b042e916c8bcd3f1ace9cb73ec0557ef84a6b280351800b5f29"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-RfYyzHpjk4$_$11/metadata.json",
+      "bytes": 13585,
+      "sha256": "ff3970a6204c775801747b406ce257b188d695ab35b954c0c48d8630f501e370"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-RfYyzHpjk4$_$11/quality.json",
+      "bytes": 474,
+      "sha256": "f19c56a3bed934a0d9df44d248756043e4a55479d7c07d8c8f33ac5ee1d145d7"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-RfYyzHpjk4$_$11/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "1523da8456396add26a910d98f28db5dd9b002f38eedf7ff678aaae8cf939e8b"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-RfYyzHpjk4$_$11/windows_0.2s.npz",
+      "bytes": 9462,
+      "sha256": "61e3ea135cd12c8369dd83d9661b49734ffdd80dd8e5a3424c37826fc4f9c964"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-RfYyzHpjk4$_$11/windows_0.5s.npz",
+      "bytes": 4829,
+      "sha256": "125ce772d84599dc2f4c791b1ff2f9bfb2d74d95d197ea9a05f14073fb74e548"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-RfYyzHpjk4$_$2/features.npz",
+      "bytes": 255618,
+      "sha256": "392c2a0d557d33f79ebc117ca180b66b3bb2aa95eccd2bebdc8d03acc05c2de5"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-RfYyzHpjk4$_$2/metadata.json",
+      "bytes": 17866,
+      "sha256": "a8ee6859aa0594b0f0c7a056d22d5816c4e9105c7ff18f4c68bd9f18fc2a0a02"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-RfYyzHpjk4$_$2/quality.json",
+      "bytes": 513,
+      "sha256": "4c0f1901c11f656a883ab518252523f966d2f4f9e0782377b7fb8b1e3d6e60e0"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-RfYyzHpjk4$_$2/quality_masks.npz",
+      "bytes": 896,
+      "sha256": "a992abb4d9e7d0bc9cd056dd50de70074b284259ff0a9a81e7b67875a9aa6d6e"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-RfYyzHpjk4$_$2/windows_0.2s.npz",
+      "bytes": 9425,
+      "sha256": "a5559bfe3cb6d4146646bf32ae028beccd565dc4175853c4143bdae125a9636d"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-RfYyzHpjk4$_$2/windows_0.5s.npz",
+      "bytes": 4849,
+      "sha256": "922e58e9a42fcc45446ad477fbf2b9308469344633ac769134e3705daa328026"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-RfYyzHpjk4$_$8/features.npz",
+      "bytes": 193486,
+      "sha256": "1198b9333fffa396ff707c721702f884b5043383fc901462294317e15119f7dc"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-RfYyzHpjk4$_$8/metadata.json",
+      "bytes": 13926,
+      "sha256": "f3d19727062d46945c21970f7c254d51dd3cd3bce4951edaaebaf82a2e5dd073"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-RfYyzHpjk4$_$8/quality.json",
+      "bytes": 459,
+      "sha256": "75b939c472a3ed0bd88e90f41a124fd8d92481703c258e13cd2bd2377305b83c"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-RfYyzHpjk4$_$8/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "1523da8456396add26a910d98f28db5dd9b002f38eedf7ff678aaae8cf939e8b"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-RfYyzHpjk4$_$8/windows_0.2s.npz",
+      "bytes": 8265,
+      "sha256": "8a44cd101101ab10fb7f167a641a50e93bf1a27eb09f4c2b3b7cfa46a9b6fc1d"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-RfYyzHpjk4$_$8/windows_0.5s.npz",
+      "bytes": 4525,
+      "sha256": "da00aa8962967bd8a3b200cab4129b802a754d7004f7d868f6c10dd7d2c5b64a"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-THoVjtIkeU$_$12/features.npz",
+      "bytes": 480023,
+      "sha256": "499be32c32b168ab17a5cde3ce60bdfe512c5fffafa936b6ac713f7744e62f22"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-THoVjtIkeU$_$12/metadata.json",
+      "bytes": 24672,
+      "sha256": "f2739a79fb31bf7fc2b11c9ec2727c4114f9ea65e6006114d9ed98eec1f91cfe"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-THoVjtIkeU$_$12/quality.json",
+      "bytes": 729,
+      "sha256": "a0a9e2e54040f1347927fcbc17590dae29c3a51b5b43484c2c1d7b85fa662662"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-THoVjtIkeU$_$12/quality_masks.npz",
+      "bytes": 876,
+      "sha256": "aa0a5e3382b9b7239da87749323ebb6b71ed788379c44a2f8d14594484393e3f"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-THoVjtIkeU$_$12/windows_0.2s.npz",
+      "bytes": 23529,
+      "sha256": "b28c7aa9949131a72a70ff4a698323f0b90f15b076c1d51350728ddde6a75e6d"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-THoVjtIkeU$_$12/windows_0.5s.npz",
+      "bytes": 10536,
+      "sha256": "8b947b86aaf5bc165897f9133dec38d4405c9e03d9b85ebf1616ea9b6f1e11be"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-THoVjtIkeU$_$2/features.npz",
+      "bytes": 136418,
+      "sha256": "f5fa21db96fa5012c076e03e2570e6ff85be14e8f2cb62b3f22b7b08d26c2ea1"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-THoVjtIkeU$_$2/metadata.json",
+      "bytes": 10040,
+      "sha256": "c1b53e9f5eb9f60d5a954f0da1a29f2ba6f6204867b9c350d40dee8732f3752f"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-THoVjtIkeU$_$2/quality.json",
+      "bytes": 402,
+      "sha256": "8b5ae2b3b9d87d5eb3f8c0453f371af0765b584180d3d1c3279092d4f422d113"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-THoVjtIkeU$_$2/quality_masks.npz",
+      "bytes": 876,
+      "sha256": "287658405166927fd7f6c99a0a9f0f63124c138f678a9276c990566805dcba5f"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-THoVjtIkeU$_$2/windows_0.2s.npz",
+      "bytes": 7933,
+      "sha256": "d35fce4f049e4d206acbff492b1268efe6c92f60ab82ab650cc4f30861b83836"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-THoVjtIkeU$_$2/windows_0.5s.npz",
+      "bytes": 4184,
+      "sha256": "fbf93fc49509de9abb3ad1ce70237b06332eae900145b509c63bd6e0c4f28f91"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-THoVjtIkeU$_$6/features.npz",
+      "bytes": 318458,
+      "sha256": "3bdd18a7355b9af0e6d3931c08c5d682c7d87c9a2f63fd74580d24c079e2e6db"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-THoVjtIkeU$_$6/metadata.json",
+      "bytes": 19991,
+      "sha256": "a82d390d3faf6d7960bb783ffc07ff8f59eb12a22fe6e51c9266624a32a21e50"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-THoVjtIkeU$_$6/quality.json",
+      "bytes": 588,
+      "sha256": "cf1b20e3f0bb1f3251e3322015b4bc0e7173bbc0fca6d50635ee5a2ce3a31f43"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-THoVjtIkeU$_$6/quality_masks.npz",
+      "bytes": 896,
+      "sha256": "9ddc04a09eebd4dee594da1a9f9843691645454356a13f6c781bfcdfd95c724b"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-THoVjtIkeU$_$6/windows_0.2s.npz",
+      "bytes": 13556,
+      "sha256": "92e7c655c7266bd533391e61067bc4d4c0a7cf3663ce9e7f78592385a372c930"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-THoVjtIkeU$_$6/windows_0.5s.npz",
+      "bytes": 6546,
+      "sha256": "d8f0f906e18b01b6bb9b65bc1fd407564094ad2b413249731ab1285bb0dd46cd"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UUCSKoHeMA$_$0/features.npz",
+      "bytes": 250757,
+      "sha256": "00e913d984a736094ae706902219e0a09e5a224dce266c010d7e106563e25ca8"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UUCSKoHeMA$_$0/metadata.json",
+      "bytes": 14563,
+      "sha256": "b48af73f4acb3f1f521e5c0c5d2489d522f3464d0a715e8ca2097babd1eaa0f3"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UUCSKoHeMA$_$0/quality.json",
+      "bytes": 484,
+      "sha256": "52f774a3b0c66de30208a757e0fff46971623b91f396e1c05ac272d9a02bfc76"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UUCSKoHeMA$_$0/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "a4d6a9750e33503c85b6a1898c75f0c2ffe767910f903c25d5ead45fabe7d4b0"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UUCSKoHeMA$_$0/windows_0.2s.npz",
+      "bytes": 13149,
+      "sha256": "249a1d548550d6c1dab8dab986badaafce1bd14f64479fbc8e27c0f161a717a7"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UUCSKoHeMA$_$0/windows_0.5s.npz",
+      "bytes": 6294,
+      "sha256": "a164d513660a0b5f0b4d393369b23770c7297a542aded52645be5b494daeff7f"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UacrmKiTn4$_$10/features.npz",
+      "bytes": 242723,
+      "sha256": "15078c864d85cd488b5733a1dd5cde2e280c036194025cad0c19dfa304ad3ae8"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UacrmKiTn4$_$10/metadata.json",
+      "bytes": 14499,
+      "sha256": "a904435e5006fff6e3b1b9f24c58d173d8e1321ce9617ecfbe4be63fc191fa0b"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UacrmKiTn4$_$10/quality.json",
+      "bytes": 489,
+      "sha256": "70bcb0d51ac00385639838b301d30cf887db88f627a68062e5b2fb34723fff61"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UacrmKiTn4$_$10/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "a4d6a9750e33503c85b6a1898c75f0c2ffe767910f903c25d5ead45fabe7d4b0"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UacrmKiTn4$_$10/windows_0.2s.npz",
+      "bytes": 12468,
+      "sha256": "18a4baed409849bb9ee45b72f2a3b32cddaa98b3479e337037c2cc163debf8db"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UacrmKiTn4$_$10/windows_0.5s.npz",
+      "bytes": 6021,
+      "sha256": "ae9f85ee5a774dd412b46ca87ffa932d584ae4a400bab6a2735011c24b6c112f"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UacrmKiTn4$_$4/features.npz",
+      "bytes": 168549,
+      "sha256": "28dc6599e431d2b0548466058a01fadb60a60e1d041a19e602b3c466c35d7dce"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UacrmKiTn4$_$4/metadata.json",
+      "bytes": 11957,
+      "sha256": "f095a838ad85e6659b3922e017e188d40d7a85a85ea0bf5d45249ad0dcf39ec0"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UacrmKiTn4$_$4/quality.json",
+      "bytes": 439,
+      "sha256": "ebd1bab9652be7a9a1e29c39c324dea8b35d922c4227ed58237780701f811037"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UacrmKiTn4$_$4/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "257f5e3e38f0ca8b9a7b0b42e9c8bc4b14971654c14a8e096689024852eecb00"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UacrmKiTn4$_$4/windows_0.2s.npz",
+      "bytes": 8593,
+      "sha256": "c8d9a0176145a0beacb91caafe017cb0a11be7cfa147de06d5c17a1a6bb7c7e2"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UacrmKiTn4$_$4/windows_0.5s.npz",
+      "bytes": 4497,
+      "sha256": "a2033a4a15f4fa0d0c2e356cd4e59d3e8c2c671d1015bf26a17b9a06ad5badc9"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UuX1xuaiiE$_$0/features.npz",
+      "bytes": 123845,
+      "sha256": "c41efe14f4230816cbe7cb88a6b75800a396bf37c8a05127336dbe1c6c8f1a18"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UuX1xuaiiE$_$0/metadata.json",
+      "bytes": 9905,
+      "sha256": "5cbdd3b193f1b39a16b115ffa38031a90860383e027afbacc8f89a1417af6560"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UuX1xuaiiE$_$0/quality.json",
+      "bytes": 407,
+      "sha256": "f4111c1e276a1add1ff96a8263409314a3954a82dc90009c841029ed01662df7"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UuX1xuaiiE$_$0/quality_masks.npz",
+      "bytes": 875,
+      "sha256": "06c8df2be352ad4000f18c76f4ba56b93ef054bb02828347c5ad744ba7f97d65"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UuX1xuaiiE$_$0/windows_0.2s.npz",
+      "bytes": 5093,
+      "sha256": "22076ecb58074644431f0a98727a30b571469095c9107372602d890cb9a5940a"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UuX1xuaiiE$_$0/windows_0.5s.npz",
+      "bytes": 3131,
+      "sha256": "ae7b258b6214a9eba0ad45c46a9d775a585dede7ac5803032db4a69f6a6d5177"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UuX1xuaiiE$_$1/features.npz",
+      "bytes": 332469,
+      "sha256": "0e350d706677384e468a66578279c9963ea1155f79fbb8455d1b86121b94ce19"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UuX1xuaiiE$_$1/metadata.json",
+      "bytes": 19218,
+      "sha256": "e48a6c03805ea70e86e8f81639b7992013bed81332af0fee047413f89c806454"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UuX1xuaiiE$_$1/quality.json",
+      "bytes": 600,
+      "sha256": "aba1af992ac0051ec91c0af8f2e35e91f06c7e0e9dba74f815cdd72be72debd3"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UuX1xuaiiE$_$1/quality_masks.npz",
+      "bytes": 873,
+      "sha256": "8624be5951e5905ed876c006222af52379ed9a38844d60aef795d38de54167b6"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UuX1xuaiiE$_$1/windows_0.2s.npz",
+      "bytes": 7250,
+      "sha256": "3a6a597dfeabeb3ab6941325b90cc2fe7f8db1e4f4c38d49d3fe5bf646ed998a"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UuX1xuaiiE$_$1/windows_0.5s.npz",
+      "bytes": 4116,
+      "sha256": "731ca2ddccd16a9c31b73546d78df7f69780b2277d47c9e6ade230fdc5280836"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UuX1xuaiiE$_$3/features.npz",
+      "bytes": 125916,
+      "sha256": "2f1e29c2c283ea91def40e6b612138dd7b05b6d8209dd4ac0afb5f9c7404d729"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UuX1xuaiiE$_$3/metadata.json",
+      "bytes": 9316,
+      "sha256": "4f2bb3764550ea0c791d775be4a8b2a52815209a3983cf0e3f57a91693bf44bf"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UuX1xuaiiE$_$3/quality.json",
+      "bytes": 399,
+      "sha256": "6dc4346df64748153667a5e46a3fca71abc65742e08901e31ef7fa493480a7b9"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UuX1xuaiiE$_$3/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "e77648006bdb72c923284cef4078d07b53df9461b1796e2153735a8da986f5ef"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UuX1xuaiiE$_$3/windows_0.2s.npz",
+      "bytes": 7756,
+      "sha256": "b673984d58e7aa46aa9911a6e01b539e73639e6f069d3bd421b178d350c0d353"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UuX1xuaiiE$_$3/windows_0.5s.npz",
+      "bytes": 4204,
+      "sha256": "e3eae4e4fb835800a72c08f2510ae4beeb10b0c4188d8e334203df38da7e0d6b"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UuX1xuaiiE$_$6/features.npz",
+      "bytes": 267491,
+      "sha256": "a1be94831d1239e0b1d02098d2a854319c9eeaafb00e03417eada39d1f77d6c1"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UuX1xuaiiE$_$6/metadata.json",
+      "bytes": 15953,
+      "sha256": "8d4acf2f0573d00793c67586b5fbde066ac3e769fc0910540e8d7df19e4a263d"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UuX1xuaiiE$_$6/quality.json",
+      "bytes": 546,
+      "sha256": "8bffd0c55d64fe0a35b3933714909c8ed0d6afba1a136366d2dc199f899ea9f2"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UuX1xuaiiE$_$6/quality_masks.npz",
+      "bytes": 880,
+      "sha256": "e7fb9b2c58ed3a398b082b76e33fef6c80a8cd4a95b713a23bc907df3f172583"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UuX1xuaiiE$_$6/windows_0.2s.npz",
+      "bytes": 13389,
+      "sha256": "adc450f2bccc08eff56cb21fa2cf54216007c8b84dfe118e3b53f5a275ebee8c"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-UuX1xuaiiE$_$6/windows_0.5s.npz",
+      "bytes": 6461,
+      "sha256": "33c4d58d9ad0ecd4a6fada430ed609ef48222930723f709f8fea01f4fa5f71f6"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-a55Q6RWvTA$_$3/features.npz",
+      "bytes": 798714,
+      "sha256": "fcbdbf6a4c5bb9f4ca0ba8c5dbce6e8ffa9fced818e8f5cc975bc2e79912245d"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-a55Q6RWvTA$_$3/metadata.json",
+      "bytes": 39891,
+      "sha256": "f9633bd6156fa26171dfa38f7393b63bac9190fcd7ff327edd883500948c7aec"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-a55Q6RWvTA$_$3/quality.json",
+      "bytes": 973,
+      "sha256": "79a8ec51e8057093566689552270ede2075c0df466ffdd304b9f77550e6f38b2"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-a55Q6RWvTA$_$3/quality_masks.npz",
+      "bytes": 891,
+      "sha256": "51479685e7abd031ed5e3983bac8f557d703591ea4b926e7c91963f363470444"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-a55Q6RWvTA$_$3/windows_0.2s.npz",
+      "bytes": 33379,
+      "sha256": "ab2bd722143303f00b2491551d93af5888be9ea54608ba1ca87f478720b24536"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-a55Q6RWvTA$_$3/windows_0.5s.npz",
+      "bytes": 14536,
+      "sha256": "73eddd37816cded9c48bb47acc79cc6df7090dda16ee86be919f73226b952814"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-aNfi7CP8vM$_$7/features.npz",
+      "bytes": 266449,
+      "sha256": "cd4463ba39c98268ceab36a14f230edef5686de1ebf0f3c72c2fb56c2be45b11"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-aNfi7CP8vM$_$7/metadata.json",
+      "bytes": 14799,
+      "sha256": "9aab560d4476ec9d0e0ccfa97b4c2ad66d9ed79e88818f78c11cf56784b93deb"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-aNfi7CP8vM$_$7/quality.json",
+      "bytes": 547,
+      "sha256": "3c1cf4d1c53c77add5b03a96d62d9c2cc6ca444c2ab1353a09edf8409e4c91c8"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-aNfi7CP8vM$_$7/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "a4d6a9750e33503c85b6a1898c75f0c2ffe767910f903c25d5ead45fabe7d4b0"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-aNfi7CP8vM$_$7/windows_0.2s.npz",
+      "bytes": 14432,
+      "sha256": "1a651b84e8acd19aaf611d84c26ef838f9f4ab2e9a06e83ffd5a58a7c74b7be9"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-aNfi7CP8vM$_$7/windows_0.5s.npz",
+      "bytes": 6899,
+      "sha256": "b5d5c78224e79b0c1cf88103bee3ddbece953a60069073619911d92d4aab0734"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-aqamKhZ1Ec$_$0/features.npz",
+      "bytes": 262542,
+      "sha256": "387ad75f37fa77137920cb2bb54079b2dd7c700492171657046ab59573b79133"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-aqamKhZ1Ec$_$0/metadata.json",
+      "bytes": 12238,
+      "sha256": "900a878a8b418a833838958802b07b254b64e806cb5451f55a7bce714a4bf508"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-aqamKhZ1Ec$_$0/quality.json",
+      "bytes": 513,
+      "sha256": "a873e0b062b4898921ddd6651fbde6f0a120ab4a98064f4ac37859d265a9a06f"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-aqamKhZ1Ec$_$0/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "257f5e3e38f0ca8b9a7b0b42e9c8bc4b14971654c14a8e096689024852eecb00"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-aqamKhZ1Ec$_$0/windows_0.2s.npz",
+      "bytes": 17328,
+      "sha256": "2e24902015e0435699a410fbedc1b856a0e83763a65c9b96feb5f268c35d1fed"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-aqamKhZ1Ec$_$0/windows_0.5s.npz",
+      "bytes": 8026,
+      "sha256": "5e88e9a9c595ee3ab3f85376824c4722aad77aad07ea16c7424051005324d046"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-dxfTGcXJoc$_$0/features.npz",
+      "bytes": 617239,
+      "sha256": "c23169bcc76163186e065c586001749360f1f53b763890210b873b13bb9963a9"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-dxfTGcXJoc$_$0/metadata.json",
+      "bytes": 28583,
+      "sha256": "c3b324eafe7035514e99498e6bea6477b0920ea038c82b626a899368ea43139b"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-dxfTGcXJoc$_$0/quality.json",
+      "bytes": 839,
+      "sha256": "c298b8326eff01aea513a3ef7e589650c498fd812c68a8a17a74d63fb6026f0d"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-dxfTGcXJoc$_$0/quality_masks.npz",
+      "bytes": 889,
+      "sha256": "e2bbc9f7d6f96ff694540e9a559ac38e7e75849e61964464f6be544e1b6c31da"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-dxfTGcXJoc$_$0/windows_0.2s.npz",
+      "bytes": 27277,
+      "sha256": "019396338107525a9fe648e870f3f69b910088237b6e0760e5c745a3dc2233f0"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-dxfTGcXJoc$_$0/windows_0.5s.npz",
+      "bytes": 12133,
+      "sha256": "03f22d8dd36e9c859ed76123472d57b40b6c4090b9e5bda76b8f592bedad0f0c"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-dxfTGcXJoc$_$1/features.npz",
+      "bytes": 491836,
+      "sha256": "f455df6f3e221df77083c0eab560ae0495a2f4b701ae4359972496eef14180b1"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-dxfTGcXJoc$_$1/metadata.json",
+      "bytes": 24202,
+      "sha256": "778b28c147d3bb9d6361c4d18b6f38cbd50d31df995d8b705d013dfe7769958d"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-dxfTGcXJoc$_$1/quality.json",
+      "bytes": 751,
+      "sha256": "627209facd7ce149d03a90e0c0d3454634ed121fbd03b4caa535293e4f4f4988"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-dxfTGcXJoc$_$1/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "850145ee22b96cfdaebc167c12248ffd2974cf1daa06aa97c69c776e801d8fc3"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-dxfTGcXJoc$_$1/windows_0.2s.npz",
+      "bytes": 25290,
+      "sha256": "6aab2ac9c117308353376ba76f5fd08879e60200b42056d0f718ebd17609cd64"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-dxfTGcXJoc$_$1/windows_0.5s.npz",
+      "bytes": 11346,
+      "sha256": "6c5919bf355d9f253eb14a7c3eaf3edd46a0fa3c86993a905ca3b66c671ecef7"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-dxfTGcXJoc$_$2/features.npz",
+      "bytes": 488577,
+      "sha256": "4eb6f6edcaa81e91f7af3c8e56f785078ac72cfc5af9630a78c28c8940311f46"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-dxfTGcXJoc$_$2/metadata.json",
+      "bytes": 23042,
+      "sha256": "db839837c954fa7057ed9cd31f176c90c28a6b6399440dcbb7169eef8c38815f"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-dxfTGcXJoc$_$2/quality.json",
+      "bytes": 778,
+      "sha256": "c9d4f55ed5e3bcba0d8426726fa8b1a6fbe5da175ce6f4ea542cfceca355d575"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-dxfTGcXJoc$_$2/quality_masks.npz",
+      "bytes": 884,
+      "sha256": "9bb5e249adb0c44fc619575576377bfce4cfa5450b4354ce0b7b29ef954ae533"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-dxfTGcXJoc$_$2/windows_0.2s.npz",
+      "bytes": 26098,
+      "sha256": "b76ae9d9b57848114d5f0e771310303f168c4f781080edff98796afa0d44d716"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-dxfTGcXJoc$_$2/windows_0.5s.npz",
+      "bytes": 11565,
+      "sha256": "7ce60ab20b04704198b1a44ad3ed8df5bb9512ff64b11cb7365f9286ba5fa5a2"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-dxfTGcXJoc$_$6/features.npz",
+      "bytes": 384258,
+      "sha256": "e9011c9da305f15ddb8be770f1f8c8370f2adaa81823e48c41c73909d25b9ff7"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-dxfTGcXJoc$_$6/metadata.json",
+      "bytes": 19653,
+      "sha256": "16fd79cf8e1522fe907094cde79387233bc8deea52b0f000fb2f19f1f0bf2f82"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-dxfTGcXJoc$_$6/quality.json",
+      "bytes": 681,
+      "sha256": "3e8a6accc1c451068dd4ce484d4397624b28e5c9a0f443e759d281900e42f8ef"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-dxfTGcXJoc$_$6/quality_masks.npz",
+      "bytes": 884,
+      "sha256": "252fef0e83cc6fcef7f675505e45a32ce5129ef4ee2f06721e7004b60728ae3d"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-dxfTGcXJoc$_$6/windows_0.2s.npz",
+      "bytes": 20203,
+      "sha256": "1246bc89616ab70009c2ed50c34fdf2d9879b0b7f6be57d6f1889dff53ed91ca"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-dxfTGcXJoc$_$6/windows_0.5s.npz",
+      "bytes": 9239,
+      "sha256": "3dad14bebf79e20f934aaff685aa393d5337a867a19df13a51ceeeb2c7db4ed0"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$1/features.npz",
+      "bytes": 296063,
+      "sha256": "e4c3c0b61b0bb6b69cd850a6e3d4754597865ddb118cc382e2570918cc0d347b"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$1/metadata.json",
+      "bytes": 15288,
+      "sha256": "7db9be96a020f73d416d5e5e14aa31e3083a6620dbeb427f3b79418a0c4a0bc1"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$1/quality.json",
+      "bytes": 563,
+      "sha256": "d63f9bcde42c3a7b40264e857039458b78606ffd3d52984121fe69f68bceb894"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$1/quality_masks.npz",
+      "bytes": 888,
+      "sha256": "61fc769981d317576301691a15e644781861c09b3768eef09c7b52c582707434"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$1/windows_0.2s.npz",
+      "bytes": 16601,
+      "sha256": "da454c1aa27f20f93d51eca569bb91a30b7c7be1c0fbd31337fb3f3c7eb05db0"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$1/windows_0.5s.npz",
+      "bytes": 7715,
+      "sha256": "65a2057f9cd82287b4d6f20fb3b9df4c98f86fb3fdeccc9f85913d32be4156a4"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$13/features.npz",
+      "bytes": 151148,
+      "sha256": "07a6406b2e1f596a0c30a2ffc5759d1d5994dcf95226aca8cfd02c97f18e3f2d"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$13/metadata.json",
+      "bytes": 11221,
+      "sha256": "e49b578cf67ad273431c1df60c68c37d5a7e72908d7b870efff12fbc9f27ad61"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$13/quality.json",
+      "bytes": 421,
+      "sha256": "a7903c93fc58cea39c194cf3e9384a7c15944c28358580e15c6e13bb87adb685"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$13/quality_masks.npz",
+      "bytes": 876,
+      "sha256": "edd6ed9d75be7f1f7a0bad9d51019eb09d62014a5475bf5f987ff49c1f36795b"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$13/windows_0.2s.npz",
+      "bytes": 7618,
+      "sha256": "1baf78b0696be5f590c03f8a8bac19b754ac0bf2e717bc8813a9642925d176a3"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$13/windows_0.5s.npz",
+      "bytes": 4152,
+      "sha256": "34c153b479da01cfd7066805ff0f58550cd4aac6248ff111547897ea652003be"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$16/features.npz",
+      "bytes": 166547,
+      "sha256": "58caf176e734b3d1b8ca428963ea45b2b5b4c76f9da49415d1ce8f9eb352d3f6"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$16/metadata.json",
+      "bytes": 10755,
+      "sha256": "4dd1a3c0a09aa9f63beed68bd1f1019d3c1d13cf96e8968f0dd88f1544f55aaa"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$16/quality.json",
+      "bytes": 429,
+      "sha256": "98a2307947154f87b3e1c0b33b3cc66cfb1f364de56f94ebe3a6e9d42ad6c03a"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$16/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "25b744b97ee209dad169e3b271bed67b89ccd93aeaa9963c6f1856e042eb901e"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$16/windows_0.2s.npz",
+      "bytes": 9653,
+      "sha256": "3b7e45d559649447c8c04906fd6b08ff36a825b8f6e3aa29dd8637a3c3e15467"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$16/windows_0.5s.npz",
+      "bytes": 4960,
+      "sha256": "7bbbfee5afd246c4b2b9e84de29363c570b951b42b7775268b1ebcdba8042f50"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$17/features.npz",
+      "bytes": 223728,
+      "sha256": "37db9ef18f77b7bcc4aff7e4ee1002965ca2211dd1668f11161393a2a6b7304c"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$17/metadata.json",
+      "bytes": 13280,
+      "sha256": "53de82af1f9f3c4b629979d349262751ef5011510de240f3ada7dd1fd847804b"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$17/quality.json",
+      "bytes": 453,
+      "sha256": "836a8d804738428d78f5d46d378805029276cf9ed693e0966d625a61fc7c8742"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$17/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "bc23d09bcd584cb3c942a22c804fb102749a1fa13bd74bdbdf4f0d0848bb2c61"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$17/windows_0.2s.npz",
+      "bytes": 12130,
+      "sha256": "d5e5e6871e6c3faeb2a0f730f5615d3737c9cdca23c358d3a5e5b3a8e3b50eaa"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$17/windows_0.5s.npz",
+      "bytes": 5918,
+      "sha256": "ab95ef4c4d3928749e8de5a09ec33d8b82a3d5dafd6ad44dc2f6c9a813f3a4e5"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$18/features.npz",
+      "bytes": 284959,
+      "sha256": "3b23e2b77f0ec7c8a85914f584d4a0d6bedbbdde4c063dfa7d1844d1a3b8511c"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$18/metadata.json",
+      "bytes": 16674,
+      "sha256": "ff4f22047c85b92a43347a562d6a68e6fe80b1eafdc03d31486ed5510e49b725"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$18/quality.json",
+      "bytes": 541,
+      "sha256": "60d871aff601d9b20a3e3cdf471e50a44f46efa3dfdb0dfef4d6556bad469b22"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$18/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "19d879ff4acf78fb03aa5cdca89f0e3e524ac5d33c68e8360768ccacf406ac6a"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$18/windows_0.2s.npz",
+      "bytes": 13767,
+      "sha256": "7f9b0fd1cfbcc9e85d7387f3d73046702794852687a2c0bf5f84410f33a98cdb"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$18/windows_0.5s.npz",
+      "bytes": 6565,
+      "sha256": "5b40089d0ee71d1bd13c7b7e403c22a4e82c12c91bb8d5922d8d2291666837f2"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$20/features.npz",
+      "bytes": 241378,
+      "sha256": "c10665248fba21a1bbcc9ab8d9db74080eb624369452a8e552753090c5495edc"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$20/metadata.json",
+      "bytes": 15348,
+      "sha256": "823e63885d3fc1385efeaefcdc96a051af477843941fb42dbba439fd58b0ea3a"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$20/quality.json",
+      "bytes": 470,
+      "sha256": "761bebd43cfc8a36c12496d5f17ac65cc262c1b94cfe511532804a4a1abaa410"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$20/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "7c45e981287de2d8adce0be995c7cc9c8246ad922bac823bfc86383dde64851f"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$20/windows_0.2s.npz",
+      "bytes": 11391,
+      "sha256": "5074e00adfc74ade4a46728a040b613d7d30f3efee06626cb805f4a061dd2dca"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$20/windows_0.5s.npz",
+      "bytes": 5636,
+      "sha256": "e3849e6d111ad30af8a6dcf7e2a37fadff25763aaed89a03f7ee06b945759d89"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$26/features.npz",
+      "bytes": 203746,
+      "sha256": "3d4dc7a2dbd3ff69f780a410f8ea6410fa3492e2b85d85a425924da141e8f346"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$26/metadata.json",
+      "bytes": 12999,
+      "sha256": "b9cea439a6effff601a9fd17a8960ec47a64e9fea7bfecbb7d73f516c30f0bca"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$26/quality.json",
+      "bytes": 437,
+      "sha256": "b3f5dc2fe605fac8fe00313c1e513b16dafce8b11937d4827313e3e29b69b58b"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$26/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "6dc8e82e00538e48126c0f0cb9df2a777fd34843a8f191c81f6a7ae012860df2"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$26/windows_0.2s.npz",
+      "bytes": 10285,
+      "sha256": "29ade8eb3aeb07f9ccb2b202e4e23b5f7c92ba180a740a9305b5639ee8cef617"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$26/windows_0.5s.npz",
+      "bytes": 5317,
+      "sha256": "9ef063e7f898d108245147cb32d397d58aa159abcc7bb253ae34b5f2b42334b2"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$6/features.npz",
+      "bytes": 181097,
+      "sha256": "0e4fc6cfcd50fe1f763bd9f9e47fe33d9fa09e93e7b24bba325f4adf8a925f93"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$6/metadata.json",
+      "bytes": 11095,
+      "sha256": "401adb4225613ca7e467a2628ed1fd2502241985bf6809c5db4a66b2e38c4aee"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$6/quality.json",
+      "bytes": 452,
+      "sha256": "37e8acbd174d5c337d52fa501e5469c063d3b8fbb25ccd85f2daa6b68938e97d"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$6/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "8f2b8f2ca74f0d4e5e7ec5bf6200b4fdf6c00dc1bcd0f2f32390c760005f7eea"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$6/windows_0.2s.npz",
+      "bytes": 10744,
+      "sha256": "2c08c3b46a19ef184b0cefe4169a61a9847622448884e020cd235ae094480355"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$6/windows_0.5s.npz",
+      "bytes": 5315,
+      "sha256": "58a803688a3d3b6d934eedc91095aaa67e0ea29d905aeaead4f2300b1d7f1f9e"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$9/features.npz",
+      "bytes": 151953,
+      "sha256": "b62ae1d6d8af08a61c70405a0bf066a8e9944b52a7b9ccebf041cefb5fa2627d"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$9/metadata.json",
+      "bytes": 10253,
+      "sha256": "61521dcaf896770b4f878c8802acc1b4440645c4cc9ca57e1db859f2040f6caa"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$9/quality.json",
+      "bytes": 411,
+      "sha256": "fd290d9627700dfa982b4baf1ba58999f30855cdd5be143f50cb1a7b337d705f"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$9/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "319fba4139fa793ea89d554241471c2c3a943d6ef17cb7e41f8498b3c811f5e4"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$9/windows_0.2s.npz",
+      "bytes": 9003,
+      "sha256": "26856dd13ee40d57695c03e59af59681b30ade6214602bbd144950dc361afab1"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-egA8-b7-3M$_$9/windows_0.5s.npz",
+      "bytes": 4675,
+      "sha256": "8350fa38c3179de0a3846534c9126840b98adafcd11e366eddba70c670a199f5"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-hnBHBN8p5A$_$6/features.npz",
+      "bytes": 175334,
+      "sha256": "3f487117365420f5816b34e0483e32835a735f88442e940fe11b77945b319a54"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-hnBHBN8p5A$_$6/metadata.json",
+      "bytes": 10529,
+      "sha256": "71fb349179c3a951e1ad8df1b01f561e67834103dab0082eb3e69746a1812d55"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-hnBHBN8p5A$_$6/quality.json",
+      "bytes": 556,
+      "sha256": "dc8f002ce3b972b3cf358262baa5bfedd838048bf3da4f7084650fab7fc22c26"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-hnBHBN8p5A$_$6/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "6e9266e66b8cbf4a5c2be5aeeba42c0b2f16c0034afae40b78be7fd2848df346"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-hnBHBN8p5A$_$6/windows_0.2s.npz",
+      "bytes": 4278,
+      "sha256": "9444389c477d9e86c5fd6f67801d85b795113ad498c22995e3cff5ed1078eac4"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-hnBHBN8p5A$_$6/windows_0.5s.npz",
+      "bytes": 2633,
+      "sha256": "e816ac621e29f6d0d875c23329f232085b29d2273209ffa5c39c6ccc36cc65e6"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-hnBHBN8p5A$_$7/features.npz",
+      "bytes": 198893,
+      "sha256": "e459f989eef1f0f51a1753ac8e785dafe2bd7f70510240d24beddef9a3724863"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-hnBHBN8p5A$_$7/metadata.json",
+      "bytes": 11079,
+      "sha256": "cb3e1b48026925b7e98aa1c631ba0e66c6c0981cda92f275a08f7f0c08639b8c"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-hnBHBN8p5A$_$7/quality.json",
+      "bytes": 559,
+      "sha256": "849a03b93c838ae21196dcef24c4e9967accfaa536af07381a08e2eb6d49a356"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-hnBHBN8p5A$_$7/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "6e9266e66b8cbf4a5c2be5aeeba42c0b2f16c0034afae40b78be7fd2848df346"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-hnBHBN8p5A$_$7/windows_0.2s.npz",
+      "bytes": 4841,
+      "sha256": "1ef1cf1eed0e85ec42c55ce136e88453cf9351dcfeaa2767d24b572d43bf7e75"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-hnBHBN8p5A$_$7/windows_0.5s.npz",
+      "bytes": 2876,
+      "sha256": "8f2c23b73d064bd7c52b9fab98b5eec9f5789c72ecb326b94baa315876aff6d0"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-iRBcNs9oI8$_$3/features.npz",
+      "bytes": 139941,
+      "sha256": "e79705900e9c0292e12352fc1da9bef5c51a00dd1e55ac12017dfc397f4cbe8a"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-iRBcNs9oI8$_$3/metadata.json",
+      "bytes": 7952,
+      "sha256": "10ef0b63b55d74a71d3d2573bee1cf565309a70700a32b280cd37ca2e0e09f9d"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-iRBcNs9oI8$_$3/quality.json",
+      "bytes": 489,
+      "sha256": "96a8779753a9923001b0ebe1664710b69ff61e5e151fea1d6319939acf3ec362"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-iRBcNs9oI8$_$3/quality_masks.npz",
+      "bytes": 868,
+      "sha256": "4cce31240cffaf74b705efc3bae57c2bd22fa813694a136d2a4b1a576e7ec8fc"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-iRBcNs9oI8$_$3/windows_0.2s.npz",
+      "bytes": 4186,
+      "sha256": "e9c586a06ff0b37016fa5f1b158a79411501e0543ce52ef5face053b47b41981"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-iRBcNs9oI8$_$3/windows_0.5s.npz",
+      "bytes": 2634,
+      "sha256": "a7132fe14b0c697d1080abb3444c6be847927c9cfc64e2466490e886464317e5"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-iRBcNs9oI8$_$6/features.npz",
+      "bytes": 79142,
+      "sha256": "803ad21eade770d4f479d1c37d94d65170c0623d785434d274a23e433ef582ea"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-iRBcNs9oI8$_$6/metadata.json",
+      "bytes": 6315,
+      "sha256": "867f6f92776a85b35d1adcf4f375e39e787f9bab77f38398a186e6b468facb4a"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-iRBcNs9oI8$_$6/quality.json",
+      "bytes": 410,
+      "sha256": "bf9e03727c472ef36043016a9a1d5c420a4c94d3284ccd785c818b523bf7c30f"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-iRBcNs9oI8$_$6/quality_masks.npz",
+      "bytes": 868,
+      "sha256": "60c546c6506f20264b6a82c70e16a247f41c0e79a374f4bc405a2af6756e283c"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-iRBcNs9oI8$_$6/windows_0.2s.npz",
+      "bytes": 2948,
+      "sha256": "70a2f1d1539dd7731eb91c6c24d4533a6d947df309b5abdcdc2205c50739a4b3"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-iRBcNs9oI8$_$6/windows_0.5s.npz",
+      "bytes": 2020,
+      "sha256": "754e0b4c68ff184588a0dc53a1cb0b6a05eaf92c16ac6ae0399a94c46947aef0"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-iRBcNs9oI8$_$7/features.npz",
+      "bytes": 137004,
+      "sha256": "cf3d905cef748b266a633b4788127d9468751c066ec65e98872ad139fe1a8e58"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-iRBcNs9oI8$_$7/metadata.json",
+      "bytes": 9382,
+      "sha256": "a83759437becd64c86a01a0a492fe0c6826be3c58549239433a1f3de2c9844d3"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-iRBcNs9oI8$_$7/quality.json",
+      "bytes": 501,
+      "sha256": "6941410f1dbfcc2c4f44079186d5029454ef82b60b442eac5cf3f1ca0431a716"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-iRBcNs9oI8$_$7/quality_masks.npz",
+      "bytes": 868,
+      "sha256": "76e547443d813af345bd472dec50cc256101f11d3f74e044c7102136fcc07f9c"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-iRBcNs9oI8$_$7/windows_0.2s.npz",
+      "bytes": 3548,
+      "sha256": "a1b5a73ac7649d08fda72179aa3759e326ec748d21e3ad75972666cf865b5452"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-iRBcNs9oI8$_$7/windows_0.5s.npz",
+      "bytes": 2353,
+      "sha256": "fea443a3160250e0ff44c2eff127242e5690ad955e5c0125a6975309e78e541e"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-iRBcNs9oI8$_$8/features.npz",
+      "bytes": 264056,
+      "sha256": "83184fda0642f65845fc9345fd710ac57deeafb292245122298ad395aab259c6"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-iRBcNs9oI8$_$8/metadata.json",
+      "bytes": 15084,
+      "sha256": "8183950a7fe86adf62a0e4177d9287ffccdc43a8e5ad6de17f2ae9a06033b9f0"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-iRBcNs9oI8$_$8/quality.json",
+      "bytes": 619,
+      "sha256": "8c630a876fd28a12a80726425355f7697836b5613e8f0cdc0f8b162831c5d2e8"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-iRBcNs9oI8$_$8/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "c15c1340df2c3119df3bdbc6817262373d161f91be7a7119cc1cb4017e39140e"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-iRBcNs9oI8$_$8/windows_0.2s.npz",
+      "bytes": 5445,
+      "sha256": "d50d686bb076fb49a49cf2e89cc9a3b133d60f371c4e06945a123cd7de23a9dd"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-iRBcNs9oI8$_$8/windows_0.5s.npz",
+      "bytes": 3134,
+      "sha256": "660049a2c7aca80e115de7f2d945a767305cda03d7092df173bb27d882d2a6ad"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-iRBcNs9oI8$_$9/features.npz",
+      "bytes": 85351,
+      "sha256": "141559aaa906e1dc3db80171b2151a03f25566b496a2647ae3aec1f5fcbb9872"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-iRBcNs9oI8$_$9/metadata.json",
+      "bytes": 6340,
+      "sha256": "905e86d0c4ecb599a481648001053d4f0e89b83f6ecc8c5ce187818226aa9d2b"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-iRBcNs9oI8$_$9/quality.json",
+      "bytes": 427,
+      "sha256": "93d925499791af555709d89452c20f6b1f2eded41f40393b2c1ad1387cc6e7cd"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-iRBcNs9oI8$_$9/quality_masks.npz",
+      "bytes": 868,
+      "sha256": "60c546c6506f20264b6a82c70e16a247f41c0e79a374f4bc405a2af6756e283c"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-iRBcNs9oI8$_$9/windows_0.2s.npz",
+      "bytes": 3059,
+      "sha256": "b359e484f0f11012d39fbf707710e38d350386995e9d0ce4d0c393273bbad761"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-iRBcNs9oI8$_$9/windows_0.5s.npz",
+      "bytes": 2095,
+      "sha256": "7a7f776f2e1570df1ea6c62a3a2b5c22c2f84468768cf26b73f03cdaa4b7236e"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-lzEya4AM_4$_$5/features.npz",
+      "bytes": 245901,
+      "sha256": "36d89c3df0f375a5b4aacaff7ccc6d57a94fb55b9789dc91abb1289424af17fb"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-lzEya4AM_4$_$5/metadata.json",
+      "bytes": 14623,
+      "sha256": "4e96d8887648fe1aeffdff67c36d7011d569c5cbe6857bc429c2afb5ec97fd2b"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-lzEya4AM_4$_$5/quality.json",
+      "bytes": 510,
+      "sha256": "41ea1e1b83edc941628aa651b5550e6751d15b243fdb0aaa5d2a0f95f3521fe6"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-lzEya4AM_4$_$5/quality_masks.npz",
+      "bytes": 884,
+      "sha256": "fbc12e91513c63bc858f3bb253e328c17b46550216351ff1144e5944d3494cdb"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-lzEya4AM_4$_$5/windows_0.2s.npz",
+      "bytes": 12763,
+      "sha256": "7c92775a55ada432a0c8eeb31e24d408a6ebfd46b51e70c9c28eac22a4e5a067"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-lzEya4AM_4$_$5/windows_0.5s.npz",
+      "bytes": 6276,
+      "sha256": "7783e5ae545c12754c471be2e6a7d76b87aaf8bf44d8a47584d3c36f55314f0b"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-lzEya4AM_4$_$6/features.npz",
+      "bytes": 510552,
+      "sha256": "d051758287f47f01d79ec0043b3e62308ab9f86189104776691598dea497ec6e"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-lzEya4AM_4$_$6/metadata.json",
+      "bytes": 26948,
+      "sha256": "2de4915fa1cf75eca4ce4d746460770949959410249df725da76889d24af592d"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-lzEya4AM_4$_$6/quality.json",
+      "bytes": 758,
+      "sha256": "fb4b80547d470abacc0296f2a491f2238ae39f7b3ecc97a0d050abf10968c00b"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-lzEya4AM_4$_$6/quality_masks.npz",
+      "bytes": 884,
+      "sha256": "c306ce199436411944bc76aab42f237b3244f9ead210366b2e0310c941e5fe81"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-lzEya4AM_4$_$6/windows_0.2s.npz",
+      "bytes": 23034,
+      "sha256": "c66a7dd68ba8335f29fd54e82660779ac4910eaafb57317aed4c54fab68f7bdf"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-lzEya4AM_4$_$6/windows_0.5s.npz",
+      "bytes": 10532,
+      "sha256": "c5f4e2fadcc77bbbc95cb52cb5f6b0cfc65eb154d18f677235dd00d2c5b534eb"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-mJ2ud6oKI8$_$1/features.npz",
+      "bytes": 100100,
+      "sha256": "76aa600f5b614306c878ada859f012f79f14fb6cd16332a6c61e9f66002069cd"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-mJ2ud6oKI8$_$1/metadata.json",
+      "bytes": 10147,
+      "sha256": "c886f2bb6ba8d20174cec1f6c9c07392b3b5659b1237eef9207aa093ba578b93"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-mJ2ud6oKI8$_$1/quality.json",
+      "bytes": 444,
+      "sha256": "23d717d34b34731557c97b03f0236192f61b59f574470267d72ad3fdbd3f151a"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-mJ2ud6oKI8$_$1/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "6e9266e66b8cbf4a5c2be5aeeba42c0b2f16c0034afae40b78be7fd2848df346"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-mJ2ud6oKI8$_$1/windows_0.2s.npz",
+      "bytes": 1656,
+      "sha256": "66891b90b5bc224840f0572c97a2e0a370c0736caed0e6e8e76ee4c2946bc5c5"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-mJ2ud6oKI8$_$1/windows_0.5s.npz",
+      "bytes": 1495,
+      "sha256": "e6e4a5b32d0c0f381e4dba6def63acaf187c2d33c747bede57fffcd8f1f94782"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-mJ2ud6oKI8$_$2/features.npz",
+      "bytes": 105655,
+      "sha256": "fd962ceed461b9a3d0814a7bfbad13581da047d2bb2a6b7656ddfc0681b9c82b"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-mJ2ud6oKI8$_$2/metadata.json",
+      "bytes": 10469,
+      "sha256": "fce23fb909cf6999fc32d87cfa587e961923693f24cb4b1b088bc6deb9f8ce2e"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-mJ2ud6oKI8$_$2/quality.json",
+      "bytes": 471,
+      "sha256": "22cedd23531298368a472fbb38c1eb308dd2fa7c6268cc56fcf6ee56a5d72cf7"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-mJ2ud6oKI8$_$2/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "58591dcc75eb0ccf53cb5fe1117eb8eeef9eae2287a21852afca28d1ea5f1e5f"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-mJ2ud6oKI8$_$2/windows_0.2s.npz",
+      "bytes": 1638,
+      "sha256": "be9660477a1c3e0aca98b4c8607692f9e2cfb7d1a6384d36a396d4ec6506747f"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-mJ2ud6oKI8$_$2/windows_0.5s.npz",
+      "bytes": 1489,
+      "sha256": "35938d73091a525a3324dd245315c875ab99f03dab73af5e152fde02e068bf37"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-mJ2ud6oKI8$_$6/features.npz",
+      "bytes": 72503,
+      "sha256": "6c03a9aa0b2dea9736c2b2d6842ae4ff693a43e6d5e375478e39e0a91861716a"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-mJ2ud6oKI8$_$6/metadata.json",
+      "bytes": 7426,
+      "sha256": "075ed344b97d53713679d23d990219cf7a022b6cfcdcd94d80a9aad32c1d87e0"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-mJ2ud6oKI8$_$6/quality.json",
+      "bytes": 442,
+      "sha256": "a9da390cd1fd6a4176654e02005e90b10b708f5c7af98e57b8b31c1494821bf9"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-mJ2ud6oKI8$_$6/quality_masks.npz",
+      "bytes": 868,
+      "sha256": "60c546c6506f20264b6a82c70e16a247f41c0e79a374f4bc405a2af6756e283c"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-mJ2ud6oKI8$_$6/windows_0.2s.npz",
+      "bytes": 4994,
+      "sha256": "b71818a68621e71fc14887c5343e805520c25c27d04d48edb22ed27214c73eec"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-mJ2ud6oKI8$_$6/windows_0.5s.npz",
+      "bytes": 2968,
+      "sha256": "10a2a1ab376dae8ff1d850b8488dc1e2e38ea60a93c6efb668d5dddd3f5aafb9"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-mJ2ud6oKI8$_$8/features.npz",
+      "bytes": 138790,
+      "sha256": "01ba00126702f554a96a262ce5b05450094bf950f22163ad461ba52971aadbbd"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-mJ2ud6oKI8$_$8/metadata.json",
+      "bytes": 10513,
+      "sha256": "1436923c4fe29d7c245f04505bb46354e7898696215abc4de2670a4a76e64472"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-mJ2ud6oKI8$_$8/quality.json",
+      "bytes": 534,
+      "sha256": "d24abf1ad2119f69b463d668cd25cc16479c18533e8779c173417198f00fdd7d"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-mJ2ud6oKI8$_$8/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "58591dcc75eb0ccf53cb5fe1117eb8eeef9eae2287a21852afca28d1ea5f1e5f"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-mJ2ud6oKI8$_$8/windows_0.2s.npz",
+      "bytes": 7625,
+      "sha256": "bb645579bf3f23c94c0bcb88fa4930424f5c669f0cda3c825992dc1513f65590"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-mJ2ud6oKI8$_$8/windows_0.5s.npz",
+      "bytes": 4134,
+      "sha256": "8f03c27511ce32f6488e5c306de56df35469f6f51cd9a847aef9b100387fe9a6"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-mJ2ud6oKI8$_$9/features.npz",
+      "bytes": 266099,
+      "sha256": "597021f2fa2fffc410ad15fd2acdbeea27b04124c58bcf647bae2c95d0f115e0"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-mJ2ud6oKI8$_$9/metadata.json",
+      "bytes": 17171,
+      "sha256": "06704221a0b8cead4bd765e2d44d627c248d8ab75d05e96c0d6a05a1e0531705"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-mJ2ud6oKI8$_$9/quality.json",
+      "bytes": 656,
+      "sha256": "0bb17112f8f19b0f71cc847504e6ca1f2061e37d39bb1be07544f7a5a391d49d"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-mJ2ud6oKI8$_$9/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "5c9060326156f2f17acaa8c92d046219cb8938ef6819748d75655fe72fa7fe8b"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-mJ2ud6oKI8$_$9/windows_0.2s.npz",
+      "bytes": 11652,
+      "sha256": "8543a122ab064d021279398268ac505fd6add193f18f3259abaaf1bb87b3a259"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-mJ2ud6oKI8$_$9/windows_0.5s.npz",
+      "bytes": 5838,
+      "sha256": "8428316ac0d5b466a27e9327be8d493027c2e0097ef247f6a9afec9b680af12f"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-mqbVkbCndg$_$0/features.npz",
+      "bytes": 201153,
+      "sha256": "5a2747e457572737dfd1e73b0f20ab373ce09645fa989418f063550a34fa3507"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-mqbVkbCndg$_$0/metadata.json",
+      "bytes": 12251,
+      "sha256": "75cc23a0f2bd394bd7deb548ead8155ed39dd7beda4c378751c4d6e3e0e48f55"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-mqbVkbCndg$_$0/quality.json",
+      "bytes": 420,
+      "sha256": "36ee4872c49ad384bff0afd14674b8cacbe7c256b60792d81283a9fc9b7c1fd5"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-mqbVkbCndg$_$0/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "257f5e3e38f0ca8b9a7b0b42e9c8bc4b14971654c14a8e096689024852eecb00"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-mqbVkbCndg$_$0/windows_0.2s.npz",
+      "bytes": 11142,
+      "sha256": "caabf6223c71ab1d8bf74ce1d15dd28fc6728a9f142f816135bd39a50afad0de"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-mqbVkbCndg$_$0/windows_0.5s.npz",
+      "bytes": 5399,
+      "sha256": "93d5cbf622ad9d8197a61fc384c17260f37d2ae742abb511be9430d2056f83c3"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-qDkUB0GgYY$_$6/features.npz",
+      "bytes": 184045,
+      "sha256": "7246f0e020ebd40721ae0d3a05a1d19c2b81b7bc087000ccc8b156d34730cd0e"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-qDkUB0GgYY$_$6/metadata.json",
+      "bytes": 13079,
+      "sha256": "36c84cc47e3acc14aae6435bfd4483be66b9c044c0b51ba1342eb1e61b73aca2"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-qDkUB0GgYY$_$6/quality.json",
+      "bytes": 434,
+      "sha256": "2e4446068df2f60c7f96d4a3748ab720d88d0fc4503fb8689d8210ef9fc78c90"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-qDkUB0GgYY$_$6/quality_masks.npz",
+      "bytes": 888,
+      "sha256": "1097a8ab57a71268dd60c2a630112873d03bd60f891c2c8d75cf9f2b40fd00a3"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-qDkUB0GgYY$_$6/windows_0.2s.npz",
+      "bytes": 8666,
+      "sha256": "8f58e714ba13763f4077faa6f008bf8fb8c5627af1ea3ace72c526263dfd9368"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-qDkUB0GgYY$_$6/windows_0.5s.npz",
+      "bytes": 4496,
+      "sha256": "7598898acdadaf8f59c8bd3a73ecc1909ecefe6546a37d69a914677807c0e399"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-ri04Z7vwnc$_$0/features.npz",
+      "bytes": 97902,
+      "sha256": "b5cd14001dee986251ce5e5ffcc3f493bab15107c357e519a6ebaf684422b60b"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-ri04Z7vwnc$_$0/metadata.json",
+      "bytes": 7777,
+      "sha256": "dc9878e0357ba4fd9dc95d77a65967f48b674701e3bc37a26482f5f99389525e"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-ri04Z7vwnc$_$0/quality.json",
+      "bytes": 429,
+      "sha256": "ac72dffb6010fcb2299357dd74ec060802db686bc8fdeb0c109fc8e2973241e2"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-ri04Z7vwnc$_$0/quality_masks.npz",
+      "bytes": 868,
+      "sha256": "4cce31240cffaf74b705efc3bae57c2bd22fa813694a136d2a4b1a576e7ec8fc"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-ri04Z7vwnc$_$0/windows_0.2s.npz",
+      "bytes": 2891,
+      "sha256": "4c487b877e11bc14c7bec3cc9687a69246223cf35e73437a9d707cbd1e4e2998"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-ri04Z7vwnc$_$0/windows_0.5s.npz",
+      "bytes": 2047,
+      "sha256": "49fa3ad00fba38ce11b6d425ac9a65a628fd55e0b240bb48456bdd0fc0202185"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-ri04Z7vwnc$_$2/features.npz",
+      "bytes": 226495,
+      "sha256": "08a3cc00e89d0064d0828b39252192c79d9476f8b624382c62e68bc1796bcbf9"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-ri04Z7vwnc$_$2/metadata.json",
+      "bytes": 14684,
+      "sha256": "1edcc95f64895101aa127025009ec82f9c6da7abc7b6424aa462df887e6e1bdc"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-ri04Z7vwnc$_$2/quality.json",
+      "bytes": 507,
+      "sha256": "dd943d3125da6a0cd75975d729e1253e6cd067c0a4c8e61b85a46697741797c5"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-ri04Z7vwnc$_$2/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "09ce565ea9ef04c672ad2cb406a8f9c200256d1538971483fe70032ced3e8fa2"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-ri04Z7vwnc$_$2/windows_0.2s.npz",
+      "bytes": 6914,
+      "sha256": "7fb239651f2e01bfd42f3cd141afa8094346affba80bad7cbc8caac37def156d"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-ri04Z7vwnc$_$2/windows_0.5s.npz",
+      "bytes": 3899,
+      "sha256": "e70eff830a0ea17aaf2c79965f5fa37e1568ea303783e105cbf74984a8ea52b6"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-ri04Z7vwnc$_$5/features.npz",
+      "bytes": 120647,
+      "sha256": "690935fb100f385aaa31128ca4995819d1bcd98f5f8a8041849622c1547b0ae6"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-ri04Z7vwnc$_$5/metadata.json",
+      "bytes": 9496,
+      "sha256": "a3d890f9940fc189f6d32d0e4b886e8b5824d26f22de2737b181af94d56a03c2"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-ri04Z7vwnc$_$5/quality.json",
+      "bytes": 498,
+      "sha256": "b5ec4b229b9a5ed2da8bb3dfffc7a4cf0d1a0bd5ef2c103ca69a93c537e22f19"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-ri04Z7vwnc$_$5/quality_masks.npz",
+      "bytes": 868,
+      "sha256": "4cce31240cffaf74b705efc3bae57c2bd22fa813694a136d2a4b1a576e7ec8fc"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-ri04Z7vwnc$_$5/windows_0.2s.npz",
+      "bytes": 6789,
+      "sha256": "c2dcefa552f3cf3ebf54cbe3554978051794a3567cae65285885fd8f981435f8"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-ri04Z7vwnc$_$5/windows_0.5s.npz",
+      "bytes": 3773,
+      "sha256": "027643837070c8aefe6a289bab0ab06332e384fd7115d766a7817dd92a419b43"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$0/features.npz",
+      "bytes": 269938,
+      "sha256": "b69edcb6f35886575ddd788a66e20974c8e75b8f34b34e19a6f23d92e40259f7"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$0/metadata.json",
+      "bytes": 17273,
+      "sha256": "2a8e6d9112acdb17a117739e9d854b64335a727a80d88d1804d1ed49229cbd23"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$0/quality.json",
+      "bytes": 517,
+      "sha256": "61f65ec9bcb288ad4367e24fe6d60dfbf3b6bca55ff93ce4f1c6d542032d2124"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$0/quality_masks.npz",
+      "bytes": 876,
+      "sha256": "c5873a0ed6590a7e5b50c8e469f77681943e3891d46583c630208f95c0f26d68"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$0/windows_0.2s.npz",
+      "bytes": 11801,
+      "sha256": "925405f9d7b96cd8ac51542bdb9370acfeb36c358341e5c2bccb92352c06f3d3"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$0/windows_0.5s.npz",
+      "bytes": 5745,
+      "sha256": "a9fec79569e8a05921d085d38743a50c1d75cc208713021c4dbb250391eda2e0"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$1/features.npz",
+      "bytes": 147660,
+      "sha256": "9da4c168676e6c0d3fd4c4e70f0b250a58ee0f6851222f89a291a0f06b5da86f"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$1/metadata.json",
+      "bytes": 10468,
+      "sha256": "29c8e9c93c7cf12469042dbfb17c05dc65099efbcd959fbd1b08af175b56e7dc"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$1/quality.json",
+      "bytes": 427,
+      "sha256": "f7736daae0d0b5b125daa73fdcba7939900cb586d99dcc4e35d64718364d1035"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$1/quality_masks.npz",
+      "bytes": 876,
+      "sha256": "a39900989419114afd60f7ad85cc065e68b0fb4fe71a792104258e8282cfb813"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$1/windows_0.2s.npz",
+      "bytes": 8604,
+      "sha256": "fd4e217d01518ad4eea1758c23912e207bce9296d4f3345a143b2b21cf25604a"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$1/windows_0.5s.npz",
+      "bytes": 4518,
+      "sha256": "4f01f1e83481108da6d2deecf713dc5fb357312b30de6b025d6f434f0867b156"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$4/features.npz",
+      "bytes": 129022,
+      "sha256": "70f16b895c6badc005553c8cdfe25cc18d0515b77273bda8c80ed9acf4d1cc55"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$4/metadata.json",
+      "bytes": 9572,
+      "sha256": "d22bd0860aca80d6d1da1967286bf13a2be1f82fd06fd4eaedec92b9f1665273"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$4/quality.json",
+      "bytes": 421,
+      "sha256": "99c3579cfbaac6e921ffb91a7a1261a91ee9de109977c4c235958659113c8f65"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$4/quality_masks.npz",
+      "bytes": 876,
+      "sha256": "99d0dd66c66212557758823e293570c7bbf685cd6b6aa64005e74ee3fd9a3e06"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$4/windows_0.2s.npz",
+      "bytes": 6858,
+      "sha256": "e4931c0a5f8af462633a8298b3423227db4b5fd32c8e93e7a2374fc8c5a3bf1c"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$4/windows_0.5s.npz",
+      "bytes": 3801,
+      "sha256": "8228ead922607c6ced223144571554ae0096d2d8efc2087823e8726a097686e7"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$5/features.npz",
+      "bytes": 257351,
+      "sha256": "ce51acac7c7fb28e77784f5211b18e7e7d628cdccde2c1e05928766d68775cee"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$5/metadata.json",
+      "bytes": 14331,
+      "sha256": "a7470d70e6088f9f2e31918c8f39adc6f6443e7bcc0ab4ce0a9a472a6f94df63"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$5/quality.json",
+      "bytes": 499,
+      "sha256": "767d0b0e64462ec8749a15e9b103aa0baf72fb272895d00c51c8bfd2882f3136"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$5/quality_masks.npz",
+      "bytes": 876,
+      "sha256": "f2bee4ba29defbc9dbba7ed0fd8728e6d651a2b9a06cc85666bbb290b30f41b5"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$5/windows_0.2s.npz",
+      "bytes": 14139,
+      "sha256": "78accec596214faa3a0307b212e448f546c0b84d58fb0b606059bcc6297c784d"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$5/windows_0.5s.npz",
+      "bytes": 6828,
+      "sha256": "a51946a572e43b42ac27604b8c63af17019edc143a8f6661848b3a460b176f53"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$6/features.npz",
+      "bytes": 71448,
+      "sha256": "dd4b0809bb7cbbe043d419e5835d72d15eeb4b06f1a894669ed062d47c0dcd89"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$6/metadata.json",
+      "bytes": 7319,
+      "sha256": "865fa0687b3df208f78d00d47e6affed3a019a8d520f662afd2937d5df9a12c2"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$6/quality.json",
+      "bytes": 325,
+      "sha256": "56a89d97f575f25dffd7f73336723c1c58fe84be8e8351b8688ab7a064f847c3"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$6/quality_masks.npz",
+      "bytes": 868,
+      "sha256": "9fc6bed72530a0dcbe7fd412ea8a9e805def5580df7be1ab8f6c43f79daec592"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$6/windows_0.2s.npz",
+      "bytes": 4641,
+      "sha256": "d555da5fe488de6f742bb4b5d3a42999d12d25fe0bda35a5dfd6b5b408dbf014"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$6/windows_0.5s.npz",
+      "bytes": 2756,
+      "sha256": "53c93d17f6535d2eb632b641bbea3986ae825c372b26255daf62a19583b217b3"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$7/features.npz",
+      "bytes": 304511,
+      "sha256": "bb989fd57bb2d19542eb05a9c71234a735bb1422f6384d3ec1c5a3a1e0d5eb7f"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$7/metadata.json",
+      "bytes": 20347,
+      "sha256": "c0c6a59b4e5ec6fd93eae716da842a6333d3b36cd4d087fb706f6b92f297416b"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$7/quality.json",
+      "bytes": 579,
+      "sha256": "6ef788c12611b2aabe87badd2e4a00ff5ed8646d1621a7cf644a25c700f09d1b"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$7/quality_masks.npz",
+      "bytes": 896,
+      "sha256": "0b881c6a1dcdc87f8476afe85d43a74b5508ee12bced6444905c42cc76c6ce61"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$7/windows_0.2s.npz",
+      "bytes": 9141,
+      "sha256": "c372991fd14ae8714951ef9c4fcad3cc26b7a2d3d66e8d6553eb5710509fe4a5"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$7/windows_0.5s.npz",
+      "bytes": 4793,
+      "sha256": "4d019e156fa65b2084e685f8bfad06ab9e271fb75fd60559a3deff15a1f0bc46"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$8/features.npz",
+      "bytes": 143607,
+      "sha256": "2e3a79938ea87f73956511902fdfccf1a48d4c8452a667688dbf2897ae821423"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$8/metadata.json",
+      "bytes": 11630,
+      "sha256": "7ed89899726681aacce97f25c793f1c272697b4eeb3e70cb38a6258f7c356064"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$8/quality.json",
+      "bytes": 428,
+      "sha256": "ec8bb51fc360fec4d1ed3f5b123f52fc3c2083d3ffb3c72856bb40ca314bd1d1"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$8/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "8f2b8f2ca74f0d4e5e7ec5bf6200b4fdf6c00dc1bcd0f2f32390c760005f7eea"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$8/windows_0.2s.npz",
+      "bytes": 6503,
+      "sha256": "2470b67440e5da2717269c38af598123fd2a27c5daddbe596dbdfda5ce7a67c7"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-s9qJ7ATP7w$_$8/windows_0.5s.npz",
+      "bytes": 3650,
+      "sha256": "2279795be35f65fe8c3febfd96e36358ae55bb93499942d93877373424c49676"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-t217m2on-s$_$2/features.npz",
+      "bytes": 180834,
+      "sha256": "98142946a5f61e57ef62b102ffebbd0613d1cd317bdfab64781f11c79046219f"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-t217m2on-s$_$2/metadata.json",
+      "bytes": 11473,
+      "sha256": "056f9af7ac2b6299ac7937c193c8c06b82888d5347f6eb629b10a3990cf0c1cf"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-t217m2on-s$_$2/quality.json",
+      "bytes": 416,
+      "sha256": "6b36ef6b269b2ebd5df53cb0c82e540a9d644b2c5e3c4f4d4c862cefeed22cdd"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-t217m2on-s$_$2/quality_masks.npz",
+      "bytes": 876,
+      "sha256": "eaf696d0c972323ac9480489aed1e2aff7ec0d59d860ae5ab29d2999b7e0a2ef"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-t217m2on-s$_$2/windows_0.2s.npz",
+      "bytes": 9946,
+      "sha256": "2a43acbd0119693176c8145d9c81cb20a09e37516a8a0a3cc3349ca54c10e9c9"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-t217m2on-s$_$2/windows_0.5s.npz",
+      "bytes": 5034,
+      "sha256": "13f01ea4c129d6b5f6e5edf89045eb526a52e59842730cad6e3a59fec8aac878"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-t217m2on-s$_$7/features.npz",
+      "bytes": 569335,
+      "sha256": "8bef0b3c73026a5df3840d7173f9306ee76c3515149631c427e23fbd65cfd6b6"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-t217m2on-s$_$7/metadata.json",
+      "bytes": 28484,
+      "sha256": "bc1cf02af39cce12f54c762aaa5572a53f5b53f62ba0476170003e8b4e08e378"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-t217m2on-s$_$7/quality.json",
+      "bytes": 789,
+      "sha256": "0befd98761913736a6a282b3f9badabe007054f54901d61962e4ac4d36c1d8e3"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-t217m2on-s$_$7/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "b9a32efabb4f031cd7ce84619f39e2281cb0bbb5e950f52665dd6a30d18d84d0"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-t217m2on-s$_$7/windows_0.2s.npz",
+      "bytes": 26714,
+      "sha256": "6bd3801f5be17d378af7120dccbcef7a2600081db8777bc8f455c23512844fa5"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-t217m2on-s$_$7/windows_0.5s.npz",
+      "bytes": 11936,
+      "sha256": "a2b06edcc3be7b15397dba0f01b691741e0f1ef19d220164dbffd53c101d6225"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-tANM6ETl_M$_$3/features.npz",
+      "bytes": 266157,
+      "sha256": "bce24f2c06d3d0b2b15abf56ac8e7be0f467bf92d92b3ec5d694845e44b603c8"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-tANM6ETl_M$_$3/metadata.json",
+      "bytes": 16932,
+      "sha256": "7e184ded634390b25871a1559c46403166c5529bbcf37e7cfa36459d9fed3f2c"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-tANM6ETl_M$_$3/quality.json",
+      "bytes": 532,
+      "sha256": "196714a5a632840bc8cf3144ae79564aa93b0c20ad6f9aa5a1a3b82b355eff78"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-tANM6ETl_M$_$3/quality_masks.npz",
+      "bytes": 880,
+      "sha256": "8b960b1a741f5ef36694e1b2b4132ccfe1bfb5680238b70ddef61ff57f7acd90"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-tANM6ETl_M$_$3/windows_0.2s.npz",
+      "bytes": 11561,
+      "sha256": "0488c9a6a9a7eb588de981be7a8b1314156d3ded951084851f6e81cad974afc8"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-tANM6ETl_M$_$3/windows_0.5s.npz",
+      "bytes": 5702,
+      "sha256": "0526aa668102a4a2cfe8cd610714394511b0d6743265581c768f3a916c83f294"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-tPCytz4rww$_$10/features.npz",
+      "bytes": 160948,
+      "sha256": "ae3479eb322ff98e44c38111e6967b030ae19fd9940d99dd3727257d56ad2fed"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-tPCytz4rww$_$10/metadata.json",
+      "bytes": 11358,
+      "sha256": "47697ca4629ed659d1b89a25ca444bdef5946fe5ef5f5f3a1b8715f4f43941f7"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-tPCytz4rww$_$10/quality.json",
+      "bytes": 434,
+      "sha256": "bddaaf996548f92f38d758b52963f6160bdabd5a83ec7d0e4935d9ba64e2e227"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-tPCytz4rww$_$10/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "8f2b8f2ca74f0d4e5e7ec5bf6200b4fdf6c00dc1bcd0f2f32390c760005f7eea"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-tPCytz4rww$_$10/windows_0.2s.npz",
+      "bytes": 8570,
+      "sha256": "fbcdb24ecd30a8c66c668f3b746baf939a02e21a9c3e980ee0fc4148aeaa8481"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-tPCytz4rww$_$10/windows_0.5s.npz",
+      "bytes": 4542,
+      "sha256": "3311cfd7127895fdcb0348a36a33a569d0122244628d781ae66cf8c1094b075c"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-tPCytz4rww$_$11/features.npz",
+      "bytes": 205211,
+      "sha256": "f4115cb8c3e2b74cfa56cca4926c1b115f78629ab4d42549781b62bbf458df27"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-tPCytz4rww$_$11/metadata.json",
+      "bytes": 13792,
+      "sha256": "fe822f695cc4fc9a12251b5929da3b9b152c94fde80589adaceb6020b5cc4458"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-tPCytz4rww$_$11/quality.json",
+      "bytes": 492,
+      "sha256": "50771db7484becc9f25c1b7786642e1e1e74cbc6d8184ab00d1511a7704d0717"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-tPCytz4rww$_$11/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "1523da8456396add26a910d98f28db5dd9b002f38eedf7ff678aaae8cf939e8b"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-tPCytz4rww$_$11/windows_0.2s.npz",
+      "bytes": 9816,
+      "sha256": "eeb9ea0d3d69769ff2f42741318a40fb71431540766bde81dab48e7a19f72665"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-tPCytz4rww$_$11/windows_0.5s.npz",
+      "bytes": 4868,
+      "sha256": "2789dfba38d7644760b1987a779650f7c8de4bae909435dddd58524ca66dc55c"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-tPCytz4rww$_$12/features.npz",
+      "bytes": 354977,
+      "sha256": "4da9db139191cc6d338f82cfb4886349b1ce5000ed68a6c025a587f72fb55c02"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-tPCytz4rww$_$12/metadata.json",
+      "bytes": 18207,
+      "sha256": "b3767a0bce0d22b1f529d832102e8e7f2e12abbf87c1eeb820efaca18e02092d"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-tPCytz4rww$_$12/quality.json",
+      "bytes": 650,
+      "sha256": "31550854d9bca224df57fd6322786944d4a4ad0dfb1fad73a79e9dff3514f876"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-tPCytz4rww$_$12/quality_masks.npz",
+      "bytes": 888,
+      "sha256": "c3064ff862762e56c47465fa379dff57a5ac51ee48bd885ac0eec145aadedc36"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-tPCytz4rww$_$12/windows_0.2s.npz",
+      "bytes": 19181,
+      "sha256": "87c04c0cc785336cc06538b20fc5b6c6a097b32702f4fcdc8001d158d9aca547"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-tPCytz4rww$_$12/windows_0.5s.npz",
+      "bytes": 8753,
+      "sha256": "100c50066a11646c4e5adbc549054bd520e4beae1d990099e1a1b54fd96fb8e0"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-tPCytz4rww$_$16/features.npz",
+      "bytes": 218283,
+      "sha256": "e7b14714148e4ffcbe784c48d91a8bf912b3b002e77461d75af1a8bcf37e7a45"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-tPCytz4rww$_$16/metadata.json",
+      "bytes": 12866,
+      "sha256": "b2d6e38d1dd38c93104cb83b1be3fd59188a4c2ecf297945772d8e9bbc0252e2"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-tPCytz4rww$_$16/quality.json",
+      "bytes": 441,
+      "sha256": "50a21e5f327f410d5cd66bfac035b155b151133caca26bac110f186acd3b5c4c"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-tPCytz4rww$_$16/quality_masks.npz",
+      "bytes": 880,
+      "sha256": "894cdb0be4d2ee676e39a447a6f59b9e20aeae9baac6de2518b4924d2dadc094"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-tPCytz4rww$_$16/windows_0.2s.npz",
+      "bytes": 12040,
+      "sha256": "ab5143f638610a1d84c586f60844c696a00cebef24f2f3f7d853424a5806c011"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-tPCytz4rww$_$16/windows_0.5s.npz",
+      "bytes": 6024,
+      "sha256": "8260da5c5d1919f8251834b7b96677dbe2d39954bfd593e191bdeb293c1c7881"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-tPCytz4rww$_$18/features.npz",
+      "bytes": 226254,
+      "sha256": "c59e35e03babf42ebe52fd65f917d5bcf5436d5a63f7bafbb7bafddc2346aa6d"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-tPCytz4rww$_$18/metadata.json",
+      "bytes": 13848,
+      "sha256": "902ada58585905ddd1f8d62ba1ac7b1576131f233bc5ccf63ef3a6f3bc69c5d5"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-tPCytz4rww$_$18/quality.json",
+      "bytes": 469,
+      "sha256": "dcd7757234a9292e9b625701cadd0a54f76a0cad7aa17aab1c12b6c8f29c79ed"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-tPCytz4rww$_$18/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "bc23d09bcd584cb3c942a22c804fb102749a1fa13bd74bdbdf4f0d0848bb2c61"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-tPCytz4rww$_$18/windows_0.2s.npz",
+      "bytes": 11565,
+      "sha256": "06510973a8f1dd2e2fbef7114242db74acc547e009273ff5fbee8209520911a5"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-tPCytz4rww$_$18/windows_0.5s.npz",
+      "bytes": 5736,
+      "sha256": "d079651e467d2fa19d717d7fc8ca0a878ffa0b6c126189a7ca7a59fc2e2c1ee5"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-uywlfIYOS8$_$4/features.npz",
+      "bytes": 223010,
+      "sha256": "dacce7d5476040a6d41456f21549b57f03e1605ec63aca4d16087c24986ff511"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-uywlfIYOS8$_$4/metadata.json",
+      "bytes": 14513,
+      "sha256": "cac4436bd7500c5921c119205ec178effcb6ba62441c41d6d9013d982cf6f460"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-uywlfIYOS8$_$4/quality.json",
+      "bytes": 508,
+      "sha256": "9684c2d1b59a3e4256136f0af211021fc437ed77f9441bddc8827ab699d2186c"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-uywlfIYOS8$_$4/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "a4d6a9750e33503c85b6a1898c75f0c2ffe767910f903c25d5ead45fabe7d4b0"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-uywlfIYOS8$_$4/windows_0.2s.npz",
+      "bytes": 10665,
+      "sha256": "49da81b44a2b57c2cfbd00a1baa0b1b5821944b1da92a7645ea6dc9fb66d7bd9"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-uywlfIYOS8$_$4/windows_0.5s.npz",
+      "bytes": 5345,
+      "sha256": "46df69210a3be6f5c78129f6811d9df7649b3ae735105c85afe29c1016314991"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-vxjVxOeScU$_$4/features.npz",
+      "bytes": 297625,
+      "sha256": "341719f2924cf6ea1b3145140b6d160925c75d059f069d6abaec97ffdb4cee77"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-vxjVxOeScU$_$4/metadata.json",
+      "bytes": 16339,
+      "sha256": "79eeab99066a968c709d8e9123851ccf0be866a666d92dcc64231edccdff7279"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-vxjVxOeScU$_$4/quality.json",
+      "bytes": 554,
+      "sha256": "799ad369e1b1e2fcdb0f27f58a90af8b4eb1cb405cf445503796352df4cbe2bd"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-vxjVxOeScU$_$4/quality_masks.npz",
+      "bytes": 892,
+      "sha256": "f43dd5cbe791a1d8e393b08856fff59d2bea9a163696f8144ea8c32f7b761180"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-vxjVxOeScU$_$4/windows_0.2s.npz",
+      "bytes": 15161,
+      "sha256": "ef6cb524eea800757bf77c3a04b165629e73b0935d062c7edf034752d2056b74"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-vxjVxOeScU$_$4/windows_0.5s.npz",
+      "bytes": 7221,
+      "sha256": "b67208f920f2a1dc0eed51ba219a0abcbcaef04fcd52110093e9837bf614053d"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wMB_hJL-3o$_$7/features.npz",
+      "bytes": 236502,
+      "sha256": "1789157264d9963680d61f9da42660d56b0deb7165c0a28c0b48c61904bde300"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wMB_hJL-3o$_$7/metadata.json",
+      "bytes": 15856,
+      "sha256": "9f0dd34819cab07e95bd8e7f5446d513f2430613408a3d1cedcc8d2b67623478"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wMB_hJL-3o$_$7/quality.json",
+      "bytes": 506,
+      "sha256": "fb61744f980c53b5d002f145c89b7f3944be80309e68a8246e770fab7e97b112"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wMB_hJL-3o$_$7/quality_masks.npz",
+      "bytes": 876,
+      "sha256": "8c9b8cb458dfeaed95738fbfe80533712e1c1fe0a5f8deb4e4d61515e8891419"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wMB_hJL-3o$_$7/windows_0.2s.npz",
+      "bytes": 10500,
+      "sha256": "b0d922b0625c04e144bb43b642da31241aadf35210ab465d798eee69ce968865"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wMB_hJL-3o$_$7/windows_0.5s.npz",
+      "bytes": 5303,
+      "sha256": "c295dcdb3ad644a69022e5a199409a1446e7fc77f755468e2de1ee96992a00d7"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$0/features.npz",
+      "bytes": 119864,
+      "sha256": "ae9d46e75d6f9053e400fc9471d7b5c8064931766366eaf113480b219f7e5e8d"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$0/metadata.json",
+      "bytes": 9778,
+      "sha256": "8e81c592bf24f7adf9807f4dcbf4388a015fce940162fef19cddfa76a975d12b"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$0/quality.json",
+      "bytes": 409,
+      "sha256": "e8d8e849bf1610b2ea8b3b251a58ab01b0948d4c4d73774e732aeda3323c7890"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$0/quality_masks.npz",
+      "bytes": 868,
+      "sha256": "16ee1dafe29adb8e697543ad125b5d323aaa8296f01e1bc2627992d39229bb9f"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$0/windows_0.2s.npz",
+      "bytes": 5995,
+      "sha256": "5b927bec77b4a7d9015a7501a32b4b63a807ccd5c22eb08e6f07760e1791b707"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$0/windows_0.5s.npz",
+      "bytes": 3428,
+      "sha256": "ac8ad08334d49c177e5c519e9f364973888d67fd24f3baa35c41e4aeb82a8e02"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$1/features.npz",
+      "bytes": 256148,
+      "sha256": "f1d01c53db7ec9b8be2a3b505e04bd71825b12187e7f47a765f273a2a3e1992e"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$1/metadata.json",
+      "bytes": 16982,
+      "sha256": "002c40707b08418160fd6bcd187e591e4eee4d323ce531606176ecbc467ab427"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$1/quality.json",
+      "bytes": 599,
+      "sha256": "6cbb4002e639da750bf9f212cf8817ab024ac5f4969af0b9623fc182933641b4"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$1/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "2bf84d6adc70c39b3c1a34a3832837ea46241dd352745ba70b848d20111e1bdc"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$1/windows_0.2s.npz",
+      "bytes": 6404,
+      "sha256": "d74c60ec61f6b6e30d095fc27a32c385867b399bde8f86bc1c5f94418a4ad16f"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$1/windows_0.5s.npz",
+      "bytes": 3636,
+      "sha256": "174641479eb22dea64314b9345a464c1053bc4795c21bbb8636115463fbd58e2"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$2/features.npz",
+      "bytes": 264851,
+      "sha256": "05836cf3381076c097ae1d7c4217629de9e388ac6d80507fdcb55831426e5e3b"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$2/metadata.json",
+      "bytes": 17254,
+      "sha256": "aa9de1af2ad46df5685491810fe4873e938d74a8a7a955645bb9aa9b3b83e405"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$2/quality.json",
+      "bytes": 590,
+      "sha256": "b96148021cd8eac12ab0d31eed1914239a120757430bf3bdbd91d44f48d73b77"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$2/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "e73ccf6afeb6f0e042bed01b85faf240c89625ab4f7b37249e50058e81441570"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$2/windows_0.2s.npz",
+      "bytes": 10417,
+      "sha256": "00f02232ea636bab1aa2203667c5f575519f9207d4a2229b858c036728b7c74f"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$2/windows_0.5s.npz",
+      "bytes": 5182,
+      "sha256": "83232771b4b5784cdd182a8f89231b99da0ce34e26793d3660c2950b903417a7"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$3/features.npz",
+      "bytes": 219344,
+      "sha256": "99808e8163cecc57bdc68b341fa540c1a156a9ea9bbfdb9e8eee3d13a5e116e0"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$3/metadata.json",
+      "bytes": 14847,
+      "sha256": "d22b09c3701c118e9cb8f9df33ad1ce37d93a6b7a970873b5cb07ec24af45e02"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$3/quality.json",
+      "bytes": 532,
+      "sha256": "80af53a3b9bea311700f08070d820cc773acc3af9c9bd742faa8609ee50c832f"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$3/quality_masks.npz",
+      "bytes": 873,
+      "sha256": "93adaa86b093a9f5e4bcd6acb2121e142c2e870bbebb438ac2010c36be87bc6a"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$3/windows_0.2s.npz",
+      "bytes": 6179,
+      "sha256": "1c1fa9c2007e5b7f9b1eed8e7f68f3111e88a85fc38d59d6e8576ee69d557efc"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$3/windows_0.5s.npz",
+      "bytes": 3513,
+      "sha256": "955196e274b537d88326932ec59e4a812cf687dca15afd7350a495cc4ab0a0e4"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$5/features.npz",
+      "bytes": 246886,
+      "sha256": "107cc7bc017cae901364fdf8ee00b66add534e5fad2d9111b73a0d66f4936dab"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$5/metadata.json",
+      "bytes": 16131,
+      "sha256": "7dfed67b7c0a6d4895e53f8b1036b26dfea7fd2612edbc7515498efcb6e26163"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$5/quality.json",
+      "bytes": 548,
+      "sha256": "13fbe7fc2689950b8fdd7856912a9e4c6d87922423771b0572601bf9e60e7f7b"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$5/quality_masks.npz",
+      "bytes": 873,
+      "sha256": "93adaa86b093a9f5e4bcd6acb2121e142c2e870bbebb438ac2010c36be87bc6a"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$5/windows_0.2s.npz",
+      "bytes": 6600,
+      "sha256": "2851a4950f5963d0a3fb560fe8351df3bd9b4a944666c759ec38bafb2126aa76"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$5/windows_0.5s.npz",
+      "bytes": 3581,
+      "sha256": "d07dff97477c2ab8e1b58a281930d38376ce1bada41e59feab9423f575be3996"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$7/features.npz",
+      "bytes": 306029,
+      "sha256": "63fbfc34acd98a51dd2645f235dc75749b9fdf1119e2e785c87567fd850b21c2"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$7/metadata.json",
+      "bytes": 19553,
+      "sha256": "5e405a2cf7ad5920d61c2d4f6efcea5975633e469a5b24eceb74f0cbed5eda33"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$7/quality.json",
+      "bytes": 621,
+      "sha256": "769f85760556daa3e2484330b62cb51d8d228e11a29ba8603d324957fbad7e2c"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$7/quality_masks.npz",
+      "bytes": 881,
+      "sha256": "224c3901c925b783c8cc775ac0753b3aeb4dc13967a1faadbcfec6b0b4c6e3e0"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$7/windows_0.2s.npz",
+      "bytes": 7955,
+      "sha256": "ee00b39ac8057200053711bddc92fbff47de4724627721628c023ebb9a907c5c"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$7/windows_0.5s.npz",
+      "bytes": 4685,
+      "sha256": "184a128af55861e481ea6ada2c3ef99530b097c76d858c370558930b201e91d2"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$9/features.npz",
+      "bytes": 232568,
+      "sha256": "f87a1157553f8ee698e213ca20302c62db243172fe79574555b9836b0e08ba0b"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$9/metadata.json",
+      "bytes": 15159,
+      "sha256": "d999f220870f09411da395b46b755a45ba35bf2a8b529c42dd3f65fdcee702a6"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$9/quality.json",
+      "bytes": 529,
+      "sha256": "5a7c6b775e290f7f213754b096b96566316727143c313ea1121b238dcc8bbd69"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$9/quality_masks.npz",
+      "bytes": 876,
+      "sha256": "efc6e52e92057434c09f6ee9b7503a7c834fc5928dcde83d50b27b1f189b637e"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$9/windows_0.2s.npz",
+      "bytes": 10382,
+      "sha256": "56ac772efe186a166099553ab218663b92a289775d8e3e7d2248980740fbbe36"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-wny0OAz3g8$_$9/windows_0.5s.npz",
+      "bytes": 5246,
+      "sha256": "6e34aab01ead59d3c7732c639f3d0938211a9f4d3f462296aa9ecc6c9f9f3890"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-yRb-Jum7EQ$_$1/features.npz",
+      "bytes": 770132,
+      "sha256": "d6f34e229ea4d04d5a59d2bc3e6c134adb27e72a9f5aab6b95cd4244f99ed6d9"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-yRb-Jum7EQ$_$1/metadata.json",
+      "bytes": 30890,
+      "sha256": "56daf07edbbe12961b21100e0092de5a91d091248c82832017589df4a790e211"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-yRb-Jum7EQ$_$1/quality.json",
+      "bytes": 1002,
+      "sha256": "d682071b1fc21fc89866d9020716bc665d33bffa9da25aff7f4eae3d14c9f7ca"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-yRb-Jum7EQ$_$1/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "7ca67e46714b95695e7738266e05cc5c158da9e232e96fd1160c35214021d054"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-yRb-Jum7EQ$_$1/windows_0.2s.npz",
+      "bytes": 42098,
+      "sha256": "8096772f80bba2c958a3e2ccacd631443a4a4dfe01742dd438754d6d7dde2829"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-yRb-Jum7EQ$_$1/windows_0.5s.npz",
+      "bytes": 18071,
+      "sha256": "367f2b6e8ed41822d77da291db51ccaa277dcdf50ce949924d0bc24743366b54"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-yRb-Jum7EQ$_$5/features.npz",
+      "bytes": 381296,
+      "sha256": "23115375b2be4db7e6701ee8bd90597e2d85c678be498896c0401e2d748ef560"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-yRb-Jum7EQ$_$5/metadata.json",
+      "bytes": 18608,
+      "sha256": "8a5a3eb80229372cdb8927d9231d603c9bca8e9ab30e9a6e4873f95c5b2f7cc3"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-yRb-Jum7EQ$_$5/quality.json",
+      "bytes": 692,
+      "sha256": "ebebd1b309507099b1367aca064d0703c52510ee981bb831f0d1b968630adbf4"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-yRb-Jum7EQ$_$5/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "2d4d30e81399a14574cb7a93392c580bf1d4b3cfe752c24b8357aa7ae7f54bdc"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-yRb-Jum7EQ$_$5/windows_0.2s.npz",
+      "bytes": 20689,
+      "sha256": "3089d3b3ae1c07af58b18cac66da763758f624d06b48f59c1a3e7103761bc91b"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-yRb-Jum7EQ$_$5/windows_0.5s.npz",
+      "bytes": 9405,
+      "sha256": "f14003172bfa6545b1293e5b077bdb1cae2cabca7d2e0aed9cdf147894c8cb52"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-yRb-Jum7EQ$_$6/features.npz",
+      "bytes": 307020,
+      "sha256": "e13e6ce331a15bd449161e4cd05f2ca2c7d905953b3a98b9de6b6ff8038f40c2"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-yRb-Jum7EQ$_$6/metadata.json",
+      "bytes": 15286,
+      "sha256": "deb58f23505c9871728c4c3bd9cf7ea784e4840ecebbd04b133ef09cb7931887"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-yRb-Jum7EQ$_$6/quality.json",
+      "bytes": 617,
+      "sha256": "6aebc42488bf1dd69883302dd7f5454f96e74a05b72377495f3a672b06b6045b"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-yRb-Jum7EQ$_$6/quality_masks.npz",
+      "bytes": 872,
+      "sha256": "7b02e38316cc2d4bec48428d414490731378fd7c6b25fb51c46ebbc142a5f4a3"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-yRb-Jum7EQ$_$6/windows_0.2s.npz",
+      "bytes": 17593,
+      "sha256": "6318dc5b36a7cc7531cd763c05806a17444e2ef1e9f77fc84f3e25e2e6e2fbe9"
+    },
+    {
+      "path": "问题一提交附件/step1/results/samples/-yRb-Jum7EQ$_$6/windows_0.5s.npz",
+      "bytes": 8085,
+      "sha256": "e80af5d336509817aec417cb192fda197d3756461130b45cfaed35a71eba5014"
+    },
+    {
+      "path": "问题一提交附件/step1/results/typical_feature_mapping.csv",
+      "bytes": 6454,
+      "sha256": "a84d03d3f8e71de94e280252bcdd7fe4b3b7c3e090db8b62327db06fc4d7ed8b"
+    },
+    {
+      "path": "问题一提交附件/step1/results/verification.json",
+      "bytes": 22398,
+      "sha256": "cc1f7e325527885876a5f33d35d57b53d4095ada3c0f48b621c591a65702e155"
+    },
+    {
+      "path": "问题一提交附件/step1/results/window_comparison.csv",
+      "bytes": 15373,
+      "sha256": "c9abbda09675d801fc549846fe8ec1ecc3c5bb205fe1bc60c85d5ab99fc11d00"
+    },
+    {
+      "path": "问题一提交附件/step1/results/word_alignment.csv",
+      "bytes": 185268,
+      "sha256": "a213588bd9d466a39e5be11fb8721bcc101af37ed7c02cdb480a1c21ac08ae17"
+    },
+    {
+      "path": "问题一提交附件/step1/results/人工审核_21条样本.csv",
+      "bytes": 3681,
+      "sha256": "eec0a7d5dd40536f23d2b0d8372eda951f5285e631bf8eee748962f1edcadd62"
+    },
+    {
+      "path": "问题一提交附件/step1/results/全部样本特征交付清单.csv",
+      "bytes": 7449,
+      "sha256": "44c09faa646e63ccc9535d4b9d20187683d470a8464fa42c1750d57425e2e512"
+    },
+    {
+      "path": "问题一提交附件/step1/run.py",
+      "bytes": 9840,
+      "sha256": "fa7041874648d1e8a18581532efa865c3acc5e512a3c4ca449da92049e8a4562"
+    },
+    {
+      "path": "问题一提交附件/step1/test_alignment.py",
+      "bytes": 1808,
+      "sha256": "52d73c90d79b25336ee22fb4efed9ffb29fefb123db6ee3a3ddf05b59d392b84"
+    },
+    {
+      "path": "问题一提交附件/step1/validation/analysis_statistics.json",
+      "bytes": 2463,
+      "sha256": "52c196a03c135043f33442ca91ae7f898016f29554eb5c9f533b4b1c1dcda447"
+    },
+    {
+      "path": "问题一提交附件/step1/validation/audit_results.py",
+      "bytes": 16426,
+      "sha256": "c9a8def54c453c715ecf2fe9674c335b6c138c2e726e620e41f10f54608ae544"
+    },
+    {
+      "path": "问题一提交附件/step1/validation/audited_window_comparison.csv",
+      "bytes": 15574,
+      "sha256": "a64206efba401f7dfad4ce8d51da492949a53d8027ee27a4a7874da0ff9f336a"
+    },
+    {
+      "path": "问题一提交附件/step1/validation/check_analysis_statistics.py",
+      "bytes": 3193,
+      "sha256": "6c7b56069f9dd5ef2a6eb3fd74f2e143fc25c2e4d71d8bd50cea21c3230e6cc8"
+    },
+    {
+      "path": "问题一提交附件/step1/validation/data_audit.json",
+      "bytes": 6340,
+      "sha256": "cbb735aa4f7aee2f49751da102baebaae369a8a0e963e5057834e7f659900244"
+    },
+    {
+      "path": "问题一提交附件/step1/verify.py",
+      "bytes": 8979,
+      "sha256": "eade8f8a3fcef34bf7d982813df4b6839e5869390761f3eeeb41df2e81f24d5a"
+    },
+    {
+      "path": "问题一提交附件/复现实验说明.md",
+      "bytes": 5066,
+      "sha256": "1efeb19e0be0a30acd0e90ab1376da40fade6a9f2dfffa49d9d26e87200a8047"
+    },
+    {
+      "path": "问题一提交附件/文件校验清单.json",
+      "bytes": 126859,
+      "sha256": "a2cb7e71ca109d9fc5dd42bdb45d92b12ef22c844c8543fb0f193c14d4aef590"
+    },
+    {
+      "path": "问题一提交附件/核验附件.py",
+      "bytes": 6939,
+      "sha256": "86934c5d434f7ef9b4b4dff4e4966c8a57f939ad1cbb5a76f39e5221cdef8a01"
+    },
+    {
+      "path": "问题一提交附件/特征字段与读取.md",
+      "bytes": 5450,
+      "sha256": "5c1bd8f856363c082ba97e4329792e238b5ae46fab5f322d54ea6ad71d8fad51"
+    },
+    {
+      "path": "问题一提交附件/附件说明.md",
+      "bytes": 3737,
+      "sha256": "f9de84dea82e1cc92abbea091a670c74f7f7543e7f1ed27c032940508b526917"
+    },
+    {
+      "path": "问题三提交附件/step3/alignment.py",
+      "bytes": 5749,
+      "sha256": "3794e5fe38ec5c27551c1d35e43e008b6593fcf2832359b0c3594a5a1977a003"
+    },
+    {
+      "path": "问题三提交附件/step3/analysis_protocol.json",
+      "bytes": 684,
+      "sha256": "284287aaf0b58ae5736eb25e848e7e4bac589a0ed0d621b2c51639c30b9b9026"
+    },
+    {
+      "path": "问题三提交附件/step3/assets_manifest.json",
+      "bytes": 1553,
+      "sha256": "297914a3ee7e2ff5e7bf20e48cf30736d2ab2d531085592dcc75b30ab061514e"
+    },
+    {
+      "path": "问题三提交附件/step3/checkpoints/final_17.pt",
+      "bytes": 675718,
+      "sha256": "b74a9ce4a9103beed28987b340e2cb82dff014ab7b20f370dfe00fc0a02000ec"
+    },
+    {
+      "path": "问题三提交附件/step3/checkpoints/final_29.pt",
+      "bytes": 675718,
+      "sha256": "0ce3e3947d24b96dc44a3c0e0b1ec3f2279372bbaec5d7d7388572ba912f7406"
+    },
+    {
+      "path": "问题三提交附件/step3/checkpoints/final_43.pt",
+      "bytes": 675718,
+      "sha256": "fadbd7b5849662f12f7e40208a99aa89a079b31c353d29da035e89fde72d2597"
+    },
+    {
+      "path": "问题三提交附件/step3/checkpoints/normalization.npz",
+      "bytes": 8544,
+      "sha256": "d11c18570f83af5f9569853444a73b3c112e0ae3aeff42d3fe2bcf04206971db"
+    },
+    {
+      "path": "问题三提交附件/step3/checkpoints/training_reference.npz",
+      "bytes": 4256,
+      "sha256": "e353b8a83b34b009f1d5116ee885b5d4549ee606a0c42075715ab3fb1767424a"
+    },
+    {
+      "path": "问题三提交附件/step3/common.py",
+      "bytes": 2204,
+      "sha256": "b16e0488ac2386be10ff42051fb09be1578f9523dab0a0dbde8c2ceb407fb348"
+    },
+    {
+      "path": "问题三提交附件/step3/data.py",
+      "bytes": 7204,
+      "sha256": "4473fcd15d67f0e09a81a6fb349bcacfe6f4854ba814b8047404be4a4a0c8173"
+    },
+    {
+      "path": "问题三提交附件/step3/engine.py",
+      "bytes": 4211,
+      "sha256": "5b730492ce2c14937c5436630ba492b0f0e6d1c2efbdc29693671a03c37c7c70"
+    },
+    {
+      "path": "问题三提交附件/step3/environment.json",
+      "bytes": 441,
+      "sha256": "9811a6b119b5b0c77f3d76f14da57f3b9067f7382257487005bfaaa32f175dd5"
+    },
+    {
+      "path": "问题三提交附件/step3/explain.py",
+      "bytes": 7202,
+      "sha256": "fd0e4ddec3aaa533fe8186387c8ed7dce9389fc48742e204b661f8d23a65f65c"
+    },
+    {
+      "path": "问题三提交附件/step3/infer_special.py",
+      "bytes": 9673,
+      "sha256": "4426420bba19479548aa52a45417d76b5b67282dbd87fd9ec3c3f14d9ce2f57a"
+    },
+    {
+      "path": "问题三提交附件/step3/map_media.py",
+      "bytes": 8066,
+      "sha256": "2cd5effaa6877809cadeca1040e1678babf2d8caffa3a9bc55eb9869861c9020"
+    },
+    {
+      "path": "问题三提交附件/step3/model.py",
+      "bytes": 4024,
+      "sha256": "663f37d7627b068c07f57de10efab8127853d46d492c3af5fc7085f0d88d4ded"
+    },
+    {
+      "path": "问题三提交附件/step3/numerical_protocol.json",
+      "bytes": 355,
+      "sha256": "a2d5f1b8f65ab91198e40a7e109dc0610e21b4d7be1dd0829e0cadb63bc0e3b6"
+    },
+    {
+      "path": "问题三提交附件/step3/prepare.py",
+      "bytes": 5738,
+      "sha256": "7a4dcdca0cf5fec3d267dc59631b46ae0a9afd5121a83166e86ae7bd6a78f0b8"
+    },
+    {
+      "path": "问题三提交附件/step3/prepare_assets.py",
+      "bytes": 1393,
+      "sha256": "567239918fc9b364132fe591c7cf43147b0a0fb28e92216eacbf551770ec40f7"
+    },
+    {
+      "path": "问题三提交附件/step3/prepare_cache.py",
+      "bytes": 1488,
+      "sha256": "0aca1f41440baf5a84b92ce568d36f5f285b0e708ede23165f2316cd1f0d3075"
+    },
+    {
+      "path": "问题三提交附件/step3/protocol.json",
+      "bytes": 3043,
+      "sha256": "e6085a3571e1dfe3f3f9f2aed4445bc51f4f0675236fb55927b7a90589729139"
+    },
+    {
+      "path": "问题三提交附件/step3/report.py",
+      "bytes": 34384,
+      "sha256": "240ff7251096a05dad35ccf77a4552c966a27c1b3babce5686febbb225d981f2"
+    },
+    {
+      "path": "问题三提交附件/step3/requirements.txt",
+      "bytes": 208,
+      "sha256": "dccad9bf039870e6b65bffe29216e93a7ea8151af584dfba90c70890ca7e94ae"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/01.json",
+      "bytes": 27050,
+      "sha256": "635ebade9b06761f99939621c657430845eca8e9b98456426a271b3b089a2c26"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/01_frame.jpg",
+      "bytes": 16033,
+      "sha256": "7376875c013784c687ac2d305becf6a9f63d06402a72f27e4e23ada450f13dd4"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/02.json",
+      "bytes": 23737,
+      "sha256": "7678302a89fe55116a1e1c14d911cbe780887cccb7111257675483527becd423"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/02_frame.jpg",
+      "bytes": 10940,
+      "sha256": "ba2583e076c8108cb3c9acdf361eb24df7f13f7af29fe907ffb5ab142a8f5075"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/03.json",
+      "bytes": 35386,
+      "sha256": "c9f25904c2d3c58bed8db49e989c01b5be6e36e1deeee4478a092140145f1002"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/03_frame.jpg",
+      "bytes": 9556,
+      "sha256": "987311d74ef6291698eac71eda70e41e8821eeafe099606a3307448c7efbd68e"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/04.json",
+      "bytes": 30040,
+      "sha256": "ab446a8284645a24eaf7e0009098cb9fb4afb1e6edfac1209f0045433424275b"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/04_frame.jpg",
+      "bytes": 13911,
+      "sha256": "90ff06201f423a2e5a580a7d6a31b417637520fe4366994f4950e7c41b535425"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/05.json",
+      "bytes": 20595,
+      "sha256": "295b442592ee4997c8ae6cb46dd7191311e90cbc0fe282ec66a16490221d49b0"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/05_frame.jpg",
+      "bytes": 12953,
+      "sha256": "9c0fd3626c4037d309266a7628b3985483db0d05589492cd0ea78f886c74535f"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/06.json",
+      "bytes": 37549,
+      "sha256": "0322482aa7c8b0715b9b5f40bae84e4a3f675296a18aebcea574da46126a996d"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/06_frame.jpg",
+      "bytes": 21523,
+      "sha256": "983b4bbcbe60986764f4d5b887b56144d4eea65aacb6ae07fa64834ec62c07b1"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/07.json",
+      "bytes": 48178,
+      "sha256": "38a18c86f77adc00ef63170b0e036fb99f9956dd043dd629394058bc524f868a"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/07_frame.jpg",
+      "bytes": 17135,
+      "sha256": "f47cdce824289270de3eaf7647a7a66a658820846fb4ab689e443b08888b9ce0"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/08.json",
+      "bytes": 17444,
+      "sha256": "2c0ab767c1cbd7c1d37b8b13292c9e8fb5a2f335f8155238d74a0c2b89ef7d52"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/08_frame.jpg",
+      "bytes": 11401,
+      "sha256": "8fc757c0c31dc7bc3217e4b66e4c32433e3f1cff47ab7b72a100f7fc895f39b3"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/09.json",
+      "bytes": 22794,
+      "sha256": "ae4b520bad0baaf1909c9be25b5c65e4a322785b87688d11e8dbc7555163d41a"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/09_frame.jpg",
+      "bytes": 13817,
+      "sha256": "a380655271874a1f8711c74472f1338ffff0b2ad269b10046a07fc7fe430fa02"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/10.json",
+      "bytes": 33280,
+      "sha256": "91f8b690efd85e8adee24fcf35096c24a889b165ca67e2523d7d66b0c4d3723d"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/10_frame.jpg",
+      "bytes": 14263,
+      "sha256": "fb232e5fce88dd7e31e5f339c20584530edc9e33f002d8cc73ed5b31acf72748"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/11.json",
+      "bytes": 19553,
+      "sha256": "014e9cda6b922b5dbdef91318c2326d70323c3e9860099c4b74704a9ee27a3c3"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/11_frame.jpg",
+      "bytes": 16914,
+      "sha256": "6b86197787ec779b61dc63a279420c76df6665439c6cd258bd9115362d81648e"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/12.json",
+      "bytes": 43822,
+      "sha256": "111153cc157490b1550a8701b5f639f57e0e807111bf0b9be1d53d787bc10f41"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/12_frame.jpg",
+      "bytes": 17947,
+      "sha256": "714352cbdc4730228c4c8ebf766e882c98eff8747441a5b11882f9f2bcc47a0e"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/13.json",
+      "bytes": 32274,
+      "sha256": "20f95259e32f1e6325aa975e1c5877518ac4746d00eadd5223be709a00b386a3"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/13_frame.jpg",
+      "bytes": 11115,
+      "sha256": "b5c66b50f7a9a086baae8985c4c026e848a2a9645a851c2f0cc0ae9c8e4e7349"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/14.json",
+      "bytes": 37440,
+      "sha256": "173f0982c9f66cd48f4373f64677c20b512dc2575630fb7ae63c6623086dc12a"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/14_frame.jpg",
+      "bytes": 11633,
+      "sha256": "09a5fbd106f53f069b27b15714d4c329bad8f9cea099ebe9d1209ea38db164c8"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/15.json",
+      "bytes": 26060,
+      "sha256": "8c42e751ea29694caac1e7ee1456a7bf15767b9649efda3a8fc42ce4243f7183"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/15_frame.jpg",
+      "bytes": 15346,
+      "sha256": "2969c2d5f296466b4fdf29028483cbf28f7378caf06228b6a6cc351c7065a23c"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/16.json",
+      "bytes": 17513,
+      "sha256": "552fce6356c429b1cf08a7ac25ac838e8b3482d0eca41daa881c845ea47ba509"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/16_frame.jpg",
+      "bytes": 12355,
+      "sha256": "9c90a132f04b06d87dde247abb4bad71162d98b30eb11c64dc35cb7e72a3a5e7"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/17.json",
+      "bytes": 28103,
+      "sha256": "3c485de754730e21f3b995fc08edb0b7c39c4b12a3477069600adee635f31a05"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/17_frame.jpg",
+      "bytes": 18534,
+      "sha256": "ca24316d947f21e39ae054fbf473f382823e5d1cf68eea69abe9b3e819c386e5"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/18.json",
+      "bytes": 48192,
+      "sha256": "6e875461a5b3a96204d223ede9d7ac5dbb7c919d6a55d9a35f732264f1402f60"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/18_frame.jpg",
+      "bytes": 17167,
+      "sha256": "262ed385d7f66504930d40215034b2d49d01537be6112a8fbc3214db8b89533f"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/19.json",
+      "bytes": 40628,
+      "sha256": "531c335a5c326912a40b0579503d646e2f514157d27251299d34b14bd2813e3a"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/19_frame.jpg",
+      "bytes": 7676,
+      "sha256": "9dc1372dedbdde3eed3f939642c111a7130aeedd698be61954a41eff0826755f"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/20.json",
+      "bytes": 43750,
+      "sha256": "74fe0097ce5cc6695c2781758e8f5ed61f6ef14f464fe1b5b36f197fd4209c8a"
+    },
+    {
+      "path": "问题三提交附件/step3/results/cards/20_frame.jpg",
+      "bytes": 14784,
+      "sha256": "cde575c835a554d0547e8fcf613c504b272fd103311a6fa0c9c3331934e22228"
+    },
+    {
+      "path": "问题三提交附件/step3/results/error_groups.csv",
+      "bytes": 392,
+      "sha256": "9964f0117cb9adc2dcc9aee5e9f80b0d9d796a03df66c1baf71131b221347eb4"
+    },
+    {
+      "path": "问题三提交附件/step3/results/fidelity_by_modality.csv",
+      "bytes": 980,
+      "sha256": "5aab5e490a2026b1f456afb17f7c85f2dbee27346f0f90b8932dbc7e80727731"
+    },
+    {
+      "path": "问题三提交附件/step3/results/fidelity_correct_vs_wrong.csv",
+      "bytes": 158,
+      "sha256": "be2d336b369ed3457f7e9dd19016431cbc3b15d790987c914afb42412a8ddd96"
+    },
+    {
+      "path": "问题三提交附件/step3/results/history_17.json",
+      "bytes": 2727,
+      "sha256": "4a740f7ee085e1d377cd25b04d4946672bb7694c1f142e15c99b0c77a5154a51"
+    },
+    {
+      "path": "问题三提交附件/step3/results/history_29.json",
+      "bytes": 3100,
+      "sha256": "d1822289f9cf7e369d0e4ec33b24124fbb1aa95f8997423b64bc9366d631d761"
+    },
+    {
+      "path": "问题三提交附件/step3/results/history_43.json",
+      "bytes": 2316,
+      "sha256": "4b0065cfc1aca8c377bd04f7706d8260bc7480c962bf5850a27c0058b811538c"
+    },
+    {
+      "path": "问题三提交附件/step3/results/ig_convergence.npz",
+      "bytes": 24829,
+      "sha256": "8c0e5c58fd717c48118661f2f5ffc80106a4002e184665836f72e6b3041bc391"
+    },
+    {
+      "path": "问题三提交附件/step3/results/interface_audit.json",
+      "bytes": 2412,
+      "sha256": "1fed76f232c432dde5a5e90dfef82da9de925d9512c244c1e1c69339003938c1"
+    },
+    {
+      "path": "问题三提交附件/step3/results/mapping/01.json",
+      "bytes": 16240,
+      "sha256": "2fba03e0ffb14def4bc01c82b1cbd79861ee68cbe4b99b9f2492cb51a5dda352"
+    },
+    {
+      "path": "问题三提交附件/step3/results/mapping/02.json",
+      "bytes": 12483,
+      "sha256": "640783cfd9b2b41556878187da8ef15901e08c057a7ac38c9ba5d306e59ffdb6"
+    },
+    {
+      "path": "问题三提交附件/step3/results/mapping/03.json",
+      "bytes": 21749,
+      "sha256": "eea70f61c1ed993f1230798167c0c55593a711be870bb2f9c7d31cbc9673a248"
+    },
+    {
+      "path": "问题三提交附件/step3/results/mapping/04.json",
+      "bytes": 17182,
+      "sha256": "cf9162b4bccf247c9f303053fb908195da9c8b5e3e5fc3028ff70ed3082db254"
+    },
+    {
+      "path": "问题三提交附件/step3/results/mapping/05.json",
+      "bytes": 10219,
+      "sha256": "5781e01c421f51ba75a531db16c0f84764c6e5af028c9d11dd37726181be1d54"
+    },
+    {
+      "path": "问题三提交附件/step3/results/mapping/06.json",
+      "bytes": 24296,
+      "sha256": "519c68da2282f1d720a980c2d3307f61c860f20ee9885f83113ea9e39a872b3d"
+    },
+    {
+      "path": "问题三提交附件/step3/results/mapping/07.json",
+      "bytes": 35559,
+      "sha256": "eb58701da289cffbe88d919acb9f5afe97f6006070d3a5b2d1119f9439d8b1b5"
+    },
+    {
+      "path": "问题三提交附件/step3/results/mapping/08.json",
+      "bytes": 8360,
+      "sha256": "47c39c2713ae1258759d819f6243d05be4b476b894661389f9961e39be53c33b"
+    },
+    {
+      "path": "问题三提交附件/step3/results/mapping/09.json",
+      "bytes": 12257,
+      "sha256": "ccf0a919587c7469baa353044472a0bb102772c85357a88d32b2091c21059a5b"
+    },
+    {
+      "path": "问题三提交附件/step3/results/mapping/10.json",
+      "bytes": 20461,
+      "sha256": "02b52d307219fbd82f2bc0cf355f59272e1b61ad953fcdc207af1327124deef0"
+    },
+    {
+      "path": "问题三提交附件/step3/results/mapping/11.json",
+      "bytes": 10681,
+      "sha256": "6edc5486e4b951cde8834f9f4ffc5c8767bb07a97a8316f010eaee278b8b36e5"
+    },
+    {
+      "path": "问题三提交附件/step3/results/mapping/12.json",
+      "bytes": 28036,
+      "sha256": "2fe144d27364cca5a25286d8062883e95cd91cc728de65dbc4ce0fb98b8efca6"
+    },
+    {
+      "path": "问题三提交附件/step3/results/mapping/13.json",
+      "bytes": 20972,
+      "sha256": "3dbab541b335513e03c893bf95ac19f04899c748ad44060725f67b7827c88098"
+    },
+    {
+      "path": "问题三提交附件/step3/results/mapping/14.json",
+      "bytes": 22685,
+      "sha256": "30df99144eb58641c9f2f462f118f864d36d8846f5799923d0fd772599890b5e"
+    },
+    {
+      "path": "问题三提交附件/step3/results/mapping/15.json",
+      "bytes": 15102,
+      "sha256": "9eb035efc56389b2bbdf6fa6ad6734b544188106cb6063ba130161b06d97602c"
+    },
+    {
+      "path": "问题三提交附件/step3/results/mapping/16.json",
+      "bytes": 7805,
+      "sha256": "3accf87c8902b72309e2c59bae2955baa6d3f1b93cf75aa18b56076962d43ca3"
+    },
+    {
+      "path": "问题三提交附件/step3/results/mapping/17.json",
+      "bytes": 17164,
+      "sha256": "c896cea0281c06da105dac3162aa8d4317ffdc24617453962e3e6787774a89c8"
+    },
+    {
+      "path": "问题三提交附件/step3/results/mapping/18.json",
+      "bytes": 33437,
+      "sha256": "184ea08bff066e225467da3eb1a84e20d62d7fdaaf6e6a273fb1f79b2744e54c"
+    },
+    {
+      "path": "问题三提交附件/step3/results/mapping/19.json",
+      "bytes": 26577,
+      "sha256": "cc21d310d375196b7f69dae71aa0aef24b8e0e666c18b42e2670ae40266c04a5"
+    },
+    {
+      "path": "问题三提交附件/step3/results/mapping/20.json",
+      "bytes": 28423,
+      "sha256": "21061da358acdce9dcb8b0430dc34f2a8c322cea491be738ae9b1576b7c21511"
+    },
+    {
+      "path": "问题三提交附件/step3/results/report_summary.json",
+      "bytes": 1144,
+      "sha256": "7249ed43059c81fc50492100b6c9d6120aa6905baf09aaeb9fd477a8ce468c63"
+    },
+    {
+      "path": "问题三提交附件/step3/results/representative_errors.csv",
+      "bytes": 1812,
+      "sha256": "aedb075dd7c7c300d876a91d310aaa5269ae572f60fd83889e5e0ded12891d39"
+    },
+    {
+      "path": "问题三提交附件/step3/results/special_explanation_arrays.npz",
+      "bytes": 48831,
+      "sha256": "51d5bcdcca409a44983f822af414442d7c9f7d373aae0f0e0aaa488b882b4c2e"
+    },
+    {
+      "path": "问题三提交附件/step3/results/special_explanations.json",
+      "bytes": 672142,
+      "sha256": "88a32360ff2f5fef29e8801155e16f8ec43ae7308075f5b1bacdb88927b994eb"
+    },
+    {
+      "path": "问题三提交附件/step3/results/special_inference_audit.json",
+      "bytes": 527,
+      "sha256": "6e841463dcdd8eb69ca3af6c115138d0fd1ecbb0cc7367fd75d0b6b348a8d283"
+    },
+    {
+      "path": "问题三提交附件/step3/results/special_local_effects.csv",
+      "bytes": 126410,
+      "sha256": "cf0ac610fcfabb711881a2cf787f4851399e75b60faacb0505b700fe6be25461"
+    },
+    {
+      "path": "问题三提交附件/step3/results/special_modality_contributions.csv",
+      "bytes": 12637,
+      "sha256": "626ff367448f46eb14baf8629f91ece95e489f340728b050f783e3e4755f6f39"
+    },
+    {
+      "path": "问题三提交附件/step3/results/special_summary.csv",
+      "bytes": 2708,
+      "sha256": "5f81b9f1d26e27f6efbf58acef0d67ce91137973fc2cf77f76104fe16e91d891"
+    },
+    {
+      "path": "问题三提交附件/step3/results/time_mapping_audit.csv",
+      "bytes": 2000,
+      "sha256": "68c62d54ba077a9bb8a4d59d9a0d5f38d0f63964347eea976859a502c22aa336"
+    },
+    {
+      "path": "问题三提交附件/step3/results/token_time_mapping.csv",
+      "bytes": 68476,
+      "sha256": "9a953966cea18387337fc3dad8fa7db9f908a7e79c9f2ae1ef78e0300998bfd9"
+    },
+    {
+      "path": "问题三提交附件/step3/results/validation_coalitions.npz",
+      "bytes": 482875,
+      "sha256": "1979dbfc9f5f02b83f64b46e18bf82ce99e4928d5300a3bf6a94e1a0931c3064"
+    },
+    {
+      "path": "问题三提交附件/step3/results/validation_explanation_summary.json",
+      "bytes": 1996,
+      "sha256": "8a5ee6c2aef5daf95ddf15103db8baad319b3884329dd51d5ef99e4a442efc6f"
+    },
+    {
+      "path": "问题三提交附件/step3/results/validation_fidelity.csv",
+      "bytes": 610860,
+      "sha256": "b93e9e02b97071f97fc75c380675518e705812e245597ec3f57ef48b500c4320"
+    },
+    {
+      "path": "问题三提交附件/step3/results/validation_fidelity_comparison.csv",
+      "bytes": 597162,
+      "sha256": "e2ead19cb5385cbce4a94b84513e75e642eca3ef8d35608f8d98e3f107dd3f66"
+    },
+    {
+      "path": "问题三提交附件/step3/results/validation_ig.npz",
+      "bytes": 403155,
+      "sha256": "552a23846b1a6bc713ab3634790a925266f37d118120bfc0bca0301486f53ef5"
+    },
+    {
+      "path": "问题三提交附件/step3/results/validation_modality_contributions.csv",
+      "bytes": 476691,
+      "sha256": "f122a35db14cc5b64997eb00f1acadeee0d40260b6480ecefd905ea798485223"
+    },
+    {
+      "path": "问题三提交附件/step3/results/validation_prediction_metrics.csv",
+      "bytes": 3483,
+      "sha256": "f2877e9a1deffa89121afad6395620df8dd69d2763c7b2ba6c3a484e9a5bd97b"
+    },
+    {
+      "path": "问题三提交附件/step3/results/validation_predictions.csv",
+      "bytes": 147946,
+      "sha256": "5ea8699adb4e75dd87d8545ae2585ea470aa3962957f7980f6be2c6b221f285b"
+    },
+    {
+      "path": "问题三提交附件/step3/results/validation_predictions.npz",
+      "bytes": 24266,
+      "sha256": "97f65e3d85889c7be8df103fb7d519a0fd70d7003cb17c3962ce5905e9b1e927"
+    },
+    {
+      "path": "问题三提交附件/step3/results/validation_probe_outputs.npz",
+      "bytes": 554900,
+      "sha256": "4d5db9354c4ef24814f8613581c5c434b387e4639a1f5b20dc34dc6a41c4e4b2"
+    },
+    {
+      "path": "问题三提交附件/step3/results/validation_stability.csv",
+      "bytes": 5059,
+      "sha256": "ff9c047b9e124dd47a4446901c8819b64f033f2da593f211e99f75cd4da3428c"
+    },
+    {
+      "path": "问题三提交附件/step3/results/提交核验.json",
+      "bytes": 867,
+      "sha256": "b3325c382377fa1fab2de342b778396c1d3c441063cd918dbcd94b800cbbe4d7"
+    },
+    {
+      "path": "问题三提交附件/step3/results/附件4_问题三预测与解释.csv",
+      "bytes": 65433,
+      "sha256": "8d67cf27904edf4cce15f9a2be3578a9fae78a8de43efd304c7b2f27e4a098e5"
+    },
+    {
+      "path": "问题三提交附件/step3/selection_lock.json",
+      "bytes": 949,
+      "sha256": "80e03d67f8896006cb644f1bf62a3c7d0b430a596d99b0b013e6957edafcf04c"
+    },
+    {
+      "path": "问题三提交附件/step3/train.py",
+      "bytes": 5442,
+      "sha256": "5e52d5bb9c0c9501ba31197b1a01a0de112eb1ad43b5b0431d964e6dcfa66fff"
+    },
+    {
+      "path": "问题三提交附件/step3/validate_explanations.py",
+      "bytes": 10115,
+      "sha256": "04cbfc13b188285aa9b3fc5fbd8f77f17b3f74ca8eb96ba792cfbf9588e368ae"
+    },
+    {
+      "path": "问题三提交附件/step3/verify.py",
+      "bytes": 2563,
+      "sha256": "abd38a2fac3c2d1b117494689ce51dcd714daab7db925557c361c2ef3bf5b5e8"
+    },
+    {
+      "path": "问题三提交附件/初始化复现.py",
+      "bytes": 1640,
+      "sha256": "1384eff15c7434810c95a19721908d3ea272a1c554299a7352cf2be610393822"
+    },
+    {
+      "path": "问题三提交附件/复现说明.md",
+      "bytes": 8936,
+      "sha256": "5ca2c23abde28366d14d61e836e718e2d558e76ef7179cacb3ee614b86a5dfe8"
+    },
+    {
+      "path": "问题三提交附件/文件校验清单.json",
+      "bytes": 15030,
+      "sha256": "2aedcc38f60063c44f3202ac865b8bcd77385da04d1f1fdd7b522863ecc9dd38"
+    },
+    {
+      "path": "问题三提交附件/核验附件.py",
+      "bytes": 6830,
+      "sha256": "49775e37be8123298f4ef3f0cd7bedabbc8af048b91529281fbc50366b3b3589"
+    },
+    {
+      "path": "问题三提交附件/结果字段说明.md",
+      "bytes": 6175,
+      "sha256": "50521674082edcd05d3d4460a877ad12ea590cc50a8f29016d965cd33fd57ec3"
+    },
+    {
+      "path": "问题三提交附件/解释结果查看.html",
+      "bytes": 95379,
+      "sha256": "16b3a143cbd9b20c337e1c9edd744385bb283f54ccf7b2c8f57206f2b6271e7d"
+    },
+    {
+      "path": "问题三提交附件/训练初始化/step2/checkpoints/fixed_aug_17.pt",
+      "bytes": 677806,
+      "sha256": "9652d5e2dc1d70b84d1a82f2fd76d22b2e00c7fdc3170edec728e1edcbb8adde"
+    },
+    {
+      "path": "问题三提交附件/训练初始化/step2/checkpoints/fixed_aug_29.pt",
+      "bytes": 677806,
+      "sha256": "658d05d28014eaf7995ad5bd4a3e6cccf8af83ee4052a12dd8205a55b27e3de7"
+    },
+    {
+      "path": "问题三提交附件/训练初始化/step2/checkpoints/fixed_aug_43.pt",
+      "bytes": 677806,
+      "sha256": "d069573730044e7b30102f50a2a703eda3f09114e8c38420a68de079d29cb232"
+    },
+    {
+      "path": "问题三提交附件/训练初始化/step2/checkpoints/fixed_clean_17.pt",
+      "bytes": 678010,
+      "sha256": "76be6782685164867e065f42fc24808289f202e1058d7e543bf6ed751d4db8d6"
+    },
+    {
+      "path": "问题三提交附件/训练初始化/step2/checkpoints/fixed_clean_29.pt",
+      "bytes": 678010,
+      "sha256": "21ff7631e45b61b5ea3c3750c07883786d396b81041ee300cf76ddb49d284784"
+    },
+    {
+      "path": "问题三提交附件/训练初始化/step2/checkpoints/fixed_clean_43.pt",
+      "bytes": 678010,
+      "sha256": "db3fe36aa7ddede4ecfe842909183af407f54546165c1d3648c41ea93968b9c0"
+    },
+    {
+      "path": "问题三提交附件/训练初始化/step2/checkpoints/gated_aug_17.pt",
+      "bytes": 677806,
+      "sha256": "184a3d258c7f92fa4767cacd5dd2cf92f87fb5a25535331e74377f79853ef6ab"
+    },
+    {
+      "path": "问题三提交附件/训练初始化/step2/checkpoints/gated_aug_29.pt",
+      "bytes": 677806,
+      "sha256": "03b4c5a32093174c39369462ea911d265889039d392102ccbc3b8a5245c79abb"
+    },
+    {
+      "path": "问题三提交附件/训练初始化/step2/checkpoints/gated_aug_43.pt",
+      "bytes": 677806,
+      "sha256": "6bdd37b99a2da1ce978f2fedb784d4a62421aba1b46e002f7985d2a29ec8f4e6"
+    },
+    {
+      "path": "问题三提交附件/训练初始化/step2/checkpoints/mask_aug_17.pt",
+      "bytes": 677736,
+      "sha256": "c627543a0f055f14f88d1dc26aa62bb3d4b6076afd0d2ff8e684d73733008aea"
+    },
+    {
+      "path": "问题三提交附件/训练初始化/step2/checkpoints/mask_aug_29.pt",
+      "bytes": 677736,
+      "sha256": "3d575e53e7e49526353c2d88f9c68d46c65f5b8458dc5ff61fa725217b5bdf5e"
+    },
+    {
+      "path": "问题三提交附件/训练初始化/step2/checkpoints/mask_aug_43.pt",
+      "bytes": 677736,
+      "sha256": "f6d2ec4a6774c1797cd95b883a4e197463f671109de5b1e1385bd66a7eb21516"
+    },
+    {
+      "path": "问题三提交附件/训练初始化/step2/checkpoints/normalization.npz",
+      "bytes": 8544,
+      "sha256": "d11c18570f83af5f9569853444a73b3c112e0ae3aeff42d3fe2bcf04206971db"
+    },
+    {
+      "path": "问题三提交附件/训练初始化/step2/model.py",
+      "bytes": 4024,
+      "sha256": "663f37d7627b068c07f57de10efab8127853d46d492c3af5fc7085f0d88d4ded"
+    },
+    {
+      "path": "问题三提交附件/训练初始化/step2/protocol.json",
+      "bytes": 2826,
+      "sha256": "96e5bb562012fc07ef3b4733a2b8e50dfb2627f5dc82a763dcc06c2bba4c03a3"
+    },
+    {
+      "path": "问题三提交附件/附件说明.md",
+      "bytes": 3981,
+      "sha256": "6299f7af4b9f031e585e37ead5c68263a5fb9bf522c1a822b75eed6b7d8a1aae"
+    },
+    {
+      "path": "问题二提交附件/代码/common.py",
+      "bytes": 1312,
+      "sha256": "e5fbc273e96511b54170c6d7cb2ebbc9ccd1223f978e39e7f4b545f90adff42e"
+    },
+    {
+      "path": "问题二提交附件/代码/data.py",
+      "bytes": 7584,
+      "sha256": "f81b34b281a3258d914b0cc2881cbe95eddff3899e7dc3e41af38fcec51b22e7"
+    },
+    {
+      "path": "问题二提交附件/代码/evaluate.py",
+      "bytes": 7517,
+      "sha256": "70fea01b5997b72521b3e2816eaf49e741d7ce39c923b102efb2b763ff02808e"
+    },
+    {
+      "path": "问题二提交附件/代码/evaluate_final.py",
+      "bytes": 3136,
+      "sha256": "efc32deb3c01a4da568e887e2d90975a786bb3d399715c7e68e51fff0166de44"
+    },
+    {
+      "path": "问题二提交附件/代码/inference.py",
+      "bytes": 2005,
+      "sha256": "8eb196ccceb0eeab3e22c103663edae441d1968def3c3c0a2212787f8bf90c1e"
+    },
+    {
+      "path": "问题二提交附件/代码/inference_ops.py",
+      "bytes": 1459,
+      "sha256": "1dd0f02e2ebfaf1a83d06395690aac08e47395f50be49c96a48abdf644e4ca49"
+    },
+    {
+      "path": "问题二提交附件/代码/model.py",
+      "bytes": 4024,
+      "sha256": "663f37d7627b068c07f57de10efab8127853d46d492c3af5fc7085f0d88d4ded"
+    },
+    {
+      "path": "问题二提交附件/代码/predict.py",
+      "bytes": 4563,
+      "sha256": "e424fc7b740e980d832f3d75f7ed6dc56f1b295963f43e5405f7f4b652e52344"
+    },
+    {
+      "path": "问题二提交附件/代码/prepare.py",
+      "bytes": 5839,
+      "sha256": "2705e785472a7075e04173ec3e9c10a0c6882e8ce202d55d8cefe1f27f97a5a6"
+    },
+    {
+      "path": "问题二提交附件/代码/prepare_encoder.py",
+      "bytes": 1066,
+      "sha256": "4d93627807f5962ac7cbe66760b5afcf74309496900448b3d05e08be7af1ea72"
+    },
+    {
+      "path": "问题二提交附件/代码/requirements.txt",
+      "bytes": 180,
+      "sha256": "bee364421e05db0e8fce395498e37f1c10df9752bf74f8fc1e21d66bff6ca84e"
+    },
+    {
+      "path": "问题二提交附件/代码/summarize.py",
+      "bytes": 3485,
+      "sha256": "af4d287479ca3749b8c6cdacc23e9b08434530d2bf949d2edcf68294f81732eb"
+    },
+    {
+      "path": "问题二提交附件/代码/train.py",
+      "bytes": 8253,
+      "sha256": "bacec9d3765f4a42a18b1fde1e047c39801b49972e8010f69e42d617fab219c2"
+    },
+    {
+      "path": "问题二提交附件/代码与复现说明.md",
+      "bytes": 11767,
+      "sha256": "856bdc503b78b2e0ee2dec77df1eb112a9a3053de654d9be2c04a0680442916a"
+    },
+    {
+      "path": "问题二提交附件/实验记录/主实验/ablation_seed_summary.csv",
+      "bytes": 1576,
+      "sha256": "4e71390f8848974501ec7de77689222fe3570133a02179cf39cb71e3a9be3e78"
+    },
+    {
+      "path": "问题二提交附件/实验记录/主实验/clean_comparison.csv",
+      "bytes": 999,
+      "sha256": "a51f4702caebd6a7c4df4477375cf68a5d634fdf58e48e5533ee5e89a8ab829a"
+    },
+    {
+      "path": "问题二提交附件/实验记录/主实验/corruption_audit.csv",
+      "bytes": 17099,
+      "sha256": "5a56a9bff2398ad3aeff1902dbcb1ecc5af60b708136e5b68585d69ed892ad5f"
+    },
+    {
+      "path": "问题二提交附件/实验记录/主实验/data_audit.json",
+      "bytes": 1535,
+      "sha256": "4d20fe68d68f64635f12b67baf6b0ab79d23fafce8f89a6051cd9b2f6622b03c"
+    },
+    {
+      "path": "问题二提交附件/实验记录/主实验/error_groups.csv",
+      "bytes": 1005,
+      "sha256": "3d1b1d39a4a56d8808358907a16817310e4720bbd92da3b5e1c743ebb15d05e2"
+    },
+    {
+      "path": "问题二提交附件/实验记录/主实验/history_gated_aug_17.json",
+      "bytes": 6551,
+      "sha256": "9f3bebbd0f084e50b201719b1c257e1b37191a6aefca5255266ba48b88ddac4c"
+    },
+    {
+      "path": "问题二提交附件/实验记录/主实验/history_gated_aug_29.json",
+      "bytes": 5358,
+      "sha256": "d84a8a4f0b8732ee0b4c6cee71a6ce4532531a87f324a9c2c583d73da7dfc216"
+    },
+    {
+      "path": "问题二提交附件/实验记录/主实验/history_gated_aug_43.json",
+      "bytes": 7150,
+      "sha256": "f0ec99a945fc8cc2e1b841367b183a83a2a473c175b8e4da592d9646fcd26532"
+    },
+    {
+      "path": "问题二提交附件/实验记录/主实验/modality_r50.csv",
+      "bytes": 304,
+      "sha256": "ab196f737937cf051cb4c6be294dca37a74045269e201bed4140eca76af7d780"
+    },
+    {
+      "path": "问题二提交附件/实验记录/主实验/paired_cluster_bootstrap.json",
+      "bytes": 1073,
+      "sha256": "ed68b2e4f24318afdf5e86b3c4420d75dab6caa4c127e5f9f7e414ed4fca904e"
+    },
+    {
+      "path": "问题二提交附件/实验记录/主实验/selection_lock.json",
+      "bytes": 766,
+      "sha256": "edb2672690300532dd029fdfa25b71f2d864a0c1e10b5786c8ba1e8d0d2ab785"
+    },
+    {
+      "path": "问题二提交附件/实验记录/主实验/shape_sync_comparison.csv",
+      "bytes": 363,
+      "sha256": "a62c25e8f960a580dbffd668fc1b7c037ff4a0283337e015e53347fd2074b860"
+    },
+    {
+      "path": "问题二提交附件/实验记录/主实验/test_metrics.csv",
+      "bytes": 1404327,
+      "sha256": "0139e7d5a117f2cbea3c6abd041b86411271e744bf2dfe375720481ead9d3d9a"
+    },
+    {
+      "path": "问题二提交附件/实验记录/主实验/test_prediction_review.csv",
+      "bytes": 322241,
+      "sha256": "c9cff1e5948d02c03a184b48f9e4b7dc5da0c25d0a7b3ad985c93d923a5b511d"
+    },
+    {
+      "path": "问题二提交附件/实验记录/主实验/test_protocol.json",
+      "bytes": 38597,
+      "sha256": "221bd16ce2d5307a920a84c56b4e58ef778d94fd2e4ee22c8d9fb1f253c19463"
+    },
+    {
+      "path": "问题二提交附件/实验记录/主实验/validation_case_studies.csv",
+      "bytes": 910,
+      "sha256": "50e05378a8840a543135ffe6a0122c0afbbd417b762a9777ac96137aeece39f6"
+    },
+    {
+      "path": "问题二提交附件/实验记录/主实验/validation_error_groups.csv",
+      "bytes": 1234,
+      "sha256": "4fef160609e6862509245afed360a324f0ab13708020315ce629721150b9b25d"
+    },
+    {
+      "path": "问题二提交附件/实验记录/主实验/validation_metrics.csv",
+      "bytes": 31873,
+      "sha256": "92ebc6577b6c940979e6551aec8db67842f45aa8af016b8d8105f5a281e75f0c"
+    },
+    {
+      "path": "问题二提交附件/实验记录/主实验/validation_prediction_review.csv",
+      "bytes": 311066,
+      "sha256": "1805429850caffe11bdf45efcac4c900513cc993d40ac0c6443566fdc3017080"
+    },
+    {
+      "path": "问题二提交附件/实验记录/扩展比较/代表方案比较.csv",
+      "bytes": 2528,
+      "sha256": "df30f66fbffe0136fcb9c867995e127c12a410c075339617586b824804a05880"
+    },
+    {
+      "path": "问题二提交附件/实验记录/扩展比较/注意力方案比较.csv",
+      "bytes": 1113,
+      "sha256": "dc79ddd2ac6f060f738e863d12719b64065df5478f4b5c00644214119fe57df7"
+    },
+    {
+      "path": "问题二提交附件/实验记录/扩展比较/统一接口_测试集指标.csv",
+      "bytes": 233144,
+      "sha256": "14eebceed57d174b6e6de196e5e9f2496089851f251e257397329c23c0c3ab7b"
+    },
+    {
+      "path": "问题二提交附件/实验记录/扩展比较/统一接口_验证集指标.csv",
+      "bytes": 232565,
+      "sha256": "df95e4b819f46d6cc8e3f8d012967381fb36edea4e11b9b1d1e168be3d9a20e5"
+    },
+    {
+      "path": "问题二提交附件/实验记录/提交核验.json",
+      "bytes": 643,
+      "sha256": "55070c00f998f7fa3fac9937e9a04a1c9f50fab653ad5ba808e54eb6a34035c8"
+    },
+    {
+      "path": "问题二提交附件/实验记录/附件3_预测明细.csv",
+      "bytes": 5299,
+      "sha256": "ace47c0877470713dc2013c41042a76af84c19550dc8c312d53c1a2b7d7b4b79"
+    },
+    {
+      "path": "问题二提交附件/文件校验清单.json",
+      "bytes": 5640,
+      "sha256": "fc535d619257d4266c0a0795b16d24fa6a016ff896409082a707a75641a94a48"
+    },
+    {
+      "path": "问题二提交附件/核验附件.py",
+      "bytes": 2969,
+      "sha256": "e49fd8c1f7b9c030de77bff0e211308aa8c09b8039ba02a4a37949006e8bc184"
+    },
+    {
+      "path": "问题二提交附件/模型/final_17.pt",
+      "bytes": 677526,
+      "sha256": "b61089dc1a8afc5908e76a3912e346a2d92aecd4a8015ca0cbd498922eabc338"
+    },
+    {
+      "path": "问题二提交附件/模型/final_29.pt",
+      "bytes": 677526,
+      "sha256": "4a7d2973838ecabb6be4c562ce45edea950a1e246fba30563a67d6808521b8de"
+    },
+    {
+      "path": "问题二提交附件/模型/final_43.pt",
+      "bytes": 677526,
+      "sha256": "6433ea85d531bd3b53f95d1cae49e4904b33683705f6c811cd0c7cf72681d2a8"
+    },
+    {
+      "path": "问题二提交附件/模型/normalization.npz",
+      "bytes": 8544,
+      "sha256": "d11c18570f83af5f9569853444a73b3c112e0ae3aeff42d3fe2bcf04206971db"
+    },
+    {
+      "path": "问题二提交附件/配置/encoder.json",
+      "bytes": 578,
+      "sha256": "6f9271e6027cbf045641fe5a5ed4bb4ce205b696aca9f4993a8300e53a2185bc"
+    },
+    {
+      "path": "问题二提交附件/配置/environment.json",
+      "bytes": 790,
+      "sha256": "40821cadde9472533300905ca9c0e48267466f62b12bab3c7cf0f2a033fcf467"
+    },
+    {
+      "path": "问题二提交附件/配置/inference.json",
+      "bytes": 984,
+      "sha256": "717df532ec3b643d2f35ed77c26701ec52c1d4097a3a226c23d3a7180a801c28"
+    },
+    {
+      "path": "问题二提交附件/配置/input_sha256.json",
+      "bytes": 2810,
+      "sha256": "8100705d920ebf47e5a5278add31026a6cccbbf3785b222c8b4d2d8a0423c334"
+    },
+    {
+      "path": "问题二提交附件/配置/training_protocol.json",
+      "bytes": 2826,
+      "sha256": "96e5bb562012fc07ef3b4733a2b8e50dfb2627f5dc82a763dcc06c2bba4c03a3"
+    },
+    {
+      "path": "问题二提交附件/附件3_问题二预测.csv",
+      "bytes": 1209,
+      "sha256": "06d0301a50a1df0a9973733f0b4238015388c5cfa809b1b08a8e259e496ecccc"
+    },
+    {
+      "path": "问题二提交附件/附件说明.md",
+      "bytes": 3467,
+      "sha256": "ed965dfa1beb9345baff6dfd47718c324f4d3f491fdd21716260557fb56e41ff"
+    }
+  ]
+}

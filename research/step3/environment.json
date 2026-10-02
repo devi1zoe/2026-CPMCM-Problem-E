@@ -1,0 +1,56 @@
+{
+  "python": "3.10.13 (main, Nov 21 2023, 16:57:51) [GCC 9.4.0]",
+  "cuda_runtime": "12.1",
+  "packages": {
+    "torch": "2.5.1+cu121",
+    "numpy": "1.26.4",
+    "transformers": "4.48.3",
+    "tokenizers": "0.21.4",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.3.2",
+    "matplotlib": "3.10.9",
+    "av": "17.0.1",
+    "Pillow": "12.2.0",
+    "num2words": "0.5.14"
+  },
+  "root_environment_modified": false,
+  "new_environment_created": false,
+  "pretrained_assets": {
+    "huggingface": [
+      {
+        "repo": "facebook/wav2vec2-base-960h",
+        "revision": "22aad52d435eb6dbaf354bdad9b0da84ce7d6156",
+        "directory": "wav2vec2"
+      },
+      {
+        "repo": "distilbert/distilbert-base-uncased",
+        "revision": "12040accade4e8a0f71eabdb258fecc2e7e948be",
+        "directory": "distilbert"
+      }
+    ],
+    "mediapipe_url": "https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task",
+    "sha256": {
+      "assets/face_landmarker.task": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff",
+      "assets/wav2vec2/preprocessor_config.json": "b225d617c025463b9e157e06afea8b90dc7078fc70b013c533328423e0486b4a",
+      "assets/wav2vec2/vocab.json": "19727f8944fe6459fc3f240ae2c198395b740f6a029bd23e06656266b83bcf64",
+      "assets/wav2vec2/special_tokens_map.json": "bb7068de1150661a10b55f9e4b12a0e77af8bf91f5e45e1b58afaf1d0e17f675",
+      "assets/wav2vec2/tokenizer_config.json": "dc790594f5bc351a4311c6624f40acd95850d4aaf2a5cb3c656c9b610720b608",
+      "assets/wav2vec2/model.safetensors": "8aa76ab2243c81747a1f832954586bc566090c83a0ac167df6f31f0fa917d74a",
+      "assets/wav2vec2/config.json": "d3ec255c063d9f95057b553b19c20135b259875834a4fe9deb218a6be25b4cf3",
+      "assets/distilbert/vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+      "assets/distilbert/tokenizer_config.json": "a025160ef0431f1a392f6f050c1310f4c5d9fb6f275932dbccba73c4d214bf10",
+      "assets/distilbert/model.safetensors": "5e3f1108e3cb34ee048634875d8482665b65ac713291a7e32396fb18f6ff0063",
+      "assets/distilbert/config.json": "69c94b0222d5d1f4b0ad027ca7416cdafb98378cbbb8305d0bf47c9365c60c83",
+      "assets/distilbert/tokenizer.json": "ce64fce797c24f68df90b40a3f74f579b336a493db14bd583fd520ea0d8c9a98"
+    }
+  },
+  "reuse_manifest": {
+    "step2_model_source_sha256": "1175a6d4f0fdac381a480f6b6f8d0aac948ac8192aae6149b0aaa75854e3fa5b",
+    "step3_model_copy_sha256": "1175a6d4f0fdac381a480f6b6f8d0aac948ac8192aae6149b0aaa75854e3fa5b",
+    "step1_alignment_source_sha256": "76b29c002cdc97e8e0e85cffae02d81db938fa39484ad908c28c5efc60de0c34"
+  },
+  "gpu_models": [
+    "NVIDIA GeForce RTX 4090 D"
+  ]
+}

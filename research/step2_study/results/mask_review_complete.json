@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "training_views_checked": 157,
+  "evaluation_views_checked": 506,
+  "all_group1_trained_masks_recomputed": true,
+  "single_multi_selected_counts_equal": true,
+  "selected_slots_distinct_from_originally_observed_loss": true
+}

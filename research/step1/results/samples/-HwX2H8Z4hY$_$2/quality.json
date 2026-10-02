@@ -1,0 +1,12 @@
+{
+  "sample_id": "-HwX2H8Z4hY$_$2",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.5697523951530457,
+  "low_confidence_fraction": 0.42857142857142855,
+  "diagnostic_wer": 0.42857142857142855,
+  "usable_word_times": 4,
+  "words": 7,
+  "raw_text": "” [President Ronald Reagan:] \"Look at the record",
+  "diagnostic_asr": "MEDIOCRITY LOOK AT THE RECORD"
+}

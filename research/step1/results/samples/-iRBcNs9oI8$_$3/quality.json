@@ -1,0 +1,16 @@
+{
+  "sample_id": "-iRBcNs9oI8$_$3",
+  "requires_transcript_review": true,
+  "reasons": [
+    "mean_CTC_confidence_below_0.2",
+    "more_than_half_words_below_0.1",
+    "diagnostic_WER_above_0.8"
+  ],
+  "mean_confidence": 0.12826672196388245,
+  "low_confidence_fraction": 0.875,
+  "diagnostic_wer": 1.75,
+  "usable_word_times": 0,
+  "words": 8,
+  "raw_text": "Well, it is the secret of power pose",
+  "diagnostic_asr": "IS GOING TO HELP YOU ON YOUR TESTS SUCH AS TOFUL IALTS OR UNIVERSIT"
+}

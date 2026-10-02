@@ -1,0 +1,12 @@
+{
+  "sample_id": "-tANM6ETl_M$_$3",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.8842223882675171,
+  "low_confidence_fraction": 0.045454545454545456,
+  "diagnostic_wer": 0.09090909090909091,
+  "usable_word_times": 21,
+  "words": 22,
+  "raw_text": "The first place is either you have a prospect, or a customer who's never done it before, or they've never tried it.",
+  "diagnostic_asr": "THE FIRST PLACE IS EITHER YOU HAVE A PROSPECT OR A CUSTOMER WHAS NEVER DONE IT BEFORE THEY'VE NEVER TRIED IT"
+}

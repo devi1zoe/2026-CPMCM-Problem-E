@@ -1,0 +1,73 @@
+\begin{table}[H]
+    \centering\small
+    \caption{25维声学特征的组成及含义}
+    \label{tab:p1_acoustic_groups}
+    \setlength{\tabcolsep}{6pt}
+    \renewcommand{\arraystretch}{1.12}
+    \ifdefined\pOneCompactTableBox\else\newsavebox{\pOneCompactTableBox}\fi
+    \begin{lrbox}{\pOneCompactTableBox}
+    \begin{tabular}{l>{\raggedright\arraybackslash}p{17em}>{\raggedright\arraybackslash}p{10em}c}
+        \toprule
+        类别 & 描述量 & 主要描述内容 & 维度\\
+        \midrule
+        响度 & 听觉加权与压缩后的Loudness & 感知强弱 & 1\\
+        基频 & 相对于27.5 Hz的半音基频 & 音高变化 & 1\\
+        频谱结构 & Alpha比、Hammarberg指数、两项谱斜率、谱通量 & 频谱形状及其变化 & 5\\
+        倒谱 & 第1至第4阶MFCC & 谱包络的低阶表示 & 4\\
+        音质 & Jitter、Shimmer的分贝表示、基于自相关估计的HNR、H1--H2、H1--A3 & 周期稳定性与谐波结构 & 5\\
+        共振峰 & 前三阶共振峰的频率、带宽及相对于基频谐波的对数幅度 & 声道共振特性 & 9\\
+        \midrule
+        合计 & & & 25\\
+        \bottomrule
+    \end{tabular}
+    \end{lrbox}
+    \usebox{\pOneCompactTableBox}
+\end{table}
+
+\begin{table}[H]
+    \centering\small
+    \caption{两组声学观测的数值与有效性对照}
+    \label{tab:p1_acoustic_example}
+    \setlength{\tabcolsep}{6pt}
+    \renewcommand{\arraystretch}{1.12}
+    \ifdefined\pOneCompactTableBox\else\newsavebox{\pOneCompactTableBox}\fi
+    \begin{lrbox}{\pOneCompactTableBox}
+    \begin{tabular}{cccccc}
+        \toprule
+        记录区间/s & 中心时刻/s & 响度 & 半音基频 & MFCC1 & 记录有效\\
+        \midrule
+        $[1.49,1.51]$ & 1.50 & 0.870 & 36.368 & 36.947 & 是\\
+        $[1.99,2.01]$ & 2.00 & 0.363 & $0^{\ast}$ & $-4.455$ & 是\\
+        \bottomrule
+    \end{tabular}
+    \end{lrbox}
+    \usebox{\pOneCompactTableBox}
+\par\smallskip
+\parbox{\wd\pOneCompactTableBox}{\footnotesize 注：$0^{\ast}$表示未输出有声基频时保留的零标记，不作为实际音高解释。}
+\end{table}
+
+\begin{table}[H]
+    \centering\small
+    \caption{52维面部系数的分组及代表性含义}
+    \label{tab:p1_visual_groups}
+    \setlength{\tabcolsep}{6pt}
+    \renewcommand{\arraystretch}{1.12}
+    \ifdefined\pOneCompactTableBox\else\newsavebox{\pOneCompactTableBox}\fi
+    \begin{lrbox}{\pOneCompactTableBox}
+    \begin{tabular}{l>{\raggedright\arraybackslash}p{16em}>{\raggedright\arraybackslash}p{11em}c}
+        \toprule
+        分组 & 代表性输出 & 主要描述内容 & 维度\\
+        \midrule
+        额眉部 & 压眉、内侧抬眉、外侧抬眉 & 眉部位置与形态 & 5\\
+        眼部 & 眨眼、睁大、眯眼及视线方向 & 眼睑状态与眼部运动 & 14\\
+        面颊与鼻部 & 鼓腮、面颊收紧、鼻部牵动 & 面中部形态 & 5\\
+        嘴部 & 嘴角上扬或下压、噘嘴、嘴唇收紧等 & 嘴唇及嘴角形态 & 23\\
+        下颌 & 张嘴、下颌前伸及左右移动 & 下颌位置与开合 & 4\\
+        其他输出项 & 工具字段\_neutral & 保留输出，不作为中性情感判据 & 1\\
+        \midrule
+        合计 & & & 52\\
+        \bottomrule
+    \end{tabular}
+    \end{lrbox}
+    \usebox{\pOneCompactTableBox}
+\end{table}

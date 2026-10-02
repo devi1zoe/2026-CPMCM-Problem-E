@@ -1,0 +1,78 @@
+{
+  "observation_examples": [
+    {
+      "sample_id": "-s9qJ7ATP7w$_$7",
+      "word": "work",
+      "word_interval": [
+        0.88246875,
+        0.98246875
+      ],
+      "frame_pts": [
+        0.8,
+        1.0
+      ],
+      "valid_frames": 0,
+      "word_observed": false,
+      "displayed_frame_pts": 0.8
+    },
+    {
+      "sample_id": "-s9qJ7ATP7w$_$7",
+      "word": "day",
+      "word_interval": [
+        4.02246875,
+        4.18246875
+      ],
+      "frame_pts": [
+        4.0,
+        4.2
+      ],
+      "valid_frames": 2,
+      "word_observed": true,
+      "displayed_frame_pts": 4.0
+    },
+    {
+      "sample_id": "-iRBcNs9oI8$_$9",
+      "word": "similar",
+      "word_interval": [
+        1.30246875,
+        1.66246875
+      ],
+      "frame_pts": [
+        1.4014,
+        1.6016
+      ],
+      "valid_frames": 0,
+      "word_observed": false,
+      "displayed_frame_pts": 1.6016
+    }
+  ],
+  "low_energy_example": {
+    "sample_id": "-iRBcNs9oI8$_$9",
+    "records": 333,
+    "low_energy_records": 147,
+    "valid_records": 333,
+    "threshold": 0.0031622776601683794
+  },
+  "window_example": {
+    "sample_id": "-egA8-b7-3M$_$1",
+    "word": "successful",
+    "interval": [
+      1.84246875,
+      2.4024687499999997
+    ],
+    "overlapping_windows": {
+      "0.2": 4,
+      "0.5": 2
+    },
+    "acoustic_feature": "Loudness_sma3"
+  },
+  "counts": {
+    "words": 1932,
+    "visual_words": 1595,
+    "frames": 3973,
+    "valid_frames": 3253,
+    "audio": 77261,
+    "audio_low": 9918,
+    "audio_valid": 77261
+  }
+}

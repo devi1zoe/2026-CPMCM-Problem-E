@@ -1,0 +1,9 @@
+﻿scenario,sample_id,raw_text,true_class,true_intensity,predicted_class,predicted_intensity,abs_error,confidence,source_video,contrast_marker,intensity_bin
+clean,208322$_$12,(uhh) Save your money and rent (uhh) the classic Willy Wonka and you'll enjoy (uhh) the experience a whole lot better,0,-2.3333332538604736,2,1.173883080482483,3.5072163343429565,0.8495774865150452,208322,False,强负向
+clean,91844$_$5,(umm) Bound keeps me in suspense every time I watched it and I've seen it about a million times now,2,3.0,0,-0.4378366768360138,3.437836676836014,0.6239643096923828,91844,False,强正向
+clean,198112$_$9,"One of the best comedies out there of our age as opposed to like, those other comedies that are actually really stupid with just bad bad (stutter) jokes and what not",2,2.3333332538604736,0,-0.9797469973564148,3.3130802512168884,0.8093552589416504,198112,False,强正向
+clean,111881$_$10,"So I was left watching this by myself, and I went ahead and watched it all the way through to the end so I could do this review and I was hoping that it would get better in the end",0,-2.0,2,1.049765944480896,3.049765944480896,0.8870158791542053,111881,False,强负向
+clean,28006$_$0,"Hi, my name is Logan and this piece of dog crap is The League of Extraordinary Gentlemen",0,-2.6666667461395264,2,0.3701036870479584,3.0367704331874847,0.5100703835487366,28006,False,强负向
+clean,224370$_$5,Usually I'm a big Nicholas Cage fan but this time he completely missed his mark,0,-2.6666667461395264,2,0.3561218678951263,3.0227886140346527,0.5395699739456177,224370,True,强负向
+clean,79356$_$7,"Very long movie but, (stutter) the time flies by, absolutely fantastic",2,2.6666667461395264,0,-0.2712873518466949,2.9379540979862213,0.5445247292518616,79356,True,强正向
+clean,10219$_$10,Overall I would give it a five out of five stars because I have the previous two DVDs,2,2.0,0,-0.8210330009460449,2.821033000946045,0.778914749622345,10219,False,强正向

@@ -1,0 +1,12 @@
+{
+  "sample_id": "-egA8-b7-3M$_$1",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.8413869142532349,
+  "low_confidence_fraction": 0.1,
+  "diagnostic_wer": 0.38461538461538464,
+  "usable_word_times": 18,
+  "words": 20,
+  "raw_text": "I started a successful Legal Nurse Consulting Business in 1989. I mentor nurses who want to become Legal Nurse Consultants.",
+  "diagnostic_asr": "IRE I HAVE STARTED A SUCCESSFUL LEGAL NURSE CONSULTING BUSINESS IN NINETEEN EIGHTY NINE I MEANT TOR NURSES WHO WANT TO BECOME LEGAL NURS CONSULTANTS"
+}

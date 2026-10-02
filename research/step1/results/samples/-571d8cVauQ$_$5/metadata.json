@@ -1,0 +1,1222 @@
+{
+  "sample_id": "-571d8cVauQ$_$5",
+  "video_id": "-571d8cVauQ",
+  "clip_id": "5",
+  "raw_text": "So very important to go out to the locations, walk around, talk with the owners if you can, tell them what you're doing, build a little excitement, put a little glitz on there and let everybody knows this is a very valuable spot.",
+  "label": 0.3333333432674408,
+  "annotation": "Positive",
+  "source_path": "E题_材料阅读/E题数据/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-571d8cVauQ/5.mp4",
+  "source_sha256": "e304c03fac1f477823fe0926c4fb421b9c4e4091f85718b729afe856c24a7d3e",
+  "config_sha256": "4a530340304f07255daf856e6891f0a15e50f05bd85343d067a663a573e8f888",
+  "code_sha256": {
+    "common.py": "4a37980b521a2f5a93e208d3ba265542a149336b3401aa89b8a4494517f5e16e",
+    "alignment.py": "76b29c002cdc97e8e0e85cffae02d81db938fa39484ad908c28c5efc60de0c34",
+    "features.py": "8283e0d0886b83bbd84d4db4521599b480b0ada4bc1afc4e4b9b91cddf5b4018",
+    "run.py": "f75d7b5bc6e342541664233a37a3d87f39313bcd3a8f3a50bfaea94798d4e07b"
+  },
+  "model_assets_sha256": {
+    "assets/face_landmarker.task": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff",
+    "assets/wav2vec2/preprocessor_config.json": "b225d617c025463b9e157e06afea8b90dc7078fc70b013c533328423e0486b4a",
+    "assets/wav2vec2/vocab.json": "19727f8944fe6459fc3f240ae2c198395b740f6a029bd23e06656266b83bcf64",
+    "assets/wav2vec2/special_tokens_map.json": "bb7068de1150661a10b55f9e4b12a0e77af8bf91f5e45e1b58afaf1d0e17f675",
+    "assets/wav2vec2/tokenizer_config.json": "dc790594f5bc351a4311c6624f40acd95850d4aaf2a5cb3c656c9b610720b608",
+    "assets/wav2vec2/model.safetensors": "8aa76ab2243c81747a1f832954586bc566090c83a0ac167df6f31f0fa917d74a",
+    "assets/wav2vec2/config.json": "d3ec255c063d9f95057b553b19c20135b259875834a4fe9deb218a6be25b4cf3",
+    "assets/distilbert/vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+    "assets/distilbert/tokenizer_config.json": "a025160ef0431f1a392f6f050c1310f4c5d9fb6f275932dbccba73c4d214bf10",
+    "assets/distilbert/model.safetensors": "5e3f1108e3cb34ee048634875d8482665b65ac713291a7e32396fb18f6ff0063",
+    "assets/distilbert/config.json": "69c94b0222d5d1f4b0ad027ca7416cdafb98378cbbb8305d0bf47c9365c60c83",
+    "assets/distilbert/tokenizer.json": "ce64fce797c24f68df90b40a3f74f579b336a493db14bd583fd520ea0d8c9a98"
+  },
+  "duration": 15.272981770833333,
+  "video_rate": 30.0,
+  "video_origin": 0.0,
+  "audio_start": 0.0,
+  "audio_duration": 15.11525,
+  "audio_coverage_ratio": 1.0,
+  "words": [
+    {
+      "index": 0,
+      "original": "So",
+      "char_start": 0,
+      "char_end": 2,
+      "normalized": "SO",
+      "subword_indices": [
+        0
+      ],
+      "start": 0.5424687499999999,
+      "end": 0.64246875,
+      "confidence": 0.9495605826377869,
+      "status": "aligned"
+    },
+    {
+      "index": 1,
+      "original": "very",
+      "char_start": 3,
+      "char_end": 7,
+      "normalized": "VERY",
+      "subword_indices": [
+        1
+      ],
+      "start": 0.76246875,
+      "end": 0.96246875,
+      "confidence": 0.982512891292572,
+      "status": "aligned"
+    },
+    {
+      "index": 2,
+      "original": "important",
+      "char_start": 8,
+      "char_end": 17,
+      "normalized": "IMPORTANT",
+      "subword_indices": [
+        2
+      ],
+      "start": 1.02246875,
+      "end": 1.38246875,
+      "confidence": 0.9682656526565552,
+      "status": "aligned"
+    },
+    {
+      "index": 3,
+      "original": "to",
+      "char_start": 18,
+      "char_end": 20,
+      "normalized": "TO",
+      "subword_indices": [
+        3
+      ],
+      "start": 1.42246875,
+      "end": 1.46246875,
+      "confidence": 0.5142587423324585,
+      "status": "aligned"
+    },
+    {
+      "index": 4,
+      "original": "go",
+      "char_start": 21,
+      "char_end": 23,
+      "normalized": "GO",
+      "subword_indices": [
+        4
+      ],
+      "start": 1.6024687499999999,
+      "end": 1.74246875,
+      "confidence": 0.9999495148658752,
+      "status": "aligned"
+    },
+    {
+      "index": 5,
+      "original": "out",
+      "char_start": 24,
+      "char_end": 27,
+      "normalized": "OUT",
+      "subword_indices": [
+        5
+      ],
+      "start": 1.92246875,
+      "end": 2.00246875,
+      "confidence": 0.9996756911277771,
+      "status": "aligned"
+    },
+    {
+      "index": 6,
+      "original": "to",
+      "char_start": 28,
+      "char_end": 30,
+      "normalized": "TO",
+      "subword_indices": [
+        6
+      ],
+      "start": 2.46246875,
+      "end": 2.56246875,
+      "confidence": 0.9990198016166687,
+      "status": "aligned"
+    },
+    {
+      "index": 7,
+      "original": "the",
+      "char_start": 31,
+      "char_end": 34,
+      "normalized": "THE",
+      "subword_indices": [
+        7
+      ],
+      "start": 2.6624687500000004,
+      "end": 2.72246875,
+      "confidence": 0.9675441980361938,
+      "status": "aligned"
+    },
+    {
+      "index": 8,
+      "original": "locations",
+      "char_start": 35,
+      "char_end": 44,
+      "normalized": "LOCATIONS",
+      "subword_indices": [
+        8
+      ],
+      "start": 2.78246875,
+      "end": 3.3824687499999997,
+      "confidence": 0.9733531475067139,
+      "status": "aligned"
+    },
+    {
+      "index": 9,
+      "original": "walk",
+      "char_start": 46,
+      "char_end": 50,
+      "normalized": "WALK",
+      "subword_indices": [
+        10
+      ],
+      "start": 3.80246875,
+      "end": 4.02246875,
+      "confidence": 0.993890106678009,
+      "status": "aligned"
+    },
+    {
+      "index": 10,
+      "original": "around",
+      "char_start": 51,
+      "char_end": 57,
+      "normalized": "AROUND",
+      "subword_indices": [
+        11
+      ],
+      "start": 4.14246875,
+      "end": 4.44246875,
+      "confidence": 0.921226441860199,
+      "status": "aligned"
+    },
+    {
+      "index": 11,
+      "original": "talk",
+      "char_start": 59,
+      "char_end": 63,
+      "normalized": "TALK",
+      "subword_indices": [
+        13
+      ],
+      "start": 4.72246875,
+      "end": 4.92246875,
+      "confidence": 0.9991613030433655,
+      "status": "aligned"
+    },
+    {
+      "index": 12,
+      "original": "with",
+      "char_start": 64,
+      "char_end": 68,
+      "normalized": "WITH",
+      "subword_indices": [
+        14
+      ],
+      "start": 5.00246875,
+      "end": 5.10246875,
+      "confidence": 0.9995401501655579,
+      "status": "aligned"
+    },
+    {
+      "index": 13,
+      "original": "the",
+      "char_start": 69,
+      "char_end": 72,
+      "normalized": "THE",
+      "subword_indices": [
+        15
+      ],
+      "start": 5.14246875,
+      "end": 5.22246875,
+      "confidence": 0.999241054058075,
+      "status": "aligned"
+    },
+    {
+      "index": 14,
+      "original": "owners",
+      "char_start": 73,
+      "char_end": 79,
+      "normalized": "OWNERS",
+      "subword_indices": [
+        16
+      ],
+      "start": 5.3224687500000005,
+      "end": 5.56246875,
+      "confidence": 0.9906367659568787,
+      "status": "aligned"
+    },
+    {
+      "index": 15,
+      "original": "if",
+      "char_start": 80,
+      "char_end": 82,
+      "normalized": "IF",
+      "subword_indices": [
+        17
+      ],
+      "start": 5.64246875,
+      "end": 5.68246875,
+      "confidence": 0.9997948408126831,
+      "status": "aligned"
+    },
+    {
+      "index": 16,
+      "original": "you",
+      "char_start": 83,
+      "char_end": 86,
+      "normalized": "YOU",
+      "subword_indices": [
+        18
+      ],
+      "start": 5.7424687500000005,
+      "end": 5.82246875,
+      "confidence": 0.9990790486335754,
+      "status": "aligned"
+    },
+    {
+      "index": 17,
+      "original": "can",
+      "char_start": 87,
+      "char_end": 90,
+      "normalized": "CAN",
+      "subword_indices": [
+        19
+      ],
+      "start": 5.88246875,
+      "end": 6.082468749999999,
+      "confidence": 0.9999129772186279,
+      "status": "aligned"
+    },
+    {
+      "index": 18,
+      "original": "tell",
+      "char_start": 92,
+      "char_end": 96,
+      "normalized": "TELL",
+      "subword_indices": [
+        21
+      ],
+      "start": 6.48246875,
+      "end": 6.64246875,
+      "confidence": 0.9559528231620789,
+      "status": "aligned"
+    },
+    {
+      "index": 19,
+      "original": "them",
+      "char_start": 97,
+      "char_end": 101,
+      "normalized": "THEM",
+      "subword_indices": [
+        22
+      ],
+      "start": 6.68246875,
+      "end": 6.80246875,
+      "confidence": 0.9370576739311218,
+      "status": "aligned"
+    },
+    {
+      "index": 20,
+      "original": "what",
+      "char_start": 102,
+      "char_end": 106,
+      "normalized": "WHAT",
+      "subword_indices": [
+        23
+      ],
+      "start": 6.862468750000001,
+      "end": 6.96246875,
+      "confidence": 0.9988474249839783,
+      "status": "aligned"
+    },
+    {
+      "index": 21,
+      "original": "you're",
+      "char_start": 107,
+      "char_end": 113,
+      "normalized": "YOU'RE",
+      "subword_indices": [
+        24,
+        25,
+        26
+      ],
+      "start": 7.00246875,
+      "end": 7.1624687499999995,
+      "confidence": 0.8033506274223328,
+      "status": "aligned"
+    },
+    {
+      "index": 22,
+      "original": "doing",
+      "char_start": 114,
+      "char_end": 119,
+      "normalized": "DOING",
+      "subword_indices": [
+        27
+      ],
+      "start": 7.18246875,
+      "end": 7.38246875,
+      "confidence": 0.9979815483093262,
+      "status": "aligned"
+    },
+    {
+      "index": 23,
+      "original": "build",
+      "char_start": 121,
+      "char_end": 126,
+      "normalized": "BUILD",
+      "subword_indices": [
+        29
+      ],
+      "start": 7.70246875,
+      "end": 7.90246875,
+      "confidence": 0.823016881942749,
+      "status": "aligned"
+    },
+    {
+      "index": 24,
+      "original": "a",
+      "char_start": 127,
+      "char_end": 128,
+      "normalized": "A",
+      "subword_indices": [
+        30
+      ],
+      "start": 7.98246875,
+      "end": 8.00246875,
+      "confidence": 0.8555750250816345,
+      "status": "aligned"
+    },
+    {
+      "index": 25,
+      "original": "little",
+      "char_start": 129,
+      "char_end": 135,
+      "normalized": "LITTLE",
+      "subword_indices": [
+        31
+      ],
+      "start": 8.04246875,
+      "end": 8.26246875,
+      "confidence": 0.9035301208496094,
+      "status": "aligned"
+    },
+    {
+      "index": 26,
+      "original": "excitement",
+      "char_start": 136,
+      "char_end": 146,
+      "normalized": "EXCITEMENT",
+      "subword_indices": [
+        32
+      ],
+      "start": 8.32246875,
+      "end": 8.82246875,
+      "confidence": 0.9515730738639832,
+      "status": "aligned"
+    },
+    {
+      "index": 27,
+      "original": "put",
+      "char_start": 148,
+      "char_end": 151,
+      "normalized": "PUT",
+      "subword_indices": [
+        34
+      ],
+      "start": 9.42246875,
+      "end": 9.52246875,
+      "confidence": 0.9974263906478882,
+      "status": "aligned"
+    },
+    {
+      "index": 28,
+      "original": "a",
+      "char_start": 152,
+      "char_end": 153,
+      "normalized": "A",
+      "subword_indices": [
+        35
+      ],
+      "start": 9.56246875,
+      "end": 9.58246875,
+      "confidence": 0.588987410068512,
+      "status": "aligned"
+    },
+    {
+      "index": 29,
+      "original": "little",
+      "char_start": 154,
+      "char_end": 160,
+      "normalized": "LITTLE",
+      "subword_indices": [
+        36
+      ],
+      "start": 9.62246875,
+      "end": 9.82246875,
+      "confidence": 0.969828188419342,
+      "status": "aligned"
+    },
+    {
+      "index": 30,
+      "original": "glitz",
+      "char_start": 161,
+      "char_end": 166,
+      "normalized": "GLITZ",
+      "subword_indices": [
+        37,
+        38
+      ],
+      "start": 9.86246875,
+      "end": 10.12246875,
+      "confidence": 0.902039110660553,
+      "status": "aligned"
+    },
+    {
+      "index": 31,
+      "original": "on",
+      "char_start": 167,
+      "char_end": 169,
+      "normalized": "ON",
+      "subword_indices": [
+        39
+      ],
+      "start": 10.28246875,
+      "end": 10.32246875,
+      "confidence": 0.9993896484375,
+      "status": "aligned"
+    },
+    {
+      "index": 32,
+      "original": "there",
+      "char_start": 170,
+      "char_end": 175,
+      "normalized": "THERE",
+      "subword_indices": [
+        40
+      ],
+      "start": 10.40246875,
+      "end": 10.58246875,
+      "confidence": 0.969295859336853,
+      "status": "aligned"
+    },
+    {
+      "index": 33,
+      "original": "and",
+      "char_start": 176,
+      "char_end": 179,
+      "normalized": "AND",
+      "subword_indices": [
+        41
+      ],
+      "start": 11.24246875,
+      "end": 11.32246875,
+      "confidence": 0.9964264631271362,
+      "status": "aligned"
+    },
+    {
+      "index": 34,
+      "original": "let",
+      "char_start": 180,
+      "char_end": 183,
+      "normalized": "LET",
+      "subword_indices": [
+        42
+      ],
+      "start": 11.54246875,
+      "end": 11.66246875,
+      "confidence": 0.9999442100524902,
+      "status": "aligned"
+    },
+    {
+      "index": 35,
+      "original": "everybody",
+      "char_start": 184,
+      "char_end": 193,
+      "normalized": "EVERYBODY",
+      "subword_indices": [
+        43
+      ],
+      "start": 11.72246875,
+      "end": 12.04246875,
+      "confidence": 0.9755856990814209,
+      "status": "aligned"
+    },
+    {
+      "index": 36,
+      "original": "knows",
+      "char_start": 194,
+      "char_end": 199,
+      "normalized": "KNOWS",
+      "subword_indices": [
+        44
+      ],
+      "start": 12.10246875,
+      "end": 12.26246875,
+      "confidence": 0.18627120554447174,
+      "status": "aligned"
+    },
+    {
+      "index": 37,
+      "original": "this",
+      "char_start": 200,
+      "char_end": 204,
+      "normalized": "THIS",
+      "subword_indices": [
+        45
+      ],
+      "start": 12.74246875,
+      "end": 12.88246875,
+      "confidence": 0.98405921459198,
+      "status": "aligned"
+    },
+    {
+      "index": 38,
+      "original": "is",
+      "char_start": 205,
+      "char_end": 207,
+      "normalized": "IS",
+      "subword_indices": [
+        46
+      ],
+      "start": 12.98246875,
+      "end": 13.04246875,
+      "confidence": 0.9966855645179749,
+      "status": "aligned"
+    },
+    {
+      "index": 39,
+      "original": "a",
+      "char_start": 208,
+      "char_end": 209,
+      "normalized": "A",
+      "subword_indices": [
+        47
+      ],
+      "start": 13.14246875,
+      "end": 13.16246875,
+      "confidence": 0.9906951189041138,
+      "status": "aligned"
+    },
+    {
+      "index": 40,
+      "original": "very",
+      "char_start": 210,
+      "char_end": 214,
+      "normalized": "VERY",
+      "subword_indices": [
+        48
+      ],
+      "start": 13.302468750000001,
+      "end": 13.54246875,
+      "confidence": 0.9635958671569824,
+      "status": "aligned"
+    },
+    {
+      "index": 41,
+      "original": "valuable",
+      "char_start": 215,
+      "char_end": 223,
+      "normalized": "VALUABLE",
+      "subword_indices": [
+        49
+      ],
+      "start": 13.68246875,
+      "end": 14.16246875,
+      "confidence": 0.9891936779022217,
+      "status": "aligned"
+    },
+    {
+      "index": 42,
+      "original": "spot",
+      "char_start": 224,
+      "char_end": 228,
+      "normalized": "SPOT",
+      "subword_indices": [
+        50
+      ],
+      "start": 14.24246875,
+      "end": 14.58246875,
+      "confidence": 0.03254383057355881,
+      "status": "low_confidence"
+    }
+  ],
+  "subwords": [
+    {
+      "index": 0,
+      "token_id": 2061,
+      "token": "so",
+      "char_start": 0,
+      "char_end": 2,
+      "word_index": 0,
+      "chunk_index": 0
+    },
+    {
+      "index": 1,
+      "token_id": 2200,
+      "token": "very",
+      "char_start": 3,
+      "char_end": 7,
+      "word_index": 1,
+      "chunk_index": 0
+    },
+    {
+      "index": 2,
+      "token_id": 2590,
+      "token": "important",
+      "char_start": 8,
+      "char_end": 17,
+      "word_index": 2,
+      "chunk_index": 0
+    },
+    {
+      "index": 3,
+      "token_id": 2000,
+      "token": "to",
+      "char_start": 18,
+      "char_end": 20,
+      "word_index": 3,
+      "chunk_index": 0
+    },
+    {
+      "index": 4,
+      "token_id": 2175,
+      "token": "go",
+      "char_start": 21,
+      "char_end": 23,
+      "word_index": 4,
+      "chunk_index": 0
+    },
+    {
+      "index": 5,
+      "token_id": 2041,
+      "token": "out",
+      "char_start": 24,
+      "char_end": 27,
+      "word_index": 5,
+      "chunk_index": 0
+    },
+    {
+      "index": 6,
+      "token_id": 2000,
+      "token": "to",
+      "char_start": 28,
+      "char_end": 30,
+      "word_index": 6,
+      "chunk_index": 0
+    },
+    {
+      "index": 7,
+      "token_id": 1996,
+      "token": "the",
+      "char_start": 31,
+      "char_end": 34,
+      "word_index": 7,
+      "chunk_index": 0
+    },
+    {
+      "index": 8,
+      "token_id": 5269,
+      "token": "locations",
+      "char_start": 35,
+      "char_end": 44,
+      "word_index": 8,
+      "chunk_index": 0
+    },
+    {
+      "index": 9,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 44,
+      "char_end": 45,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 10,
+      "token_id": 3328,
+      "token": "walk",
+      "char_start": 46,
+      "char_end": 50,
+      "word_index": 9,
+      "chunk_index": 0
+    },
+    {
+      "index": 11,
+      "token_id": 2105,
+      "token": "around",
+      "char_start": 51,
+      "char_end": 57,
+      "word_index": 10,
+      "chunk_index": 0
+    },
+    {
+      "index": 12,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 57,
+      "char_end": 58,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 13,
+      "token_id": 2831,
+      "token": "talk",
+      "char_start": 59,
+      "char_end": 63,
+      "word_index": 11,
+      "chunk_index": 0
+    },
+    {
+      "index": 14,
+      "token_id": 2007,
+      "token": "with",
+      "char_start": 64,
+      "char_end": 68,
+      "word_index": 12,
+      "chunk_index": 0
+    },
+    {
+      "index": 15,
+      "token_id": 1996,
+      "token": "the",
+      "char_start": 69,
+      "char_end": 72,
+      "word_index": 13,
+      "chunk_index": 0
+    },
+    {
+      "index": 16,
+      "token_id": 5608,
+      "token": "owners",
+      "char_start": 73,
+      "char_end": 79,
+      "word_index": 14,
+      "chunk_index": 0
+    },
+    {
+      "index": 17,
+      "token_id": 2065,
+      "token": "if",
+      "char_start": 80,
+      "char_end": 82,
+      "word_index": 15,
+      "chunk_index": 0
+    },
+    {
+      "index": 18,
+      "token_id": 2017,
+      "token": "you",
+      "char_start": 83,
+      "char_end": 86,
+      "word_index": 16,
+      "chunk_index": 0
+    },
+    {
+      "index": 19,
+      "token_id": 2064,
+      "token": "can",
+      "char_start": 87,
+      "char_end": 90,
+      "word_index": 17,
+      "chunk_index": 0
+    },
+    {
+      "index": 20,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 90,
+      "char_end": 91,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 21,
+      "token_id": 2425,
+      "token": "tell",
+      "char_start": 92,
+      "char_end": 96,
+      "word_index": 18,
+      "chunk_index": 0
+    },
+    {
+      "index": 22,
+      "token_id": 2068,
+      "token": "them",
+      "char_start": 97,
+      "char_end": 101,
+      "word_index": 19,
+      "chunk_index": 0
+    },
+    {
+      "index": 23,
+      "token_id": 2054,
+      "token": "what",
+      "char_start": 102,
+      "char_end": 106,
+      "word_index": 20,
+      "chunk_index": 0
+    },
+    {
+      "index": 24,
+      "token_id": 2017,
+      "token": "you",
+      "char_start": 107,
+      "char_end": 110,
+      "word_index": 21,
+      "chunk_index": 0
+    },
+    {
+      "index": 25,
+      "token_id": 1005,
+      "token": "'",
+      "char_start": 110,
+      "char_end": 111,
+      "word_index": 21,
+      "chunk_index": 0
+    },
+    {
+      "index": 26,
+      "token_id": 2128,
+      "token": "re",
+      "char_start": 111,
+      "char_end": 113,
+      "word_index": 21,
+      "chunk_index": 0
+    },
+    {
+      "index": 27,
+      "token_id": 2725,
+      "token": "doing",
+      "char_start": 114,
+      "char_end": 119,
+      "word_index": 22,
+      "chunk_index": 0
+    },
+    {
+      "index": 28,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 119,
+      "char_end": 120,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 29,
+      "token_id": 3857,
+      "token": "build",
+      "char_start": 121,
+      "char_end": 126,
+      "word_index": 23,
+      "chunk_index": 0
+    },
+    {
+      "index": 30,
+      "token_id": 1037,
+      "token": "a",
+      "char_start": 127,
+      "char_end": 128,
+      "word_index": 24,
+      "chunk_index": 0
+    },
+    {
+      "index": 31,
+      "token_id": 2210,
+      "token": "little",
+      "char_start": 129,
+      "char_end": 135,
+      "word_index": 25,
+      "chunk_index": 0
+    },
+    {
+      "index": 32,
+      "token_id": 8277,
+      "token": "excitement",
+      "char_start": 136,
+      "char_end": 146,
+      "word_index": 26,
+      "chunk_index": 0
+    },
+    {
+      "index": 33,
+      "token_id": 1010,
+      "token": ",",
+      "char_start": 146,
+      "char_end": 147,
+      "word_index": -1,
+      "chunk_index": 0
+    },
+    {
+      "index": 34,
+      "token_id": 2404,
+      "token": "put",
+      "char_start": 148,
+      "char_end": 151,
+      "word_index": 27,
+      "chunk_index": 0
+    },
+    {
+      "index": 35,
+      "token_id": 1037,
+      "token": "a",
+      "char_start": 152,
+      "char_end": 153,
+      "word_index": 28,
+      "chunk_index": 0
+    },
+    {
+      "index": 36,
+      "token_id": 2210,
+      "token": "little",
+      "char_start": 154,
+      "char_end": 160,
+      "word_index": 29,
+      "chunk_index": 0
+    },
+    {
+      "index": 37,
+      "token_id": 1043,
+      "token": "g",
+      "char_start": 161,
+      "char_end": 162,
+      "word_index": 30,
+      "chunk_index": 0
+    },
+    {
+      "index": 38,
+      "token_id": 24725,
+      "token": "##litz",
+      "char_start": 162,
+      "char_end": 166,
+      "word_index": 30,
+      "chunk_index": 0
+    },
+    {
+      "index": 39,
+      "token_id": 2006,
+      "token": "on",
+      "char_start": 167,
+      "char_end": 169,
+      "word_index": 31,
+      "chunk_index": 0
+    },
+    {
+      "index": 40,
+      "token_id": 2045,
+      "token": "there",
+      "char_start": 170,
+      "char_end": 175,
+      "word_index": 32,
+      "chunk_index": 0
+    },
+    {
+      "index": 41,
+      "token_id": 1998,
+      "token": "and",
+      "char_start": 176,
+      "char_end": 179,
+      "word_index": 33,
+      "chunk_index": 0
+    },
+    {
+      "index": 42,
+      "token_id": 2292,
+      "token": "let",
+      "char_start": 180,
+      "char_end": 183,
+      "word_index": 34,
+      "chunk_index": 0
+    },
+    {
+      "index": 43,
+      "token_id": 7955,
+      "token": "everybody",
+      "char_start": 184,
+      "char_end": 193,
+      "word_index": 35,
+      "chunk_index": 0
+    },
+    {
+      "index": 44,
+      "token_id": 4282,
+      "token": "knows",
+      "char_start": 194,
+      "char_end": 199,
+      "word_index": 36,
+      "chunk_index": 0
+    },
+    {
+      "index": 45,
+      "token_id": 2023,
+      "token": "this",
+      "char_start": 200,
+      "char_end": 204,
+      "word_index": 37,
+      "chunk_index": 0
+    },
+    {
+      "index": 46,
+      "token_id": 2003,
+      "token": "is",
+      "char_start": 205,
+      "char_end": 207,
+      "word_index": 38,
+      "chunk_index": 0
+    },
+    {
+      "index": 47,
+      "token_id": 1037,
+      "token": "a",
+      "char_start": 208,
+      "char_end": 209,
+      "word_index": 39,
+      "chunk_index": 0
+    },
+    {
+      "index": 48,
+      "token_id": 2200,
+      "token": "very",
+      "char_start": 210,
+      "char_end": 214,
+      "word_index": 40,
+      "chunk_index": 0
+    },
+    {
+      "index": 49,
+      "token_id": 7070,
+      "token": "valuable",
+      "char_start": 215,
+      "char_end": 223,
+      "word_index": 41,
+      "chunk_index": 0
+    },
+    {
+      "index": 50,
+      "token_id": 3962,
+      "token": "spot",
+      "char_start": 224,
+      "char_end": 228,
+      "word_index": 42,
+      "chunk_index": 0
+    },
+    {
+      "index": 51,
+      "token_id": 1012,
+      "token": ".",
+      "char_start": 228,
+      "char_end": 229,
+      "word_index": -1,
+      "chunk_index": 0
+    }
+  ],
+  "audio_feature_names": [
+    "Loudness_sma3",
+    "alphaRatio_sma3",
+    "hammarbergIndex_sma3",
+    "slope0-500_sma3",
+    "slope500-1500_sma3",
+    "spectralFlux_sma3",
+    "mfcc1_sma3",
+    "mfcc2_sma3",
+    "mfcc3_sma3",
+    "mfcc4_sma3",
+    "F0semitoneFrom27.5Hz_sma3nz",
+    "jitterLocal_sma3nz",
+    "shimmerLocaldB_sma3nz",
+    "HNRdBACF_sma3nz",
+    "logRelF0-H1-H2_sma3nz",
+    "logRelF0-H1-A3_sma3nz",
+    "F1frequency_sma3nz",
+    "F1bandwidth_sma3nz",
+    "F1amplitudeLogRelF0_sma3nz",
+    "F2frequency_sma3nz",
+    "F2bandwidth_sma3nz",
+    "F2amplitudeLogRelF0_sma3nz",
+    "F3frequency_sma3nz",
+    "F3bandwidth_sma3nz",
+    "F3amplitudeLogRelF0_sma3nz"
+  ],
+  "vision_feature_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "convolution": {
+    "stride_samples": 320,
+    "receptive_field_samples": 400
+  },
+  "ctc_target_text": "SO|VERY|IMPORTANT|TO|GO|OUT|TO|THE|LOCATIONS|WALK|AROUND|TALK|WITH|THE|OWNERS|IF|YOU|CAN|TELL|THEM|WHAT|YOU'RE|DOING|BUILD|A|LITTLE|EXCITEMENT|PUT|A|LITTLE|GLITZ|ON|THERE|AND|LET|EVERYBODY|KNOWS|THIS|IS|A|VERY|VALUABLE|SPOT",
+  "diagnostic_asr": "AS SO VERY IMPORTANT T GO OUT TO THE LOCATIONS WALK AROUND TALK WITH THE OWNERS IF YOU CAN TELL THEM WHAT YOU'RE DOING BUILD A LITTLE EXCITEMENT PUT A LITTLE GLITZ ON THERE AND LET EVERYBODY KNOW THIS IS A VERY VALUABLE SPOT THIS IS",
+  "diagnostic_wer": 0.11627906976744186,
+  "alignment_path_log_probability": -151.53659618808888,
+  "alignment_error": null,
+  "padding_count": 0,
+  "truncated_words": 0,
+  "visual_time_support": "nearest-sampled-frame cells, midpoint boundaries; 5 Hz sampling",
+  "face_selection": "largest detected face; speaker identity not verified",
+  "feature_dimensions": {
+    "text": 768,
+    "audio": 25,
+    "vision": 52
+  },
+  "statuses": {
+    "low_confidence_words": 1,
+    "unaligned_words": 0,
+    "no_face_frames": 0,
+    "multiple_face_frames": 0,
+    "silent_audio_frames": 368,
+    "invalid_audio_frames": 0
+  },
+  "elapsed_seconds": 2.9921387024223804
+}

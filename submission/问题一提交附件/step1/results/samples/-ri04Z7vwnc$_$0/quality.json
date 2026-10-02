@@ -1,0 +1,16 @@
+{
+  "sample_id": "-ri04Z7vwnc$_$0",
+  "requires_transcript_review": true,
+  "reasons": [
+    "mean_CTC_confidence_below_0.2",
+    "more_than_half_words_below_0.1",
+    "diagnostic_WER_above_0.8"
+  ],
+  "mean_confidence": 0.014759980142116547,
+  "low_confidence_fraction": 1.0,
+  "diagnostic_wer": 1.0,
+  "usable_word_times": 0,
+  "words": 8,
+  "raw_text": "going to get married or are already married",
+  "diagnostic_asr": "AA"
+}

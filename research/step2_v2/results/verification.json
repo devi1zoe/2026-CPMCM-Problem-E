@@ -1,0 +1,16 @@
+{
+  "dynamic_masks_reproducible_and_padding_excluded": true,
+  "masks_independent_of_sample_order_and_model": true,
+  "deleted_tokens_do_not_leak_context": true,
+  "cache_key_includes_tokens_masks_encoder": true,
+  "all_ten_models_finite_forward_backward": true,
+  "emc_second_order_gradient": true,
+  "absent_teacher_weight_zero": true,
+  "all_missing_uses_train_priors": true,
+  "one_slot_finite": true,
+  "checkpoint_roundtrip_identical": true,
+  "distillation_disabled_zero": true,
+  "five_leave_one_out_architectures_valid": true,
+  "contiguous_lengths_and_positions_verified": true,
+  "encoder_hash_unchanged": true
+}

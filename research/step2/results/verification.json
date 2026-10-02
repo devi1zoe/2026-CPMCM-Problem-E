@@ -1,0 +1,8 @@
+{
+  "deleted_token_invariance": true,
+  "padding_invariance": true,
+  "deterministic_corruption": true,
+  "exact_deleted_slot_count": true,
+  "finite_empty_input_all_eight_models": true,
+  "text_masked_before_context_encoding": true
+}

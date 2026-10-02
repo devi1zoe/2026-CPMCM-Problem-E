@@ -1,0 +1,12 @@
+{
+  "score": 1.0170548726068052,
+  "config": {
+    "aux": true,
+    "msd": true,
+    "cce": true
+  },
+  "reg_weight": 2.0,
+  "sha256": "0613bdf793361503ca36acf1c0c7dfa8b43c852fbe36e518d71d9b04d9ddb56f",
+  "epochs": 17,
+  "seconds": 427.02436542510986
+}

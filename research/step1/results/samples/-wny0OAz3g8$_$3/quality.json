@@ -1,0 +1,12 @@
+{
+  "sample_id": "-wny0OAz3g8$_$3",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.9609349370002747,
+  "low_confidence_fraction": 0.0,
+  "diagnostic_wer": 0.2,
+  "usable_word_times": 20,
+  "words": 20,
+  "raw_text": "Which then allowed the white workers and unions to justify their decision to not allow black workers into their union",
+  "diagnostic_asr": "W BEHAVIOR WHICH THEN ALLOWED THE WHITE WORKERS AND UNIONS TO JUSTIFY THEIR DECISION TO NOT ALLOW BLACK WORKERS INTO THEIR UNIONHE PREVAILI"
+}

@@ -1,0 +1,35 @@
+% 位置：问题分析与总体思路：最后一段之后
+本问自生成特征及配套材料统一随\textnormal{问题一\_提交附件.zip}提交，以下简称“问题一提交附件”。下文所列文件路径均相对于解压后的\textnormal{问题一提交附件/}目录，文件导航见其中的\textnormal{附件说明.md}。
+
+% 位置：数据观察与预处理：首段末尾
+样本编号、原始素材路径及源文件哈希详见问题一提交附件中的\nolinkurl{step1/results/input_manifest.json}，逐样本媒体检查记录见同目录下的\nolinkurl{media_audit.csv}。
+
+% 位置：固定窗口对照：逐样本比较段落末尾
+两种窗口的200条逐样本指标详见问题一提交附件中的\nolinkurl{step1/validation/audited_window_comparison.csv}，剔除恒定声学样本后的统计及相对变化量见同目录下的\nolinkurl{analysis_statistics.json}。
+
+% 位置：人工审核：结论段末尾
+逐样本的问题分类与审核说明详见问题一提交附件中的\nolinkurl{step1/results/}\textnormal{人工审核\_21条样本.csv}。
+
+% 位置：典型样本验证：映射表前的说明段末尾
+该样本全部词的映射明细见问题一提交附件中的\nolinkurl{step1/results/typical_feature_mapping.csv}；完整向量和聚合权重保存在该样本目录的\nolinkurl{features.npz}中。
+
+% 位置：典型样本验证：全量计算核验段末尾
+全量路径与聚合核验记录见问题一提交附件中的\nolinkurl{step1/results/verification.json}，媒体解码及各项统计的独立复算记录见\nolinkurl{step1/validation/data_audit.json}。
+
+% 位置：全量结果汇总：100条样本长表之前
+与表~\ref{tab:p1_all_samples}对应的电子清单见问题一提交附件中的\nolinkurl{step1/results/}\textnormal{全部样本特征交付清单.csv}，可按样本编号检索和核对各项统计。
+
+% 位置：特征文件说明：文件内容表之前
+全部100条样本的完整特征位于问题一提交附件的\nolinkurl{step1/results/samples/}下，每个以样本编号命名的子目录均保存\nolinkurl{features.npz}、\nolinkurl{metadata.json}、\nolinkurl{quality.json}、\nolinkurl{quality_masks.npz}及两种固定窗口结果；汇总CSV文件位于\nolinkurl{step1/results/}目录。
+
+% 位置：特征读取说明：段落末尾
+完整字段释义、掩码使用规则及可执行读取示例详见问题一提交附件中的\textnormal{特征字段与读取.md}。
+
+% 位置：方案可复现性说明：环境参数表之前
+实际环境记录、提取参数和冻结模型版本分别见问题一提交附件中的\nolinkurl{step1/results/environment.json}、\nolinkurl{step1/config.json}与\nolinkurl{step1/assets_manifest.json}。
+
+% 位置：方案可复现性说明：完整运行流程段的末两句
+具体输入目录、运行顺序和执行命令详见问题一提交附件中的\textnormal{复现实验说明.md}，核心实现位于\nolinkurl{step1/}目录；逐样本处理日志及失败清单分别见\nolinkurl{step1/results/processing_log.jsonl}与同目录下的\nolinkurl{failures.json}。21条样本的人工审核说明单独保留，以区分程序计算结果与人工内容核查。
+
+% 位置：方案可复现性说明：最后一段末尾
+两条样本的逐字段对照记录详见问题一提交附件中的\nolinkurl{step1/results/reproducibility.json}；附件文件的完整性可依据根目录下的\textnormal{文件校验清单.json}，通过\textnormal{核验附件.py}进行离线检查。

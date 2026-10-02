@@ -1,0 +1,22 @@
+{
+  "selected": "gated_aug",
+  "scores": {
+    "fixed_clean": 1.0354380327047406,
+    "fixed_aug": 1.0110764457573327,
+    "mask_aug": 1.0054568089899782,
+    "gated_aug": 0.9919310105486774
+  },
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "criterion": "0.5*clean(MAE+1-MacroF1) + 0.1*sum(five corrupted validation MAE+1-MacroF1); lower better",
+  "checkpoint_sha256": {
+    "gated_aug_17.pt": "184a3d258c7f92fa4767cacd5dd2cf92f87fb5a25535331e74377f79853ef6ab",
+    "gated_aug_29.pt": "03b4c5a32093174c39369462ea911d265889039d392102ccbc3b8a5245c79abb",
+    "gated_aug_43.pt": "6bdd37b99a2da1ce978f2fedb784d4a62421aba1b46e002f7985d2a29ec8f4e6"
+  },
+  "protocol_sha256": "96e5bb562012fc07ef3b4733a2b8e50dfb2627f5dc82a763dcc06c2bba4c03a3",
+  "test_metrics_seen": false
+}

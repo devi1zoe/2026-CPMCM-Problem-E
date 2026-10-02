@@ -1,0 +1,12 @@
+{
+  "sample_id": "-UuX1xuaiiE$_$1",
+  "requires_transcript_review": false,
+  "reasons": [],
+  "mean_confidence": 0.9310812950134277,
+  "low_confidence_fraction": 0.0,
+  "diagnostic_wer": 0.18518518518518517,
+  "usable_word_times": 27,
+  "words": 27,
+  "raw_text": "^And all of them are really being able to explore ^these different areas in depth ^in a way that really wasn't available ^before the center was here",
+  "diagnostic_asr": "AND ALL OF THEM ARE REALLY BEING ABLE TO EXPLORE THESE DIFFERENT AREAS IN IN DEPTH IN A WAY THAT REALLY WASN'T AVAILABLE BEFORE THE CENTRE WAS HERE THE WORKH OF"
+}

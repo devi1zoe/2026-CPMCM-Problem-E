@@ -1,0 +1,451 @@
+﻿文件,前10行原文,全文AI辅助标注关键词,工具名称,版本型号,开发机构,版本发布日期,是否实际AI辅助,判定
+问题一提交附件/step1/alignment.py,"""""""CTC显式强制对齐、原文词索引与交叠聚合。""""""
+import re
+import unicodedata
+import numpy as np
+
+
+def extract_words(text):
+    """"""不改写原始转写；另存可发音词、原文字符区间和数字展开。""""""
+    from num2words import num2words
+    words = []",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题一提交附件/step1/analyze.py,"""""""只评价问题一的覆盖、可追溯性、观测质量和窗口平滑效应。""""""
+from common import ROOT, PROJECT, activate_project_dependencies, save_json
+activate_project_dependencies()
+import argparse
+import html
+import json
+import os
+from pathlib import Path
+from urllib.parse import quote
+import numpy as np",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题一提交附件/step1/audit_media.py,"""""""独立于模型的100条原始媒体完整解码检查。""""""
+from common import ROOT, DATA, save_json
+from features import decode_media
+import csv
+import numpy as np
+
+
+def main():
+    """"""完整遍历声画流，记录PTS、实际时长和解码失败，绝不只检查扩展名。""""""
+    rows=[]",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题一提交附件/step1/check_reproducibility.py,"""""""比较独立试跑与正式提取中重复的两条样本，而非只检查文件存在。""""""
+from common import ROOT,save_json
+import numpy as np
+
+
+def main():
+    """"""浮点逐元素容差核验、离散字段精确核验，并公开实际最大差。""""""
+    rows=[]
+    for p in sorted((ROOT/""smoke/samples"").glob(""*/features.npz"")):
+        q=ROOT/""results/samples""/p.parent.name/""features.npz""",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题一提交附件/step1/common.py,"""""""问题一的路径、元数据和可复现性工具，不读取附件2～4。""""""
+from pathlib import Path
+import hashlib
+import json
+import sys
+
+ROOT = Path(__file__).resolve().parent
+PROJECT = ROOT.parent
+DATA = PROJECT / ""E题_材料阅读/E题数据/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条""
+",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题一提交附件/step1/download_assets.py,"""""""获取已锁定版本的通用冻结模型；不会下载任何情感训练数据。""""""
+from common import ROOT, activate_project_dependencies, save_json, sha256
+activate_project_dependencies()
+import urllib.request
+import argparse
+from huggingface_hub import snapshot_download
+
+
+def main():
+    """"""仓库commit和下载后SHA256共同记录来源，模型权重不重复放进小型交付包。""""""",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题一提交附件/step1/features.py,"""""""原视频解码与冻结的文本、声学、面部表情特征提取。""""""
+import numpy as np
+import av
+from PIL import Image
+
+
+def decode_media(path, sampling_hz):
+    """"""按媒体PTS解码，保留真实帧时刻；音频缺口保留为零并单独记录覆盖掩码。""""""
+    selected, all_pts, frame_indices = [], [], []
+    with av.open(str(path)) as container:",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题一提交附件/step1/quality_audit.py,"""""""在保留全部候选对齐的前提下，单独记录转写一致性风险及保守使用掩码。""""""
+from common import ROOT, activate_project_dependencies, save_json
+activate_project_dependencies()
+import json
+import numpy as np
+import pandas as pd
+
+
+def main():
+    """"""阈值为人工质控规则，不是准确率校准，也不使用情感标签选择阈值。""""""",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题一提交附件/step1/run.py,"""""""问题一全量处理入口：不训练情感模型，不读取附件2、3、4。""""""
+from common import ROOT, PROJECT, activate_project_dependencies, read_samples, save_json, sha256
+activate_project_dependencies()
+import argparse
+import datetime
+import importlib.metadata
+import json
+import os
+import platform
+import random",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题一提交附件/step1/test_alignment.py,"""""""用独立穷举CTC路径检验动态规划，检查缺失掩码和交叠权重。""""""
+import itertools
+import unittest
+import numpy as np
+from alignment import ctc_viterbi, overlap_pool
+
+
+class AlignmentTests(unittest.TestCase):
+    def test_repeated_labels_against_enumeration(self):
+        rng = np.random.default_rng(19)",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题一提交附件/step1/validation/audit_results.py,"""""""独立核对论文数字：直接读附件一、逐样本数组和原视频音轨，不调用原统计函数。""""""
+from pathlib import Path
+import csv,json,re
+from collections import Counter
+import av,numpy as np,openpyxl
+HERE=Path(__file__).resolve().parent;ROOT=HERE.parent;PROJECT=ROOT.parent;DATA=ROOT/'results'
+config=json.loads((ROOT/'config.json').read_text());threshold=config['silence_rms_threshold']
+
+def rows(name):
+ with (DATA/name).open(encoding='utf-8-sig') as f:return list(csv.DictReader(f))",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题一提交附件/step1/validation/check_analysis_statistics.py,"""""""核对论文中的筛选条件、非恒定样本统计及固定窗口差异。""""""
+from pathlib import Path
+import csv
+import json
+import numpy as np
+
+HERE = Path(__file__).resolve().parent
+DATA = HERE.parent / 'results'
+report = json.loads((HERE / 'data_audit.json').read_text())
+assert report['status'] == 'passed'",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题一提交附件/step1/verify.py,"""""""逐样本独立核验输入保留、CTC路径、真实时序与跨模态聚合。""""""
+from common import ROOT, activate_project_dependencies, read_samples, save_json, sha256
+activate_project_dependencies()
+import argparse
+import json
+from pathlib import Path
+import numpy as np
+
+
+def direct_weights(intervals, frames, valid):",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题一提交附件/核验附件.py,"""""""离线核验提交文件哈希、100条样本覆盖及论文关键统计；无需GPU或原视频。""""""
+from pathlib import Path
+from collections import Counter
+import csv
+import hashlib
+import json
+import numpy as np
+
+ROOT = Path(__file__).resolve().parent
+DATA = ROOT / 'step1/results'",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题二提交附件/代码/common.py,"""""""问题二路径配置；输入目录和复现输出目录可独立指定。""""""
+from pathlib import Path
+import hashlib
+import json
+import os
+import sys
+
+PACKAGE = Path(__file__).resolve().parents[1]
+ROOT = Path(os.environ.get('P2_WORKDIR', PACKAGE / '复现输出')).expanduser().resolve()
+DATA = Path(os.environ.get('P2_DATA_ROOT', PACKAGE / '赛题数据')).expanduser().resolve()",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题二提交附件/代码/data.py,"""""""统一 aligned_50 / 附件3接口，区分有效范围、观测可用性、人工删除。
+
+文本先删除 token，再经同一冻结编码器重新编码；不使用附件2预计算 text。
+""""""
+from common import DATA, ROOT, ENCODER, save_json
+import pickle
+import numpy as np
+import torch
+
+MODALITIES = 'TAV'",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题二提交附件/代码/evaluate.py,"""""""锁定后的留出测试压力实验。不会训练、调参或更改 selection_lock.json。""""""
+from common import *
+from data import *
+from train import MAIN,load_model,predict,metrics,load_cache
+import argparse
+import pandas as pd
+from sklearn.metrics import f1_score
+
+
+def scenarios():",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题二提交附件/代码/evaluate_final.py,"""""""用最终权重复算附件2验证/测试指标；不训练、不重新选择模型。""""""
+import argparse
+import os
+from pathlib import Path
+
+
+def main():
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument('--data-root', type=Path, required=True)
+    ap.add_argument('--encoder', type=Path, required=True)",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题二提交附件/代码/inference.py,"""""""最终三种子集成及全模态不可观测时的训练先验回退。""""""
+from common import PACKAGE, sha256
+from model import SentimentModel
+from data import slice_view
+from inference_ops import linear_convolutions
+import torch
+import numpy as np
+
+
+def load_ensemble(config, device):",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题二提交附件/代码/inference_ops.py,"""""""Algebraically identical stride-one Conv1d via explicit windows and FP32 linear algebra.
+
+Used only by inference contexts; training convolutions, parameters, and RNG are untouched.
+The cuDNN TF32 path can differ at ~1e-4; backend audits record predictions and class agreement.
+""""""
+import contextlib,types
+import torch
+from torch import nn
+from torch.nn import functional as F
+",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题二提交附件/代码/model.py,"""""""轻量时序融合，三个分支 + 三分类/连续强度双任务。""""""
+import torch
+from torch import nn
+
+NAMES = ['text','audio','vision']
+DIMS = [768,74,35]
+
+
+class Branch(nn.Module):
+    def __init__(self, dim, hidden=64, dropout=.2, pooled=False):",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题二提交附件/代码/predict.py,"""""""使用提交权重对附件3对齐特征推理；不读取标签或训练缓存。""""""
+import argparse
+import os
+from pathlib import Path
+
+
+def main():
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument('--input-dir', type=Path, required=True, help='附件3的“对齐版本”目录')
+    ap.add_argument('--encoder', type=Path, required=True, help='锁定版本的DistilBERT目录')",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题二提交附件/代码/prepare.py,"""""""接口审计、训练统计、冻结文本特征及预注册实验协议。""""""
+from common import *
+from data import *
+import importlib.metadata
+import openpyxl
+from transformers import AutoTokenizer
+
+
+def main():
+    torch.set_num_threads(4)",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题二提交附件/代码/prepare_encoder.py,"""""""下载锁定版本的公开冻结编码器，并逐文件校验。""""""
+import argparse
+import json
+from common import PACKAGE, sha256
+from huggingface_hub import snapshot_download
+
+
+def main():
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument('--output', required=True)",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题二提交附件/代码/summarize.py,"""""""从实验记录复算分组统计，并分别导出验证与缺失分析图。""""""
+import argparse
+from pathlib import Path
+import numpy as np
+import pandas as pd
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+from sklearn.metrics import confusion_matrix
+",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题二提交附件/代码/train.py,"""""""训练集更新参数；固定验证集场景早停；锁定模型后才允许测试评估。""""""
+from common import *
+from data import torch_view, slice_view
+from model import SentimentModel
+import argparse
+import random
+import time
+import numpy as np
+import pandas as pd
+import torch",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题二提交附件/核验附件.py,"""""""校验提交文件完整性和30条预测；仅使用Python标准库。""""""
+from pathlib import Path
+import argparse
+import collections
+import csv
+import hashlib
+import json
+import math
+
+",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题三提交附件/step3/alignment.py,"""""""CTC显式强制对齐、原文词索引与交叠聚合。""""""
+import re
+import unicodedata
+import numpy as np
+
+
+def extract_words(text):
+    """"""不改写原始转写；另存可发音词、原文字符区间和数字展开。""""""
+    from num2words import num2words
+    words = []",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题三提交附件/step3/common.py,"""""""问题三数据、模型资源与复现输出路径。""""""
+from pathlib import Path
+import os,sys,json,hashlib,pickle
+SOURCE_ROOT=Path(__file__).resolve().parent
+PACKAGE=SOURCE_ROOT.parent
+ROOT=Path(os.environ.get('P3_WORKDIR',SOURCE_ROOT)).expanduser().resolve()
+PROJECT=PACKAGE
+P2=Path(os.environ.get('P3_P2_ROOT',PACKAGE/'训练初始化/step2')).expanduser().resolve()
+DATA=Path(os.environ.get('P3_DATA_ROOT',PACKAGE/'赛题数据')).expanduser().resolve()
+SPECIAL=Path(os.environ.get('P3_SPECIAL',DATA/'附件4-可解释专项视频样本与特征文件/附件4-可解释专项视频样本与特征文件/对齐版本')).expanduser().resolve()",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题三提交附件/step3/data.py,"""""""统一 aligned_50 / 附件3接口，区分有效范围、观测可用性、人工删除。
+
+文本先删除 token，再经同一冻结编码器重新编码；不使用附件2预计算 text。
+""""""
+from common import DATA, ROOT, ENCODER, save_json
+import pickle
+import numpy as np
+import torch
+
+MODALITIES = 'TAV'",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题三提交附件/step3/engine.py,"""""""预测、缺失操作与三模态合作博弈。固定原预测类别作为解释目标。""""""
+from common import *
+from data import torch_view,slice_view
+from model import SentimentModel
+import numpy as np
+import torch
+from sklearn.metrics import accuracy_score,f1_score,mean_absolute_error,recall_score
+
+NAMES=['text','audio','vision']
+",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题三提交附件/step3/explain.py,"""""""精确模态Shapley + 表示层IG筛选 + 原输入局部删除/保留验证。""""""
+from common import *
+from engine import *
+from data import TextEncoder,adapt
+
+def dominant(phi):
+    absolute=np.abs(phi[:,:,0]);total=absolute.sum(1)
+    share=absolute/np.maximum(total[:,None],1e-12)
+    index=share.argmax(1)
+    status=np.where(total<.001,'weak',np.where(share.max(1)<.45,'mixed','dominant'))",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题三提交附件/step3/infer_special.py,"""""""附件4全量预测、可复核模态贡献、局部扰动证据和真实视频关键帧。""""""
+from common import *
+from engine import *
+from explain import *
+from data import adapt,make_view
+import pandas as pd
+import av
+
+def locate(mapping,a,b):
+    ts=[t for t in mapping['tokens'] if a<=t['slot']<b]",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题三提交附件/step3/map_media.py,"""""""附件4原文-词-子词-特征位置-媒体PTS映射；低可信候选不伪装官方时间。""""""
+from common import *
+from alignment import extract_words,make_target,ctc_viterbi,words_from_path,word_error_rate
+import numpy as np
+import torch
+import av
+import pandas as pd
+from transformers import AutoTokenizer,Wav2Vec2Processor,Wav2Vec2ForCTC
+
+def audio_decode(path):",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题三提交附件/step3/model.py,"""""""轻量时序融合，三个分支 + 三分类/连续强度双任务。""""""
+import torch
+from torch import nn
+
+NAMES = ['text','audio','vision']
+DIMS = [768,74,35]
+
+
+class Branch(nn.Module):
+    def __init__(self, dim, hidden=64, dropout=.2, pooled=False):",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题三提交附件/step3/prepare.py,"""""""只用训练/验证确定问题三协议；专项仅进行格式核查，不评价预测。""""""
+from common import *
+from engine import load_view
+from data import load_attachment2,adapt,TextEncoder,make_view
+import shutil
+import numpy as np
+
+def main():
+    for d in ['results','checkpoints','cache','results/figures','results/mapping','results/cards']:(ROOT/d).mkdir(parents=True,exist_ok=True)
+    shutil.copy2(P2/'checkpoints/normalization.npz',ROOT/'checkpoints/normalization.npz')",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题三提交附件/step3/prepare_assets.py,"""""""下载固定版本的冻结编码器和时间对齐模型，逐文件核对哈希。""""""
+from common import *
+import argparse
+
+
+def main():
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument('--output', type=Path, required=True)
+    ap.add_argument('--models', nargs='+', choices=['distilbert', 'wav2vec2'], default=['distilbert','wav2vec2'])
+    args = ap.parse_args()",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题三提交附件/step3/prepare_cache.py,"""""""按固定标准化参数重建完整输入缓存，不改动模型或选型配置。""""""
+from common import *
+from data import load_attachment2, adapt, TextEncoder, make_view
+import argparse
+import numpy as np
+import torch
+
+
+def main():
+    ap = argparse.ArgumentParser(description=__doc__)",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题三提交附件/step3/report.py,"""""""问题三报告、统计图与20张离线可回看解释卡，全部来源于实际结果。""""""
+from common import *
+import html
+from urllib.parse import quote
+import numpy as np
+import pandas as pd
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+from matplotlib import font_manager",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题三提交附件/step3/train.py,"""""""问题三完整输入验证目标；在既有训练权重基础上作受控的模态组合增强微调。""""""
+from common import *
+from engine import *
+import argparse,time,random,shutil
+import pandas as pd
+from sklearn.metrics import f1_score
+
+def fit(seed,protocol):
+    random.seed(seed);np.random.seed(seed);torch.manual_seed(seed);torch.cuda.manual_seed_all(seed)
+    rng=np.random.default_rng(seed)",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题三提交附件/step3/validate_explanations.py,"""""""全728条验证集：预测、Shapley、IG、原输入删除/保留、随机对照与稳定性。""""""
+from common import *
+from engine import *
+from explain import *
+from data import load_attachment2
+import pandas as pd
+
+def jaccard(a,b):
+    left=set(range(int(a[0]),int(a[1])));right=set(range(int(b[0]),int(b[1])))
+    return len(left&right)/max(1,len(left|right))",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题三提交附件/step3/verify.py,"""""""解释关键性质检查：固定目标、Shapley完备性、IG已知线性解、文本删除无泄露。""""""
+from common import *
+from engine import *
+from explain import integrated_gradients,ProbeEngine
+from data import load_attachment2
+
+class LinearProbability(torch.nn.Module):
+    def forward(self,b):
+        terms=[b[name].float()[:,:,0].mean(1)*w for name,w in zip(NAMES,[.02,.03,.04])]
+        f=.25+sum(terms);p=torch.stack([f,torch.ones_like(f)*.3,.7-f],-1)",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题三提交附件/初始化复现.py,"""""""在新目录准备问题三复现输入，保留提交结果和模型不变。""""""
+import argparse
+import shutil
+from pathlib import Path
+
+
+def main():
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument('--output', type=Path, required=True)
+    ap.add_argument('--training', action='store_true', help='从训练初始化模型开始，暂不复制最终模型与选型锁')",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题三提交附件/核验附件.py,"""""""校验文件、20条预测、60条证据及可选的数值复算结果。""""""
+from pathlib import Path
+import argparse
+import collections
+import csv
+import hashlib
+import json
+import math
+
+",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
+问题三提交附件/训练初始化/step2/model.py,"""""""轻量时序融合，三个分支 + 三分类/连续强度双任务。""""""
+import torch
+from torch import nn
+
+NAMES = ['text','audio','vision']
+DIMS = [768,74,35]
+
+
+class Branch(nn.Module):
+    def __init__(self, dim, hidden=64, dropout=.2, pooled=False):",False,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,未找到AI辅助标注,待队员据实确认,若实际AI辅助编程，则程序前声明需补齐；不能由无注释推断使用事实
